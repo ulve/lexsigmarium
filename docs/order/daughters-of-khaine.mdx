@@ -1,0 +1,50 @@
+---
+title: Daughters of Khaine
+grandFaction: Order
+---
+
+import Warscroll from '@site/src/components/Warscroll';
+import WarscrollAbility from '@site/src/components/WarscrollAbility';
+
+## Battle Traits
+
+### All-Out Slaughter
+
+<WarscrollAbility ability={{"name":"All-Out Slaughter","header":{"icon":"offensive","color":"red","text":"Once Per Battle, Any Combat Phase"},"commandValue":"1","declare":"Pick a friendly **DAUGHTERS OF KHAINE INFANTRY** unit that is in combat to use this ability.","effect":"That unit can use 2 **FIGHT** abilities this phase. After the first is used, this unit has **STRIKE-LAST** for the rest of the turn."}} />
+
+### Blood Rites
+
+<WarscrollAbility ability={{"name":"Blood Rites","header":{"icon":"special","color":"black","text":"Passive"},"effect":"A different effect applies to friendly **DAUGHTERS OF KHAINE** units each battle round, as shown below. The effects of all previous battle rounds also apply to those units.\n\n | Battle Round | Effect |\n |--------------|--------|\n | 1 | _**Quickening Bloodlust:**_ Add 1 to run rolls for this unit. |\n | 2 | _**Headlong Fury:**_ Add 1 to charge rolls for this unit. |\n | 3 | _**Zealot's Rage:**_ Add 1 to hit rolls for this unit's combat attacks. |\n | 4 | _**Slaughterer's Wound:**_ Add 1 to wound rolls for this unit's combat attacks. |\n | 5 | _**Frenzied Worshippers:**_ Add 1 to the Attacks characteristic of this unit's melee weapons. |"}} />
+
+
+
+## Battle Formations
+
+### Scáthcoven
+
+<WarscrollAbility ability={{"name":"Speed of the Scáthborn","header":{"icon":"offensive","color":"red","text":"Passive"},"effect":"If the unmodified charge roll for a friendly **MELUSAI** or **KHINERAl** unit is 8+, that unit has **STRIKE-FIRST** for the rest of the turn."}} />
+
+
+
+## Warscrolls
+
+### Bladewind
+
+<Warscroll color={"#4B132D"} icon={"daughters.png"} unit={{"name":"Bladewind","faction":"Daughters of Khaine","stats":{"movement":"12\"","save":"6+","banishment":"7","health":"7"},"meleeWeapons":[{"name":"Bladed Vortex","atk":"9","hit":"3+","wnd":"3+","rnd":"1","dmg":"1","abilities":["Crit(2 Hits)"]}],"abilities":[{"name":"Unnatural Edge","header":{"icon":"offensive","color":"red","text":"Any Combat Phase"},"declare":"If this **MANIFESTATION** charged this turn, pick an enemy unit in combat with it to be the target.","effect":"Roll a dice. On a 3+, ignore positive modifiers to save rolls for the target for the rest of the turn."}],"primaryKeywords":["Manifestation","Endless Spell","Fly","Ward(6+)"],"secondaryKeywords":["Order","Daughters of Khaine"]}} />
+
+### Khinerai Heartrenders
+
+<Warscroll color={"#4B132D"} icon={"daughters.png"} unit={{"name":"Khinerai Heartrenders","faction":"Daughters of Khaine","stats":{"movement":"12\"","save":"5+","control":"1","health":"2"},"rangedWeapons":[{"name":"Barbed Javelin","rng":"12\"","atk":"2","hit":"3+","wnd":"4+","rnd":"1","dmg":"1","abilities":["Crit(Auto-Wound)"]}],"meleeWeapons":[{"name":"Barbed Javelin","atk":"1","hit":"3+","wnd":"4+","rnd":"-","dmg":"1"}],"abilities":[{"name":"Circling in the Skies Above","header":{"icon":"special","color":"black","text":"Deployment Phase"},"declare":"Pick this unit if it has not been deployed.","effect":"Set up this unit in reserve in the skies. It has now been deployed.","keywords":["Deploy"]},{"name":"Death From Above","header":{"icon":"movement","color":"gray","text":"Your Movement Phase"},"declare":"Pick this unit if it is **in the skies**.","effect":"Set up this unit anywhere on the battlefield more than 9\" from all enemy units.","keywords":[""]},{"name":"Fire and Flight","header":{"icon":"movement","color":"teal","text":"Any Shooting Phase"},"effect":"If this unit used a **SHOOT** ability this phase, this unit can move D6\". It cannot move into combat during any part of that move."}],"primaryKeywords":["Infantry","Champion","Fly","Ward(6+)"],"secondaryKeywords":["Order","Daughters of Khaine","Khinerai"]}} />
+
+### Morathi-Khaine
+
+<Warscroll color={"#4B132D"} icon={"daughters.png"} unit={{"name":"Morathi-Khaine","faction":"Daughters of Khaine","stats":{"movement":"6\"","save":"5+","control":"2","health":"5"},"meleeWeapons":[{"name":"Heartrender and Bladed Wings","atk":"5","hit":"3+","wnd":"4+","rnd":"2","dmg":"2"}],"abilities":[{"name":"Mirror Dance","header":{"icon":"movement","color":"yellow","text":"Your Hero Phase"},"declare":"If a friendly **Shadow Queen** is on the battlefield, make a casting roll of 2D6.","effect":"Place 2 tokens on the battlefield, one directly underneath the centre of this unit's base and one directly underneath the centre of a friendly **Shadow Queen's** base. Then, remove this unit and that **Shadow Queen** from the battlefield. Set up each unit again with its base overlapping the centre of the other token, then remove the tokens. If it is not possible to set up either of the units on the battlefield, return both units to their original positions. Each unit can only be set up in combat with units that the other unit was already in combat with.","castingValue":"7","keywords":["Spell"]},{"name":"One Soul, Two Bodies","header":{"icon":"defensive","color":"green","text":"Passive"},"effect":"Each time a damage point would be allocated to this unit, it is instead allocated to a friendly **The Shadow Queen** (you cannot make any further ward rolls for that damage point).\n\n If this unit would be automatically destroyed by another ability, it is not automatically destroyed. Instead, allocate 3 damage points to a friendly **The Shadow Queen** (ward rolls cannot be made for those damage points).\n\n If a friendly **The Shadow Queen** is destroyed, this unit is automatically destroyed."},{"name":"Sorceress Supreme","header":{"icon":"special","color":"yellow","text":"Passive"},"effect":"Add 1 to casting rolls for this unit."}],"primaryKeywords":["Warmaster","Unique","Hero","Wizard(3)","Infantry","Ward(6+)"],"secondaryKeywords":["Order","Daughters of Khaine","Aelf"]}} />
+
+### Sisters of Slaugter
+
+<Warscroll color={"#4B132D"} icon={"daughters.png"} unit={{"name":"Sisters of Slaugter","subtitle":"With Bladed Bucklers","faction":"Daughters of Khaine","stats":{"movement":"6\"","save":"5+","control":"1","health":"1"},"meleeWeapons":[{"name":"Kruiplash","atk":"2","hit":"3+","wnd":"4+","rnd":"-","dmg":"1","abilities":["Anti-Infantry(+1 Rend)"]}],"abilities":[{"name":"Dance of Diversion","header":{"icon":"defensive","color":"green","text":"Passive"},"effect":"Subtract 1 from hit rolls for combat attacks that target this unit."},{"name":"Bladed Bucklers","header":{"icon":"offensive","color":"green","text":"Passive"},"effect":"Each time you make an unmodified save roll of 6 for a combat attack that targets this unit, inflict 1 mortal damage on the attacking unit after the **FIGHT** ability has been resolved."}],"primaryKeywords":["Infantry","Champion","Musician(1/5)","Standard bearer(1/5)","Ward(6+)"],"secondaryKeywords":["Order","Daughters of Khaine","Aelf"]}} />
+
+### The Shadow Queen
+
+<Warscroll color={"#4B132D"} icon={"daughters.png"} unit={{"name":"The Shadow Queen","faction":"Daughters of Khaine","stats":{"movement":"12\"","save":"4+","control":"10","health":"12"},"rangedWeapons":[{"name":"Gaze of the Shadow Queen","rng":"12\"","atk":"1","hit":"2+","wnd":"2+","rnd":"3","dmg":"D6","abilities":["Shoot in Combat"]}],"meleeWeapons":[{"name":"Heartrender","atk":"8","hit":"3+","wnd":"3+","rnd":"2","dmg":"3","abilities":["Crit(Mortal)"]},{"name":"Crown of Serpents","atk":"2D6","hit":"4+","wnd":"4+","rnd":"-","dmg":"1"},{"name":"Envenomed Tail","atk":"1","hit":"3+","wnd":"3+","rnd":"2","dmg":"6"}],"abilities":[{"name":"Iron Heart of Khaine","header":{"icon":"defensive","color":"green","text":"Passive"},"effect":"You cannot allocate more than 3 damage points to this unit each turn. Once 3 points have been allocated to this unit in a turn, any further damage points that would be allocated to it are ignored.\n\n Damage points allocated to this unit cannot be healed.\n\n If this unit would be automatically destroyed, it is not automatically destroyed. Instead, allocate 3 damage points to it (ward rolls cannot be made for those damage points)."},{"name":"Fury of the Shadow Queen","header":{"icon":"offensive","color":"red","text":"Once Per Turn (Army), Any Combat Phase"},"declare":"Pick an enemy unit in combat with this unit to be the target.","effect":"Roll a D3. On a 2+, inflict an amount of mortal damage on the target equal to the roll. If any models are slain by this ability, for the rest of the turn, add 1 to the Attacks characteristic of melee weapons used by friendly **KHINERAL** and **MELUSAI** units while they are wholly within 12\" of this unit.","keywords":["Rampage"]}],"primaryKeywords":["Unique","Hero","Monster","Fly","Ward(6+)"],"secondaryKeywords":["Order","Daughters of Khaine"]}} />
+

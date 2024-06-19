@@ -1,0 +1,374 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.com/army.schema.json",
+  "title": "army",
+  "description": "An AoS 4 Army for Lexsigmarium.net",
+  "definitions": {
+    "spellLore": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string",
+          "description": "The name of the spell lore"
+        },
+        "spells": {
+          "type": "array",
+          "description": "An array of spells",
+          "items": {
+            "type": "object",
+            "$ref": "#/definitions/ability"
+          }
+        }
+      }
+    },
+    "header": {
+      "type": "object",
+      "properties": {
+        "icon": {
+          "type": "string",
+          "description": "What icon to show",
+          "enum": [
+            "rally",
+            "defensive",
+            "offensive",
+            "shooting",
+            "control",
+            "movement",
+            "special",
+            "damaged"
+          ]
+        },
+        "color": {
+          "type": "string",
+          "description": "The color corresponding to the phase",
+          "enum": [
+            "black",
+            "yellow",
+            "gray",
+            "orange",
+            "teal",
+            "red",
+            "eggplant",
+            "green"
+          ]
+        },
+        "text": {
+          "type": "string",
+          "description": "The text to be displayed. NOT markdown"
+        }
+      }
+    },
+    "ability": {
+      "type": "object",
+      "properties": {
+        "header": {
+          "type": "object",
+          "$ref": "#/definitions/header",
+          "description": "The header the an ability"
+        },
+        "name": {
+          "type": "string",
+          "description": "The name of the ability"
+        },
+        "declare": {
+          "type": "string",
+          "description": "The declare instructions. Supports markdown"
+        },
+        "effect": {
+          "type": "string",
+          "description": "the effect instructions. Supports markdown"
+        },
+        "keywords": {
+          "type": "array",
+          "description": "An array of abilities",
+          "items": {
+            "type": "string"
+          }
+        },
+        "castingValue": {
+          "type": "string",
+          "description": "The casting value of the ability"
+        },
+        "chantingValue": {
+          "type": "string",
+          "description": "The chanting value of the ability"
+        },
+        "commandValue": {
+          "type": "string",
+          "description": "The command value of the ability"
+        }
+      }
+    },
+    "rangedWeapon": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string",
+          "description": "The name of the weapon"
+        },
+        "rng": {
+          "type": "string",
+          "description": "The range of the weapon"
+        },
+        "atk": {
+          "type": "string",
+          "description": "The attack value of the weapon"
+        },
+        "hit": {
+          "type": "string",
+          "description": "The hit value of the weapon"
+        },
+        "wnd": {
+          "type": "string",
+          "description": "The wound value of the weapon"
+        },
+        "rnd": {
+          "type": "string",
+          "description": "The rend value of the weapon"
+        },
+        "dmg": {
+          "type": "string",
+          "description": "The damage value of the weapon"
+        },
+        "abilities": {
+          "type": "array",
+          "description": "An array of abilities",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "meleeWeapon": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string",
+          "description": "The name of the weapon"
+        },
+        "atk": {
+          "type": "string",
+          "description": "The attack value of the weapon"
+        },
+        "hit": {
+          "type": "string",
+          "description": "The hit value of the weapon"
+        },
+        "wnd": {
+          "type": "string",
+          "description": "The wound value of the weapon"
+        },
+        "rnd": {
+          "type": "string",
+          "description": "The rend value of the weapon"
+        },
+        "dmg": {
+          "type": "string",
+          "description": "The damage value of the weapon"
+        },
+        "abilities": {
+          "type": "array",
+          "description": "An array of abilities",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "stats": {
+      "type": "object",
+      "properties": {
+        "movement": {
+          "type": "string",
+          "description": "The move value"
+        },
+        "save": {
+          "type": "string",
+          "description": "The save value"
+        },
+        "control": {
+          "type": "string",
+          "description": "The control value"
+        },
+        "health": {
+          "type": "string",
+          "description": "The health value"
+        },
+        "banishment": {
+          "type": "string",
+          "description": "The banishment value"
+        }
+      }
+    },
+    "warscroll": {
+      "type": "object",
+      "properties": {
+        "notes": {
+          "type": "string",
+          "description": "Notes about the warscroll. Supports markdown"
+        },
+        "name": {
+          "type": "string",
+          "description": "The name of the warscroll"
+        },
+        "subtitle": {
+          "type": "string",
+          "description": "The subtitle of the warscroll"
+        },
+        "faction": {
+          "type": "string",
+          "description": "The faction the warscroll belongs to"
+        },
+        "stats": {
+          "type": "object",
+          "description": "The main stats for the warscroll",
+          "$ref": "#/definitions/stats"
+        },
+        "meleeWeapons": {
+          "type": "array",
+          "description": "An array of melee weapons",
+          "items": {
+            "type": "object",
+            "$ref": "#/definitions/meleeWeapon"
+          }
+        },
+        "rangedWeapons": {
+          "type": "array",
+          "description": "An array of ranged weapons",
+          "items": {
+            "type": "object",
+            "$ref": "#/definitions/rangedWeapon"
+          }
+        },
+        "options": {
+          "type": "string",
+          "description": "The options text. Supports markdown"
+        },
+        "abilities": {
+          "type": "array",
+          "description": "An array of abilities",
+          "items": {
+            "type": "object",
+            "$ref": "#/definitions/ability"
+          }
+        },
+        "primaryKeywords": {
+          "type": "array",
+          "description": "An array of primary keywords",
+          "items": {
+            "type": "string"
+          }
+        },
+        "secondaryKeywords": {
+          "type": "array",
+          "description": "An array of secondary keywords",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "prayers": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string",
+          "description": "The name of the prayer"
+        },
+        "prayers": {
+          "type": "array",
+          "description": "An array of prayers",
+          "items": {
+            "type": "object",
+            "$ref": "#/definitions/ability"
+          }
+        }
+      }
+    },
+    "battleFormation": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string",
+          "description": "The name of the battle formation"
+        },
+        "abilities": {
+          "type": "array",
+          "description": "An array of abilities",
+          "items": {
+            "type": "object",
+            "$ref": "#/definitions/ability"
+          }
+        }
+      }
+    }
+  },
+  "type": "object",
+  "properties": {
+    "title": {
+      "type": "string",
+      "description": "The name of the army"
+    },
+    "grandFaction": {
+      "type": "string",
+      "description": "The grand faction of the army"
+    },
+    "icon": {
+      "type": "string",
+      "description": "The icon of the army stored in 'static/img/icons/army' including the file extension"
+    },
+    "color": {
+      "type": "string",
+      "description": "The primary color for the army. Should be fairly dark since the text is white"
+    },
+    "battleTraits": {
+      "type": "array",
+      "description": "An array of battle traits for the army",
+      "items": {
+        "type": "object",
+        "$ref": "#/definitions/ability"
+      }
+    },
+    "battleFormations": {
+      "type": "array",
+      "description": "An array of battle formations for the army",
+      "items": {
+        "type": "object",
+        "$ref": "#/definitions/battleFormation"
+      }
+    },
+    "artefacts": {
+      "type": "array",
+      "description": "An array of artefacts for the army",
+      "items": {
+        "type": "object",
+        "$ref": "#/definitions/ability"
+      }
+    },
+    "spellLores": {
+      "type": "array",
+      "description": "An array of spell lores for the army",
+      "items": {
+        "type": "object",
+        "$ref": "#/definitions/spellLore"
+      }
+    },
+    "prayers": {
+      "type": "array",
+      "description": "An array of prayers for the army",
+      "items": {
+        "type": "object",
+        "$ref": "#/definitions/prayers"
+      }
+    },
+    "warscrolls": {
+      "type": "array",
+      "description": "An array of warscrolls for the army",
+      "items": {
+        "type": "object",
+        "$ref": "#/definitions/warscroll"
+      }
+    }
+  }
+}
+

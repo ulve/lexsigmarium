@@ -1,0 +1,68 @@
+---
+title: Fyreslayers
+grandFaction: Order
+---
+
+import Warscroll from '@site/src/components/Warscroll';
+import WarscrollAbility from '@site/src/components/WarscrollAbility';
+
+## Battle Traits
+
+### Rune of Fury
+
+<WarscrollAbility ability={{"name":"Rune of Fury","header":{"icon":"offensive","color":"black","text":"Once Per Battle (Army), Start of Any Turn"},"effect":"You can only use this ability if you have not used any **UR-GOLD RUNE** abilities this battle round.\n\n For the rest of the battle round, friendly **FYRESLAYERS** units have **STRIKE-FIRST** while they are in combat with an enemy unit that charged in the same turn.","keywords":["Ur-Gold Rune"]}} />
+
+### Rune of Farsight
+
+<WarscrollAbility ability={{"name":"Rune of Farsight","header":{"icon":"shooting","color":"teal","text":"Once Per Battle (Army), Your Shooting Phase"},"declare":"You can only use this ability if you have not used any **UR-GOLD RUNE** abilities this battle round.\n\n Pick any number of enemy units within 10\" of any visible friendly **FYRESLAYERS** units to be targets.","effect":"Roll a D3 for each target. On a 2+, inflict an amount of mortal damage on the target equal to the roll.","keywords":["Ur-Gold Rune"]}} />
+
+### Rune of Fiery Determination
+
+<WarscrollAbility ability={{"name":"Rune of Fiery Determination","header":{"icon":"defensive","color":"yellow","text":"Once Per Battle (Army), Any Hero Phase"},"effect":"You can only use this ability if you have not used any **UR-GOLD RUNE** abilities this battle round.\n\n Friendly **FYRESLAYERS** units have **WARD (5+)** for the rest of the battle round.","keywords":["Ur-Gold Rune"]}} />
+
+### Rune of Relentless Zeal
+
+<WarscrollAbility ability={{"name":"Rune of Relentless Zeal","header":{"icon":"movement","color":"orange","text":"Once Per Battle (Army), Your Charge Phase"},"effect":"You can only use this ability if you have not used any **UR-GOLD RUNE** abilities this battle round.\n\n For the rest of the battle round, friendly **FYRESLAYERS** units can use **CHARGE** abilities even if they used a **RuN** ability in the same turn.","keywords":["Ur-Gold Rune"]}} />
+
+### Rune of Searing Heat
+
+<WarscrollAbility ability={{"name":"Rune of Searing Heat","header":{"icon":"offensive","color":"red","text":"Once Per Battle (Army), Any Combat Phase"},"effect":"You can only use this ability if you have not used any **UR-GOLD RUNE** abilities this battle round.\n\n Melee weapons used by friendly **FYRESLAYERS** units have **Crit (Mortal)** for the rest of the battle round.","keywords":["Ur-Gold Rune"]}} />
+
+
+
+## Battle Formations
+
+### Warrior Kinband
+
+<WarscrollAbility ability={{"name":"Berserk Kindred","header":{"icon":"offensive","color":"red","text":"Passive"},"effect":"Add 1 to wound rolls for combat attacks made by friendly **FYRESLAYERS INFANTRY** units that charged in the same turn."}} />
+
+
+
+## Arcana and Incatations
+
+### Prayers
+
+#### Zharrgrim Blessings
+
+<WarscrollAbility ability={{"name":"prayer of Ash","header":{"icon":"defensive","color":"yellow","text":"Your Hero Phase"},"declare":"Pick a friendly **FYRESLAYERS PRIEST** to chant this prayer, pick a visible friendly **FYRESLAYERS** unit wholly within 12\" of them to be the target, then make a chanting roll of D6.","effect":"Subtract 1 from wound rolls for attacks that target that friendly unit until the start of your next turn.\n\n If the chanting roll was 8+, also subtract 1 from the Rend characteristic of attacks that target that friendly unit until the start of your next turn.","chantingValue":"4","keywords":["Prayer","Unlimited"]}} />
+
+
+
+## Warscrolls
+
+### Auric Runefather
+
+<Warscroll color={"#8A210D"} icon={"fyreslayers.png"} unit={{"name":"Auric Runefather","subtitle":"On Magmadroth","faction":"Fyreslayers","stats":{"movement":"10\"","save":"4+","control":"5","health":"14"},"rangedWeapons":[{"name":"Roaring Fyrestream","rng":"10\"","atk":"4","hit":"3+","wnd":"3+","rnd":"1","dmg":"D3","abilities":["Anti-Infantry(+1 rend)","Companion"]}],"meleeWeapons":[{"name":"Latchkey Grandaxe","atk":"4","hit":"3+","wnd":"3+","rnd":"2","dmg":"3","abilities":[""]},{"name":"💀 Magmadroth's Claws and Horns","atk":"6","hit":"4+","wnd":"2+","rnd":"1","dmg":"2","abilities":["Companion"]},{"name":"Magmadroth's Blazing Maw","atk":"2","hit":"4+","wnd":"2+","rnd":"2","dmg":"3","abilities":["Companion"]}],"abilities":[{"name":"Battle Damaged","header":{"icon":"damaged","color":"black","text":"Passive"},"effect":"While this unit has 10 or more damage points, the Attacks characteristic of its **Magmadroth's Claws and Horns** is 4."},{"name":"Raging Inferno","header":{"icon":"offensive","color":"red","text":"Once Per Turn (Army), Any Combat Phase"},"declare":"Pick an enemy unit in combat with this unit to be the target.","effect":"Roll a dice. On a 3+, subtract 1 from save rolls for the target for the rest of the turn.","keywords":["Rampage"]},{"name":"Warrior-Kings","header":{"icon":"offensive","color":"red","text":"Once Per Battle (Army), Your Combat Phase"},"effect":"For the rest of the turn, add 1 to the Attacks characteristic of melee weapons used by friendly **FYRESLAYERS** units while they are wholly within 12\" of this unit."},{"name":"Volcanic Blood","header":{"icon":"offensive","color":"red","text":"Passive"},"effect":"If you make an unmodified save roll of 1 for a combat attack that targets this unit, inflict 1 mortal damage on the attacking unit after the **FIGHT** ability has been resolved."}],"primaryKeywords":["Warmaster","Hero","Monster","Ward(6+)"],"secondaryKeywords":["Order","Fyreslayers","Duardin","Magmadroth"]}} />
+
+### Auric Runemaster
+
+<Warscroll color={"#8A210D"} icon={"fyreslayers.png"} unit={{"name":"Auric Runemaster","faction":"Fyreslayers","stats":{"movement":"4\"","save":"5+","control":"2","health":"5"},"meleeWeapons":[{"name":"Brazier Staff","atk":"3","hit":"3+","wnd":"3+","rnd":"1","dmg":"2"}],"abilities":[{"name":"High Priest of the Zharrgrim","header":{"icon":"special","color":"yellow","text":"Passive"},"effect":"Each time a **PRAYER** chanted by this unit is answered, this unit gains a **magmic power token**."},{"name":"Master of the Runes","header":{"icon":"special","color":"black","text":"Reaction: You declared an UR-GOLD RUNE ability"},"effect":"Remove 3 of this unit's **magmic power tokens**. If you do so, apply the effect below that corresponds to the **UR-GOLD RUNE** ability that was used:\n\n _**Rune of Fury:**_ For the rest of the battle round, add 1 to wound rolls for combat attacks made by friendly **FYRESLAYERS** units while they have **STRIKE-FIRST**.\n\n _**Rune of Fiery Determination:**_ Add 1 to save rolls for friendly **FYRESLAYERS** units for the rest of the battle round.\n\n _**Rune of Relentless Zeal:**_ Add 1 to run rolls and charge rolls for friendly **FYRESLAYERS** units for the rest of the battle round.\n\n _**Rune of Searing Heat:**_ Add 1 to the Rend characteristic of melee weapons used by friendly **FYRESLAYERS** units for the rest of the battle round.\n\n _**Rune of Farsight:**_ Increase the range of the 'Rune of Farsight' ability to 16\"."}],"primaryKeywords":["Hero","Priest(2)","Infantry","Ward(6+)"],"secondaryKeywords":["Order","Fyreslayers","Duardin"]}} />
+
+### Hearthguard Berzerkers
+
+<Warscroll color={"#8A210D"} icon={"fyreslayers.png"} unit={{"name":"Hearthguard Berzerkers","faction":"Fyreslayers","subtitle":"With Berzerker Broadaxes","stats":{"movement":"4\"","save":"6+","control":"1","health":"2"},"meleeWeapons":[{"name":"Berzerker Broadaxe","atk":"2","hit":"3+","wnd":"3+","rnd":"1","dmg":"2"}],"abilities":[{"name":"Duty Unto Death","header":{"icon":"defensive","color":"green","text":"Passive"},"effect":"While any friendly **FYRESLAYERS INFANTRY HEROES** are wholly within this unit's combat range, both this unit and those friendly units have **WARD (5+)**."}],"primaryKeywords":["Infantry","Champion","Ward(6+)"],"secondaryKeywords":["Order","Fyreslayers","Duardin"]}} />
+
+### Molten Infernoth
+
+<Warscroll color={"#8A210D"} icon={"fyreslayers.png"} unit={{"name":"Molten Infernoth","faction":"Fyreslayers","stats":{"movement":"8\"","save":"5+","banishment":"7+","health":"10"},"rangedWeapons":[{"name":"Raging Torrents of Lava","rng":"8\"","atk":"2","hit":"4+","wnd":"3+","rnd":"2","dmg":"D3","abilities":["Shoot in Combat"]}],"meleeWeapons":[{"name":"Molten Claws","atk":"6","hit":"4+","wnd":"2+","rnd":"1","dmg":"D3","abilities":["Crit(Mortal)"]}],"abilities":[{"name":"Flamescarred","header":{"icon":"defensive","color":"eggplant","text":"End of Any Turn"},"declare":"Pick an enemy unit that had any damage points allocated to it this turn by this **MANIFESTATION**'s attacks to be the target.","effect":"Subtract 1 from wound rolls for the target's combat attacks until the end of your next turn."}],"primaryKeywords":["Manifestation","Invocation","Fly","Ward(6+)"],"secondaryKeywords":["Order","Fyreslayers"]}} />
+

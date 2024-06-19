@@ -1,0 +1,51 @@
+---
+title: Gloopspite Gits
+grandFaction: Destruction
+---
+
+import Warscroll from '@site/src/components/Warscroll';
+import WarscrollAbility from '@site/src/components/WarscrollAbility';
+
+## Battle Traits
+
+### Under the Light of the Bad Moon
+
+<WarscrollAbility ability={{"name":"Under the Light of the Bad Moon","header":{"icon":"special","color":"black","text":"Passive"},"effect":"During the battle, an area of the battlefield will be the Bad Moon's location (see 'The Bad Moon's Orbit').  The Bad Moon's location will be either a quarter of the battlefield or the centre of the battlefield.\n\n While the Bad Moon's location is a quarter of the battlefield, all **GLOOMSPITE GITZ** units (friendly and enemy) wholly within that quarter are **under the light of the Bad Moon.**\n\n While the Bad Moon's location is the centre of the battlefield, all **GLOOMSPITE GiTZ** units (friendly and enemy) on the battlefield are **under the light of the Bad Moon.**\n\n While a friendly **GLOOMSPITE GITZ** unit is **under the light of the Bad Moon,** the appropriate effect below applies to it:\n\n_**Frothing Zealots:**_ If the unit is a non-**SQUIG MOONCLAN** unit, add 3 to its control score.\n\n_**Lunar Squigs:**_ If the unit is a **SQUIG** unit, you can re-roll the random characteristic roll for its Move characteristic.\n\n_**Moonlit Hide:**_ If the unit is a **TROGGOTH** unit, add 1 to save rolls for it.\n\n_**Spiderfang Venom:**_ If the unit is a **SPIDERFANG** unit, its combat attacks score critical hits on unmodified hit rolls of 5+."}} />
+
+### The Bad Moon's Orbit
+
+<WarscrollAbility ability={{"name":"The Bad Moon's Orbit","header":{"icon":"special","color":"black","text":"Once Per Battle Round (Army), Start of Battle Round"},"declare":"You must use this ability at the start of the battle round.\n\n If multiple players are commanding a Gloomspite Gitz army, then instead, at the start of the battle round, those players roll off and only the winner declares and uses this ability this battle round.","effect":"If it is the first battle round, pick a quarter of the battlefield to be the Bad Moon's starting location. If it is the second or subsequent battle round, roll a dice. On a 1-3, the Bad Moon stays at its current location. On a 4+, the Bad Moon moves. The first time the Bad Moon moves, it moves to the centre of the battlefield. The second time it moves, it moves to the quarter diagonally opposite the quarter in which it started. The third time it moves, it moves off the battlefield and has no further effect on the battle."}} />
+
+
+
+## Battle Formations
+
+### Squgalache
+
+<WarscrollAbility ability={{"name":"Bouncing Fury","header":{"icon":"offensive","color":"red","text":"Passive"},"effect":"Each time a friendly Squig unit charges, add 1 to the Attacks characteristic of its Fang-filled Gobs, Massive Fang-filled Gobs or Huge Fang- filled Gobs for the rest of the turn."}} />
+
+
+
+## Arcana and Incatations
+
+### Spell Lores
+#### Lore of the Clammy Dank
+
+<WarscrollAbility ability={{"name":"Sneaky Distraction","header":{"icon":"defensive","color":"yellow","text":"Your Hero Phase"},"declare":"Pick a friendly **GLOOMSPITE GITZ WIZARD** to cast this spell, then make a casting roll of 2D6.","effect":"Until the start of your next turn, subtract 1 from hit rolls for attacks made by enemy units while they are wholly within 12\" of the caster.","castingValue":"7","keywords":["Spell","Unlimited"]}} />
+
+
+
+## Warscrolls
+
+### Squig Herd
+
+<Warscroll color={"#292711"} icon={""} unit={{"name":"Squig Herd","faction":"Gloomspite Gitz","stats":{"movement":"D6+3\"","save":"6+","control":"1","health":"1"},"options":"Each model in this unit is armed with a Fang-filled Gob.\n\n* 1/6 models is a Squig Herder and is armed with a Squig Prodder instead of a Fang-filled Gob.","meleeWeapons":[{"name":"Fang-filled Gob","atk":"3","hit":"4+","wnd":"3+","rnd":"1","dmg":"1","abilities":["Companion"]},{"name":"Squig Prodder","atk":"2","hit":"5+","wnd":"5+","rnd":"-","dmg":"1"}],"abilities":[{"name":"Squigs Gone Wild","header":{"icon":"offensive","color":"red","text":"Passive"},"effect":"Each time a model in this unit is slain by a combat attack and that model was in combat with the attacking unit, roll a dice. On a 5+, inflict 1 mortal damage on the attacking unit after the **FIGHT** ability has been resolved."},{"name":"Beast","header":{"icon":"defensive","color":"eggplant","text":"Passive"},"effect":"This unit has a maximum control score of 1."},{"name":"Herding Squig","header":{"icon":"rally","color":"yellow","text":"Your Hero Phase"},"effect":"Roll a dice for each **Squig Herder** in this unit. For each 2+, you can return D3 slain **Cave Squigs** to this unit. For each 1, 1 **Squig Herder** in this unit is slain."}],"primaryKeywords":["Beast"],"secondaryKeywords":["Destruction","Gloomspite Gitz","Squig","Moonclan"]}} />
+
+### Skagrott
+
+<Warscroll color={"#292711"} icon={""} unit={{"name":"Skagrott","subtitle":"the Loonking","faction":"Gloomspite Gitz","stats":{"movement":"5\"","save":"6+","control":"2","health":"6"},"meleeWeapons":[{"name":"Da Moon Onna Stikk","atk":"4","hit":"3+","wnd":"4+","rnd":"1","dmg":"D3"}],"abilities":[{"name":"The Loonking's Entreaty","header":{"icon":"special","color":"black","text":"Once Per Battle, Reaction: You declared the 'The Bad Moon's Orbit ability"},"effect":"You can choose whether the Bad Moon moves to the next location or stays in its current location instead of rolling the dice."},{"name":"Fangz of da Bad Moon","header":{"icon":"offensive","color":"yellow","text":"Your Hero Phase"},"declare":"Pick a visible enemy unit within 18\" of this unit to be the target, then make a casting roll of 2D6.","effect":"Roll a number of dice equal to the unmodified casting roll. For each 3+, inflict 1 mortal damage on the target.","castingValue":"7","keywords":["Spell"]},{"name":"Babbling Wand","header":{"icon":"movement","color":"gray","text":"Reaction: You devlared the 'Redeploy' command for a friendly MOONCLAN unit wholly within 12\" of this unit"},"effect":"If you roll a 1-3 when determining the distance that unit can move, you can use a value of 4 instead."}],"primaryKeywords":["Warmaster","Unique","Hero","Wizard(2)","Infantry","Ward(4+)"],"secondaryKeywords":["Destruction","Gloomspite Gitz","Moonclan"]}} />
+
+### Gobbapalooza
+
+<Warscroll color={"#292711"} icon={""} unit={{"name":"Gobbapalooza","faction":"Gloomspite Gitz","stats":{"movement":"5\"","save":"6+","control":"2","health":"3"},"meleeWeapons":[{"name":"Staff, Stikka or Jaggedy Blade","atk":"1","hit":"4+","wnd":"4+","rnd":"1","dmg":"D3"}],"abilities":[{"name":"Halluciogenic Fungus Brews","header":{"icon":"defensive","color":"green","text":"Passive"},"effect":"In the first battle round, this unit has **WARD (4+).** In the second battle round, this unit has **WARD (5+).** In the third and subsequent battle rounds, this unit has **WARD (6+).**"},{"name":"Gobbapalooza Know-Wotz","header":{"icon":"special","color":"yellow","text":"Your Hero Phase"},"effect":"Roll a dice. On a 3+, pick 1 of the following effects:\n\n_**Glareface Dance:**_ Pick a friendly **GLOOMSPITE GITZ** unit within this unit's combat range. Add 1 to run rolls and charge rolls for that unit until the start of your next turn.\n\n_**Nasty Poisons:**_ Pick a friendly **GLOOMSPITE GITZ** unit within this unit's combat range. Add 1 to the Rend characteristic of that unit's weapons until the start of your next turn.\n\n_**Mesmerise:**_ Pick a visible enemy unit within 12\" of this unit. Until the start of your next turn, that unit cannot use commands."}],"primaryKeywords":["Wizard(1)","Infantry"],"secondaryKeywords":["Destruction","Gloomspite Gitz","Moonclan"]}} />
+

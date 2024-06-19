@@ -1,0 +1,49 @@
+.ability-content {
+    grid-column: 2 / 3;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    justify-content: left;
+}
+
+.ability-name {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    font-family: "Cinzel", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.heading-font {
+    text-align: center;
+    font-family: "Cinzel", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.ability-keywords {
+    display: flex;
+    outline: 2px solid #f0a0a0;
+}
+
+.left {
+    justify-content: left;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+.ability-bold {
+    font-weight: bold;
+}
+
+.ability-content>p {
+    margin: 0.5rem;
+}
+
+.ability-keyword-list {
+    width: 100%;
+    text-align: center;
+}

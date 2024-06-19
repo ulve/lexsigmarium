@@ -1,0 +1,61 @@
+{
+    "$schema": "../army.schema.json",
+    "title": "Blades of Khorne",
+    "icon": "khorne.png",
+    "color": "#451608",
+    "grandFaction": "Chaos",
+    "warscrolls": [
+        {
+            "name": "Slaughter Priest",
+            "faction": "Blades of Khorne",
+            "stats": {
+                "movement": "5\"",
+                "save": "5+",
+                "control": "2",
+                "health": "6"
+            },
+            "meleeWeapons": [
+                {
+                    "name": "Bloodbathed Weapon",
+                    "atk": "4",
+                    "hit": "3+",
+                    "wnd": "3+",
+                    "rnd": "1",
+                    "dmg": "2"
+                }
+            ],
+            "abilities": [
+                {
+                    "name": "Blood Sacrifice",
+                    "header": {
+                        "icon": "special",
+                        "color": "yellow",
+                        "text": "Once Per Turn (Army), Your Hero Phase"
+                    },
+                    "declare": "Pick a friendly unit within this unit's combat range to be the target.",
+                    "effect": "Roll a D3. On a 2+:\n\n* Inflict an amount of mortal damage on the target equal to the roll.\n* Gain 1 **blood tithe point.**"
+                },
+                {
+                    "name": "Scorn of Sorcery",
+                    "header": {
+                        "icon": "special",
+                        "color": "yellow",
+                        "text": "Passive"
+                    },
+                    "effect": "This unit can use UNBIND abilities as if it had **WIZARD (1).**"
+                }
+            ],
+            "primaryKeywords": [
+                "Hero",
+                "Priest(1)",
+                "Infantry"
+            ],
+            "secondaryKeywords": [
+                "Chaos",
+                "Blades of Khorne",
+                "Bloodbound",
+                "Gorechosen"
+            ]
+        }
+    ]
+}

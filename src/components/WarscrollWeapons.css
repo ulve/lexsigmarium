@@ -1,0 +1,49 @@
+.warscroll-weapons {
+    flex: 1;
+    padding: 1em;
+    width: 100%;
+    --weapon-tr: #c4c5b1;
+}
+
+[data-theme="dark"] .warscroll-weapons {
+    --weapon-tr: #3a3b2f;
+}
+
+.weapon-center {
+    text-align: center;
+}
+
+.fl-table {
+    border-radius: 5px;
+    font-weight: normal;
+    border: none;
+    border-collapse: collapse;
+    width: 100%;
+    white-space: nowrap;
+    border-radius: 0.25rem;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.fl-table td,
+fl-table th {
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+.fl-table thead th {
+    width: 100%;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    background: url("@site/static/img/clean-gray-paper.png"),
+        var(--faction-color);
+    text-align: center;
+    font-family: "Cinzel", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: #fff;
+}
+
+.fl-table tr:nth-child(even) {
+    background: var(--weapon-tr);
+}

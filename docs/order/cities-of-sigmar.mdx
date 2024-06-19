@@ -1,0 +1,63 @@
+---
+title: Cities of Sigmar
+grandFaction: Order
+---
+
+import Warscroll from '@site/src/components/Warscroll';
+import WarscrollAbility from '@site/src/components/WarscrollAbility';
+
+## Battle Traits
+
+### Advance in Formation
+
+<WarscrollAbility ability={{"header":{"icon":"movement","color":"gray","text":"Your Movement Phase"},"name":"Advance in Formation","declare":"Pick a friendly **CITIES OF SIGMAR HERO** that has not used an **OFFICAR'S ORDER** ability this turn to use this ability, then pick a friendly **CITIES OF SIGMAR** unit wholly within 12\" of that **HERO** and not in combat to be the target.\n\nIf the target is **HUMAN,** you can pick an additional **CITIES OF SIGMAR** unit wholly within 12\" of that ***HERO** and not in combat to be a target.","effect":"Each target can move 3\". Each target cannot move into combat during any part of that move.","abilities":["Officar's Order"]}} />
+
+### Supressing Fire
+
+<WarscrollAbility ability={{"header":{"icon":"defensive","color":"teal","text":"Any Shooting Phase"},"name":"Supressing Fire","declare":"Pick a friendly **CITIES OF SIGMAR HERO** that has not used an **OFFICAR'S ORDER** ability this turn to use this ability, then pick a friendly **CITIES OF SIGMAR** unit wholly within 12\" of that **HERO** to be the target.","effect":"Each time the target uses a **SHOOT** ability this phase, if all of its attacks targeted the same enemy unit, after that ability has been resolved, roll a dice. If the result is equal to or less than the number of models in that enemy unit that were slain by shooting attacks this phase, that enemy unit has **STRIKE-LAST** for the rest of the turn.","abilities":["Officar's Order"]}} />
+
+### Strike Them Down
+
+<WarscrollAbility ability={{"header":{"icon":"offensive","color":"orange","text":"Any Charge Phase"},"name":"Strike Them Down","declare":"Pick a friendly **CITIES OF SIGMAR HERO** that has not used an **OFFICAR'S ORDER** ability this turn to use this ability, then pick a friendly **CITIES OF SIGMAR** unit that charged this turn that is wholly within 12\" of that **HERO** to be the target.","effect":"Add 1 to the Attacks characteristic of the target's melee weapons for the rest of the turn.\n\nIn addition, if the target is an **AELF** unit, add 1 to hit rolls for the target's combat attacks for the rest of the turn.","abilities":["Officar's Order"]}} />
+
+### Hold the Line
+
+<WarscrollAbility ability={{"header":{"icon":"defensive","color":"red","text":"Any Combat Phase"},"name":"Hold the Line","declare":"Pick a friendly **CITIES OF SIGMAR HERO** that has not used an **OFFICAR'S ORDER** ability this turn to use this ability, then pick a friendly **CITIES OF SIGMAR** unit wholly within 12\" of that **HERO** and that did not charge this turn to be the target.","effect":"The target has **STRIKE-LAST** and **WARD (5+)** for the rest of the turn.\n\n In addition, if the target is **DUARDIN,** subtract 1 from hit rolls for combat attacks that target that unit for the rest of the turn.","abilities":["Officar's Order"]}} />
+
+
+
+## Battle Formations
+
+### Fortress-City Defenders
+
+<WarscrollAbility ability={{"header":{"icon":"special","color":"green","text":"Passive"},"name":"Bulwark Zone","effect":"Friendly **CITIES OF SIGMAR** units that have the 'Fortify Position' ability start the first battle round in a fortified position.\n\nIn addition, in the first battle round, subtract 1 from wound rolls for attacks that target friendly **CITIES OF SIGMAR** units while they are wholly within friendly territory."}} />
+
+
+
+## Arcana and Incatations
+
+### Spell Lores
+#### Spells of the Colligiate Arcane
+
+<WarscrollAbility ability={{"name":"Speed of the Twin-Tailed Comet","header":{"icon":"movement","color":"yellow","text":"Your Hero Phase"},"declare":"Pick a friendly **CITIES OF SIGMAR WIZARD** to cast this spell, pick a visible friendly **CITIES OF SIGMAR** unit wholly within 12\" to be the target, then make a casting roll of 2D6.","effect":"Until the start of your next turn, add 1 to the number of dice rolled when making charge rolls for the target, to a maximum of 3.","castingValue":"7","abilities":["Spell"]}} />
+
+
+
+## Warscrolls
+
+### Freeguild Cavaliers
+
+<Warscroll color={"#5B2928"} icon={""} unit={{"name":"Freeguild Cavaliers","faction":"Cities of Sigmar","stats":{"movement":"10\"","save":"3+","control":"1","health":"3"},"meleeWeapons":[{"name":"Cavalier Weapon","atk":"3","hit":"4+","wnd":"4+","rnd":"1","dmg":"1","abilities":["Charge(+1 Damage)"]},{"name":"Warhorse's Stee-shod Hooves","atk":"2","hit":"5+","wnd":"3+","rnd":"-","dmg":"1","abilities":["Companion"]}],"abilities":[{"header":{"icon":"offensive","color":"orange","text":"Any Charge Phase"},"name":"Devestating Charge","declare":"If this unit charged this phase, pick an enemy unit within 1\" of it to be the target.","effect":"Roll a dice for each model in this unit that is in combat. For each 4+, inflict 1 mortal damage on the target."}],"primaryKeywords":["Cavalry","Champion","Standard Bearer(1/5)"],"secondaryKeywords":["Order","Cities of Sigmar","Human"]}} />
+
+### Freeguild Steelhelms
+
+<Warscroll color={"#5B2928"} icon={""} unit={{"name":"Freeguild Steelhelms","faction":"Cities of Sigmar","stats":{"movement":"5\"","save":"4+","control":"1","health":"1"},"meleeWeapons":[{"name":"Freeguild Weapons","atk":"2","hit":"4+","wnd":"4+","rnd":"-","dmg":"1"}],"abilities":[{"header":{"icon":"special","color":"gray","text":"Once Per Turn (Army), Your Movement Phase"},"name":"Consecrate the Land","declare":"If this unit is contesting an objective you control that is not contested by any enemy models, roll a dice.","effect":"On a 3+, that objective is considered by you to be consecrated. While each model in a friendly **CITIES OF SIGMAR HUMAN** unit is contesting a consecrated objective, that unit has **WARD (5+).** If your opponent gains control of a consecrated objective, it is no longer consecrated."}],"primaryKeywords":["Infantry","Champion","Musician(1/10)","Standard Bearer(1/10)"],"secondaryKeywords":["Order","Cities of Sigmar","Human"]}} />
+
+### Fusil-Major
+
+<Warscroll color={"#5B2928"} icon={""} unit={{"name":"Fusil-Major","subtitle":"On Ogor Warhulk","faction":"Cities of Sigmar","stats":{"movement":"5\"","save":"3+","control":"2","health":"8"},"rangedWeapons":[{"name":"Long Fusil","rng":"24\"","atk":"3","hit":"3+","wnd":"3+","rnd":"1","dmg":"2","abilities":["Crit(Auto-wound)","Anti-Hero(+1 Rend)"]}],"meleeWeapons":[{"name":"Warhulk's Mace","atk":"4","hit":"4+","wnd":"2+","rnd":"2","dmg":"2"}],"abilities":[{"header":{"icon":"shooting","color":"teal","text":"Your Shooting Phase"},"name":"Mark Targets","phase":"Your Shooting Phase","icon":"shooting","declare":"Pick an enemy unit that was targeted by this unit's shooting attacks this turn to be the target.","effect":"Add 1 to hit rolls for shooting attacks made by friendly **CITIES OF SIGMAR HUMAN** units that target that unit for the rest of the turn."},{"header":{"icon":"defensive","color":"gray","text":"Your Movement Phase"},"name":"Fortify Position","effect":"This unit establishes a fortified position and remains in a fortified position until it either uses a Move ability or is removed from the battlefield. While this unit is in a fortified position, subtract 1 from the Rend characteristic of weapons used for attacks that target this unit.","keywords":["Core"]}],"primaryKeywords":["Hero","Infantry"],"secondaryKeywords":["Order","Cities of Sigmar","Human"]}} />
+
+### Tahlia Vedra
+
+<Warscroll color={"#5B2928"} icon={""} unit={{"name":"Tahlia Vedra","subtitle":"Lioness of the Parch","faction":"Cities of Sigmar","stats":{"movement":"12\"","save":"4+","control":"5","health":"15"},"meleeWeapons":[{"name":"Weapons of Office","atk":"6","hit":"3+","wnd":"4+","rnd":"1","dmg":"2"},{"name":"💀 Infernadine's Leonine Jaws","atk":"3","hit":"3+","wnd":"2+","rnd":"2","dmg":"3","abilities":["Anti-Mnster(+1 Rend)","Companion"]},{"name":"Infernadine's Scorpid Stringer","atk":"2","hit":"4+","wnd":"2+","rnd":"3","dmg":"D3+3","abilities":["Companion"]}],"abilities":[{"header":{"icon":"damaged","color":"black","text":"Passive"},"name":"Battle Damaged","effect":"While this unit has 10 or more damage points, the Attacks characteristic of **Infernadine's Leonine Jaws** is 2."},{"header":{"icon":"special","color":"black","text":"Passive"},"name":"Unparalleled Tactician","effect":"When this unit uses an **OFFICAR'S ORDER** ability, you can pick an additional friendly **CITIES OF SIGMAR** unit wholly within 12\" of this unit to be a target of that ability."},{"header":{"icon":"rally","color":"red","text":"Once per Battle(Army), Any Combat Phase"},"name":"Lead from the Front","declare":"If this unit is in combat, pick up to 3 other friendly **CITIES OF SIGMAR** units wholly within 12\" of this unit to be the targets.","effect":"For each target, you can return a number of slain models to that unit with a combined Health characteristic of up to 3."},{"header":{"icon":"defensive","color":"red","text":"Once per Turn(Army), Any Combat Phase"},"name":"Paralysing Venom","declare":"Pick an enemy **MONSTER** that charged this turn and is in combat with this unit to be the target.","effect":"Roll a dice. On a 3+, the target has **STRIKE-LAST** for the rest of the turn."}],"primaryKeywords":["Warmaster","Unique","Hero","Monster","Fly","Ward(6+)"],"secondaryKeywords":["Order","Cities of Sigmar","Human"]}} />
+

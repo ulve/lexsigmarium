@@ -1,0 +1,402 @@
+{
+  "$schema": "../army.schema.json",
+  "title": "Flesh-Eater Courts",
+  "grandFaction": "Death",
+  "icon": "",
+  "color": "#45110B",
+  "spellLores": [
+    {
+      "name": "Manifested Insanity",
+      "spells": [
+        {
+          "name": "Summon Corpsemare Stampede",
+          "header": {
+            "icon": "special",
+            "color": "yellow",
+            "text": "Your Hero Phase"
+          },
+          "declare": "If there is not a friendly **Corpsemare Stampede** on the battlefield, pick a friendly **FLESH-EATER COURTS WIZARD** to cast this spell, then make a casting roll of 2D6.",
+          "effect": "Set up a **Corpsemare Stampede** wholly within 9\" of the caster, visible to them and more than 9\" from all enemy units.",
+          "castingValue": "7",
+          "keywords": [
+            "Spell",
+            "Summon"
+          ]
+        }
+      ]
+    }
+  ],
+  "battleFormations": [
+    {
+      "name": "Ghoul Patrol",
+      "abilities": [
+        {
+          "name": "Gore Splattered Hunters",
+          "header": {
+            "icon": "offensive",
+            "color": "red",
+            "text": "Passive"
+          },
+          "effect": "When players are alternating picking units to use a **FIGHT** ability, when it is your turn to pick a unit, you can pick 2 **Crypt Ghouls** units instead of 1. Neither unit can have **STRIKE-LAST.** Resolve the second FIGHT ability immediately after the first."
+        }
+      ]
+    }
+  ],
+  "battleTraits": [
+    {
+      "name": "Noble Deeds",
+      "header": {
+        "icon": "special",
+        "color": "black",
+        "text": "Passive"
+      },
+      "effect": "Each friendly **FLESH-EATER COURTS HERO** starts the battle with 0 **noble deeds points** and can have a maximum of 6 **noble deeds points** at once.\n\n Each time a friendly **FLESH-EATER COURTS HERO** uses a **FIGHT** ability, after that ability has been resolved, give that **HERO** a number of noble **deeds points equal** to the number of damage points inflicted by that ability. Do not count attacks made with **Companion** weapons.\n\n Each time a friendly **FLESH-EATER COURTS PRIEST HERO** uses a **PRAYER** ability and the prayer is answered, after that ability has been resolved, give that **HERO** 1 **noble deeds point.**\n\n Each time a friendly **FLESH-EATER COURTS WIZARD HERO** uses a **SPELL** ability and the spell is successfully cast, after that ability has been resolved, give that **HERO** 1 **noble deeds point.**"
+    },
+    {
+      "name": "Feeding Frenzy",
+      "header": {
+        "icon": "offensive",
+        "color": "red",
+        "text": "Passive"
+      },
+      "effect": "Add 1 to the Attacks characteristic of melee weapons, including **Companion** weapons, used by friendly **FLESH-EATER COURTS** units while they are wholly within 12\" of any friendly **HEROES** that have 6 **noble deeds points.**"
+    },
+    {
+      "name": "Muster Guard",
+      "header": {
+        "icon": "rally",
+        "color": "gray",
+        "text": "Your Movement Phase"
+      },
+      "declare": "Pick a friendly **COURTIER HERO** that has 1 or more **noble deeds points** to use this ability.",
+      "effect": "Spend either 1 or 2 of that **HERO'S** **noble deeds points.** If you spent 1 **noble deeds point,** return 1 slain model to a friendly **SERFS** unit wholly within 12\" of it. If you spent 2 **noble deeds points,** return 1 slain model to a friendly **KNIGHTS** unit wholly within 12\" of it."
+    },
+    {
+      "name": "Summon Loyal Subjects",
+      "header": {
+        "icon": "rally",
+        "color": "gray",
+        "text": "Your Movement Phase"
+      },
+      "declare": "Pick a friendly **ABHORRANT HERO** that has 6 **noble deeds points** to use this ability, then pick a friendly **SERFS** or **KNIGHTS** unit that has been destroyed to be the target.",
+      "effect": "Spend all of that **HERO'S** **noble deeds points.** Set up a replacement unit with half the number of models from the target unit (rounding up) wholly within 6\" of a battlefield edge and more than 9\" from all enemy units."
+    },
+    {
+      "name": "Royal Blood",
+      "header": {
+        "icon": "defensive",
+        "color": "yellow",
+        "text": "Once Per Turn (Army), Your Hero Phase"
+      },
+      "delcare": "Pick any number of friendly **ABHORRANTS** to be the targets.",
+      "effect": "**Heal (D3)** each target."
+    }
+  ],
+  "warscrolls": [
+    {
+      "name": "Cryptguard",
+      "faction": "Flesh-Eater Courts",
+      "stats": {
+        "movement": "6\"",
+        "save": "6+",
+        "control": "1",
+        "health": "1"
+      },
+      "meleeWeapons": [
+        {
+          "name": "Cursed Weapon",
+          "atk": "3",
+          "hit": "4+",
+          "wnd": "4+",
+          "rnd": "1",
+          "dmg": "1"
+        }
+      ],
+      "abilities": [
+        {
+          "name": "Armoury of Madness",
+          "header": {
+            "icon": "special",
+            "color": "red",
+            "text": "Reaction: You Declared a FIGHT ability for this unit"
+          },
+          "effect": "If any damage points inflicted by attacks made as part of that **FIGHT** ability are allocated to any enemy units, those enemy units cannot use commands until the start of your next turn."
+        },
+        {
+          "name": "Royal Bodyguard",
+          "header": {
+            "icon": "defensive",
+            "color": "green",
+            "text": "Passive"
+          },
+          "effect": "While any friendly **FLESH-EATER COURTS HEROES** are wholly within this unit's combat range, both this unit and those HeRoes have **WARD (5+).**"
+        }
+      ],
+      "primaryKeywords": [
+        "Infantry",
+        "Champion",
+        "Musician(1/10)",
+        "Standard Bearer(1/10)",
+        "Ward(6+)"
+      ],
+      "secondaryKeywords": [
+        "Death",
+        "Flesh-Eater Courts",
+        "Serfs"
+      ]
+    },
+    {
+      "name": "Marrowscroll Herald",
+      "faction": "Flesh-Eater Courts",
+      "stats": {
+        "movement": "6\"",
+        "save": "5+",
+        "control": "2",
+        "health": "5"
+      },
+      "meleeWeapons": [
+        {
+          "name": "Bone Scythe",
+          "atk": "5",
+          "hit": "4+",
+          "wnd": "3+",
+          "rnd": "1",
+          "dmg": "2"
+        }
+      ],
+      "abilities": [
+        {
+          "name": "The King's Entreaty",
+          "header": {
+            "icon": "special",
+            "color": "orange",
+            "text": "Once per Turn (Army), Any Charge Phase"
+          },
+          "declare": "Pick an enemy unit in combat with this unit to be the target.",
+          "effect": "Roll a dice. On a 3+, pick 1 of the following effects:\n\n_**Attack the Apostate!:**_ Friendly **FLESH-EATER COURTS** units in combat with the target have **STRIKE-FIRST** for the rest of the turn.\n\n _**Welcome the Disciple!:**_ The target has the **INFECTED** keyword for the rest of the battle. Each time your opponent declares a command, **SPELL** ability or **PRAYER** ability for an **INFECTED** unit, roll a dice. On a 5+:\n\n* If they declared a command, that command has no effect. The command still counts as having been used and the command points spent to use the command are still lost.\n* If they declared a **SPELL** or **PRAYER** ability, that spell or prayer fails."
+        },
+        {
+          "name": "Don't Shoot the Messenger",
+          "header": {
+            "icon": "defensive",
+            "color": "green",
+            "text": "Passive"
+          },
+          "effect": "While this unit is not in combat and is wholly within the combat ranges of 3 or more other friendly **FLESH-EATER COURTS INFANTRY** models, it is not visible to enemy units."
+        }
+      ],
+      "primaryKeywords": [
+        "Hero",
+        "Infantry",
+        "Ward(6+)"
+      ],
+      "secondaryKeywords": [
+        "Death",
+        "Flesh-Eater Courts",
+        "Courtier"
+      ]
+    },
+    {
+      "name": "Royal Zombie Dragon",
+      "faction": "Flesh-Eater Courts",
+      "stats": {
+        "movement": "12\"",
+        "save": "4+",
+        "control": "5",
+        "health": "14"
+      },
+      "rangedWeapons": [
+        {
+          "name": "Pestilential Breath",
+          "rng": "10\"",
+          "atk": "D6",
+          "hit": "2+",
+          "wnd": "4+",
+          "rnd": "1",
+          "dmg": "3",
+          "abilities": [
+            "Shoot in Combat",
+            "Companion"
+          ]
+        }
+      ],
+      "meleeWeapons": [
+        {
+          "name": "Draconic Maw",
+          "atk": "3",
+          "hit": "4+",
+          "wnd": "2+",
+          "rnd": "2",
+          "dmg": "3",
+          "abilities": [
+            "Companion"
+          ]
+        },
+        {
+          "name": "💀 Draconic Claws",
+          "atk": "7",
+          "hit": "4+",
+          "wnd": "2+",
+          "rnd": "1",
+          "dmg": "2",
+          "abilities": [
+            "Companion"
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "name": "Battle Damaged",
+          "header": {
+            "icon": "damaged",
+            "color": "black",
+            "text": "Passive"
+          },
+          "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its **Draconic Claws** is 5."
+        },
+        {
+          "name": "Vantage Point",
+          "header": {
+            "icon": "special",
+            "color": "black",
+            "text": "Deployment Phase"
+          },
+          "declare": "Pick this unit if it has not been deployed.",
+          "effect": "Set up this unit in reserve high above the battlefield. It has now been deployed.",
+          "keywords": [
+            "Deploy"
+          ]
+        },
+        {
+          "name": "Loathsome Descent",
+          "header": {
+            "icon": "movement",
+            "color": "gray",
+            "text": "Your Movement Phase"
+          },
+          "declare": "Pick this unit if it is **high above the battlefield.**",
+          "effect": "Set up this unit anywhere on the battlefield more than 9\" from all enemy units."
+        },
+        {
+          "name": "Soaring Terror",
+          "header": {
+            "icon": "special",
+            "color": "red",
+            "text": "Once Per Turn (Army), Any Combat Phase"
+          },
+          "effect": "If this unit charged this turn, roll a dice. On a 3+, this unit can move 2D6\". It can pass through the combat ranges of enemy units but must end that move in combat. Then, pick an enemy unit that this unit passed across during that move. Inflict D3 mortal damage on that enemy unit.",
+          "keywords": [
+            "Rampage"
+          ]
+        }
+      ],
+      "primaryKeywords": [
+        "Monster",
+        "Fly",
+        "Ward(6+)"
+      ],
+      "secondaryKeywords": [
+        "Death",
+        "Flesh-Eater Courts"
+      ]
+    },
+    {
+      "name": "Ushoran",
+      "subtitle": "Mortarch of Delusion",
+      "faction": "Flesh-Eater Courts",
+      "stats": {
+        "movement": "10\"",
+        "save": "4+",
+        "control": "5",
+        "health": "16"
+      },
+      "meleeWeapons": [
+        {
+          "name": "Sceptre of the Carrion King",
+          "atk": "4",
+          "hit": "3+",
+          "wnd": "2+",
+          "rnd": "2",
+          "dmg": "D3+3"
+        },
+        {
+          "name": "💀 Monstrous Talons",
+          "atk": "8",
+          "hit": "3+",
+          "wnd": "3+",
+          "rnd": "1",
+          "dmg": "2"
+        }
+      ],
+      "abilities": [
+        {
+          "name": "Battle Damaged",
+          "header": {
+            "icon": "damaged",
+            "color": "black",
+            "text": "Passive"
+          },
+          "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its **Monstrous Talons** is 6."
+        },
+        {
+          "name": "The Carrion King",
+          "header": {
+            "icon": "special",
+            "color": "red",
+            "text": "Passive"
+          },
+          "effect": "While this unit has 6 **noble deeds points,** the effect of the 'Feeding Frenzy' ability applies to friendly **FLESH-EATER COURTS** units while they are wholly within 24\" of this unit instead of 12\"."
+        },
+        {
+          "name": "Glimpse of Delusion",
+          "header": {
+            "icon": "offensive",
+            "color": "yellow",
+            "text": "Your Hero Phase"
+          },
+          "declare": "Pick a visible enemy model within 18\" of this unit to be the target, pick another enemy unit within the target's combat range to be the victim, then make a casting roll of 2D6.",
+          "effect": "Pick 1 of the target's melee weapons. Immediately resolve combat attacks made with that weapon against the victim.",
+          "castingValue": "7",
+          "keywords": [
+            "Spell"
+          ]
+        },
+        {
+          "name": "Shroudcage Fragment",
+          "header": {
+            "icon": "defensive",
+            "color": "red",
+            "text": "Once Per Turn (Army), Any Combat Phase"
+          },
+          "declare": "Pick up to 3 enemy units in combat with this unit to be the targets.",
+          "effect": "Roll a dice for each target. If the roll exceeds the target's Control characteristic, the target has **STRIKE-LAST** for the rest of the turn.",
+          "keywords": [
+            "Rampage"
+          ]
+        },
+        {
+          "name": "Epicentre of Delusion",
+          "header": {
+            "icon": "special",
+            "color": "yellow",
+            "text": "Your Hero Phase"
+          },
+          "effect": "Pick 1 of the following effects to apply until the start of your next turn:\n\n _**The Royal Hunt:**_ Add 1 to wound rolls for attacks made by friendly **FLESH-EATER COURTS** units that target a **MONSTER.**\n\n _**Crusading Army:**_ Add 1 to run rolls and charge rolls for friendly **FLESH-EATER COURTS** units.\n\n _**Defenders of the Realm:**_ Add 1 to save rolls for friendly **FLESH-EATER COURTS** units while they are contesting an objective you control.\n\n _**The Grand Tournament:**_ Add 1 to hit rolls for attacks made by other friendly **FLESH-EATER COURTS HEROES** if they charged in the same turn."
+        }
+      ],
+      "primaryKeywords": [
+        "Warmaster",
+        "Unique",
+        "Hero",
+        "Monster",
+        "Wizard(2)",
+        "Ward(5+)"
+      ],
+      "secondaryKeywords": [
+        "Death",
+        "Flesh-Eater Courts",
+        "Abhorrant"
+      ]
+    }
+  ]
+}
