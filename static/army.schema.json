@@ -4,57 +4,6 @@
   "title": "army",
   "description": "An AoS 4 Army for Lexsigmarium.net",
   "definitions": {
-    "spellLore": {
-      "type": "object",
-      "properties": {
-        "name": {
-          "type": "string",
-          "description": "The name of the spell lore"
-        },
-        "spells": {
-          "type": "array",
-          "description": "An array of spells",
-          "items": {
-            "type": "object",
-            "$ref": "#/definitions/ability"
-          }
-        }
-      }
-    },
-    "prayerLore": {
-      "type": "object",
-      "properties": {
-        "name": {
-          "type": "string",
-          "description": "The name of the prayer lore."
-        },
-        "prayers": {
-          "type": "array",
-          "description": "The Prayers",
-          "items": {
-            "type": "object",
-            "$ref": "#definitions/ability"
-          }
-        }
-      }
-    },
-    "artefactLore": {
-      "type": "object",
-      "properties": {
-        "name": {
-          "type": "string",
-          "description": "The Artefacts",
-          "artefacts": {
-            "type": "array",
-            "description": "The Artefacts",
-            "items": {
-              "type": "object",
-              "$ref": "#definitions/ability"
-            }
-          }
-        }
-      }
-    },
     "note": {
       "type": "object",
       "properties": {
@@ -146,6 +95,57 @@
         "commandValue": {
           "type": "string",
           "description": "The command value of the ability"
+        }
+      }
+    },
+    "spellLore": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string",
+          "description": "The name of the spell lore"
+        },
+        "spells": {
+          "type": "array",
+          "description": "An array of spells",
+          "items": {
+            "type": "object",
+            "$ref": "#/definitions/ability"
+          }
+        }
+      }
+    },
+    "prayerLore": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string",
+          "description": "The name of the prayer lore."
+        },
+        "prayers": {
+          "type": "array",
+          "description": "The Prayers",
+          "items": {
+            "type": "object",
+            "$ref": "#definitions/ability"
+          }
+        }
+      }
+    },
+    "artefactLore": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string",
+          "description": "The Artefacts",
+          "artefacts": {
+            "type": "array",
+            "description": "The Artefacts",
+            "items": {
+              "type": "object",
+              "$ref": "#definitions/ability"
+            }
+          }
         }
       }
     },

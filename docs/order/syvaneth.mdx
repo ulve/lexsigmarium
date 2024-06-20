@@ -1,0 +1,61 @@
+---
+title: Syvaneth
+grandFaction: Order
+---
+
+import Warscroll from '@site/src/components/Warscroll';
+import WarscrollAbility from '@site/src/components/WarscrollAbility';
+
+## Battle Traits
+
+### Endless Growth
+
+<WarscrollAbility ability={{"name":"Endless Growth","header":{"icon":"defensive","color":"eggplant","text":"Once Per Turn (Army), End of Any Turn"},"declare":"Pick any number of friendly **SYLVANETH** units wholly within 6\" of a friendly **Awakened Wyldwood** to be the targets.","effect":"**Heal (D3)** each target."}} />
+
+### Strike and Fade
+
+<WarscrollAbility ability={{"name":"Strike and Fade","header":{"icon":"movement","color":"eggplant","text":"Once Per Turn (Army), End of Any Turn"},"declare":"Pick a friendly **SYLVANETH** unit that is in combat and is wholly within 6\" of a friendly **Awakened Wyldwood** to use this ability.","effect":"Remove that unit from the battlefield and set it up again on the battlefield more than 9\" from all enemy units and wholly within 6\" of a different friendly **Awakened Wyldwood**.","keywords":["Core"]}} />
+
+### Walk the Hidden paths
+
+<WarscrollAbility ability={{"name":"Walk the Hidden paths","header":{"icon":"movement","color":"gray","text":"Once Per Turn (Army), Your Movement Phase"},"declare":"Pick a friendly **SYLVANETH** unit that is not in combat and is wholly within 6\" of a friendly **Awakened Wyldwood** to use this ability.","effect":"Remove that unit from the battlefield and set it up again on the battlefield more than 9\" from all enemy units and wholly within 6\" of a different friendly **Awakened Wyldwood**.","keywords":["Core"]}} />
+
+
+
+## Battle Formations
+
+### Lords of the Clan
+
+<WarscrollAbility ability={{"name":"Healing Song","header":{"icon":"defensive","color":"green","text":"Passive"},"effect":"When using the 'Endless Growth' ability, friendly **SYLVANETH MONSTERS** can **Heal (3)** instead of **Heal (D3)**."}} />
+
+
+
+## Arcana and Incatations
+
+### Spell Lores
+#### Lore of the Deepwood
+
+<WarscrollAbility ability={{"name":"Treesong","header":{"icon":"special","color":"yellow","text":"Your Hero Phase"},"declare":"Pick a friendly **SYLVANETH WIZARD** to cast this spell, then make a casting roll of 2D6.","effect":"If there are fewer than 3 friendly **Awakened Wyldwoods** on the battlefield, you can set up an **Awakened Wyldwood** wholly within 18\" of the caster and more than 3\" from all enemy units, objectives and other terrain features. If there are already 3 friendly **Awakened Wyldwoods** on the battlefield, Heal (3) each friendly **Awakened Wyldwood**.","castingValue":"6","keywords":["Spell","Unlimited"]}} />
+
+
+
+
+
+## Warscrolls
+
+### Alarielle the Everqueen
+
+<Warscroll color={"#3A6146"} icon={"syvlaneth.png"} unit={{"name":"Alarielle the Everqueen","faction":"Sylvaneth","stats":{"movement":"14\"","save":"3+","control":"5","health":"16"},"rangedWeapons":[{"name":"Spear of Kurnoth","rng":"12\"","atk":"1","hit":"2+","wnd":"3+","rnd":"2","dmg":"4"}],"meleeWeapons":[{"name":"Spear of Kurnoth","atk":"5","hit":"3+","wnd":"3+","rnd":"2","dmg":"2"},{"name":"💀 Wardroth's Great Antlers","atk":"6","hit":"4+","wnd":"2+","rnd":"2","dmg":"4","abilities":["Companion"]}],"abilities":[{"name":"Battle Damaged","header":{"icon":"damaged","color":"black","text":"Passive"},"effect":"While this unit has 10 or more damage points, the Attacks characteristic of its **Wardroth's Great Antlers** is 4."},{"name":"Lifebloom","header":{"icon":"special","color":"yellow","text":"Any Hero Phase"},"effect":"Pick 1 of the following effects:\n\n * Add 1 to casting rolls for this unit for the rest of the turn.\n * **Heal (2D3)** this unit."},{"name":"Metamorphosis","header":{"icon":"special","color":"yellow","text":"Your Hero Phase"},"declare":"Pick a visible enemy unit within 12\" of this unit to be the target, then make a casting roll of 2D6.","effect":"Inflict 2D3 mortal damage on the target. If the target is destroyed by this spell, you can immediately resolve the effect of the 'Treesong' spell as if this unit had successfully cast it.","castingValue":"7","keywords":["Spell"]},{"name":"Rite of Life","header":{"icon":"rally","color":"gray","text":"Your Movement Phase"},"declare":"Pick a friendly **SYLVANETH** unit that has been destroyed to be the target. This unit can use this ability if it has been destroyed, but if it does, this unit must be the target.","effect":"Roll a dice. On a 4+, set up a replacement unit with half the number of models from the target unit (rounding up) wholly within 9\" of a friendly **Awakened Wyldwood** and more than 9\" from all enemy units. If the target was a **MONSTER**, allocate 8 damage points to the replacement unit (ward rolls cannot be made for those damage points)."},{"name":"Living Battering Ram","header":{"icon":"offensive","color":"orange","text":"Once Per Turn (Army), Any Charge Phase"},"declare":"If this unit charged this turn, pick an enemy **INFANTRY** unit within 1\" of it to be the target.","effect":"Roll a dice. On a 3+, inflict an amount of mortal damage on the target equal to the roll.","keywords":["Rampage"]}],"primaryKeywords":["Warmaster","Unique","Hero","Monster","Wizard(3)","Fly","Ward(6+)"],"secondaryKeywords":["Order","Sylvaneth"]}} />
+
+### Spirit of Durthu
+
+<Warscroll color={"#3A6146"} icon={"syvlaneth.png"} unit={{"name":"Spirit of Durthu","faction":"Sylvaneth","stats":{"movement":"5\"","save":"3+","control":"5","health":"14"},"rangedWeapons":[{"name":"Verdant Blast","rng":"12\"","atk":"5","hit":"4+","wnd":"3+","rnd":"1","dmg":"2"}],"meleeWeapons":[{"name":"💀 Guardian Sword","atk":"4","hit":"3+","wnd":"2+","rnd":"2","dmg":"5","abilities":["Anti-Monster (+1 Rend)"]},{"name":"Massive Impaling Talons","atk":"2","hit":"3+","wnd":"2+","rnd":"2","dmg":"3","abilities":["Crit (Mortal)"]}],"abilities":[{"name":"Battle Damaged","header":{"icon":"damaged","color":"black","text":"Passive"},"effect":"While this unit has 10 or more damage points, the Attacks characteristic of its **Guardian Sword** is 3."},{"name":"Titanic Duel","header":{"icon":"defensive","color":"red","text":"Once Per Turn (Army), Any Combat Phase"},"declare":"Pick an enemy **MONSTER** in combat with this unit to be the target.","effect":"Roll a dice. On a 3+, subtract 1 from the Attacks characteristic of the target's melee weapons for the rest of the turn.","keywords":["Rampage"]},{"name":"Wrathful Guardian","header":{"icon":"offensive","color":"red","text":"Passive"},"effect":"Add 1 to hit rolls for this unit's combat attacks while the target is within 3\" of an **Awakened Wyldwood**."}],"primaryKeywords":["Hero","Monster"],"secondaryKeywords":["Order","Sylvaneth"]}} />
+
+### Spite-Revenants
+
+<Warscroll color={"#3A6146"} icon={"syvlaneth.png"} unit={{"name":"Spite-Revenants","faction":"Sylvaneth","stats":{"movement":"5\"","save":"5+","control":"1","health":"2"},"meleeWeapons":[{"name":"Cruel Talons and Fangs","atk":"3","hit":"3+","wnd":"4+","rnd":"-","dmg":"1","abilities":["Crit(Mortal)"]}],"abilities":[{"name":"Unbridled Malice","header":{"icon":"special","color":"red","text":"Any Combat Phase"},"declare":"Pick an enemy **INFANTRY** unit in combat with this unit to be the target.","effect":"Roll a dice. On a 3+, the target cannot use commands for the rest of the turn."}],"primaryKeywords":["Infantry","Champion"],"secondaryKeywords":["Order","Sylvaneth"]}} />
+
+### Spiterider Lancers
+
+<Warscroll color={"#3A6146"} icon={"syvlaneth.png"} unit={{"name":"Spiterider Lancers","faction":"Sylvaneth","stats":{"movement":"12\"","save":"4+","control":"2","health":"5"},"meleeWeapons":[{"name":"Spiterider Lance","atk":"3","hit":"3+","wnd":"4+","rnd":"1","dmg":"1","abilities":["Charge (+1 Damage), Anti-Cavalry (+1 Rend)"]},{"name":"Sharp Mandibles","atk":"3","hit":"4+","wnd":"3+","rnd":"1","dmg":"1","abilities":["Charge (+1 Damage)","Companion"]}],"abilities":[{"name":"Forest Fighters","header":{"icon":"special","color":"black","text":"Passive"},"effect":"This unit has a coherency range of 2\"."},{"name":"Thrumming With Life","header":{"icon":"defensive","color":"eggplant","text":"End of Any Turn"},"effect":"**Heal (3)** this unit."},{"name":"Descent of the Spiteriders","header":{"icon":"offensive","color":"red","text":"Any Combat Phase"},"effect":"If this unit charged this turn, roll a dice. On a 3+, this unit has **STRIKE-FIRST** for the rest of the turn."}],"primaryKeywords":["Cavalry","Champion","Musician(1/3)","Standard Bearer(1/3)","Fly"],"secondaryKeywords":["Order","Sylvaneth"]}} />
+
