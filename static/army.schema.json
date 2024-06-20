@@ -21,6 +21,52 @@
         }
       }
     },
+    "prayerLore": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string",
+          "description": "The name of the prayer lore."
+        },
+        "prayers": {
+          "type": "array",
+          "description": "The Prayers",
+          "items": {
+            "type": "object",
+            "$ref": "#definitions/ability"
+          }
+        }
+      }
+    },
+    "artefactLore": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string",
+          "description": "The Artefacts",
+          "artefacts": {
+            "type": "array",
+            "description": "The Artefacts",
+            "items": {
+              "type": "object",
+              "$ref": "#definitions/ability"
+            }
+          }
+        }
+      }
+    },
+    "note": {
+      "type": "object",
+      "properties": {
+        "title": {
+          "type": "string"
+        },
+        "text": {
+          "type": "string",
+          "description": "The text. Markdown allowed"
+        }
+      }
+    },
     "header": {
       "type": "object",
       "properties": {
@@ -69,6 +115,10 @@
         "name": {
           "type": "string",
           "description": "The name of the ability"
+        },
+        "note": {
+          "type": "object",
+          "$ref": "#/definitions/note"
         },
         "declare": {
           "type": "string",
@@ -337,12 +387,13 @@
         "$ref": "#/definitions/battleFormation"
       }
     },
-    "artefacts": {
-      "type": "array",
-      "description": "An array of artefacts for the army",
-      "items": {
-        "type": "object",
-        "$ref": "#/definitions/ability"
+    "artefactLores": {
+      "name": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "$ref": "#definitions/artefactLore"
+        }
       }
     },
     "spellLores": {
@@ -353,12 +404,12 @@
         "$ref": "#/definitions/spellLore"
       }
     },
-    "prayers": {
+    "prayerLores": {
       "type": "array",
       "description": "An array of prayers for the army",
       "items": {
         "type": "object",
-        "$ref": "#/definitions/prayers"
+        "$ref": "#/definitions/prayerLore"
       }
     },
     "warscrolls": {
@@ -371,4 +422,3 @@
     }
   }
 }
-

@@ -46,15 +46,8 @@
           "effect": "Roll a D3 for each target. On a 2+, inflict an amount of mortal damage on the target equal to the roll."
         }
       ],
-      "primaryKeywords": [
-        "Infantry",
-        "Champion"
-      ],
-      "secondaryKeywords": [
-        "Order",
-        "Stormcast Eternals",
-        "Warrior Chamber"
-      ]
+      "primaryKeywords": ["Infantry", "Champion"],
+      "secondaryKeywords": ["Order", "Stormcast Eternals", "Warrior Chamber"]
     },
     {
       "name": "Knight-Arcanum",
@@ -73,9 +66,7 @@
           "wnd": "3+",
           "rnd": "1",
           "dmg": "D3",
-          "abilities": [
-            "Anti-Manifestation(+1 Rend)"
-          ]
+          "abilities": ["Anti-Manifestation(+1 Rend)"]
         }
       ],
       "abilities": [
@@ -89,15 +80,8 @@
           "effect": "Add 1 to casting rolls for this unit when it uses a **SUMMON** ability and add 1 to banishment rolls for this unit. Enemy **MANIFESTATIONS** cannot pass through or end any move within this unit's combat range unless they started that move within this unit's combat range. This unit has **WARD (4+)** against mortal damage inflicted by **MANIFESTATIONS.**"
         }
       ],
-      "primaryKeywords": [
-        "Infantry",
-        "Champion"
-      ],
-      "secondaryKeywords": [
-        "Order",
-        "Stormcast Eternals",
-        "Warrior Chamber"
-      ]
+      "primaryKeywords": ["Infantry", "Champion"],
+      "secondaryKeywords": ["Order", "Stormcast Eternals", "Warrior Chamber"]
     },
     {
       "name": "Yndrasta",
@@ -118,9 +102,7 @@
           "wnd": "2+",
           "rnd": "2",
           "dmg": "4",
-          "abilities": [
-            "Anti-Monster(+1 Rend)"
-          ]
+          "abilities": ["Anti-Monster(+1 Rend)"]
         }
       ],
       "meleeWeapons": [
@@ -131,9 +113,7 @@
           "wnd": "2+",
           "rnd": "2",
           "dmg": "3",
-          "abilities": [
-            "Anti-Monster(+1 Rend)"
-          ]
+          "abilities": ["Anti-Monster(+1 Rend)"]
         },
         {
           "name": "Blade of the High Heavens",
@@ -181,10 +161,7 @@
         "Fly",
         "Ward(5+)"
       ],
-      "secondaryKeywords": [
-        "Order",
-        "Stormcast Eternals"
-      ]
+      "secondaryKeywords": ["Order", "Stormcast Eternals"]
     },
     {
       "name": "Krondys",
@@ -205,9 +182,7 @@
           "wnd": "3+",
           "rnd": "2",
           "dmg": "D3+3",
-          "abilities": [
-            "Shoot in Combat"
-          ]
+          "abilities": ["Shoot in Combat"]
         }
       ],
       "meleeWeapons": [
@@ -218,9 +193,7 @@
           "wnd": "2+",
           "rnd": "2",
           "dmg": "4",
-          "abilities": [
-            "Anti-Infantry(+1 Rend)"
-          ]
+          "abilities": ["Anti-Infantry(+1 Rend)"]
         },
         {
           "name": "Drake-lord's Talons",
@@ -270,9 +243,7 @@
           "declare": "Pick a visible enemy unit within 18\" of the caster to be the target, then make a casting roll of 2D6.",
           "effect": "Pick 1 of the following effects to apply to the target until the start of your next turn:\n\n _**Blinding Gales:**_ Subtract 1 from hit rolls for the target's attacks.\n\n _**Meteor-hail:**_ Subtract 1 from the Rend characteristic of the target's weapons.\n\n _**Flash-freezing Blizzard:**_ Subtract 1 from save rolls for the target.",
           "castingValue": "8",
-          "keywords": [
-            "Spell"
-          ]
+          "keywords": ["Spell"]
         }
       ],
       "primaryKeywords": [
@@ -283,10 +254,7 @@
         "wizard(2)",
         "Fly"
       ],
-      "secondaryKeywords": [
-        "Order",
-        "Stormcast Eternals"
-      ]
+      "secondaryKeywords": ["Order", "Stormcast Eternals"]
     },
     {
       "name": "Liberators",
@@ -305,9 +273,7 @@
           "wnd": "3+",
           "rnd": "1",
           "dmg": "1",
-          "abilities": [
-            "Crit(Mortal)"
-          ]
+          "abilities": ["Crit(Mortal)"]
         },
         {
           "name": "Grandhammer",
@@ -316,9 +282,7 @@
           "wnd": "3+",
           "rnd": "1",
           "dmg": "2",
-          "abilities": [
-            "Crit(Mortal)"
-          ]
+          "abilities": ["Crit(Mortal)"]
         }
       ],
       "options": "Each model in this unit is armed with a Warhammer.\n\n* 1/5 models can replace their Warhammer with a Grandhammer.\n* The champion cannot replace their weapon.",
@@ -333,15 +297,8 @@
           "effect": "Add 3 to this unit's control score while it is contesting an objective wholly within friendly territory."
         }
       ],
-      "primaryKeywords": [
-        "Infantry",
-        "Champion"
-      ],
-      "secondaryKeywords": [
-        "Order",
-        "Stormcast Eternals",
-        "Warrior Chamber"
-      ]
+      "primaryKeywords": ["Infantry", "Champion"],
+      "secondaryKeywords": ["Order", "Stormcast Eternals", "Warrior Chamber"]
     },
     {
       "name": "Stormstrike Chariot",
@@ -361,10 +318,7 @@
           "wnd": "3+",
           "rnd": "1",
           "dmg": "1",
-          "abilities": [
-            "Anti-Infantry(+1 Rend)",
-            "Crit(2 Hits)"
-          ]
+          "abilities": ["Anti-Infantry(+1 Rend)", "Crit(2 Hits)"]
         }
       ],
       "meleeWeapons": [
@@ -375,9 +329,7 @@
           "wnd": "3+",
           "rnd": "1",
           "dmg": "1",
-          "abilities": [
-            "Charge(+1 Damage)"
-          ]
+          "abilities": ["Charge(+1 Damage)"]
         },
         {
           "name": "Tempestuous Spear",
@@ -394,9 +346,7 @@
           "wnd": "3+",
           "rnd": "1",
           "dmg": "1",
-          "abilities": [
-            "Companion"
-          ]
+          "abilities": ["Companion"]
         }
       ],
       "options": "This unit is armed with a Stormstrike Axe, Gryph-chargers' Razor Beaks and 1 of the following options:\n\n* Tempestuous Spear\n* Great Stormbow",
@@ -421,14 +371,8 @@
           "effect": "When this unit uses the 'Power Through' command, inflict an additional D3 mortal damage on the target and add D6\" to the distance this unit can move as part of that ability."
         }
       ],
-      "primaryKeywords": [
-        "War Machine"
-      ],
-      "secondaryKeywords": [
-        "Order",
-        "Stormcast Eternals",
-        "Warrior Chamber"
-      ]
+      "primaryKeywords": ["War Machine"],
+      "secondaryKeywords": ["Order", "Stormcast Eternals", "Warrior Chamber"]
     },
     {
       "name": "Vindictors",
@@ -447,9 +391,7 @@
           "wnd": "3+",
           "rnd": "1",
           "dmg": "1",
-          "abilities": [
-            "Anti-Charge(+1 Rend)"
-          ]
+          "abilities": ["Anti-Charge(+1 Rend)"]
         }
       ],
       "abilities": [
@@ -463,16 +405,8 @@
           "effect": "If this unit did not charge this turn and is in combat with an enemy unit that charged this turn, roll a dice. On a 4+, this unit has **STRIKE-FIRST** for the rest of the turn."
         }
       ],
-      "primaryKeywords": [
-        "Infantry",
-        "Champion",
-        "Standard Bearer(1/5)"
-      ],
-      "secondaryKeywords": [
-        "Order",
-        "Stormcast Eternals",
-        "Warrior Chamber"
-      ]
+      "primaryKeywords": ["Infantry", "Champion", "Standard Bearer(1/5)"],
+      "secondaryKeywords": ["Order", "Stormcast Eternals", "Warrior Chamber"]
     }
   ],
   "battleTraits": [
@@ -485,9 +419,7 @@
       },
       "declare": "If there are more friendly **STORMCAST ETERNALS** units on the battlefield than there are set up in reserve, pick a friendly **STORMCAST ETERNALS** unit that has not been deployed.",
       "effect": "Set up that unit in reserve **in the Celestial Realm.** It has now been deployed.",
-      "keywords": [
-        "Deploy"
-      ]
+      "keywords": ["Deploy"]
     },
     {
       "name": "Scions of the Storm",
@@ -538,7 +470,7 @@
       ]
     }
   ],
-  "prayers": [
+  "prayerLores": [
     {
       "name": "Prayers of the Stormhosts",
       "prayers": [
@@ -552,11 +484,10 @@
           "declare": "Pick a friendly **STORMCAST ETERNALS PRIEST** to chant this prayer, pick a visible friendly **STORMCAST ETERNALS INFANTRY** unit wholly within 12\" of them to be the target, then make a chanting roll of D6.",
           "effect": "",
           "chantingValue": "6",
-          "keywords": [
-            "Prayer"
-          ]
+          "keywords": ["Prayer"]
         }
       ]
     }
   ]
 }
+

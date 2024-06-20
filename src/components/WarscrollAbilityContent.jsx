@@ -10,11 +10,20 @@ function WarscrollAbilityContent({ ability }) {
   return (
     <div className={`ability-content ${border}`}>
       <div className="ability-name">{ability.name}</div>
+      {ability.note && (
+        <ReactMarkdown
+          remarkPlugins={[remarkGfm]}
+        >{`**${ability.note.title}** ${ability.note.text}`}</ReactMarkdown>
+      )}
       {ability.declare && (
-        <ReactMarkdown remarkPlugins={[remarkGfm]}>{`**Declare:** ${ability.declare}`}</ReactMarkdown>
+        <ReactMarkdown
+          remarkPlugins={[remarkGfm]}
+        >{`**Declare:** ${ability.declare}`}</ReactMarkdown>
       )}
       {ability.effect && (
-        <ReactMarkdown remarkPlugins={[remarkGfm]}>{`**Effect:** ${ability.effect}`}</ReactMarkdown>
+        <ReactMarkdown
+          remarkPlugins={[remarkGfm]}
+        >{`**Effect:** ${ability.effect}`}</ReactMarkdown>
       )}
       {ability.keywords && (
         <div className={`ability-keywords ${outline}`}>

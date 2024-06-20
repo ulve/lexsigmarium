@@ -80,7 +80,7 @@ function printArcana(army) {
 
   if (
     (army.spellLores && army.spellLores.length > 0) ||
-    (army.prayers && army.prayers.length > 0)
+    (army.prayerLores && army.prayerLores.length > 0)
   ) {
     str += `## Arcana and Incatations\n\n`;
   }
@@ -93,18 +93,20 @@ function printArcana(army) {
         const s = JSON.stringify(spell);
         str += `<WarscrollAbility ability={${s}} />\n\n`;
       });
+      str += "\n\n";
     });
     str += `\n\n`;
   }
 
-  if (army.prayers && army.prayers.length > 0) {
+  if (army.prayerLores && army.prayerLores.length > 0) {
     str += "### Prayers\n\n";
-    army.prayers.forEach((prayer) => {
+    army.prayerLores.forEach((prayer) => {
       str += `#### ${prayer.name}\n\n`;
       prayer.prayers.forEach((prayer) => {
         const p = JSON.stringify(prayer);
         str += `<WarscrollAbility ability={${p}} />\n\n`;
       });
+      str += "\n\n";
     });
     str += `\n\n`;
   }
@@ -115,13 +117,18 @@ function printArcana(army) {
 function printArtefacts(army) {
   let str = "";
 
-  if (army.artefacts && army.artefacts.length > 0) {
+  if (army.artefactLores && army.artefactLores.length > 0) {
     str += `## Artefacts\n\n`;
 
-    army.artefacts.forEach((artefact) => {
-      const a = JSON.stringify(artefact);
-      str += `### ${artefact.name}\n\n`;
-      str += `<WarscrollAbility ability={${a}} />\n\n`;
+    army.artefactLores.forEach((artefactLore) => {
+      str += `### ${artefactLore.name}\n\n`;
+
+      artefactLore.artefacts.forEach((artefact) => {
+        const a = JSON.stringify(artefact);
+        str += `#### ${artefact.name}\n\n`;
+        str += `<WarscrollAbility ability={${a}} />\n\n`;
+      });
+      str += "\n\n";
     });
     str += `\n\n`;
   }
