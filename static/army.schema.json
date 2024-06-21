@@ -1,9 +1,9 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://example.com/army.schema.json",
+  "$id": "https://raw.githubusercontent.com/ulve/lexsigmarium/main/static/army.schema.json",
   "title": "army",
   "description": "An AoS 4 Army for Lexsigmarium.net",
-  "definitions": {
+  "$defs": {
     "note": {
       "type": "object",
       "properties": {
@@ -58,7 +58,7 @@
       "properties": {
         "header": {
           "type": "object",
-          "$ref": "#/definitions/header",
+          "$ref": "#/$defs/header",
           "description": "The header the an ability"
         },
         "name": {
@@ -67,7 +67,7 @@
         },
         "note": {
           "type": "object",
-          "$ref": "#/definitions/note"
+          "$ref": "#/$defs/note"
         },
         "declare": {
           "type": "string",
@@ -110,7 +110,7 @@
           "description": "An array of spells",
           "items": {
             "type": "object",
-            "$ref": "#/definitions/ability"
+            "$ref": "#/$defs/ability"
           }
         }
       }
@@ -127,7 +127,7 @@
           "description": "The Prayers",
           "items": {
             "type": "object",
-            "$ref": "#definitions/ability"
+            "$ref": "#/$defs/ability"
           }
         }
       }
@@ -143,7 +143,7 @@
             "description": "The Artefacts",
             "items": {
               "type": "object",
-              "$ref": "#definitions/ability"
+              "$ref": "#/$defs/ability"
             }
           }
         }
@@ -272,14 +272,14 @@
         "stats": {
           "type": "object",
           "description": "The main stats for the warscroll",
-          "$ref": "#/definitions/stats"
+          "$ref": "#/$defs/stats"
         },
         "meleeWeapons": {
           "type": "array",
           "description": "An array of melee weapons",
           "items": {
             "type": "object",
-            "$ref": "#/definitions/meleeWeapon"
+            "$ref": "#/$defs/meleeWeapon"
           }
         },
         "rangedWeapons": {
@@ -287,7 +287,7 @@
           "description": "An array of ranged weapons",
           "items": {
             "type": "object",
-            "$ref": "#/definitions/rangedWeapon"
+            "$ref": "#/$defs/rangedWeapon"
           }
         },
         "options": {
@@ -299,7 +299,7 @@
           "description": "An array of abilities",
           "items": {
             "type": "object",
-            "$ref": "#/definitions/ability"
+            "$ref": "#/$defs/ability"
           }
         },
         "primaryKeywords": {
@@ -330,7 +330,7 @@
           "description": "An array of prayers",
           "items": {
             "type": "object",
-            "$ref": "#/definitions/ability"
+            "$ref": "#/$defs/ability"
           }
         }
       }
@@ -347,7 +347,7 @@
           "description": "An array of abilities",
           "items": {
             "type": "object",
-            "$ref": "#/definitions/ability"
+            "$ref": "#/$defs/ability"
           }
         }
       }
@@ -376,7 +376,7 @@
       "description": "An array of battle traits for the army",
       "items": {
         "type": "object",
-        "$ref": "#/definitions/ability"
+        "$ref": "#/$defs/ability"
       }
     },
     "battleFormations": {
@@ -384,7 +384,7 @@
       "description": "An array of battle formations for the army",
       "items": {
         "type": "object",
-        "$ref": "#/definitions/battleFormation"
+        "$ref": "#/$defs/battleFormation"
       }
     },
     "artefactLores": {
@@ -392,7 +392,7 @@
         "type": "array",
         "items": {
           "type": "object",
-          "$ref": "#definitions/artefactLore"
+          "$ref": "#$defs/artefactLore"
         }
       }
     },
@@ -401,7 +401,7 @@
       "description": "An array of spell lores for the army",
       "items": {
         "type": "object",
-        "$ref": "#/definitions/spellLore"
+        "$ref": "#/$defs/spellLore"
       }
     },
     "prayerLores": {
@@ -409,7 +409,7 @@
       "description": "An array of prayers for the army",
       "items": {
         "type": "object",
-        "$ref": "#/definitions/prayerLore"
+        "$ref": "#/$defs/prayerLore"
       }
     },
     "warscrolls": {
@@ -417,7 +417,7 @@
       "description": "An array of warscrolls for the army",
       "items": {
         "type": "object",
-        "$ref": "#/definitions/warscroll"
+        "$ref": "#/$defs/warscroll"
       }
     }
   }
