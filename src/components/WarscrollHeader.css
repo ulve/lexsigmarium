@@ -7,7 +7,7 @@
 }
 
 .stat-card {
-    width: 9rem;
+    width: 7rem;
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
@@ -30,6 +30,6 @@
     font-family: "Cinzel", serif;
     font-optical-sizing: auto;
     font-weight: 600;
-    font-size: 1.75rem;
+    font-size: 1.5rem;
     text-align: center;
 }

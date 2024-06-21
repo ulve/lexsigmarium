@@ -1,6 +1,6 @@
 .warscroll-weapons {
     flex: 1;
-    padding: 1em;
+    padding: 1rem;
     width: 100%;
     --weapon-tr: #c4c5b1;
 }
@@ -14,7 +14,6 @@
 }
 
 .fl-table {
-    border-radius: 5px;
     font-weight: normal;
     border: none;
     border-collapse: collapse;

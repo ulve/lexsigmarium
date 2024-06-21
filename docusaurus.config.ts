@@ -64,8 +64,8 @@ const config: Config = {
             "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
         },
         blog: {
-          blogTitle: "Docusaurus blog!",
-          blogDescription: "A Docusaurus powered blog!",
+          blogTitle: "Lexsigmarium updated",
+          blogDescription: "Updates on the site",
           postsPerPage: "ALL",
         },
         theme: {
@@ -96,7 +96,7 @@ const config: Config = {
         },
         { to: "/blog", label: "Updates", position: "left" },
         {
-          href: "https://github.com/facebook/docusaurus",
+          href: "https://github.com/ulve/lexsigmarium",
           label: "GitHub",
           position: "right",
         },

@@ -33,21 +33,21 @@ h1 {
   font-family: "Cinzel", serif;
   font-optical-sizing: auto;
   font-weight: 600;
-  font-size: 3.75rem;
+  font-size: 2.25rem;
 }
 
 h2 {
   font-family: "Cinzel", serif;
   font-optical-sizing: auto;
   font-weight: 600;
-  font-size: 3rem;
+  font-size: 1.875rem;
 }
 
 h3 {
   font-family: "Cinzel", serif;
   font-optical-sizing: auto;
   font-weight: 500;
-  font-size: 2.75rem;
+  font-size: 1.5rem;
 }
 
 h4 {
@@ -55,5 +55,6 @@ h4 {
   font-optical-sizing: auto;
   font-weight: 500;
   margin-bottom: 0rem;
-  font-size: 2rem;
+  font-size: 1.25rem;
 }
+
