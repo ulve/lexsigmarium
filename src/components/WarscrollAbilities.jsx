@@ -26,7 +26,7 @@ function WarscrollAbilities({ unit }) {
         </div>
       )}
       {unit.abilities.map((ability, i) => (
-        <WarscrollAbility maxWidth="45%" key={i} ability={ability} />
+        <WarscrollAbility maxWidth="25rem" key={i} ability={ability} />
       ))}
     </div>
   );
