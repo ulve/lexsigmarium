@@ -11,26 +11,23 @@ function WarscrollAbilities({ unit }) {
 
   return (
     <div className="warscroll-abilities">
-      <div className="abilities-left">
-        {unit.notes && (
-          <ReactMarkdown remarkPlugins={[remarkGfm]}>{`**Notes:** ${unit.notes}`}</ReactMarkdown>
-        )}
-        {unit.options && (
-          <ReactMarkdown remarkPlugins={[remarkGfm]}>{`**Options:** ${unit.options}`}</ReactMarkdown>
-        )}
-        {unit.abilities
-          .slice(0, Math.round(numberOfAbilities / 2))
-          .map((ability, i) => (
-            <WarscrollAbility key={i} ability={ability} />
-          ))}
-      </div>
-      <div className="abilities-right">
-        {unit.abilities
-          .slice(Math.round(numberOfAbilities / 2), numberOfAbilities)
-          .map((ability, i) => (
-            <WarscrollAbility key={i} ability={ability} />
-          ))}
-      </div>
+      {unit.notes && (
+        <div class="note">
+          <ReactMarkdown
+            remarkPlugins={[remarkGfm]}
+          >{`**Notes:** ${unit.notes}`}</ReactMarkdown>
+        </div>
+      )}
+      {unit.options && (
+        <div class="note">
+          <ReactMarkdown
+            remarkPlugins={[remarkGfm]}
+          >{`**Options:** ${unit.options}`}</ReactMarkdown>
+        </div>
+      )}
+      {unit.abilities.map((ability, i) => (
+        <WarscrollAbility maxWidth="45%" key={i} ability={ability} />
+      ))}
     </div>
   );
 }

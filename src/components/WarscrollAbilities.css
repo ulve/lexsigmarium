@@ -1,29 +1,22 @@
 .warscroll-abilities {
-    display: flex;
-    padding: 1em;
-    gap: 2rem;
-}
-
-.abilities-left {
-    display: flex;
-    flex-direction: column;
-    gap: 1em;
-    flex-grow: 1;
-    flex-shrink: 1;
-    flex-basis: 0;
-}
-
-.abilities-right {
-    display: flex;
-    flex-direction: column;
-    gap: 1em;
-    flex-grow: 1;
-    flex-shrink: 1;
-    flex-basis: 0;
+  display: flex;
+  padding: 1em;
+  gap: 2rem;
+  width: 100%;
+  flex-wrap: wrap;
 }
 
 .ability {
-    display: grid;
-    grid-template-columns: 20px auto 20px;
-    margin-bottom: 2rem;
+  display: grid;
+  grid-template-columns: 20px auto 20px;
+  grid-auto-rows: min-content;
+  margin-bottom: 2rem;
+  min-width: 15rem;
 }
+
+.note {
+  margin-bottom: 2rem;
+  min-width: 15rem;
+  max-width: 45%;
+}
+
