@@ -462,10 +462,10 @@
           "header": {
             "icon": "defensive",
             "color": "yellow",
-            "text": "Once Per Turn (Army), Any Hero Phase",
-            "declare": "Pick a friendly **RUINATION CHAMBER** unit.",
-            "effect": "That unit has **WARD (5+)** for the rest of the turn."
-          }
+            "text": "Once Per Turn (Army), Any Hero Phase"
+          },
+          "declare": "Pick a friendly **RUINATION CHAMBER** unit.",
+          "effect": "That unit has **WARD (5+)** for the rest of the turn."
         }
       ]
     }
@@ -482,7 +482,7 @@
             "text": "Your Hero Phase"
           },
           "declare": "Pick a friendly **STORMCAST ETERNALS PRIEST** to chant this prayer, pick a visible friendly **STORMCAST ETERNALS INFANTRY** unit wholly within 12\" of them to be the target, then make a chanting roll of D6.",
-          "effect": "",
+          "effect": "Add 1 to the Attacks characteristic of the target's melee weapons until the start of your next turn. If the chanting roll was 12+, this ability affects all visible friendly **STORMCAST ETERNALS** units wholly within 12\" of the chanter.",
           "chantingValue": "6",
           "keywords": ["Prayer"]
         }
@@ -490,4 +490,3 @@
     }
   ]
 }
-
