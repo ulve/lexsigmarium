@@ -1,5 +1,7 @@
 // read json form disk
 let fs = require("fs");
+let weaponDamage = require("../mathhammer.js");
+let transposeArray = require("../mathhammer.js");
 
 function getArmy(path) {
   let warScrollStrings = fs.readFileSync(path, "utf8");
