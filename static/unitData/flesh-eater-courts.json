@@ -18,10 +18,7 @@
           "declare": "If there is not a friendly **Corpsemare Stampede** on the battlefield, pick a friendly **FLESH-EATER COURTS WIZARD** to cast this spell, then make a casting roll of 2D6.",
           "effect": "Set up a **Corpsemare Stampede** wholly within 9\" of the caster, visible to them and more than 9\" from all enemy units.",
           "castingValue": "7",
-          "keywords": [
-            "Spell",
-            "Summon"
-          ]
+          "keywords": ["Spell", "Summon"]
         }
       ]
     }
@@ -95,6 +92,7 @@
   "warscrolls": [
     {
       "name": "Cryptguard",
+      "numberOfModels": 10,
       "faction": "Flesh-Eater Courts",
       "stats": {
         "movement": "6\"",
@@ -139,14 +137,11 @@
         "Standard Bearer(1/10)",
         "Ward(6+)"
       ],
-      "secondaryKeywords": [
-        "Death",
-        "Flesh-Eater Courts",
-        "Serfs"
-      ]
+      "secondaryKeywords": ["Death", "Flesh-Eater Courts", "Serfs"]
     },
     {
       "name": "Marrowscroll Herald",
+      "numberOfModels": 1,
       "faction": "Flesh-Eater Courts",
       "stats": {
         "movement": "6\"",
@@ -185,19 +180,12 @@
           "effect": "While this unit is not in combat and is wholly within the combat ranges of 3 or more other friendly **FLESH-EATER COURTS INFANTRY** models, it is not visible to enemy units."
         }
       ],
-      "primaryKeywords": [
-        "Hero",
-        "Infantry",
-        "Ward(6+)"
-      ],
-      "secondaryKeywords": [
-        "Death",
-        "Flesh-Eater Courts",
-        "Courtier"
-      ]
+      "primaryKeywords": ["Hero", "Infantry", "Ward(6+)"],
+      "secondaryKeywords": ["Death", "Flesh-Eater Courts", "Courtier"]
     },
     {
       "name": "Royal Zombie Dragon",
+      "numberOfModels": 1,
       "faction": "Flesh-Eater Courts",
       "stats": {
         "movement": "12\"",
@@ -214,10 +202,7 @@
           "wnd": "4+",
           "rnd": "1",
           "dmg": "3",
-          "abilities": [
-            "Shoot in Combat",
-            "Companion"
-          ]
+          "abilities": ["Shoot in Combat", "Companion"]
         }
       ],
       "meleeWeapons": [
@@ -228,9 +213,7 @@
           "wnd": "2+",
           "rnd": "2",
           "dmg": "3",
-          "abilities": [
-            "Companion"
-          ]
+          "abilities": ["Companion"]
         },
         {
           "name": "💀 Draconic Claws",
@@ -239,9 +222,7 @@
           "wnd": "2+",
           "rnd": "1",
           "dmg": "2",
-          "abilities": [
-            "Companion"
-          ]
+          "abilities": ["Companion"]
         }
       ],
       "abilities": [
@@ -263,9 +244,7 @@
           },
           "declare": "Pick this unit if it has not been deployed.",
           "effect": "Set up this unit in reserve high above the battlefield. It has now been deployed.",
-          "keywords": [
-            "Deploy"
-          ]
+          "keywords": ["Deploy"]
         },
         {
           "name": "Loathsome Descent",
@@ -285,23 +264,15 @@
             "text": "Once Per Turn (Army), Any Combat Phase"
           },
           "effect": "If this unit charged this turn, roll a dice. On a 3+, this unit can move 2D6\". It can pass through the combat ranges of enemy units but must end that move in combat. Then, pick an enemy unit that this unit passed across during that move. Inflict D3 mortal damage on that enemy unit.",
-          "keywords": [
-            "Rampage"
-          ]
+          "keywords": ["Rampage"]
         }
       ],
-      "primaryKeywords": [
-        "Monster",
-        "Fly",
-        "Ward(6+)"
-      ],
-      "secondaryKeywords": [
-        "Death",
-        "Flesh-Eater Courts"
-      ]
+      "primaryKeywords": ["Monster", "Fly", "Ward(6+)"],
+      "secondaryKeywords": ["Death", "Flesh-Eater Courts"]
     },
     {
       "name": "Ushoran",
+      "numberOfModels": 1,
       "subtitle": "Mortarch of Delusion",
       "faction": "Flesh-Eater Courts",
       "stats": {
@@ -357,9 +328,7 @@
           "declare": "Pick a visible enemy model within 18\" of this unit to be the target, pick another enemy unit within the target's combat range to be the victim, then make a casting roll of 2D6.",
           "effect": "Pick 1 of the target's melee weapons. Immediately resolve combat attacks made with that weapon against the victim.",
           "castingValue": "7",
-          "keywords": [
-            "Spell"
-          ]
+          "keywords": ["Spell"]
         },
         {
           "name": "Shroudcage Fragment",
@@ -370,9 +339,7 @@
           },
           "declare": "Pick up to 3 enemy units in combat with this unit to be the targets.",
           "effect": "Roll a dice for each target. If the roll exceeds the target's Control characteristic, the target has **STRIKE-LAST** for the rest of the turn.",
-          "keywords": [
-            "Rampage"
-          ]
+          "keywords": ["Rampage"]
         },
         {
           "name": "Epicentre of Delusion",
@@ -392,11 +359,8 @@
         "Wizard(2)",
         "Ward(5+)"
       ],
-      "secondaryKeywords": [
-        "Death",
-        "Flesh-Eater Courts",
-        "Abhorrant"
-      ]
+      "secondaryKeywords": ["Death", "Flesh-Eater Courts", "Abhorrant"]
     }
   ]
 }
+

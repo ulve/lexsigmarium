@@ -1,390 +1,354 @@
 {
-    "$schema": "../army.schema.json",
-    "title": "Disciples of Tzeentch",
-    "grandFaction": "Chaos",
-    "color": "#007285",
-    "icon": "tzeench.png",
-    "battleTraits": [
+  "$schema": "../army.schema.json",
+  "title": "Disciples of Tzeentch",
+  "grandFaction": "Chaos",
+  "color": "#007285",
+  "icon": "tzeench.png",
+  "battleTraits": [
+    {
+      "name": "Masters of Destiny",
+      "header": {
+        "icon": "special",
+        "color": "black",
+        "text": "Deployment Phase"
+      },
+      "effect": "Roll 9 dice and place them to one side. These are your **destiny dice**.  **Destiny dice** can be spent during the battle to change certain dice rolls. You can never have more than 9 **destiny dice** at once.\n\n During the battle, instead of making a roll from the list below for a friendly **DISCIPLES OF TEENTCH** unit, you can spend your **destiny dice**. The roll you would have made is replaced with the roll on the **destiny dice** you spend. If you want to replace a 2D6 roll, 3D6 roll, etc. you must spend a number of **destiny dice** equal to the number before 'D6.  Any rolls that have been replaced count as unmodified rolls, and they cannot be re-rolled, they cannot be changed and they cannot be modified by other friendly abilities (but they can be modified by enemy abilities). You cannot spend **destiny dice** to replace re-rolls.\n\n **Destiny dice** can be spent in place of the following dice rolls:\n\n * Casting rolls\n * Unbinding rolls\n * Banishment rolls\n * Run rolls\n * Charge rolls in your turn\n * Hit rolls\n * Wound rolls\n * Save rolls\n"
+    },
+    {
+      "name": "Conflagrations of Tzeench",
+      "header": {
+        "icon": "special",
+        "color": "teal",
+        "text": "Once Per Turn (Army), Any Shooting Phase"
+      },
+      "declare": "Pick an enemy unit that had any damage points allocated to it this turn by **WYRDFLAME SPELL** abilities or shooting attacks made with weapons that have the **Wyrdflame** weapon ability to be the target.",
+      "effect": "The target has the **BURNING** keyword."
+    },
+    {
+      "name": "Burning Wyrdflame",
+      "header": {
+        "icon": "offensive",
+        "color": "eggplant",
+        "text": "Once Per Turn (Army), End of Any Turn"
+      },
+      "effect": "Roll a D3 for each **BURNING** enemy unit. On a 2-3, inflict an amount of mortal damage on that unit equal to the roll. On a 1, that unit no longer has the **BURNING** keyword."
+    },
+    {
+      "name": "Quenching the Flames",
+      "header": {
+        "icon": "special",
+        "color": "black",
+        "text": "Passive"
+      },
+      "effect": "If a **BURNING** enemy unit uses an ability that would heal or return slain models to it, instead of healing or returning slain models to it, that unit no longer has the **BURNING** keyword."
+    }
+  ],
+  "battleFormations": [
+    {
+      "name": "Wyrdflame Host",
+      "abilities": [
         {
-            "name": "Masters of Destiny",
-            "header": {
-                "icon": "special",
-                "color": "black",
-                "text": "Deployment Phase"
-            },
-            "effect": "Roll 9 dice and place them to one side. These are your **destiny dice**.  **Destiny dice** can be spent during the battle to change certain dice rolls. You can never have more than 9 **destiny dice** at once.\n\n During the battle, instead of making a roll from the list below for a friendly **DISCIPLES OF TEENTCH** unit, you can spend your **destiny dice**. The roll you would have made is replaced with the roll on the **destiny dice** you spend. If you want to replace a 2D6 roll, 3D6 roll, etc. you must spend a number of **destiny dice** equal to the number before 'D6.  Any rolls that have been replaced count as unmodified rolls, and they cannot be re-rolled, they cannot be changed and they cannot be modified by other friendly abilities (but they can be modified by enemy abilities). You cannot spend **destiny dice** to replace re-rolls.\n\n **Destiny dice** can be spent in place of the following dice rolls:\n\n * Casting rolls\n * Unbinding rolls\n * Banishment rolls\n * Run rolls\n * Charge rolls in your turn\n * Hit rolls\n * Wound rolls\n * Save rolls\n"
-        },
-        {
-            "name": "Conflagrations of Tzeench",
-            "header": {
-                "icon": "special",
-                "color": "teal",
-                "text": "Once Per Turn (Army), Any Shooting Phase"
-            },
-            "declare": "Pick an enemy unit that had any damage points allocated to it this turn by **WYRDFLAME SPELL** abilities or shooting attacks made with weapons that have the **Wyrdflame** weapon ability to be the target.",
-            "effect": "The target has the **BURNING** keyword."
-        },
-        {
-            "name": "Burning Wyrdflame",
-            "header": {
-                "icon": "offensive",
-                "color": "eggplant",
-                "text": "Once Per Turn (Army), End of Any Turn"
-            },
-            "effect": "Roll a D3 for each **BURNING** enemy unit. On a 2-3, inflict an amount of mortal damage on that unit equal to the roll. On a 1, that unit no longer has the **BURNING** keyword."
-        },
-        {
-            "name": "Quenching the Flames",
-            "header": {
-                "icon": "special",
-                "color": "black",
-                "text": "Passive"
-            },
-            "effect": "If a **BURNING** enemy unit uses an ability that would heal or return slain models to it, instead of healing or returning slain models to it, that unit no longer has the **BURNING** keyword."
+          "name": "Mutagenic Inferno",
+          "header": {
+            "icon": "defensive",
+            "color": "green",
+            "text": "Passive"
+          },
+          "effect": "Subtract 1 from wound rolls for attacks made by **BURNING** enemy units."
         }
-    ],
-    "battleFormations": [
+      ]
+    }
+  ],
+  "spellLores": [
+    {
+      "name": "Lore of Change",
+      "spells": [
         {
-            "name": "Wyrdflame Host",
-            "abilities": [
-                {
-                    "name": "Mutagenic Inferno",
-                    "header": {
-                        "icon": "defensive",
-                        "color": "green",
-                        "text": "Passive"
-                    },
-                    "effect": "Subtract 1 from wound rolls for attacks made by **BURNING** enemy units."
-                }
-            ]
+          "name": "Transformed to Spawn",
+          "header": {
+            "icon": "special",
+            "color": "yellow",
+            "text": "Your Hero Phase"
+          },
+          "declare": "Pick a friendly **DISCIPLES OF TZEENTCH WIZARD** to cast this spell, pick a visible enemy unit within 12\" of them to be the target, then make a casting roll of 2D6.",
+          "effect": "Inflict D3 mortal damage on the target. If any models are slain by this ability, pick a friendly **Chaos Spawn of Tzeentch** unit that is in reserve **as a potential fate** or that has been destroyed.\n\n If you picked a unit in reserve **as a potential fate**, set it up on the battlefield in combat with the target. If you picked a unit that has been destroyed, set up an identical replacement unit on the battlefield in combat with the target.",
+          "castingValue": "7",
+          "keywords": ["Spell"]
         }
-    ],
-    "spellLores": [
+      ]
+    }
+  ],
+  "warscrolls": [
+    {
+      "name": "Curseling",
+      "numberOfModels": 1,
+      "subtitle": "Eye of Tzeentch",
+      "faction": "Disciples of Tzeentch",
+      "stats": {
+        "movement": "5\"",
+        "save": "3+",
+        "control": "2",
+        "health": "6"
+      },
+      "rangedWeapons": [
         {
-            "name": "Lore of Change",
-            "spells": [
-                {
-                    "name": "Transformed to Spawn",
-                    "header": {
-                        "icon": "special",
-                        "color": "yellow",
-                        "text": "Your Hero Phase"
-                    },
-                    "declare": "Pick a friendly **DISCIPLES OF TZEENTCH WIZARD** to cast this spell, pick a visible enemy unit within 12\" of them to be the target, then make a casting roll of 2D6.",
-                    "effect": "Inflict D3 mortal damage on the target. If any models are slain by this ability, pick a friendly **Chaos Spawn of Tzeentch** unit that is in reserve **as a potential fate** or that has been destroyed.\n\n If you picked a unit in reserve **as a potential fate**, set it up on the battlefield in combat with the target. If you picked a unit that has been destroyed, set up an identical replacement unit on the battlefield in combat with the target.",
-                    "castingValue": "7",
-                    "keywords": [
-                        "Spell"
-                    ]
-                }
-            ]
+          "name": "Hurled Arcane Energy",
+          "rng": "18\"",
+          "atk": "D6",
+          "hit": "3+",
+          "wnd": "3+",
+          "rnd": "1",
+          "dmg": "1",
+          "abilities": ["Wyrdflame"]
         }
-    ],
-    "warscrolls": [
+      ],
+      "meleeWeapons": [
         {
-            "name": "Curseling",
-            "subtitle": "Eye of Tzeentch",
-            "faction": "Disciples of Tzeentch",
-            "stats": {
-                "movement": "5\"",
-                "save": "3+",
-                "control": "2",
-                "health": "6"
-            },
-            "rangedWeapons": [
-                {
-                    "name": "Hurled Arcane Energy",
-                    "rng": "18\"",
-                    "atk": "D6",
-                    "hit": "3+",
-                    "wnd": "3+",
-                    "rnd": "1",
-                    "dmg": "1",
-                    "abilities": [
-                        "Wyrdflame"
-                    ]
-                }
-            ],
-            "meleeWeapons": [
-                {
-                    "name": "Staff of Tzeench and Blazing Sword",
-                    "atk": "5",
-                    "hit": "4+",
-                    "wnd": "4+",
-                    "rnd": "1",
-                    "dmg": "2"
-                }
-            ],
-            "abilities": [
-                {
-                    "name": "Disrupter of the Arcane",
-                    "header": {
-                        "icon": "special",
-                        "color": "yellow",
-                        "text": "Passive"
-                    },
-                    "effect": "Each time this unit unbinds a spell, roll a dice. On a 4+, subtract 1 from the power level of the enemy **WIZARD** that used that **SPELL** ability, to a minimum of 0, until the start of your next turn."
-                },
-                {
-                    "name": "Infusion Arcanum",
-                    "header": {
-                        "icon": "offensive",
-                        "color": "yellow",
-                        "text": "Your Hero Phase"
-                    },
-                    "declare": "Make a casting roll of 2D6.",
-                    "effect": "Until the start of your next turn, add 1 to the Rend and Damage characteristics of this unit's **Staff of Tzeentch and Blazing Sword**.",
-                    "castingValue": "5",
-                    "keywords": [
-                        "Spell"
-                    ]
-                }
-            ],
-            "primaryKeywords": [
-                "Hero",
-                "Wizard(2)",
-                "Infantry"
-            ],
-            "secondaryKeywords": [
-                "Chaos",
-                "Disciples of Tzeench",
-                "Arcanite"
-            ]
+          "name": "Staff of Tzeench and Blazing Sword",
+          "atk": "5",
+          "hit": "4+",
+          "wnd": "4+",
+          "rnd": "1",
+          "dmg": "2"
+        }
+      ],
+      "abilities": [
+        {
+          "name": "Disrupter of the Arcane",
+          "header": {
+            "icon": "special",
+            "color": "yellow",
+            "text": "Passive"
+          },
+          "effect": "Each time this unit unbinds a spell, roll a dice. On a 4+, subtract 1 from the power level of the enemy **WIZARD** that used that **SPELL** ability, to a minimum of 0, until the start of your next turn."
         },
         {
-            "name": "Gaunt Summoner",
-            "faction": "Disciples of Tzeentch",
-            "stats": {
-                "movement": "5\"",
-                "save": "6+",
-                "control": "2",
-                "health": "5"
-            },
-            "rangedWeapons": [
-                {
-                    "name": "Changestaff",
-                    "rng": "12\"",
-                    "atk": "3",
-                    "hit": "4+",
-                    "wnd": "3+",
-                    "rnd": "1",
-                    "dmg": "D3",
-                    "abilities": [
-                        "Crit(Mortal)"
-                    ]
-                }
-            ],
-            "meleeWeapons": [
-                {
-                    "name": "Warptounge Blade",
-                    "atk": "3",
-                    "hit": "3+",
-                    "wnd": "3+",
-                    "rnd": "1",
-                    "dmg": "2"
-                }
-            ],
-            "abilities": [
-                {
-                    "name": "Minions of the Silver Tower",
-                    "header": {
-                        "icon": "special",
-                        "color": "black",
-                        "text": "Deployment Phase"
-                    },
-                    "declare": "Pick a friendly unit that has not been deployed to be the target.",
-                    "effect": "The target is set up in reserve **in a Silver Tower**. It has now been deployed.",
-                    "keywords": [
-                        "Deploy"
-                    ]
-                },
-                {
-                    "name": "Book of Profane Secrets",
-                    "header": {
-                        "icon": "movement",
-                        "color": "gray",
-                        "text": "Your Movement Phase"
-                    },
-                    "declare": "Pick a friendly unit **in a Silver Tower** to be the target.",
-                    "effect": "Set up the target on the battlefield wholly within 12\" of this unit and more than 9\" from all enemy units."
-                },
-                {
-                    "name": "Divert Realmgate",
-                    "header": {
-                        "icon": "movement",
-                        "color": "yellow",
-                        "text": "Your Hero Phase"
-                    },
-                    "declare": "Make a casting roll of 2D6.",
-                    "effect": "Units set up this turn using this unit's 'Book of Profane Secrets' ability can be set up wholly within 18\" of this unit and more than 7\" from all enemy units instead of the distances in the ability.",
-                    "keywords": [
-                        "Spell"
-                    ],
-                    "castingValue": "7"
-                }
-            ],
-            "primaryKeywords": [
-                "Hero",
-                "Wizard(2)",
-                "Infantry",
-                "Ward(6+)"
-            ],
-            "secondaryKeywords": [
-                "Chaos",
-                "Disciples of Tzeench",
-                "Daemon"
-            ]
-        },
-        {
-            "name": "Kairos Fateweaver",
-            "faction": "Disciples of Tzeentch",
-            "stats": {
-                "movement": "12\"",
-                "save": "5+",
-                "control": "5",
-                "health": "16"
-            },
-            "meleeWeapons": [
-                {
-                    "name": "Staff of Tomorrow",
-                    "atk": "4",
-                    "hit": "3+",
-                    "wnd": "2+",
-                    "rnd": "1",
-                    "dmg": "D3"
-                },
-                {
-                    "name": "💀 Curved Beaks",
-                    "atk": "5",
-                    "hit": "4+",
-                    "wnd": "3+",
-                    "rnd": "1",
-                    "dmg": "2"
-                }
-            ],
-            "abilities": [
-                {
-                    "name": "Battle Damaged",
-                    "header": {
-                        "icon": "damaged",
-                        "color": "black",
-                        "text": "Passive"
-                    },
-                    "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its **Curved Beaks** is 3."
-                },
-                {
-                    "name": "Mastery of Magic",
-                    "header": {
-                        "icon": "special",
-                        "color": "yellow",
-                        "text": "Passive"
-                    },
-                    "effect": "When you make a casting roll for this unit, you can change the lowest D6 to match the highest D6."
-                },
-                {
-                    "name": "Oracle of Eternity",
-                    "header": {
-                        "icon": "special",
-                        "color": "black",
-                        "text": "Once Per Batte, Reaction: You declared the 'Tactical Gambit' ability"
-                    },
-                    "effect": "Pick 1 of the following effects:\n\n _**Read the Past:**_ You can pick 1 battle tactic that you have already attempted.\n\n _**Read the Future:**_ You can pick 2 battle tactics that you have not yet attempted, but you can only complete 1 of them (even if you meet the conditions to complete both). The other does not count as having been attempted. If you do not complete either battle tactic, you can pick which does not count as having been attempted."
-                },
-                {
-                    "name": "Beacon of Sorcery",
-                    "header": {
-                        "icon": "special",
-                        "color": "yellow",
-                        "text": "Passive"
-                    },
-                    "effect": "Add 1 to casting rolls and unbinding rolls for friendly **DISCIPLES OF TZEENTCH WIZARDS** while they are wholly within 12\" of this unit."
-                },
-                {
-                    "name": "Arcane Suggestion",
-                    "header": {
-                        "icon": "special",
-                        "color": "yellow",
-                        "text": "Your Hero Phase"
-                    },
-                    "declare": "Pick a visible enemy unit within 18\" of this unit to be the target, then make a casting roll of 2D6.",
-                    "effect": "Pick 1 of the following effects to apply to the target until the start of your next turn:\n\n _**It's Hopeless:**_ The target cannot use commands.\n\n _**Drop Your Weapons:**_ Subtract 1 from hit rolls and wound rolls for the target's attacks.\n\n _**Kneel:**_ Subtract 1 from save rolls for the target.",
-                    "castingValue": "8",
-                    "keywords": [
-                        "Spell"
-                    ]
-                }
-            ],
-            "primaryKeywords": [
-                "Warmaster",
-                "Unique",
-                "Hero",
-                "Monster",
-                "Wizard(3)",
-                "Fly",
-                "Ward(5+)"
-            ],
-            "secondaryKeywords": [
-                "Chaos",
-                "Disciples of Tzeench",
-                "Daemon"
-            ]
-        },
-        {
-            "name": "Pink Horrors",
-            "faction": "Disciples of Tzeentch",
-            "stats": {
-                "movement": "6\"",
-                "save": "6+",
-                "control": "1",
-                "health": "2"
-            },
-            "rangedWeapons": [
-                {
-                    "name": "Arcane Flames",
-                    "rng": "12\"",
-                    "atk": "2",
-                    "hit": "4+",
-                    "wnd": "4+",
-                    "rnd": "-",
-                    "dmg": "1",
-                    "abilities": [
-                        "Wyrdflame"
-                    ]
-                }
-            ],
-            "meleeWeapons": [
-                {
-                    "name": "Taloned Hands",
-                    "atk": "1",
-                    "hit": "4+",
-                    "wnd": "4+",
-                    "rnd": "-",
-                    "dmg": "1"
-                }
-            ],
-            "abilities": [
-                {
-                    "name": "Lunatic Demise",
-                    "header": {
-                        "icon": "special",
-                        "color": "black",
-                        "text": "black"
-                    },
-                    "effect": "Each time a model in this unit is slain, before removing the model from play, pick 1 of the following effects:\n\n _**Split:**_ Pick a friendly **Blue Horrors** and **Brimstone Horrors** unit within 12\" of this unit. Return up to 2 slain **Blue Horror models** to that unit.\n\n _**Petty Vengeance:**_ Pick an enemy unit in combat with this unit to be the target and roll a dice. On a 4+, inflict 1 mortal damage on the target."
-                }
-            ],
-            "primaryKeywords": [
-                "Infantry",
-                "Champion",
-                "Musician(1/10)",
-                "Standard Bearer(1/10)",
-                "Ward(6+)"
-            ],
-            "secondaryKeywords": [
-                "Chaos",
-                "Disciples of Tzeench",
-                "Daemon"
-            ]
+          "name": "Infusion Arcanum",
+          "header": {
+            "icon": "offensive",
+            "color": "yellow",
+            "text": "Your Hero Phase"
+          },
+          "declare": "Make a casting roll of 2D6.",
+          "effect": "Until the start of your next turn, add 1 to the Rend and Damage characteristics of this unit's **Staff of Tzeentch and Blazing Sword**.",
+          "castingValue": "5",
+          "keywords": ["Spell"]
         }
-    ]
+      ],
+      "primaryKeywords": ["Hero", "Wizard(2)", "Infantry"],
+      "secondaryKeywords": ["Chaos", "Disciples of Tzeench", "Arcanite"]
+    },
+    {
+      "name": "Gaunt Summoner",
+      "numberOfModels": 1,
+      "faction": "Disciples of Tzeentch",
+      "stats": {
+        "movement": "5\"",
+        "save": "6+",
+        "control": "2",
+        "health": "5"
+      },
+      "rangedWeapons": [
+        {
+          "name": "Changestaff",
+          "rng": "12\"",
+          "atk": "3",
+          "hit": "4+",
+          "wnd": "3+",
+          "rnd": "1",
+          "dmg": "D3",
+          "abilities": ["Crit(Mortal)"]
+        }
+      ],
+      "meleeWeapons": [
+        {
+          "name": "Warptounge Blade",
+          "atk": "3",
+          "hit": "3+",
+          "wnd": "3+",
+          "rnd": "1",
+          "dmg": "2"
+        }
+      ],
+      "abilities": [
+        {
+          "name": "Minions of the Silver Tower",
+          "header": {
+            "icon": "special",
+            "color": "black",
+            "text": "Deployment Phase"
+          },
+          "declare": "Pick a friendly unit that has not been deployed to be the target.",
+          "effect": "The target is set up in reserve **in a Silver Tower**. It has now been deployed.",
+          "keywords": ["Deploy"]
+        },
+        {
+          "name": "Book of Profane Secrets",
+          "header": {
+            "icon": "movement",
+            "color": "gray",
+            "text": "Your Movement Phase"
+          },
+          "declare": "Pick a friendly unit **in a Silver Tower** to be the target.",
+          "effect": "Set up the target on the battlefield wholly within 12\" of this unit and more than 9\" from all enemy units."
+        },
+        {
+          "name": "Divert Realmgate",
+          "header": {
+            "icon": "movement",
+            "color": "yellow",
+            "text": "Your Hero Phase"
+          },
+          "declare": "Make a casting roll of 2D6.",
+          "effect": "Units set up this turn using this unit's 'Book of Profane Secrets' ability can be set up wholly within 18\" of this unit and more than 7\" from all enemy units instead of the distances in the ability.",
+          "keywords": ["Spell"],
+          "castingValue": "7"
+        }
+      ],
+      "primaryKeywords": ["Hero", "Wizard(2)", "Infantry", "Ward(6+)"],
+      "secondaryKeywords": ["Chaos", "Disciples of Tzeench", "Daemon"]
+    },
+    {
+      "name": "Kairos Fateweaver",
+      "numberOfModels": 1,
+      "faction": "Disciples of Tzeentch",
+      "stats": {
+        "movement": "12\"",
+        "save": "5+",
+        "control": "5",
+        "health": "16"
+      },
+      "meleeWeapons": [
+        {
+          "name": "Staff of Tomorrow",
+          "atk": "4",
+          "hit": "3+",
+          "wnd": "2+",
+          "rnd": "1",
+          "dmg": "D3"
+        },
+        {
+          "name": "💀 Curved Beaks",
+          "atk": "5",
+          "hit": "4+",
+          "wnd": "3+",
+          "rnd": "1",
+          "dmg": "2"
+        }
+      ],
+      "abilities": [
+        {
+          "name": "Battle Damaged",
+          "header": {
+            "icon": "damaged",
+            "color": "black",
+            "text": "Passive"
+          },
+          "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its **Curved Beaks** is 3."
+        },
+        {
+          "name": "Mastery of Magic",
+          "header": {
+            "icon": "special",
+            "color": "yellow",
+            "text": "Passive"
+          },
+          "effect": "When you make a casting roll for this unit, you can change the lowest D6 to match the highest D6."
+        },
+        {
+          "name": "Oracle of Eternity",
+          "header": {
+            "icon": "special",
+            "color": "black",
+            "text": "Once Per Batte, Reaction: You declared the 'Tactical Gambit' ability"
+          },
+          "effect": "Pick 1 of the following effects:\n\n _**Read the Past:**_ You can pick 1 battle tactic that you have already attempted.\n\n _**Read the Future:**_ You can pick 2 battle tactics that you have not yet attempted, but you can only complete 1 of them (even if you meet the conditions to complete both). The other does not count as having been attempted. If you do not complete either battle tactic, you can pick which does not count as having been attempted."
+        },
+        {
+          "name": "Beacon of Sorcery",
+          "header": {
+            "icon": "special",
+            "color": "yellow",
+            "text": "Passive"
+          },
+          "effect": "Add 1 to casting rolls and unbinding rolls for friendly **DISCIPLES OF TZEENTCH WIZARDS** while they are wholly within 12\" of this unit."
+        },
+        {
+          "name": "Arcane Suggestion",
+          "header": {
+            "icon": "special",
+            "color": "yellow",
+            "text": "Your Hero Phase"
+          },
+          "declare": "Pick a visible enemy unit within 18\" of this unit to be the target, then make a casting roll of 2D6.",
+          "effect": "Pick 1 of the following effects to apply to the target until the start of your next turn:\n\n _**It's Hopeless:**_ The target cannot use commands.\n\n _**Drop Your Weapons:**_ Subtract 1 from hit rolls and wound rolls for the target's attacks.\n\n _**Kneel:**_ Subtract 1 from save rolls for the target.",
+          "castingValue": "8",
+          "keywords": ["Spell"]
+        }
+      ],
+      "primaryKeywords": [
+        "Warmaster",
+        "Unique",
+        "Hero",
+        "Monster",
+        "Wizard(3)",
+        "Fly",
+        "Ward(5+)"
+      ],
+      "secondaryKeywords": ["Chaos", "Disciples of Tzeench", "Daemon"]
+    },
+    {
+      "name": "Pink Horrors",
+      "numberOfModels": 10,
+      "faction": "Disciples of Tzeentch",
+      "stats": {
+        "movement": "6\"",
+        "save": "6+",
+        "control": "1",
+        "health": "2"
+      },
+      "rangedWeapons": [
+        {
+          "name": "Arcane Flames",
+          "rng": "12\"",
+          "atk": "2",
+          "hit": "4+",
+          "wnd": "4+",
+          "rnd": "-",
+          "dmg": "1",
+          "abilities": ["Wyrdflame"]
+        }
+      ],
+      "meleeWeapons": [
+        {
+          "name": "Taloned Hands",
+          "atk": "1",
+          "hit": "4+",
+          "wnd": "4+",
+          "rnd": "-",
+          "dmg": "1"
+        }
+      ],
+      "abilities": [
+        {
+          "name": "Lunatic Demise",
+          "header": {
+            "icon": "special",
+            "color": "black",
+            "text": "black"
+          },
+          "effect": "Each time a model in this unit is slain, before removing the model from play, pick 1 of the following effects:\n\n _**Split:**_ Pick a friendly **Blue Horrors** and **Brimstone Horrors** unit within 12\" of this unit. Return up to 2 slain **Blue Horror models** to that unit.\n\n _**Petty Vengeance:**_ Pick an enemy unit in combat with this unit to be the target and roll a dice. On a 4+, inflict 1 mortal damage on the target."
+        }
+      ],
+      "primaryKeywords": [
+        "Infantry",
+        "Champion",
+        "Musician(1/10)",
+        "Standard Bearer(1/10)",
+        "Ward(6+)"
+      ],
+      "secondaryKeywords": ["Chaos", "Disciples of Tzeench", "Daemon"]
+    }
+  ]
 }
+

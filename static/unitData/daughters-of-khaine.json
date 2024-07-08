@@ -45,6 +45,7 @@
   "warscrolls": [
     {
       "name": "Bladewind",
+      "numberOfModels": 1,
       "faction": "Daughters of Khaine",
       "stats": {
         "movement": "12\"",
@@ -80,6 +81,7 @@
     },
     {
       "name": "Khinerai Heartrenders",
+      "numberOfModels": 5,
       "faction": "Daughters of Khaine",
       "stats": {
         "movement": "12\"",
@@ -147,6 +149,7 @@
     },
     {
       "name": "Morathi-Khaine",
+      "numberOfModels": 1,
       "faction": "Daughters of Khaine",
       "stats": {
         "movement": "6\"",
@@ -208,6 +211,7 @@
     },
     {
       "name": "Sisters of Slaugter",
+      "numberOfModels": 10,
       "subtitle": "With Bladed Bucklers",
       "faction": "Daughters of Khaine",
       "stats": {
@@ -258,6 +262,7 @@
     },
     {
       "name": "The Shadow Queen",
+      "numberOfModels": 1,
       "faction": "Daughters of Khaine",
       "stats": {
         "movement": "12\"",

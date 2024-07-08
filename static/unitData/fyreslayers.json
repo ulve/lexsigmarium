@@ -95,6 +95,7 @@
   "warscrolls": [
     {
       "name": "Auric Runefather",
+      "numberOfModels": 1,
       "subtitle": "On Magmadroth",
       "faction": "Fyreslayers",
       "stats": {
@@ -189,6 +190,7 @@
     },
     {
       "name": "Auric Runemaster",
+      "numberOfModels": 1,
       "faction": "Fyreslayers",
       "stats": {
         "movement": "4\"",
@@ -231,6 +233,7 @@
     },
     {
       "name": "Hearthguard Berzerkers",
+      "numberOfModels": 5,
       "faction": "Fyreslayers",
       "subtitle": "With Berzerker Broadaxes",
       "stats": {
@@ -265,6 +268,7 @@
     },
     {
       "name": "Molten Infernoth",
+      "numberOfModels": 1,
       "faction": "Fyreslayers",
       "stats": {
         "movement": "8\"",

@@ -16,7 +16,7 @@ let unit = {
       wnd: "3+",
       rnd: "1",
       dmg: "1",
-      abilities: ["Anti-Charge(+1 Rend)"],
+      abilities: ["Charge (+1 damage)"],
     },
   ],
   abilities: [
@@ -36,6 +36,7 @@ let unit = {
 };
 
 function parseDiceString(diceString) {
+  console.log(diceString);
   // Regular expression to match various dice notations
   const pattern = /^(\d*)[Dd]?(\d+)([+-]\d+)?$/;
   const match = diceString.match(pattern);
@@ -74,40 +75,47 @@ function calc(t, rnd, dmg) {
   return normal;
 }
 
-function weaponDamage(numberOfModels, champion, weapon) {
+function insertSpaceBeforeParenthesis(str) {
+  return str.replace(/(\S)\(/g, "$1 (").toLowerCase();
+}
+
+function weaponDamage2(
+  numberOfModels,
+  champions,
+  weapon,
+  critMortal,
+  critAutoWound,
+  critTwoHits,
+  rendBonus,
+  dmgBonus,
+) {
   let atk = parseDiceString(weapon.atk) * numberOfModels + champion;
-  let hit = (7 - Number(weapon.hit.replace("+", ""))) / 6;
+  let hit = 7 - Number(weapon.hit.replace("+", "")) - 1;
+  hit = hit / 6;
+  let crit = 1 / 6;
+  let rnd = Number(weapon.rnd) + rendBonus;
   let wnd = (7 - Number(weapon.wnd.replace("+", ""))) / 6;
-  let rnd = Number(weapon.rnd);
   let dmg = parseDiceString(weapon.dmg);
+  dmg += dmgBonus;
 
-  let fisk = [];
-  let t = atk * hit * wnd;
-  fisk[0] = ["Normal", ...calc(t, rnd, dmg)];
+  let normal = [];
+  for (let i = 1; i < 6; i++) {
+    let failedSave = (i + rnd) / 6;
+    if (failedSave > 1) failedSave = 1;
 
-  hit = (7 - Number(weapon.hit.replace("+", "")) + 1) / 6;
-  t = atk * hit * wnd;
-  clamp(hit);
-  fisk[1] = ["+1 To-hit", ...calc(t, rnd, dmg)];
+    let critDmg = crit * wnd * failedSave;
+    if (critMortal) {
+      critDmg = crit;
+    } else if (critAutoWound) {
+      critDmg = crit * failedSave;
+    } else if (critTwoHits) {
+      critDmg = crit * 2 * wnd * failedSave;
+    }
+    let total = atk * (hit * wnd * failedSave + critDmg) * dmg;
+    normal.push(total.toFixed(2));
+  }
 
-  hit = (7 - Number(weapon.hit.replace("+", "")) - 1) / 6;
-  t = atk * hit * wnd;
-  clamp(hit);
-  fisk[2] = ["-1 To-hit", ...calc(t, rnd, dmg)];
-
-  hit = (7 - Number(weapon.hit.replace("+", ""))) / 6;
-
-  wnd = (7 - Number(weapon.wnd.replace("+", "")) + 1) / 6;
-  t = atk * hit * wnd;
-  clamp(wnd);
-  fisk[3] = ["+1 To-wnd", ...calc(t, rnd, dmg)];
-
-  wnd = (7 - Number(weapon.wnd.replace("+", "")) - 1) / 6;
-  t = atk * hit * wnd;
-  clamp(wnd);
-  fisk[4] = ["-1 To-wnd", ...calc(t, rnd, dmg)];
-
-  return fisk;
+  return normal;
 }
 
 function transposeArray(array) {
@@ -115,7 +123,86 @@ function transposeArray(array) {
 }
 
 let champion = 0;
+
 if (unit.primaryKeywords.includes("Champion")) champion++;
-let results = weaponDamage(unit.numberOfModels, champion, unit.meleeWeapons[0]);
+
+let critMortal = false;
+let critAutoWound = false;
+let critTwoHits = false;
+
+unit.meleeWeapons[0].abilities.some((w) => {
+  if (w.toLowerCase().includes("crit")) {
+    if (w.toLowerCase().includes("auto-wound")) critAutoWound = true;
+    if (w.toLowerCase().includes("mortal")) critMortal = true;
+    if (w.toLowerCase().includes("hit")) critTwoHits = true;
+  }
+});
+
+let results = [];
+results.push([
+  "Normal",
+  ...weaponDamage2(
+    unit.numberOfModels,
+    champion,
+    unit.meleeWeapons[0],
+    critMortal,
+    critAutoWound,
+    critTwoHits,
+    0,
+    0,
+  ),
+]);
+
+unit.meleeWeapons[0].abilities.forEach((w) => {
+  let ability = insertSpaceBeforeParenthesis(w);
+
+  if (ability.includes("anti")) {
+    let [key, mod, stat] = ability.split(" ");
+    mod = mod.replace("(", "");
+    stat = stat.replace(")", "");
+    let rend = 0;
+    let damage = 0;
+
+    if (stat === "rend") rend = Number(mod);
+    if (stat === "damage") damage = Number(mod);
+    results.push([
+      key,
+      ...weaponDamage2(
+        unit.numberOfModels,
+        champion,
+        unit.meleeWeapons[0],
+        critMortal,
+        critAutoWound,
+        critTwoHits,
+        rend,
+        damage,
+      ),
+    ]);
+  }
+
+  if (ability.startsWith("charge")) {
+    let [key, mod, stat] = ability.split(" ");
+    mod = mod.replace("(", "");
+    stat = stat.replace(")", "");
+    let rend = 0;
+    let damage = 0;
+
+    if (stat === "rend") rend = Number(mod);
+    if (stat === "damage") damage = Number(mod);
+    results.push([
+      key,
+      ...weaponDamage2(
+        unit.numberOfModels,
+        champion,
+        unit.meleeWeapons[0],
+        critMortal,
+        critAutoWound,
+        critTwoHits,
+        rend,
+        damage,
+      ),
+    ]);
+  }
+});
 
 console.log(transposeArray(results));

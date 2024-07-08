@@ -112,6 +112,7 @@
   "warscrolls": [
     {
       "name": "Blood Warriors",
+      "numberOfModels": 10,
       "faction": "Bades of Khorne",
       "stats": {
         "movement": "5\"",
@@ -154,6 +155,7 @@
     },
     {
       "name": "Bloodletters",
+      "numberOfModels": 10,
       "faction": "Bades of Khorne",
       "stats": {
         "movement": "5\"",
@@ -194,6 +196,7 @@
     },
     {
       "name": "Bloodthirster",
+      "numberOfModels": 1,
       "subtitle": "of Insensate Rage",
       "faction": "Bades of Khorne",
       "stats": {
@@ -254,6 +257,7 @@
     },
     {
       "name": "Karanak",
+      "numberOfModels": 1,
       "faction": "Bades of Khorne",
       "stats": {
         "movement": "8\"",
@@ -307,6 +311,7 @@
     },
     {
       "name": "Slaughter Priest",
+      "numberOfModels": 1,
       "faction": "Blades of Khorne",
       "stats": {
         "movement": "5\"",
