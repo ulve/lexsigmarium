@@ -9,7 +9,6 @@ function WarscrollAbilities({ unit }) {
   if (numberOfAbilities === 0) {
     return null;
   }
-  console.log(unit.profile);
 
   return (
     <div className="warscroll-abilities">

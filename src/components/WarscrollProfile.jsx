@@ -13,18 +13,23 @@ function WarscrollProfile({ profile, maxWidth }) {
   if (profile.baseSizes)
     a += `* **Base Size:** ${profile.baseSizes.join(", ")}\n`;
   if (profile.regimentOptions) {
-    a += profile.regimentOptions.map((option) => {
-      let b = "* **Regiment Options:** ";
-      if (option.min) b = option.min + "-";
-      if (option.max) b += option.max + " ";
-      b += option.text + "\n";
-      return b;
-    });
+    a += "* **Regiment Options:** \n";
+    a += profile.regimentOptions
+      .map((option) => {
+        let b = "\t* ";
+        if (option.min !== undefined && option.min !== null)
+          b += option.min + "-";
+        if (option.max) b += option.max + " ";
+        b += option.text;
+
+        return b;
+      })
+      .join("\n");
   }
 
   if (!maxWidth) maxWidth = "100%";
   return (
-    <div className="ability" style={{ maxWidth: maxWidth }}>
+    <div className="ability" style={{ width: maxWidth, maxWidth: maxWidth }}>
       <div className="ability-header teal-gradient">
         <span>Profile</span>
       </div>
