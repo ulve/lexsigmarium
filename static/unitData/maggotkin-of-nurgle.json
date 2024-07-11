@@ -11,7 +11,7 @@
         "unitSize": 1,
         "points": 500,
         "regimentOptions": [{ "text": "Any **Maggotkin of Nurgle**" }],
-        "baseSize": "130mm"
+        "baseSizes": ["130mm"]
       },
       "faction": "Maggotkin on Nurgle",
       "stats": {
@@ -107,7 +107,7 @@
         "unitSize": 1,
         "points": 130,
         "regimentOptions": [{ "text": "Any **Daemon**" }],
-        "baseSize": "32mm"
+        "baseSizes": ["32mm"]
       },
       "faction": "Maggotkin on Nurgle",
       "stats": {
@@ -147,7 +147,7 @@
         "unitSize": 1,
         "points": 150,
         "regimentOptions": [{ "text": "Any **Daemon**" }],
-        "baseSize": "105x70mm"
+        "baseSizes": ["105x70mm"]
       },
       "faction": "Maggotkin on Nurgle",
       "stats": {
@@ -206,7 +206,7 @@
         "unitSize": 1,
         "points": 100,
         "regimentOptions": [{ "text": "Any **Daemon**" }],
-        "baseSize": "40mm"
+        "baseSizes": ["40mm"]
       },
       "faction": "Maggotkin on Nurgle",
       "stats": {
@@ -260,7 +260,7 @@
         "points": 110,
         "relevantKeywords": ["Daemon", "Infantry"],
         "notes": "",
-        "baseSize": "60mm"
+        "baseSizes": ["60mm"]
       },
       "stats": {
         "movement": "4\"",
@@ -299,7 +299,7 @@
         "unitSize": 1,
         "points": 150,
         "relevantKeywords": ["Daemon", "Beast"],
-        "baseSize": "60mm"
+        "baseSizes": ["60mm"]
       },
       "faction": "Maggotkin on Nurgle",
       "stats": {
@@ -350,7 +350,7 @@
         "unitSize": 3,
         "points": 180,
         "relevantKeywords": ["Daemon", "Cavalry"],
-        "baseSize": "60mm"
+        "baseSizes": ["60mm"]
       },
       "faction": "Maggotkin on Nurgle",
       "stats": {
@@ -406,7 +406,7 @@
         "unitSize": 10,
         "points": 140,
         "relevantKeywords": ["Daemon", "Infantry"],
-        "baseSize": "32mm"
+        "baseSizes": ["32mm"]
       },
       "faction": "Maggotkin on Nurgle",
       "stats": {
@@ -456,7 +456,7 @@
           { "min": 0, "max": 1, "text": "Rotbringer Lord" },
           { "text": "Any **Maggotkin of Nurgle**" }
         ],
-        "baseSize": "130mm"
+        "baseSizes": ["130mm"]
       },
       "stats": {
         "movement": "6\"",
@@ -552,7 +552,7 @@
           { "min": 0, "max": 1, "text": "Rotbringer Lord" },
           { "text": "Any **Maggotkin of Nurgle**" }
         ],
-        "baseSize": "100mm"
+        "baseSizes": ["100mm"]
       },
       "stats": {
         "movement": "8\"",
@@ -644,7 +644,7 @@
           { "min": 0, "max": 1, "text": "Rotbringer Lord" },
           { "text": "Any **Maggotkin of Nurgle**" }
         ],
-        "baseSize": "130mm"
+        "baseSizes": ["130mm"]
       },
       "stats": {
         "movement": "8\"",
@@ -727,7 +727,7 @@
         "unitSize": 1,
         "points": 180,
         "regimentOptions": [{ "min": 0, "max": 1, "text": "Rotbringer Lord" }],
-        "baseSize": "40mm"
+        "baseSizes": ["40mm"]
       },
       "stats": {
         "movement": "4\"",
@@ -792,7 +792,7 @@
           { "text": "Any **Plague Drones**" },
           { "text": "Any **Pusgoyle Blightlords**" }
         ],
-        "baseSize": "60mm"
+        "baseSizes": ["60mm"]
       },
       "stats": {
         "movement": "8\"",
@@ -855,7 +855,7 @@
           { "min": 0, "max": 1, "text": "Rotbringer Lord" },
           { "text": "Any **Maggotkin of Nurgle**" }
         ],
-        "baseSize": "100mm"
+        "baseSizes": ["100mm"]
       },
       "stats": {
         "movement": "8\"",
@@ -936,7 +936,7 @@
         "points": 170,
         "regimentOptions": [{ "text": "Any **Rotbringers Infantry**" }],
         "notes": "This **Hero** can join an eligible regiment as a _Rotbringer Lord_",
-        "baseSize": "40mm"
+        "baseSizes": ["40mm"]
       },
       "stats": {
         "movement": "4\"",
@@ -989,7 +989,7 @@
           { "min": 0, "max": 1, "text": "Rotbringer Lord" },
           { "text": "Any **Rotbringers**" }
         ],
-        "baseSize": "32mm"
+        "baseSizes": ["32mm"]
       },
       "stats": {
         "movement": "4\"",
@@ -1030,7 +1030,7 @@
         "points": 170,
         "regimentOptions": [{ "text": "Any **Rotbringers Infantry**" }],
         "notes": "This **Hero** can join an eligible regiment as a _Rotbringer Lord_",
-        "baseSize": "40mm"
+        "baseSizes": ["40mm"]
       },
       "stats": {
         "movement": "4\"",
@@ -1080,7 +1080,7 @@
         "unitSize": 2,
         "points": 250,
         "relevantKeywords": ["Rotbringers", "Cavalry"],
-        "baseSize": "60mm"
+        "baseSizes": ["60mm"]
       },
       "stats": {
         "movement": "8\"",
@@ -1129,7 +1129,7 @@
         "unitSize": 5,
         "points": 200,
         "relevantKeywords": ["Rotbringers", "Infantry"],
-        "baseSize": "40mm"
+        "baseSizes": ["40mm"]
       },
       "stats": {
         "movement": "4\"",

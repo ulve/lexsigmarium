@@ -1,5 +1,6 @@
 import "./WarscrollAbilities.css";
 import WarscrollAbility from "./WarscrollAbility";
+import WarscrollProfile from "./WarscrollProfile";
 import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
 
@@ -8,11 +9,15 @@ function WarscrollAbilities({ unit }) {
   if (numberOfAbilities === 0) {
     return null;
   }
+  console.log(unit.profile);
 
   return (
     <div className="warscroll-abilities">
+      {unit.profile && (
+        <WarscrollProfile maxWidth="25rem" profile={unit.profile} />
+      )}
       {unit.notes && (
-        <div class="note">
+        <div className="note">
           <ReactMarkdown
             remarkPlugins={[remarkGfm]}
           >{`**Notes:** ${unit.notes}`}</ReactMarkdown>
