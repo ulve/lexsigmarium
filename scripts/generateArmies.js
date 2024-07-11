@@ -157,7 +157,7 @@ fs.readdirSync("./static/unitData").forEach((file) => {
 
   // write str to disk
   fs.writeFileSync(
-    `./docs/${army.grandFaction.toLowerCase()}/${army.title.toLowerCase().replaceAll(" ", "-")}.mdx`,
+    `./docs/armies/${army.grandFaction.toLowerCase()}/${army.title.toLowerCase().replaceAll(" ", "-")}.mdx`,
     str,
   );
 });

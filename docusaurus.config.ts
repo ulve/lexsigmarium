@@ -90,6 +90,12 @@ const config: Config = {
       items: [
         {
           type: "docSidebar",
+          sidebarId: "rulesSidebar",
+          position: "left",
+          label: "Rules",
+        },
+        {
+          type: "docSidebar",
           sidebarId: "armiesSidebar",
           position: "left",
           label: "Armies",
