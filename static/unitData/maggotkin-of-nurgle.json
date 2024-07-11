@@ -453,7 +453,7 @@
         "unitSize": 1,
         "points": 550,
         "regimentOptions": [
-          { "min": 0, "max": 1, "text": "Rotbringer Lord" },
+          { "min": 0, "max": 1, "text": "_Rotbringer Lord_" },
           { "text": "Any **Maggotkin of Nurgle**" }
         ],
         "baseSizes": ["130mm"]
@@ -549,7 +549,7 @@
         "unitSize": 1,
         "points": 320,
         "regimentOptions": [
-          { "min": 0, "max": 1, "text": "Rotbringer Lord" },
+          { "min": 0, "max": 1, "text": "_Rotbringer Lord_" },
           { "text": "Any **Maggotkin of Nurgle**" }
         ],
         "baseSizes": ["100mm"]
@@ -641,7 +641,7 @@
         "unitSize": 1,
         "points": 320,
         "regimentOptions": [
-          { "min": 0, "max": 1, "text": "Rotbringer Lord" },
+          { "min": 0, "max": 1, "text": "_Rotbringer Lord_" },
           { "text": "Any **Maggotkin of Nurgle**" }
         ],
         "baseSizes": ["130mm"]
@@ -726,7 +726,9 @@
       "profile": {
         "unitSize": 1,
         "points": 180,
-        "regimentOptions": [{ "min": 0, "max": 1, "text": "Rotbringer Lord" }],
+        "regimentOptions": [
+          { "min": 0, "max": 1, "text": "_Rotbringer Lord_" }
+        ],
         "baseSizes": ["40mm"]
       },
       "stats": {
@@ -852,7 +854,7 @@
         "unitSize": 1,
         "points": 340,
         "regimentOptions": [
-          { "min": 0, "max": 1, "text": "Rotbringer Lord" },
+          { "min": 0, "max": 1, "text": "_Rotbringer Lord_" },
           { "text": "Any **Maggotkin of Nurgle**" }
         ],
         "baseSizes": ["100mm"]
@@ -986,7 +988,7 @@
         "unitSize": 1,
         "points": 120,
         "regimentOptions": [
-          { "min": 0, "max": 1, "text": "Rotbringer Lord" },
+          { "min": 0, "max": 1, "text": "_Rotbringer Lord_" },
           { "text": "Any **Rotbringers**" }
         ],
         "baseSizes": ["32mm"]
