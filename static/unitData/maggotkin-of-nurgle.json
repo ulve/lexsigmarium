@@ -7,6 +7,12 @@
   "warscrolls": [
     {
       "name": "Rotigus",
+      "profile": {
+        "unitSize": 1,
+        "points": 500,
+        "regimentOptions": [{ "text": "Any **Maggotkin of Nurgle**" }],
+        "baseSize": "130mm"
+      },
       "faction": "Maggotkin on Nurgle",
       "stats": {
         "movement": "6\"",
@@ -97,6 +103,12 @@
     {
       "name": "Poxbringer",
       "subtitle": "Herald of Nurgle",
+      "profile": {
+        "unitSize": 1,
+        "points": 130,
+        "regimentOptions": [{ "text": "Any **Daemon**" }],
+        "baseSize": "32mm"
+      },
       "faction": "Maggotkin on Nurgle",
       "stats": {
         "movement": "4\"",
@@ -131,6 +143,12 @@
     },
     {
       "name": "Horticulous Slimux",
+      "profile": {
+        "unitSize": 1,
+        "points": 150,
+        "regimentOptions": [{ "text": "Any **Daemon**" }],
+        "baseSize": "105x70mm"
+      },
       "faction": "Maggotkin on Nurgle",
       "stats": {
         "movement": "4\"",
@@ -184,6 +202,12 @@
     {
       "name": "Spoilpox Scrivener",
       "subtitle": "Herald of Nurgle",
+      "profile": {
+        "unitSize": 1,
+        "points": 100,
+        "regimentOptions": [{ "text": "Any **Daemon**" }],
+        "baseSize": "40mm"
+      },
       "faction": "Maggotkin on Nurgle",
       "stats": {
         "movement": "4\"",
@@ -231,6 +255,13 @@
     {
       "name": "Nurglings",
       "faction": "Maggotkin on Nurgle",
+      "profile": {
+        "unitSize": 3,
+        "points": 110,
+        "relevantKeywords": ["Daemon", "Infantry"],
+        "notes": "",
+        "baseSize": "60mm"
+      },
       "stats": {
         "movement": "4\"",
         "save": "6+",
@@ -264,6 +295,12 @@
     },
     {
       "name": "Beasts of Nurgle",
+      "profile": {
+        "unitSize": 1,
+        "points": 150,
+        "relevantKeywords": ["Daemon", "Beast"],
+        "baseSize": "60mm"
+      },
       "faction": "Maggotkin on Nurgle",
       "stats": {
         "movement": "7\"",
@@ -309,6 +346,12 @@
     },
     {
       "name": "Plague Drones",
+      "profile": {
+        "unitSize": 3,
+        "points": 180,
+        "relevantKeywords": ["Daemon", "Cavalry"],
+        "baseSize": "60mm"
+      },
       "faction": "Maggotkin on Nurgle",
       "stats": {
         "movement": "8\"",
@@ -359,6 +402,12 @@
     },
     {
       "name": "Plaguebearers",
+      "profile": {
+        "unitSize": 10,
+        "points": 140,
+        "relevantKeywords": ["Daemon", "Infantry"],
+        "baseSize": "32mm"
+      },
       "faction": "Maggotkin on Nurgle",
       "stats": {
         "movement": "4\"",
@@ -400,6 +449,15 @@
     {
       "name": "The Glottkin",
       "faction": "Maggotkin on Nurgle",
+      "profile": {
+        "unitSize": 1,
+        "points": 550,
+        "regimentOptions": [
+          { "min": 0, "max": 1, "text": "Rotbringer Lord" },
+          { "text": "Any **Maggotkin of Nurgle**" }
+        ],
+        "baseSize": "130mm"
+      },
       "stats": {
         "movement": "6\"",
         "save": "4+",
@@ -487,6 +545,15 @@
     {
       "name": "Morbidex Twiceborn",
       "faction": "Maggotkin on Nurgle",
+      "profile": {
+        "unitSize": 1,
+        "points": 320,
+        "regimentOptions": [
+          { "min": 0, "max": 1, "text": "Rotbringer Lord" },
+          { "text": "Any **Maggotkin of Nurgle**" }
+        ],
+        "baseSize": "100mm"
+      },
       "stats": {
         "movement": "8\"",
         "save": "4+",
@@ -568,8 +635,17 @@
       "secondaryKeywords": ["Chaos", "Maggotkin of Nurgle", "Rotbringers"]
     },
     {
-      "name": "Bload Rotspawned",
+      "name": "Bloab Rotspawned",
       "faction": "Maggotkin on Nurgle",
+      "profile": {
+        "unitSize": 1,
+        "points": 320,
+        "regimentOptions": [
+          { "min": 0, "max": 1, "text": "Rotbringer Lord" },
+          { "text": "Any **Maggotkin of Nurgle**" }
+        ],
+        "baseSize": "130mm"
+      },
       "stats": {
         "movement": "8\"",
         "save": "4+",
@@ -647,6 +723,12 @@
     {
       "name": "Gutrot Spume",
       "faction": "Maggotkin on Nurgle",
+      "profile": {
+        "unitSize": 1,
+        "points": 180,
+        "regimentOptions": [{ "min": 0, "max": 1, "text": "Rotbringer Lord" }],
+        "baseSize": "40mm"
+      },
       "stats": {
         "movement": "4\"",
         "save": "4+",
@@ -703,6 +785,15 @@
     {
       "name": "Lord of Afflictions",
       "faction": "Maggotkin on Nurgle",
+      "profile": {
+        "unitSize": 1,
+        "points": 220,
+        "regimentOptions": [
+          { "text": "Any **Plague Drones**" },
+          { "text": "Any **Pusgoyle Blightlords**" }
+        ],
+        "baseSize": "60mm"
+      },
       "stats": {
         "movement": "8\"",
         "save": "3+",
@@ -757,6 +848,15 @@
     {
       "name": "Orghotts Daemonspew",
       "faction": "Maggotkin on Nurgle",
+      "profile": {
+        "unitSize": 1,
+        "points": 340,
+        "regimentOptions": [
+          { "min": 0, "max": 1, "text": "Rotbringer Lord" },
+          { "text": "Any **Maggotkin of Nurgle**" }
+        ],
+        "baseSize": "100mm"
+      },
       "stats": {
         "movement": "8\"",
         "save": "3+",
@@ -831,6 +931,13 @@
     {
       "name": "Lord of Blights",
       "faction": "Maggotkin on Nurgle",
+      "profile": {
+        "unitSize": 1,
+        "points": 170,
+        "regimentOptions": [{ "text": "Any **Rotbringers Infantry**" }],
+        "notes": "This **Hero** can join an eligible regiment as a _Rotbringer Lord_",
+        "baseSize": "40mm"
+      },
       "stats": {
         "movement": "4\"",
         "save": "3+",
@@ -875,6 +982,15 @@
     {
       "name": "Rotbringer Sorcerer",
       "faction": "Maggotkin on Nurgle",
+      "profile": {
+        "unitSize": 1,
+        "points": 120,
+        "regimentOptions": [
+          { "min": 0, "max": 1, "text": "Rotbringer Lord" },
+          { "text": "Any **Rotbringers**" }
+        ],
+        "baseSize": "32mm"
+      },
       "stats": {
         "movement": "4\"",
         "save": "5+",
@@ -909,6 +1025,13 @@
     {
       "name": "Lord of Plagues",
       "faction": "Maggotkin on Nurgle",
+      "profile": {
+        "unitSize": 1,
+        "points": 170,
+        "regimentOptions": [{ "text": "Any **Rotbringers Infantry**" }],
+        "notes": "This **Hero** can join an eligible regiment as a _Rotbringer Lord_",
+        "baseSize": "40mm"
+      },
       "stats": {
         "movement": "4\"",
         "save": "4+",
@@ -953,6 +1076,12 @@
     {
       "name": "Pusgoyle Blightlords",
       "faction": "Maggotkin on Nurgle",
+      "profile": {
+        "unitSize": 2,
+        "points": 250,
+        "relevantKeywords": ["Rotbringers", "Cavalry"],
+        "baseSize": "60mm"
+      },
       "stats": {
         "movement": "8\"",
         "save": "4+",
@@ -996,6 +1125,12 @@
     {
       "name": "Putrid Blightkings",
       "faction": "Maggotkin on Nurgle",
+      "profile": {
+        "unitSize": 5,
+        "points": 200,
+        "relevantKeywords": ["Rotbringers", "Infantry"],
+        "baseSize": "40mm"
+      },
       "stats": {
         "movement": "4\"",
         "save": "3+",
@@ -1035,6 +1170,13 @@
     {
       "name": "Rotmire Creed",
       "faction": "Maggotkin on Nurgle",
+      "profile": {
+        "unitSize": 10,
+        "points": 130,
+        "relevantKeywords": ["Rotbringers", "Infantry"],
+        "notes": "This unit cannot be reinforced",
+        "baseSize": ["32mm [2]", "28.5mm [8]"]
+      },
       "stats": {
         "movement": "5\"",
         "save": "6+",
