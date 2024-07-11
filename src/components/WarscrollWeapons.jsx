@@ -8,7 +8,7 @@ function parseDiceString(diceString) {
     throw new Error("Invalid dice string format");
   }
 
-  let [, count, hasDice, sides, modifier] = match;
+  let [count, hasDice, sides, modifier] = match;
 
   // Convert strings to numbers, use default values if not provided
   count = count ? parseInt(count) : hasDice ? 1 : 0;
@@ -16,10 +16,14 @@ function parseDiceString(diceString) {
   modifier = modifier ? parseInt(modifier) : 0;
 
   if (hasDice) {
+    console.log("HAS DICE");
     // Calculate average for dice roll: (min + max) / 2
     const averageRoll = (1 + sides) / 2;
     return count * averageRoll + modifier;
   } else {
+    console.log(`DICE STRING: ${diceString}`);
+    console.log(`SIDES: ${sides}`);
+    console.log(`MODIFIER: ${modifier}`);
     // If no dice (just a number), return the number plus modifier
     return sides + modifier;
   }
@@ -244,11 +248,6 @@ function WarscrollWeapons({ unit, color }) {
         </table>
       )}
 
-      {unit.rangedWeapons &&
-        unit.rangedWeapons.map((weapon) => {
-          return fisk(unit, weapon);
-        })}
-
       {unit.meleeWeapons && (
         <table className="fl-table">
           <thead>
@@ -279,11 +278,6 @@ function WarscrollWeapons({ unit, color }) {
           </tbody>
         </table>
       )}
-
-      {unit.meleeWeapons &&
-        unit.meleeWeapons.map((weapon) => {
-          return fisk(unit, weapon);
-        })}
     </div>
   );
 }
