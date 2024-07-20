@@ -85,7 +85,7 @@ const config: Config = {
       title: "Lexsigmarium",
       logo: {
         alt: "Lexsigmaium Logo",
-        src: "img/logo.svg",
+        src: "img/logo.jpeg",
       },
       items: [
         {

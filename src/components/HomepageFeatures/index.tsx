@@ -1,6 +1,7 @@
 import clsx from "clsx";
 import Heading from "@theme/Heading";
 import styles from "./styles.module.css";
+import useBaseUrl from "@docusaurus/useBaseUrl";
 
 type FeatureItem = {
   title: string;
@@ -41,15 +42,16 @@ function Feature({ title, Svg, description }: FeatureItem) {
 }
 
 export default function HomepageFeatures(): JSX.Element {
+  let iconUrl = useBaseUrl(`img/logo.jpeg`);
   return (
-    <section className={styles.features}>
-      <div className="container">
-        <div className="row">
-          {FeatureList.map((props, idx) => (
-            <Feature key={idx} {...props} />
-          ))}
-        </div>
-      </div>
-    </section>
+    <img
+      src={iconUrl}
+      style={{
+        display: "block",
+        width: "25%",
+        marginLeft: "auto",
+        marginRight: "auto",
+      }}
+    />
   );
 }
