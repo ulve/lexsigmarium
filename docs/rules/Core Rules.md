@@ -392,7 +392,7 @@ Units with the Fly keyword have the following passive ability:
 <WarscrollAbility ability={{"name":"Fly","header":{"icon":"movement","color":"gray","text":"Passive"},"effect":"As this unit moves, it ignores other models, terrain features and the combat ranges of enemy units. It cannot end its move in combat unless specified in the ability that allowed it to move. Ignore any vertical distance moved for this unit."}} />
 
 :::tip
-When moving flying units, move them horizontally in any direction, ignoring intervening models and terrain, and place them where you wish, so long as they are allowed to end their move on that spot. Note that some units have the Fry keyword even if that unit can't really fly. This often represents units that bounce, bound or skitter across the battlefield so adeptly that they might as well be flying!
+When moving flying units, move them horizontally in any direction, ignoring intervening models and terrain, and place them where you wish, so long as they are allowed to end their move on that spot. Note that some units have the Fly keyword even if that unit can't really fly. This often represents units that bounce, bound or skitter across the battlefield so adeptly that they might as well be flying!
 :::
 
 # Attacking
