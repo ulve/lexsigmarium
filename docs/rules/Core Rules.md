@@ -89,13 +89,13 @@ The vast majority of things that units can do in Warhammer Age of Sigmar are cal
 :::tip
 **Ability icons** give you an idea what kind of effect the ability has at a glance.
 
-!!! Movement Ability
-!!! Offensive Ability
-!!! Defensive Ability
-!!! Shooting Ability
-!!! Rallying Ability
-!!! Special Ability
-!!! Control Ability
+![](movement.png) Movement Ability
+![](offensive.png)Offensive Ability
+![](defensive.png)Defensive Ability
+![](shooting.png)Shooting Ability
+![](rally.png)Rally Ability
+![](special.png)Specia Ability
+![](control.png)Control Ability
 :::
 
 ### 5.1 Keywords

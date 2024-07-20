@@ -108,20 +108,6 @@ const config: Config = {
         },
       ],
     },
-    footer: {
-      style: "dark",
-      links: [
-        {
-          title: "Docs",
-          items: [
-            {
-              label: "Tutorial",
-              to: "/docs/intro",
-            },
-          ],
-        },
-      ],
-    },
     prism: {
       theme: prismThemes.github,
       darkTheme: prismThemes.dracula,
