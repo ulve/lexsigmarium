@@ -608,8 +608,8 @@ If there are multiple modifiers of the same type (e.g. that set a characteristic
 - ﻿﻿When resolving an effect, if you need to roll a dice for multiple affected units, roll and resolve the effect for one unit before moving on to the next.
 - ﻿﻿If an ability instructs you to pick more than 1 unit, each unit you pick must be a different unit unless stated otherwise.
   
-  :::tip
-  Most abilities are found on warscrolls, but many appear elsewhere - the best examples being the Universal Core Abilities (see [14.0](#140-universal-core-abilities)).
+:::tip
+Most abilities are found on warscrolls, but many appear elsewhere - the best examples being the Universal Core Abilities (see [14.0](#140-universal-core-abilities)).
 
 While abilities on warscrolls are always used by the unit whose warscroll it is, some abilities that do not appear on warscrolls will tell you explicitly to pick a unit to use the ability. In both cases, it should be clear which unit is using the ability.
 
@@ -618,7 +618,7 @@ Some abilities that do not appear on warscrolls, most commonly enhancements (see
 Abilities that neither appear on a warscroll nor tell you to pick a unit to use the ability are used by you, the player.
 
 Finally, for the purposes of the rules in this section, when a rule refers to a player using an ability, this includes abilities used by units in that player's army.
-  :::
+:::
   
 ### 28.1 Persisting Effects
   
