@@ -554,9 +554,19 @@ Some abilities allow you to set up a **replacement unit**. When setting up that 
 
 The replacement unit is otherwise treated as a new unit; any keywords or abilities the original unit gained during the battle, and any persisting effects that applied to it, do not apply to the replacement unit. Each unit can only be replaced once, and you cannot replace replacement units.
 
+:::danger
+- Returned models must be set up in **coherency** with the models in their unit that were not returned as part of that ability.
+- Returned models can only be set up **in combat** with an enemy unit if their unit is already in combat with it.
+:::
+
+:::tip
+Because a replacement unit is treated as a completely new unit, it could, for instance, use a **Once Per Battle** ability on its warscroll even if the unit it replaced used that ability earlier in the battle.
+:::
+
 ## 25.0 Guarded Heroes
 
-<WarscrollAbility ability={{"name":"Guarded Hero","header":{"icon":"defensive","color":"teal","text":"Passive"},"effect":"If this **HERO** is within the combat range of a friendly unit that is **not** a **HERO**:
+<WarscrollAbility ability={{"name":"Guarded Hero","header":{"icon":"defensive","color":"teal","text":"Passive"},"effect":"If this **HERO** is within the combat range of a friendly unit that is **not** a **HERO**:\n\n- ﻿﻿Subtract 1 from **hit rolls** for **shooting attacks** that target this **HERO**.\n- ﻿﻿If this **HERO** is **INFANTRY**, they cannot be picked as the target of **shooting attacks** made by units more than 12\" from them."}} />
 
-- ﻿﻿Subtract 1 from **hit rolls** for **shooting attacks** that target this **HERO**.\n
-- ﻿﻿If this **HERO** is **INFANTRY**, they cannot be picked as the target of **shooting attacks** made by units more than 12\" from them."}} />
+:::tip
+Understandably, **MONSTERS** and **WAR MACHINES** don't benefit from the 'Guarded Hero' ability. These units are very conspicuous targets even if they are surrounded by their fellows!
+:::
