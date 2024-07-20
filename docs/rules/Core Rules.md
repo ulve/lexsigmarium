@@ -71,14 +71,14 @@ Each faction has a set of **faction rules**, which include **battle traits**,
 
 The rules for each unit are contained on a warscroll:
 ![](4.0-1.png.png)
-1. The **MOVE** characteristic determines how quickly the uni6t c"an move across the battlefield (see 15.0).
-2. The **HEALTH** characteristic determines how many damage points can be allocated to a unit before a model in the unit is slain (see 18.2).
-3. The **CONTROL** characteristic determines how well each model in the unit can contest objectives (see 32.2).
-4. The **SAVE** characteristic determines how well armoured the unit is. This characteristic is the roll you need to equal or exceed to save a model from harm, so a lower value is better (see 17.0).
+1. The **MOVE** characteristic determines how quickly the uni6t c"an move across the battlefield (see [15.0](#150-movement)).
+2. The **HEALTH** characteristic determines how many damage points can be allocated to a unit before a model in the unit is slain (see [18.2](#182-allocating-damage)).
+3. The **CONTROL** characteristic determines how well each model in the unit can contest objectives (see [32.2](#322-objective-control)).
+4. The **SAVE** characteristic determines how well armoured the unit is. This characteristic is the roll you need to equal or exceed to save a model from harm, so a lower value is better (see [17.0](#170-the-attack-sequence)).
 5. The **UNIT TYPE**.
-6. The **KEYWORDS** that the unit has (see 5.1)
-7. The **WEAPONS** the unit is armed with. Weapons are either **melee weapons**, used to make **combat attacks**, or **ranged weapons**, used to make shooting attacks. Each weapon has its own characteristics (see 16.0).
-8. Any special **ABILITIES** the unit can use (see 5.0).
+6. The **KEYWORDS** that the unit has (see [5.1](#51-keywords))
+7. The **WEAPONS** the unit is armed with. Weapons are either **melee weapons**, used to make **combat attacks**, or **ranged weapons**, used to make shooting attacks. Each weapon has its own characteristics (see [16.0](#160-picking-targets)).
+8. Any special **ABILITIES** the unit can use (see [5.0](#50-abilities)).
 
 ## 5.0 Abilities
 
@@ -109,12 +109,12 @@ Keywords let you know which abilities can be used or which units can be picked a
 The **timing** of an ability tells you when it can be used. When using an ability, follow these steps:
 
 1. **Declare the Ability**: Tell your opponent which ability is beeing used. If the ability has **Declare** instructions, resolve them at this step.
-2. **Use Reactions**: Starting with the active player (see 12.0), the players alternate using any abilities with an appropriate **Reaction** timing.
+2. **Use Reactions**: Starting with the active player (see [12.0](#120-start-of-battle-round)), the players alternate using any abilities with an appropriate **Reaction** timing.
 3. **Resolve the Effect**: Follow the instructions in the **Effect** part of the ability.
 
 ### 5.3 The Rules of One
 
-- A unit cannot use more than 1 **Core** ability per phase (see 14.0).
+- A unit cannot use more than 1 **Core** ability per phase (see [14.0](#140-universal-core-abilities)).
 - A unit cannot use the **same ability** more than once per phase, unless specified otherwise.
 - A unit cannot be affected by the same **passive ability** more than once at the same time. For example, if a unit is within range of two different terrain features that have the ‘Cover’ passive ability, the effect only applies to it once.
 
@@ -213,7 +213,7 @@ Unless otherwise specified in the battlepack or battleplan, after terrain has be
 
 ### 10.0 The Deployment Phase
 
-Once the battlefield is ready, the players must deploy their armies. This is done in a special phase called the deployment phase. The deployment phase happens once per battle, before the start of the first battle round (see 12.0).
+Once the battlefield is ready, the players must deploy their armies. This is done in a special phase called the deployment phase. The deployment phase happens once per battle, before the start of the first battle round (see [12.0](#120-start-of-battle-round)).
 
 - STEP 1 - DEPLOY FACTION TERRAIN FEATURES
 
@@ -247,7 +247,7 @@ Some factions have special **DEPLOY** abilities, such as the 'Scions of the Stor
 
 ## 11.0 Battle Sequence
 
-Each battle lasts a number of **battle rounds**, specified in the battleplan. During each battle round, each player will take a **turn**. Each turn is broken down into multiple phases (see 13.0).
+Each battle lasts a number of **battle rounds**, specified in the battleplan. During each battle round, each player will take a **turn**. Each turn is broken down into multiple phases (see [13.0](#130-turn-phases)).
 
 ## 12.0 Start of Battle Round
 
@@ -295,7 +295,7 @@ Once a player has no more units that are eligible to use a **FIGHT** ability, th
 
 ## 14.0 Universal Core Abilities
 
-The following Core abilities can be used by any unit. Remember that each unit can use a maximum of 1 CORE ability per phase (see 5.3).
+The following Core abilities can be used by any unit. Remember that each unit can use a maximum of 1 CORE ability per phase (see [5.3](#53-the-rules-of-one)).
 
 ### 14.1 Movement Phase
 
@@ -404,7 +404,7 @@ When declaring an **ATTACK** ability for a unit, you must pick the target unit(s
 If the unit is **in combat**, it can only target units that are in combat with it. If a model has more than one attack, you can split the attacks between eligible targets as you wish.
 
 - **Combat attacks** are made with **melee weapons**. The target units) must be within the **combat range** of the attacking model and visible to it. The model must attack with all of the melee weapons it is armed with.
-- **Shooting attacks** are made with **ranged weapons**. The target units) must be within a distance equal to the **Range** characteristic of the weapon being used and **visible** to the attacking model. Models cannot make shooting attacks if their unit is **in combat**, unless otherwise specified (see [20.0 Weapon abilities](#20.0%20Weapon%20abilities)).
+- **Shooting attacks** are made with **ranged weapons**. The target units) must be within a distance equal to the **Range** characteristic of the weapon being used and **visible** to the attacking model. Models cannot make shooting attacks if their unit is **in combat**, unless otherwise specified (see [20.0 Weapon abilities](#200-weapon-abilities)).
   
 :::danger
 - ﻿﻿Pick targets for all attacks when declaring an **ATTACK** ability.
@@ -416,17 +416,17 @@ If the unit is **in combat**, it can only target units that are in combat with i
   
   ## 17.0 The Attack Sequence
   
-  Resolve steps 1-4 below for each attack made against a target unit, one attack at a time. If you picked more than one target unit for the **ATTACK** ability, resolve all the attacks made against one unit before moving on to the next, in an order of your choosing. Once you are familiar with the attack sequence, see 'Fast Dice Rolling' (see 17.3) if you want to speed up play.
+  Resolve steps 1-4 below for each attack made against a target unit, one attack at a time. If you picked more than one target unit for the **ATTACK** ability, resolve all the attacks made against one unit before moving on to the next, in an order of your choosing. Once you are familiar with the attack sequence, see 'Fast Dice Rolling' (see [17.3](#173-fast-dice-rolling)) if you want to speed up play.
   
   1. **Hit Roll**: Roll a dice. If the roll equals or exceeds the attacking weapon's **Hit** characteristic, the attack scores a **successful hit**: move on to the next step. If not, the attack **fails** and the attack sequence ends. Unmodified hit rolls of 1 always fail. If an unmodified hit roll for an attack made with a weapon is a **6**, that attack is a **critical hit**.
   2. **Wound Roll**: Roll a dice. If the roll equals or exceeds the attacking weapon's **Wound** characteristic, the attack **successfully wounds**: move on to the next step. If not, the attack **fails** and the attack sequence ends. Unmodified wound rolls of 1 always fail.
   3. **Save Roll**: The commander of the **target** unit rolls a dice, subtracting the attacking weapon's **Rend** characteristic from the roll. Unmodified save rolls of 1 always fail. If the roll equals or exceeds the **Save** characteristic of the target unit, the attack **fails** and the attack sequence ends. If not, it is a **successful attack**: move on to the next step.
   4. **Determine Damage**: The attack **inflicts** a number of **damage points** on the unit equal to the **Damage** characteristic of the weapon. Inflicted damage points are added to a temporary **damage pool** for the target unit.
      
- After completing these steps for all of the attacks made as part of that **ATTACK** ability, the attacks for that ability are **resolved** and you can move on to the **damage sequence** (see 18.0).
+ After completing these steps for all of the attacks made as part of that **ATTACK** ability, the attacks for that ability are **resolved** and you can move on to the **damage sequence** (see [18.0](#180-the-damage-sequence)).
  
 :::tip
-Critical hits have no effect on their own but often trigger additional effects (see 20.0 Weapon Abilities).
+Critical hits have no effect on their own but often trigger additional effects (see [20.0 Weapon Abilities](#200-weapon-abilities)).
 :::
 
 :::tip
@@ -441,11 +441,11 @@ When making a **save roll**, add up all the positive and negative modifiers that
 
 ### 17.2 Mortal Damage
 
-Some abilities inflict **mortal damage**. If an ability inflicts mortal damage on a unit, add that number of damage points to the unit's damage pool for that ability (see 18.2 Allocating Damage).
+Some abilities inflict **mortal damage**. If an ability inflicts mortal damage on a unit, add that number of damage points to the unit's damage pool for that ability (see (18.2 Allocating Damage)[#182-allocating-damage]).
 
-### 17.4 Fast Dice Rolling
+### 17.3 Fast Dice Rolling
 
-In order to speed up play, it is often possible to make several attacks at once. If you choose to do so, all of the attacks must have the same **Hit**, **Wound**, **Rend** and **Damage** characteristics, the same **weapon abilities** (if any - see 20.0), and they must target the same enemy unit. If this is the case, make all of the hit rolls at the same time, then all of the wound rolls and finally all of the save rolls. Then, add up all the damage points inflicted on the target unit and move on to the damage sequence (see 18.0).
+In order to speed up play, it is often possible to make several attacks at once. If you choose to do so, all of the attacks must have the same **Hit**, **Wound**, **Rend** and **Damage** characteristics, the same **weapon abilities** (if any - see [20.0](#200-weapon-abilities)), and they must target the same enemy unit. If this is the case, make all of the hit rolls at the same time, then all of the wound rolls and finally all of the save rolls. Then, add up all the damage points inflicted on the target unit and move on to the damage sequence (see [18.0](#180-the-damage-sequence)).
 
 If the attack sequence ends for an attack made while fast dice rolling, it doesn't stop the attack sequence for all the attacks, just that specific attack.
 
@@ -453,8 +453,8 @@ If the attack sequence ends for an attack made while fast dice rolling, it doesn
 
 After resolving the effect of any ability that inflicts damage points on a unit, follow the steps below. If the ability inflicted damage points on more than one unit, follow the steps below for each of those units, one at a time. Each commander allocates damage points to their own units, in the order of their choosing, starting with the active player.
 
-1. **Resolve ward saves** for all damage points in the target unit's damage pool, if applicable (see 17.0).
-2. **Allocate the damage points** in the unit's damage pool and remove slain models (see 18.3).
+1. **Resolve ward saves** for all damage points in the target unit's damage pool, if applicable (see [17.0](#170-the-attack-sequence)).
+2. **Allocate the damage points** in the unit's damage pool and remove slain models (see [18.3](#183-slain-models)).
 
 ### 18.1 Ward Saves
 
@@ -474,7 +474,7 @@ If the number of damage points allocated to a unit is not enough to slay a model
 
 The commander of a unit must pick which models) in the unit are slain.
 
-However, after each slain model is removed, the unit must be in a single coherent group (see 15.1). If this is not possible, continue to remove models, one at a time, until the unit is in a single coherent group.
+However, after each slain model is removed, the unit must be in a single coherent group (see [15.1](#151-coherency)). If this is not possible, continue to remove models, one at a time, until the unit is in a single coherent group.
 
 ### 18.4 Destroyed Units
 
