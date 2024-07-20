@@ -385,7 +385,7 @@ Some abilities, such as FIGHT abilities, allow a unit to make a short move calle
 - If in combat, the unit must end the move closer, or at least as close, to the target enemy unit.
 :::
 
-## Flying
+## 15.4 Flying
 
 Units with the Fly keyword have the following passive ability:
 
