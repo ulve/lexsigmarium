@@ -86,7 +86,7 @@ The vast majority of things that units can do in Warhammer Age of Sigmar are cal
 
 ![](5.0-1.png.png)
 
-::: tip
+:::tip
 **Ability icons** give you an idea what kind of effect the ability has at a glance.
 
 !!! Movement Ability
