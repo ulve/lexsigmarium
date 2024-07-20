@@ -531,3 +531,32 @@ The **Companion** weapon ability restricts things like mounts from benefiting fr
 ## 21.0 Healing
 
 Some abilities allow you to **heal** a unit. To heal a unit, remove a number of damage points from the unit equal to the number in brackets after '**Heal**', e.g. **Heal (2)**.
+
+## 22.0 Returning and Adding Models
+
+Some abilities allow you to **return** slain models to a unit or **add** new models to a unit. In either case, set up those models, one at a time, in coherency (see [15.1](#151-coherency)) with the model(s) in that unit that were not returned or added this turn. The new models can only be set up in combat with an enemy unit if their unit is already in combat with that enemy unit.
+
+## 23.0 Tokens
+
+Tokens are not considered to be models for rules purposes and can be ignored or moved out of the way for purposes of visibility, coherency or abilities. They cannot be picked as the target of abilities. Their purpose is to indicate persisting effects on units they are placed next to. Each time a unit with a token finishes a move or is set up, place the token next to the unit.
+
+## 24.0 Setting Up Units
+
+Some abilities allow you to set up a unit on the battlefield. When doing so, you must set up all models in that unit. If this is impossible, you cannot use that ability. A unit set up on the battlefield in a phase other than the deployment phase cannot use **MOVE** abilities in the movement phase of the same turn.
+
+### 24.1 Reserve Units
+
+Some abilities allow you to set up units **in reserve**. These units are placed to one side instead of being set up on the battlefield. At the start of the fourth battle round, units that were set up in reserve using a **DEPLOY** ability and that are still in reserve are destroyed.
+
+### 24.2 Replacement Units
+
+Some abilities allow you to set up a **replacement unit**. When setting up that unit, it should have the same warscroll type, weapon options and number of models as the original unit, unless otherwise specified in the ability. Many of these abilities specify the proportion of models in the replacement unit (e.g. half the number of models from the original unit). In these cases, you can pick which models from the original unit are set up.
+
+The replacement unit is otherwise treated as a new unit; any keywords or abilities the original unit gained during the battle, and any persisting effects that applied to it, do not apply to the replacement unit. Each unit can only be replaced once, and you cannot replace replacement units.
+
+## 25.0 Guarded Heroes
+
+<WarscrollAbility ability={{"name":"Guarded Hero","header":{"icon":"defensive","color":"teal","text":"Passive"},"effect":"If this **HERO** is within the combat range of a friendly unit that is **not** a **HERO**:
+
+- ﻿﻿Subtract 1 from **hit rolls** for **shooting attacks** that target this **HERO**.\n
+- ﻿﻿If this **HERO** is **INFANTRY**, they cannot be picked as the target of **shooting attacks** made by units more than 12\" from them."}} />
