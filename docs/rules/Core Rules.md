@@ -387,7 +387,7 @@ Some abilities, such as FIGHT abilities, allow a unit to make a short move calle
 
 ## Flying
 
-Units with the FLy keyword have the following passive ability:
+Units with the Fly keyword have the following passive ability:
 
 <WarscrollAbility ability={{"name":"Fly","header":{"icon":"movement","color":"gray","text":"Passive"},"effect":"As this unit moves, it ignores other models, terrain features and the combat ranges of enemy units. It cannot end its move in combat unless specified in the ability that allowed it to move. Ignore any vertical distance moved for this unit."}} />
 
