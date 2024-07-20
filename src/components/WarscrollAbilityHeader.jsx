@@ -36,26 +36,13 @@ function WarscrollAbilityHeader({ ability }) {
       <img className="ability-icon" src={icon} />
       <span>{ability.header.text}</span>
       {ability.castingValue && (
-        <div
-          style={{
-            border: "1px solid black",
-            borderRadius: "50%",
-            position: "absolute",
-            height: "4rem",
-            width: "4rem",
-            top: "-1rem",
-            textAlign: "center",
-            verticalAlign: "middle",
-            right: "1rem",
-            background:
-              "linear-gradient(128deg, rgba(255,20,0,1) 20%, rgba(255,175,0,1) 39%, rgba(20,175,0,1) 60%, rgba(0,15,240,1) 80%, rgba(201,0,201,1) 100%)",
-            display: "flex",
-            justifyContent: "center",
-            alignItems: "center",
-            fontSize: "3rem",
-          }}
-        >
+        <div className="castingValue">
           <span>{ability.castingValue}</span>
+        </div>
+      )}
+      {ability.chantingValue && (
+        <div className="chantingValue">
+          <span>{ability.chantingValue}</span>
         </div>
       )}
     </div>

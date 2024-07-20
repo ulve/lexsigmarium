@@ -18,3 +18,42 @@
   margin-right: 0.5rem;
 }
 
+.chantingValue {
+  border: 1px solid black;
+  position: absolute;
+  height: 4rem;
+  width: 4rem;
+  top: -1rem;
+  text-align: center;
+  vertical-align: middle;
+  right: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: red;
+  font-size: 3rem;
+}
+
+.castingValue {
+  border: 1px solid black;
+  border-radius: 50%;
+  position: absolute;
+  height: 4rem;
+  width: 4rem;
+  top: -1rem;
+  text-align: center;
+  vertical-align: middle;
+  right: 1rem;
+  background: linear-gradient(
+    128deg,
+    rgba(255, 20, 0, 1) 20%,
+    rgba(255, 175, 0, 1) 39%,
+    rgba(20, 175, 0, 1) 60%,
+    rgba(0, 15, 240, 1) 80%,
+    rgba(201, 0, 201, 1) 100%
+  );
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+}

@@ -23,10 +23,7 @@
           "wnd": "3+",
           "rnd": "-",
           "dmg": "D3",
-          "abilities": [
-            "Anti-Wizard(+1 Rend)",
-            "Crit(mortal)"
-          ]
+          "abilities": ["Anti-Wizard(+1 Rend)", "Crit(mortal)"]
         },
         {
           "name": "💀 Killabeak's Talons and Beak",
@@ -35,10 +32,7 @@
           "wnd": "2+",
           "rnd": "1",
           "dmg": "2",
-          "abilities": [
-            "Anti-Wizard(+1 Rend)",
-            "Companion"
-          ]
+          "abilities": ["Anti-Wizard(+1 Rend)", "Companion"]
         },
         {
           "name": "Killabekak's Stinger",
@@ -47,10 +41,7 @@
           "wnd": "2+",
           "rnd": "1",
           "dmg": "D6",
-          "abilities": [
-            "Crit(Mortal)",
-            "Companion"
-          ]
+          "abilities": ["Crit(Mortal)", "Companion"]
         }
       ],
       "abilities": [
@@ -81,9 +72,7 @@
           },
           "declare": "Pick an enemy unit in combat with this unit to be the target.",
           "effect": "Roll a dice. If the roll exceeds the target's Health characteristic, 1 model in the target unit is slain.",
-          "keywords": [
-            "Rampage"
-          ]
+          "keywords": ["Rampage"]
         },
         {
           "name": "Mork Sez No",
@@ -104,9 +93,7 @@
           "declare": "Pick a visible enemy unit within 18\" of this unit to be the target, then make a casting roll of 2D6.",
           "effect": "Roll a number of dice equal to the target's Health characteristic, to a maximum of 10. For each 4+, inflict 1 mortal damage on the target.",
           "castingValue": "6",
-          "keywords": [
-            "Spell"
-          ]
+          "keywords": ["Spell"]
         }
       ],
       "primaryKeywords": [
@@ -118,10 +105,7 @@
         "Fly",
         "Ward(6+)"
       ],
-      "secondaryKeywords": [
-        "Destruction",
-        "Kruleboyz"
-      ]
+      "secondaryKeywords": ["Destruction", "Kruleboyz"]
     },
     {
       "name": "Gutrippaz",
@@ -140,9 +124,7 @@
           "wnd": "3+",
           "rnd": "-",
           "dmg": "1",
-          "abilities": [
-            "Crit(mortal)"
-          ]
+          "abilities": ["Crit(mortal)"]
         }
       ],
       "abilities": [
@@ -162,10 +144,7 @@
         "Musician(1/10)",
         "Standard Bearer(1/10)"
       ],
-      "secondaryKeywords": [
-        "Destruction",
-        "Kruleboyz"
-      ]
+      "secondaryKeywords": ["Destruction", "Kruleboyz"]
     },
     {
       "name": "Killaboss",
@@ -185,9 +164,7 @@
           "wnd": "3+",
           "rnd": "1",
           "dmg": "2",
-          "abilities": [
-            "Crit(mortal)"
-          ]
+          "abilities": ["Crit(mortal)"]
         },
         {
           "name": "Great Gnashtoof's Jaws",
@@ -196,9 +173,7 @@
           "wnd": "3+",
           "rnd": "1",
           "dmg": "2",
-          "abilities": [
-            "Companion"
-          ]
+          "abilities": ["Companion"]
         }
       ],
       "abilities": [
@@ -222,14 +197,8 @@
           "effect": "Add 3 to the target's control score until the start of your next turn."
         }
       ],
-      "primaryKeywords": [
-        "Hero",
-        "Cavalry"
-      ],
-      "secondaryKeywords": [
-        "Destruction",
-        "Kruleboyz"
-      ]
+      "primaryKeywords": ["Hero", "Cavalry"],
+      "secondaryKeywords": ["Destruction", "Kruleboyz"]
     },
     {
       "name": "Murknob",
@@ -249,9 +218,7 @@
           "wnd": "3+",
           "rnd": "1",
           "dmg": "2",
-          "abilities": [
-            "Crit(mortal)"
-          ]
+          "abilities": ["Crit(mortal)"]
         }
       ],
       "abilities": [
@@ -275,14 +242,8 @@
           "effect": "Roll a dice for each target. On a 1, this ability has no effect. On a 2-5, inflict 1 mortal damage on the target. On a 6, inflict D3 mortal damage on the target."
         }
       ],
-      "primaryKeywords": [
-        "Hero",
-        "Infantry"
-      ],
-      "secondaryKeywords": [
-        "Destruction",
-        "Kruleboyz"
-      ]
+      "primaryKeywords": ["Hero", "Infantry"],
+      "secondaryKeywords": ["Destruction", "Kruleboyz"]
     }
   ],
   "battleTraits": [
@@ -304,9 +265,7 @@
       },
       "declare": "Pick an enemy unit that charged this turn and is in combat with any friendly **KRULEBOYZ** units to be the target, then make a dirty trick roll.",
       "effect": "Inflict D3 mortal damage on the target. In addition, for the rest of the turn, the target's weapons cannot be affected by the **Charge (+1 Damage)** weapon ability.",
-      "keywords": [
-        "Dirty Trick"
-      ]
+      "keywords": ["Dirty Trick"]
     },
     {
       "name": "Sneaky Sneakin'",
@@ -317,9 +276,7 @@
       },
       "declare": "Pick a friendly **KRULEBOYZ INFANTRY** unit that has 10 or fewer models and is not in combat to be the target, then make a dirty trick roll.",
       "effect": "Remove the target from the battlefield and set it up again wholly within 3\" of a terrain feature and more than 9\" from all enemy units.",
-      "keywords": [
-        "Dirty Trick"
-      ]
+      "keywords": ["Dirty Trick"]
     },
     {
       "name": "Noisy Racket",
@@ -330,9 +287,7 @@
       },
       "declare": "Pick an enemy unit in combat with any friendly **KRULEBOYZ** units to be the target, then make a dirty trick roll.",
       "effect": "The target has **STRIKE-LAST** for the rest of the turn.",
-      "keywords": [
-        "Dirty Trick"
-      ]
+      "keywords": ["Dirty Trick"]
     }
   ],
   "battleFormations": [
@@ -340,13 +295,56 @@
       "name": "Kruleboyz Claw",
       "abilities": [
         {
-          "name": "Swap Shroud",
+          "name": "Swamp Shroud",
           "header": {
             "icon": "defensive",
             "color": "green",
             "text": "Passive"
           },
           "effect": "Friendly KRULEBOYZ units that are wholly within 3\" of a terrain feature are not visible to enemy units that are more than 12\" away from them."
+        }
+      ]
+    },
+    {
+      "name": "Light Finga",
+      "abilities": [
+        {
+          "name": "Ded Sneaky",
+          "header": {
+            "icon": "movement",
+            "color": "gray",
+            "text": "Passive"
+          },
+          "effect": "ou can use the ‘Sneaky Sneakin'’ **Dirty Trick** ability twice per turn instead of only once per turn."
+        }
+      ]
+    },
+    {
+      "name": "Middul Finga",
+      "abilities": [
+        {
+          "name": "Far-killa Bolts",
+          "header": {
+            "icon": "shooting",
+            "color": "teal",
+            "text": "Passive"
+          },
+          "declare": "Pick up to 3 friendly **Man-skewer Boltboyz** or **Beast-skewer Killbow** units to be the targets.",
+          "effect": "For the rest of the turn, add 3\" to the Range characteristic of the targets’ ranged weapons."
+        }
+      ]
+    },
+    {
+      "name": "Trophy Finga",
+      "abilities": [
+        {
+          "name": "Meanest Beasts",
+          "header": {
+            "icon": "offensive",
+            "color": "red",
+            "text": "Passive"
+          },
+          "effect": "**Companion** weapons used by friendly **Kruleboyz** units have Crit (2 Hits)."
         }
       ]
     }
@@ -365,11 +363,10 @@
           "declare": "Pick a friendly **KRULEBOYZ WIZARD** to cast this spell, pick a visible enemy unit wholly within 18\" of them to be the target, then make a casting roll of 2D6.",
           "effect": "Subtract 1 from the Attacks characteristic of the target's weapons until the start of your next turn.",
           "castingValue": "7",
-          "keywords": [
-            "Spell"
-          ]
+          "keywords": ["Spell"]
         }
       ]
     }
   ]
 }
+
