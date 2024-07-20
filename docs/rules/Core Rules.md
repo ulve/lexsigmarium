@@ -404,7 +404,7 @@ When declaring an **ATTACK** ability for a unit, you must pick the target unit(s
 If the unit is **in combat**, it can only target units that are in combat with it. If a model has more than one attack, you can split the attacks between eligible targets as you wish.
 
 - **Combat attacks** are made with **melee weapons**. The target units) must be within the **combat range** of the attacking model and visible to it. The model must attack with all of the melee weapons it is armed with.
-- **Shooting attacks** are made with **ranged weapons**. The target units) must be within a distance equal to the **Range** characteristic of the weapon being used and **visible** to the attacking model. Models cannot make shooting attacks if their unit is **in combat**, unless otherwise specified (see 20.0 Weapon Abilities).
+- **Shooting attacks** are made with **ranged weapons**. The target units) must be within a distance equal to the **Range** characteristic of the weapon being used and **visible** to the attacking model. Models cannot make shooting attacks if their unit is **in combat**, unless otherwise specified (see [20.0 Weapon abilities](#20.0%20Weapon%20abilities)).
   
 :::danger
 - ﻿﻿Pick targets for all attacks when declaring an **ATTACK** ability.
