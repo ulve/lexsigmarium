@@ -597,3 +597,47 @@ If there are multiple modifiers of the same type (e.g. that set a characteristic
 - When using a **random characteristic**, generate it each time it is needed for an ability.
 - ﻿﻿When using **random Damage**, generate it for each attack made.
 :::
+
+## 28.0 Advanced Ability Rules
+
+- ﻿﻿Unless stated otherwise, units using or picked as part of an ability must be on the battlefield.
+- ﻿﻿If an effect states that a unit **can** do something, its commander can choose whether to resolve that part of the effect or not.
+- ﻿﻿If an effect states that a unit **must** do something, its commander has no choice and must resolve that part of the effect. If this is impossible, no part of the eftect is applied but the ability is still considered to have been used.
+- ﻿﻿When 'this unit' appears in ability text (most often on warscrolls), it means the unit that is using the ability.
+- ﻿﻿If an ability affects more than one unit, the player who used the ability can choose the order in which units are affected by it.
+- ﻿﻿When resolving an effect, if you need to roll a dice for multiple affected units, roll and resolve the effect for one unit before moving on to the next.
+- ﻿﻿If an ability instructs you to pick more than 1 unit, each unit you pick must be a different unit unless stated otherwise.
+  
+  :::tip
+  Most abilities are found on warscrolls, but many appear elsewhere - the best examples being the Universal Core Abilities (see [14.0](#140-universal-core-abilities)).
+
+While abilities on warscrolls are always used by the unit whose warscroll it is, some abilities that do not appear on warscrolls will tell you explicitly to pick a unit to use the ability. In both cases, it should be clear which unit is using the ability.
+
+Some abilities that do not appear on warscrolls, most commonly enhancements (see Army Composition, 4.1, are given to certain units in your army. In such cases, the unit to which the enhancement was given is the one using the ability.
+
+Abilities that neither appear on a warscroll nor tell you to pick a unit to use the ability are used by you, the player.
+
+Finally, for the purposes of the rules in this section, when a rule refers to a player using an ability, this includes abilities used by units in that player's army.
+  :::
+  
+### 28.1 Persisting Effects
+  
+  Some abilities have effects that aren't immediately resolved (eg. 'add 1 to save rolls for this unit for the rest of the turn' or 'this unit has **WARD (5+)** for the rest of the turn'). These effects count as the effects of passive abilities (see [5.4](#54-passive-abilities)) for their duration.
+  
+### 28.2 'Once Per' Timings
+  
+The timing part of some abilities says **Once Per Phase**, **Once Per Turn** or **Once Per Battle**. If the ability is used by a unit, it can be used a maximum of one time in that phase, turn or battle by each unit that can use the ability. If the ability is used by a player, it can be used a maximum of one time in that timing window by that player.
+
+Some abilities that are used by units say **Once Per Phase (Army)**, **Once Per Turn (Army)** or **Once Per Battle (Army)**. These abilities can be used a maximum of one time in that phase, turn or battle regardless of the number of units in the army that can use the ability.
+
+## 29.0 Contradictory Rules
+
+If two or more rules contradict, if one of those rules states that something **cannot** do something, this takes precedence over rules that state it **can** or **must** do that thing, unless the second rule specifically overrides the restriction of the first. For example, while the 'Normal Move' ability states you cannot move into combat during that move, the 'Fly' ability specifies to ignore the combat ranges of enemy models during a move.
+
+Excepting the above, the effect of the most recently used ability takes precedence.
+
+## 30.0 Order of Effects
+
+The effects of passive abilities are considered to be applied more recently than the effects of other abilities and rules.
+
+The effects of the active player's passive abilities are considered to be applied more recently than the effects of their opponent's passive abilities, whose passive abilities are considered to be applied more recently than the effects of neutral passive abilities (e.g. passive abilities on a terrain feature that is in neither player's army). The active player chooses the order in which neutral passive effects are applied.
