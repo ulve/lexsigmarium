@@ -1,3 +1,6 @@
+---
+sidebar_position: 1
+---
 import WarscrollAbility from '@site/src/components/WarscrollAbility';
 
 ## 1.0 Core Concepts
@@ -21,24 +24,27 @@ These boxes provide additional insight or context, but do not contain any rules 
 :::
 
 :::danger
-- Many pages in the rules have red boxes in the sidebar, such as this one.  
+
+- Many pages in the rules have red boxes in the sidebar, such as this one.
 - These give you short summaries of important rules.
-- ﻿﻿If you need to read a rule in full, refer to the main text.
-:::
+- If you need to read a rule in full, refer to the main text.
+
+  :::
 
 :::tip
 **RULES UPDATES**
 
 We are committed tosupporting Warhammer Age of Sigmar rules via regular free updates based on community feedback. Please check warhammer-community.com to download the latest updates and FAQs.
 :::
+
 ## 2.0 Tools of War
 
 To fight a battle, you will need:
 
-* A tape measure 
-* Some dice
-* A surface to play on (the battlefield) 
-* 2 armies of Citadel Miniatures
+- A tape measure
+- Some dice
+- A surface to play on (the battlefield)
+- 2 armies of Citadel Miniatures
 
 ### 2.1 Measuring Distances
 
@@ -54,12 +60,12 @@ A **unit** is **within** a certain distance of something if any part of the base
 
 Warhammer Age of Sigmar uses six-sided dice, often abbreviated to **D6**.
 
-* Some rules refer to ‘2D6’, ‘3D6’ and so on – in such cases, roll a number of dice equal to the number before ‘D6’ and add the results together.
-* A roll of ‘2+’ means a roll of 2 or more, a roll of ‘3+’ means a roll of 3 or more, and so on.
-* If a rule requires you to roll a D3, roll a dice and halve the total, rounding up. For **D3** rolls, a roll of ‘2+’ means a result of 2 or more after halving the total and rounding up.
-* Effects that allow you to modify a dice roll are called **modifiers**.
-* Some rules allow you to re-roll a dice roll, which means you get to roll some or all of the dice again. You cannot re-roll a dice more than once, and re-rolls happen before modifiers to the roll (if any) are applied.
-* If you are instructed to roll off, each player should roll a dice. Whichever player has a higher roll wins the roll-off. If the result is a tie, each player should roll off again until there is a clear winner, unless otherwise specified.
+- Some rules refer to ‘2D6’, ‘3D6’ and so on – in such cases, roll a number of dice equal to the number before ‘D6’ and add the results together.
+- A roll of ‘2+’ means a roll of 2 or more, a roll of ‘3+’ means a roll of 3 or more, and so on.
+- If a rule requires you to roll a D3, roll a dice and halve the total, rounding up. For **D3** rolls, a roll of ‘2+’ means a result of 2 or more after halving the total and rounding up.
+- Effects that allow you to modify a dice roll are called **modifiers**.
+- Some rules allow you to re-roll a dice roll, which means you get to roll some or all of the dice again. You cannot re-roll a dice more than once, and re-rolls happen before modifiers to the roll (if any) are applied.
+- If you are instructed to roll off, each player should roll a dice. Whichever player has a higher roll wins the roll-off. If the result is a tie, each player should roll off again until there is a clear winner, unless otherwise specified.
 
 ## 3.0 Factions
 
@@ -71,6 +77,7 @@ Each faction has a set of **faction rules**, which include **battle traits**,
 
 The rules for each unit are contained on a warscroll:
 ![](4.0-1.png.png)
+
 1. The **MOVE** characteristic determines how quickly the uni6t c"an move across the battlefield (see [15.0](#150-movement)).
 2. The **HEALTH** characteristic determines how many damage points can be allocated to a unit before a model in the unit is slain (see [18.2](#182-allocating-damage)).
 3. The **CONTROL** characteristic determines how well each model in the unit can contest objectives (see [32.2](#322-objective-control)).
@@ -139,7 +146,6 @@ An observing model's visibility can be blocked by enemy models. The Rat Ogor in 
 
 The Liberator at the back of this unit can see through their fellows. Models don't block the visibility of other models in their unit - it is assumed that they fight in such a way as to not obstruct one another's attacks.
 
-
 :::danger
 If any part of another model can be seen by an observing model, both the target model and its unit are visible to that observing model.
 :::
@@ -153,9 +159,11 @@ In some cases, it might not be immediately clear whether a model is visible. If 
 Each model has a **combat range** that extends 3" horizontally from its base and any distance vertically from that circle to form a cylinder. The combat range of a unit extends 3" horizontally and any distance vertically from every model in that unit. Units from opposing armies that are within each other's combat range and that are **visible** to each other are **in combat** with each other. When a unit that is not in combat enters the combat range of a visible enemy unit, it **moves into combat**.
 
 :::danger
+
 - A unit's combat range extends 3" out from every model in that unit.
 - If any enemy models are within a unit's combat range and visible to it, that unit is in combat.
-:::
+
+  :::
 
 ![](7.0-1.png.png)
 
@@ -182,12 +190,13 @@ Before starting a battle, both players will need an **army**. Some battlepacks u
 :::danger
 Unless specified otherwise in the battlepack or battleplan:
 
-- ﻿﻿Set up objectives.
-- ﻿﻿Set up terrain.  
+- Set up objectives.
+- Set up terrain.
 - Determine territories.
-- ﻿﻿Deploy armies.  
+- Deploy armies.
 - The player who lost the roll-off to choose territories decides who begins deployment.
-:::
+
+  :::
 
 ## 9.0 Battleplans
 
@@ -207,9 +216,9 @@ Many battlefields have key locations called **objectives**, and almost all battl
 
 Unless otherwise specified in the battlepack or battleplan, after terrain has been set up, the players should roll off. The winner decides which territory belongs to which player. Their opponent decides which player begins deployment.
 
-- ﻿﻿A unit is within a territory if any part of the base of any model in the unit is within that territory.
-- ﻿﻿A unit is wholly within a territory if every part of the base of every model in the unit is within that territory.
-- ﻿﻿The area of the battlefield that is neither player's territory is neutral territory.
+- A unit is within a territory if any part of the base of any model in the unit is within that territory.
+- A unit is wholly within a territory if every part of the base of every model in the unit is within that territory.
+- The area of the battlefield that is neither player's territory is neutral territory.
 
 ### 10.0 The Deployment Phase
 
@@ -217,19 +226,23 @@ Once the battlefield is ready, the players must deploy their armies. This is don
 
 - STEP 1 - DEPLOY FACTION TERRAIN FEATURES
 
-	Some factions have **faction terrain features**, which have their own warscrolls and are set up using **DEPLOY TERRAIN** abilities. The player who begins deployment must use **DEPLOY TERRAIN** abilities first, followed by their opponent.
--  STEP 2- DEPLOY ARMIES
-	
-	Unless otherwise specified in the battleplan, the players alternate using **DEPLOY** abilities to deploy their units, starting with the player who begins deployment. Once one player has no more **DEPLOY** abilities to use, their opponent must continue to use **DEPLOY** abilities until they also have no more to use.
+  Some factions have **faction terrain features**, which have their own warscrolls and are set up using **DEPLOY TERRAIN** abilities. The player who begins deployment must use **DEPLOY TERRAIN** abilities first, followed by their opponent.
+
+- STEP 2- DEPLOY ARMIES
+
+  Unless otherwise specified in the battleplan, the players alternate using **DEPLOY** abilities to deploy their units, starting with the player who begins deployment. Once one player has no more **DEPLOY** abilities to use, their opponent must continue to use **DEPLOY** abilities until they also have no more to use.
+
 - STEP 3 - USE DEPLOYMENT PHASE ABILITIES
-	
-	After both players have finished deploying their units, the player who begins deployment can use any **Deployment Phase** abilities that are **not** **DEPLOY** or **DEPLOY TERRAIN** abilities, in the order of their choosing, then their opponent can do the same.
+
+  After both players have finished deploying their units, the player who begins deployment can use any **Deployment Phase** abilities that are **not** **DEPLOY** or **DEPLOY TERRAIN** abilities, in the order of their choosing, then their opponent can do the same.
 
 :::danger
+
 - Player who begins deployment can use any **DEPLOY TERRAIN** abilities, followed by their opponent.
 - Players alternate using **DEPLOY** abilities.
 - Player who begins deployment must use any other Deployment Phase abilities, then their opponent can do so.
-:::
+
+  :::
 
 ### 10.1 Universal Deployment Phase Abilities
 
@@ -255,9 +268,10 @@ At the start of each battle round, follow these steps:
 
 1. **Determine the Active Player**: If it is the **first** battle round, the player who finished setting up their army first decides who will take the first turn (unless otherwise specified in the battlepack or battleplan).
 
-	If it is not the first battle round, the players make a roll-off called the priority roll and the winner decides who will take the first turn. If the roll-off is a tie, the player who took the first turn in the previous battle round decides who will take the first turn in the current battle round.  
-	
-    When it is a player's turn, regardless of whether they take the first or second turn, they are referred to as the active player.
+   If it is not the first battle round, the players make a roll-off called the priority roll and the winner decides who will take the first turn. If the roll-off is a tie, the player who took the first turn in the previous battle round decides who will take the first turn in the current battle round.
+
+   When it is a player's turn, regardless of whether they take the first or second turn, they are referred to as the active player.
+
 2. **Determine the Underdog**: Whichever player has the fewest victory points is the **underdog** for the battle round. If the players are tied (e.g. in the first battle round), then there is no underdog, unless otherwise specified.
 3. **Start of Battle Round Abilities**: The active player can use any **Start of Battle Round** abilities first, then their opponent can do the same.
 
@@ -270,12 +284,14 @@ Once the active player has finished using abilities, their opponent can then use
 ![](13.0-1.png.png)
 
 :::danger
-- ﻿﻿The battle lasts a fixed number of **battle rounds**.  
- - Each battle round contains  2 **turns**.
-- ﻿﻿The player whose turn is taking place is the active player.  
+
+- The battle lasts a fixed number of **battle rounds**.
+- Each battle round contains 2 **turns**.
+- The player whose turn is taking place is the active player.
 - Each turn contains 7 **phases**.
-- ﻿﻿In each phase, the active player uses abilities first, then their opponent does the same.
-:::
+- In each phase, the active player uses abilities first, then their opponent does the same.
+
+  :::
 
 ### 13.1 Fight Abilities
 
@@ -288,10 +304,12 @@ Once a player has no more units that are eligible to use a **FIGHT** ability, th
 ![](13.1-1.png.png)
 
 :::danger
-- ﻿﻿The active player uses Combat Phase abilities that are not **FIGHT** abilities, then the opponent does the same.  
+
+- The active player uses Combat Phase abilities that are not **FIGHT** abilities, then the opponent does the same.
 - Players alternate picking a unit to use a **FIGHT** ability, starting with the active player.
-- ﻿﻿Each unit must use a **FIGHT** ability if it is able to.
-:::
+- Each unit must use a **FIGHT** ability if it is able to.
+
+  :::
 
 ## 14.0 Universal Core Abilities
 
@@ -332,11 +350,13 @@ A model’s base is assumed to remain parallel with the battlefield as it moves.
 This Grey Seer is using the ‘Normal Move’ ability to change its position on the battlefield. No part of that move can be within the combat range of the Liberators, so the Grey Seer has to stay outside the area marked in blue
 
 :::danger
+
 - When moving a unit, move any number of models in that unit.
 - Each model can turn and pivot, but no part of its base can move farther than the maximum distance.
 - Units can move any distance up to the maximum specified in the ability.
 - Units must end their move in coherency
-:::
+
+  :::
 
 ### 15.1 Coherency
 
@@ -348,21 +368,25 @@ For the majority of units, **coherency range** is 1⁄2"
 If it is not possible for a unit to end a move in a single coherent group, that move cannot be made.
 
 :::danger
+
 - After finishing a move, a unit must be in a single group.
 - Coherency range is 1⁄2" horizontally.
 - Each model must be within coherency range of a different model from the same unit.
 - While a unit has 7+ models, each model must be in coherency with 2 other models in the unit.
-:::
+
+  :::
 
 ### 15.2 Moving Across Terrain
 
 When a model moves, it can move over **terrain features** but not through them. A model can be moved over terrain features that are **1" or less in height** as if they were not there. A model can be moved vertically in order to **climb up or down** any terrain features that are taller than 1", counting the vertical distance as part of its move. Models cannot end a move mid-climb.
 
 :::danger
--  Models can move freely over terrain features 1" or less in height.
+
+- Models can move freely over terrain features 1" or less in height.
 - Models can climb up and down terrain features, and they can jump down from a higher ledge.
 - Models cannot end a move mid-climb or mid-jump.
-:::
+
+  :::
 
 #### 15.2.1 Jumping Down
 
@@ -381,9 +405,11 @@ Some abilities, such as FIGHT abilities, allow a unit to make a short move calle
 **If your unit is not in combat**: Each model in your unit can move 3" in any direction. That move can pass through and end within the combat ranges of any enemy units.
 
 :::danger
+
 - Pile in: move up to 3".
 - If in combat, the unit must end the move closer, or at least as close, to the target enemy unit.
-:::
+
+  :::
 
 ## 15.4 Flying
 
@@ -405,26 +431,28 @@ If the unit is **in combat**, it can only target units that are in combat with i
 
 - **Combat attacks** are made with **melee weapons**. The target units) must be within the **combat range** of the attacking model and visible to it. The model must attack with all of the melee weapons it is armed with.
 - **Shooting attacks** are made with **ranged weapons**. The target units) must be within a distance equal to the **Range** characteristic of the weapon being used and **visible** to the attacking model. Models cannot make shooting attacks if their unit is **in combat**, unless otherwise specified (see [20.0 Weapon abilities](#200-weapon-abilities)).
-  
+
 :::danger
-- ﻿﻿Pick targets for all attacks when declaring an **ATTACK** ability.
-- ﻿﻿If a unit is in combat, it can only attack units it is in combat with and that are visible to it.  
+
+- Pick targets for all attacks when declaring an **ATTACK** ability.
+- If a unit is in combat, it can only attack units it is in combat with and that are visible to it.
 - If making a combat attack, the target must be within the attacking model's combat range.
-- ﻿﻿If making a shooting attack, the target must be visible and within the weapon's Range.
-- ﻿﻿A unit cannot make shooting attacks if it is in combat, unless otherwise specified.
-:::
-  
-  ## 17.0 The Attack Sequence
-  
+- If making a shooting attack, the target must be visible and within the weapon's Range.
+- A unit cannot make shooting attacks if it is in combat, unless otherwise specified.
+
+  :::
+
+## 17.0 The Attack Sequence
+
   Resolve steps 1-4 below for each attack made against a target unit, one attack at a time. If you picked more than one target unit for the **ATTACK** ability, resolve all the attacks made against one unit before moving on to the next, in an order of your choosing. Once you are familiar with the attack sequence, see 'Fast Dice Rolling' (see [17.3](#173-fast-dice-rolling)) if you want to speed up play.
-  
+
   1. **Hit Roll**: Roll a dice. If the roll equals or exceeds the attacking weapon's **Hit** characteristic, the attack scores a **successful hit**: move on to the next step. If not, the attack **fails** and the attack sequence ends. Unmodified hit rolls of 1 always fail. If an unmodified hit roll for an attack made with a weapon is a **6**, that attack is a **critical hit**.
   2. **Wound Roll**: Roll a dice. If the roll equals or exceeds the attacking weapon's **Wound** characteristic, the attack **successfully wounds**: move on to the next step. If not, the attack **fails** and the attack sequence ends. Unmodified wound rolls of 1 always fail.
   3. **Save Roll**: The commander of the **target** unit rolls a dice, subtracting the attacking weapon's **Rend** characteristic from the roll. Unmodified save rolls of 1 always fail. If the roll equals or exceeds the **Save** characteristic of the target unit, the attack **fails** and the attack sequence ends. If not, it is a **successful attack**: move on to the next step.
   4. **Determine Damage**: The attack **inflicts** a number of **damage points** on the unit equal to the **Damage** characteristic of the weapon. Inflicted damage points are added to a temporary **damage pool** for the target unit.
-     
- After completing these steps for all of the attacks made as part of that **ATTACK** ability, the attacks for that ability are **resolved** and you can move on to the **damage sequence** (see [18.0](#180-the-damage-sequence)).
- 
+
+After completing these steps for all of the attacks made as part of that **ATTACK** ability, the attacks for that ability are **resolved** and you can move on to the **damage sequence** (see [18.0](#180-the-damage-sequence)).
+
 :::tip
 Critical hits have no effect on their own but often trigger additional effects (see [20.0 Weapon Abilities](#200-weapon-abilities)).
 :::
@@ -441,7 +469,7 @@ When making a **save roll**, add up all the positive and negative modifiers that
 
 ### 17.2 Mortal Damage
 
-Some abilities inflict **mortal damage**. If an ability inflicts mortal damage on a unit, add that number of damage points to the unit's damage pool for that ability (see (18.2 Allocating Damage)[#182-allocating-damage]).
+Some abilities inflict **mortal damage**. If an ability inflicts mortal damage on a unit, add that number of damage points to the unit's damage pool for that ability (see [18.2 Allocating Damage](#182-allocating-damage)).
 
 ### 17.3 Fast Dice Rolling
 
@@ -468,7 +496,7 @@ After resolving the effect of any ability that inflicts damage points (whether v
 
 When **allocating** damage points to a unit, the damage points in its damage pool are allocated to it one at a time. Each time the number of damage points allocated to the unit equals the **Health** characteristic of that unit, 1 model in that unit is **slain** (and removed from play) and the number of damage points allocated to that unit is reset to 0. Keep allocating damage points until there are none left in the damage pool.
 
-If the number of damage points allocated to a unit is not enough to slay a model, keep track of the number of damage points currently allocated to the unit (most players place a dice or markers next to the unit). While a unit has any damage points allocated to it, it is **damaged**. 
+If the number of damage points allocated to a unit is not enough to slay a model, keep track of the number of damage points currently allocated to the unit (most players place a dice or markers next to the unit). While a unit has any damage points allocated to it, it is **damaged**.
 
 ### 18.3 Slain Models
 
@@ -487,14 +515,16 @@ For each damage point
 ![](18.4-2.png.png)
 
 :::danger
+
 - Attacker makes a **hit roll** of D6. If the roll equals or beats the weapon’s **Hit** characteristic, it is a **successful hit**.
 - Attacker makes a **wound roll** of D6. If the roll equals or beats the weapon’s **Wound** characteristic, it is a successful wound.
 - Defender makes a **save roll** of D6. Subtract the attacking weapon’s **Rend** characteristic from the roll. If the result is less than the defending unit’s **Save** characteristic, it is a **successful attack**.
 - **Inflict** an amount of damage on the target equal to the attacking weapon’s **Damage** characteristic.
-- Resolve ward saves. 
-- Allocate damage points. 
+- Resolve ward saves.
+- Allocate damage points.
 - Unmodified **hit rolls**, **wound rolls** and **save rolls** of 1 always fail.
-:::
+
+  :::
 
 # Special Rules
 
@@ -514,15 +544,15 @@ Abilities that allow a unit to use a **FIGHT** ability immediately after another
 
 ## 20.0 Weapon abilities
 
-| Universal Weapon Abilities |
-|-------------------------------------|
+| Universal Weapon Abilities                                                                                                                                                                                                                                                                                                                                                                                                       |
+| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Anti-X (+1 Rend)**: Add 1 to this weapon's **Rend** characteristic if the target has the keyword after '**Anti**-' or fulfils the condition after '**Anti**-. Multiples of this ability are cumulative. For example, if a weapon has both **Anti-charge (+1 Rend)** and **Anti-HERO (+1 Rend)**, then add 2 to the **Rend** characteristic of the weapon for attacks that target a **HERO** that **charged** in the same turn. |
-| **Charge (+1 Damage)**: Add 1 to this weapon's **Damage** characteristic if the attacking unit **charged** this turn. |
-| **Companion**: This weapon is not affected by abilities used by a friendly unit that affect the Attacks characteristic or the attack sequence. |
-| **Crit (2 Hits)**: If an attack made with this weapon scores a **critical hit**, that attack scores 2 hits on the target unit instead of 1. Make a **wound roll** for each hit. |
-| **Crit (Auto-wound)**: If an attack made with this weapon scores a **critical hit**, that attack automatically wounds the target. Make a **save roll** as normal. |
-| **Crit (Mortal)**: If an attack made with this weapon scores a **critical hit**, that attack inflicts **mortal damage** on the target unit equal to the **Damage** characteristic of that weapon and the attack sequence ends. |
-| **Shoot in Combat**: This weapon can be used to make shooting attacks even if the attacking unit is in combat. |
+| **Charge (+1 Damage)**: Add 1 to this weapon's **Damage** characteristic if the attacking unit **charged** this turn.                                                                                                                                                                                                                                                                                                            |
+| **Companion**: This weapon is not affected by abilities used by a friendly unit that affect the Attacks characteristic or the attack sequence.                                                                                                                                                                                                                                                                                   |
+| **Crit (2 Hits)**: If an attack made with this weapon scores a **critical hit**, that attack scores 2 hits on the target unit instead of 1. Make a **wound roll** for each hit.                                                                                                                                                                                                                                                  |
+| **Crit (Auto-wound)**: If an attack made with this weapon scores a **critical hit**, that attack automatically wounds the target. Make a **save roll** as normal.                                                                                                                                                                                                                                                                |
+| **Crit (Mortal)**: If an attack made with this weapon scores a **critical hit**, that attack inflicts **mortal damage** on the target unit equal to the **Damage** characteristic of that weapon and the attack sequence ends.                                                                                                                                                                                                   |
+| **Shoot in Combat**: This weapon can be used to make shooting attacks even if the attacking unit is in combat.                                                                                                                                                                                                                                                                                                                   |
 
 :::tip
 The **Companion** weapon ability restricts things like mounts from benefiting from most effects that augment a unit's capabilities.
@@ -555,9 +585,11 @@ Some abilities allow you to set up a **replacement unit**. When setting up that 
 The replacement unit is otherwise treated as a new unit; any keywords or abilities the original unit gained during the battle, and any persisting effects that applied to it, do not apply to the replacement unit. Each unit can only be replaced once, and you cannot replace replacement units.
 
 :::danger
+
 - Returned models must be set up in **coherency** with the models in their unit that were not returned as part of that ability.
 - Returned models can only be set up **in combat** with an enemy unit if their unit is already in combat with it.
-:::
+
+  :::
 
 :::tip
 Because a replacement unit is treated as a completely new unit, it could, for instance, use a **Once Per Battle** ability on its warscroll even if the unit it replaced used that ability earlier in the battle.
@@ -587,27 +619,29 @@ If a characteristic or roll is halved or would be modified to a value that is no
 
 Apply characteristic modifiers in the following order:
 
-1. ﻿﻿﻿Modifiers that **set** a characteristic to a fixed value.
-2. ﻿﻿﻿Modifiers that **multiply** or **divide** a characteristic.
-3. ﻿﻿﻿Modifiers that **add** to or **subtract** from a characteristic.
+1. Modifiers that **set** a characteristic to a fixed value.
+2. Modifiers that **multiply** or **divide** a characteristic.
+3. Modifiers that **add** to or **subtract** from a characteristic.
 
 If there are multiple modifiers of the same type (e.g. that set a characteristic), apply them in the Order of Effects (see [30.0](#300-order-of-effects)).
 
 :::danger
+
 - When using a **random characteristic**, generate it each time it is needed for an ability.
-- ﻿﻿When using **random Damage**, generate it for each attack made.
-:::
+- When using **random Damage**, generate it for each attack made.
+
+  :::
 
 ## 28.0 Advanced Ability Rules
 
-- ﻿﻿Unless stated otherwise, units using or picked as part of an ability must be on the battlefield.
-- ﻿﻿If an effect states that a unit **can** do something, its commander can choose whether to resolve that part of the effect or not.
-- ﻿﻿If an effect states that a unit **must** do something, its commander has no choice and must resolve that part of the effect. If this is impossible, no part of the eftect is applied but the ability is still considered to have been used.
-- ﻿﻿When 'this unit' appears in ability text (most often on warscrolls), it means the unit that is using the ability.
-- ﻿﻿If an ability affects more than one unit, the player who used the ability can choose the order in which units are affected by it.
-- ﻿﻿When resolving an effect, if you need to roll a dice for multiple affected units, roll and resolve the effect for one unit before moving on to the next.
-- ﻿﻿If an ability instructs you to pick more than 1 unit, each unit you pick must be a different unit unless stated otherwise.
-  
+- Unless stated otherwise, units using or picked as part of an ability must be on the battlefield.
+- If an effect states that a unit **can** do something, its commander can choose whether to resolve that part of the effect or not.
+- If an effect states that a unit **must** do something, its commander has no choice and must resolve that part of the effect. If this is impossible, no part of the eftect is applied but the ability is still considered to have been used.
+- When 'this unit' appears in ability text (most often on warscrolls), it means the unit that is using the ability.
+- If an ability affects more than one unit, the player who used the ability can choose the order in which units are affected by it.
+- When resolving an effect, if you need to roll a dice for multiple affected units, roll and resolve the effect for one unit before moving on to the next.
+- If an ability instructs you to pick more than 1 unit, each unit you pick must be a different unit unless stated otherwise.
+
 :::tip
 Most abilities are found on warscrolls, but many appear elsewhere - the best examples being the Universal Core Abilities (see [14.0](#140-universal-core-abilities)).
 
@@ -619,13 +653,13 @@ Abilities that neither appear on a warscroll nor tell you to pick a unit to use 
 
 Finally, for the purposes of the rules in this section, when a rule refers to a player using an ability, this includes abilities used by units in that player's army.
 :::
-  
+
 ### 28.1 Persisting Effects
-  
-  Some abilities have effects that aren't immediately resolved (eg. 'add 1 to save rolls for this unit for the rest of the turn' or 'this unit has **WARD (5+)** for the rest of the turn'). These effects count as the effects of passive abilities (see [5.4](#54-passive-abilities)) for their duration.
-  
+
+Some abilities have effects that aren't immediately resolved (eg. 'add 1 to save rolls for this unit for the rest of the turn' or 'this unit has **WARD (5+)** for the rest of the turn'). These effects count as the effects of passive abilities (see [5.4](#54-passive-abilities)) for their duration.
+
 ### 28.2 'Once Per' Timings
-  
+
 The timing part of some abilities says **Once Per Phase**, **Once Per Turn** or **Once Per Battle**. If the ability is used by a unit, it can be used a maximum of one time in that phase, turn or battle by each unit that can use the ability. If the ability is used by a player, it can be used a maximum of one time in that timing window by that player.
 
 Some abilities that are used by units say **Once Per Phase (Army)**, **Once Per Turn (Army)** or **Once Per Battle (Army)**. These abilities can be used a maximum of one time in that phase, turn or battle regardless of the number of units in the army that can use the ability.
@@ -641,3 +675,9 @@ Excepting the above, the effect of the most recently used ability takes preceden
 The effects of passive abilities are considered to be applied more recently than the effects of other abilities and rules.
 
 The effects of the active player's passive abilities are considered to be applied more recently than the effects of their opponent's passive abilities, whose passive abilities are considered to be applied more recently than the effects of neutral passive abilities (e.g. passive abilities on a terrain feature that is in neither player's army). The active player chooses the order in which neutral passive effects are applied.
+
+# TEST
+
+Command point (⬢)
+
+

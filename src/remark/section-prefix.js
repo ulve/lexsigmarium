@@ -6,13 +6,12 @@ const parseAbilityBlock = (text) => {
   let qualifier = text.match(/qualifier: (.*)/)[1];
 
   return { icon, phase, qualifier };
-}
+};
 
 const plugin = (options) => {
   const transformer = async (ast) => {
     visit(ast, "code", (node) => {
       if (node.lang === "ability") {
-        console.log(node);
         let { icon, phase, qualifier } = parseAbilityBlock(node.value);
         node.type = "mdxJsxFlowElement";
         node.name = "JsxTest";
@@ -20,19 +19,19 @@ const plugin = (options) => {
           {
             type: "mdxJsxAttribute",
             name: "icon",
-            value: icon
+            value: icon,
           },
           {
             type: "mdxJsxAttribute",
             name: "phase",
-            value: phase
+            value: phase,
           },
           {
             type: "mdxJsxAttribute",
             name: "qualifier",
-            value: qualifier
-          }
-        ]
+            value: qualifier,
+          },
+        ];
       }
     });
   };
