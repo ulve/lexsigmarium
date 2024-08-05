@@ -16,14 +16,10 @@ function parseDiceString(diceString) {
   modifier = modifier ? parseInt(modifier) : 0;
 
   if (hasDice) {
-    console.log("HAS DICE");
     // Calculate average for dice roll: (min + max) / 2
     const averageRoll = (1 + sides) / 2;
     return count * averageRoll + modifier;
   } else {
-    console.log(`DICE STRING: ${diceString}`);
-    console.log(`SIDES: ${sides}`);
-    console.log(`MODIFIER: ${modifier}`);
     // If no dice (just a number), return the number plus modifier
     return sides + modifier;
   }
@@ -60,7 +56,6 @@ function weaponDamage2(
   dmgBonus,
 ) {
   let atk = parseDiceString(weapon.atk) * numberOfModels + champion;
-  console.log(`ATK: ${weapon.atk} ${atk}`);
   let hit = 7 - Number(weapon.hit.replace("+", "")) - 1;
   hit = hit / 6;
   let crit = 1 / 6;

@@ -28,7 +28,7 @@ function WarscrollAbilityHeader({ ability }) {
   } else if (ability.header.icon.toUpperCase().includes("SHOOTING")) {
     icon = shooting;
   }
-  console.log(`CASTING VALUE: ${ability.castingValue}`);
+
   let { gradient } = GetPhaseColors(ability.header.color);
 
   return (
