@@ -95,6 +95,7 @@ commandPoints: 1
 name: Magical Intervention
 icon: special
 color: yellow
+text: Enemy Hero Phase
 declare: Pick a friendly **WIZARD** or **PRIEST** to use this ability.
 effect: That friendly unit can use a **SPELL** or **PRAYER** ability (as appropriate) as if it were your hero phase. If you do so, subtract 1 from **casting rolls** or **chanting rolls** made as part of that ability.
 commandPoints: 1
