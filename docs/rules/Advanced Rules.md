@@ -69,6 +69,10 @@ At the start of each battle round, after determining the **underdog**, each play
 - You must pay the command point cost to use a command.
 :::
 
+### 1.2 Using Commands
+
+Commands are used in a similar manner to any other ability. However, each unit can only use 1 command in each phase, each command can only be used 1 time by each army in each phase, and you must spend a number of **command points** equal to the command point cost to use a command.
+
 ## 2.0 Hero Phase Commands
 
 ```ability
