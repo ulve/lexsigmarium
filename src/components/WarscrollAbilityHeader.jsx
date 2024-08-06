@@ -41,9 +41,10 @@ function WarscrollAbilityHeader({ ability }) {
         </div>
       )}
       {ability.chantingValue && (
-        <div className="chantingValue">
-          <span>{ability.chantingValue}</span>
-        </div>
+        <div
+          className="chantingValue"
+          data-content={ability.chantingValue}
+        ></div>
       )}
       {ability.commandValue && (
         <div className="commandValue">
