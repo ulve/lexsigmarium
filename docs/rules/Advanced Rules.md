@@ -42,14 +42,13 @@ Are you excited to field your entire collection against your friends or to see w
 
 Here are some ideas to get you started:
 
-- Instead of using the Advanced Rules for Army Composition, make an army based on your favourite Black Library story or based on a made-up scenario that sounds exciting to you.  
-  For instance, how would 5 different Stormcast Eternals heroes fare against a pair of massive Chaos monsters?
-- Design your own battleplan by dividing portions of the battlefield into a territory for each player, placing objectives and thinking up a fun twist for the battle. Have fun and experiment with different ideas - why not try alternating placing objectives instead of having fixed locations, or try having two smaller battlefields connected by realmgates?
-- Learn the Advanced Rules by introducing each module into your battles one at a time
+- ﻿﻿Instead of using the Advanced Rules for Army Composition, make an army based on your favourite Black Library story or based on a made-up scenario that sounds exciting to you.  
+For instance, how would 5 different Stormcast Eternals heroes fare against a pair of massive Chaos monsters?
+- ﻿﻿Design your own battleplan by dividing portions of the battlefield into a territory for each player, placing objectives and thinking up a fun twist for the battle. Have fun and experiment with different ideas - why not try alternating placing objectives instead of having fixed locations, or try having two smaller battlefields connected by realmgates?
+- ﻿﻿Learn the Advanced Rules by introducing each module into your battles one at a time
 
-- for instance, start by experimenting with Commands, then try adding Magic into your battles, and finally put them all together to outwit your opponent and score Battle Tactics.
-
-  :::
+- ﻿﻿for instance, start by experimenting with Commands, then try adding Magic into your battles, and finally put them all together to outwit your opponent and score Battle Tactics.
+:::
 
 # COMMANDS
 
@@ -62,15 +61,17 @@ Some abilities, called commands, require that you spend one or more **command po
 At the start of each battle round, after determining the **underdog**, each player gains **4 command points**. If there is an **underdog**, they gain 1 extra command point. At the end of the battle round, the players' **command points** are reset to 0 (any that have not been used are lost).
 
 :::danger
-
-- Any ability with a command point cost (⬡) is a command.
-- Each player gains 4 command points at the start of each battle round.
-- The underdog gains 1 extra command point.
-- Each unit can only use 1 command in each phase.
-- Each command can only be used 1 time by each army in each phase.
+- Any ability with a command point cost (⬡) is a command. 
+- Each player gains  4 command points at the start of each battle round.
+- ﻿﻿The underdog gains 1 extra command point.
+- ﻿﻿Each unit can only use 1 command in each phase.
+- ﻿﻿Each command can only be used 1 time by each army in each phase.  
 - You must pay the command point cost to use a command.
+:::
 
-  :::
+### 1.2 Using Commands
+
+Commands are used in a similar manner to any other ability. However, each unit can only use 1 command in each phase, each command can only be used 1 time by each army in each phase, and you must spend a number of **command points** equal to the command point cost to use a command.
 
 ## 2.0 Hero Phase Commands
 
@@ -79,6 +80,7 @@ name: Rally
 icon: rally
 color: yellow
 text: Any Hero Phase
+commandValue: 1
 declare: Pick a friendly unit that is **not in combat** to use this ability.
 effect: |
   Make 6 **rally rolls** of D6. For each 4+, you receive 1 **rally point**. Rally points can be spent in the following ways:
@@ -87,16 +89,16 @@ effect: |
   - ﻿﻿You can spend a number of rally points equal to the **Health** characteristic of that unit to **return** a slain model to that unit.
 
   You can spend the rally points in any combination of the above. Unspent rally points are then lost.
-commandPoints: 1
 ```
 
 ```ability
 name: Magical Intervention
 icon: special
 color: yellow
+text: Enemy Hero Phase
+commandValue: 1
 declare: Pick a friendly **WIZARD** or **PRIEST** to use this ability.
 effect: That friendly unit can use a **SPELL** or **PRAYER** ability (as appropriate) as if it were your hero phase. If you do so, subtract 1 from **casting rolls** or **chanting rolls** made as part of that ability.
-commandPoints: 1
 ```
 
 ### 3.0 Movement Commands
@@ -106,9 +108,9 @@ name: Redepoy
 icon: movement
 color: gray
 text: Enemy Hero Phase
+commandValue: 1
 declare: Pick a friendly unit that is **not in combat** to use this ability.
 effect: Each model in that unit can move up to D6. That move **cannot** pass through or end within the combat range of an enemy unit.
-commandPoints: 1
 keywords:
   - Move
   - Run
@@ -118,10 +120,10 @@ keywords:
 name: At the Double
 icon: movement
 color: gray
-text: "Reaction: You declared a **RUN** ability"
+text: "Reaction: You declared a **RUN** ability" 
+commandValue: 1
 usedBy: The unit using that **RUN** ability.
 effect: Do not make a **run roll** as part of that **RUN** ability. Instead, add 6" to that unit's **Move** characteristic to determine the distance each model in that unit can move as part of that **RUN** ability.
-commandPoints: 1
 ```
 
 ## 4.0 Shooting Phase Commands
@@ -131,9 +133,9 @@ name: Covering Fire
 icon: shooting
 color: teal
 text: Enemy Shooting Phase
+commandValue: 1
 declare: Pick a friendly unit that is **not in combat** to use this ability.
 effect: Resolve **shooting attacks** for that unit, but all of the attacks must target the **nearest visible enemy** unit and you must subtract 1 from the **hit rolls** for those attacks.
-commandPoints: 1
 ```
 
 ## 5.0 Charge Phase Commands
@@ -143,9 +145,9 @@ name: Counter-charge
 icon: movement
 color: orange
 text: Enemy Charge Phase
+commandValue: 2
 declare: Pick a friendly unit that is **not in combat** to use this ability.
 effect: That unit can use a **CHARGE** ability as if it were your charge phase.
-commandPoints: 2
 ```
 
 ```ability
@@ -153,9 +155,9 @@ name: Forward to Victory
 icon: movement
 color: orange
 text: "Reaction: You declared a **CHARGE** ability"
+commandValue: 1
 usedBy: The unit using that **CHARGE** ability.
 effect: You can re-roll the **charge roll**.
-commandPoints: 1
 ```
 
 ## 6.0 Attacking (Shooting and Combat) Commands
@@ -165,11 +167,10 @@ name: All-out Attack
 icon: offensive
 color: red
 text: "Reaction: You declared an **ATTACK** ability"
+commandValue: 1
 usedBy: The unit using that **ATTACK** ability**.**
 effect: Add 1 to **hit rolls** for attacks made as part of that ATTACK ability. This also affects weapons that have the **Companion** weapon ability.
-commandPoints: 1
 ```
-
 ## 7.0 Defensive Commands
 
 ```ability
@@ -177,9 +178,9 @@ name: All-out Defence
 icon: defensive
 color: green
 text: "Reaction: Opponent declared an **ATTACK** ability"
+commandValue: 1
 usedBy: A unit targeted by that **ATTACK** ability.
 effect: Add 1 to **save rolls** for that unit in this phase.
-commandPoints: 1
 ```
 
 ## 8.0 End of Turn Commands
@@ -189,9 +190,9 @@ name: Power Through
 icon: special
 color: eggplant
 text: End of Any Turn
+commandValue: 1
 declare: Pick a friendly unit that charged this turn to use this ability, then you must pick an enemy unit **in combat** with it to be the target. The target must have a lower **Health** characteristic than the unit using this ability.
 effect: Inflict **D3 mortal damage** on the target. Then, the unit using this ability can move a distance up to its **Move** characteristic. It can pass through and end that move within the combat ranges of enemy units that were in combat with it at the start of the move, but not those of other enemy units. It does not have to end the move in combat.
-commandPoints: 1
 keywords:
   - Move
 ```
@@ -209,7 +210,7 @@ A model is **wholly on a terrain feature** if its base is on that terrain featur
 When a unit is targeted by an attack, the unit is considered to be **behind a terrain feature** if it is impossible to draw a straight line from a model in the attacking unit to a model in the target unit without that line passing across that terrain feature. Ignore parts of the terrain feature within the attacking unit’s combat range for the purposes of determining if the target is behind that terrain feature.
 
 :::tip
-The Citadel Terrain List (pg 65) includes a list of Warhammer Age of Sigmar terrain features and tells you which terrain abilities each of them has.
+The Citadel Terrain List  (pg 65) includes a list of Warhammer Age of Sigmar terrain features and tells you which terrain abilities each of them has.
 :::
 
 ### 1.2 Universa Terrain Abilities
@@ -231,7 +232,7 @@ declare: Pick a friendly **Hero** within 3" of any **Places of Power** to use th
 effect: |
   Roll a dice. On a 1, inflict D3 mortal damage on that **Hero**. On a 2+:
 
-  - If that **Hero** is a **Wizard** or **Priest**, add 1 to casting rolls or chanting rolls for that **Hero** this turn.
+  - If that **Hero** is a **Wizard** or **Priest**, add 1 to casting rolls or chanting rolls for that **Hero** this turn.    
   - If that **Hero** is not a **Wizard** or **Priest**, they can use the ‘Unbind’ or ‘Banish Manifestation’ ability this turn as if they had Wizard (1).
 keywords:
   - Core
@@ -240,39 +241,39 @@ keywords:
 ### 1.3 Terrain Sizes
 
 - Terrain that fits into an area no larger than 7" × 7" is **small**.
-- Terrain that is not small and fits into an area no larger than 7" × 12" is **medium**.
-- Terrain that is too big to fit into an area 7" × 12" is **large**.
+-  Terrain that is not small and fits into an area no larger than 7" × 12" is **medium**.
+-  Terrain that is too big to fit into an area 7" × 12" is **large**.
 
 ### 1.4 Terrain Types
 
 Each **terrain feature** in Warhammer Age of Sigmar is one of the following types:
 
 - **Obstacle**
-- **ObscuringTerrain**
+- **ObscuringTerrain**    
 - **Area Terrain**
 - **Place of Power**
 - **Faction Terrain**
-
+    
 Before the battle begins, players must agree on which type applies to each terrain feature.
 
 #### 1.4.1 Obstacles
 
-- **Examples**: Ruins, debris, statues, barricades
+- **Examples**: Ruins, debris, statues, barricades 
 - **Terrain Abilities**: Cover, Unstable
 
 #### 1.4.2 Obscuring Terrain
 
-- **Examples**: Wyldwood, fortress wall
+- **Examples**: Wyldwood, fortress wall  
 - **Terrain Abilities**: Cover, Obscuring, Unstable
 
 #### 1.4.3 Area Terrain
 
-- **Examples**: Hills, Stormvault
+- **Examples**: Hills, Stormvault 
 - **Terrain Abilities**: Cover
 
 #### 1.4.4 Places if Power
 
-- **Examples**: Realmgate, Cleansing Aqualith, Nexus Syphon
+- **Examples**: Realmgate, Cleansing Aqualith, Nexus Syphon  
 - **Terrain Abilities**: Cover, Place of Power, Unstable
 
 ### 1.5 Faction Terrain
@@ -284,7 +285,7 @@ Some factions have special terrain features called **faction terrain features**.
 - Damage points can be inflicted on them as if they were units and they can be destroyed.
 
 :::tip
-The Citadel Terrain List (pg 65) shows the number of scenery pieces each terrain feature can consist of. If you are using terrain features that are not included on that list, agree with your opponent before setting up the battlefield how many scenery pieces make up each terrain feature.
+The Citadel Terrain List  (pg 65) shows the number of scenery pieces each terrain feature can consist of. If you are using terrain features that are not included on that list, agree with your opponent before setting up the battlefield how many scenery pieces make up each terrain feature.
 :::
 
 ### 1.6 Charging Units on Terrain
@@ -350,12 +351,12 @@ No more than 1 friendly **WIZARD** can cast the same spell per turn, unless that
 There are two types of **manifestation: endless spells**, which can be summoned by **WIZARDS**, and **invocations**, which can be summoned by **PRIESTS**. Each manifestation has its own **warscroll**, and the **spell** or **prayer** that allows that manifestation to be summoned will be found in the appropriate **manifestation lore**. No more than 1 friendly **WIZARD** or **PRIEST** can attempt to summon the same manifestation per turn. Manifestations are not considered to be units, with the following exceptions:
 
 - They are treated as if they were units for the purposes of movement, combat range, being in combat and setting up other units. Units can finish a charge move within ½" of an enemy manifestation as if it were a unit.
-- If they have any melee or ranged weapons, they can use the 'Fight' and 'Shoot' **CORE** abilities as if they were units.
-- If they have a Move characteristic greater than 0" ('-'), they can use **CORE** **MOVE** abilities as if they were units.
-- They can be picked as targets of enemy abilities as if they were units. They are not affected by enemy abilities that do not involve picking targets.
-- Damage points can be inflicted on them as if they were units and they can be destroyed.
-- Manifestations that have a Move characteristic of 0" ('-') cannot move. For the purposes of movement, combat range, being in combat and setting up other units, they are only treated as if they were units in the charge phase and the combat phase.
-- Models can move through manifestations but cannot end a move on them.
+- ﻿﻿If they have any melee or ranged weapons, they can use the 'Fight' and  'Shoot' **CORE** abilities as if they were units.
+- ﻿﻿If they have a Move characteristic greater than 0" ('-'), they can use **CORE** **MOVE** abilities as if they were units.
+- ﻿﻿They can be picked as targets of enemy abilities as if they were units. They are not affected by enemy abilities that do not involve picking targets.
+- ﻿﻿Damage points can be inflicted on them as if they were units and they can be destroyed.
+- ﻿﻿Manifestations that have a Move characteristic of 0" ('-') cannot move. For the purposes of movement, combat range, being in combat and setting up other units, they are only treated as if they were units in the charge phase and the combat phase.
+- ﻿﻿Models can move through manifestations but cannot end a move on them.
 
 :::tip
 **But Khorne Hates Sorcery!**
@@ -414,7 +415,7 @@ The information you'll need when building your army roster is found in each unit
 
 ## 2.0 Factions
 
-The first thing you need to do when building your army roster is to pick your **faction** (e.g. Stormcast Eternals or Skaven).
+ The first thing you need to do when building your army roster is to pick your **faction** (e.g. Stormcast Eternals or Skaven).
 
 Each faction has its own warscrolls, battle profiles and faction rules. These can be found in various publications but most commonly in the faction's **battletome**.
 
@@ -429,17 +430,15 @@ Some factions have access to rules for themed armies called **Armies of Renown**
 ## 3.0 Adding Units
 
 :::danger
-
-- Pick a points limit: 1000 points or 2000 points. If other points limit, agree with opponent.
+- Pick a points limit: 1000 points or 2000 points. If other points limit, agree with opponent.  
 - Pick your faction.
-- Pick your battle formation (if any).
-- Form regiments. Each regiment has 1 **HERO** and 0-3 non-**HERO** units (0-4 if your general's regiment).
+- ﻿﻿Pick your battle formation (if any).
+- ﻿﻿Form regiments. Each regiment has 1 **HERO** and 0-3 non-**HERO** units (0-4 if your general's regiment).
 - Add auxiliary units (if any). Auxiliary units are units that aren't part of a regiment. If your opponent has more auxiliary units than you, you receive 1 extra command point each battle round.
 - Add faction terrain features (if any).
 - Pick enhancements (1 from each enhancement table).
 - Pick up to 1 spell lore, 1 prayer lore and 1 manifestation lore.
-
-  :::
+:::
 
 ### 3.1 Regiments
 
@@ -557,11 +556,9 @@ effect: Pick 1 battle tactic that you have not yet attempted. You can attempt to
 If, at the end of your turn, you have completed the battle tactic you chose to attempt this turn, you score **4 victory points**.
 
 :::danger
-
 - Battle tactics are picked using the 'Tactical Gambit' ability at the start of your turn and are completed at the end of your turn.
 - Each battle tactic is worth **4 victory points**.
-
-  :::
+:::
 
 ## 3.0 Universal Battle Tactics
 
@@ -573,4 +570,3 @@ If, at the end of your turn, you have completed the battle tactic you chose to a
 | **Take Their Land:** Pick a terrain feature wholly or partially within enemy territory and wholly outside friendly territory. You complete this battle tactic if you control that terrain feature at the end of your turn.                                             |
 | **Seize the Centre:** You complete this battle tactic at the end of your turn if 2 or more friendly units are within 3" of the centre of the battlefield and are not in combat.                                                                                        |
 | **Take the Flanks:** You complete this battle tactic at the end of your turn if you have at least 1 friendly unit within 6" of each short battlefield edge, none of those units are wholly within friendly territory, and none of those units were set up this turn.   |
-

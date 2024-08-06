@@ -33,6 +33,20 @@
   background: red;
   font-size: 3rem;
 }
+.commandValue {
+  border: none;
+  position: absolute;
+  height: 4rem;
+  width: 4rem;
+  top: -1rem;
+  right: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: blue;
+  font-size: 3rem;
+  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+}
 
 .castingValue {
   border: 1px solid black;

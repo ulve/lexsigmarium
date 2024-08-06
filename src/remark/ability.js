@@ -10,6 +10,9 @@ const plugin = (options) => {
         header: { icon: p.icon, color: p.color, text: p.text },
         effect: p.effect,
         decare: p.declare,
+        castingValue: p.castingValue,
+        chantingValue: p.chantingValue,
+        commandValue: p.commandValue,
         keywords: p.keywords,
         usedBy: p.usedBy,
       };
