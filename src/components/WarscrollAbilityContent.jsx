@@ -15,6 +15,11 @@ function WarscrollAbilityContent({ ability }) {
           remarkPlugins={[remarkGfm]}
         >{`**${ability.note.title}** ${ability.note.text}`}</ReactMarkdown>
       )}
+      {ability.usedBy && (
+        <ReactMarkdown
+          remarkPlugins={[remarkGfm]}
+        >{`**Used By:** ${ability.usedBy}`}</ReactMarkdown>
+      )}
       {ability.declare && (
         <ReactMarkdown
           remarkPlugins={[remarkGfm]}

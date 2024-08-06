@@ -168,7 +168,7 @@ icon: offensive
 color: red
 text: "Reaction: You declared an **ATTACK** ability"
 commandValue: 1
-usedBy: The unit using that **ATTACK** ability**.**
+usedBy: The unit using that **ATTACK** ability.
 effect: Add 1 to **hit rolls** for attacks made as part of that ATTACK ability. This also affects weapons that have the **Companion** weapon ability.
 ```
 ## 7.0 Defensive Commands
