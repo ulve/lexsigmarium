@@ -570,3 +570,7 @@ If, at the end of your turn, you have completed the battle tactic you chose to a
 | **Take Their Land:** Pick a terrain feature wholly or partially within enemy territory and wholly outside friendly territory. You complete this battle tactic if you control that terrain feature at the end of your turn.                                             |
 | **Seize the Centre:** You complete this battle tactic at the end of your turn if 2 or more friendly units are within 3" of the centre of the battlefield and are not in combat.                                                                                        |
 | **Take the Flanks:** You complete this battle tactic at the end of your turn if you have at least 1 friendly unit within 6" of each short battlefield edge, none of those units are wholly within friendly territory, and none of those units were set up this turn.   |
+
+## TODO
+
+- fix internal links

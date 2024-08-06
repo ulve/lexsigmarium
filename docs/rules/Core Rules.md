@@ -759,7 +759,3 @@ Excepting the above, the effect of the most recently used ability takes preceden
 The effects of passive abilities are considered to be applied more recently than the effects of other abilities and rules.
 
 The effects of the active player's passive abilities are considered to be applied more recently than the effects of their opponent's passive abilities, whose passive abilities are considered to be applied more recently than the effects of neutral passive abilities (e.g. passive abilities on a terrain feature that is in neither player's army). The active player chooses the order in which neutral passive effects are applied.
-
-# TEST
-
-Command point (⬢)
