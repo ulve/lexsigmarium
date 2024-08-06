@@ -22,8 +22,8 @@
   transform: rotate(45deg);
   background: linear-gradient(
     45deg,
-    rgba(0, 184, 169, 0.7),
-    /* #00b8a9 with 0.7 opacity */ rgba(248, 97, 90, 0.7)
+    rgba(0, 184, 169, 0.3),
+    /* #00b8a9 with 0.7 opacity */ rgba(248, 97, 90, 0.3)
       /* #f8615a with 0.7 opacity */
   );
   background-size: 200% 200%;
@@ -39,6 +39,7 @@
   justify-content: center;
   align-items: center;
   font-size: 3rem;
+  backdrop-filter: blur(10px);
 }
 
 .chantingValue::before {
@@ -101,8 +102,8 @@
   background: linear-gradient(
     45deg,
     rgba(52, 152, 219, 0.7),
-    /* #3498db with 0.7 opacity */ rgba(155, 89, 182, 0.7),
-    /* #9b59b6 with 0.7 opacity */ rgba(231, 76, 60, 0.7)
+    /* #3498db with 0.7 opacity */ rgba(155, 89, 182, 0.3),
+    /* #9b59b6 with 0.7 opacity */ rgba(231, 76, 60, 0.3)
       /* #e74c3c with 0.7 opacity */
   );
   background-size: 200% 200%;
@@ -121,4 +122,5 @@
   justify-content: center;
   align-items: center;
   font-size: 3rem;
+  backdrop-filter: blur(10px);
 }
