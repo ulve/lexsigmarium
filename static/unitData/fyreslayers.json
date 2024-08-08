@@ -129,7 +129,7 @@
           "name": "Molten Rockbolts",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "teal",
             "text": "Passive"
           },
           "declare": null,
@@ -203,7 +203,7 @@
           "name": "Icon of Grimnir",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "eggplant",
             "text": "Passive"
           },
           "declare": null,
@@ -254,7 +254,7 @@
           "name": "Magmic Tunnelling",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "black",
             "text": "Deployment Phase"
           },
           "declare": "Pick this unit and up to 1 unit in its regiment if neither unit has been deployed.",
@@ -319,7 +319,7 @@
           "name": "Fires of Vengeance",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Passive"
           },
           "declare": null,
@@ -329,7 +329,7 @@
           "name": "Duty Unto Death",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "",
             "text": "Passive"
           },
           "declare": null,
@@ -380,7 +380,7 @@
           "name": "Battle Damaged",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "black",
             "text": "Passive"
           },
           "declare": null,
@@ -390,7 +390,7 @@
           "name": "Volcanic Blood",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Passive"
           },
           "declare": null,
@@ -400,7 +400,7 @@
           "name": "Vying for Glory",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Passive"
           },
           "declare": null,
@@ -410,7 +410,7 @@
           "name": "Dominating Roar",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "eggplant",
             "text": "Once Per Turn (Army), End of Any Turn"
           },
           "declare": "Pick an enemy Monster in combat with this unit to be the target",
@@ -501,7 +501,7 @@
           "name": "Berserk Fury",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Passive"
           },
           "declare": null,
@@ -511,7 +511,7 @@
           "name": "Fjul's Retinue",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "",
             "text": "Passive"
           },
           "declare": null,
@@ -571,7 +571,7 @@
           "name": "Master of the Runes",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "black",
             "text": "Reaction: You declared an Ur-gold Rune ability"
           },
           "declare": null,
@@ -633,7 +633,7 @@
           "name": "Molten Blessing",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "black",
             "text": "Start of Any Turn"
           },
           "declare": "Pick a friendly Fyreslayers Priest within this terrain feature’s combat range to be the target.",
@@ -692,7 +692,7 @@
           "name": "Last of the Lodge-fire",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Once Per Battle, Any Combat Phase"
           },
           "declare": "Pick an enemy unit in combat with this unit to be the target.",
@@ -748,7 +748,7 @@
           "name": "Whirlwind of Destruction",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Passive"
           },
           "declare": null,
@@ -800,7 +800,7 @@
           "name": "Fearless Charge",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "orange",
             "text": "Passive"
           },
           "declare": null,
@@ -810,7 +810,7 @@
           "name": "Dauntless Assault",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Reaction: You declared a Fight ability for this unit"
           },
           "declare": null,
@@ -863,7 +863,7 @@
           "name": "Royal Retinue",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "black",
             "text": "Once Per Battle (Army), Deployment Phase"
           },
           "declare": "Pick a friendly non-Hero Fyreslayers Infantry unit within this unit’s combat range to be the royal retinue.",
@@ -873,7 +873,7 @@
           "name": "Commanding Presence",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "eggplant",
             "text": "End of Any Turn"
           },
           "declare": null,
@@ -976,7 +976,7 @@
           "name": "Battle Damaged",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "black",
             "text": "Passive"
           },
           "declare": null,
@@ -986,7 +986,7 @@
           "name": "Warrior-kings",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Once Per Battle (Army), Your Combat Phase"
           },
           "declare": null,
@@ -996,7 +996,7 @@
           "name": "Raging Inferno",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Once Per Turn (Army), Any Combat Phase"
           },
           "declare": "Pick an enemy unit in combat with this unit to be the target.",
@@ -1009,7 +1009,7 @@
           "name": "Volcanic Blood",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Passive"
           },
           "declare": null,
@@ -1096,7 +1096,7 @@
           "name": "Smouldering Braziers",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "eggplant",
             "text": "End of Any Turn"
           },
           "declare": "Pick an enemy unit in combat with this unit to be the target.",
@@ -1106,7 +1106,7 @@
           "name": "Duty Unto Death",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "",
             "text": "Passive"
           },
           "declare": null,
@@ -1159,7 +1159,7 @@
           "name": "Battle Damaged",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "black",
             "text": "Passive"
           },
           "declare": null,
@@ -1179,7 +1179,7 @@
           "name": "Lashing Tail",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Once Per Turn (Army), Any Combat Phase"
           },
           "declare": "Pick an enemy unit in combat with this unit to be the target.",
@@ -1192,7 +1192,7 @@
           "name": "Volcanic Blood",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Passive"
           },
           "declare": null,
@@ -1279,7 +1279,7 @@
           "name": "Grimwrath Oaths",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "black",
             "text": "Deployment Phase"
           },
           "declare": null,
@@ -1289,7 +1289,7 @@
           "name": "Battle-fury",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Once Per Battle, Any Combat Phase"
           },
           "declare": null,
@@ -1340,7 +1340,7 @@
           "name": "Roaring Rune-fire",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "gray",
             "text": "Enemy Movement Phase"
           },
           "declare": "Pick up to 3 enemy units within 6\" of this Manifestation to be the targets.",
@@ -1380,7 +1380,7 @@
           "name": "Flamescarred",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "eggplant",
             "text": "End of Any Turn"
           },
           "declare": "Pick an enemy unit that had any damage points allocated to it this turn by this Manifestation’s attacks to be the target.",
@@ -1446,7 +1446,7 @@
           "name": "Magma Blast",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "teal",
             "text": "Passive"
           },
           "declare": null,
@@ -1499,7 +1499,7 @@
           "name": "Oathbound",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "black",
             "text": "Deployment Phase"
           },
           "declare": "Pick an enemy unit to be this unit’s quarry. You can pick a unit that has been deployed in reserve.",
@@ -1509,7 +1509,7 @@
           "name": "Runic Power",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Passive"
           },
           "declare": null,
@@ -1560,7 +1560,7 @@
           "name": "Berserk Fury",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Passive"
           },
           "declare": null,
@@ -1613,7 +1613,7 @@
           "name": "Drothmasters",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Any Combat Phase"
           },
           "declare": "Pick an enemy Monster in combat with this unit to be the target.",

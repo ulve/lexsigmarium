@@ -28,7 +28,7 @@
           "name": "Relentless Attackers",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Passive"
           },
           "declare": null,
@@ -91,7 +91,7 @@
           "name": "Riddled With Disease",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "eggplant",
             "text": "Once Per Turn (Army), End of Any Turn"
           },
           "declare": "Pick an enemy unit within 6\" of this terrain feature to be the target.",
@@ -140,7 +140,7 @@
           "name": "Relentless Attackers",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Passive"
           },
           "declare": null,
@@ -203,7 +203,7 @@
           "name": "Jolly Gutpipes",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Once Per Turn (Army), Any Combat Phase"
           },
           "declare": "Pick a visible friendly Maggotkin of Nurgle Daemon unit wholly within 12\" of this unit to be the target.",
@@ -254,7 +254,7 @@
           "name": "Captain of the Plague Legions",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Reaction: You declared a Fight ability for this unit"
           },
           "declare": null,
@@ -360,7 +360,7 @@
           "name": "Battle Damaged",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "black",
             "text": "Passive"
           },
           "declare": null,
@@ -384,7 +384,7 @@
           "name": "Locus of Nurgle",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "gray",
             "text": "Once Per Turn (Army), Your Movement Phase"
           },
           "declare": "Pick a friendly Maggotkin of Nurgle Daemon unit that started the battle with 3 or more models and that has been destroyed to be the target.",
@@ -394,7 +394,7 @@
           "name": "Bloated with Corruption",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "eggplant",
             "text": "Once Per Turn (Army), End of Any Turn"
           },
           "declare": "If this unit is damaged, pick up to 3 enemy units in combat with this unit to be the targets.",
@@ -474,7 +474,7 @@
           "name": "Virulent Concoctions",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "eggplant",
             "text": "Passive"
           },
           "declare": null,
@@ -538,7 +538,7 @@
           "name": "Thrice-ripened Death's Heads",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Any Combat Phase"
           },
           "declare": "Pick an enemy unit that charged this turn and is in combat with this unit to be the target.",
@@ -548,7 +548,7 @@
           "name": "Festering Bulwark",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Passive"
           },
           "declare": null,
@@ -601,7 +601,7 @@
           "name": "Attention Seekers",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "orange",
             "text": "Any Charge Phase"
           },
           "declare": "If this unit is not in combat, pick the closest enemy unit to it to be the target. If 2 or more enemy units are tied to be the closest, you can pick which is the target. Then, make a charge roll of 2D6.",
@@ -616,7 +616,7 @@
           "name": "Beast",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "eggplant",
             "text": "Passive"
           },
           "declare": null,
@@ -668,7 +668,7 @@
           "name": "Ripe Pastures",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "gray",
             "text": "Passive"
           },
           "declare": null,
@@ -734,7 +734,7 @@
           "name": "Endless Swarm",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "eggplant",
             "text": "End of Any Turn"
           },
           "declare": null,
@@ -848,7 +848,7 @@
           "name": "Battle Damaged",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "black",
             "text": "Passive"
           },
           "declare": null,
@@ -858,7 +858,7 @@
           "name": "Lord of Nurglings",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "black",
             "text": "Passive"
           },
           "declare": null,
@@ -868,7 +868,7 @@
           "name": "Tide of Nurglings",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Once Per Turn (Army), Any Combat Phase"
           },
           "declare": "Pick a friendly Nurglings unit within this unit’s combat range to be the target.",
@@ -881,7 +881,7 @@
           "name": "Gigantic Nurgling-kin",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "eggplant",
             "text": "End of Any Turn"
           },
           "declare": null,
@@ -957,7 +957,7 @@
           "name": "Battle Damaged",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "black",
             "text": "Passive"
           },
           "declare": null,
@@ -981,7 +981,7 @@
           "name": "Blighted Stampede",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "orange",
             "text": "Once Per Turn (Army), Reaction: You declared the ‘Counter-charge’ command for this unit"
           },
           "declare": null,
@@ -994,7 +994,7 @@
           "name": "Horrific Opponent",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "eggplant",
             "text": "Passive"
           },
           "declare": null,
@@ -1064,7 +1064,7 @@
           "name": "Beast Handler",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "gray",
             "text": "Once Per Turn (Army), Your Movement Phase"
           },
           "declare": "Pick a friendly Beasts of Nurgle unit that has been destroyed.",
@@ -1074,7 +1074,7 @@
           "name": "Cultivating the Garden of Nurgle",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "gray",
             "text": "Your Movement Phase"
           },
           "declare": null,
@@ -1136,7 +1136,7 @@
           "name": "Vectors of Foulest Contagion",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Any Combat Phase"
           },
           "declare": "Pick up to 3 enemy units in combat with this unit to be the targets.",
@@ -1146,7 +1146,7 @@
           "name": "Master of Rot Flies",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Any Combat Phase"
           },
           "declare": "If this unit charged this turn, pick this unit and up to 2 friendly Pusgoyle Blightlords units wholly within 12\" of this unit to be the targets.",
@@ -1355,7 +1355,7 @@
           "name": "Cloud of Flies",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "",
             "text": "Passive"
           },
           "declare": null,
@@ -1410,7 +1410,7 @@
           "name": "Lord of the Blightkings",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "orange",
             "text": "Passive"
           },
           "declare": null,
@@ -1420,7 +1420,7 @@
           "name": "Sevenfold Slaughter",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Any Combat Phase"
           },
           "declare": "Pick a friendly Putrid Blightkings unit that charged this turn and is wholly within 12\" of this unit to be the target.",
@@ -1473,7 +1473,7 @@
           "name": "Master of the Slime Fleet",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "black",
             "text": "Deployment Phase"
           },
           "declare": "Pick a regiment led by this unit to be the target if it has not been deployed.",
@@ -1486,7 +1486,7 @@
           "name": "Pestilential Beachhead",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "gray",
             "text": "Your Movement Phase"
           },
           "declare": "Pick this unit if it is aboard the Slime Fleet.",
@@ -1496,7 +1496,7 @@
           "name": "Flailing Tentacles",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Any Combat Phase"
           },
           "declare": "Pick an enemy Infantry Hero in combat with this unit to be the target.",
@@ -1551,7 +1551,7 @@
           "name": "Battle Damaged",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "black",
             "text": "Passive"
           },
           "declare": null,
@@ -1561,7 +1561,7 @@
           "name": "Grasping Tongue",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Once Per Turn (Army), Any Combat Phase"
           },
           "declare": "Pick an enemy unit in combat with this unit to be the target.",
@@ -1574,7 +1574,7 @@
           "name": "Acid Ichor",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "",
             "text": "Passive"
           },
           "declare": null,
@@ -1650,7 +1650,7 @@
           "name": "Battle Damaged",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "black",
             "text": "Passive"
           },
           "declare": null,
@@ -1674,7 +1674,7 @@
           "name": "Daemon Flies",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Once Per Turn (Army), Any Combat Phase"
           },
           "declare": "Pick each enemy unit within 7\" of this unit to be the targets.",
@@ -1754,7 +1754,7 @@
           "name": "Battle Damaged",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "black",
             "text": "Passive"
           },
           "declare": null,
@@ -1788,7 +1788,7 @@
           "name": "Mountain of Loathsome Flesh",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "orange",
             "text": "Once Per Turn (Army), Any Charge Phase"
           },
           "declare": "If this unit charged this phase, roll a dice. On a 3+, pick an enemy unit within 1\" of it to be the target.",
@@ -1864,7 +1864,7 @@
           "name": "Bloated Bulk",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "eggplant",
             "text": "Passive"
           },
           "declare": null,

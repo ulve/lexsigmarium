@@ -138,7 +138,7 @@
           "name": "By Grungni, I Have My Eye On You!",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "",
             "text": "Passive"
           },
           "declare": null,
@@ -289,7 +289,7 @@
           "name": "Great Endrinworks",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "black",
             "text": "Deployment Phase"
           },
           "declare": null,
@@ -299,7 +299,7 @@
           "name": "Battle Damaged",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "black",
             "text": "Passive"
           },
           "declare": null,
@@ -309,7 +309,7 @@
           "name": "Transport Capacity",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "black",
             "text": "Passive"
           },
           "declare": null,
@@ -319,7 +319,7 @@
           "name": "Heavy Bomb Racks",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "gray",
             "text": "Your Movement Phase"
           },
           "declare": "Pick an enemy unit that does not have Fly and that this unit passed across this phase to be the target.",
@@ -423,7 +423,7 @@
           "name": "The Admiral's Flagship",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "black",
             "text": "Once Per Battle (Army), Deployment Phase"
           },
           "declare": "Pick an Arkanaut Ironclad or Arkanaut Frigate in this unit’s regiment to be the target.",
@@ -443,7 +443,7 @@
           "name": "'Bring Every Gun to Bear'",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "teal",
             "text": "Once Per Battle (Army), Your Shooting Phase"
           },
           "declare": "Pick a friendly Skyvessel wholly within 24\" of this unit that is not in combat to be the target.",
@@ -568,7 +568,7 @@
           "name": "Battle Damaged",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "black",
             "text": "Passive"
           },
           "declare": null,
@@ -578,7 +578,7 @@
           "name": "Transport Capacity",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "black",
             "text": "Passive"
           },
           "declare": null,
@@ -588,7 +588,7 @@
           "name": "Medium Bomb Racks",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "gray",
             "text": "Your Movement Phase"
           },
           "declare": "Pick an enemy unit that does not have Fly and that this unit passed across this phase to be the target.",
@@ -598,7 +598,7 @@
           "name": "Assault Boat",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "orange",
             "text": "Your Charge Phase"
           },
           "declare": "This unit cannot use this ability if it is in combat or has used a Run or Retreat ability this turn. Pick a number of units up to its Transport Capacity that are wholly within 6\" of it and that have not charged this turn to be the targets. Then, make a charge roll of 2D6.",
@@ -751,7 +751,7 @@
           "name": "Command the Fleet",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "gray",
             "text": "Once Per Battle, Your Movement Phase"
           },
           "declare": "Pick up to 3 visible friendly Skyvessels wholly within 24\" of this unit that are not in combat to be the targets.",
@@ -761,7 +761,7 @@
           "name": "First Rule of Grungsson",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Any Combat Phase"
           },
           "declare": "Pick up to 2 other friendly Skyfarer units within this unit’s combat range to be the targets.",
@@ -771,7 +771,7 @@
           "name": "Moustache-mounted Aetherblasters",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "eggplant",
             "text": "End of Any Turn"
           },
           "declare": "Pick an enemy unit in combat with this unit to be the target.",
@@ -847,7 +847,7 @@
           "name": "Emergency Field Repairs",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "eggplant",
             "text": "End of Any Turn"
           },
           "declare": "Pick a friendly Skyvessel within this unit’s combat range to be the target.",
@@ -943,7 +943,7 @@
           "name": "Aethermatic Anatomiser",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "teal",
             "text": "Your Shooting Phase"
           },
           "declare": "If this unit’s Bjorgen Thundrik is on the battlefield, pick an objective within 12\" of this unit to be the target.",
@@ -1026,7 +1026,7 @@
           "name": "Glory-seekers",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Passive"
           },
           "declare": null,
@@ -1122,7 +1122,7 @@
           "name": "Captain of the Aelsling",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "black",
             "text": "Deployment Phase"
           },
           "declare": "Pick a friendly Arkanaut Frigate in this unit’s regiment to be the target.",
@@ -1132,7 +1132,7 @@
           "name": "She Can Handle It!",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "black",
             "text": "Passive"
           },
           "declare": null,
@@ -1142,7 +1142,7 @@
           "name": "Auxiliary Skyhook",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "eggplant",
             "text": "End of Any Turn"
           },
           "declare": "Pick an enemy Monster in combat with this unit to be the target.",
@@ -1209,7 +1209,7 @@
           "name": "Aetheric Augmentation",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "teal",
             "text": "Once Per Turn (Army), Your Shooting Phase"
           },
           "declare": "Pick a friendly Kharadron Overlords Infantry unit wholly within 12\" of this unit to be the target.",
@@ -1219,7 +1219,7 @@
           "name": "Atmospheric Isolation",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Any Combat Phase"
           },
           "declare": "Pick an enemy unit in combat with this unit to be the target.",
@@ -1283,7 +1283,7 @@
           "name": "Timed Charges",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "eggplant",
             "text": "End of Any Turn"
           },
           "declare": "Pick an enemy unit in combat with this unit to be the target.",
@@ -1380,7 +1380,7 @@
           "name": "Transport Capacity",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "black",
             "text": "Passive"
           },
           "declare": null,
@@ -1390,7 +1390,7 @@
           "name": "Light Bomb Racks",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "gray",
             "text": "Your Movement Phase"
           },
           "declare": "Pick an enemy unit that does not have Fly and that this unit passed across this phase to be the target.",
@@ -1400,7 +1400,7 @@
           "name": "Escort Vessel",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "",
             "text": "Passive"
           },
           "declare": null,
@@ -1482,7 +1482,7 @@
           "name": "Hold This Position",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "teal",
             "text": "Your Shooting Phase"
           },
           "declare": null,

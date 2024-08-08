@@ -146,7 +146,7 @@
           "name": "Unstoppable Charge",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "orange",
             "text": "Any Charge Phase"
           },
           "declare": "If this unit charged this phase, pick an enemy Infantry unit that it passed across to be the target.",
@@ -156,7 +156,7 @@
           "name": "Spear of the Kavaloi",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "orange",
             "text": "Passive"
           },
           "declare": null,
@@ -166,7 +166,7 @@
           "name": "Master of Cavalry",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Reaction: You declared a Fight ability for this unit"
           },
           "declare": null,
@@ -229,7 +229,7 @@
           "name": "Bone Harvest",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "black",
             "text": "Passive"
           },
           "declare": null,
@@ -239,7 +239,7 @@
           "name": "Gruesome Surgery",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Once Per Turn (Army), Any Combat Phase"
           },
           "declare": "Pick an enemy Infantry unit in combat with this unit to be the target.",
@@ -252,7 +252,7 @@
           "name": "Repair Construct",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "eggplant",
             "text": "End of Any Turn"
           },
           "declare": "Pick a friendly Ossiarch Bonereapers unit wholly within 12\" of this unit to be the target.",
@@ -322,7 +322,7 @@
           "name": "No Escape",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Passive"
           },
           "declare": null,
@@ -386,7 +386,7 @@
           "name": "Death Incarnate",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "eggplant",
             "text": "End of Any Turn"
           },
           "declare": null,
@@ -437,7 +437,7 @@
           "name": "Battle Damaged",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "black",
             "text": "Passive"
           },
           "declare": null,
@@ -481,7 +481,7 @@
           "name": "The Doom of Traitors",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Once Per Turn (Army), Any Combat Phase"
           },
           "declare": "If this unit charged this turn, pick an enemy unit in combat with it to be the target.",
@@ -550,7 +550,7 @@
           "name": "Shieldwall",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "",
             "text": "Passive"
           },
           "declare": null,
@@ -606,7 +606,7 @@
           "name": "Predator's Cunning",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "black",
             "text": "Deployment Phase"
           },
           "declare": "Pick this unit if it has not been deployed.",
@@ -619,7 +619,7 @@
           "name": "Hunters Unleashed",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "gray",
             "text": "Your Movement Phase"
           },
           "declare": "Pick this unit if it is outflanking the enemy.",
@@ -681,7 +681,7 @@
           "name": "Aviarch Sentry",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "eggplant",
             "text": "Passive"
           },
           "declare": null,
@@ -732,7 +732,7 @@
           "name": "Deathly Barrage",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "teal",
             "text": "Any Shooting Phase"
           },
           "declare": "Pick an enemy unit that was targeted by all of this unit’s shooting attacks this phase to be the target.",
@@ -968,7 +968,7 @@
           "name": "Aviarch Spymaster",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "black",
             "text": "Once Per Turn, Reaction: Opponent declared a command for a unit within 18\" of this unit"
           },
           "declare": null,
@@ -978,7 +978,7 @@
           "name": "Battle Damaged",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "black",
             "text": "Passive"
           },
           "declare": null,
@@ -1009,7 +1009,7 @@
           "name": "Prime Necrophoros",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "eggplant",
             "text": "Passive"
           },
           "declare": null,
@@ -1149,7 +1149,7 @@
           "name": "Unstoppable Charge",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "orange",
             "text": "Any Charge Phase"
           },
           "declare": "If this unit charged this phase, pick an enemy Infantry unit that it passed across to be the target.",
@@ -1159,7 +1159,7 @@
           "name": "Deathrider Wedge",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "orange",
             "text": "Passive"
           },
           "declare": null,
@@ -1223,7 +1223,7 @@
           "name": "Soulbound Protectors",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "",
             "text": "Passive"
           },
           "declare": null,
@@ -1328,7 +1328,7 @@
           "name": "Unstoppable Charge",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "orange",
             "text": "Any Charge Phase"
           },
           "declare": "If this unit charged this phase, pick an enemy Infantry unit that it passed across to be the target.",
@@ -1338,7 +1338,7 @@
           "name": "Spear of the Kavaloi",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "orange",
             "text": "Passive"
           },
           "declare": null,
@@ -1348,7 +1348,7 @@
           "name": "Still Their Breath!",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Once Per Battle, Any Combat Phase"
           },
           "declare": null,
@@ -1412,7 +1412,7 @@
           "name": "Necrotic Impetus",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Reaction: You declared a Fight ability for this unit"
           },
           "declare": null,
@@ -1422,7 +1422,7 @@
           "name": "Soulreaper",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "",
             "text": "Passive"
           },
           "declare": null,
@@ -1476,7 +1476,7 @@
           "name": "Quadrarch Aspects",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Any Combat Phase"
           },
           "declare": null,
@@ -1527,7 +1527,7 @@
           "name": "Battle Damaged",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "black",
             "text": "Passive"
           },
           "declare": null,
@@ -1571,7 +1571,7 @@
           "name": "Hand of Dust",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "eggplant",
             "text": "Once Per Turn (Army), End of Any Turn"
           },
           "declare": "Pick a visible enemy Hero or Monster in combat with this unit to be the target.",
@@ -1646,7 +1646,7 @@
           "name": "Ebon-wrought Armour",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "",
             "text": "Passive"
           },
           "declare": null,
@@ -1699,7 +1699,7 @@
           "name": "Heralds of Nagash",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "black",
             "text": "Once Per Turn (Army), Reaction: You declared a Relentless Discipline ability"
           },
           "declare": null,
@@ -1709,7 +1709,7 @@
           "name": "Harbingers of Death",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "orange",
             "text": "Passive"
           },
           "declare": null,
@@ -1773,7 +1773,7 @@
           "name": "Nadirite Bow",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "teal",
             "text": "Your Shooting Phase"
           },
           "declare": "If this unit’s Nohem is on the battlefield, pick a visible enemy unit within 18\" of this unit to be the target.",

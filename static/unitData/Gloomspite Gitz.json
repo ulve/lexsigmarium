@@ -87,7 +87,7 @@
           "name": "Lurid Light",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "black",
             "text": "Passive"
           },
           "declare": null,
@@ -189,7 +189,7 @@
           "name": "A Prod in the Right Direction",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "black",
             "text": "Deployment Phase"
           },
           "declare": null,
@@ -199,7 +199,7 @@
           "name": "Puffshroom Frenzy",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "black",
             "text": "Passive"
           },
           "declare": null,
@@ -248,7 +248,7 @@
           "name": "Battle Damaged",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "black",
             "text": "Passive"
           },
           "declare": null,
@@ -258,7 +258,7 @@
           "name": "Greater Regeneration",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "black",
             "text": "Start of Any Turn"
           },
           "declare": null,
@@ -278,7 +278,7 @@
           "name": "Crushing Grip",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Once Per Turn (Army), Any Combat Phase"
           },
           "declare": "Pick an enemy unit within 1\" of this unit to be the target.",
@@ -390,7 +390,7 @@
           "name": "Goin' Somewhere?",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "black",
             "text": "Passive"
           },
           "declare": null,
@@ -400,7 +400,7 @@
           "name": "Gobbled Up",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "eggplant",
             "text": "End of Any Turn"
           },
           "declare": "Pick an enemy unit within 1\" of this unit to be the target.",
@@ -461,7 +461,7 @@
           "name": "Hamstring",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "teal",
             "text": "Once per Turn (Army), Your Shooting Phase"
           },
           "declare": "If this unit’s Mean-eye is on the battlefield and not in combat, pick a visible enemy unit within 15\" of this unit to be the target.",
@@ -471,7 +471,7 @@
           "name": "Marking Your Territory",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Passive"
           },
           "declare": null,
@@ -532,7 +532,7 @@
           "name": "Can't Catch Us",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "gray",
             "text": "Once Per Turn (Army), Enemy Movement Phase"
           },
           "declare": null,
@@ -605,7 +605,7 @@
           "name": "Netters",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Any Combat Phase"
           },
           "declare": "Pick an enemy Infantry unit in combat with this unit to be the target.",
@@ -719,7 +719,7 @@
           "name": "Stuff 'Em In Me Bag",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Once Per Turn (Army), Any Combat Phase"
           },
           "declare": "Pick an enemy unit in combat with this unit to be the target.",
@@ -732,7 +732,7 @@
           "name": "Timberrrrr!",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Passive"
           },
           "declare": null,
@@ -808,7 +808,7 @@
           "name": "Mollog's Mob",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "black",
             "text": "Passive"
           },
           "declare": null,
@@ -818,7 +818,7 @@
           "name": "Regeneration",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "black",
             "text": "Start of Any Turn"
           },
           "declare": null,
@@ -828,7 +828,7 @@
           "name": "Unleash The Critters!",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Any Combat Phase"
           },
           "declare": null,
@@ -838,7 +838,7 @@
           "name": "Bitey Distractions",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "",
             "text": "Passive"
           },
           "declare": null,
@@ -963,7 +963,7 @@
           "name": "Wall Crawler",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "gray",
             "text": "Passive"
           },
           "declare": null,
@@ -973,7 +973,7 @@
           "name": "Scuttle Away!",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "eggplant",
             "text": "Once Per Turn (Army), End of Any Turn"
           },
           "declare": "If this unit is in combat, pick this unit and up to 1 friendly Spider Riders unit that is in combat and wholly within 12\" of this unit to be the targets.",
@@ -1035,7 +1035,7 @@
           "name": "The Looncourt's Quest",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "black",
             "text": "Deployment Phase"
           },
           "declare": null,
@@ -1045,7 +1045,7 @@
           "name": "Quest's End",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "black",
             "text": "Start of Any Turn"
           },
           "declare": "This unit can only use this ability if you control the object of this unit’s quest and this unit is contesting it.",
@@ -1117,7 +1117,7 @@
           "name": "Battle Damaged",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "black",
             "text": "Passive"
           },
           "declare": null,
@@ -1137,7 +1137,7 @@
           "name": "Wall Crawler",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "gray",
             "text": "Passive"
           },
           "declare": null,
@@ -1147,7 +1147,7 @@
           "name": "Ensnaring Webbing",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Once Per Turn (Army), Any Combat Phase"
           },
           "declare": "Pick an enemy Infantry Hero within 1\" of this unit to be the target.",
@@ -1244,7 +1244,7 @@
           "name": "Hidden Loons",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "black",
             "text": "Deployment Phase"
           },
           "declare": "Pick this unit if it has not been deployed.",
@@ -1257,7 +1257,7 @@
           "name": "Release the Fanatics!",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "gray",
             "text": "Any Movement Phase"
           },
           "declare": "Pick this unit if it is hidden among the mobs. Then, pick a friendly Moonclan Shootas or Moonclan Stabbas unit that has 10 or more models to be the target.",
@@ -1267,7 +1267,7 @@
           "name": "Whirling Death",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Passive"
           },
           "declare": null,
@@ -1316,7 +1316,7 @@
           "name": "Secret Tunnels",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "black",
             "text": "Deployment Phase"
           },
           "declare": "Pick this unit if it has not been deployed.",
@@ -1329,7 +1329,7 @@
           "name": "Neh Neh Na-Neh Neh! Can't Catch Me!",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "gray",
             "text": "Once Per Turn (Army), Your Movement Phase"
           },
           "declare": "Pick a visible friendly Monster or Beast unit to be the target.",
@@ -1339,7 +1339,7 @@
           "name": "Emerge from the Depths",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "gray",
             "text": "Your Movement Phase"
           },
           "declare": "Pick this unit if it is in a secret tunnel.",
@@ -1402,7 +1402,7 @@
           "name": "Boing! Smash!",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "orange",
             "text": "Any Charge Phase"
           },
           "declare": "If this unit charged this phase,  pick an enemy unit within 1\" of it to be the target.",
@@ -1466,7 +1466,7 @@
           "name": "Regeneration",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "black",
             "text": "Start of Any Turn"
           },
           "declare": null,
@@ -1476,7 +1476,7 @@
           "name": "Noxious Vomit",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "teal",
             "text": "Passive"
           },
           "declare": null,
@@ -1538,7 +1538,7 @@
           "name": "Regeneration",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "black",
             "text": "Start of Any Turn"
           },
           "declare": null,
@@ -1599,7 +1599,7 @@
           "name": "Battle Damaged",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "black",
             "text": "Passive"
           },
           "declare": null,
@@ -1619,7 +1619,7 @@
           "name": "Rampaging Destruction",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "orange",
             "text": "Once Per Turn (Army), Any Charge Phase"
           },
           "declare": null,
@@ -1632,7 +1632,7 @@
           "name": "The End of Empires",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "orange",
             "text": "Passive"
           },
           "declare": null,
@@ -1642,7 +1642,7 @@
           "name": "Avatar of Destruction",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "",
             "text": "Passive"
           },
           "declare": null,
@@ -1722,7 +1722,7 @@
           "name": "Squigs Gone Wild",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Passive"
           },
           "declare": null,
@@ -1732,7 +1732,7 @@
           "name": "Beast",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "eggplant",
             "text": "Passive"
           },
           "declare": null,
@@ -1792,7 +1792,7 @@
           "name": "Let's Get Bouncin'!",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Reaction: You declared a Fight ability for this unit"
           },
           "declare": null,
@@ -1856,7 +1856,7 @@
           "name": "Wall Crawler",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "gray",
             "text": "Passive"
           },
           "declare": null,
@@ -1930,7 +1930,7 @@
           "name": "Netters",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Any Combat Phase"
           },
           "declare": "Pick an enemy Infantry unit in combat with this unit to be the target.",
@@ -1982,7 +1982,7 @@
           "name": "Boing! Boing! Boing!",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "gray",
             "text": "Any Movement Phase"
           },
           "declare": "Pick an enemy unit that this unit passed across this phase to be the target.",
@@ -2044,7 +2044,7 @@
           "name": "The Loonking's Entreaty",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "black",
             "text": "Once Per Battle, Reaction: You declared the ‘The Bad Moon’s Orbit’ ability"
           },
           "declare": null,
@@ -2068,7 +2068,7 @@
           "name": "Babbling Wand",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "gray",
             "text": "Reaction: You declared the ‘Redeploy’ command for a friendly Moonclan unit wholly within 12\" of this unit"
           },
           "declare": null,
@@ -2122,7 +2122,7 @@
           "name": "Battle Damaged",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "black",
             "text": "Passive"
           },
           "declare": null,
@@ -2132,7 +2132,7 @@
           "name": "Wall Crawler",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "gray",
             "text": "Passive"
           },
           "declare": null,
@@ -2142,7 +2142,7 @@
           "name": "Voracious Predator",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "orange",
             "text": "Once Per Turn (Army), Any Charge Phase"
           },
           "declare": "Pick up to 3 enemy units within 1\" of this unit to be the targets.",
@@ -2227,7 +2227,7 @@
           "name": "Effigy of Da Bad Moon",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "black",
             "text": "Passive"
           },
           "declare": null,
@@ -2237,7 +2237,7 @@
           "name": "Moonclan Lairs",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "eggplant",
             "text": "Once Per Turn (Army), End of Your Turn"
           },
           "declare": "Pick a friendly non-Hero non-Monster non‑War Machine Gloomspite Gitz unit that has been destroyed to be the target.",
@@ -2286,7 +2286,7 @@
           "name": "Let's get Stabbin'!",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Reaction: You declared a Fight ability or this unit"
           },
           "declare": null,
@@ -2347,7 +2347,7 @@
           "name": "Hallucinogenic Fungus Brews",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "",
             "text": "Passive"
           },
           "declare": null,
@@ -2397,7 +2397,7 @@
           "name": "Battle Damaged",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "black",
             "text": "Passive"
           },
           "declare": null,
@@ -2407,7 +2407,7 @@
           "name": "Wall Crawler",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "gray",
             "text": "Passive"
           },
           "declare": null,
@@ -2417,7 +2417,7 @@
           "name": "Flinger",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "teal",
             "text": "Passive"
           },
           "declare": null,
@@ -2427,7 +2427,7 @@
           "name": "Beast-binding Webbing",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Once Per Turn (Army), Any Combat Phase"
           },
           "declare": "Pick an enemy unit that charged this turn and is in combat with this unit to be the target.",
@@ -2583,7 +2583,7 @@
           "name": "Regeneration",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "black",
             "text": "Start of Any Turn"
           },
           "declare": null,
@@ -2603,7 +2603,7 @@
           "name": "Wade and Smash",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Once Per Turn (Army), Any Combat Phase"
           },
           "declare": null,
@@ -2655,7 +2655,7 @@
           "name": "Realmweb Lurker",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "black",
             "text": "Deployment Phase"
           },
           "declare": "Pick this unit if it has not been deployed.",
@@ -2668,7 +2668,7 @@
           "name": "Battle Damaged",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "black",
             "text": "Passive"
           },
           "declare": null,
@@ -2678,7 +2678,7 @@
           "name": "Ambush from Beyond",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "gray",
             "text": "Any Movement Phase"
           },
           "declare": "Pick this unit if it is skittering through tunnels in reality.",
@@ -2688,7 +2688,7 @@
           "name": "Wall Crawler",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "gray",
             "text": "Passive"
           },
           "declare": null,
@@ -2698,7 +2698,7 @@
           "name": "Scuttling Terror",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Once Per Turn (Army), Any Combat Phase"
           },
           "declare": null,
@@ -2764,7 +2764,7 @@
           "name": "Squig Rage",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "black",
             "text": "Passive"
           },
           "declare": null,
@@ -2774,7 +2774,7 @@
           "name": "Ker-Splat!",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "orange",
             "text": "Once Per Turn (Army), Any Charge Phase"
           },
           "declare": "If this unit charged this phase, pick an enemy unit within 1\" of it to be the target.",
@@ -2787,7 +2787,7 @@
           "name": "Bite Da Moon!",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Once Per Battle (Army), Any Combat Phase"
           },
           "declare": "Pick this unit and all friendly Squig units wholly within 12\" of this unit to be the targets.",
@@ -2797,7 +2797,7 @@
           "name": "Watch Out!",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Passive"
           },
           "declare": null,
@@ -2869,7 +2869,7 @@
           "name": "Mutating Spores",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "teal",
             "text": "Any Shooting Phase"
           },
           "declare": "Pick up to 3 enemy units within 6\" of this Manifestation to be the targets.",
@@ -2909,7 +2909,7 @@
           "name": "Wall Crawler",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "gray",
             "text": "Passive"
           },
           "declare": null,
@@ -2919,7 +2919,7 @@
           "name": "Endless Terrors",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "",
             "text": "Passive"
           },
           "declare": null,
@@ -2971,7 +2971,7 @@
           "name": "Squig Rage",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "black",
             "text": "Passive"
           },
           "declare": null,
@@ -2981,7 +2981,7 @@
           "name": "Giant Boing!",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "orange",
             "text": "Once Per Turn (Army), Any Charge Phase"
           },
           "declare": null,
@@ -2994,7 +2994,7 @@
           "name": "Watch Out!",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Passive"
           },
           "declare": null,
@@ -3065,7 +3065,7 @@
           "name": "Greater Regeneration",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "black",
             "text": "Start of Any Turn"
           },
           "declare": null,
@@ -3085,7 +3085,7 @@
           "name": "Shepherd of Destruction",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Once Per Turn (Army), Any Combat Phase"
           },
           "declare": null,

@@ -139,7 +139,7 @@
           "name": "Nightmare Lantern",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Passive"
           },
           "declare": null,
@@ -234,7 +234,7 @@
           "name": "Staring Death In The Face",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Once Per Turn, Any Combat Phase"
           },
           "declare": "Pick an enemy unit in combat with this unit to be the target.",
@@ -288,7 +288,7 @@
           "name": "If I Cannot Rule, None Shall Rule!",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "black",
             "text": "Once Per Turn, Reaction: Opponent declared a command for a unit within 12\" of this unit"
           },
           "declare": null,
@@ -405,7 +405,7 @@
           "name": "Siphon Souls",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "black",
             "text": "Passive"
           },
           "declare": null,
@@ -415,7 +415,7 @@
           "name": "Soul Eruption",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "eggplant",
             "text": "End of Any Turn"
           },
           "declare": "If this Manifestation has 6 soul points, pick any number of enemy units within 6\" of this unit to be the targets.",
@@ -456,7 +456,7 @@
           "name": "Empowered Through Excruciation",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "",
             "text": "Passive"
           },
           "declare": null,
@@ -524,7 +524,7 @@
           "name": "Light A Pyre",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "eggplant",
             "text": "End of Any Turn"
           },
           "declare": "If this unit is contesting an objective, pick a visible enemy unit within 6\" of this unit to be the target.",
@@ -591,7 +591,7 @@
           "name": "Spectral Hunters",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "orange",
             "text": "Any Charge Phase"
           },
           "declare": "If this unit charged this phase, pick an enemy unit within 1\" of it to be the target.",
@@ -656,7 +656,7 @@
           "name": "Thrashing Desperation",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Passive"
           },
           "declare": null,
@@ -708,7 +708,7 @@
           "name": "Drawn to War",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "",
             "text": "Passive"
           },
           "declare": null,
@@ -760,7 +760,7 @@
           "name": "Spectral Bolts",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "teal",
             "text": "Passive"
           },
           "declare": null,
@@ -837,7 +837,7 @@
           "name": "Judge, Jury and Executioner",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "eggplant",
             "text": "Once Per Turn (Army), End of Your Turn"
           },
           "declare": null,
@@ -914,7 +914,7 @@
           "name": "Mortarch  of Grief",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "eggplant",
             "text": "Passive"
           },
           "declare": null,
@@ -994,7 +994,7 @@
           "name": "Reaped Like Corn",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Passive"
           },
           "declare": null,
@@ -1164,7 +1164,7 @@
           "name": "Eager Death-dealers",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Passive"
           },
           "declare": null,
@@ -1217,7 +1217,7 @@
           "name": "Murderous Bloodlust",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Passive"
           },
           "declare": null,
@@ -1227,7 +1227,7 @@
           "name": "Harrowing Shriek",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "",
             "text": "Passive"
           },
           "declare": null,
@@ -1280,7 +1280,7 @@
           "name": "The Point of Death",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "black",
             "text": "Once Per Battle (Army), Deployment Phase"
           },
           "declare": "Pick an enemy unit to be the target.",
@@ -1290,7 +1290,7 @@
           "name": "Unerring Hunters",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "orange",
             "text": "Reaction: You declared a Charge ability for this unit and a Stalked enemy unit is within 12\" of it"
           },
           "declare": null,
@@ -1344,7 +1344,7 @@
           "name": "Ghostly Howl",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "teal",
             "text": "Once Per Turn (Army), Any Shooting Phase"
           },
           "declare": "Pick an enemy unit that had any damage points allocated to it this turn by attacks made with this unit’s Piercing Scream to be the target.",
@@ -1354,7 +1354,7 @@
           "name": "Cacophony of Sorrow",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "eggplant",
             "text": "Passive"
           },
           "declare": null,
@@ -1420,7 +1420,7 @@
           "name": "Nimbus of Power",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "gray",
             "text": "Your Movement Phase"
           },
           "declare": null,
@@ -1433,7 +1433,7 @@
           "name": "Runaway Coach",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "orange",
             "text": "Any Charge Phase"
           },
           "declare": "If this unit charged this phase, pick an enemy unit within 1\" of it to be the target.",
@@ -1443,7 +1443,7 @@
           "name": "Evocation of Death",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "eggplant",
             "text": "End of Any Turn"
           },
           "declare": "If this unit destroyed any enemy units this turn, pick a friendly non‑Unique Nighthaunt Hero that has been destroyed.",
@@ -1531,7 +1531,7 @@
           "name": "Soul Reaper",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Passive"
           },
           "declare": null,
@@ -1606,7 +1606,7 @@
           "name": "Grim Justice",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Passive"
           },
           "declare": null,
@@ -1673,7 +1673,7 @@
           "name": "Infantry Overseer",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Reaction: You declared a Fight ability for this unit"
           },
           "declare": null,
@@ -1683,7 +1683,7 @@
           "name": "Stolen Hours",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "",
             "text": "Passive"
           },
           "declare": null,
@@ -1736,7 +1736,7 @@
           "name": "Phantasmal Discorporation",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "gray",
             "text": "Any Movement Phase"
           },
           "declare": null,
@@ -1749,7 +1749,7 @@
           "name": "Curse of Loyalty",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "eggplant",
             "text": "Passive"
           },
           "declare": null,
@@ -1812,7 +1812,7 @@
           "name": "Passage Through The Underworlds",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "gray",
             "text": "Once Per Turn (Army), Your Movement Phase"
           },
           "declare": "If this unit is not in combat, pick a friendly non-Hero Nighthaunt unit that is not in combat and is wholly within 12\" of this unit to be the target.",
@@ -1869,7 +1869,7 @@
           "name": "Battle Damaged",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "black",
             "text": "Passive"
           },
           "declare": null,
@@ -1913,7 +1913,7 @@
           "name": "Hand of Dust",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "eggplant",
             "text": "Once Per Turn (Army), End of Any Turn"
           },
           "declare": "Pick a visible enemy Hero or Monster in combat with this unit to be the target.",
@@ -1978,7 +1978,7 @@
           "name": "Cavalry Overseer",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Reaction: You declared a Fight ability for this unit"
           },
           "declare": null,
@@ -1988,7 +1988,7 @@
           "name": "Stolen Hours",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "",
             "text": "Passive"
           },
           "declare": null,
@@ -2052,7 +2052,7 @@
           "name": "Chilling Horde",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Passive"
           },
           "declare": null,
@@ -2105,7 +2105,7 @@
           "name": "Another Link in the Chain",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Your Combat Phase"
           },
           "declare": null,
@@ -2179,7 +2179,7 @@
           "name": "Ghostly Howl",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "teal",
             "text": "Once Per Turn (Army), Any Shooting Phase"
           },
           "declare": "Pick an enemy unit that had any damage points allocated to it this turn by attacks made with this unit’s Piercing Scream to be the target.",

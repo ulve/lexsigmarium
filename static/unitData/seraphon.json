@@ -137,7 +137,7 @@
           "name": "Deadly Cargo",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "gray",
             "text": "Your Movement Phase"
           },
           "declare": "Pick an enemy unit that this unit passed across this phase to be the target.",
@@ -147,7 +147,7 @@
           "name": "Attack From on High",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "",
             "text": "Passive"
           },
           "declare": null,
@@ -213,7 +213,7 @@
           "name": "Alpha Roar",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Once Per Battle (Army), Any Combat Phase."
           },
           "declare": null,
@@ -223,7 +223,7 @@
           "name": "Primal Rage",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "eggplant",
             "text": "End of Any Turn"
           },
           "declare": null,
@@ -319,7 +319,7 @@
           "name": "Dead for Innumerable Ages",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "eggplant",
             "text": "End of Any Turn"
           },
           "declare": null,
@@ -389,7 +389,7 @@
           "name": "Hidden Hunters",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "black",
             "text": "Deployment Phase"
           },
           "declare": "Pick this unit if it has not been deployed.",
@@ -402,7 +402,7 @@
           "name": "Chameleon Ambush",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "gray",
             "text": "Your Movement Phase"
           },
           "declare": "Pick this unit if it is in ambush.",
@@ -412,7 +412,7 @@
           "name": "Starstone Bolas",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "teal",
             "text": "Any Shooting Phase"
           },
           "declare": "Pick an enemy unit that was targeted by this unit’s Starstone Bolas this turn to be the target.",
@@ -492,7 +492,7 @@
           "name": "Blot Toad",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "black",
             "text": "Once Per Battle (Army), Deployment Phase"
           },
           "declare": "You receive 1 Blot Toad token for each Ripperdactyl Chief or Ripperdactyl Riders unit in your army, to a maximum of 3 tokens. Pick a number of enemy units equal to the number of Blot Toads you have to be the targets.",
@@ -502,7 +502,7 @@
           "name": "Toad Rage",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Passive"
           },
           "declare": null,
@@ -567,7 +567,7 @@
           "name": "Hidden Hunters",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "black",
             "text": "Deployment Phase"
           },
           "declare": "Pick this unit if it has not been deployed.",
@@ -580,7 +580,7 @@
           "name": "Chameleon Ambush",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "gray",
             "text": "Your Movement Phase"
           },
           "declare": "Pick this unit if it is in ambush.",
@@ -590,7 +590,7 @@
           "name": "Star-venom",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "teal",
             "text": "Any Shooting Phase"
           },
           "declare": "Pick an enemy unit that had any damage points allocated to it this turn by attacks made with this unit’s Dartpipe to be the target.",
@@ -655,7 +655,7 @@
           "name": "Blot Toad",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "black",
             "text": "Once Per Battle (Army), Deployment Phase"
           },
           "declare": "You receive 1 Blot Toad token for each Ripperdactyl Chief or Ripperdactyl Riders unit in your army, to a maximum of 3 tokens. Pick a number of enemy units equal to the number of Blot Toads you have to be the targets.",
@@ -665,7 +665,7 @@
           "name": "Ripperdactyl Assault",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Once Per Battle, Any Combat Phase"
           },
           "declare": null,
@@ -675,7 +675,7 @@
           "name": "Toad Rage",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Passive"
           },
           "declare": null,
@@ -739,7 +739,7 @@
           "name": "Tail Swipe",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Once Per Turn (Army), Any Combat Phase"
           },
           "declare": "Pick an enemy unit in combat with this unit to be the target.",
@@ -817,7 +817,7 @@
           "name": "Battle Damaged",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "black",
             "text": "Passive"
           },
           "declare": null,
@@ -827,7 +827,7 @@
           "name": "Maim and Tear",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "eggplant",
             "text": "Once Per Turn (Army), End of Any Turn"
           },
           "declare": "Pick an enemy Hero in combat with this unit to be the target.",
@@ -840,7 +840,7 @@
           "name": "Terror",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "eggplant",
             "text": "Passive"
           },
           "declare": null,
@@ -910,7 +910,7 @@
           "name": "Battle Damaged",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "black",
             "text": "Passive"
           },
           "declare": null,
@@ -920,7 +920,7 @@
           "name": "Spearhead of the Charge",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "orange",
             "text": "Passive"
           },
           "declare": null,
@@ -930,7 +930,7 @@
           "name": "Blood Frenzy",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Once Per Turn (Army), Any Combat Phase"
           },
           "declare": null,
@@ -943,7 +943,7 @@
           "name": "Terror",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "eggplant",
             "text": "Passive"
           },
           "declare": null,
@@ -1028,7 +1028,7 @@
           "name": "Battle Damaged",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "black",
             "text": "Passive"
           },
           "declare": null,
@@ -1038,7 +1038,7 @@
           "name": "Unstoppable Stampede",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "orange",
             "text": "Once Per Turn (Army), Any Charge Phase"
           },
           "declare": "If this unit charged this phase, pick an enemy Infantry unit in combat with it to be the target.",
@@ -1129,7 +1129,7 @@
           "name": "Cold-blooded Unity",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Passive"
           },
           "declare": null,
@@ -1193,7 +1193,7 @@
           "name": "Swift and Nimble",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "gray",
             "text": "Passive"
           },
           "declare": null,
@@ -1266,7 +1266,7 @@
           "name": "Fierce Guardians",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Passive"
           },
           "declare": null,
@@ -1304,7 +1304,7 @@
           "name": "Spawn of Sotek",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Passive"
           },
           "declare": null,
@@ -1314,7 +1314,7 @@
           "name": "Heavy-scaled Skin",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "",
             "text": "Passive"
           },
           "declare": null,
@@ -1375,7 +1375,7 @@
           "name": "Wrath of the Seraphon",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Once Per Battle, Any Combat Phase"
           },
           "declare": null,
@@ -1385,7 +1385,7 @@
           "name": "Predatory Exemplar",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Reaction: You declared a Fight ability for this unit"
           },
           "declare": null,
@@ -1435,7 +1435,7 @@
           "name": "Blot Toad",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "black",
             "text": "Once Per Battle (Army), Deployment Phase"
           },
           "declare": "You receive 1 Blot Toad token for each Ripperdactyl Chief or Ripperdactyl Riders unit in your army, to a maximum of 3 tokens. Pick a number of enemy units equal to the number of Blot Toads you have to be the targets.",
@@ -1445,7 +1445,7 @@
           "name": "Toad Rage",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Passive"
           },
           "declare": null,
@@ -1509,7 +1509,7 @@
           "name": "Deadly Cargo",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "gray",
             "text": "Your Movement Phase"
           },
           "declare": "Pick an enemy unit that this unit passed across this phase to be the target.",
@@ -1519,7 +1519,7 @@
           "name": "Attack From on High",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "",
             "text": "Passive"
           },
           "declare": null,
@@ -1585,7 +1585,7 @@
           "name": "Chief's Deadly Cargo",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "gray",
             "text": "Your Movement Phase"
           },
           "declare": "Pick an enemy unit that this unit passed across this phase to be the target.",
@@ -1595,7 +1595,7 @@
           "name": "Attack from on High",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "",
             "text": "Passive"
           },
           "declare": null,
@@ -1658,7 +1658,7 @@
           "name": "Primal Rage",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "eggplant",
             "text": "End of Any Turn"
           },
           "declare": null,
@@ -1723,7 +1723,7 @@
           "name": "Nerve-shredding Screeches",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "teal",
             "text": "Your Shooting Phase"
           },
           "declare": "Pick an enemy unit within 10\" of this unit to be the target.",
@@ -1733,7 +1733,7 @@
           "name": "Beast",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "eggplant",
             "text": "Passive"
           },
           "declare": null,
@@ -1784,7 +1784,7 @@
           "name": "Selfless Protectors",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "",
             "text": "Passive"
           },
           "declare": null,
@@ -1837,7 +1837,7 @@
           "name": "Acid-fuelled Flame",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "teal",
             "text": "Passive"
           },
           "declare": null,
@@ -1847,7 +1847,7 @@
           "name": "Sun Acolytes",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "eggplant",
             "text": "Passive"
           },
           "declare": null,
@@ -1923,7 +1923,7 @@
           "name": "Ordered Cohorts",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "",
             "text": "Passive"
           },
           "declare": null,
@@ -2041,7 +2041,7 @@
           "name": "Deadly Cohesion",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "orange",
             "text": "Any Charge Phase"
           },
           "declare": "If this unit is not in combat, pick a friendly Raptadon Chargers unit that charged this turn and is within 12\" of this unit to be the target.",
@@ -2165,7 +2165,7 @@
           "name": "Battle Damaged",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "black",
             "text": "Passive"
           },
           "declare": null,
@@ -2185,7 +2185,7 @@
           "name": "Crest of Horns",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Once Per Turn (Army), Any Combat Phase"
           },
           "declare": "Pick an enemy unit that charged this turn and is in combat with this unit to be the target.",
@@ -2343,7 +2343,7 @@
           "name": "Brutal Blows",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Passive"
           },
           "declare": null,
@@ -2414,7 +2414,7 @@
           "name": "Revivifying Energies",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "",
             "text": "Passive"
           },
           "declare": null,
@@ -2464,7 +2464,7 @@
           "name": "Battle Damaged",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "black",
             "text": "Passive"
           },
           "declare": null,
@@ -2474,7 +2474,7 @@
           "name": "Skink Coordination",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "gray",
             "text": "Passive"
           },
           "declare": null,
@@ -2484,7 +2484,7 @@
           "name": "Crushing Stomps",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Once Per Turn (Army), Any Combat Phase"
           },
           "declare": "Pick an enemy unit in combat with this unit to be the target.",
@@ -2584,7 +2584,7 @@
           "name": "Ark of Sotek",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Once Per Turn (Army), Any Combat Phase"
           },
           "declare": "Pick up to 3 different enemy units within 9\" of this unit to be the targets.",
@@ -2662,7 +2662,7 @@
           "name": "Battle Damaged",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "black",
             "text": "Passive"
           },
           "declare": null,
@@ -2672,7 +2672,7 @@
           "name": "Noxious Roar",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Once Per Turn (Army), Any Combat Phase"
           },
           "declare": "Pick up to 3 enemy units in combat with this unit to be the targets.",
@@ -2685,7 +2685,7 @@
           "name": "Troglodon Regeneration",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "eggplant",
             "text": "End of Any Turn"
           },
           "declare": null,
@@ -2695,7 +2695,7 @@
           "name": "Terror",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "eggplant",
             "text": "Passive"
           },
           "declare": null,
@@ -2792,7 +2792,7 @@
           "name": "Otapatl's Dartpipe",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "teal",
             "text": "Your Shooting Phase"
           },
           "declare": "If this unit’s Otapatl is on the battlefield, pick a visible enemy unit within 18\" of this unit to be the target.",
@@ -2802,7 +2802,7 @@
           "name": "Klaq-Trok",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "",
             "text": "Passive"
           },
           "declare": null,

@@ -90,7 +90,7 @@
           "name": "Battle Damaged",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "black",
             "text": "Passive"
           },
           "declare": null,
@@ -100,7 +100,7 @@
           "name": "Implacable Advance",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "orange",
             "text": "Passive"
           },
           "declare": null,
@@ -110,7 +110,7 @@
           "name": "Piston-driven Carnage",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Once Per Turn (Army), Any Combat Phase"
           },
           "declare": "Pick an enemy Infantry unit in combat with this unit to be the target.",
@@ -200,7 +200,7 @@
           "name": "Cursed Destroyers",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Once Per Turn (Army), Any Combat Phase"
           },
           "declare": "Pick a terrain feature within 1\" of this unit, then pick each other unit (friendly and enemy) within 3\" of that terrain feature to be the targets.",
@@ -387,7 +387,7 @@
           "name": "Apex Predator",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Once Per Turn (Army), Any Combat Phase"
           },
           "declare": "Pick an enemy Monster in combat with this unit to be the target.",
@@ -400,7 +400,7 @@
           "name": "Iron-willed Overlord",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "eggplant",
             "text": "Passive"
           },
           "declare": null,
@@ -464,7 +464,7 @@
           "name": "The Knights of Chaos",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Reaction: You declared a Fight ability for this unit"
           },
           "declare": null,
@@ -526,7 +526,7 @@
           "name": "Tribal Warleader",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Reaction: You declared a Fight ability for this unit"
           },
           "declare": null,
@@ -536,7 +536,7 @@
           "name": "Oath of Murder",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "eggplant",
             "text": "Once Per Battle, End of Any Turn"
           },
           "declare": null,
@@ -589,7 +589,7 @@
           "name": "Swift As The Wind",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "teal",
             "text": "Passive"
           },
           "declare": null,
@@ -599,7 +599,7 @@
           "name": "Uncanny Shot",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "teal",
             "text": "Passive"
           },
           "declare": null,
@@ -677,7 +677,7 @@
           "name": "All Shall Burn",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "teal",
             "text": "Passive"
           },
           "declare": null,
@@ -742,7 +742,7 @@
           "name": "Battle Damaged",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "black",
             "text": "Passive"
           },
           "declare": null,
@@ -776,7 +776,7 @@
           "name": "Deadly Trap",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Once Per Turn (Army), Enemy Combat Phase"
           },
           "declare": "Pick this unit and up to 2 friendly Slaves to Darkness units within this unit’s combat range to be the targets.",
@@ -789,7 +789,7 @@
           "name": "Shadow Form",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "",
             "text": "Passive"
           },
           "declare": null,
@@ -860,7 +860,7 @@
           "name": "Frozen In Fear",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "black",
             "text": "Passive"
           },
           "declare": null,
@@ -924,7 +924,7 @@
           "name": "Stampede of Iron",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "orange",
             "text": "Any Charge Phase"
           },
           "declare": "If this unit charged this phase, pick an enemy unit within 1\" of it to be the target.",
@@ -988,7 +988,7 @@
           "name": "Swift Death",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "orange",
             "text": "Any Charge Phase"
           },
           "declare": "If this unit charged this phase, pick an enemy unit within 1\" of it to be the target.",
@@ -1063,7 +1063,7 @@
           "name": "Drawn to Power",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "black",
             "text": "Passive"
           },
           "declare": null,
@@ -1073,7 +1073,7 @@
           "name": "Beast",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "eggplant",
             "text": "Passive"
           },
           "declare": null,
@@ -1124,7 +1124,7 @@
           "name": "Myrmidon Rage",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Passive"
           },
           "declare": null,
@@ -1134,7 +1134,7 @@
           "name": "Pit Master",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Reaction: You declared a Fight ability for this unit"
           },
           "declare": null,
@@ -1196,7 +1196,7 @@
           "name": "Fuelled By Sorcery",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "black",
             "text": "Passive"
           },
           "declare": null,
@@ -1260,7 +1260,7 @@
           "name": "Glory In Battle",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Reaction: You declared a Fight ability for this unit"
           },
           "declare": null,
@@ -1312,7 +1312,7 @@
           "name": "Battle Damaged",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "black",
             "text": "Passive"
           },
           "declare": null,
@@ -1322,7 +1322,7 @@
           "name": "Gorbolga the Accurs'd",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Any Combat Phase"
           },
           "declare": null,
@@ -1332,7 +1332,7 @@
           "name": "Roar of Domination",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Once Per Turn (Army), Any Combat Phase"
           },
           "declare": "Pick an enemy Hero in combat with this unit to be the target.",
@@ -1345,7 +1345,7 @@
           "name": "Blood of Molten Varanite",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Passive"
           },
           "declare": null,
@@ -1355,7 +1355,7 @@
           "name": "Warlord of the First Circle",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Passive"
           },
           "declare": null,
@@ -1421,7 +1421,7 @@
           "name": "Carve a Path To Glory",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Any Combat Phase"
           },
           "declare": "This unit can only use this ability if it is in combat with an enemy Hero.",
@@ -1431,7 +1431,7 @@
           "name": "Oath of Bloodshed",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "eggplant",
             "text": "Once Per Battle, End of Any Turn"
           },
           "declare": "This unit can only use this ability if any enemy Heroes were slain by this unit’s combat attacks this turn.",
@@ -1486,7 +1486,7 @@
           "name": "Minions of the Silver Tower",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "black",
             "text": "Deployment Phase"
           },
           "declare": "Pick a friendly unit that has not been deployed to be the target.",
@@ -1513,7 +1513,7 @@
           "name": "Book of Profane Secrets",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "gray",
             "text": "Your Movement Phase"
           },
           "declare": "Pick a friendly unit in a Silver Tower to be the target.",
@@ -1579,7 +1579,7 @@
           "name": "Battle Damaged",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "black",
             "text": "Passive"
           },
           "declare": null,
@@ -1603,7 +1603,7 @@
           "name": "Protection of the Dark Gods",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "",
             "text": "Passive"
           },
           "declare": null,
@@ -1664,7 +1664,7 @@
           "name": "Oath of the Marauder",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "orange",
             "text": "Once Per Battle, Any Charge Phase"
           },
           "declare": null,
@@ -1674,7 +1674,7 @@
           "name": "Glorious Death",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Passive"
           },
           "declare": null,
@@ -1727,7 +1727,7 @@
           "name": "Cavalry Warleader",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "orange",
             "text": "Passive"
           },
           "declare": null,
@@ -1737,7 +1737,7 @@
           "name": "Oath of Murder",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "eggplant",
             "text": "Once Per Battle, End of Any Turn"
           },
           "declare": null,
@@ -1800,7 +1800,7 @@
           "name": "Relentless Killers",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Once Per Battle, Any Combat Phase"
           },
           "declare": null,
@@ -1864,7 +1864,7 @@
           "name": "Iron Resilience",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "",
             "text": "Passive"
           },
           "declare": null,
@@ -1874,7 +1874,7 @@
           "name": "Ogor Breacher",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "",
             "text": "Passive"
           },
           "declare": null,
@@ -1938,7 +1938,7 @@
           "name": "Network of Spies",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "black",
             "text": "Reaction: Opponent declared a command for a unit within 12\" of this unit"
           },
           "declare": null,
@@ -1948,7 +1948,7 @@
           "name": "Veins of Black Lightning",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "gray",
             "text": "Any Movement Phase"
           },
           "declare": "This unit can use this ability if it has been destroyed.",
@@ -2014,7 +2014,7 @@
           "name": "Sigils of  Domination",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "black",
             "text": "Deployment Phase"
           },
           "declare": "Pick a friendly Slaves to Darkness Hero within this unit’s combat range to be this unit’s master.",
@@ -2024,7 +2024,7 @@
           "name": "Battle Damaged",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "black",
             "text": "Passive"
           },
           "declare": null,
@@ -2034,7 +2034,7 @@
           "name": "Rampaging Charge",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "orange",
             "text": "Once Per Turn (Army), Any Charge Phase"
           },
           "declare": "If this unit charged this phase, pick an enemy unit within 1\" of it to be the target.",
@@ -2100,7 +2100,7 @@
           "name": "Oath of the Raider",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "orange",
             "text": "Once Per Battle, Any Charge Phase"
           },
           "declare": null,
@@ -2110,7 +2110,7 @@
           "name": "Swift Attackers",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "",
             "text": "Passive"
           },
           "declare": null,
@@ -2194,7 +2194,7 @@
           "name": "Crazed Flock",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Passive"
           },
           "declare": null,
@@ -2204,7 +2204,7 @@
           "name": "Beast",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "eggplant",
             "text": "Passive"
           },
           "declare": null,
@@ -2257,7 +2257,7 @@
           "name": "Creeping Summons",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "eggplant",
             "text": "End of Any Turn"
           },
           "declare": null,
@@ -2330,7 +2330,7 @@
           "name": "Minions of the Silver Tower",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "black",
             "text": "Deployment Phase"
           },
           "declare": "Pick a friendly unit that has not been deployed to be the target.",
@@ -2357,7 +2357,7 @@
           "name": "Book of Profane Secrets",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "gray",
             "text": "Your Movement Phase"
           },
           "declare": "Pick a friendly unit in a Silver Tower to be the target.",
@@ -2434,7 +2434,7 @@
           "name": "Impaling Charge",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Passive"
           },
           "declare": null,
@@ -2508,7 +2508,7 @@
           "name": "Airborne Horror",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "gray",
             "text": "Passive"
           },
           "declare": null,
@@ -2518,7 +2518,7 @@
           "name": "The Mounted Skulls of the Fallen",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Passive"
           },
           "declare": null,
@@ -2573,7 +2573,7 @@
           "name": "Shadow-lurkers",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "black",
             "text": "Deployment Phase"
           },
           "declare": "Pick this unit if it has not been deployed.",
@@ -2586,7 +2586,7 @@
           "name": "Strike From The Shadows",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "gray",
             "text": "Your Movement Phase"
           },
           "declare": "Pick this unit if it is lurking in the shadows.",
@@ -2651,7 +2651,7 @@
           "name": "Feed on Flesh",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "black",
             "text": "Passive"
           },
           "declare": null,
@@ -2671,7 +2671,7 @@
           "name": "Beast",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "eggplant",
             "text": "Passive"
           },
           "declare": null,
@@ -2736,7 +2736,7 @@
           "name": "Paralysing Strikes",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Passive"
           },
           "declare": null,
@@ -2746,7 +2746,7 @@
           "name": "Slithering Serpents",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "eggplant",
             "text": "End of Any Turn"
           },
           "declare": "If this unit’s Serpents are on the battlefield, pick an enemy unit in combat with this unit to be the target.",
@@ -2798,7 +2798,7 @@
           "name": "Glory-seeker",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Passive"
           },
           "declare": null,
@@ -2851,7 +2851,7 @@
           "name": "Marshal of the Legions",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Reaction: You declared a Fight ability for this unit"
           },
           "declare": null,
@@ -2903,7 +2903,7 @@
           "name": "Heralds of Ruination",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Once Per Battle, Any Combat Phase"
           },
           "declare": null,
@@ -2957,7 +2957,7 @@
           "name": "The Favoured Warlord",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "black",
             "text": "Deployment Phase"
           },
           "declare": null,
@@ -2967,7 +2967,7 @@
           "name": "Battle Damaged",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "black",
             "text": "Passive"
           },
           "declare": null,
@@ -2987,7 +2987,7 @@
           "name": "Three-headed Titan",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Once Per Turn (Army), Any Combat Phase"
           },
           "declare": null,
@@ -3000,7 +3000,7 @@
           "name": "The Slayer of Kings",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Passive"
           },
           "declare": null,
@@ -3077,7 +3077,7 @@
           "name": "Unleashed Savagery",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Once Per Battle, Any Combat Phase"
           },
           "declare": null,
@@ -3216,7 +3216,7 @@
           "name": "Oath of Supremacy",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "orange",
             "text": "Once Per Battle, Any Charge Phase"
           },
           "declare": null,
@@ -3270,7 +3270,7 @@
           "name": "Brutush Rampage",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "orange",
             "text": "Any Charge Phase"
           },
           "declare": "If this unit charged this phase, pick up to 3 enemy units within 1\" of it to be the targets.",
@@ -3280,7 +3280,7 @@
           "name": "Drive The Legions Forward",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "orange",
             "text": "Once Per Battle (Army), Any Charge Phase"
           },
           "declare": "Pick this unit and up to 2 friendly non-Hero Warriors of Chaos units wholly within 12\" of this unit to be the targets.",
@@ -3346,7 +3346,7 @@
           "name": "Unleash The Beast",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "black",
             "text": "Deployment Phase"
           },
           "declare": null,
@@ -3356,7 +3356,7 @@
           "name": "Jagged Harpoon",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "eggplant",
             "text": "End of Any Turn"
           },
           "declare": "If this unit includes a First Fang, pick an enemy unit in combat with this unit to be the target.",
@@ -3408,7 +3408,7 @@
           "name": "Sneaky Little Devils",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Any Combat Phase"
           },
           "declare": null,
@@ -3460,7 +3460,7 @@
           "name": "Empowered By Atrocity",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Passive"
           },
           "declare": null,
@@ -3552,7 +3552,7 @@
           "name": "Sow Confusion",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "gray",
             "text": "Once Per Turn (Army), Your Movement Phase"
           },
           "declare": "Pick an enemy unit within 6\" of this unit to be the target.",
@@ -3614,7 +3614,7 @@
           "name": "Acrobatic Leaps",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Passive"
           },
           "declare": null,
@@ -3677,7 +3677,7 @@
           "name": "Battle Damaged",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "black",
             "text": "Passive"
           },
           "declare": null,
@@ -3697,7 +3697,7 @@
           "name": "Aura of Mutation",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Once Per Turn (Army), Any Combat Phase"
           },
           "declare": "Pick a visible enemy unit within 12\" of this unit to be the target.",
@@ -3763,7 +3763,7 @@
           "name": "Dominate Mind",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Once Per Turn (Army), Any Combat Phase"
           },
           "declare": "Pick an enemy unit within 6\" of this unit to be the target.",
@@ -3815,7 +3815,7 @@
           "name": "Bringers of Desolation",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Passive"
           },
           "declare": null,
@@ -3869,7 +3869,7 @@
           "name": "Brutal Momentum",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "eggplant",
             "text": "Passive"
           },
           "declare": null,
@@ -3954,7 +3954,7 @@
           "name": "Venomous Tail Strike",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Once Per Turn (Army), Any Combat Phase"
           },
           "declare": "Pick an enemy Monster in combat with this unit to be the target.",
@@ -4022,7 +4022,7 @@
           "name": "Fight For Glory",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Passive"
           },
           "declare": null,
@@ -4074,7 +4074,7 @@
           "name": "Debilitating Shockwave",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "orange",
             "text": "Any Charge Phase"
           },
           "declare": "If this Manifestation charged this phase, pick an enemy unit within 1\" of it to be the target.",
@@ -4191,7 +4191,7 @@
           "name": "Ravagers of the Mortal Realms",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "",
             "text": "Passive"
           },
           "declare": null,

@@ -170,7 +170,7 @@
           "name": "In For The Kill",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Passive"
           },
           "declare": null,
@@ -180,7 +180,7 @@
           "name": "Hidden Murderer",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "",
             "text": "Passive"
           },
           "declare": null,
@@ -233,7 +233,7 @@
           "name": "Searing Beam of Light",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "teal",
             "text": "Passive"
           },
           "declare": null,
@@ -243,7 +243,7 @@
           "name": "Aura of Protection",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "",
             "text": "Passive"
           },
           "declare": null,
@@ -325,7 +325,7 @@
           "name": "Division Commander",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "teal",
             "text": "Once Per Battle, Your Shooting Phase"
           },
           "declare": "Pick up to 2 friendly Steam Tank units to be the targets.",
@@ -414,7 +414,7 @@
           "name": "Fortifying Position",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "gray",
             "text": "Your Movement Phase"
           },
           "declare": null,
@@ -427,7 +427,7 @@
           "name": "Blackpowder Squire",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "teal",
             "text": "Passive"
           },
           "declare": null,
@@ -437,7 +437,7 @@
           "name": "Fusiliers, Fire!",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "teal",
             "text": "Passive"
           },
           "declare": null,
@@ -510,7 +510,7 @@
           "name": "Storm of Iron-tipped Bolts",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "teal",
             "text": "Your Shooting Phase"
           },
           "declare": null,
@@ -575,7 +575,7 @@
           "name": "Battle Damaged",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "black",
             "text": "Passive"
           },
           "declare": null,
@@ -585,7 +585,7 @@
           "name": "Ghurish Ferocity",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Once Per Turn (Army), Any Combat Phase"
           },
           "declare": null,
@@ -663,7 +663,7 @@
           "name": "Six-headed Strike",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Once Per Turn (Army), Any Combat Phase"
           },
           "declare": "Pick an enemy unit in combat with this unit to be the target.",
@@ -676,7 +676,7 @@
           "name": "Sever One Head, Another Takes Its Place",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "eggplant",
             "text": "Once Per Turn, End of Any Turn"
           },
           "declare": null,
@@ -750,7 +750,7 @@
           "name": "Fortify Position",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "gray",
             "text": "Your Movement Phase"
           },
           "declare": null,
@@ -763,7 +763,7 @@
           "name": "Mark Targets",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "teal",
             "text": "Your Shooting Phase"
           },
           "declare": "Pick an enemy unit that was targeted by this unit’s shooting attacks this turn to be the target.",
@@ -892,7 +892,7 @@
           "name": "Oathsworn",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "",
             "text": "Passive"
           },
           "declare": null,
@@ -944,7 +944,7 @@
           "name": "Bestial Instincts",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Any Combat Phase"
           },
           "declare": null,
@@ -1085,7 +1085,7 @@
           "name": "Dispatch Spies",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "black",
             "text": "Once Per Battle (Army), Reaction: Opponent declared a command for a unit within 12\" of this unit"
           },
           "declare": null,
@@ -1105,7 +1105,7 @@
           "name": "The Marshal's Retinue",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "",
             "text": "Passive"
           },
           "declare": null,
@@ -1183,7 +1183,7 @@
           "name": "Lay The Beast Low",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Passive"
           },
           "declare": null,
@@ -1257,7 +1257,7 @@
           "name": "Battle Damaged",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "black",
             "text": "Passive"
           },
           "declare": null,
@@ -1267,7 +1267,7 @@
           "name": "Tactical Acumen",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "gray",
             "text": "Reaction: You declared the ‘Redeploy’ command for a friendly Cities of Sigmar Human unit wholly within 12\" of this unit"
           },
           "declare": null,
@@ -1277,7 +1277,7 @@
           "name": "Piercing Bloodroar",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Once Per Turn (Army), Any Combat Phase"
           },
           "declare": "Pick up to 3 enemy units in combat with this unit to be the targets.",
@@ -1353,7 +1353,7 @@
           "name": "Storm of Shemtek",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "teal",
             "text": "Once Per Turn (Army), Your Shooting Phase"
           },
           "declare": "Pick a visible enemy unit within 12\" of this unit to be the target.",
@@ -1404,7 +1404,7 @@
           "name": "'At Them, You Curs!'",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Reaction: You declared a Fight ability for this unit"
           },
           "declare": null,
@@ -1456,7 +1456,7 @@
           "name": "Devastating Charge",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "orange",
             "text": "Any Charge Phase"
           },
           "declare": "If this unit charged this phase, pick an enemy unit within 1\" of it to be the target.",
@@ -1519,7 +1519,7 @@
           "name": "Merciless Consequences",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Passive"
           },
           "declare": null,
@@ -1573,7 +1573,7 @@
           "name": "Weapons of Banishment",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Passive"
           },
           "declare": null,
@@ -1637,7 +1637,7 @@
           "name": "Guild Bombs",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "gray",
             "text": "Once Per Battle, Your Movement Phase"
           },
           "declare": "If this unit used a Move ability this phase, pick an enemy unit that does not have Fly and that this unit passed across this turn to be the target.",
@@ -1698,7 +1698,7 @@
           "name": "Consecrate the Land",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "gray",
             "text": "Once Per Turn (Army), Your Movement Phase"
           },
           "declare": "If this unit is contesting an objective you control that is not contested by any enemy models, roll a dice.",
@@ -1750,7 +1750,7 @@
           "name": "Fortify Position",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "gray",
             "text": "Your Movement Phase"
           },
           "declare": null,
@@ -1763,7 +1763,7 @@
           "name": "Shot and Shell",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "teal",
             "text": "Passive"
           },
           "declare": null,
@@ -1842,7 +1842,7 @@
           "name": "Word of Pain",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Once Per Turn (Army), Any Combat Phase"
           },
           "declare": "Pick an enemy unit in combat with this unit to be the target.",
@@ -1895,7 +1895,7 @@
           "name": "Expert Trackers",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "black",
             "text": "Deployment Phase"
           },
           "declare": null,
@@ -1905,7 +1905,7 @@
           "name": "Hidden and Dangerous",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "teal",
             "text": "Passive"
           },
           "declare": null,
@@ -1985,7 +1985,7 @@
           "name": "'I Thought Duardin Were Made Of Sterner Stuff!'",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "eggplant",
             "text": "Passive"
           },
           "declare": null,
@@ -2037,7 +2037,7 @@
           "name": "Battle Damaged",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "black",
             "text": "Passive"
           },
           "declare": null,
@@ -2067,7 +2067,7 @@
           "name": "Feed on Life Force",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "eggplant",
             "text": "Once Per Turn (Army), End of Any Turn"
           },
           "declare": "Pick an enemy unit in combat with this unit to be the target.",
@@ -2146,7 +2146,7 @@
           "name": "Scythed Runners",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "orange",
             "text": "Any Charge Phase"
           },
           "declare": "If this unit charged this phase, pick an enemy unit within 1\" of it to be the target.",
@@ -2268,7 +2268,7 @@
           "name": "Right Tools For The Job",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Passive"
           },
           "declare": null,
@@ -2278,7 +2278,7 @@
           "name": "Get It Done",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Reaction: You declared a Fight ability for this unit"
           },
           "declare": null,
@@ -2288,7 +2288,7 @@
           "name": "Wily to the Last",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "",
             "text": "Passive"
           },
           "declare": null,
@@ -2356,7 +2356,7 @@
           "name": "Steel and Sorcery",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "",
             "text": "Passive"
           },
           "declare": null,
@@ -2408,7 +2408,7 @@
           "name": "Abyssal Howl",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "eggplant",
             "text": "Once Per Turn (Army), End of Any Turn"
           },
           "declare": "Pick an enemy unit in combat with this unit to be the target.",
@@ -2470,7 +2470,7 @@
           "name": "Cinderblast Bomb",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "teal",
             "text": "Once Per Turn (Army), Your Shooting Phase"
           },
           "declare": "If this unit is not in combat, pick a visible enemy unit within 6\" of it to be the target.",
@@ -2546,7 +2546,7 @@
           "name": "Glorious Martyrs",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Passive"
           },
           "declare": null,
@@ -2596,7 +2596,7 @@
           "name": "Battle Damaged",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "black",
             "text": "Passive"
           },
           "declare": null,
@@ -2606,7 +2606,7 @@
           "name": "Unparalleled Tactician",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "black",
             "text": "Passive"
           },
           "declare": null,
@@ -2616,7 +2616,7 @@
           "name": "Lead From The Front",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Once Per Battle (Army), Any Combat Phase"
           },
           "declare": "If this unit is in combat, pick up to 3 other friendly Cities of Sigmar units wholly within 12\" of this unit to be the targets.",
@@ -2626,7 +2626,7 @@
           "name": "Paralysing Venom",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Once Per Turn (Army), Any Combat Phase"
           },
           "declare": "Pick an enemy Monster that charged this turn and is in combat with this unit to be the target.",
@@ -2704,7 +2704,7 @@
           "name": "Skilled Swashbucklers",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "",
             "text": "Passive"
           },
           "declare": null,
@@ -2779,7 +2779,7 @@
           "name": "Storm of Shemtek",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "teal",
             "text": "Once Per Turn (Army), Your Shooting Phase"
           },
           "declare": "Pick a visible enemy unit within 12\" of this unit to be the target.",
@@ -2840,7 +2840,7 @@
           "name": "Sow Havoc",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "eggplant",
             "text": "End of Any Turn"
           },
           "declare": "Pick an enemy unit in combat with this unit to be the target.",
@@ -2917,7 +2917,7 @@
           "name": "Battle Damaged",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "black",
             "text": "Passive"
           },
           "declare": null,
@@ -2927,7 +2927,7 @@
           "name": "Under the Shadow of Black Wings",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "orange",
             "text": "Passive"
           },
           "declare": null,
@@ -2937,7 +2937,7 @@
           "name": "Indiscriminate Slaughter",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Once Per Turn (Army), Any Combat Phase"
           },
           "declare": "Pick all units (friendly and enemy) within this unit’s combat range, excluding this unit, to be the targets.",
@@ -3028,7 +3028,7 @@
           "name": "Guardian and Mentor",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "black",
             "text": "Passive"
           },
           "declare": null,
@@ -3038,7 +3038,7 @@
           "name": "Weapons of Banishment",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Passive"
           },
           "declare": null,
@@ -3105,7 +3105,7 @@
           "name": "Hidden Agents",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "black",
             "text": "Deployment Phase"
           },
           "declare": "Pick this unit and a friendly Callis and Toll unit in the same regiment as this unit if those units have not been deployed.",
@@ -3118,7 +3118,7 @@
           "name": "Emerge from the Shadows",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "gray",
             "text": "Your Movement Phase"
           },
           "declare": "Pick this unit if it is in the shadows.",
@@ -3128,7 +3128,7 @@
           "name": "Saviours of Cinderfall",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "",
             "text": "Passive"
           },
           "declare": null,
@@ -3180,7 +3180,7 @@
           "name": "Coven Guard",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Any Combat Phase"
           },
           "declare": null,
@@ -3234,7 +3234,7 @@
           "name": "Grudgebuster Bombs",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "gray",
             "text": "Your Movement Phase"
           },
           "declare": "If this unit used a Move ability this phase, pick an enemy unit that does not have Fly and that this unit passed across this turn to be the target.",
@@ -3295,7 +3295,7 @@
           "name": "Gromril Shieldwall",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "",
             "text": "Passive"
           },
           "declare": null,
@@ -3360,7 +3360,7 @@
           "name": "Magic of the Realms",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "black",
             "text": "Deployment Phase"
           },
           "declare": null,
@@ -3411,7 +3411,7 @@
           "name": "Ancestral Grudgebearer",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "black",
             "text": "Once Per Battle (Army), Deployment Phase"
           },
           "declare": "Pick an enemy unit in your opponent’s army to bear a grudge against. You can pick an enemy unit that is in reserve.",
@@ -3421,7 +3421,7 @@
           "name": "Fearless Leader",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Reaction: You declared a Fight ability for this unit"
           },
           "declare": null,
@@ -3542,7 +3542,7 @@
           "name": "Severing Strike",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Passive"
           },
           "declare": null,
@@ -3596,7 +3596,7 @@
           "name": "'For Sigmar, Charge!'",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "orange",
             "text": "Passive"
           },
           "declare": null,
@@ -3606,7 +3606,7 @@
           "name": "Run Down The Foe",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Once Per Battle (Army), Any Combat Phase"
           },
           "declare": "If this unit charged this turn, pick a friendly Cities of Sigmar Human Cavalry unit that charged this turn and is wholly within 12\" of this unit to be the target.",
@@ -3680,7 +3680,7 @@
           "name": "Attendant Relic Envoy",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "black",
             "text": "Start of Battle Round"
           },
           "declare": "Pick a friendly Cities of Sigmar Human wholly within 18\" of this unit to be the target.",
@@ -3690,7 +3690,7 @@
           "name": "Rousing Orator",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "eggplant",
             "text": "Passive"
           },
           "declare": null,
@@ -3769,7 +3769,7 @@
           "name": "Searing Beam of Light",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "teal",
             "text": "Passive"
           },
           "declare": null,
@@ -3779,7 +3779,7 @@
           "name": "Aura of Protection",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "",
             "text": "Passive"
           },
           "declare": null,
@@ -3843,7 +3843,7 @@
           "name": "Hunt With Conviction",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "black",
             "text": "Start of First Battle Round"
           },
           "declare": "Pick an enemy Hero or Wizard to be hunted by the Order. You must pick a Wizard Hero if there is one in your opponent’s army.",
@@ -3853,7 +3853,7 @@
           "name": "Flamewood Stakes",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "eggplant",
             "text": "End of Any Turn"
           },
           "declare": "Pick an enemy unit in combat with this unit to be the target.",
@@ -3958,7 +3958,7 @@
           "name": "Crackling with Faith",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Passive"
           },
           "declare": null,

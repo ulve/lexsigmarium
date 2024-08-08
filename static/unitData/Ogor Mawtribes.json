@@ -96,7 +96,7 @@
           "name": "Powder Gnoblars",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "teal",
             "text": "Passive"
           },
           "declare": null,
@@ -106,7 +106,7 @@
           "name": "Firing from the Belly",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "teal",
             "text": "Your Shooting Phase"
           },
           "declare": null,
@@ -168,7 +168,7 @@
           "name": "Insatiable Gluttony",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "eggplant",
             "text": "Passive"
           },
           "declare": null,
@@ -231,7 +231,7 @@
           "name": "Fill the Pot",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Passive"
           },
           "declare": null,
@@ -293,7 +293,7 @@
           "name": "Down to the Ironguts",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Once Per Battle, Any Combat Phase"
           },
           "declare": null,
@@ -303,7 +303,7 @@
           "name": "Protect the Tyrant",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "",
             "text": "Passive"
           },
           "declare": null,
@@ -356,7 +356,7 @@
           "name": "Battle Damaged",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "black",
             "text": "Passive"
           },
           "declare": null,
@@ -366,7 +366,7 @@
           "name": "Stonehorn Avalanche",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Once Per Turn (Army), Any Combat Phase"
           },
           "declare": null,
@@ -379,7 +379,7 @@
           "name": "Stone Skeleton",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "",
             "text": "Passive"
           },
           "declare": null,
@@ -481,7 +481,7 @@
           "name": "Lethal Payload",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "teal",
             "text": "Passive"
           },
           "declare": null,
@@ -562,7 +562,7 @@
           "name": "Battle Damaged",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "black",
             "text": "Passive"
           },
           "declare": null,
@@ -572,7 +572,7 @@
           "name": "Freezing Aura",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Once Per Turn (Army), Any Combat Phase"
           },
           "declare": "Pick an enemy Infantry unit in combat with this unit to be the target.",
@@ -680,7 +680,7 @@
           "name": "Throw 'Em In",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "black",
             "text": "Passive"
           },
           "declare": null,
@@ -690,7 +690,7 @@
           "name": "Great Mawpot",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "black",
             "text": "Passive"
           },
           "declare": null,
@@ -748,7 +748,7 @@
           "name": "Battle Damaged",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "black",
             "text": "Passive"
           },
           "declare": null,
@@ -758,7 +758,7 @@
           "name": "Earth-shattering Charge",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "orange",
             "text": "Once Per Turn (Army), Any Charge Phase"
           },
           "declare": "If this unit charged this phase, pick an enemy unit within 1\" of it to be the target.",
@@ -771,7 +771,7 @@
           "name": "Frost Spear",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Passive"
           },
           "declare": null,
@@ -781,7 +781,7 @@
           "name": "Stone Skeleton",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "",
             "text": "Passive"
           },
           "declare": null,
@@ -855,7 +855,7 @@
           "name": "Battle Damaged",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "black",
             "text": "Passive"
           },
           "declare": null,
@@ -865,7 +865,7 @@
           "name": "Everwinter's Assault",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "eggplant",
             "text": "Once Per Turn (Army), End of Any Turn"
           },
           "declare": "If this unit charged this turn, pick an enemy unit in combat with it to be the target.",
@@ -971,7 +971,7 @@
           "name": "Battle Damaged",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "black",
             "text": "Passive"
           },
           "declare": null,
@@ -981,7 +981,7 @@
           "name": "Sweeping Tusks",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "gray",
             "text": "Once per Turn (Army), Any Movement Phase"
           },
           "declare": "Pick an enemy unit in combat with this unit to be the target.",
@@ -994,7 +994,7 @@
           "name": "Bellowing Voice",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "orange",
             "text": "Once Per Battle (Army), Your Charge Phase"
           },
           "declare": "Pick any number of friendly Beastclaw Raiders units wholly within 12\" of this unit to be the targets.",
@@ -1081,7 +1081,7 @@
           "name": "Brawlerguts",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "orange",
             "text": "Passive"
           },
           "declare": null,
@@ -1157,7 +1157,7 @@
           "name": "Beast",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "eggplant",
             "text": "Passive"
           },
           "declare": null,
@@ -1167,7 +1167,7 @@
           "name": "Hunters of the Frozen Wilds",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "",
             "text": "Passive"
           },
           "declare": null,
@@ -1216,7 +1216,7 @@
           "name": "Torrent of Flame",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "teal",
             "text": "Passive"
           },
           "declare": null,
@@ -1280,7 +1280,7 @@
           "name": "Rain of Scrap",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "teal",
             "text": "Your Shooting Phase"
           },
           "declare": "Pick an enemy unit that had any models slain this turn by this unit’s shooting attacks to be the target.",
@@ -1290,7 +1290,7 @@
           "name": "Load It Up!",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "teal",
             "text": "Your Shooting Phase"
           },
           "declare": null,
@@ -1363,7 +1363,7 @@
           "name": "Bounding Leaps",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Enemy Combat Phase"
           },
           "declare": null,
@@ -1413,7 +1413,7 @@
           "name": "Battle Damaged",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "black",
             "text": "Passive"
           },
           "declare": null,
@@ -1423,7 +1423,7 @@
           "name": "Everwinter Goad",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Once Per Turn (Army), Any Combat Phase"
           },
           "declare": "Pick each friendly and enemy Monster within this unit’s combat range to be the targets.",
@@ -1436,7 +1436,7 @@
           "name": "Stone Skeleton",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "",
             "text": "Passive"
           },
           "declare": null,
@@ -1540,7 +1540,7 @@
           "name": "Been There, Done That",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "",
             "text": "Once Per Turn (Army), Reaction: This unit was picked as the target of a non-Core ability"
           },
           "declare": null,
@@ -1602,7 +1602,7 @@
           "name": "Nasty Traps And Tricks",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "orange",
             "text": "Any Charge Phase"
           },
           "declare": "Pick an enemy unit within 6\" of this unit and that used a Move ability this turn to be the target. You cannot pick the same unit to be the target of this ability more than once per turn.",
@@ -1662,7 +1662,7 @@
           "name": "Alpha Cavalry",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "black",
             "text": "Passive"
           },
           "declare": null,
@@ -1672,7 +1672,7 @@
           "name": "Lumpen Wall of Flesh",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "",
             "text": "Passive"
           },
           "declare": null,
@@ -1750,7 +1750,7 @@
           "name": "Altar of the Gulping God",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "black",
             "text": "Passive"
           },
           "declare": null,
@@ -1780,7 +1780,7 @@
           "name": "Step Away From The Maw",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "gray",
             "text": "Your Movement Phase"
           },
           "declare": null,
@@ -1819,7 +1819,7 @@
           "name": "Blackpowder's Buccaneers",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "black",
             "text": "Passive"
           },
           "declare": null,
@@ -1829,7 +1829,7 @@
           "name": "Tiny Braggarts",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Any Combat Phase"
           },
           "declare": null,
@@ -1895,7 +1895,7 @@
           "name": "Battle Damaged",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "black",
             "text": "Passive"
           },
           "declare": null,
@@ -1915,7 +1915,7 @@
           "name": "Rampaging Destruction",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "orange",
             "text": "Once Per Turn (Army), Any Charge Phase"
           },
           "declare": null,
@@ -1928,7 +1928,7 @@
           "name": "The End of Empires",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "orange",
             "text": "Passive"
           },
           "declare": null,
@@ -1938,7 +1938,7 @@
           "name": "Avatar of Destruction",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "",
             "text": "Passive"
           },
           "declare": null,
@@ -2008,7 +2008,7 @@
           "name": "Masters of Ambush",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "black",
             "text": "Deployment Phase"
           },
           "declare": "Pick this unit and up to 2 friendly Frost Sabres units if those units have not been deployed.",
@@ -2021,7 +2021,7 @@
           "name": "The Hunt is On",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "gray",
             "text": "Your Movement Phase"
           },
           "declare": "Pick this unit if it is outflanking the prey.",
@@ -2098,7 +2098,7 @@
           "name": "Savage Hunger",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "orange",
             "text": "Passive"
           },
           "declare": null,
@@ -2150,7 +2150,7 @@
           "name": "Unrelenting Hunter",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "gray",
             "text": "Once Per Turn (Army), Enemy Movement Phase"
           },
           "declare": null,
@@ -2160,7 +2160,7 @@
           "name": "Beast-breaker",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "teal",
             "text": "Passive"
           },
           "declare": null,
@@ -2235,7 +2235,7 @@
           "name": "Troglodytic Lurkers",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "black",
             "text": "Deployment Phase"
           },
           "declare": "Pick this unit if it has not been deployed.",
@@ -2248,7 +2248,7 @@
           "name": "Frenzied Hunters",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "gray",
             "text": "Your Movement Phase"
           },
           "declare": "Pick this unit if it is lurking on the fringes.",
@@ -2303,7 +2303,7 @@
           "name": "Hrothgorn's Mantrappers",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "black",
             "text": "Passive"
           },
           "declare": null,
@@ -2313,7 +2313,7 @@
           "name": "Hunting Beast",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "gray",
             "text": "Your Movement Phase"
           },
           "declare": "If this unit’s Thrafnir is on the battlefield, pick an enemy unit within 12\" of this unit to be the target.",
@@ -2323,7 +2323,7 @@
           "name": "Gnoblar Minions",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "teal",
             "text": "Passive"
           },
           "declare": null,
@@ -2333,7 +2333,7 @@
           "name": "Bushwakka's Traps",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Passive"
           },
           "declare": null,

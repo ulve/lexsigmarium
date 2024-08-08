@@ -87,7 +87,7 @@
           "name": "Ego-driven Excess",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "",
             "text": "Passive"
           },
           "declare": null,
@@ -97,7 +97,7 @@
           "name": "Fiendish Reflexes",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "",
             "text": "Passive"
           },
           "declare": null,
@@ -147,7 +147,7 @@
           "name": "Glory Shots",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "teal",
             "text": "Passive"
           },
           "declare": null,
@@ -220,7 +220,7 @@
           "name": "Blissbarb Shafts",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "teal",
             "text": "Once Per Turn (Army), Your Shooting Phase"
           },
           "declare": "If this unit’s Hadzu is on the battlefield, pick a visible enemy unit within 18\" of this unit to be the target.",
@@ -233,7 +233,7 @@
           "name": "Slicing Fervour",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Passive"
           },
           "declare": null,
@@ -284,7 +284,7 @@
           "name": "Quicksilver Speed",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "gray",
             "text": "Passive"
           },
           "declare": null,
@@ -349,7 +349,7 @@
           "name": "Exquisite Agony",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "gray",
             "text": "Your Movement Phase"
           },
           "declare": "Pick up to 3 enemy units that this Manifestation passed across this turn to be the targets.",
@@ -400,7 +400,7 @@
           "name": "Maiming Charge",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "eggplant",
             "text": "Passive"
           },
           "declare": null,
@@ -465,7 +465,7 @@
           "name": "Flensing Tongues",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Any Combat Phase"
           },
           "declare": "Pick an enemy unit in combat with this Manifestation to be the target.",
@@ -516,7 +516,7 @@
           "name": "Paragons of Battle",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Passive"
           },
           "declare": null,
@@ -566,7 +566,7 @@
           "name": "Unrivalled Velocity",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "orange",
             "text": "Passive"
           },
           "declare": null,
@@ -638,7 +638,7 @@
           "name": "Twisted Mirror",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "teal",
             "text": "Once Per Turn (Army), Your Shooting Phase"
           },
           "declare": "Pick an enemy unit within 8\" of this unit to be the target.",
@@ -700,7 +700,7 @@
           "name": "Horrible Fascination",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "black",
             "text": "Reaction: Opponent declared a command Passive or Retreat ability for a unit in combat with this unit"
           },
           "declare": null,
@@ -710,7 +710,7 @@
           "name": "Swallow Energy",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "",
             "text": "Passive"
           },
           "declare": null,
@@ -762,7 +762,7 @@
           "name": "Battle Damaged",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "black",
             "text": "Passive"
           },
           "declare": null,
@@ -796,7 +796,7 @@
           "name": "Dark Temptations",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Once Per Turn (Army), Any Combat Phase"
           },
           "declare": "Pick an enemy unit in combat with this unit to be the target.",
@@ -809,7 +809,7 @@
           "name": "Supernatural Grace",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "",
             "text": "Passive"
           },
           "declare": null,
@@ -893,7 +893,7 @@
           "name": "Enthralling Splendour",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Once Per Turn (Army), Any Combat Phase"
           },
           "declare": "Pick an enemy unit that charged this turn and is in combat with this unit to be the target.",
@@ -906,7 +906,7 @@
           "name": "Voice of Slaanesh",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "eggplant",
             "text": "End of Any Turn"
           },
           "declare": "Pick a visible unit within 18\" of this unit to be the target.",
@@ -1046,7 +1046,7 @@
           "name": "Soporific Musk",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Once Per Turn (Army), Any Combat Phase"
           },
           "declare": "Pick an enemy unit in combat with this unit to be the target.",
@@ -1056,7 +1056,7 @@
           "name": "Beast",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "eggplant",
             "text": "Passive"
           },
           "declare": null,
@@ -1110,7 +1110,7 @@
           "name": "Lithe and Swift",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Passive"
           },
           "declare": null,
@@ -1120,7 +1120,7 @@
           "name": "Lust For Violence",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Reaction: You declared a Fight ability for this unit"
           },
           "declare": null,
@@ -1173,7 +1173,7 @@
           "name": "Soulgorgers",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "gray",
             "text": "Once Per Turn (Army), Your Movement Phase"
           },
           "declare": "Pick up to 3 friendly non‑Unique Hedonites of Slaanesh War Machines wholly within 12\" of this unit to be the targets.",
@@ -1183,7 +1183,7 @@
           "name": "Mutilating Blades",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "orange",
             "text": "Any Charge Phase"
           },
           "declare": "If this unit charged this phase, pick an enemy unit within 1\" of it to be the target.",
@@ -1245,7 +1245,7 @@
           "name": "Slaughter At Any Cost",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "teal",
             "text": "Enemy Shooting Phase"
           },
           "declare": null,
@@ -1295,7 +1295,7 @@
           "name": "Shardslash",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Passive"
           },
           "declare": null,
@@ -1305,7 +1305,7 @@
           "name": "The Glorious Reborn",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Passive"
           },
           "declare": null,
@@ -1315,7 +1315,7 @@
           "name": "Powered By Vainglory",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Passive"
           },
           "declare": null,
@@ -1368,7 +1368,7 @@
           "name": "Disciples In Torment",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Passive"
           },
           "declare": null,
@@ -1378,7 +1378,7 @@
           "name": "Share The Pain",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "",
             "text": "Passive"
           },
           "declare": null,
@@ -1429,7 +1429,7 @@
           "name": "Soulscent",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "gray",
             "text": "Any Movement Phase"
           },
           "declare": "Pick up to 3 enemy units that this unit passed across this phase to be the targets.",
@@ -1439,7 +1439,7 @@
           "name": "Threshing Doom",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "gray",
             "text": "Passive"
           },
           "declare": null,
@@ -1449,7 +1449,7 @@
           "name": "Slavering For Sensation",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "gray",
             "text": "Your Movement Phase"
           },
           "declare": "Pick up to 2 friendly Hellflayer units wholly within 12\" of this unit to be the targets.",
@@ -1522,7 +1522,7 @@
           "name": "The Endless Dance",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "black",
             "text": "Deployment Phase"
           },
           "declare": null,
@@ -1585,7 +1585,7 @@
           "name": "Indulgence Given Form",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "black",
             "text": "Passive"
           },
           "declare": null,
@@ -1647,7 +1647,7 @@
           "name": "'You First, I Insist...'",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Any Combat Phase"
           },
           "declare": "Pick an enemy unit in combat with this unit to be the target.",
@@ -1657,7 +1657,7 @@
           "name": "Only The Best Will Suffice",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Any Combat Phase"
           },
           "declare": "Pick a friendly Myrmidesh Painbringers or Symbaresh Twinsouls unit that is in combat and is wholly within 12\" of this unit to be the target.",
@@ -1708,7 +1708,7 @@
           "name": "Mutilating Blades",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "orange",
             "text": "Any Charge Phase"
           },
           "declare": "If this unit charged this phase, pick an enemy unit within 1\" of it to be the target.",
@@ -1718,7 +1718,7 @@
           "name": "Thrillseeking Cavalcade",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "orange",
             "text": "Your Charge Phase"
           },
           "declare": "Pick up to 3 friendly Seeker Chariot units wholly within 12\" of this unit to be the targets.",
@@ -1780,7 +1780,7 @@
           "name": "Fleeting Dance of Death",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "gray",
             "text": "Passive"
           },
           "declare": null,
@@ -1790,7 +1790,7 @@
           "name": "Redolence of Violence",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Once Per Turn (Army), Any Combat Phase"
           },
           "declare": "If this unit charged this turn, pick up to D3 other friendly non-Hero Hedonites of Slaanesh Daemon units wholly within 12\" of this unit to be the targets.",
@@ -1803,7 +1803,7 @@
           "name": "Joyous Battle Fury",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "eggplant",
             "text": "End of Any Turn"
           },
           "declare": null,
@@ -1813,7 +1813,7 @@
           "name": "Scion of Slaanesh",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "",
             "text": "Passive"
           },
           "declare": null,
@@ -1881,7 +1881,7 @@
           "name": "Deadly Symbiosis",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Any Combat Phase"
           },
           "declare": "Pick a friendly non-Hero Sybarite unit and a friendly non-Hero Hedonites of Slaanesh Daemon unit to be the targets. Both units must be wholly within 12\" of this unit.",
@@ -1891,7 +1891,7 @@
           "name": "The Vengeful Allegiance",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "",
             "text": "Passive"
           },
           "declare": null,
@@ -1953,7 +1953,7 @@
           "name": "Lithe and Swift",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Passive"
           },
           "declare": null,
@@ -2006,7 +2006,7 @@
           "name": "The Grand Gourmand",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "black",
             "text": "Passive"
           },
           "declare": null,
@@ -2016,7 +2016,7 @@
           "name": "Battle Damaged",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "black",
             "text": "Passive"
           },
           "declare": null,
@@ -2040,7 +2040,7 @@
           "name": "Gorge on Excess",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "eggplant",
             "text": "End of Any Turn"
           },
           "declare": "Pick a friendly Sybarite unit wholly within 12\" of this unit to be the target.",
@@ -2119,7 +2119,7 @@
           "name": "Mutilating Blades",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "orange",
             "text": "Any Charge Phase"
           },
           "declare": "If this unit charged this phase, pick an enemy unit within 1\" of it to be the target.",
@@ -2179,7 +2179,7 @@
           "name": "Battle Damaged",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "black",
             "text": "Passive"
           },
           "declare": null,
@@ -2203,7 +2203,7 @@
           "name": "Paramount Hunter",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "orange",
             "text": "Once Per Turn (Army), Reaction: Opponent declared a Charge ability for a Hero within 9\" of this unit"
           },
           "declare": null,
@@ -2219,7 +2219,7 @@
           "name": "Excess of Violence",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Once Per Battle, Your Combat Phase"
           },
           "declare": "Pick a friendly non-Hero Hedonites of Slaanesh unit wholly within 12\" of this unit to be the target.",
@@ -2229,7 +2229,7 @@
           "name": "Supernatural Grace",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "",
             "text": "Passive"
           },
           "declare": null,
@@ -2293,7 +2293,7 @@
           "name": "Excess of Blades",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "orange",
             "text": "Any Charge Phase"
           },
           "declare": "If this unit charged this phase, pick an enemy unit within 1\" of it to be the target.",
@@ -2353,7 +2353,7 @@
           "name": "Gaze Not Into Its Depth",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "gray",
             "text": "Any Movement Phase"
           },
           "declare": "Pick an enemy unit within 6\" of this Manifestation to be the target.",
@@ -2363,7 +2363,7 @@
           "name": "Irresistible Lure",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "gray",
             "text": "Reaction: Opponent declared a Move ability for a unit wholly within 12\" of this Manifestation"
           },
           "declare": null,
@@ -2443,7 +2443,7 @@
           "name": "Blissbrew Homonculus",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "",
             "text": "Passive"
           },
           "declare": null,
@@ -2504,7 +2504,7 @@
           "name": "Soulscent",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "gray",
             "text": "Any Movement Phase"
           },
           "declare": "Pick up to 3 enemy units that this unit passed across this phase to be the targets.",
@@ -2514,7 +2514,7 @@
           "name": "Threshing Doom",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "gray",
             "text": "Passive"
           },
           "declare": null,

@@ -28,7 +28,7 @@
           "name": "Skewering Bolts",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "teal",
             "text": "Once Per Turn (Army), Your Shooting Phase"
           },
           "declare": null,
@@ -38,7 +38,7 @@
           "name": "Pick 'Em Off",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "teal",
             "text": "Your Shooting Phase"
           },
           "declare": null,
@@ -103,7 +103,7 @@
           "name": "Unleash the Stab-grot!",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "black",
             "text": "Once Per Battle, Any Combat Phase"
           },
           "declare": null,
@@ -113,7 +113,7 @@
           "name": "Stab-grot",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "black",
             "text": "Passive"
           },
           "declare": null,
@@ -123,7 +123,7 @@
           "name": "Keep 'Em In Line",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Reaction: You declared the ‘All-out Attack’ command for a friendly Kruleboyz Infantry unit"
           },
           "declare": null,
@@ -195,7 +195,7 @@
           "name": "That's Ours, Ya Gitz!",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Passive"
           },
           "declare": null,
@@ -256,7 +256,7 @@
           "name": "Battle Damaged",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "black",
             "text": "Passive"
           },
           "declare": null,
@@ -276,7 +276,7 @@
           "name": "Rampaging Destruction",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "orange",
             "text": "Once Per Turn (Army), Any Charge Phase"
           },
           "declare": null,
@@ -289,7 +289,7 @@
           "name": "The End of Empires",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "orange",
             "text": "Passive"
           },
           "declare": null,
@@ -299,7 +299,7 @@
           "name": "Avatar of Destruction",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "",
             "text": "Passive"
           },
           "declare": null,
@@ -370,7 +370,7 @@
           "name": "Regeneration",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "black",
             "text": "Start of Any Turn"
           },
           "declare": null,
@@ -380,7 +380,7 @@
           "name": "On Da March",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "orange",
             "text": "Passive"
           },
           "declare": null,
@@ -440,7 +440,7 @@
           "name": "Klutcha-grot",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "black",
             "text": "Passive"
           },
           "declare": null,
@@ -450,7 +450,7 @@
           "name": "Bait and Trap",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Any Combat Phase"
           },
           "declare": "Pick an enemy Monster in combat with this unit to be the target.",
@@ -460,7 +460,7 @@
           "name": "A Tough Grot To Swallow",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "",
             "text": "Once Per Turn, Reaction: Opponent declared a Rampage ability for an enemy Monster within 6\" of this unit"
           },
           "declare": null,
@@ -515,7 +515,7 @@
           "name": "Easy Meat",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "eggplant",
             "text": "End of Any Turn"
           },
           "declare": "Pick an enemy model in combat with this unit to be the target.",
@@ -567,7 +567,7 @@
           "name": "Regeneration",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "black",
             "text": "Start of Any Turn"
           },
           "declare": null,
@@ -577,7 +577,7 @@
           "name": "Breaka-harness",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Any Combat Phase"
           },
           "declare": null,
@@ -587,7 +587,7 @@
           "name": "Tear Limb From Limb",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "eggplant",
             "text": "Once Per Turn (Army), End of Any Turn"
           },
           "declare": "Pick an enemy Infantry unit within 1\" of this unit to be the target.",
@@ -651,7 +651,7 @@
           "name": "Kountin' Krew",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "black",
             "text": "Deployment Phase"
           },
           "declare": "Pick a friendly Hobgrot Slittaz unit within this unit’s combat range to be the target.",
@@ -661,7 +661,7 @@
           "name": "Bet-master",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "black",
             "text": "Deployment Phase"
           },
           "declare": "Pick an enemy unit on the battlefield to be the bet.",
@@ -671,7 +671,7 @@
           "name": "Battle Damaged",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "black",
             "text": "Passive"
           },
           "declare": null,
@@ -681,7 +681,7 @@
           "name": "Aggravate Wounds",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "eggplant",
             "text": "Once Per Turn (Army), End of Any Turn"
           },
           "declare": "Pick an enemy Monster in combat with this unit to be the target.",
@@ -756,7 +756,7 @@
           "name": "Breath of the Mire-drakes",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Any Combat Phase"
           },
           "declare": "Pick each enemy unit in combat with this unit to be the targets.",
@@ -766,7 +766,7 @@
           "name": "Power of Kragnos",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "",
             "text": "Passive"
           },
           "declare": null,
@@ -817,7 +817,7 @@
           "name": "Man-skewer Crossbows",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "teal",
             "text": "Passive"
           },
           "declare": null,
@@ -827,7 +827,7 @@
           "name": "Pick 'Em Off",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "teal",
             "text": "Your Shooting Phase"
           },
           "declare": null,
@@ -902,7 +902,7 @@
           "name": "Roar of Kragnos",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Any Combat Phase"
           },
           "declare": "If this unit’s Hurrk da Howla is on the battlefield, pick an enemy unit in combat with this unit to be the target.",
@@ -955,7 +955,7 @@
           "name": "Scrap-bang",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "eggplant",
             "text": "End of Any Turn"
           },
           "declare": "Pick an enemy unit in combat with this unit to be the target.",
@@ -1019,7 +1019,7 @@
           "name": "Battle Damaged",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "black",
             "text": "Passive"
           },
           "declare": null,
@@ -1039,7 +1039,7 @@
           "name": "Festering Wounds",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "eggplant",
             "text": "Once Per Turn (Army), End of Any Turn"
           },
           "declare": "Pick an enemy unit that had any damage points allocated to it this turn by this unit’s combat attacks to be the target.",
@@ -1113,7 +1113,7 @@
           "name": "Battle Damaged",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "black",
             "text": "Passive"
           },
           "declare": null,
@@ -1157,7 +1157,7 @@
           "name": "Crush to Death",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Once Per Turn (Army), Any Combat Phase"
           },
           "declare": "Pick an enemy unit in combat with this unit to be the target.",
@@ -1302,7 +1302,7 @@
           "name": "Scare Taktikz",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Any Combat Phase"
           },
           "declare": null,
@@ -1355,7 +1355,7 @@
           "name": "Battle Damage",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "black",
             "text": "Passive"
           },
           "declare": null,
@@ -1365,7 +1365,7 @@
           "name": "Commanding View",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "gray",
             "text": "Reaction: You declared the ‘Redeploy’ command for a friendly Gutrippaz unit wholly within 12\" of this unit"
           },
           "declare": null,
@@ -1375,7 +1375,7 @@
           "name": "Vulcha Dive",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "orange",
             "text": "Once Per Turn (Army), Any Charge Phase"
           },
           "declare": "If this unit charged this phase, pick an enemy unit within 1\" of it to be the target.",

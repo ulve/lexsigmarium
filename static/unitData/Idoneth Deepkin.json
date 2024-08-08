@@ -100,7 +100,7 @@
           "name": "Wave Rider",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "orange",
             "text": "Any Charge Phase"
           },
           "declare": "If this unit charged this phase, pick an enemy unit within 1\" of it to be the target.",
@@ -110,7 +110,7 @@
           "name": "Akhelian Paragon",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Reaction: You declared a Fight ability for this unit"
           },
           "declare": null,
@@ -174,7 +174,7 @@
           "name": "Ensnared",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "teal",
             "text": "Any Shooting Phase"
           },
           "declare": "Pick an enemy Monster or Cavalry unit that had any damage points allocated to it this turn by this unit’s shooting attacks to be the target.",
@@ -184,7 +184,7 @@
           "name": "Bloodthirsty Predators",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Passive"
           },
           "declare": null,
@@ -280,7 +280,7 @@
           "name": "Catalogue of Souls",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "eggplant",
             "text": "Passive"
           },
           "declare": null,
@@ -334,7 +334,7 @@
           "name": "Rise From The Depths",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "black",
             "text": "Deployment Phase"
           },
           "declare": null,
@@ -347,7 +347,7 @@
           "name": "Guardians of the Deep",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "",
             "text": "Passive"
           },
           "declare": null,
@@ -385,7 +385,7 @@
           "name": "Biovoltaic Barrier",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Any Combat Phase"
           },
           "declare": "Pick an enemy unit in combat with this unit to be the target.",
@@ -395,7 +395,7 @@
           "name": "Galv-shields",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "",
             "text": "Passive"
           },
           "declare": null,
@@ -461,7 +461,7 @@
           "name": "Biovoltaic Blast",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "orange",
             "text": "Any Charge Phase"
           },
           "declare": "If this unit charged this phase, pick an enemy unit within 1\" of it to be the target, then roll a number of dice equal to the number of models in this unit.",
@@ -528,7 +528,7 @@
           "name": "Akhelian Fighting Stance",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Any Combat Phase"
           },
           "declare": null,
@@ -538,7 +538,7 @@
           "name": "Thrallmaster",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Reaction: You declared a Fight ability for this unit"
           },
           "declare": null,
@@ -599,7 +599,7 @@
           "name": "Sweeping Blows",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Passive"
           },
           "declare": null,
@@ -653,7 +653,7 @@
           "name": "Soulnet",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Any Combat Phase"
           },
           "declare": "If this unit’s Elathain Ill-fated is on the battlefield, pick an enemy Infantry unit in combat with this unit to be the target.",
@@ -663,7 +663,7 @@
           "name": "Elathain's Lurelight",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "eggplant",
             "text": "End of Any Turn"
           },
           "declare": null,
@@ -729,7 +729,7 @@
           "name": "Battle Damaged",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "black",
             "text": "Passive"
           },
           "declare": null,
@@ -739,7 +739,7 @@
           "name": "Crushing Charge",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "orange",
             "text": "Once Per Turn (Army), Any Charge Phase"
           },
           "declare": "If this unit charged this phase, pick an enemy Infantry unit within 1\" of it to be the target.",
@@ -752,7 +752,7 @@
           "name": "Void Drum",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "",
             "text": "Passive"
           },
           "declare": null,
@@ -852,7 +852,7 @@
           "name": "Vengeful Waves",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "orange",
             "text": "Once Per Turn (Army), Any Charge Phase"
           },
           "declare": "If this unit has not charged this turn, pick an enemy unit in combat with it to be the target.",
@@ -865,7 +865,7 @@
           "name": "Tranquillity of the Abyss",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "eggplant",
             "text": "Passive"
           },
           "declare": null,
@@ -940,7 +940,7 @@
           "name": "Supreme Lord of Tides",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Once Per Battle, Any Combat Phase"
           },
           "declare": "Pick up to 3 other friendly Idoneth Deepkin units wholly within 12\" of this unit to be the targets.",
@@ -950,7 +950,7 @@
           "name": "First Among Akhelians",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Passive"
           },
           "declare": null,
@@ -960,7 +960,7 @@
           "name": "Cealith, the High King's Shield",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "",
             "text": "Passive"
           },
           "declare": null,
@@ -1026,7 +1026,7 @@
           "name": "Hangman's Knot",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Once Per Battle, Any Combat Phase"
           },
           "declare": "Pick an enemy Hero in combat with this unit to be the target.",
@@ -1036,7 +1036,7 @@
           "name": "Lurelight",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "eggplant",
             "text": "End of Any Turn"
           },
           "declare": "Pick up to 3 different friendly Namarti units wholly within 12\" of this unit to be the targets. You cannot pick the same unit to be the target of this ability more than once per turn. Make a lurelight roll of D3 for each target unit.",
@@ -1159,7 +1159,7 @@
           "name": "Strike on the Move",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "teal",
             "text": "Passive"
           },
           "declare": null,
@@ -1233,7 +1233,7 @@
           "name": "Finder of Ways",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "gray",
             "text": "Your Movement Phase"
           },
           "declare": "Pick a friendly Idoneth Deepkin unit that is travelling the ethersea to be the target.",
@@ -1299,7 +1299,7 @@
           "name": "Crashing Upon The Foe",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "gray",
             "text": "Passive"
           },
           "declare": null,
@@ -1309,7 +1309,7 @@
           "name": "Pulled Into The Depths",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "orange",
             "text": "Once Per Turn (Army), Any Charge Phase"
           },
           "declare": "Pick an enemy Hero in combat with this unit to be the target.",
@@ -1322,7 +1322,7 @@
           "name": "Drench With Hate",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Passive"
           },
           "declare": null,
@@ -1398,7 +1398,7 @@
           "name": "Phase Ink",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Any Combat Phase"
           },
           "declare": "If this unit’s Cephanyr is on the battlefield, pick an enemy unit in combat with this unit to be the target.",

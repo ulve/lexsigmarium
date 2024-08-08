@@ -140,7 +140,7 @@
           "name": "Independent Operative",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "black",
             "text": "Deployment Phase"
           },
           "declare": null,
@@ -153,7 +153,7 @@
           "name": "Lone Agent",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "eggplant",
             "text": "Passive"
           },
           "declare": null,
@@ -220,7 +220,7 @@
           "name": "Supreme Swordmaster",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Passive"
           },
           "declare": null,
@@ -230,7 +230,7 @@
           "name": "Spirit Armour",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "",
             "text": "Passive"
           },
           "declare": null,
@@ -360,7 +360,7 @@
           "name": "Windleap",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "gray",
             "text": "Your Movement Phase"
           },
           "declare": "Pick a friendly Hurakan Windchargers unit wholly within 12\" of this unit to be the target.",
@@ -426,7 +426,7 @@
           "name": "Deathly Furrows",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "orange",
             "text": "Any Charge Phase"
           },
           "declare": "If this unit charged this phase, pick an enemy Infantry unit within 1\" of it to be the target.",
@@ -491,7 +491,7 @@
           "name": "Battle Damaged",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "black",
             "text": "Passive"
           },
           "declare": null,
@@ -501,7 +501,7 @@
           "name": "Unbreakable Bulwark",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Once Per Turn (Army), Any Combat Phase"
           },
           "declare": "If this unit did not charge this turn, pick an enemy unit in combat with it to be the target.",
@@ -514,7 +514,7 @@
           "name": "Unshakeable Faith of the Mountains",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Your Combat Phase"
           },
           "declare": "Pick up to 3 different friendly Alarith Aelf units wholly within 12\" of this unit to be the targets.",
@@ -525,7 +525,7 @@
           "name": "Stonemage Symbiosis",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "",
             "text": "Passive"
           },
           "declare": null,
@@ -597,7 +597,7 @@
           "name": "Battle Damaged",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "black",
             "text": "Passive"
           },
           "declare": null,
@@ -607,7 +607,7 @@
           "name": "Stoneheart Shockwave",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Once Per Turn (Army), Any Combat Phase"
           },
           "declare": "If this unit did not charge this turn, pick an enemy unit in combat with it to be the target.",
@@ -620,7 +620,7 @@
           "name": "Stonemage Symbiosis",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "",
             "text": "Passive"
           },
           "declare": null,
@@ -689,7 +689,7 @@
           "name": "Swordsmasters",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Passive"
           },
           "declare": null,
@@ -699,7 +699,7 @@
           "name": "Guardians",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "",
             "text": "Passive"
           },
           "declare": null,
@@ -771,7 +771,7 @@
           "name": "Charge of the Lumineth",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "orange",
             "text": "Once Per Battle, Your Charge Phase"
           },
           "declare": "Pick this unit and up to 2 friendly Vanari Dawnriders units within this unit’s combat range to be the targets.",
@@ -835,7 +835,7 @@
           "name": "Sigil of Yngra",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "black",
             "text": "Passive"
           },
           "declare": null,
@@ -888,7 +888,7 @@
           "name": "Voice of Tyrion",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Reaction: You declared the ‘All-out Attack’ command for a friendly Vanari unit"
           },
           "declare": null,
@@ -977,7 +977,7 @@
           "name": "Battle Damaged",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "black",
             "text": "Passive"
           },
           "declare": null,
@@ -1021,7 +1021,7 @@
           "name": "Spirit of the Moon",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Once Per Turn (Army), Any Combat Phase"
           },
           "declare": "Pick an enemy unit in combat with this unit to be the target.",
@@ -1110,7 +1110,7 @@
           "name": "Absorb Despair",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "eggplant",
             "text": "Passive"
           },
           "declare": null,
@@ -1202,7 +1202,7 @@
           "name": "Spirit of the Wind",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "gray",
             "text": "Passive"
           },
           "declare": null,
@@ -1212,7 +1212,7 @@
           "name": "Searing Desert Winds",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Once Per Turn (Army), Any Combat Phase"
           },
           "declare": "Pick up to 3 different enemy units in combat with this unit to be the targets.",
@@ -1225,7 +1225,7 @@
           "name": "The Living Gale",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "",
             "text": "Passive"
           },
           "declare": null,
@@ -1371,7 +1371,7 @@
           "name": "Blinding Bolts",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "teal",
             "text": "Once Per Battle, Your Shooting Phase"
           },
           "declare": null,
@@ -1381,7 +1381,7 @@
           "name": "Scryhawks",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "teal",
             "text": "Your Shooting Phase"
           },
           "declare": null,
@@ -1470,7 +1470,7 @@
           "name": "Sudden Translocation",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "eggplant",
             "text": "End of Any Turn"
           },
           "declare": null,
@@ -1598,7 +1598,7 @@
           "name": "Shrine Guardian",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "black",
             "text": "Passive"
           },
           "declare": null,
@@ -1667,7 +1667,7 @@
           "name": "Fortitude of the Earth",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "",
             "text": "Passive"
           },
           "declare": null,
@@ -1719,7 +1719,7 @@
           "name": "Wall of Blades",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Any Combat Phase"
           },
           "declare": null,
@@ -1773,7 +1773,7 @@
           "name": "World Banner",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "eggplant",
             "text": "Passive"
           },
           "declare": null,
@@ -1826,7 +1826,7 @@
           "name": "Lofted Shots",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "teal",
             "text": "Your Shooting Phase"
           },
           "declare": null,
@@ -1890,7 +1890,7 @@
           "name": "Spirit of the Wind",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "gray",
             "text": "Passive"
           },
           "declare": null,
@@ -1900,7 +1900,7 @@
           "name": "Hunters of Majestic Beasts",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "teal",
             "text": "Passive"
           },
           "declare": null,
@@ -1910,7 +1910,7 @@
           "name": "Living Cyclone",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Once Per Turn (Army), Any Combat Phase"
           },
           "declare": "Pick an enemy unit in combat with this unit to be the target.",
@@ -2060,7 +2060,7 @@
           "name": "Travel The Waterways",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "gray",
             "text": "Your Movement Phase"
           },
           "declare": null,
@@ -2073,7 +2073,7 @@
           "name": "Relentless as the Driving Current",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Any Combat Phase"
           },
           "declare": null,
@@ -2153,7 +2153,7 @@
           "name": "Stonemage Stance",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Any Combat Phase"
           },
           "declare": "Pick a friendly Alarith Aelf unit wholly within 12\" of this unit to be the target.",
@@ -2205,7 +2205,7 @@
           "name": "Windcharger Arrows",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "teal",
             "text": "Passive"
           },
           "declare": null,

@@ -66,7 +66,7 @@
           "name": "Dance of Death",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Enemy Combat Phase"
           },
           "declare": null,
@@ -121,7 +121,7 @@
           "name": "Orgy of Slaughter",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Once Per Turn (Army), Any Combat Phase"
           },
           "declare": "Pick a friendly Daughters of Khaine Aelf Infantry unit wholly within 12\" of this unit to be the target.",
@@ -173,7 +173,7 @@
           "name": "Wrath of Khaine",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "orange",
             "text": "Once Per Turn (Army), Any Charge Phase"
           },
           "declare": "If this unit charged this phase, pick an enemy unit within 1\" of it to be the target.",
@@ -238,7 +238,7 @@
           "name": "Paragon of Slaughter",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Any Combat Phase"
           },
           "declare": "If this unit is in combat, pick a visible friendly Daughters of Khaine Aelf non-Hero Infantry unit wholly within 12\" of this unit to be the target.",
@@ -248,7 +248,7 @@
           "name": "Killing Stroke",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Once Per Battle, Any Combat Phase"
           },
           "declare": "Pick an enemy Hero in combat with this unit to be the target.",
@@ -299,7 +299,7 @@
           "name": "Unnatural Edge",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Any Combat Phase"
           },
           "declare": "If this Manifestation charged this turn, pick an enemy unit in combat with it to be the target.",
@@ -376,7 +376,7 @@
           "name": "One Soul, Two Bodies",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "",
             "text": "Passive"
           },
           "declare": null,
@@ -440,7 +440,7 @@
           "name": "Bloodwrack Stare",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "teal",
             "text": "Passive"
           },
           "declare": null,
@@ -450,7 +450,7 @@
           "name": "Bladed Impact",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "orange",
             "text": "Any Charge Phase"
           },
           "declare": "If this unit charged this phase, pick an enemy unit within 1\" of it to be the target.",
@@ -523,7 +523,7 @@
           "name": "Altar of Khaine",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "black",
             "text": "Passive"
           },
           "declare": null,
@@ -533,7 +533,7 @@
           "name": "Bladed Impact",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "orange",
             "text": "Any Charge Phase"
           },
           "declare": "If this unit charged this phase, pick an enemy unit within 1\" of it to be the target.",
@@ -543,7 +543,7 @@
           "name": "Orgy of Slaughter",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Once Per Turn (Army), Any Combat Phase"
           },
           "declare": "Pick a friendly Daughters of Khaine Aelf Infantry unit wholly within 12\" of this unit to be the target.",
@@ -679,7 +679,7 @@
           "name": "Frenzied Fervour",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Passive"
           },
           "declare": null,
@@ -735,7 +735,7 @@
           "name": "Shadow Leap",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "gray",
             "text": "Your Movement Phase"
           },
           "declare": null,
@@ -745,7 +745,7 @@
           "name": "Mask of Shadowed Mirrors",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Any Combat Phase"
           },
           "declare": "Pick an enemy unit in combat with this unit to be the target.",
@@ -808,7 +808,7 @@
           "name": "Crystal Touch",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Any Combat Phase"
           },
           "declare": "Pick an enemy unit in combat with this unit to be the target.",
@@ -861,7 +861,7 @@
           "name": "Locus of the Murder God",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "",
             "text": "Passive"
           },
           "declare": null,
@@ -901,7 +901,7 @@
           "name": "Bloodwrack Stare",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "teal",
             "text": "Passive"
           },
           "declare": null,
@@ -911,7 +911,7 @@
           "name": "Melusai Kin",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Reaction: You declared a Fight ability for this unit"
           },
           "declare": null,
@@ -976,7 +976,7 @@
           "name": "Heartseekers",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "teal",
             "text": "Your Shooting Phase"
           },
           "declare": null,
@@ -1040,7 +1040,7 @@
           "name": "Wrath of the Scáthborn",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "orange",
             "text": "Passive"
           },
           "declare": null,
@@ -1050,7 +1050,7 @@
           "name": "Gory Offering",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Reaction: You declared a Fight ability for this unit"
           },
           "declare": null,
@@ -1114,7 +1114,7 @@
           "name": "Bladed Bucklers",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "",
             "text": "Passive"
           },
           "declare": null,
@@ -1124,7 +1124,7 @@
           "name": "Dance of Diversion",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "",
             "text": "Passive"
           },
           "declare": null,
@@ -1179,7 +1179,7 @@
           "name": "Outmanoeuvre",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "gray",
             "text": "Passive"
           },
           "declare": null,
@@ -1252,7 +1252,7 @@
           "name": "Altar of Khaine",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "black",
             "text": "Passive"
           },
           "declare": null,
@@ -1272,7 +1272,7 @@
           "name": "Bladed Impact",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "orange",
             "text": "Any Charge Phase"
           },
           "declare": "If this unit charged this phase, pick an enemy unit within 1\" of it to be the target.",
@@ -1424,7 +1424,7 @@
           "name": "Crushing Coils",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Once Per Turn (Army), Any Combat Phase"
           },
           "declare": "Pick an enemy Infantry Hero in combat with this Manifestation to be the target.",
@@ -1482,7 +1482,7 @@
           "name": "Shadow Leap",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "gray",
             "text": "Your Movement Phase"
           },
           "declare": null,
@@ -1547,7 +1547,7 @@
           "name": "Bladed Bucklers",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "",
             "text": "Passive"
           },
           "declare": null,
@@ -1602,7 +1602,7 @@
           "name": "Circling in the Skies Above",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "black",
             "text": "Deployment Phase"
           },
           "declare": "Pick this unit if it has not been deployed.",
@@ -1615,7 +1615,7 @@
           "name": "Death From Above",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "gray",
             "text": "Your Movement Phase"
           },
           "declare": "Pick this unit if it is in the skies.",
@@ -1625,7 +1625,7 @@
           "name": "Fire and Flight",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "teal",
             "text": "Any Shooting Phase"
           },
           "declare": null,
@@ -1691,7 +1691,7 @@
           "name": "Acrobatic Bloodshed",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Any Combat Phase"
           },
           "declare": "Pick an enemy unit in combat with this unit to be the target.",
@@ -1745,7 +1745,7 @@
           "name": "Circling in the Skies Above",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "black",
             "text": "Deployment Phase"
           },
           "declare": "Pick this unit if it has not been deployed.",
@@ -1758,7 +1758,7 @@
           "name": "Death From Above",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "gray",
             "text": "Your Movement Phase"
           },
           "declare": "Pick this unit if it is in the skies.",
@@ -1768,7 +1768,7 @@
           "name": "Fight and Flight",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Reaction: You declared a Fight ability for this unit"
           },
           "declare": null,
@@ -1822,7 +1822,7 @@
           "name": "Fury of the Shadow Queen",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Once Per Turn (Army), Any Combat Phase"
           },
           "declare": "Pick an enemy unit in combat with this unit to be the target.",
@@ -1835,7 +1835,7 @@
           "name": "Iron Heart of Khaine",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "",
             "text": "Passive"
           },
           "declare": null,

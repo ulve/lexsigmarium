@@ -147,7 +147,7 @@
           "name": "Multiple Parts",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "black",
             "text": "Passive"
           },
           "declare": null,
@@ -270,7 +270,7 @@
           "name": "Slaughterous Charge",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "orange",
             "text": "Any Charge Phase"
           },
           "declare": "If this unit charged this turn, pick an enemy unit within 1\" of it to be the target.",
@@ -280,7 +280,7 @@
           "name": "Herald of Trampling Death",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "orange",
             "text": "Once Per Battle (Army), Any Charge Phase"
           },
           "declare": "Pick a friendly Bloodcrushers unit within this unit’s combat range to be the target.",
@@ -344,7 +344,7 @@
           "name": "Battle Damaged",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "black",
             "text": "Passive"
           },
           "declare": null,
@@ -354,7 +354,7 @@
           "name": "Vengeance of Khorne",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Once Per Turn (Army), Any Combat Phase"
           },
           "declare": "Pick an enemy Hero in combat with this unit to be the target.",
@@ -367,7 +367,7 @@
           "name": "Commander Of Tyrants",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Once Per Turn (Army), Any Combat Phase"
           },
           "declare": "Pick up to 3 other visible friendly non-Unique Bloodthirster units to be the targets.",
@@ -435,7 +435,7 @@
           "name": "Horrific Predators",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Once Per Turn (Army), Any Combat Phase"
           },
           "declare": "Pick an enemy unit in combat with this unit to be the target.",
@@ -448,7 +448,7 @@
           "name": "Taker of Heads",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "eggplant",
             "text": "End of Any Turn"
           },
           "declare": null,
@@ -513,7 +513,7 @@
           "name": "Blood For The Blood God!",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Passive"
           },
           "declare": null,
@@ -575,7 +575,7 @@
           "name": "Rage of Khorne",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Once Per Battle (Army), Any Combat Phase"
           },
           "declare": null,
@@ -626,7 +626,7 @@
           "name": "Whipped To Fury",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "gray",
             "text": "Once Per Turn (Army), Your Movement Phase"
           },
           "declare": "Pick a friendly non-Hero Bloodbound unit within this unit’s combat range to be the target.",
@@ -677,7 +677,7 @@
           "name": "Tempered By Fury",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "black",
             "text": "Once Per Battle (Army), Deployment Phase"
           },
           "declare": "Pick another friendly Bloodbound Hero within 8\" of this unit to be the target.",
@@ -687,7 +687,7 @@
           "name": "Bone-crushing Strikes",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "",
             "text": "Passive"
           },
           "declare": null,
@@ -740,7 +740,7 @@
           "name": "Crimson Haze",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Passive"
           },
           "declare": null,
@@ -750,7 +750,7 @@
           "name": "Bloodfury",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Passive"
           },
           "declare": null,
@@ -802,7 +802,7 @@
           "name": "Words of Hate",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "black",
             "text": "Passive"
           },
           "declare": null,
@@ -812,7 +812,7 @@
           "name": "Hatred of Sorcery",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "black",
             "text": "Reaction: A friendly unit within 18\" of this terrain feature was picked to be the target of an enemy spell"
           },
           "declare": null,
@@ -832,7 +832,7 @@
           "name": "Descend The Altar",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "gray",
             "text": "Your Movement Phase"
           },
           "declare": null,
@@ -870,7 +870,7 @@
           "name": "Inescapable Wrath",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "orange",
             "text": "Passive"
           },
           "declare": null,
@@ -880,7 +880,7 @@
           "name": "Roar of Total Rage",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Once Per Turn (Army), Any Combat Phase"
           },
           "declare": "Pick an enemy unit in combat with this unit to be the target.",
@@ -893,7 +893,7 @@
           "name": "Skarbrand's Rage",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Passive"
           },
           "declare": null,
@@ -967,7 +967,7 @@
           "name": "Bestial Leap",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "orange",
             "text": "Any Charge Phase"
           },
           "declare": null,
@@ -1020,7 +1020,7 @@
           "name": "Prey of the Blood God",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "black",
             "text": "Deployment Phase"
           },
           "declare": null,
@@ -1030,7 +1030,7 @@
           "name": "Stalk The Prey",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "gray",
             "text": "Enemy Movement Phase"
           },
           "declare": null,
@@ -1044,7 +1044,7 @@
           "name": "First of the Pack",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "orange",
             "text": "Passive"
           },
           "declare": null,
@@ -1098,7 +1098,7 @@
           "name": "Lord of the Bloodbound",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "orange",
             "text": "Passive"
           },
           "declare": null,
@@ -1108,7 +1108,7 @@
           "name": "'Bring Me Their Skull!'",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Once Per Turn (Army), Your Combat Phase"
           },
           "declare": "Pick a friendly Gorechosen unit wholly within 12\" of this unit to be the target.",
@@ -1169,7 +1169,7 @@
           "name": "The Thinning Veil",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "eggplant",
             "text": "End of Any Turn"
           },
           "declare": null,
@@ -1224,7 +1224,7 @@
           "name": "The Slaughterborn",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "gray",
             "text": "Any Movement Phase"
           },
           "declare": "This unit can use this ability if it has been destroyed.",
@@ -1237,7 +1237,7 @@
           "name": "Murderous Paragon",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Passive"
           },
           "declare": null,
@@ -1290,7 +1290,7 @@
           "name": "No Respite",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Passive"
           },
           "declare": null,
@@ -1352,7 +1352,7 @@
           "name": "Borne On Wings Of Blood",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "black",
             "text": "Deployment Phase"
           },
           "declare": "Pick this unit if it has not been deployed.",
@@ -1365,7 +1365,7 @@
           "name": "The Gaze of Khorne",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "black",
             "text": "Passive"
           },
           "declare": null,
@@ -1375,7 +1375,7 @@
           "name": "The Red Angel of Slaughter",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "gray",
             "text": "Your Movement Phase"
           },
           "declare": "Pick this unit if it is soaring above the battlefield.",
@@ -1430,7 +1430,7 @@
           "name": "Blood for the Blood God!",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Passive"
           },
           "declare": null,
@@ -1440,7 +1440,7 @@
           "name": "Grisly Trophies",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "eggplant",
             "text": "End of Any Turn"
           },
           "declare": null,
@@ -1491,7 +1491,7 @@
           "name": "Trial of Skulls",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "eggplant",
             "text": "Passive"
           },
           "declare": null,
@@ -1544,7 +1544,7 @@
           "name": "Blood Call",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "gray",
             "text": "Once Per Turn (Army), Your Movement Phase"
           },
           "declare": "Pick a friendly Blades of Khorne Daemon unit that started the battle with 3 or more models and that has been destroyed to be the target.",
@@ -1599,7 +1599,7 @@
           "name": "Sigil of Doom",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "black",
             "text": "Reaction: Opponent declared a command for a unit within 8\" of this Manifestation"
           },
           "declare": null,
@@ -1640,7 +1640,7 @@
           "name": "No Respite",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Passive"
           },
           "declare": null,
@@ -1699,7 +1699,7 @@
           "name": "Slaughterous Charge",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "orange",
             "text": "Any Charge Phase"
           },
           "declare": "If this unit charged this turn, pick an enemy unit within 1\" of it to be the target.",
@@ -1818,7 +1818,7 @@
           "name": "Furious Warleader",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Reaction: You declared a Fight ability for this unit"
           },
           "declare": null,
@@ -1869,7 +1869,7 @@
           "name": "Battle Damaged",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "black",
             "text": "Passive"
           },
           "declare": null,
@@ -1879,7 +1879,7 @@
           "name": "Shattering Charge",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "orange",
             "text": "Once Per Turn (Army), Any Charge Phase"
           },
           "declare": "If this unit charged this turn, pick an enemy unit within 1\" of it to be the target.",
@@ -1892,7 +1892,7 @@
           "name": "Outrageous Carnage",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Passive"
           },
           "declare": null,
@@ -1947,7 +1947,7 @@
           "name": "Glorious Ascent",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Passive"
           },
           "declare": null,
@@ -1957,7 +1957,7 @@
           "name": "First of the Gorechosen",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "eggplant",
             "text": "End of Any Turn"
           },
           "declare": null,
@@ -2009,7 +2009,7 @@
           "name": "Skulls For The Skull-Throne",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "black",
             "text": "Passive"
           },
           "declare": null,
@@ -2019,7 +2019,7 @@
           "name": "Heroe's Bane",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Any Combat Phase"
           },
           "declare": "Pick an enemy Hero in combat with this unit to be the target.",
@@ -2074,7 +2074,7 @@
           "name": "Battle Damaged",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "black",
             "text": "Passive"
           },
           "declare": null,
@@ -2084,7 +2084,7 @@
           "name": "Beckon The Hunt",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "orange",
             "text": "Your Charge Phase"
           },
           "declare": "Pick a friendly non-Unique Blades of Khorne Daemon unit to be the target.",
@@ -2094,7 +2094,7 @@
           "name": "Ensnaring Lash",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Once Per Turn (Army), Any Combat Phase"
           },
           "declare": "Pick an enemy Monster in combat with this unit to be the target.",
@@ -2168,7 +2168,7 @@
           "name": "The Scent of Blood",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "black",
             "text": "Deployment Phase"
           },
           "declare": null,
@@ -2178,7 +2178,7 @@
           "name": "Pack Hunters",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Passive"
           },
           "declare": null,
@@ -2230,7 +2230,7 @@
           "name": "Slaughterous Charge",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "orange",
             "text": "Any Charge Phase"
           },
           "declare": "If this unit charged this turn, pick an enemy unit within 1\" of it to be the target.",
@@ -2294,7 +2294,7 @@
           "name": "Hatred's Edge",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "gray",
             "text": "Your Movement Phase"
           },
           "declare": "Pick up to 3 enemy units that this Manifestation passed across this turn to be the targets.",
@@ -2345,7 +2345,7 @@
           "name": "Unflagging Hunters",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "orange",
             "text": "Passive"
           },
           "declare": null,
@@ -2355,7 +2355,7 @@
           "name": "Beast",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "eggplant",
             "text": "Passive"
           },
           "declare": null,
@@ -2409,7 +2409,7 @@
           "name": "The Blood Must Flow",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Reaction: You declared a Fight ability for this unit"
           },
           "declare": null,
@@ -2464,7 +2464,7 @@
           "name": "Grind Their Bones, Seize Their Skulls",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "teal",
             "text": "Passive"
           },
           "declare": null,
@@ -2474,7 +2474,7 @@
           "name": "Gruesome Bombardment",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "eggplant",
             "text": "Passive"
           },
           "declare": null,
@@ -2549,7 +2549,7 @@
           "name": "Desecrating Blood Runes",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "gray",
             "text": "Once Per Battle (Army), Your Movement Phase"
           },
           "declare": "Pick an objective or terrain feature within this unit’s combat range to be the target.",
@@ -2601,7 +2601,7 @@
           "name": "Slaughterous Charge",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "orange",
             "text": "Any Charge Phase"
           },
           "declare": "If this unit charged this turn, pick an enemy unit within 1\" of it to be the target.",
@@ -2611,7 +2611,7 @@
           "name": "Lord of the Brass Stampede",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "orange",
             "text": "Passive"
           },
           "declare": null,

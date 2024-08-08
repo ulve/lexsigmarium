@@ -121,7 +121,7 @@
           "name": "Battle Damaged",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "black",
             "text": "Passive"
           },
           "declare": null,
@@ -155,7 +155,7 @@
           "name": "Altar of the Horned Rat",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "",
             "text": "Passive"
           },
           "declare": null,
@@ -228,7 +228,7 @@
           "name": "Seething Swarm",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "eggplant",
             "text": "End of Any Turn"
           },
           "declare": null,
@@ -289,7 +289,7 @@
           "name": "Shadowy Killers",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "",
             "text": "Passive"
           },
           "declare": null,
@@ -299,7 +299,7 @@
           "name": "Sneaky Infiltrators",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "",
             "text": "Passive"
           },
           "declare": null,
@@ -375,7 +375,7 @@
           "name": "Slinking Advance",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "black",
             "text": "Deployment Phase"
           },
           "declare": null,
@@ -385,7 +385,7 @@
           "name": "Sneaky Infiltrators",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "",
             "text": "Passive"
           },
           "declare": null,
@@ -451,7 +451,7 @@
           "name": "Seething Swarm",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "eggplant",
             "text": "End of Any Turn"
           },
           "declare": null,
@@ -505,7 +505,7 @@
           "name": "Lord of Assassins",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "gray",
             "text": "Reaction: You declared the ‘Redeploy’ command for a friendly Eshin Infantry unit wholly within 13\" of this unit"
           },
           "declare": null,
@@ -515,7 +515,7 @@
           "name": "Burst From The Shadows",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Once Per Turn (Army), Any Combat Phase"
           },
           "declare": null,
@@ -586,7 +586,7 @@
           "name": "Whirling Doom",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "orange",
             "text": "Any Charge Phase"
           },
           "declare": "If this unit charged this phase, pick an enemy unit within 1\" of it to be the target.",
@@ -638,7 +638,7 @@
           "name": "Too Horrible To Die",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "black",
             "text": "Passive"
           },
           "declare": null,
@@ -648,7 +648,7 @@
           "name": "Battle Damaged",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "black",
             "text": "Passive"
           },
           "declare": null,
@@ -658,7 +658,7 @@
           "name": "Avalanche of Flesh",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Once Per Turn (Army), Any Combat Phase"
           },
           "declare": "Pick an enemy Infantry unit in combat with this unit to be the target.",
@@ -671,7 +671,7 @@
           "name": "Regenerating Monstrosity",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "eggplant",
             "text": "End of Any Turn"
           },
           "declare": null,
@@ -723,7 +723,7 @@
           "name": "Toll of Doom",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "",
             "text": "Passive"
           },
           "declare": null,
@@ -774,7 +774,7 @@
           "name": "Rolling Doom",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "gray",
             "text": "Your Movement Phase"
           },
           "declare": null,
@@ -852,7 +852,7 @@
           "name": "Cornered Rat",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Passive"
           },
           "declare": null,
@@ -926,7 +926,7 @@
           "name": "Running Death",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "black",
             "text": "Passive"
           },
           "declare": null,
@@ -936,7 +936,7 @@
           "name": "Shadowy Killers",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "",
             "text": "Passive"
           },
           "declare": null,
@@ -1003,7 +1003,7 @@
           "name": "More-more Warp Lightning!",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "teal",
             "text": "Once Per Turn (Army), Your Shooting Phase"
           },
           "declare": null,
@@ -1013,7 +1013,7 @@
           "name": "Warp Lightning Blast",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "teal",
             "text": "Passive"
           },
           "declare": null,
@@ -1073,7 +1073,7 @@
           "name": "Tunnels Through Reality",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "gray",
             "text": "Your Movement Phase"
           },
           "declare": "Pick a friendly Skaven unit that is not in combat and is wholly within 6\" of this terrain feature to be the target.",
@@ -1083,7 +1083,7 @@
           "name": "Volatile Ground",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Passive"
           },
           "declare": null,
@@ -1093,7 +1093,7 @@
           "name": "The Endless Vermintide",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "eggplant",
             "text": "Once Per Turn (Army), End of Your Turn"
           },
           "declare": "Pick a friendly non-Hero Skaven Infantry unit that has been destroyed to be the target.",
@@ -1132,7 +1132,7 @@
           "name": "Unleashed Warp-fury",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Any Combat Phase"
           },
           "declare": null,
@@ -1194,7 +1194,7 @@
           "name": "Elite Bodyguard",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "",
             "text": "Passive"
           },
           "declare": null,
@@ -1248,7 +1248,7 @@
           "name": "Battle Damaged",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "black",
             "text": "Passive"
           },
           "declare": null,
@@ -1258,7 +1258,7 @@
           "name": "Corrupting Influence",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Passive"
           },
           "declare": null,
@@ -1268,7 +1268,7 @@
           "name": "Altar of the Great Corruptor",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "",
             "text": "Passive"
           },
           "declare": null,
@@ -1352,7 +1352,7 @@
           "name": "Warpstone Snipers",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "teal",
             "text": "Your Shooting Phase"
           },
           "declare": null,
@@ -1414,7 +1414,7 @@
           "name": "Sniper-master",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "teal",
             "text": "Once Per Turn (Army), Your Shooting Phase"
           },
           "declare": "Pick a visible enemy Hero to be the target.",
@@ -1424,7 +1424,7 @@
           "name": "More-more Warp Energy!",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "teal",
             "text": "Reaction: You declared a Shoot ability for this unit, it was not set up this turn and it has not used a Move ability this turn"
           },
           "declare": null,
@@ -1487,7 +1487,7 @@
           "name": "Spreaders of Filth and Disease",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Passive"
           },
           "declare": null,
@@ -1565,7 +1565,7 @@
           "name": "Hurl Scry-orb",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Once Per Battle, Any Combat Phase"
           },
           "declare": "Pick an enemy unit in combat with this unit to be the target.",
@@ -1575,7 +1575,7 @@
           "name": "Arch-Manipulator",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Once Per Turn (Army), Any Combat Phase"
           },
           "declare": "Pick an enemy unit in combat with this unit to be the target.",
@@ -1631,7 +1631,7 @@
           "name": "More-more Warpstone Bullets!",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "teal",
             "text": "Once Per Turn (Army), Your Shooting Phase"
           },
           "declare": null,
@@ -1641,7 +1641,7 @@
           "name": "Overwhelming Fire",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "teal",
             "text": "Passive"
           },
           "declare": null,
@@ -1703,7 +1703,7 @@
           "name": "Feed On Pestilence",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Reaction: You declared a Fight ability for a friendly Pestilens unit wholly within 13\" of this unit"
           },
           "declare": null,
@@ -1756,7 +1756,7 @@
           "name": "Gas Clouds",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "teal",
             "text": "Passive"
           },
           "declare": null,
@@ -1766,7 +1766,7 @@
           "name": "Hidden Weapon Team",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "",
             "text": "Passive"
           },
           "declare": null,
@@ -1830,7 +1830,7 @@
           "name": "More-more Rats",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "eggplant",
             "text": "End of Any Turn"
           },
           "declare": null,
@@ -1882,7 +1882,7 @@
           "name": "Tyrant of Battle",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Once Per Turn (Army), Any Combat Phase"
           },
           "declare": "Pick up to 2 friendly Verminus Infantry units wholly within 13\" of this unit to be the targets.",
@@ -1892,7 +1892,7 @@
           "name": "Killing Blow",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "eggplant",
             "text": "Once Per Turn (Army), End of Any Turn"
           },
           "declare": "Pick a damaged enemy unit in combat with this unit to be the target.",
@@ -1950,7 +1950,7 @@
           "name": "Deliver The Killing Strike",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Once Per Battle (Army), Any Combat Phase"
           },
           "declare": null,
@@ -1960,7 +1960,7 @@
           "name": "Sneaky Infiltrators",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "",
             "text": "Passive"
           },
           "declare": null,
@@ -2024,7 +2024,7 @@
           "name": "Explosive Payload",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "teal",
             "text": "Passive"
           },
           "declare": null,
@@ -2034,7 +2034,7 @@
           "name": "More-more Doom!",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "teal",
             "text": "Reaction: You declared a Shoot ability for this unit, it was not set up this turn and it has not used a Move ability this turn"
           },
           "declare": null,
@@ -2097,7 +2097,7 @@
           "name": "Tyrannical Packmaster",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "orange",
             "text": "Your Charge Phase"
           },
           "declare": "Pick another friendly Moulder unit within this unit’s combat range to be the target.",
@@ -2107,7 +2107,7 @@
           "name": "Lord of Flesh-grafting",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "eggplant",
             "text": "End of Any Turn"
           },
           "declare": "Pick another friendly Moulder unit wholly within 13\" of this unit to be the target.",
@@ -2159,7 +2159,7 @@
           "name": "Overseers of the Enginecoven",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "teal",
             "text": "Passive"
           },
           "declare": null,
@@ -2274,7 +2274,7 @@
           "name": "Hidden Weapon Team",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "",
             "text": "Passive"
           },
           "declare": null,
@@ -2337,7 +2337,7 @@
           "name": "Cornered Rat",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Passive"
           },
           "declare": null,
@@ -2347,7 +2347,7 @@
           "name": "Gnash-gnaw On Their Bones!",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Reaction: You declared a Fight ability for this unit"
           },
           "declare": null,
@@ -2409,7 +2409,7 @@
           "name": "Enshrouding Fumes",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "",
             "text": "Passive"
           },
           "declare": null,
@@ -2473,7 +2473,7 @@
           "name": "Frenzied Assault",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Passive"
           },
           "declare": null,
@@ -2483,7 +2483,7 @@
           "name": "Enshrouding Fumes",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "",
             "text": "Passive"
           },
           "declare": null,
@@ -2534,7 +2534,7 @@
           "name": "Grinderfist Tunnellers",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "gray",
             "text": "Any Movement Phase"
           },
           "declare": "Pick this unit if it is in the tunnels below and includes any models armed with Grinderfists.",
@@ -2544,7 +2544,7 @@
           "name": "Shock Gauntlets",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Passive"
           },
           "declare": null,
@@ -2651,7 +2651,7 @@
           "name": "Hidden Weapon Team",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "",
             "text": "Passive"
           },
           "declare": null,
@@ -2724,7 +2724,7 @@
           "name": "Plaguemaster",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Once Per Turn (Army), Any Combat Phase"
           },
           "declare": "Pick up to 3 enemy units in combat with this unit to be the targets.",
@@ -2782,7 +2782,7 @@
           "name": "Bubonic Barrage",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "teal",
             "text": "Passive"
           },
           "declare": null,
@@ -2846,7 +2846,7 @@
           "name": "Multiple Parts",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "black",
             "text": "Passive"
           },
           "declare": null,
@@ -2856,7 +2856,7 @@
           "name": "Warp Vortex",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "black",
             "text": "Passive"
           },
           "declare": null,
@@ -2930,7 +2930,7 @@
           "name": "Terrifying Monstrosity",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Once Per Turn (Army), Any Combat Phase"
           },
           "declare": "Pick an enemy Infantry unit in combat with this unit to be the target.",
@@ -2995,7 +2995,7 @@
           "name": "Battle Damaged",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "black",
             "text": "Passive"
           },
           "declare": null,
@@ -3029,7 +3029,7 @@
           "name": "Boneripper Rampage",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "red",
             "text": "Once Per Turn (Army), Any Combat Phase"
           },
           "declare": "Pick an enemy unit in combat with this unit to be the target.",
@@ -3042,7 +3042,7 @@
           "name": "Warp-amulet",
           "header": {
             "icon": "special",
-            "color": "yellow",
+            "color": "eggplant",
             "text": "End of Any Turn"
           },
           "declare": null,
