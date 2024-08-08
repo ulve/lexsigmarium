@@ -1,6 +1,6 @@
 {
   "$schema": "../army.schema.json",
-  "title": "Lumineth Realm-Lords",
+  "title": "Lumineth Realm-lords",
   "icon": "lumineth.png",
   "color": "#024D66",
   "grandFaction": "Order",

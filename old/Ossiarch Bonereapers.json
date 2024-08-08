@@ -1,6 +1,6 @@
 {
   "$schema": "../army.schema.json",
-  "title": "Ossiarch Bone Reapers",
+  "title": "Ossiarch Bonereapers",
   "icon": "ossiarch.png",
   "color": "#2F5846",
   "grandFaction": "Death",

@@ -1,6 +1,6 @@
 {
   "$schema": "../army.schema.json",
-  "title": "Flesh-Eater Courts",
+  "title": "Flesh-eater Courts",
   "grandFaction": "Death",
   "icon": "",
   "color": "#45110B",
@@ -363,4 +363,3 @@
     }
   ]
 }
-

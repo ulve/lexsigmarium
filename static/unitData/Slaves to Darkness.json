@@ -1,0 +1,4303 @@
+{
+  "$schema": "../army.schema.json",
+  "title": "Slaves to Darkness",
+  "icon": "slaves-to-darkness.png",
+  "color": "#390301",
+  "grandFaction": "Chaos",
+  "battleTraits": [
+    {
+      "name": "Eye of the Gods",
+      "header": {
+        "icon": "special",
+        "color": "eggplant",
+        "text": "Once Per Turn, End of Any Turn"
+      },
+      "declare": "Each friendly **SLAVES TO DARKNESS** unit that destroyed an enemy unit this turn is a target. Friendly **BEASTS** and non-**HERO MONSTERS** cannot be targeted by this ability.",
+      "effect": "Make a reward roll of D6 for each target and apply the corresponding effect below. You can re-roll the reward roll for the target, but if you do so and you roll a 1, inflict D3 mortal damage on the target.\n\n | Roll | Effect |\n | ---- | ------ |\n | 1 | _**Snubbed by the Gods:**_ No effect. |\n | 2 | _**Mutative Regrowth:**_ **Heal (3)** the target.|\n | 3 | _**Unnatural Grace:**_ Add 1 to hit rolls for the target's combat attacks for the rest of the battle. |\n | 4 | _**Lurid Aura:**_ The target has **WARD (6+)** for the rest of the battle. If the target already has **WARD (6+)**, it has **WARD (5+)** instead. |\n | 5 | _**Slaughterer's Might:**_ Add 1 to the Rend characteristic of the target's melee weapons for the rest of the battle. |\n | 6 | _**Champion of Chaos:**_ Pick any other effect.|\n\n The same effect can be applied multiple times to a unit, and more than 1 effect can apply to a unit at the same time.",
+      "keywords": [
+        ""
+      ]
+    },
+    {
+      "name": "Marks of Chaos",
+      "header": {
+        "icon": "special",
+        "color": "black",
+        "text": "Passive"
+      },
+      "effect": "Friendly **SLAVES TO DARKNESS** units have 1 of the following effects based on the Mark of Chaos keyword they have.\n\n * **UNDIVIDED**: Add 1 to wound rolls for the unit's combat attacks that target a **HERO** or **MONSTER**.\n * **KHORNE**: Add 1 to the Attacks characteristic of the unit's melee weapons for the rest of the turn if the unit charged in the same turn.\n * **TZEENTCH**: The unit has **WARD (4+)** against mortal damage inflicted by **SPELL** abilities and abilities used by **MANIFESTATIONS**.\n * **NURGLE**: Subtract 1 from wound rolls for combat attacks that target the unit.\n * **SLAANESH**: Add 1 to run rolls and charge rolls for the unit.\n\n If a unit with a Mark of Chaos keyword is replaced, the replacement unit has the same Mark of Chaos keyword."
+    }
+  ],
+  "battleFormations": [
+    {
+      "name": "Godswrath Warband",
+      "abilities": [
+        {
+          "name": "Ironclad Onslaught",
+          "header": {
+            "icon": "special",
+            "color": "eggplant",
+            "text": "Once Per Turn (Army), End of Your Turn"
+          },
+          "declare": "Pick an objective that is contested by any friendly units to be the target.",
+          "effect": "Place a **defiled token** next to the target objective. Then, roll a D3 for each enemy unit contesting an objective that has a **defiled token**. On a 2+, inflict an amount of mortal damage on that enemy unit equal to the roll."
+        }
+      ]
+    }
+  ],
+  "spellLores": [
+    {
+      "name": "Lore of the Damned",
+      "spells": [
+        {
+          "name": "Daemonic Speed",
+          "header": {
+            "icon": "movement",
+            "color": "orange",
+            "text": "Your Hero Phase"
+          },
+          "declare": "Pick a friendly **SLAVES TO DARKNESS WIZARD** to cast this spell, pick a visible friendly **SLAVES TO DARKNESS** unit wholly within 12\" of them to be the target, then make a casting roll of 2D6.",
+          "effect": "For the rest of the turn, add 1 to the number of dice rolled when making charge rolls for the target, to a maximum of 3.",
+          "castingValue": "7",
+          "keywords": [
+            "Spell"
+          ]
+        }
+      ]
+    }
+  ],
+  "warscrolls": [
+    {
+      "name": "Soul Grinder",
+      "faction": "Slaves to Darkness",
+      "profile": {
+        "points": 330,
+        "unitSize": 1,
+        "regimentOptions": [],
+        "baseSizes": [
+          "160mm"
+        ],
+        "notes": null
+      },
+      "stats": {
+        "movement": "10\"",
+        "save": "4+",
+        "control": "5",
+        "health": "16"
+      },
+      "abilities": [
+        {
+          "name": "Battle Damaged",
+          "header": {
+            "icon": "special",
+            "color": "yellow",
+            "text": "Passive"
+          },
+          "declare": null,
+          "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its Piston-driven Legs and Daemonic Blade or Claw is 6."
+        },
+        {
+          "name": "Implacable Advance",
+          "header": {
+            "icon": "special",
+            "color": "yellow",
+            "text": "Passive"
+          },
+          "declare": null,
+          "effect": "This unit can use Charge abilities even if it used a Run ability in the same turn."
+        },
+        {
+          "name": "Piston-driven Carnage",
+          "header": {
+            "icon": "special",
+            "color": "yellow",
+            "text": "Once Per Turn (Army), Any Combat Phase"
+          },
+          "declare": "Pick an enemy Infantry unit in combat with this unit to be the target.",
+          "effect": "Roll a D3. On a 2+, inflict an amount of mortal damage on the target equal to the roll. Then, this unit can move 6\". During that move, it can pass through models in the target unit but must end that move in combat.",
+          "keywords": [
+            "Rampage"
+          ]
+        }
+      ],
+      "primaryKeywords": [
+        "Monster",
+        "Ward (6+)"
+      ],
+      "secondaryKeywords": [
+        "Chaos",
+        "Slaves to Darkness",
+        "Daemon"
+      ],
+      "rangedWeapons": [
+        {
+          "name": "Harvester Cannon",
+          "rng": "12\"",
+          "atk": "6",
+          "hit": "4+",
+          "wnd": "3+",
+          "rnd": "1",
+          "abilities": [
+            "Companion"
+          ]
+        },
+        {
+          "name": "Phlegm Bombardment",
+          "rng": "12\"",
+          "atk": "1",
+          "hit": "4+",
+          "wnd": "3+",
+          "rnd": "1",
+          "abilities": [
+            "Companion"
+          ]
+        }
+      ],
+      "meleeWeapons": [
+        {
+          "name": "💀 Piston-driven Legs and Daemonic Blade or Claw",
+          "atk": "8",
+          "hit": "4+",
+          "wnd": "2+",
+          "rnd": "1",
+          "abilities": [
+            "Companion"
+          ]
+        },
+        {
+          "name": "Hellforged Claw",
+          "atk": "1",
+          "hit": "4+",
+          "wnd": "2+",
+          "rnd": "2",
+          "abilities": [
+            "Crit (Mortal)",
+            "Companion"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Fomoroid Crusher",
+      "faction": "Slaves to Darkness",
+      "profile": {
+        "points": 150,
+        "unitSize": 1,
+        "regimentOptions": [],
+        "baseSizes": [
+          "60mm"
+        ],
+        "notes": null
+      },
+      "stats": {
+        "movement": "6\"",
+        "save": "5+",
+        "control": "2",
+        "health": "8"
+      },
+      "abilities": [
+        {
+          "name": "Cursed Destroyers",
+          "header": {
+            "icon": "special",
+            "color": "yellow",
+            "text": "Once Per Turn (Army), Any Combat Phase"
+          },
+          "declare": "Pick a terrain feature within 1\" of this unit, then pick each other unit (friendly and enemy) within 3\" of that terrain feature to be the targets.",
+          "effect": "Roll a D3 for each target. On a 2+, inflict an amount of mortal damage on the target equal to the roll.",
+          "keywords": [
+            "Rampage"
+          ]
+        }
+      ],
+      "primaryKeywords": [
+        "Monster"
+      ],
+      "secondaryKeywords": [
+        "Chaos",
+        "Slaves to Darkness",
+        "Undivided"
+      ],
+      "rangedWeapons": [
+        {
+          "name": "Hurled Terrain",
+          "rng": "12\"",
+          "atk": "D3",
+          "hit": "4+",
+          "wnd": "2+",
+          "rnd": "1",
+          "abilities": []
+        }
+      ],
+      "meleeWeapons": [
+        {
+          "name": "Crushing Fists and Swinging Masonry",
+          "atk": "6",
+          "hit": "4+",
+          "wnd": "2+",
+          "rnd": "1",
+          "abilities": [
+            "Crit (2 Hits)"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "The Gnarlspirit Pack",
+      "faction": "Slaves to Darkness",
+      "profile": {
+        "points": 110,
+        "unitSize": 4,
+        "regimentOptions": [],
+        "baseSizes": [
+          "32mm [4]"
+        ],
+        "notes": "This unit cannot be reinforced."
+      },
+      "stats": {
+        "movement": "5\"",
+        "save": "6+",
+        "control": "1",
+        "health": "2"
+      },
+      "abilities": [
+        {
+          "name": "Oath of Dark Sacrifice",
+          "header": {
+            "icon": "special",
+            "color": "yellow",
+            "text": "Once Per Battle, Any Hero Phase"
+          },
+          "declare": null,
+          "effect": "If an unmodified casting roll for this unit this phase was 8+, this unit has Ward (5+) for the rest of the battle."
+        },
+        {
+          "name": "Sarrakkar Blackwing",
+          "header": {
+            "icon": "special",
+            "color": "yellow",
+            "text": "Passive"
+          },
+          "declare": null,
+          "effect": "While this unit’s Sarrakkar Blackwing is on the battlefield, it has Wizard (1)."
+        }
+      ],
+      "primaryKeywords": [
+        "Unique",
+        "Infantry",
+        "Champion"
+      ],
+      "secondaryKeywords": [
+        "Chaos",
+        "Slaves to Darkness",
+        "Undivided",
+        "Darkoath"
+      ],
+      "meleeWeapons": [
+        {
+          "name": "Gnarlspirit Weapons",
+          "atk": "3",
+          "hit": "4+",
+          "wnd": "3+",
+          "rnd": "1",
+          "abilities": [
+            "Crit (Mortal)"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Nexus Chaotica",
+      "faction": "Slaves to Darkness",
+      "profile": {
+        "points": null,
+        "unitSize": 1,
+        "regimentOptions": [],
+        "baseSizes": [
+          "Use model"
+        ],
+        "notes": null
+      },
+      "stats": {
+        "movement": "-",
+        "save": "4+",
+        "control": "-",
+        "health": "12"
+      },
+      "abilities": [
+        {
+          "name": "Infernal Sorcery",
+          "header": {
+            "icon": "special",
+            "color": "yellow",
+            "text": "Your Hero Phase"
+          },
+          "declare": "If this terrain feature has 3 or more power points, pick a friendly Slaves to Darkness Wizard within 3\" of this terrain feature to be the target.",
+          "effect": "Remove 3 power points from this terrain feature, then add 1 to casting rolls for the target for the rest of the turn."
+        },
+        {
+          "name": "Corrupt The Realms",
+          "header": {
+            "icon": "special",
+            "color": "yellow",
+            "text": "Your Hero Phase"
+          },
+          "declare": "If this terrain feature has 9 or more power points, pick an objective or terrain feature within 24\" of this terrain feature to be the source. Then, pick any number of enemy units within 3\" of the source to be the targets.",
+          "effect": "Remove 9 power points from this terrain feature, then roll a D3 for each target. On a 2+, inflict an amount of mortal damage on the target equal to the roll."
+        },
+        {
+          "name": "Draw Power",
+          "header": {
+            "icon": "special",
+            "color": "yellow",
+            "text": "Your Hero Phase"
+          },
+          "declare": null,
+          "effect": "Roll a dice. Give a number of power points to this terrain feature equal to the roll. This terrain feature can have a maximum of 12 power points at once."
+        }
+      ],
+      "primaryKeywords": [
+        "Faction Terrain"
+      ],
+      "secondaryKeywords": [
+        "Chaos",
+        "Slaves to Darkness"
+      ]
+    },
+    {
+      "name": "Chaos Lord on Manticore",
+      "faction": "Slaves to Darkness",
+      "profile": {
+        "points": 260,
+        "unitSize": 1,
+        "regimentOptions": [],
+        "baseSizes": [
+          "120 x 92mm"
+        ],
+        "notes": null
+      },
+      "stats": {
+        "movement": "12\"",
+        "save": "4+",
+        "control": "5",
+        "health": "12"
+      },
+      "abilities": [
+        {
+          "name": "Apex Predator",
+          "header": {
+            "icon": "special",
+            "color": "yellow",
+            "text": "Once Per Turn (Army), Any Combat Phase"
+          },
+          "declare": "Pick an enemy Monster in combat with this unit to be the target.",
+          "effect": "Add 1 to hit rolls for this unit’s combat attacks that target that Monster for the rest of the turn. This ability also affects Companion weapons.",
+          "keywords": [
+            "Rampage"
+          ]
+        },
+        {
+          "name": "Iron-willed Overlord",
+          "header": {
+            "icon": "special",
+            "color": "yellow",
+            "text": "Passive"
+          },
+          "declare": null,
+          "effect": "Add 2 to the control scores of friendly Warriors of Chaos units while they are wholly within 12\" of this unit."
+        }
+      ],
+      "primaryKeywords": [
+        "Hero",
+        "Monster",
+        "Fly"
+      ],
+      "secondaryKeywords": [
+        "Chaos",
+        "Slaves to Darkness",
+        "Warriors of Chaos"
+      ],
+      "meleeWeapons": [
+        {
+          "name": "Daemonbound Weapons",
+          "atk": "5",
+          "hit": "3+",
+          "wnd": "3+",
+          "rnd": "1",
+          "abilities": [
+            "Crit (Mortal)"
+          ]
+        },
+        {
+          "name": "Manticore’s Claws and Fangs",
+          "atk": "6",
+          "hit": "4+",
+          "wnd": "2+",
+          "rnd": "1",
+          "abilities": [
+            "Anti-Monster (+1 Rend)",
+            "Companion"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Chaos Lord on Daemonic Mount",
+      "faction": "Slaves to Darkness",
+      "profile": {
+        "points": 180,
+        "unitSize": 1,
+        "regimentOptions": [],
+        "baseSizes": [
+          "75 x 42mm"
+        ],
+        "notes": null
+      },
+      "stats": {
+        "movement": "10\"",
+        "save": "3+",
+        "control": "2",
+        "health": "8"
+      },
+      "abilities": [
+        {
+          "name": "The Knights of Chaos",
+          "header": {
+            "icon": "special",
+            "color": "yellow",
+            "text": "Reaction: You declared a Fight ability for this unit"
+          },
+          "declare": null,
+          "effect": "Pick a friendly non-Hero Warriors of Chaos Cavalry unit that has not used a Fight ability this turn and is within this unit’s combat range to be the target. The target can be picked to use a Fight ability immediately after the Fight ability used by this unit has been resolved. If it is picked to do so, add 1 to wound rolls for the target’s attacks for the rest of the turn."
+        }
+      ],
+      "primaryKeywords": [
+        "Hero",
+        "Cavalry"
+      ],
+      "secondaryKeywords": [
+        "Chaos",
+        "Slaves to Darkness",
+        "Warriors of Chaos"
+      ],
+      "meleeWeapons": [
+        {
+          "name": "Daemonic Mount’s Mighty Hooves",
+          "atk": "3",
+          "hit": "5+",
+          "wnd": "3+",
+          "rnd": "-",
+          "abilities": [
+            "Companion"
+          ]
+        },
+        {
+          "name": "Cursed Weapons",
+          "atk": "5",
+          "hit": "3+",
+          "wnd": "3+",
+          "rnd": "2",
+          "abilities": [
+            "Charge (+1 Damage)"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Darkoath Chieftain",
+      "faction": "Slaves to Darkness",
+      "profile": {
+        "points": 120,
+        "unitSize": 1,
+        "regimentOptions": [],
+        "baseSizes": [
+          "32mm"
+        ],
+        "notes": "This Hero can join an eligible regiment as an Oathsworn."
+      },
+      "stats": {
+        "movement": "5\"",
+        "save": "5+",
+        "control": "2",
+        "health": "5"
+      },
+      "abilities": [
+        {
+          "name": "Tribal Warleader",
+          "header": {
+            "icon": "special",
+            "color": "yellow",
+            "text": "Reaction: You declared a Fight ability for this unit"
+          },
+          "declare": null,
+          "effect": "Pick a friendly non-Hero Darkoath Infantry unit that has not used a Fight ability this turn and is within this unit’s combat range to be the target. The target can be picked to use a Fight ability immediately after the Fight ability used by this unit has been resolved. If it is picked to do so, add 1 to the Attacks characteristic of the target’s melee weapons for the rest of the turn."
+        },
+        {
+          "name": "Oath of Murder",
+          "header": {
+            "icon": "special",
+            "color": "yellow",
+            "text": "Once Per Battle, End of Any Turn"
+          },
+          "declare": null,
+          "effect": "If this unit destroyed an enemy Hero or Monster this turn, this unit has Strike-first for the rest of the battle."
+        }
+      ],
+      "primaryKeywords": [
+        "Hero",
+        "Infantry"
+      ],
+      "secondaryKeywords": [
+        "Chaos",
+        "Slaves to Darkness",
+        "Undivided",
+        "Darkoath"
+      ],
+      "meleeWeapons": [
+        {
+          "name": "Cursed Broadsword",
+          "atk": "5",
+          "hit": "4+",
+          "wnd": "3+",
+          "rnd": "1",
+          "abilities": [
+            "Crit (Mortal)"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Singri Brand",
+      "faction": "Slaves to Darkness",
+      "profile": {
+        "points": 0,
+        "unitSize": 1,
+        "regimentOptions": [],
+        "baseSizes": [
+          "60mm x 35mm"
+        ],
+        "notes": "This unit can only be taken in Gunnar Brand’s regiment."
+      },
+      "stats": {
+        "movement": "12\"",
+        "save": "5+",
+        "control": "2",
+        "health": "4"
+      },
+      "abilities": [
+        {
+          "name": "Swift As The Wind",
+          "header": {
+            "icon": "special",
+            "color": "yellow",
+            "text": "Passive"
+          },
+          "declare": null,
+          "effect": "Only critical hits score successful hits for shooting attacks that target this unit."
+        },
+        {
+          "name": "Uncanny Shot",
+          "header": {
+            "icon": "special",
+            "color": "yellow",
+            "text": "Passive"
+          },
+          "declare": null,
+          "effect": "Add 1 to the Rend characteristic of this unit’s Singri’s Warbow for attacks that target enemy units that are within 6\" of a friendly Gunnar Brand."
+        }
+      ],
+      "primaryKeywords": [
+        "Unique",
+        "Hero",
+        "Cavalry"
+      ],
+      "secondaryKeywords": [
+        "Chaos",
+        "Slaves to Darkness",
+        "Undivided",
+        "Darkoath",
+        "Gunnar’s Oathsworn"
+      ],
+      "rangedWeapons": [
+        {
+          "name": "Singri’s Warbow",
+          "rng": "18\"",
+          "atk": "2",
+          "hit": "3+",
+          "wnd": "3+",
+          "rnd": "1",
+          "abilities": [
+            "Crit (Auto-wound)"
+          ]
+        }
+      ],
+      "meleeWeapons": [
+        {
+          "name": "Warsteed’s Hooves",
+          "atk": "2",
+          "hit": "5+",
+          "wnd": "3+",
+          "rnd": "-",
+          "abilities": [
+            "Companion"
+          ]
+        },
+        {
+          "name": "Brand Ancestral Knife",
+          "atk": "3",
+          "hit": "4+",
+          "wnd": "3+",
+          "rnd": "1",
+          "abilities": []
+        }
+      ]
+    },
+    {
+      "name": "Scions of the Flame",
+      "faction": "Slaves to Darkness",
+      "profile": {
+        "points": 120,
+        "unitSize": 8,
+        "regimentOptions": [],
+        "baseSizes": [
+          "32mm [3]",
+          " 28.5mm [3]",
+          " 25mm [2]"
+        ],
+        "notes": "This unit cannot be reinforced."
+      },
+      "stats": {
+        "movement": "5\"",
+        "save": "5+",
+        "control": "1",
+        "health": "1"
+      },
+      "abilities": [
+        {
+          "name": "All Shall Burn",
+          "header": {
+            "icon": "special",
+            "color": "yellow",
+            "text": "Passive"
+          },
+          "declare": null,
+          "effect": "Add 1 to the Damage characteristic of this unit’s Flameburst Pots and Infernal Fires for attacks that target War Machines or Infantry units with 10 or more models."
+        }
+      ],
+      "primaryKeywords": [
+        "Infantry",
+        "Champion (1/8)"
+      ],
+      "secondaryKeywords": [
+        "Chaos",
+        "Slaves to Darkness",
+        "Undivided"
+      ],
+      "rangedWeapons": [
+        {
+          "name": "Flameburst Pots and Infernal Fires",
+          "rng": "10\"",
+          "atk": "1",
+          "hit": "4+",
+          "wnd": "4+",
+          "rnd": "-",
+          "abilities": [
+            "Anti-Infantry (+1 Rend)"
+          ]
+        }
+      ],
+      "meleeWeapons": [
+        {
+          "name": "Scion Weapons",
+          "atk": "2",
+          "hit": "4+",
+          "wnd": "4+",
+          "rnd": "-",
+          "abilities": [
+            "Anti-Infantry (+1 Rend)"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Be'lakor, the Dark Master",
+      "faction": "Slaves to Darkness",
+      "profile": {
+        "points": 410,
+        "unitSize": 1,
+        "regimentOptions": [],
+        "baseSizes": [
+          "100mm"
+        ],
+        "notes": null
+      },
+      "stats": {
+        "movement": "14\"",
+        "save": "4+",
+        "control": "10",
+        "health": "14"
+      },
+      "abilities": [
+        {
+          "name": "Battle Damaged",
+          "header": {
+            "icon": "special",
+            "color": "yellow",
+            "text": "Passive"
+          },
+          "declare": null,
+          "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its Blade of Shadows is 6."
+        },
+        {
+          "name": "The Dark Master",
+          "header": {
+            "icon": "special",
+            "color": "yellow",
+            "text": "Once Per Battle, Enemy Hero Phase"
+          },
+          "declare": "Pick a visible enemy unit to be the target.",
+          "effect": "Until the start of your next turn, each time the target is picked to use an ability, roll a dice as a reaction. On a 3+, that ability has no effect."
+        },
+        {
+          "name": "Enfeeble Foe",
+          "header": {
+            "icon": "special",
+            "color": "yellow",
+            "text": "Your Hero Phase"
+          },
+          "declare": "Pick a visible enemy unit within 18\" of this unit to be the target, then make a casting roll of 2D6.",
+          "effect": "Until the start of your next turn:\n\n• Subtract 1 from hit rolls from the target’s combat attacks.\n• The target’s combat attacks cannot score critical hits (treat them as regular hits instead).",
+          "keywords": [
+            "Spell"
+          ],
+          "castingValue": 6
+        },
+        {
+          "name": "Deadly Trap",
+          "header": {
+            "icon": "special",
+            "color": "yellow",
+            "text": "Once Per Turn (Army), Enemy Combat Phase"
+          },
+          "declare": "Pick this unit and up to 2 friendly Slaves to Darkness units within this unit’s combat range to be the targets.",
+          "effect": "Roll a dice for each target. On a 4+, that target has Strike-first for the rest of the turn.",
+          "keywords": [
+            "Rampage"
+          ]
+        },
+        {
+          "name": "Shadow Form",
+          "header": {
+            "icon": "special",
+            "color": "yellow",
+            "text": "Passive"
+          },
+          "declare": null,
+          "effect": "Ignore modifiers to save rolls for this unit (positive and negative)."
+        }
+      ],
+      "primaryKeywords": [
+        "Warmaster",
+        "Unique",
+        "Hero",
+        "Monster",
+        "Wizard (2)",
+        "Fly",
+        "Ward (6+)"
+      ],
+      "secondaryKeywords": [
+        "Chaos",
+        "Slaves to Darkness",
+        "Daemon",
+        "Undivided"
+      ],
+      "meleeWeapons": [
+        {
+          "name": "Fell Claw and Spearing Tail",
+          "atk": "2",
+          "hit": "2+",
+          "wnd": "2+",
+          "rnd": "2",
+          "abilities": [
+            "Charge (+1 Damage)"
+          ]
+        },
+        {
+          "name": "💀 Blade of Shadows",
+          "atk": "8",
+          "hit": "3+",
+          "wnd": "3+",
+          "rnd": "2",
+          "abilities": [
+            "Crit (Auto-wound)"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "The Unmade",
+      "faction": "Slaves to Darkness",
+      "profile": {
+        "points": 110,
+        "unitSize": 9,
+        "regimentOptions": [],
+        "baseSizes": [
+          "40mm [1]",
+          " 32mm [1]",
+          " 28.5mm [3]",
+          " 25mm [4]"
+        ],
+        "notes": "This unit cannot be reinforced."
+      },
+      "stats": {
+        "movement": "6\"",
+        "save": "6+",
+        "control": "1",
+        "health": "1"
+      },
+      "abilities": [
+        {
+          "name": "Frozen In Fear",
+          "header": {
+            "icon": "special",
+            "color": "yellow",
+            "text": "Passive"
+          },
+          "declare": null,
+          "effect": "Enemy units cannot use the ‘Redeploy’ or ‘Rally’ commands while they are within 12\" of this unit."
+        }
+      ],
+      "primaryKeywords": [
+        "Infantry",
+        "Champion (1/9)"
+      ],
+      "secondaryKeywords": [
+        "Chaos",
+        "Slaves to Darkness",
+        "Undivided"
+      ],
+      "meleeWeapons": [
+        {
+          "name": "Maiming Weapons",
+          "atk": "2",
+          "hit": "4+",
+          "wnd": "4+",
+          "rnd": "-",
+          "abilities": [
+            "Anti-Infantry (+1 Rend)"
+          ]
+        },
+        {
+          "name": "Nightmare Sickles",
+          "atk": "6",
+          "hit": "4+",
+          "wnd": "3+",
+          "rnd": "1",
+          "abilities": [
+            "Anti-Infantry (+1 Rend)"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Horns of Hashut",
+      "faction": "Slaves to Darkness",
+      "profile": {
+        "points": 120,
+        "unitSize": 10,
+        "regimentOptions": [],
+        "baseSizes": [
+          "32mm [3]",
+          " 28.5mm [4]",
+          " 25mm [3]"
+        ],
+        "notes": "This unit cannot be reinforced."
+      },
+      "stats": {
+        "movement": "5\"",
+        "save": "4+",
+        "control": "1",
+        "health": "1"
+      },
+      "abilities": [
+        {
+          "name": "Stampede of Iron",
+          "header": {
+            "icon": "special",
+            "color": "yellow",
+            "text": "Any Charge Phase"
+          },
+          "declare": "If this unit charged this phase, pick an enemy unit within 1\" of it to be the target.",
+          "effect": "Roll a dice for each model in this unit that is within the target’s combat range. For each 5+, inflict 1 mortal damage on the target. If 3 or more mortal damage is inflicted on the target by this ability, subtract 1 from hit rolls for the target’s combat attacks for the rest of the turn."
+        }
+      ],
+      "primaryKeywords": [
+        "Infantry",
+        "Champion (1/10)"
+      ],
+      "secondaryKeywords": [
+        "Chaos",
+        "Slaves to Darkness",
+        "Undivided"
+      ],
+      "rangedWeapons": [
+        {
+          "name": "Flamehurler",
+          "rng": "8\"",
+          "atk": "D6",
+          "hit": "2+",
+          "wnd": "3+",
+          "rnd": "-",
+          "abilities": [
+            "Anti-Infantry (+1 Rend)",
+            "Shoot in Combat"
+          ]
+        }
+      ],
+      "meleeWeapons": [
+        {
+          "name": "Forge Weapons",
+          "atk": "2",
+          "hit": "4+",
+          "wnd": "4+",
+          "rnd": "1",
+          "abilities": []
+        }
+      ]
+    },
+    {
+      "name": "Chaos Chariot",
+      "faction": "Slaves to Darkness",
+      "profile": {
+        "points": 110,
+        "unitSize": 1,
+        "regimentOptions": [],
+        "baseSizes": [
+          "120 x 92mm"
+        ],
+        "notes": null
+      },
+      "stats": {
+        "movement": "10\"",
+        "save": "4+",
+        "control": "2",
+        "health": "7"
+      },
+      "abilities": [
+        {
+          "name": "Swift Death",
+          "header": {
+            "icon": "special",
+            "color": "yellow",
+            "text": "Any Charge Phase"
+          },
+          "declare": "If this unit charged this phase, pick an enemy unit within 1\" of it to be the target.",
+          "effect": "Roll a D3. On a 2+, inflict an amount of mortal damage on the target equal to the roll."
+        }
+      ],
+      "primaryKeywords": [
+        "War Machine"
+      ],
+      "secondaryKeywords": [
+        "Chaos",
+        "Slaves to Darkness",
+        "Warriors of Chaos"
+      ],
+      "meleeWeapons": [
+        {
+          "name": "Lashing Whip",
+          "atk": "2",
+          "hit": "4+",
+          "wnd": "4+",
+          "rnd": "-",
+          "abilities": []
+        },
+        {
+          "name": "Chaos Greatblade",
+          "atk": "3",
+          "hit": "4+",
+          "wnd": "3+",
+          "rnd": "1",
+          "abilities": []
+        },
+        {
+          "name": "Chaos Steeds’ Trampling Hooves",
+          "atk": "4",
+          "hit": "5+",
+          "wnd": "3+",
+          "rnd": "-",
+          "abilities": [
+            "Companion"
+          ]
+        },
+        {
+          "name": "Chaos War-flail",
+          "atk": "6",
+          "hit": "3+",
+          "wnd": "3+",
+          "rnd": "-",
+          "abilities": []
+        }
+      ]
+    },
+    {
+      "name": "Chaos Spawn",
+      "faction": "Slaves to Darkness",
+      "profile": {
+        "points": 60,
+        "unitSize": 1,
+        "regimentOptions": [],
+        "baseSizes": [
+          "50mm"
+        ],
+        "notes": null
+      },
+      "stats": {
+        "movement": "2D6\"",
+        "save": "5+",
+        "control": "1",
+        "health": "5"
+      },
+      "abilities": [
+        {
+          "name": "Drawn to Power",
+          "header": {
+            "icon": "special",
+            "color": "yellow",
+            "text": "Passive"
+          },
+          "declare": null,
+          "effect": "While this unit is wholly within 12\" of a friendly Daemon Prince that shares a Mark of Chaos keyword with it, you can re-roll the random characteristic rolls for this unit’s Move and Attacks characteristics."
+        },
+        {
+          "name": "Beast",
+          "header": {
+            "icon": "special",
+            "color": "yellow",
+            "text": "Passive"
+          },
+          "declare": null,
+          "effect": "This unit has a maximum control score of 1."
+        }
+      ],
+      "primaryKeywords": [
+        "Beast"
+      ],
+      "secondaryKeywords": [
+        "Chaos",
+        "Slaves to Darkness"
+      ],
+      "meleeWeapons": [
+        {
+          "name": "Freakish Mutations",
+          "atk": "2D6",
+          "hit": "5+",
+          "wnd": "4+",
+          "rnd": "-",
+          "abilities": [
+            "Crit (2 Hits)",
+            "Companion"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Ogroid Myrmidon",
+      "faction": "Slaves to Darkness",
+      "profile": {
+        "points": 190,
+        "unitSize": 1,
+        "regimentOptions": [],
+        "baseSizes": [
+          "50mm"
+        ],
+        "notes": "This Hero can join an eligible regiment as a Ruinous Champion."
+      },
+      "stats": {
+        "movement": "6\"",
+        "save": "4+",
+        "control": "2",
+        "health": "8"
+      },
+      "abilities": [
+        {
+          "name": "Myrmidon Rage",
+          "header": {
+            "icon": "special",
+            "color": "yellow",
+            "text": "Passive"
+          },
+          "declare": null,
+          "effect": "While this unit is damaged, add 2 to the Attacks characteristic of its melee weapons."
+        },
+        {
+          "name": "Pit Master",
+          "header": {
+            "icon": "special",
+            "color": "yellow",
+            "text": "Reaction: You declared a Fight ability for this unit"
+          },
+          "declare": null,
+          "effect": "Pick a friendly Ogroid Theridons unit that has not used a Fight ability this turn and is within this unit’s combat range to be the target. The target can be picked to use a Fight ability immediately after the Fight ability used by this unit has been resolved. If it is picked to do so, add 1 to hit rolls for the target’s attacks for the rest of the turn."
+        }
+      ],
+      "primaryKeywords": [
+        "Hero",
+        "Infantry"
+      ],
+      "secondaryKeywords": [
+        "Chaos",
+        "Slaves to Darkness"
+      ],
+      "rangedWeapons": [
+        {
+          "name": "Gladiator Spear",
+          "rng": "10\"",
+          "atk": "1",
+          "hit": "3+",
+          "wnd": "3+",
+          "rnd": "1",
+          "abilities": []
+        }
+      ],
+      "meleeWeapons": [
+        {
+          "name": "Gladiator Spear",
+          "atk": "6",
+          "hit": "3+",
+          "wnd": "2+",
+          "rnd": "1",
+          "abilities": [
+            "Anti-Monster (+1 Rend)"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Darkfire Daemonrift",
+      "faction": "Slaves to Darkness",
+      "profile": {
+        "points": null,
+        "unitSize": 1,
+        "regimentOptions": [],
+        "baseSizes": [
+          "Use model"
+        ],
+        "notes": null
+      },
+      "stats": {
+        "movement": "9\"",
+        "save": "6+",
+        "control": "7+",
+        "health": "6"
+      },
+      "abilities": [
+        {
+          "name": "Fuelled By Sorcery",
+          "header": {
+            "icon": "special",
+            "color": "yellow",
+            "text": "Passive"
+          },
+          "declare": null,
+          "effect": "Each time a spell is successfully cast by a unit within 12\" of this Manifestation, give this Manifestation 1 ruinous energy point, to a maximum of 6.\n\nEach time this Manifestation uses a Shoot ability, add 1 to the Attacks characteristic of its Darkfire Torrent for each ruinous energy point it has.\n\nIf this Manifestation is removed from play, all of its ruinous energy points are lost."
+        }
+      ],
+      "primaryKeywords": [
+        "Manifestation",
+        "Endless Spell",
+        "Fly",
+        "Ward (6+)"
+      ],
+      "secondaryKeywords": [
+        "Chaos",
+        "Slaves to Darkness"
+      ],
+      "rangedWeapons": [
+        {
+          "name": "Darkfire Torrent",
+          "rng": "8\"",
+          "atk": "D6",
+          "hit": "2+",
+          "wnd": "3+",
+          "rnd": "1",
+          "abilities": [
+            "Shoot in Combat"
+          ]
+        }
+      ],
+      "meleeWeapons": [
+        {
+          "name": "Daemonrift Maw",
+          "atk": "3",
+          "hit": "4+",
+          "wnd": "2+",
+          "rnd": "-",
+          "abilities": []
+        }
+      ]
+    },
+    {
+      "name": "Chaos Lord",
+      "faction": "Slaves to Darkness",
+      "profile": {
+        "points": 140,
+        "unitSize": 1,
+        "regimentOptions": [],
+        "baseSizes": [
+          "40mm"
+        ],
+        "notes": null
+      },
+      "stats": {
+        "movement": "5\"",
+        "save": "3+",
+        "control": "2",
+        "health": "6"
+      },
+      "abilities": [
+        {
+          "name": "Glory In Battle",
+          "header": {
+            "icon": "special",
+            "color": "yellow",
+            "text": "Reaction: You declared a Fight ability for this unit"
+          },
+          "declare": null,
+          "effect": "Pick a friendly non-Hero Warriors of Chaos Infantry unit that has not used a Fight ability this turn and is within this unit’s combat range to be the target. The target can be picked to use a Fight ability immediately after the Fight ability used by this unit has been resolved. If it is picked to do so, add 1 to wound rolls for the target’s attacks for the rest of the turn."
+        }
+      ],
+      "primaryKeywords": [
+        "Hero",
+        "Infantry"
+      ],
+      "secondaryKeywords": [
+        "Chaos",
+        "Slaves to Darkness",
+        "Warriors of Chaos"
+      ],
+      "meleeWeapons": [
+        {
+          "name": "Reaperblade",
+          "atk": "5",
+          "hit": "3+",
+          "wnd": "3+",
+          "rnd": "1",
+          "abilities": [
+            "Crit (Mortal)"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Abraxia, Spear of the Everchosen",
+      "faction": "Slaves to Darkness",
+      "profile": {
+        "points": 360,
+        "unitSize": 1,
+        "regimentOptions": [],
+        "baseSizes": [
+          "100mm"
+        ],
+        "notes": null
+      },
+      "stats": {
+        "movement": "10\"",
+        "save": "3+",
+        "control": "5",
+        "health": "14"
+      },
+      "abilities": [
+        {
+          "name": "Battle Damaged",
+          "header": {
+            "icon": "special",
+            "color": "yellow",
+            "text": "Passive"
+          },
+          "declare": null,
+          "effect": "While this unit has 10 or more damage points, the Attacks characteristic of Gorbolga is 3."
+        },
+        {
+          "name": "Gorbolga the Accurs'd",
+          "header": {
+            "icon": "special",
+            "color": "yellow",
+            "text": "Any Combat Phase"
+          },
+          "declare": null,
+          "effect": "If this unit is in combat, roll a dice and apply the corresponding effect:\n\n1 - Uncontrollable Power\nAllocate 1 damage point to this unit.\n\n2 - The Spear Slumbers\nNo effect.\n\n3-5 - White-hot Varanite\nAdd 1 to the Damage characteristic of this unit’s Gorbolga for the rest of the turn.\n\n6 - Rampant Mutation\nThe effect of ‘White-hot Varanite’ applies and this unit’s Gorbolga has Crit (Mortal) for the rest of the turn."
+        },
+        {
+          "name": "Roar of Domination",
+          "header": {
+            "icon": "special",
+            "color": "yellow",
+            "text": "Once Per Turn (Army), Any Combat Phase"
+          },
+          "declare": "Pick an enemy Hero in combat with this unit to be the target.",
+          "effect": "Roll a dice. On a 3+, subtract 1 from the Attacks characteristic of the target’s melee weapons for the rest of the turn.",
+          "keywords": [
+            "Rampage"
+          ]
+        },
+        {
+          "name": "Blood of Molten Varanite",
+          "header": {
+            "icon": "special",
+            "color": "yellow",
+            "text": "Passive"
+          },
+          "declare": null,
+          "effect": "Roll a dice each time a damage point inflicted by a combat attack is allocated to this unit. On a 4+, inflict 1 mortal damage on the attacking unit after the Fight ability has been resolved."
+        },
+        {
+          "name": "Warlord of the First Circle",
+          "header": {
+            "icon": "special",
+            "color": "yellow",
+            "text": "Passive"
+          },
+          "declare": null,
+          "effect": "If a friendly Varanguard unit uses the ‘Relentless Killers’ ability while it is wholly within 12\" of this unit, that unit does not have Strike-last as a result of that ability."
+        }
+      ],
+      "primaryKeywords": [
+        "Unique",
+        "Hero",
+        "Monster",
+        "Ward (5+)"
+      ],
+      "secondaryKeywords": [
+        "Chaos",
+        "Slaves to Darkness",
+        "Undivided",
+        "Warriors of Chaos"
+      ],
+      "meleeWeapons": [
+        {
+          "name": "The Thanatorg’s Claws and Fangs",
+          "atk": "6",
+          "hit": "4+",
+          "wnd": "3+",
+          "rnd": "1",
+          "abilities": [
+            "Companion"
+          ]
+        },
+        {
+          "name": "💀 Gorbolga",
+          "atk": "5",
+          "hit": "3+",
+          "wnd": "3+",
+          "rnd": "2",
+          "abilities": [
+            "Anti-Hero (+1 Rend)",
+            "Charge (+1 Damage)"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Gunnar Brand",
+      "faction": "Slaves to Darkness",
+      "profile": {
+        "points": 280,
+        "unitSize": 1,
+        "regimentOptions": [],
+        "baseSizes": [
+          "32mm"
+        ],
+        "notes": null
+      },
+      "stats": {
+        "movement": "5\"",
+        "save": "5+",
+        "control": "2",
+        "health": "6"
+      },
+      "abilities": [
+        {
+          "name": "Carve a Path To Glory",
+          "header": {
+            "icon": "special",
+            "color": "yellow",
+            "text": "Any Combat Phase"
+          },
+          "declare": "This unit can only use this ability if it is in combat with an enemy Hero.",
+          "effect": "This unit can use 2 Fight abilities this phase. After the first is used, however, this unit has Strike-last for the rest of the turn. This unit can only use the second Fight ability if it is in combat with an enemy Hero, and if it does so, it must pick an enemy Hero to be the target of all of its attacks."
+        },
+        {
+          "name": "Oath of Bloodshed",
+          "header": {
+            "icon": "special",
+            "color": "yellow",
+            "text": "Once Per Battle, End of Any Turn"
+          },
+          "declare": "This unit can only use this ability if any enemy Heroes were slain by this unit’s combat attacks this turn.",
+          "effect": "Friendly Gunnar’s Oathsworn units have Ward (4+) for the rest of the battle."
+        }
+      ],
+      "primaryKeywords": [
+        "Unique",
+        "Hero",
+        "Infantry"
+      ],
+      "secondaryKeywords": [
+        "Chaos",
+        "Slaves to Darkness",
+        "Undivided",
+        "Darkoath",
+        "Gunnar’s Oathsworn"
+      ],
+      "meleeWeapons": [
+        {
+          "name": "Dual Axes",
+          "atk": "10",
+          "hit": "4+",
+          "wnd": "3+",
+          "rnd": "1",
+          "abilities": [
+            "Crit (Mortal)"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Gaunt Summoner",
+      "faction": "Slaves to Darkness",
+      "profile": {
+        "points": 170,
+        "unitSize": 1,
+        "regimentOptions": [],
+        "baseSizes": [
+          "40mm"
+        ],
+        "notes": null
+      },
+      "stats": {
+        "movement": "5\"",
+        "save": "6+",
+        "control": "2",
+        "health": "5"
+      },
+      "abilities": [
+        {
+          "name": "Minions of the Silver Tower",
+          "header": {
+            "icon": "special",
+            "color": "yellow",
+            "text": "Deployment Phase"
+          },
+          "declare": "Pick a friendly unit that has not been deployed to be the target.",
+          "effect": "The target is set up in reserve in a Silver Tower. It has now been deployed.",
+          "keywords": [
+            "Deploy"
+          ]
+        },
+        {
+          "name": "Divert Realmgate",
+          "header": {
+            "icon": "special",
+            "color": "yellow",
+            "text": "Your Hero Phase"
+          },
+          "declare": "Make a casting roll of 2D6.",
+          "effect": "Units set up this turn using this unit’s ‘Book of Profane Secrets’ ability can be set up wholly within 18\" of this unit and more than 7\" from all enemy units instead of the distances in the ability.",
+          "keywords": [
+            "Spell"
+          ],
+          "castingValue": 7
+        },
+        {
+          "name": "Book of Profane Secrets",
+          "header": {
+            "icon": "special",
+            "color": "yellow",
+            "text": "Your Movement Phase"
+          },
+          "declare": "Pick a friendly unit in a Silver Tower to be the target.",
+          "effect": "Set up the target on the battlefield wholly within 12\" of this unit and more than 9\" from all enemy units."
+        }
+      ],
+      "primaryKeywords": [
+        "Hero",
+        "Wizard (2)",
+        "Infantry",
+        "Ward (6+)"
+      ],
+      "secondaryKeywords": [
+        "Chaos",
+        "Slaves to Darkness",
+        "Daemon",
+        "Tzeentch"
+      ],
+      "rangedWeapons": [
+        {
+          "name": "Changestaff",
+          "rng": "12\"",
+          "atk": "3",
+          "hit": "4+",
+          "wnd": "3+",
+          "rnd": "1",
+          "abilities": [
+            "Crit (Mortal)"
+          ]
+        }
+      ],
+      "meleeWeapons": [
+        {
+          "name": "Warptongue Blade",
+          "atk": "3",
+          "hit": "3+",
+          "wnd": "3+",
+          "rnd": "1",
+          "abilities": []
+        }
+      ]
+    },
+    {
+      "name": "Chaos Warshrine",
+      "faction": "Slaves to Darkness",
+      "profile": {
+        "points": 250,
+        "unitSize": 1,
+        "regimentOptions": [],
+        "baseSizes": [
+          "120 x 92mm"
+        ],
+        "notes": null
+      },
+      "stats": {
+        "movement": "8\"",
+        "save": "4+",
+        "control": "5",
+        "health": "14"
+      },
+      "abilities": [
+        {
+          "name": "Battle Damaged",
+          "header": {
+            "icon": "special",
+            "color": "yellow",
+            "text": "Passive"
+          },
+          "declare": null,
+          "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its Flailing Fists is 4."
+        },
+        {
+          "name": "Favour of Chaos",
+          "header": {
+            "icon": "special",
+            "color": "yellow",
+            "text": "Your Hero Phase"
+          },
+          "declare": "Pick a visible friendly Slaves to Darkness unit wholly within 12\" of this unit that shares a Mark of Chaos keyword with this unit to be the target. Then, make a chanting roll of D6.",
+          "effect": "Apply 1 of the following effects to the target for the rest of the turn depending on which Mark of Chaos keyword this unit has:\n\n• Undivided: When the target uses the ‘Rally’ command, you can make 3 additional rally rolls of D6.\n• Khorne: Add 1 to hit rolls for the target’s attacks.\n• Tzeentch: The target has Ward (5+).\n• Nurgle: Add 1 to wound rolls for the target’s attacks.\n• Slaanesh: Add 1 to the number of dice rolled when making charge rolls for the target, to a maximum of 3.\n\nIf the chanting roll was 8+, you can pick up to 2 eligible units to be the targets instead of 1.",
+          "keywords": [
+            "Prayer"
+          ],
+          "chantingValue": 4
+        },
+        {
+          "name": "Protection of the Dark Gods",
+          "header": {
+            "icon": "special",
+            "color": "yellow",
+            "text": "Passive"
+          },
+          "declare": null,
+          "effect": "Friendly Warriors of Chaos units have Ward (6+) while they are wholly within 12\" of this unit."
+        }
+      ],
+      "primaryKeywords": [
+        "Hero",
+        "Priest (1)",
+        "War Machine"
+      ],
+      "secondaryKeywords": [
+        "Chaos",
+        "Slaves to Darkness",
+        "Warriors of Chaos"
+      ],
+      "meleeWeapons": [
+        {
+          "name": "💀 Flailing Fists",
+          "atk": "6",
+          "hit": "4+",
+          "wnd": "3+",
+          "rnd": "-",
+          "abilities": [
+            "Companion"
+          ]
+        },
+        {
+          "name": "Sacrificial Blade",
+          "atk": "4",
+          "hit": "3+",
+          "wnd": "3+",
+          "rnd": "1",
+          "abilities": []
+        }
+      ]
+    },
+    {
+      "name": "Darkoath Marauders",
+      "faction": "Slaves to Darkness",
+      "profile": {
+        "points": 100,
+        "unitSize": 10,
+        "regimentOptions": [],
+        "baseSizes": [
+          "28.5mm"
+        ],
+        "notes": null
+      },
+      "stats": {
+        "movement": "5\"",
+        "save": "5+",
+        "control": "1",
+        "health": "1"
+      },
+      "abilities": [
+        {
+          "name": "Oath of the Marauder",
+          "header": {
+            "icon": "special",
+            "color": "yellow",
+            "text": "Once Per Battle, Any Charge Phase"
+          },
+          "declare": null,
+          "effect": "If this unit charged this phase and the unmodified charge roll was 8+, add 1 to the Rend characteristic of this unit’s weapons for the rest of the battle."
+        },
+        {
+          "name": "Glorious Death",
+          "header": {
+            "icon": "special",
+            "color": "yellow",
+            "text": "Passive"
+          },
+          "declare": null,
+          "effect": "While this unit is wholly within 12\" of any friendly Darkoath Heroes, each time a model in this unit is slain by a combat attack and that model was in combat with the attacking unit, roll a dice. On a 5+, inflict 1 mortal damage on the attacking unit after the Fight ability has been resolved."
+        }
+      ],
+      "primaryKeywords": [
+        "Infantry",
+        "Champion",
+        "Musician (1/10)",
+        "Standard Bearer (1/10)"
+      ],
+      "secondaryKeywords": [
+        "Chaos",
+        "Slaves to Darkness",
+        "Undivided",
+        "Darkoath"
+      ],
+      "meleeWeapons": [
+        {
+          "name": "Raider Weapons",
+          "atk": "2",
+          "hit": "4+",
+          "wnd": "3+",
+          "rnd": "-",
+          "abilities": []
+        }
+      ]
+    },
+    {
+      "name": "Darkoath Chieftain on Warsteed",
+      "faction": "Slaves to Darkness",
+      "profile": {
+        "points": 180,
+        "unitSize": 1,
+        "regimentOptions": [],
+        "baseSizes": [
+          "75 x 42mm"
+        ],
+        "notes": null
+      },
+      "stats": {
+        "movement": "12\"",
+        "save": "4+",
+        "control": "2",
+        "health": "7"
+      },
+      "abilities": [
+        {
+          "name": "Cavalry Warleader",
+          "header": {
+            "icon": "special",
+            "color": "yellow",
+            "text": "Passive"
+          },
+          "declare": null,
+          "effect": "You can re-roll charge rolls for friendly Darkoath Cavalry units while they are wholly within 12\" of this unit."
+        },
+        {
+          "name": "Oath of Murder",
+          "header": {
+            "icon": "special",
+            "color": "yellow",
+            "text": "Once Per Battle, End of Any Turn"
+          },
+          "declare": null,
+          "effect": "If this unit destroyed an enemy Hero or Monster this turn, this unit has Strike-first for the rest of the battle."
+        }
+      ],
+      "primaryKeywords": [
+        "Hero",
+        "Cavalry"
+      ],
+      "secondaryKeywords": [
+        "Chaos",
+        "Slaves to Darkness",
+        "Undivided",
+        "Darkoath"
+      ],
+      "meleeWeapons": [
+        {
+          "name": "Darkoath Cursed Weapon",
+          "atk": "5",
+          "hit": "4+",
+          "wnd": "3+",
+          "rnd": "1",
+          "abilities": [
+            "Crit (Mortal)"
+          ]
+        },
+        {
+          "name": "Warsteed’s Hooves",
+          "atk": "2",
+          "hit": "5+",
+          "wnd": "3+",
+          "rnd": "-",
+          "abilities": [
+            "Companion"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Varanguard",
+      "faction": "Slaves to Darkness",
+      "profile": {
+        "points": 310,
+        "unitSize": 3,
+        "regimentOptions": [],
+        "baseSizes": [
+          "75 x 42mm"
+        ],
+        "notes": null
+      },
+      "stats": {
+        "movement": "10\"",
+        "save": "3+",
+        "control": "2",
+        "health": "5"
+      },
+      "abilities": [
+        {
+          "name": "Relentless Killers",
+          "header": {
+            "icon": "special",
+            "color": "yellow",
+            "text": "Once Per Battle, Any Combat Phase"
+          },
+          "declare": null,
+          "effect": "This unit can use 2 Fight abilities this phase. After the first is used, however, this unit has Strike-last for the rest of the turn."
+        }
+      ],
+      "primaryKeywords": [
+        "Cavalry"
+      ],
+      "secondaryKeywords": [
+        "Chaos",
+        "Slaves to Darkness",
+        "Warriors of Chaos"
+      ],
+      "meleeWeapons": [
+        {
+          "name": "Daemonforged Blades",
+          "atk": "3",
+          "hit": "3+",
+          "wnd": "3+",
+          "rnd": "2",
+          "abilities": [
+            "Crit (Mortal)",
+            "Charge (+1 Damage)"
+          ]
+        },
+        {
+          "name": "Steed’s Tearing Fangs",
+          "atk": "3",
+          "hit": "4+",
+          "wnd": "3+",
+          "rnd": "1",
+          "abilities": [
+            "Companion"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Iron Golem",
+      "faction": "Slaves to Darkness",
+      "profile": {
+        "points": 100,
+        "unitSize": 8,
+        "regimentOptions": [],
+        "baseSizes": [
+          "40mm [1]",
+          " 32mm [3]",
+          " 28.5mm [4]"
+        ],
+        "notes": "This unit cannot be reinforced."
+      },
+      "stats": {
+        "movement": "4\"",
+        "save": "4+",
+        "control": "1",
+        "health": "1"
+      },
+      "abilities": [
+        {
+          "name": "Iron Resilience",
+          "header": {
+            "icon": "special",
+            "color": "yellow",
+            "text": "Passive"
+          },
+          "declare": null,
+          "effect": "Add 1 to save rolls for this unit if it has not used a Move ability in the same turn."
+        },
+        {
+          "name": "Ogor Breacher",
+          "header": {
+            "icon": "special",
+            "color": "yellow",
+            "text": "Passive"
+          },
+          "declare": null,
+          "effect": "While this unit includes an Ogor Breacher, ignore the first damage point that would be allocated to this unit in each phase."
+        }
+      ],
+      "primaryKeywords": [
+        "Infantry",
+        "Champion (1/8)",
+        "Standard Bearer (1/8)"
+      ],
+      "secondaryKeywords": [
+        "Chaos",
+        "Slaves to Darkness",
+        "Undivided"
+      ],
+      "rangedWeapons": [
+        {
+          "name": "Bolas",
+          "rng": "8\"",
+          "atk": "1",
+          "hit": "4+",
+          "wnd": "4+",
+          "rnd": "-",
+          "abilities": [
+            "Shoot in Combat"
+          ]
+        }
+      ],
+      "meleeWeapons": [
+        {
+          "name": "Legion Weapons",
+          "atk": "2",
+          "hit": "4+",
+          "wnd": "4+",
+          "rnd": "-",
+          "abilities": []
+        }
+      ]
+    },
+    {
+      "name": "Eternus, Blade of the First Prince",
+      "faction": "Slaves to Darkness",
+      "profile": {
+        "points": 230,
+        "unitSize": 1,
+        "regimentOptions": [],
+        "baseSizes": [
+          "90 x 52mm"
+        ],
+        "notes": "This Hero can join Be’lakor’s regiment."
+      },
+      "stats": {
+        "movement": "9\"",
+        "save": "3+",
+        "control": "2",
+        "health": "9"
+      },
+      "abilities": [
+        {
+          "name": "Network of Spies",
+          "header": {
+            "icon": "special",
+            "color": "yellow",
+            "text": "Reaction: Opponent declared a command for a unit within 12\" of this unit"
+          },
+          "declare": null,
+          "effect": "Roll a dice. Add 1 to the roll if the enemy unit is in combat with a friendly Chaos Legionnaires or Chaos Furies unit. On a 5+, that command has no effect. The command still counts as having been used and the command points spent to use the command are still lost."
+        },
+        {
+          "name": "Veins of Black Lightning",
+          "header": {
+            "icon": "special",
+            "color": "yellow",
+            "text": "Any Movement Phase"
+          },
+          "declare": "This unit can use this ability if it has been destroyed.",
+          "effect": "Roll 2D6. Add 1 to the roll if a friendly Be’lakor is on the battlefield. On an 8+, set up a replacement unit on the battlefield more than 9\" from all enemy units.",
+          "keywords": [
+            "Core"
+          ]
+        }
+      ],
+      "primaryKeywords": [
+        "Unique",
+        "Hero",
+        "Cavalry"
+      ],
+      "secondaryKeywords": [
+        "Chaos",
+        "Slaves to Darkness",
+        "Undivided"
+      ],
+      "meleeWeapons": [
+        {
+          "name": "Drakocephalus’s Fangs",
+          "atk": "3",
+          "hit": "4+",
+          "wnd": "3+",
+          "rnd": "-",
+          "abilities": [
+            "Companion"
+          ]
+        },
+        {
+          "name": "Death Glaive and Skull Flail",
+          "atk": "6",
+          "hit": "3+",
+          "wnd": "3+",
+          "rnd": "1",
+          "abilities": [
+            "Charge (+1 Damage)"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Slaughterbrute",
+      "faction": "Slaves to Darkness",
+      "profile": {
+        "points": 240,
+        "unitSize": 1,
+        "regimentOptions": [],
+        "baseSizes": [
+          "120 x 92mm"
+        ],
+        "notes": null
+      },
+      "stats": {
+        "movement": "10\"",
+        "save": "4+",
+        "control": "5",
+        "health": "14"
+      },
+      "abilities": [
+        {
+          "name": "Sigils of  Domination",
+          "header": {
+            "icon": "special",
+            "color": "yellow",
+            "text": "Deployment Phase"
+          },
+          "declare": "Pick a friendly Slaves to Darkness Hero within this unit’s combat range to be this unit’s master.",
+          "effect": "For the rest of the battle, while this unit is within its master’s combat range, add 1 to the number of dice rolled when making charge rolls for this unit, to a maximum of 3."
+        },
+        {
+          "name": "Battle Damaged",
+          "header": {
+            "icon": "special",
+            "color": "yellow",
+            "text": "Passive"
+          },
+          "declare": null,
+          "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its Razor-tipped Claws is 5."
+        },
+        {
+          "name": "Rampaging Charge",
+          "header": {
+            "icon": "special",
+            "color": "yellow",
+            "text": "Once Per Turn (Army), Any Charge Phase"
+          },
+          "declare": "If this unit charged this phase, pick an enemy unit within 1\" of it to be the target.",
+          "effect": "Roll a D3. On a 2+, inflict an amount of mortal damage on the target equal to the roll. If the target unit is Infantry, double the amount of mortal damage inflicted.",
+          "keywords": [
+            "Rampage"
+          ]
+        }
+      ],
+      "primaryKeywords": [
+        "Monster"
+      ],
+      "secondaryKeywords": [
+        "Chaos",
+        "Slaves to Darkness",
+        "Daemon",
+        "Khorne"
+      ],
+      "meleeWeapons": [
+        {
+          "name": "💀 Razor-tipped Claws",
+          "atk": "8",
+          "hit": "4+",
+          "wnd": "2+",
+          "rnd": "1",
+          "abilities": [
+            "Anti-Infantry (+1 Rend)",
+            "Companion"
+          ]
+        },
+        {
+          "name": "Mighty Jaws",
+          "atk": "2",
+          "hit": "4+",
+          "wnd": "2+",
+          "rnd": "1",
+          "abilities": [
+            "Companion"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Darkoath Fellriders",
+      "faction": "Slaves to Darkness",
+      "profile": {
+        "points": 150,
+        "unitSize": 5,
+        "regimentOptions": [],
+        "baseSizes": [
+          "60 x 35mm"
+        ],
+        "notes": null
+      },
+      "stats": {
+        "movement": "12\"",
+        "save": "5+",
+        "control": "1",
+        "health": "3"
+      },
+      "abilities": [
+        {
+          "name": "Oath of the Raider",
+          "header": {
+            "icon": "special",
+            "color": "yellow",
+            "text": "Once Per Battle, Any Charge Phase"
+          },
+          "declare": null,
+          "effect": "If this unit charged this phase and is only in combat with 1 enemy unit, and that enemy unit is only in combat with this unit, add 1 to the Rend characteristic of this unit’s weapons for the rest of the battle."
+        },
+        {
+          "name": "Swift Attackers",
+          "header": {
+            "icon": "special",
+            "color": "yellow",
+            "text": "Passive"
+          },
+          "declare": null,
+          "effect": "Subtract 1 from hit rolls for shooting attacks that target this unit."
+        }
+      ],
+      "primaryKeywords": [
+        "Cavalry",
+        "Champion",
+        "Musician (1/5)",
+        "Standard Bearer (1/5)"
+      ],
+      "secondaryKeywords": [
+        "Chaos",
+        "Slaves to Darkness",
+        "Undivided",
+        "Darkoath"
+      ],
+      "rangedWeapons": [
+        {
+          "name": "Marauder Javelin",
+          "rng": "10\"",
+          "atk": "1",
+          "hit": "4+",
+          "wnd": "3+",
+          "rnd": "-",
+          "abilities": []
+        }
+      ],
+      "meleeWeapons": [
+        {
+          "name": "Broadsword",
+          "atk": "2",
+          "hit": "4+",
+          "wnd": "3+",
+          "rnd": "-",
+          "abilities": [
+            "Charge (+1 Damage)"
+          ]
+        },
+        {
+          "name": "Marauder Javelin",
+          "atk": "2",
+          "hit": "4+",
+          "wnd": "4+",
+          "rnd": "1",
+          "abilities": []
+        },
+        {
+          "name": "Warsteed’s Hooves",
+          "atk": "2",
+          "hit": "5+",
+          "wnd": "3+",
+          "rnd": "-",
+          "abilities": [
+            "Companion"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Raptoryx",
+      "faction": "Slaves to Darkness",
+      "profile": {
+        "points": 90,
+        "unitSize": 6,
+        "regimentOptions": [],
+        "baseSizes": [
+          "60 x 35mm"
+        ],
+        "notes": null
+      },
+      "stats": {
+        "movement": "10\"",
+        "save": "6+",
+        "control": "1",
+        "health": "2"
+      },
+      "abilities": [
+        {
+          "name": "Crazed Flock",
+          "header": {
+            "icon": "special",
+            "color": "yellow",
+            "text": "Passive"
+          },
+          "declare": null,
+          "effect": "If this unit charged this turn, for the rest of the turn, add 1 to the Attacks characteristic of its melee weapons."
+        },
+        {
+          "name": "Beast",
+          "header": {
+            "icon": "special",
+            "color": "yellow",
+            "text": "Passive"
+          },
+          "declare": null,
+          "effect": "This unit has a maximum control score of 1."
+        }
+      ],
+      "primaryKeywords": [
+        "Beast"
+      ],
+      "secondaryKeywords": [
+        "Chaos",
+        "Slaves to Darkness",
+        "Undivided"
+      ],
+      "meleeWeapons": [
+        {
+          "name": "Razor-sharp Beak and Talons",
+          "atk": "3",
+          "hit": "4+",
+          "wnd": "4+",
+          "rnd": "-",
+          "abilities": [
+            "Companion"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Tarantulos Brood",
+      "faction": "Slaves to Darkness",
+      "profile": {
+        "points": 150,
+        "unitSize": 13,
+        "regimentOptions": [],
+        "baseSizes": [
+          "32mm [1]",
+          " 28.5mm [2]",
+          " 25mm [10]"
+        ],
+        "notes": "This unit cannot be reinforced."
+      },
+      "stats": {
+        "movement": "6\"",
+        "save": "6+",
+        "control": "1",
+        "health": "1"
+      },
+      "abilities": [
+        {
+          "name": "Creeping Summons",
+          "header": {
+            "icon": "special",
+            "color": "yellow",
+            "text": "End of Any Turn"
+          },
+          "declare": null,
+          "effect": "Roll a dice. On a 2+, you can return D3 slain Spider Swarms to this unit."
+        }
+      ],
+      "primaryKeywords": [
+        "Infantry",
+        "Champion (1/13)"
+      ],
+      "secondaryKeywords": [
+        "Chaos",
+        "Slaves to Darkness",
+        "Undivided"
+      ],
+      "rangedWeapons": [
+        {
+          "name": "Envenomed Projectiles",
+          "rng": "10\"",
+          "atk": "1",
+          "hit": "4+",
+          "wnd": "4+",
+          "rnd": "1",
+          "abilities": [
+            "Crit (Auto-wound)"
+          ]
+        }
+      ],
+      "meleeWeapons": [
+        {
+          "name": "Venomous Bites",
+          "atk": "4",
+          "hit": "5+",
+          "wnd": "5+",
+          "rnd": "-",
+          "abilities": [
+            "Crit (Mortal)"
+          ]
+        },
+        {
+          "name": "Brood Weapons",
+          "atk": "2",
+          "hit": "4+",
+          "wnd": "4+",
+          "rnd": "-",
+          "abilities": []
+        }
+      ]
+    },
+    {
+      "name": "Gaunt Summoner on Disc of Tzeentch",
+      "faction": "Slaves to Darkness",
+      "profile": {
+        "points": 250,
+        "unitSize": 1,
+        "regimentOptions": [],
+        "baseSizes": [
+          "40mm"
+        ],
+        "notes": null
+      },
+      "stats": {
+        "movement": "14\"",
+        "save": "4+",
+        "control": "2",
+        "health": "6"
+      },
+      "abilities": [
+        {
+          "name": "Minions of the Silver Tower",
+          "header": {
+            "icon": "special",
+            "color": "yellow",
+            "text": "Deployment Phase"
+          },
+          "declare": "Pick a friendly unit that has not been deployed to be the target.",
+          "effect": "The target is set up in reserve in a Silver Tower. It has now been deployed.",
+          "keywords": [
+            "Deploy"
+          ]
+        },
+        {
+          "name": "Arcane Imprisonment",
+          "header": {
+            "icon": "special",
+            "color": "yellow",
+            "text": "Your Hero Phase"
+          },
+          "declare": "Pick an enemy Hero in combat with this unit to be the target, then make a casting roll of 2D6.",
+          "effect": "If the unmodified casting roll exceeds the target’s Health characteristic, it is automatically destroyed. For the rest of the battle, that unit cannot be picked to be the target of an ability that allows a replacement unit to be set up.",
+          "keywords": [
+            "Spell"
+          ],
+          "castingValue": 7
+        },
+        {
+          "name": "Book of Profane Secrets",
+          "header": {
+            "icon": "special",
+            "color": "yellow",
+            "text": "Your Movement Phase"
+          },
+          "declare": "Pick a friendly unit in a Silver Tower to be the target.",
+          "effect": "Set up the target on the battlefield wholly within 12\" of this unit and more than 9\" from all enemy units."
+        }
+      ],
+      "primaryKeywords": [
+        "Hero",
+        "Wizard (2)",
+        "Cavalry",
+        "Fly",
+        "Ward (6+)"
+      ],
+      "secondaryKeywords": [
+        "Chaos",
+        "Slaves to Darkness",
+        "Daemon",
+        "Tzeentch"
+      ],
+      "rangedWeapons": [
+        {
+          "name": "Changestaff",
+          "rng": "12\"",
+          "atk": "3",
+          "hit": "4+",
+          "wnd": "3+",
+          "rnd": "1",
+          "abilities": [
+            "Crit (Mortal)"
+          ]
+        }
+      ],
+      "meleeWeapons": [
+        {
+          "name": "Disc's Teeth and Horns",
+          "atk": "2",
+          "hit": "4+",
+          "wnd": "3+",
+          "rnd": "1",
+          "abilities": [
+            "Companion"
+          ]
+        },
+        {
+          "name": "Warptongue Blade",
+          "atk": "3",
+          "hit": "3+",
+          "wnd": "3+",
+          "rnd": "1",
+          "abilities": []
+        }
+      ]
+    },
+    {
+      "name": "Chaos Knights",
+      "faction": "Slaves to Darkness",
+      "profile": {
+        "points": 250,
+        "unitSize": 5,
+        "regimentOptions": [],
+        "baseSizes": [
+          "75 x 42mm"
+        ],
+        "notes": null
+      },
+      "stats": {
+        "movement": "10\"",
+        "save": "3+",
+        "control": "1",
+        "health": "4"
+      },
+      "abilities": [
+        {
+          "name": "Impaling Charge",
+          "header": {
+            "icon": "special",
+            "color": "yellow",
+            "text": "Passive"
+          },
+          "declare": null,
+          "effect": "If this unit charged this turn, for the rest of the turn, add 1 to the Rend characteristic of its Cursed Lances."
+        }
+      ],
+      "primaryKeywords": [
+        "Cavalry",
+        "Champion",
+        "Musician (1/5)",
+        "Standard Bearer (1/5)"
+      ],
+      "secondaryKeywords": [
+        "Chaos",
+        "Slaves to Darkness",
+        "Warriors of Chaos"
+      ],
+      "meleeWeapons": [
+        {
+          "name": "Cursed Lance",
+          "atk": "3",
+          "hit": "3+",
+          "wnd": "3+",
+          "rnd": "1",
+          "abilities": [
+            "Charge (+1 Damage)"
+          ]
+        },
+        {
+          "name": "Warsteed’s Hooves",
+          "atk": "2",
+          "hit": "5+",
+          "wnd": "3+",
+          "rnd": "-",
+          "abilities": [
+            "Companion"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Daemon Prince",
+      "faction": "Slaves to Darkness",
+      "profile": {
+        "points": 280,
+        "unitSize": 1,
+        "regimentOptions": [],
+        "baseSizes": [
+          "60mm"
+        ],
+        "notes": null
+      },
+      "stats": {
+        "movement": "8\"",
+        "save": "3+",
+        "control": "5",
+        "health": "10"
+      },
+      "abilities": [
+        {
+          "name": "Ruinous Favour",
+          "header": {
+            "icon": "special",
+            "color": "yellow",
+            "text": "Your Hero Phase"
+          },
+          "declare": "Pick a friendly non-Unique unit wholly within 12\" of this unit that shares a Mark of Chaos keyword with this unit to be the target.",
+          "effect": "Roll a dice. On a 3+, the target can immediately use the ‘Eye of the Gods’ ability as if it were the end of the turn and they had destroyed an enemy unit this turn."
+        },
+        {
+          "name": "Airborne Horror",
+          "header": {
+            "icon": "special",
+            "color": "yellow",
+            "text": "Passive"
+          },
+          "declare": null,
+          "effect": "If this unit has Wings, it has a Move characteristic of 10\" and has Fly."
+        },
+        {
+          "name": "The Mounted Skulls of the Fallen",
+          "header": {
+            "icon": "special",
+            "color": "yellow",
+            "text": "Passive"
+          },
+          "declare": null,
+          "effect": "If this unit has a Trophy Rack, its Hellforged Weapons also have Anti‑Hero (+1 Rend)."
+        }
+      ],
+      "primaryKeywords": [
+        "Hero",
+        "Infantry",
+        "Ward (6+)"
+      ],
+      "secondaryKeywords": [
+        "Chaos",
+        "Slaves to Darkness",
+        "Daemon"
+      ],
+      "meleeWeapons": [
+        {
+          "name": "Hellforged Weapons",
+          "atk": "6",
+          "hit": "3+",
+          "wnd": "3+",
+          "rnd": "1",
+          "abilities": [
+            "Crit (Mortal)"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Corvus Cabal",
+      "faction": "Slaves to Darkness",
+      "profile": {
+        "points": 100,
+        "unitSize": 9,
+        "regimentOptions": [],
+        "baseSizes": [
+          "40mm [1]",
+          " 28.5mm [3]",
+          " 25mm [5]"
+        ],
+        "notes": "This unit cannot be reinforced."
+      },
+      "stats": {
+        "movement": "6\"",
+        "save": "6+",
+        "control": "1",
+        "health": "1"
+      },
+      "abilities": [
+        {
+          "name": "Shadow-lurkers",
+          "header": {
+            "icon": "special",
+            "color": "yellow",
+            "text": "Deployment Phase"
+          },
+          "declare": "Pick this unit if it has not been deployed.",
+          "effect": "Set up this unit in reserve lurking in the shadows. It has now been deployed.",
+          "keywords": [
+            "Deploy"
+          ]
+        },
+        {
+          "name": "Strike From The Shadows",
+          "header": {
+            "icon": "special",
+            "color": "yellow",
+            "text": "Your Movement Phase"
+          },
+          "declare": "Pick this unit if it is lurking in the shadows.",
+          "effect": "Set up this unit anywhere on the battlefield more than 9\" from all enemy units. Then, add 1 to charge rolls for this unit for the rest of the turn."
+        }
+      ],
+      "primaryKeywords": [
+        "Infantry",
+        "Champion (1/9)"
+      ],
+      "secondaryKeywords": [
+        "Chaos",
+        "Slaves to Darkness",
+        "Undivided"
+      ],
+      "rangedWeapons": [
+        {
+          "name": "Raven Darts",
+          "rng": "10\"",
+          "atk": "1",
+          "hit": "4+",
+          "wnd": "4+",
+          "rnd": "-",
+          "abilities": [
+            "Shoot in Combat"
+          ]
+        }
+      ],
+      "meleeWeapons": [
+        {
+          "name": "Hooked Weapons",
+          "atk": "2",
+          "hit": "4+",
+          "wnd": "4+",
+          "rnd": "-",
+          "abilities": [
+            "Crit (2 Hits)"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Darkoath Wilderfiend",
+      "faction": "Slaves to Darkness",
+      "profile": {
+        "points": 190,
+        "unitSize": 1,
+        "regimentOptions": [],
+        "baseSizes": [
+          "60mm"
+        ],
+        "notes": null
+      },
+      "stats": {
+        "movement": "8\"",
+        "save": "5+",
+        "control": "1",
+        "health": "9"
+      },
+      "abilities": [
+        {
+          "name": "Feed on Flesh",
+          "header": {
+            "icon": "special",
+            "color": "yellow",
+            "text": "Passive"
+          },
+          "declare": null,
+          "effect": "Each time a model (friendly or enemy) is slain within 12\" of this unit, give this unit a sacrifice point, to a maximum of 6. If there are more than 1 friendly Darkoath Wilderfiend units within 12\" of the slain model, only 1 of them can be given a sacrifice point for that slain model."
+        },
+        {
+          "name": "Primal Sorcery",
+          "header": {
+            "icon": "special",
+            "color": "yellow",
+            "text": "Your Hero Phase"
+          },
+          "declare": null,
+          "effect": "Pick 1 of the following effects:\n\nMind Shroud: Pick an enemy unit within 12\" of this unit to be the target and roll a number of dice equal to the number of sacrifice points this unit has. If any of the rolls are a 5+, the target cannot use commands for the rest of the turn.\n\nWarping Balefire: Pick an enemy unit within 12\" of this unit to be the target and roll a number of dice equal to the number of sacrifice points this unit has. For each 3+, inflict 1 mortal damage on the target.\n\nDark Might: Heal (X) this unit, where X is the number of sacrifice points this unit has.\n\nAfter applying the effect you picked, reset this unit’s sacrifice points to 0."
+        },
+        {
+          "name": "Beast",
+          "header": {
+            "icon": "special",
+            "color": "yellow",
+            "text": "Passive"
+          },
+          "declare": null,
+          "effect": "This unit has a maximum control score of 1."
+        }
+      ],
+      "primaryKeywords": [
+        "Beast",
+        "Ward (5+)"
+      ],
+      "secondaryKeywords": [
+        "Chaos",
+        "Slaves to Darkness",
+        "Undivided",
+        "Darkoath"
+      ],
+      "meleeWeapons": [
+        {
+          "name": "Razor-sharp Claws",
+          "atk": "6",
+          "hit": "4+",
+          "wnd": "3+",
+          "rnd": "1",
+          "abilities": [
+            "Companion"
+          ]
+        },
+        {
+          "name": "Flesh-tearing Maw",
+          "atk": "3",
+          "hit": "3+",
+          "wnd": "3+",
+          "rnd": "2",
+          "abilities": [
+            "Companion"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Splintered Fang",
+      "faction": "Slaves to Darkness",
+      "profile": {
+        "points": 110,
+        "unitSize": 9,
+        "regimentOptions": [],
+        "baseSizes": [
+          "32mm [3]",
+          " 28.5mm [2]",
+          " 25mm [5]"
+        ],
+        "notes": "This unit cannot be reinforced."
+      },
+      "stats": {
+        "movement": "6\"",
+        "save": "5+",
+        "control": "1",
+        "health": "1"
+      },
+      "abilities": [
+        {
+          "name": "Paralysing Strikes",
+          "header": {
+            "icon": "special",
+            "color": "yellow",
+            "text": "Passive"
+          },
+          "declare": null,
+          "effect": "Each time this unit uses a Fight ability, if its attacks score 2 or more critical hits against the same enemy unit, that unit has Strike‑last for the rest of the turn."
+        },
+        {
+          "name": "Slithering Serpents",
+          "header": {
+            "icon": "special",
+            "color": "yellow",
+            "text": "End of Any Turn"
+          },
+          "declare": "If this unit’s Serpents are on the battlefield, pick an enemy unit in combat with this unit to be the target.",
+          "effect": "Roll a D3. On a 1, remove this unit’s Serpents from the battlefield. On a 2+, inflict an amount of mortal damage on the target equal to the roll."
+        }
+      ],
+      "primaryKeywords": [
+        "Infantry",
+        "Champion (1/9)"
+      ],
+      "secondaryKeywords": [
+        "Chaos",
+        "Slaves to Darkness",
+        "Undivided"
+      ],
+      "meleeWeapons": [
+        {
+          "name": "Poisoned Weapons",
+          "atk": "2",
+          "hit": "4+",
+          "wnd": "4+",
+          "rnd": "-",
+          "abilities": [
+            "Crit (Mortal)"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Exalted Hero of Chaos",
+      "faction": "Slaves to Darkness",
+      "profile": {
+        "points": 130,
+        "unitSize": 1,
+        "regimentOptions": [],
+        "baseSizes": [
+          "32mm"
+        ],
+        "notes": "This Hero can join an eligible regiment as a Ruinous Champion."
+      },
+      "stats": {
+        "movement": "5\"",
+        "save": "3+",
+        "control": "2",
+        "health": "6"
+      },
+      "abilities": [
+        {
+          "name": "Glory-seeker",
+          "header": {
+            "icon": "special",
+            "color": "yellow",
+            "text": "Passive"
+          },
+          "declare": null,
+          "effect": "Add 1 to the Damage characteristic of this unit’s melee weapons for attacks that target Heroes or Monsters."
+        }
+      ],
+      "primaryKeywords": [
+        "Hero",
+        "Infantry"
+      ],
+      "secondaryKeywords": [
+        "Chaos",
+        "Slaves to Darkness",
+        "Warriors of Chaos"
+      ],
+      "meleeWeapons": [
+        {
+          "name": "Blades of the Dark Champion",
+          "atk": "5",
+          "hit": "3+",
+          "wnd": "3+",
+          "rnd": "1",
+          "abilities": [
+            "Anti-Hero (+1 Rend)",
+            "Anti-Monster (+1 Rend)"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Centaurion Marshal",
+      "faction": "Slaves to Darkness",
+      "profile": {
+        "points": 180,
+        "unitSize": 1,
+        "regimentOptions": [],
+        "baseSizes": [
+          "80mm"
+        ],
+        "notes": "This Hero can join an eligible regiment as a Ruinous Champion."
+      },
+      "stats": {
+        "movement": "8\"",
+        "save": "4+",
+        "control": "2",
+        "health": "10"
+      },
+      "abilities": [
+        {
+          "name": "Marshal of the Legions",
+          "header": {
+            "icon": "special",
+            "color": "yellow",
+            "text": "Reaction: You declared a Fight ability for this unit"
+          },
+          "declare": null,
+          "effect": "Pick a friendly non-Hero Undivided unit that has not used a Fight ability this turn and is within this unit’s combat range to be the target. The target can be picked to use a Fight ability immediately after the Fight ability used by this unit has been resolved. If it is picked to do so, add 1 to hit rolls for the target’s attacks for the rest of the turn."
+        }
+      ],
+      "primaryKeywords": [
+        "Hero",
+        "Cavalry"
+      ],
+      "secondaryKeywords": [
+        "Chaos",
+        "Slaves to Darkness",
+        "Undivided"
+      ],
+      "meleeWeapons": [
+        {
+          "name": "Mauling Spear, Skull Bludgeon and Varanspire Gladius",
+          "atk": "6",
+          "hit": "3+",
+          "wnd": "3+",
+          "rnd": "1",
+          "abilities": [
+            "Charge (+1 Damage)"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Chaos Chosen",
+      "faction": "Slaves to Darkness",
+      "profile": {
+        "points": 250,
+        "unitSize": 5,
+        "regimentOptions": [],
+        "baseSizes": [
+          "32mm"
+        ],
+        "notes": null
+      },
+      "stats": {
+        "movement": "5\"",
+        "save": "3+",
+        "control": "1",
+        "health": "3"
+      },
+      "abilities": [
+        {
+          "name": "Heralds of Ruination",
+          "header": {
+            "icon": "special",
+            "color": "yellow",
+            "text": "Once Per Battle, Any Combat Phase"
+          },
+          "declare": null,
+          "effect": "This unit can use 2 Fight abilities this phase. After the first is used, however, this unit has Strike-last for the rest of the turn."
+        }
+      ],
+      "primaryKeywords": [
+        "Infantry",
+        "Champion",
+        "Musician (1/5)",
+        "Standard Bearer (1/5)"
+      ],
+      "secondaryKeywords": [
+        "Chaos",
+        "Slaves to Darkness",
+        "Warriors of Chaos"
+      ],
+      "meleeWeapons": [
+        {
+          "name": "Soul Splitter",
+          "atk": "3",
+          "hit": "3+",
+          "wnd": "3+",
+          "rnd": "1",
+          "abilities": [
+            "Crit (Mortal)"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Archaon, the Everchosen",
+      "faction": "Slaves to Darkness",
+      "profile": {
+        "points": 890,
+        "unitSize": 1,
+        "regimentOptions": [],
+        "baseSizes": [
+          "160mm"
+        ],
+        "notes": null
+      },
+      "stats": {
+        "movement": "14\"",
+        "save": "3+",
+        "control": "10",
+        "health": "25"
+      },
+      "abilities": [
+        {
+          "name": "The Favoured Warlord",
+          "header": {
+            "icon": "special",
+            "color": "yellow",
+            "text": "Deployment Phase"
+          },
+          "declare": null,
+          "effect": "Pick 1 of the following keywords: Khorne, Tzeentch, Nurgle or Slaanesh. This unit has that keyword in addition to Undivided."
+        },
+        {
+          "name": "Battle Damaged",
+          "header": {
+            "icon": "special",
+            "color": "yellow",
+            "text": "Passive"
+          },
+          "declare": null,
+          "effect": "While this unit has 10 or more damage points, the Attacks characteristic of Dorghar’s Claws and Tails is 4."
+        },
+        {
+          "name": "The Eye of Sheerian",
+          "header": {
+            "icon": "special",
+            "color": "yellow",
+            "text": "Once Per Battle, Your Hero Phase"
+          },
+          "declare": null,
+          "effect": "Roll a dice. This roll replaces the priority roll of the next battle round. On a 1-3, your opponent must take the first turn of that battle round. On a 4-6, you must take the first turn of that battle round. This ability cannot be used if there is an enemy Archaon on the battlefield."
+        },
+        {
+          "name": "Three-headed Titan",
+          "header": {
+            "icon": "special",
+            "color": "yellow",
+            "text": "Once Per Turn (Army), Any Combat Phase"
+          },
+          "declare": null,
+          "effect": "Pick 1 of the following effects:\n\nFilth-spewer: Pick an enemy unit within 6\" of this unit and roll a number of dice equal to the number of models in that unit, to a maximum of 7. For each 3+, inflict 1 mortal damage on that unit.\n\nSkull-gorger: Pick an enemy unit in combat with this unit and roll a dice. If the roll exceeds that unit’s Health characteristic, 1 model in that unit is slain and you can Heal (X) this unit, where X is that unit’s Health characteristic.\n\nSpell-eater: Pick a Manifestation within 12\" of this unit and roll a dice. On a 2+, it is banished and inflict D3 mortal damage on the unit that summoned it.",
+          "keywords": [
+            "Rampage"
+          ]
+        },
+        {
+          "name": "The Slayer of Kings",
+          "header": {
+            "icon": "special",
+            "color": "yellow",
+            "text": "Passive"
+          },
+          "declare": null,
+          "effect": "Each time this unit uses a Fight ability, if the unmodified wound roll for 2 or more attacks made with The Slayer of Kings that target the same Hero is 6, that Hero is automatically destroyed."
+        }
+      ],
+      "primaryKeywords": [
+        "Warmaster",
+        "Unique",
+        "Hero",
+        "Monster",
+        "Wizard (2)",
+        "Fly",
+        "Ward (5+)"
+      ],
+      "secondaryKeywords": [
+        "Chaos",
+        "Slaves to Darkness",
+        "Daemon",
+        "Undivided",
+        "Warriors of Chaos"
+      ],
+      "meleeWeapons": [
+        {
+          "name": "Dorghar’s Heads",
+          "atk": "3",
+          "hit": "3+",
+          "wnd": "2+",
+          "rnd": "1",
+          "abilities": [
+            "Companion"
+          ]
+        },
+        {
+          "name": "💀 Dorghar’s Claws and Tails",
+          "atk": "6",
+          "hit": "4+",
+          "wnd": "2+",
+          "rnd": "2",
+          "abilities": [
+            "Companion"
+          ]
+        },
+        {
+          "name": "The Slayer of Kings",
+          "atk": "4",
+          "hit": "2+",
+          "wnd": "3+",
+          "rnd": "2",
+          "abilities": []
+        }
+      ]
+    },
+    {
+      "name": "Ogroid Theridons",
+      "faction": "Slaves to Darkness",
+      "profile": {
+        "points": 200,
+        "unitSize": 3,
+        "regimentOptions": [],
+        "baseSizes": [
+          "50mm"
+        ],
+        "notes": null
+      },
+      "stats": {
+        "movement": "6\"",
+        "save": "4+",
+        "control": "2",
+        "health": "5"
+      },
+      "abilities": [
+        {
+          "name": "Unleashed Savagery",
+          "header": {
+            "icon": "special",
+            "color": "yellow",
+            "text": "Once Per Battle, Any Combat Phase"
+          },
+          "declare": null,
+          "effect": "Add 1 to the Damage characteristic of this unit’s melee weapons for the rest of the turn."
+        }
+      ],
+      "primaryKeywords": [
+        "Infantry",
+        "Champion",
+        "Musician (1/3)",
+        "Standard Bearer (1/3)"
+      ],
+      "secondaryKeywords": [
+        "Chaos",
+        "Slaves to Darkness"
+      ],
+      "meleeWeapons": [
+        {
+          "name": "Goroan Weapons",
+          "atk": "4",
+          "hit": "4+",
+          "wnd": "2+",
+          "rnd": "1",
+          "abilities": [
+            "Anti-Infantry (+1 Rend)"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "The Oathsworn Kin",
+      "faction": "Slaves to Darkness",
+      "profile": {
+        "points": 0,
+        "unitSize": 3,
+        "regimentOptions": [],
+        "baseSizes": [
+          "32mm"
+        ],
+        "notes": "This unit can only be taken in Gunnar Brand’s regiment. This unit cannot be reinforced."
+      },
+      "stats": {
+        "movement": "5\"",
+        "save": "5+",
+        "control": "1",
+        "health": "3"
+      },
+      "abilities": [
+        {
+          "name": "Broken Nadja",
+          "header": {
+            "icon": "special",
+            "color": "yellow",
+            "text": "Passive"
+          },
+          "declare": null,
+          "effect": "While this unit’s Broken Nadja is on the battlefield, it has Wizard (1)."
+        },
+        {
+          "name": "Withering Death",
+          "header": {
+            "icon": "special",
+            "color": "yellow",
+            "text": "Your Hero Phase"
+          },
+          "declare": "Pick a visible enemy Hero within 18\" of this unit to be the target, then make a casting roll of 2D6.",
+          "effect": "Inflict 1 mortal damage on the target and subtract 1 from the Attacks characteristic of the target’s melee weapons until the start of your next turn.",
+          "keywords": [
+            "Spell"
+          ],
+          "castingValue": 5
+        }
+      ],
+      "primaryKeywords": [
+        "Unique",
+        "Infantry"
+      ],
+      "secondaryKeywords": [
+        "Chaos",
+        "Slaves to Darkness",
+        "Undivided",
+        "Darkoath",
+        "Gunnar’s Oathsworn"
+      ],
+      "meleeWeapons": [
+        {
+          "name": "Gnarled Staff",
+          "atk": "3",
+          "hit": "4+",
+          "wnd": "4+",
+          "rnd": "-",
+          "abilities": []
+        },
+        {
+          "name": "Heavy Darkoath Weapon",
+          "atk": "4",
+          "hit": "4+",
+          "wnd": "3+",
+          "rnd": "-",
+          "abilities": [
+            "Crit (Mortal)"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Darkoath Warqueen",
+      "faction": "Slaves to Darkness",
+      "profile": {
+        "points": 140,
+        "unitSize": 1,
+        "regimentOptions": [],
+        "baseSizes": [
+          "32mm"
+        ],
+        "notes": null
+      },
+      "stats": {
+        "movement": "5\"",
+        "save": "5+",
+        "control": "2",
+        "health": "5"
+      },
+      "abilities": [
+        {
+          "name": "Ruin-blessed Conqueror",
+          "header": {
+            "icon": "special",
+            "color": "yellow",
+            "text": "Once Per Turn (Army), Your Hero Phase"
+          },
+          "declare": "Pick an objective that this unit is contesting.",
+          "effect": "Roll a dice. On a 3+, for the rest of the turn, other friendly Darkoath units have Ward (5+) while they are contesting that objective."
+        },
+        {
+          "name": "Oath of Supremacy",
+          "header": {
+            "icon": "special",
+            "color": "yellow",
+            "text": "Once Per Battle, Any Charge Phase"
+          },
+          "declare": null,
+          "effect": "If this unit is wholly within enemy territory and charged this phase, for the rest of the battle, add 1 to hit rolls for combat attacks made by friendly Darkoath units while they are wholly within 12\" of this unit."
+        }
+      ],
+      "primaryKeywords": [
+        "Hero",
+        "Infantry",
+        "Ward (5+)"
+      ],
+      "secondaryKeywords": [
+        "Chaos",
+        "Slaves to Darkness",
+        "Undivided",
+        "Darkoath"
+      ],
+      "meleeWeapons": [
+        {
+          "name": "Rune-etched Axe",
+          "atk": "5",
+          "hit": "4+",
+          "wnd": "3+",
+          "rnd": "1",
+          "abilities": [
+            "Crit (Mortal)"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Chaos Lord on Karkadrak",
+      "faction": "Slaves to Darkness",
+      "profile": {
+        "points": 250,
+        "unitSize": 1,
+        "regimentOptions": [],
+        "baseSizes": [
+          "90 x 52mm"
+        ],
+        "notes": null
+      },
+      "stats": {
+        "movement": "9\"",
+        "save": "3+",
+        "control": "2",
+        "health": "10"
+      },
+      "abilities": [
+        {
+          "name": "Brutush Rampage",
+          "header": {
+            "icon": "special",
+            "color": "yellow",
+            "text": "Any Charge Phase"
+          },
+          "declare": "If this unit charged this phase, pick up to 3 enemy units within 1\" of it to be the targets.",
+          "effect": "Roll a D3 for each target. On a 2+, inflict an amount of mortal damage on the target equal to the roll."
+        },
+        {
+          "name": "Drive The Legions Forward",
+          "header": {
+            "icon": "special",
+            "color": "yellow",
+            "text": "Once Per Battle (Army), Any Charge Phase"
+          },
+          "declare": "Pick this unit and up to 2 friendly non-Hero Warriors of Chaos units wholly within 12\" of this unit to be the targets.",
+          "effect": "Add 2 to charge rolls for the targets for the rest of the turn."
+        }
+      ],
+      "primaryKeywords": [
+        "Hero",
+        "Cavalry"
+      ],
+      "secondaryKeywords": [
+        "Chaos",
+        "Slaves to Darkness",
+        "Warriors of Chaos"
+      ],
+      "meleeWeapons": [
+        {
+          "name": "Hexed Weapons",
+          "atk": "5",
+          "hit": "3+",
+          "wnd": "3+",
+          "rnd": "1",
+          "abilities": [
+            "Crit (Mortal)",
+            "Charge (+1 Damage)"
+          ]
+        },
+        {
+          "name": "Karkadrak’s Claws and Horn",
+          "atk": "4",
+          "hit": "4+",
+          "wnd": "3+",
+          "rnd": "1",
+          "abilities": [
+            "Companion"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Untamed Beasts",
+      "faction": "Slaves to Darkness",
+      "profile": {
+        "points": 110,
+        "unitSize": 9,
+        "regimentOptions": [],
+        "baseSizes": [
+          "40mm [1]",
+          " 32mm [3]",
+          " 28.5mm [2]",
+          " 25mm [3]"
+        ],
+        "notes": "This unit cannot be reinforced."
+      },
+      "stats": {
+        "movement": "6\"",
+        "save": "6+",
+        "control": "1",
+        "health": "1"
+      },
+      "abilities": [
+        {
+          "name": "Unleash The Beast",
+          "header": {
+            "icon": "special",
+            "color": "yellow",
+            "text": "Deployment Phase"
+          },
+          "declare": null,
+          "effect": "This unit can use the ‘Normal Move’ ability as if it were your movement phase."
+        },
+        {
+          "name": "Jagged Harpoon",
+          "header": {
+            "icon": "special",
+            "color": "yellow",
+            "text": "End of Any Turn"
+          },
+          "declare": "If this unit includes a First Fang, pick an enemy unit in combat with this unit to be the target.",
+          "effect": "Roll a D3. If the target is a Beast or Monster, roll a dice instead. On a 2+, inflict an amount of mortal damage on the target equal to the roll."
+        }
+      ],
+      "primaryKeywords": [
+        "Infantry",
+        "Champion (1/9)"
+      ],
+      "secondaryKeywords": [
+        "Chaos",
+        "Slaves to Darkness",
+        "Undivided"
+      ],
+      "meleeWeapons": [
+        {
+          "name": "Ghurish Hunting Weapons",
+          "atk": "2",
+          "hit": "4+",
+          "wnd": "4+",
+          "rnd": "-",
+          "abilities": [
+            "Crit (2 Hits)"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Chaos Furies",
+      "faction": "Slaves to Darkness",
+      "profile": {
+        "points": 100,
+        "unitSize": 6,
+        "regimentOptions": [],
+        "baseSizes": [
+          "32mm"
+        ],
+        "notes": null
+      },
+      "stats": {
+        "movement": "12\"",
+        "save": "6+",
+        "control": "1",
+        "health": "1"
+      },
+      "abilities": [
+        {
+          "name": "Sneaky Little Devils",
+          "header": {
+            "icon": "special",
+            "color": "yellow",
+            "text": "Any Combat Phase"
+          },
+          "declare": null,
+          "effect": "If this unit is in combat, roll a dice. On a 3+, this unit can immediately use the ‘Retreat’ ability as if it were your movement phase without any mortal damage being inflicted on it."
+        }
+      ],
+      "primaryKeywords": [
+        "Infantry",
+        "Fly",
+        "Ward (6+)"
+      ],
+      "secondaryKeywords": [
+        "Chaos",
+        "Slaves to Darkness",
+        "Daemon",
+        "Undivided"
+      ],
+      "meleeWeapons": [
+        {
+          "name": "Razor-sharp Dagger and Claws",
+          "atk": "3",
+          "hit": "4+",
+          "wnd": "4+",
+          "rnd": "1",
+          "abilities": []
+        }
+      ]
+    },
+    {
+      "name": "Eightfold Doom-Sigil",
+      "faction": "Slaves to Darkness",
+      "profile": {
+        "points": null,
+        "unitSize": 1,
+        "regimentOptions": [],
+        "baseSizes": [
+          "75mm"
+        ],
+        "notes": null
+      },
+      "stats": {
+        "movement": "-",
+        "save": "5+",
+        "control": "7+",
+        "health": "6"
+      },
+      "abilities": [
+        {
+          "name": "Empowered By Atrocity",
+          "header": {
+            "icon": "special",
+            "color": "yellow",
+            "text": "Passive"
+          },
+          "declare": null,
+          "effect": "If 2 or more units (friendly or enemy) were destroyed this turn, for the rest of the turn, add 1 to the Attacks characteristic of melee weapons used by friendly Slaves to Darkness units while they are wholly within 12\" of this Manifestation."
+        }
+      ],
+      "primaryKeywords": [
+        "Manifestation",
+        "Endless Spell",
+        "Ward (6+)"
+      ],
+      "secondaryKeywords": [
+        "Chaos",
+        "Slaves to Darkness"
+      ]
+    },
+    {
+      "name": "Chaos Sorcerer Lord",
+      "faction": "Slaves to Darkness",
+      "profile": {
+        "points": 120,
+        "unitSize": 1,
+        "regimentOptions": [],
+        "baseSizes": [
+          "32mm"
+        ],
+        "notes": null
+      },
+      "stats": {
+        "movement": "5\"",
+        "save": "4+",
+        "control": "2",
+        "health": "5"
+      },
+      "abilities": [
+        {
+          "name": "Oracular Visions",
+          "header": {
+            "icon": "special",
+            "color": "yellow",
+            "text": "Once Per Turn (Army), Your Hero Phase"
+          },
+          "declare": "Pick a friendly Warriors of Chaos unit wholly within 12\" of this unit to be the target and roll a dice.",
+          "effect": "On a 3+, the target has Ward (5+) until the start of your next turn."
+        }
+      ],
+      "primaryKeywords": [
+        "Hero",
+        "Wizard (1)",
+        "Infantry"
+      ],
+      "secondaryKeywords": [
+        "Chaos",
+        "Slaves to Darkness",
+        "Warriors of Chaos"
+      ],
+      "meleeWeapons": [
+        {
+          "name": "Sorcerer Staff and Runeblade",
+          "atk": "3",
+          "hit": "4+",
+          "wnd": "3+",
+          "rnd": "1",
+          "abilities": []
+        }
+      ]
+    },
+    {
+      "name": "Chaos Legionnaires",
+      "faction": "Slaves to Darkness",
+      "profile": {
+        "points": 90,
+        "unitSize": 8,
+        "regimentOptions": [],
+        "baseSizes": [
+          "32mm [5]",
+          " 28.5mm [3]"
+        ],
+        "notes": "This unit cannot be reinforced."
+      },
+      "stats": {
+        "movement": "5\"",
+        "save": "4+",
+        "control": "1",
+        "health": "1"
+      },
+      "abilities": [
+        {
+          "name": "Sow Confusion",
+          "header": {
+            "icon": "special",
+            "color": "yellow",
+            "text": "Once Per Turn (Army), Your Movement Phase"
+          },
+          "declare": "Pick an enemy unit within 6\" of this unit to be the target.",
+          "effect": "Roll a dice. On a 4+, the target cannot use commands for the rest of the turn."
+        }
+      ],
+      "primaryKeywords": [
+        "Infantry",
+        "Champion (1/8)"
+      ],
+      "secondaryKeywords": [
+        "Chaos",
+        "Slaves to Darkness",
+        "Undivided"
+      ],
+      "meleeWeapons": [
+        {
+          "name": "Darkiron Weapons",
+          "atk": "2",
+          "hit": "3+",
+          "wnd": "4+",
+          "rnd": "1",
+          "abilities": []
+        }
+      ]
+    },
+    {
+      "name": "Cypher Lords",
+      "faction": "Slaves to Darkness",
+      "profile": {
+        "points": 100,
+        "unitSize": 8,
+        "regimentOptions": [],
+        "baseSizes": [
+          "32mm [1]",
+          " 28.5mm [4]",
+          " 25mm [3]"
+        ],
+        "notes": "This unit cannot be reinforced."
+      },
+      "stats": {
+        "movement": "6\"",
+        "save": "6+",
+        "control": "1",
+        "health": "1"
+      },
+      "abilities": [
+        {
+          "name": "Shattered Gloom Globes",
+          "header": {
+            "icon": "special",
+            "color": "yellow",
+            "text": "Once Per Battle, Any Hero Phase"
+          },
+          "declare": null,
+          "effect": "This unit cannot be targeted by shooting attacks for the rest of the turn."
+        },
+        {
+          "name": "Acrobatic Leaps",
+          "header": {
+            "icon": "special",
+            "color": "yellow",
+            "text": "Passive"
+          },
+          "declare": null,
+          "effect": "This unit has Strike-first if it charged in the same turn."
+        }
+      ],
+      "primaryKeywords": [
+        "Infantry",
+        "Champion (1/8)"
+      ],
+      "secondaryKeywords": [
+        "Chaos",
+        "Slaves to Darkness",
+        "Undivided"
+      ],
+      "rangedWeapons": [
+        {
+          "name": "Throwing Stars and Chakrams",
+          "rng": "10\"",
+          "atk": "1",
+          "hit": "4+",
+          "wnd": "4+",
+          "rnd": "-",
+          "abilities": [
+            "Shoot in Combat"
+          ]
+        }
+      ],
+      "meleeWeapons": [
+        {
+          "name": "Exotic Blades",
+          "atk": "2",
+          "hit": "3+",
+          "wnd": "4+",
+          "rnd": "-",
+          "abilities": []
+        }
+      ]
+    },
+    {
+      "name": "Mutalith Vortex Beast",
+      "faction": "Slaves to Darkness",
+      "profile": {
+        "points": 190,
+        "unitSize": 1,
+        "regimentOptions": [],
+        "baseSizes": [
+          "120 x 92mm"
+        ],
+        "notes": null
+      },
+      "stats": {
+        "movement": "10\"",
+        "save": "4+",
+        "control": "5",
+        "health": "14"
+      },
+      "abilities": [
+        {
+          "name": "Battle Damaged",
+          "header": {
+            "icon": "special",
+            "color": "yellow",
+            "text": "Passive"
+          },
+          "declare": null,
+          "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its Betentacled Maw is 8."
+        },
+        {
+          "name": "Mutant Regeneration",
+          "header": {
+            "icon": "special",
+            "color": "yellow",
+            "text": "Any Hero Phase"
+          },
+          "declare": null,
+          "effect": "Heal (D3) this unit."
+        },
+        {
+          "name": "Aura of Mutation",
+          "header": {
+            "icon": "special",
+            "color": "yellow",
+            "text": "Once Per Turn (Army), Any Combat Phase"
+          },
+          "declare": "Pick a visible enemy unit within 12\" of this unit to be the target.",
+          "effect": "Roll a dice and apply the corresponding effect below. If this unit is wholly within 12\" of a friendly Tzeentch Wizard, you can roll 2 dice instead, pick either result, then apply the corresponding effect below.\n\n1 - Untouched\nNo effect.\n\n2 - Hideous Disfigurement\nSubtract 3 from the target’s control score until the start of your next turn.\n\n3 - Troggbrains\nThe target cannot use commands for the rest of the turn.\n\n4 - Gift of Mutations\nSubtract 1\" from the target’s Move characteristic for the rest of the battle.\n\n5 - Horrific Absorption\nInflict D6 mortal damage on the target. Then, Heal (D6) this unit.\n\n6 - Transmogrification\nPick any other effect.",
+          "keywords": [
+            "Rampage"
+          ]
+        }
+      ],
+      "primaryKeywords": [
+        "Monster"
+      ],
+      "secondaryKeywords": [
+        "Chaos",
+        "Slaves to Darkness",
+        "Daemon",
+        "Tzeentch"
+      ],
+      "meleeWeapons": [
+        {
+          "name": "💀 Betentacled Maw",
+          "atk": "12",
+          "hit": "4+",
+          "wnd": "4+",
+          "rnd": "-",
+          "abilities": [
+            "Companion",
+            "Crit (Auto-wound)"
+          ]
+        },
+        {
+          "name": "Crushing Claws",
+          "atk": "4",
+          "hit": "4+",
+          "wnd": "2+",
+          "rnd": "1",
+          "abilities": [
+            "Companion"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Mindstealer Sphiranx",
+      "faction": "Slaves to Darkness",
+      "profile": {
+        "points": 170,
+        "unitSize": 1,
+        "regimentOptions": [],
+        "baseSizes": [
+          "90 x 52mm"
+        ],
+        "notes": null
+      },
+      "stats": {
+        "movement": "10\"",
+        "save": "5+",
+        "control": "5",
+        "health": "10"
+      },
+      "abilities": [
+        {
+          "name": "Dominate Mind",
+          "header": {
+            "icon": "special",
+            "color": "yellow",
+            "text": "Once Per Turn (Army), Any Combat Phase"
+          },
+          "declare": "Pick an enemy unit within 6\" of this unit to be the target.",
+          "effect": "Roll a dice. If the roll exceeds the target’s Control characteristic, the target has Strike-last for the rest of the turn.",
+          "keywords": [
+            "Rampage"
+          ]
+        }
+      ],
+      "primaryKeywords": [
+        "Monster"
+      ],
+      "secondaryKeywords": [
+        "Chaos",
+        "Slaves to Darkness",
+        "Undivided"
+      ],
+      "meleeWeapons": [
+        {
+          "name": "Shredding Claws",
+          "atk": "6",
+          "hit": "4+",
+          "wnd": "4+",
+          "rnd": "1",
+          "abilities": []
+        }
+      ]
+    },
+    {
+      "name": "Chaos Warriors",
+      "faction": "Slaves to Darkness",
+      "profile": {
+        "points": 200,
+        "unitSize": 10,
+        "regimentOptions": [],
+        "baseSizes": [
+          "32mm"
+        ],
+        "notes": null
+      },
+      "stats": {
+        "movement": "5\"",
+        "save": "3+",
+        "control": "1",
+        "health": "2"
+      },
+      "abilities": [
+        {
+          "name": "Bringers of Desolation",
+          "header": {
+            "icon": "special",
+            "color": "yellow",
+            "text": "Passive"
+          },
+          "declare": null,
+          "effect": "Add 1 to the Attacks characteristic of this unit’s Rune-etched Weapons while it is contesting an objective you control."
+        }
+      ],
+      "primaryKeywords": [
+        "Infantry",
+        "Champion",
+        "Musician (1/10)",
+        "Standard Bearer (1/10)"
+      ],
+      "secondaryKeywords": [
+        "Chaos",
+        "Slaves to Darkness",
+        "Warriors of Chaos"
+      ],
+      "meleeWeapons": [
+        {
+          "name": "Rune-etched Weapons",
+          "atk": "2",
+          "hit": "3+",
+          "wnd": "3+",
+          "rnd": "1",
+          "abilities": [
+            "Crit (Auto-wound)"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Gorebeast Chariot",
+      "faction": "Slaves to Darkness",
+      "profile": {
+        "points": 120,
+        "unitSize": 1,
+        "regimentOptions": [],
+        "baseSizes": [
+          "120 x 92mm"
+        ],
+        "notes": null
+      },
+      "stats": {
+        "movement": "9\"",
+        "save": "4+",
+        "control": "2",
+        "health": "8"
+      },
+      "abilities": [
+        {
+          "name": "Brutal Momentum",
+          "header": {
+            "icon": "special",
+            "color": "yellow",
+            "text": "Passive"
+          },
+          "declare": null,
+          "effect": "When this unit uses the ‘Power Through’ command, inflict an additional D3 mortal damage on the target and add 3\" to the distance this unit can move as part of that ability."
+        }
+      ],
+      "primaryKeywords": [
+        "War Machine"
+      ],
+      "secondaryKeywords": [
+        "Chaos",
+        "Slaves to Darkness",
+        "Warriors of Chaos"
+      ],
+      "meleeWeapons": [
+        {
+          "name": "Lashing Whip",
+          "atk": "2",
+          "hit": "4+",
+          "wnd": "4+",
+          "rnd": "-",
+          "abilities": []
+        },
+        {
+          "name": "Chaos War-flail",
+          "atk": "6",
+          "hit": "3+",
+          "wnd": "3+",
+          "rnd": "-",
+          "abilities": []
+        },
+        {
+          "name": "Chaos Greatblade",
+          "atk": "3",
+          "hit": "4+",
+          "wnd": "3+",
+          "rnd": "1",
+          "abilities": []
+        },
+        {
+          "name": "Gorebeast’s Crushing Fists",
+          "atk": "4",
+          "hit": "4+",
+          "wnd": "4+",
+          "rnd": "-",
+          "abilities": [
+            "Companion"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Chaos Sorcerer Lord on Manticore",
+      "faction": "Slaves to Darkness",
+      "profile": {
+        "points": 280,
+        "unitSize": 1,
+        "regimentOptions": [],
+        "baseSizes": [
+          "120 x 92mm"
+        ],
+        "notes": null
+      },
+      "stats": {
+        "movement": "12\"",
+        "save": "4+",
+        "control": "5",
+        "health": "12"
+      },
+      "abilities": [
+        {
+          "name": "Oracular Visions",
+          "header": {
+            "icon": "special",
+            "color": "yellow",
+            "text": "Once Per Turn (Army), Your Hero Phase"
+          },
+          "declare": "Pick a friendly Warriors of Chaos unit wholly within 12\" of this unit to be the target and roll a dice.",
+          "effect": "On a 3+, the target has Ward (5+) until the start of your next turn."
+        },
+        {
+          "name": "Venomous Tail Strike",
+          "header": {
+            "icon": "special",
+            "color": "yellow",
+            "text": "Once Per Turn (Army), Any Combat Phase"
+          },
+          "declare": "Pick an enemy Monster in combat with this unit to be the target.",
+          "effect": "Roll a dice. On a 3+, the target has Strike-last for the rest of the turn.",
+          "keywords": [
+            "Rampage"
+          ]
+        }
+      ],
+      "primaryKeywords": [
+        "Hero",
+        "Monster",
+        "Wizard (1)",
+        "Fly"
+      ],
+      "secondaryKeywords": [
+        "Chaos",
+        "Slaves to Darkness",
+        "Warriors of Chaos"
+      ],
+      "meleeWeapons": [
+        {
+          "name": "Manticore’s Claws and Fangs",
+          "atk": "6",
+          "hit": "4+",
+          "wnd": "2+",
+          "rnd": "1",
+          "abilities": [
+            "Anti-Monster (+1 Rend)",
+            "Companion"
+          ]
+        },
+        {
+          "name": "Sorcerous Reaping Staff",
+          "atk": "3",
+          "hit": "3+",
+          "wnd": "3+",
+          "rnd": "1",
+          "abilities": []
+        }
+      ]
+    },
+    {
+      "name": "Spire Tyrants",
+      "faction": "Slaves to Darkness",
+      "profile": {
+        "points": 110,
+        "unitSize": 9,
+        "regimentOptions": [],
+        "baseSizes": [
+          "40mm [1]",
+          " 32mm [3]",
+          " 28.5mm [4]"
+        ],
+        "notes": "This unit cannot be reinforced."
+      },
+      "stats": {
+        "movement": "5\"",
+        "save": "5+",
+        "control": "1",
+        "health": "1"
+      },
+      "abilities": [
+        {
+          "name": "Fight For Glory",
+          "header": {
+            "icon": "special",
+            "color": "yellow",
+            "text": "Passive"
+          },
+          "declare": null,
+          "effect": "The first time each turn that this unit is picked to use a Fight ability in the combat phase, if this unit is wholly within 12\" of any friendly Slaves to Darkness Heroes, add 1 to the Attacks characteristic of this unit’s melee weapons for the rest of the turn."
+        }
+      ],
+      "primaryKeywords": [
+        "Infantry",
+        "Champion (1/9)"
+      ],
+      "secondaryKeywords": [
+        "Chaos",
+        "Slaves to Darkness",
+        "Undivided"
+      ],
+      "meleeWeapons": [
+        {
+          "name": "Gladiator Weapons",
+          "atk": "2",
+          "hit": "4+",
+          "wnd": "4+",
+          "rnd": "-",
+          "abilities": [
+            "Anti-Hero (+1 Rend)"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Realmscourge Rupture",
+      "faction": "Slaves to Darkness",
+      "profile": {
+        "points": null,
+        "unitSize": 1,
+        "regimentOptions": [],
+        "baseSizes": [
+          "Use model"
+        ],
+        "notes": null
+      },
+      "stats": {
+        "movement": "9\"",
+        "save": "5+",
+        "control": "7+",
+        "health": "6"
+      },
+      "abilities": [
+        {
+          "name": "Debilitating Shockwave",
+          "header": {
+            "icon": "special",
+            "color": "yellow",
+            "text": "Any Charge Phase"
+          },
+          "declare": "If this Manifestation charged this phase, pick an enemy unit within 1\" of it to be the target.",
+          "effect": "Roll a dice for each model in the target unit. For each 6, inflict 1 mortal damage on the target. If any models in the target unit are slain by this ability, subtract 1 from hit rolls for the target’s attacks for the rest of the turn."
+        }
+      ],
+      "primaryKeywords": [
+        "Manifestation",
+        "Endless Spell",
+        "Fly",
+        "Ward (6+)"
+      ],
+      "secondaryKeywords": [
+        "Chaos",
+        "Slaves to Darkness"
+      ],
+      "meleeWeapons": [
+        {
+          "name": "Surging Spikes",
+          "atk": "2D3",
+          "hit": "4+",
+          "wnd": "3+",
+          "rnd": "1",
+          "abilities": [
+            "Crit (2 Hits)"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Darkoath Savagers",
+      "faction": "Slaves to Darkness",
+      "profile": {
+        "points": 130,
+        "unitSize": 10,
+        "regimentOptions": [],
+        "baseSizes": [
+          "32mm [3]",
+          " 28.5mm [7]"
+        ],
+        "notes": "This unit cannot be reinforced."
+      },
+      "stats": {
+        "movement": "5\"",
+        "save": "5+",
+        "control": "1",
+        "health": "1"
+      },
+      "abilities": [
+        {
+          "name": "Oath of Conquest",
+          "header": {
+            "icon": "special",
+            "color": "yellow",
+            "text": "Once Per Battle, Any Hero Phase"
+          },
+          "declare": null,
+          "effect": "If this unit is contesting an objective you control that is wholly within enemy territory, this unit has Ward (5+) for the rest of the battle."
+        }
+      ],
+      "primaryKeywords": [
+        "Infantry",
+        "Champion (1/10)"
+      ],
+      "secondaryKeywords": [
+        "Chaos",
+        "Slaves to Darkness",
+        "Undivided",
+        "Darkoath"
+      ],
+      "meleeWeapons": [
+        {
+          "name": "Darkoath Weapons",
+          "atk": "2",
+          "hit": "4+",
+          "wnd": "3+",
+          "rnd": "-",
+          "abilities": [
+            "Crit (Mortal)"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Khagra's Ravagers",
+      "faction": "Slaves to Darkness",
+      "profile": {
+        "points": 170,
+        "unitSize": 4,
+        "regimentOptions": [],
+        "baseSizes": [
+          "32mm [4]"
+        ],
+        "notes": "This unit cannot be reinforced."
+      },
+      "stats": {
+        "movement": "6\"",
+        "save": "3+",
+        "control": "1",
+        "health": "3"
+      },
+      "abilities": [
+        {
+          "name": "Zarshia Bittersoul",
+          "header": {
+            "icon": "special",
+            "color": "yellow",
+            "text": "Passive"
+          },
+          "declare": null,
+          "effect": "While this unit’s Zarshia Bittersoul is on the battlefield, it has Wizard (1)."
+        },
+        {
+          "name": "Ravagers of the Mortal Realms",
+          "header": {
+            "icon": "special",
+            "color": "yellow",
+            "text": "Passive"
+          },
+          "declare": null,
+          "effect": "This unit has Ward (5+) while it is contesting an objective you control."
+        }
+      ],
+      "primaryKeywords": [
+        "Unique",
+        "Infantry",
+        "Champion"
+      ],
+      "secondaryKeywords": [
+        "Chaos",
+        "Slaves to Darkness",
+        "Warriors of Chaos"
+      ],
+      "meleeWeapons": [
+        {
+          "name": "Hellforged Weapons",
+          "atk": "3",
+          "hit": "3+",
+          "wnd": "3+",
+          "rnd": "1",
+          "abilities": [
+            "Crit (Auto-wound)"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Godsworn Hunt",
+      "faction": "Slaves to Darkness",
+      "profile": {
+        "points": 110,
+        "unitSize": 6,
+        "regimentOptions": [],
+        "baseSizes": [
+          "32mm [5]",
+          " 25mm [1]"
+        ],
+        "notes": "This unit cannot be reinforced."
+      },
+      "stats": {
+        "movement": "5\"",
+        "save": "6+",
+        "control": "1",
+        "health": "2"
+      },
+      "abilities": [
+        {
+          "name": "Oath of Conquest",
+          "header": {
+            "icon": "special",
+            "color": "yellow",
+            "text": "Once Per Battle, Any Hero Phase"
+          },
+          "declare": null,
+          "effect": "If this unit is contesting an objective you control that is wholly within enemy territory, this unit has Ward (5+) for the rest of the battle."
+        },
+        {
+          "name": "Theddra Skull-scryer",
+          "header": {
+            "icon": "special",
+            "color": "yellow",
+            "text": "Passive"
+          },
+          "declare": null,
+          "effect": "While this unit’s Theddra Skull-scryer is on the battlefield, it has Wizard (1)."
+        }
+      ],
+      "primaryKeywords": [
+        "Unique",
+        "Infantry",
+        "Champion"
+      ],
+      "secondaryKeywords": [
+        "Chaos",
+        "Slaves to Darkness",
+        "Undivided",
+        "Darkoath"
+      ],
+      "rangedWeapons": [
+        {
+          "name": "Hunting Bow",
+          "rng": "20\"",
+          "atk": "2",
+          "hit": "4+",
+          "wnd": "4+",
+          "rnd": "-",
+          "abilities": [
+            "Crit (Auto-wound)"
+          ]
+        }
+      ],
+      "meleeWeapons": [
+        {
+          "name": "Godsworn Weapons",
+          "atk": "2",
+          "hit": "4+",
+          "wnd": "3+",
+          "rnd": "-",
+          "abilities": [
+            "Crit (Mortal)"
+          ]
+        }
+      ]
+    }
+  ]
+}

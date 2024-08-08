@@ -1,6 +1,6 @@
 {
   "$schema": "../army.schema.json",
-  "title": "Gloopspite Gits",
+  "title": "Gloomspite Gitz",
   "grandFaction": "Destruction",
   "icon": "",
   "color": "#292711",
@@ -2907,4 +2907,3 @@
     }
   ]
 }
-

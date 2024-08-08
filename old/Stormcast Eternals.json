@@ -12,9 +12,7 @@
         "points": 130,
         "unitSize": 5,
         "regimentOptions": [],
-        "baseSizes": [
-          "40mm"
-        ],
+        "baseSizes": ["40mm"],
         "notes": null
       },
       "stats": {
@@ -55,15 +53,8 @@
           "effect": "This unit can use Shoot and/or Charge abilities even if it used a Run or Retreat ability in the same turn."
         }
       ],
-      "primaryKeywords": [
-        "Infantry",
-        "Champion"
-      ],
-      "secondaryKeywords": [
-        "Order",
-        "Stormcast Eternals",
-        "Vanguard Chamber"
-      ],
+      "primaryKeywords": ["Infantry", "Champion"],
+      "secondaryKeywords": ["Order", "Stormcast Eternals", "Vanguard Chamber"],
       "rangedWeapons": [
         {
           "name": "Boltstorm Pistol",
@@ -72,9 +63,7 @@
           "hit": "4+",
           "wnd": "4+",
           "rnd": "1",
-          "abilities": [
-            "Shoot in Combat"
-          ]
+          "abilities": ["Shoot in Combat"]
         }
       ],
       "meleeWeapons": [
@@ -95,9 +84,7 @@
         "points": null,
         "unitSize": 1,
         "regimentOptions": [],
-        "baseSizes": [
-          "50mm"
-        ],
+        "baseSizes": ["50mm"],
         "notes": null
       },
       "stats": {
@@ -118,15 +105,8 @@
           "effect": "While the unit that was picked to be the target of the ‘Summon Dais Arcanum’ ability is on the platform of this Manifestation:\n\n• That unit has Ward (5+).\n• If that unit is a Wizard, add 1 to that unit’s power level.\n• That unit cannot use Move abilities and remains on this Manifestation each time it moves.\n• Instead of measuring range or visibility to that unit, measure to this Manifestation instead.\n• This Manifestation cannot be picked to be the target of abilities other than Banish abilities.\n\nIf this Manifestation is banished, before removing it from the battlefield, set up the unit on its platform on the battlefield within 3\" of it. That unit can only be set up in combat with units it was already in combat with when this Manifestation was banished. If it is not possible to set up that unit, it is destroyed. \n\nIf the unit on the platform is destroyed, immediately remove this Manifestation from play."
         }
       ],
-      "primaryKeywords": [
-        "Manifestation",
-        "Endless Spell",
-        "Fly"
-      ],
-      "secondaryKeywords": [
-        "Order",
-        "Stormcast Eternals"
-      ]
+      "primaryKeywords": ["Manifestation", "Endless Spell", "Fly"],
+      "secondaryKeywords": ["Order", "Stormcast Eternals"]
     },
     {
       "name": "The Farstriders",
@@ -135,9 +115,7 @@
         "points": 100,
         "unitSize": 3,
         "regimentOptions": [],
-        "baseSizes": [
-          "40mm [3]"
-        ],
+        "baseSizes": ["40mm [3]"],
         "notes": "This unit cannot be reinforced."
       },
       "stats": {
@@ -168,16 +146,8 @@
           "effect": "Roll a dice. On a 3+, inflict 1 mortal damage on the target."
         }
       ],
-      "primaryKeywords": [
-        "Unique",
-        "Infantry",
-        "Champion"
-      ],
-      "secondaryKeywords": [
-        "Order",
-        "Stormcast Eternals",
-        "Vanguard Chamber"
-      ],
+      "primaryKeywords": ["Unique", "Infantry", "Champion"],
+      "secondaryKeywords": ["Order", "Stormcast Eternals", "Vanguard Chamber"],
       "rangedWeapons": [
         {
           "name": "Boltstorm Pistol",
@@ -186,9 +156,7 @@
           "hit": "4+",
           "wnd": "4+",
           "rnd": "1",
-          "abilities": [
-            "Shoot in Combat"
-          ]
+          "abilities": ["Shoot in Combat"]
         }
       ],
       "meleeWeapons": [
@@ -209,9 +177,7 @@
         "points": 200,
         "unitSize": 1,
         "regimentOptions": [],
-        "baseSizes": [
-          "50mm"
-        ],
+        "baseSizes": ["50mm"],
         "notes": null
       },
       "stats": {
@@ -242,17 +208,8 @@
           "effect": "If this unit charged this turn, for the rest of the turn, friendly Stormcast Eternals units have Ward (5+) while they are wholly within 12\" of this unit."
         }
       ],
-      "primaryKeywords": [
-        "Unique",
-        "Hero",
-        "Infantry",
-        "Ward (5+)"
-      ],
-      "secondaryKeywords": [
-        "Order",
-        "Stormcast Eternals",
-        "Warrior Chamber"
-      ],
+      "primaryKeywords": ["Unique", "Hero", "Infantry", "Ward (5+)"],
+      "secondaryKeywords": ["Order", "Stormcast Eternals", "Warrior Chamber"],
       "meleeWeapons": [
         {
           "name": "Sigmarite Runeblade and Warhammer",
@@ -260,9 +217,7 @@
           "hit": "3+",
           "wnd": "3+",
           "rnd": "1",
-          "abilities": [
-            "Crit (Auto-wound)"
-          ]
+          "abilities": ["Crit (Auto-wound)"]
         }
       ]
     },
@@ -273,10 +228,7 @@
         "points": 170,
         "unitSize": 1,
         "regimentOptions": [],
-        "baseSizes": [
-          "40mm [1]",
-          " 25mm [1]"
-        ],
+        "baseSizes": ["40mm [1]", " 25mm [1]"],
         "notes": null
       },
       "stats": {
@@ -317,15 +269,8 @@
           "effect": "Make a resistance roll of D6. On a 4+, that ability has no effect on this unit."
         }
       ],
-      "primaryKeywords": [
-        "Hero",
-        "Infantry"
-      ],
-      "secondaryKeywords": [
-        "Order",
-        "Stormcast Eternals",
-        "Ruination Chamber"
-      ],
+      "primaryKeywords": ["Hero", "Infantry"],
+      "secondaryKeywords": ["Order", "Stormcast Eternals", "Ruination Chamber"],
       "meleeWeapons": [
         {
           "name": "The Blade Terminos",
@@ -333,9 +278,7 @@
           "hit": "3+",
           "wnd": "2+",
           "rnd": "2",
-          "abilities": [
-            "Crit (Mortal)"
-          ]
+          "abilities": ["Crit (Mortal)"]
         }
       ]
     },
@@ -346,9 +289,7 @@
         "points": 130,
         "unitSize": 3,
         "regimentOptions": [],
-        "baseSizes": [
-          "40mm"
-        ],
+        "baseSizes": ["40mm"],
         "notes": null
       },
       "stats": {
@@ -379,15 +320,8 @@
           "effect": "Add 1 to wound rolls for this unit’s shooting attacks if the target is in combat with any friendly Vanguard Chamber units."
         }
       ],
-      "primaryKeywords": [
-        "Infantry",
-        "Champion"
-      ],
-      "secondaryKeywords": [
-        "Order",
-        "Stormcast Eternals",
-        "Vanguard Chamber"
-      ],
+      "primaryKeywords": ["Infantry", "Champion"],
+      "secondaryKeywords": ["Order", "Stormcast Eternals", "Vanguard Chamber"],
       "rangedWeapons": [
         {
           "name": "Hurricane Crossbow",
@@ -396,10 +330,7 @@
           "hit": "3+",
           "wnd": "3+",
           "rnd": "-",
-          "abilities": [
-            "Crit (2 Hits)",
-            "Anti-Infantry (+1 Rend)"
-          ]
+          "abilities": ["Crit (2 Hits)", "Anti-Infantry (+1 Rend)"]
         }
       ],
       "meleeWeapons": [
@@ -420,9 +351,7 @@
         "points": null,
         "unitSize": 1,
         "regimentOptions": [],
-        "baseSizes": [
-          "65mm"
-        ],
+        "baseSizes": ["65mm"],
         "notes": null
       },
       "stats": {
@@ -453,15 +382,8 @@
           "effect": "Subtract 1 from casting rolls for enemy Wizards while they are within 12\" of this Manifestation."
         }
       ],
-      "primaryKeywords": [
-        "Manifestation",
-        "Endless Spell",
-        "Ward (6+)"
-      ],
-      "secondaryKeywords": [
-        "Order",
-        "Stormcast Eternals"
-      ]
+      "primaryKeywords": ["Manifestation", "Endless Spell", "Ward (6+)"],
+      "secondaryKeywords": ["Order", "Stormcast Eternals"]
     },
     {
       "name": "Evocators on Celestial Dracolines",
@@ -470,9 +392,7 @@
         "points": 240,
         "unitSize": 3,
         "regimentOptions": [],
-        "baseSizes": [
-          "90 x 52mm"
-        ],
+        "baseSizes": ["90 x 52mm"],
         "notes": "This unit will move to Warhammer Legends on 1 June 2025."
       },
       "stats": {
@@ -503,10 +423,7 @@
           "effect": "While this unit is contesting an objective you do not control, it has Strike-first."
         }
       ],
-      "primaryKeywords": [
-        "Cavalry",
-        "Champion"
-      ],
+      "primaryKeywords": ["Cavalry", "Champion"],
       "secondaryKeywords": [
         "Order",
         "Stormcast Eternals",
@@ -519,9 +436,7 @@
           "hit": "3+",
           "wnd": "3+",
           "rnd": "1",
-          "abilities": [
-            "Companion"
-          ]
+          "abilities": ["Companion"]
         },
         {
           "name": "Evocator Weapons",
@@ -529,9 +444,7 @@
           "hit": "3+",
           "wnd": "3+",
           "rnd": "1",
-          "abilities": [
-            "Crit (Mortal)"
-          ]
+          "abilities": ["Crit (Mortal)"]
         }
       ]
     },
@@ -542,9 +455,7 @@
         "points": 250,
         "unitSize": 2,
         "regimentOptions": [],
-        "baseSizes": [
-          "90 x 52mm"
-        ],
+        "baseSizes": ["90 x 52mm"],
         "notes": null
       },
       "stats": {
@@ -575,14 +486,8 @@
           "effect": "Each time you make an unmodified save roll of 6 for a combat attack that targets this unit, inflict 1 mortal damage on the attacking unit after the Fight ability has been resolved."
         }
       ],
-      "primaryKeywords": [
-        "Cavalry"
-      ],
-      "secondaryKeywords": [
-        "Order",
-        "Stormcast Eternals",
-        "Extremis Chamber"
-      ],
+      "primaryKeywords": ["Cavalry"],
+      "secondaryKeywords": ["Order", "Stormcast Eternals", "Extremis Chamber"],
       "rangedWeapons": [
         {
           "name": "Stormblast",
@@ -591,10 +496,7 @@
           "hit": "3+",
           "wnd": "3+",
           "rnd": "2",
-          "abilities": [
-            "Crit (2 Hits)",
-            "Companion"
-          ]
+          "abilities": ["Crit (2 Hits)", "Companion"]
         }
       ],
       "meleeWeapons": [
@@ -604,9 +506,7 @@
           "hit": "4+",
           "wnd": "2+",
           "rnd": "2",
-          "abilities": [
-            "Companion"
-          ]
+          "abilities": ["Companion"]
         },
         {
           "name": "Lightning Hammer",
@@ -614,9 +514,7 @@
           "hit": "3+",
           "wnd": "2+",
           "rnd": "1",
-          "abilities": [
-            "Crit (Mortal)"
-          ]
+          "abilities": ["Crit (Mortal)"]
         }
       ]
     },
@@ -627,9 +525,7 @@
         "points": 140,
         "unitSize": 1,
         "regimentOptions": [],
-        "baseSizes": [
-          "40mm"
-        ],
+        "baseSizes": ["40mm"],
         "notes": "This unit will move to Warhammer Legends on 1 June 2025."
       },
       "stats": {
@@ -648,9 +544,7 @@
           },
           "declare": null,
           "effect": "The spell is unbound and its effect is not resolved.",
-          "keywords": [
-            "Unbind"
-          ]
+          "keywords": ["Unbind"]
         },
         {
           "name": "Aetheric Destabilisation",
@@ -663,11 +557,7 @@
           "effect": "While they are within 30\" of this unit, subtract 1 from casting rolls for enemy units when they use Summon abilities."
         }
       ],
-      "primaryKeywords": [
-        "Hero",
-        "Wizard (1)",
-        "Infantry"
-      ],
+      "primaryKeywords": ["Hero", "Wizard (1)", "Infantry"],
       "secondaryKeywords": [
         "Order",
         "Stormcast Eternals",
@@ -691,9 +581,7 @@
         "points": 120,
         "unitSize": 1,
         "regimentOptions": [],
-        "baseSizes": [
-          "40mm"
-        ],
+        "baseSizes": ["40mm"],
         "notes": "This unit will move to Warhammer Legends on 1 June 2025."
       },
       "stats": {
@@ -714,10 +602,7 @@
           "effect": "The target’s attacks score critical hits on unmodified hit rolls of 4+ for the rest of the phase."
         }
       ],
-      "primaryKeywords": [
-        "Hero",
-        "Infantry"
-      ],
+      "primaryKeywords": ["Hero", "Infantry"],
       "secondaryKeywords": [
         "Order",
         "Stormcast Eternals",
@@ -730,9 +615,7 @@
           "hit": "3+",
           "wnd": "3+",
           "rnd": "1",
-          "abilities": [
-            "Crit (Auto-wound)"
-          ]
+          "abilities": ["Crit (Auto-wound)"]
         }
       ]
     },
@@ -743,9 +626,7 @@
         "points": 540,
         "unitSize": 1,
         "regimentOptions": [],
-        "baseSizes": [
-          "160mm"
-        ],
+        "baseSizes": ["160mm"],
         "notes": null
       },
       "stats": {
@@ -784,9 +665,7 @@
           },
           "declare": "Pick a visible enemy unit within 18\" of the caster to be the target, then make a casting roll of 2D6.",
           "effect": "Pick 1 of the following effects to apply to the target until the start of your next turn:\n\nBlinding Gales: Subtract 1 from hit rolls for the target’s attacks.\n\nMeteor-hail: Subtract 1 from the Rend characteristic of the target’s weapons.\n\nFlash-freezing Blizzard: Subtract 1 from save rolls for the target.",
-          "keywords": [
-            "Spell"
-          ],
+          "keywords": ["Spell"],
           "castingValue": 8
         },
         {
@@ -798,9 +677,7 @@
           },
           "declare": "Pick an enemy unit in combat with this unit to be the target.",
           "effect": "Roll a dice. On a 3+, the target cannot use commands for the rest of the turn.",
-          "keywords": [
-            "Rampage"
-          ]
+          "keywords": ["Rampage"]
         }
       ],
       "primaryKeywords": [
@@ -811,10 +688,7 @@
         "Wizard (2)",
         "Fly"
       ],
-      "secondaryKeywords": [
-        "Order",
-        "Stormcast Eternals"
-      ],
+      "secondaryKeywords": ["Order", "Stormcast Eternals"],
       "rangedWeapons": [
         {
           "name": "Blazing Tempest",
@@ -823,9 +697,7 @@
           "hit": "2+",
           "wnd": "3+",
           "rnd": "2",
-          "abilities": [
-            "Shoot in Combat"
-          ]
+          "abilities": ["Shoot in Combat"]
         }
       ],
       "meleeWeapons": [
@@ -843,9 +715,7 @@
           "hit": "3+",
           "wnd": "2+",
           "rnd": "2",
-          "abilities": [
-            "Anti-Infantry (+1 Rend)"
-          ]
+          "abilities": ["Anti-Infantry (+1 Rend)"]
         }
       ]
     },
@@ -856,9 +726,7 @@
         "points": 210,
         "unitSize": 2,
         "regimentOptions": [],
-        "baseSizes": [
-          "90 x 52mm"
-        ],
+        "baseSizes": ["90 x 52mm"],
         "notes": null
       },
       "stats": {
@@ -889,14 +757,8 @@
           "effect": "Each time you make an unmodified save roll of 6 for a combat attack that targets this unit, inflict 1 mortal damage on the attacking unit after the Fight ability has been resolved."
         }
       ],
-      "primaryKeywords": [
-        "Cavalry"
-      ],
-      "secondaryKeywords": [
-        "Order",
-        "Stormcast Eternals",
-        "Extremis Chamber"
-      ],
+      "primaryKeywords": ["Cavalry"],
+      "secondaryKeywords": ["Order", "Stormcast Eternals", "Extremis Chamber"],
       "rangedWeapons": [
         {
           "name": "Volleystorm Crossbow",
@@ -905,9 +767,7 @@
           "hit": "3+",
           "wnd": "3+",
           "rnd": "1",
-          "abilities": [
-            "Crit (2 Hits)"
-          ]
+          "abilities": ["Crit (2 Hits)"]
         },
         {
           "name": "Stormblast",
@@ -916,10 +776,7 @@
           "hit": "3+",
           "wnd": "3+",
           "rnd": "2",
-          "abilities": [
-            "Crit (2 Hits)",
-            "Companion"
-          ]
+          "abilities": ["Crit (2 Hits)", "Companion"]
         }
       ],
       "meleeWeapons": [
@@ -929,9 +786,7 @@
           "hit": "4+",
           "wnd": "2+",
           "rnd": "2",
-          "abilities": [
-            "Companion"
-          ]
+          "abilities": ["Companion"]
         },
         {
           "name": "Warblade",
@@ -950,9 +805,7 @@
         "points": 420,
         "unitSize": 1,
         "regimentOptions": [],
-        "baseSizes": [
-          "100mm"
-        ],
+        "baseSizes": ["100mm"],
         "notes": null
       },
       "stats": {
@@ -981,9 +834,7 @@
           },
           "declare": "Pick a visible enemy unit within 12\" of this unit to be struck by lightning, then make a chanting roll of D6.",
           "effect": "Inflict D3 mortal damage on that unit, then roll a dice. On a 1-2, the sequence ends. On a 3+, pick another enemy unit within 3\" of that unit to be struck by lightning and inflict D3 mortal damage on it. If the chanting roll was 10+, you can pick another enemy unit within 6\" of that unit instead of 3\". Keep rolling dice in this way until the sequence ends or there are no other enemy units eligible to be struck by lightning. A unit cannot be struck by lightning more than once per turn.",
-          "keywords": [
-            "Prayer"
-          ],
+          "keywords": ["Prayer"],
           "chantingValue": 5
         },
         {
@@ -1015,10 +866,7 @@
         "Priest (2)",
         "Fly"
       ],
-      "secondaryKeywords": [
-        "Order",
-        "Stormcast Eternals"
-      ],
+      "secondaryKeywords": ["Order", "Stormcast Eternals"],
       "rangedWeapons": [
         {
           "name": "Spirit-scouring Flames",
@@ -1027,10 +875,7 @@
           "hit": "2+",
           "wnd": "4+",
           "rnd": "2",
-          "abilities": [
-            "Shoot in Combat",
-            "Companion"
-          ]
+          "abilities": ["Shoot in Combat", "Companion"]
         }
       ],
       "meleeWeapons": [
@@ -1048,9 +893,7 @@
           "hit": "4+",
           "wnd": "2+",
           "rnd": "2",
-          "abilities": [
-            "Companion"
-          ]
+          "abilities": ["Companion"]
         }
       ]
     },
@@ -1061,9 +904,7 @@
         "points": null,
         "unitSize": 1,
         "regimentOptions": [],
-        "baseSizes": [
-          "65mm"
-        ],
+        "baseSizes": ["65mm"],
         "notes": null
       },
       "stats": {
@@ -1084,16 +925,8 @@
           "effect": "Subtract 1 from hit rolls for shooting attacks made by enemy  units while they are within 12\" of this Manifestation."
         }
       ],
-      "primaryKeywords": [
-        "Manifestation",
-        "Endless Spell",
-        "Fly",
-        "Ward (6+)"
-      ],
-      "secondaryKeywords": [
-        "Order",
-        "Stormcast Eternals"
-      ],
+      "primaryKeywords": ["Manifestation", "Endless Spell", "Fly", "Ward (6+)"],
+      "secondaryKeywords": ["Order", "Stormcast Eternals"],
       "meleeWeapons": [
         {
           "name": "Storm of Vengeance",
@@ -1101,9 +934,7 @@
           "hit": "4+",
           "wnd": "4+",
           "rnd": "1",
-          "abilities": [
-            "Crit (Auto-wound)"
-          ]
+          "abilities": ["Crit (Auto-wound)"]
         }
       ]
     },
@@ -1114,9 +945,7 @@
         "points": 110,
         "unitSize": 5,
         "regimentOptions": [],
-        "baseSizes": [
-          "40mm"
-        ],
+        "baseSizes": ["40mm"],
         "notes": null
       },
       "stats": {
@@ -1143,11 +972,7 @@
         "Musician (1/5)",
         "Standard Bearer (1/5)"
       ],
-      "secondaryKeywords": [
-        "Order",
-        "Stormcast Eternals",
-        "Warrior Chamber"
-      ],
+      "secondaryKeywords": ["Order", "Stormcast Eternals", "Warrior Chamber"],
       "meleeWeapons": [
         {
           "name": "Celestial Greatsword",
@@ -1155,9 +980,7 @@
           "hit": "3+",
           "wnd": "3+",
           "rnd": "1",
-          "abilities": [
-            "Anti-Infantry (+1 Rend)"
-          ]
+          "abilities": ["Anti-Infantry (+1 Rend)"]
         }
       ]
     },
@@ -1168,9 +991,7 @@
         "points": 130,
         "unitSize": 1,
         "regimentOptions": [],
-        "baseSizes": [
-          "40mm"
-        ],
+        "baseSizes": ["40mm"],
         "notes": "This unit will move to Warhammer Legends on 1 June 2025."
       },
       "stats": {
@@ -1201,15 +1022,8 @@
           "effect": "Remove this unit from the battlefield and set it up again on the battlefield more than 9\" from all enemy units."
         }
       ],
-      "primaryKeywords": [
-        "Hero",
-        "Infantry"
-      ],
-      "secondaryKeywords": [
-        "Order",
-        "Stormcast Eternals",
-        "Vanguard Chamber"
-      ],
+      "primaryKeywords": ["Hero", "Infantry"],
+      "secondaryKeywords": ["Order", "Stormcast Eternals", "Vanguard Chamber"],
       "rangedWeapons": [
         {
           "name": "Stormshot Pistol",
@@ -1218,9 +1032,7 @@
           "hit": "3+",
           "wnd": "3+",
           "rnd": "-",
-          "abilities": [
-            "Anti-Hero (+1 Rend)"
-          ]
+          "abilities": ["Anti-Hero (+1 Rend)"]
         }
       ],
       "meleeWeapons": [
@@ -1230,10 +1042,7 @@
           "hit": "3+",
           "wnd": "3+",
           "rnd": "1",
-          "abilities": [
-            "Crit (2 Hits)",
-            "Anti-Hero (+1 Rend)"
-          ]
+          "abilities": ["Crit (2 Hits)", "Anti-Hero (+1 Rend)"]
         }
       ]
     },
@@ -1244,9 +1053,7 @@
         "points": 360,
         "unitSize": 1,
         "regimentOptions": [],
-        "baseSizes": [
-          "40mm"
-        ],
+        "baseSizes": ["40mm"],
         "notes": null
       },
       "stats": {
@@ -1285,18 +1092,10 @@
           },
           "declare": "If this unit is in combat or charged this turn, this unit can make a pile-in move. Then, if this unit is in combat, you must pick 1 or more enemy units to be the target(s) of this unit’s attacks.",
           "effect": "Resolve combat attacks against the target unit(s). Then, roll a dice. On a 3+, remove this unit from the battlefield and set it up again on the battlefield more than 3\" from all enemy units and wholly within the combat range of a friendly The Blacktalons unit that is not in combat.",
-          "keywords": [
-            "Core",
-            "Attack",
-            "Fight"
-          ]
+          "keywords": ["Core", "Attack", "Fight"]
         }
       ],
-      "primaryKeywords": [
-        "Unique",
-        "Hero",
-        "Infantry"
-      ],
+      "primaryKeywords": ["Unique", "Hero", "Infantry"],
       "secondaryKeywords": [
         "Order",
         "Stormcast Eternals",
@@ -1311,9 +1110,7 @@
           "hit": "3+",
           "wnd": "3+",
           "rnd": "1",
-          "abilities": [
-            "Shoot in Combat"
-          ]
+          "abilities": ["Shoot in Combat"]
         }
       ],
       "meleeWeapons": [
@@ -1323,9 +1120,7 @@
           "hit": "2+",
           "wnd": "3+",
           "rnd": "2",
-          "abilities": [
-            "Crit (2 Hits)"
-          ]
+          "abilities": ["Crit (2 Hits)"]
         }
       ]
     },
@@ -1336,9 +1131,7 @@
         "points": 180,
         "unitSize": 5,
         "regimentOptions": [],
-        "baseSizes": [
-          "40mm"
-        ],
+        "baseSizes": ["40mm"],
         "notes": "This unit will move to Warhammer Legends on 1 June 2025."
       },
       "stats": {
@@ -1359,15 +1152,8 @@
           "effect": "If this unit is damaged or if any models in this unit were slain this turn, add 1 to hit rolls for this unit’s attacks for the rest of the turn."
         }
       ],
-      "primaryKeywords": [
-        "Infantry",
-        "Champion"
-      ],
-      "secondaryKeywords": [
-        "Order",
-        "Stormcast Eternals",
-        "Warrior Chamber"
-      ],
+      "primaryKeywords": ["Infantry", "Champion"],
+      "secondaryKeywords": ["Order", "Stormcast Eternals", "Warrior Chamber"],
       "meleeWeapons": [
         {
           "name": "Retributor Lightning Hammer",
@@ -1375,9 +1161,7 @@
           "hit": "3+",
           "wnd": "3+",
           "rnd": "1",
-          "abilities": [
-            "Crit (Mortal)"
-          ]
+          "abilities": ["Crit (Mortal)"]
         },
         {
           "name": "Starsoul Mace",
@@ -1385,9 +1169,7 @@
           "hit": "3+",
           "wnd": "3+",
           "rnd": "2",
-          "abilities": [
-            "Crit (Mortal)"
-          ]
+          "abilities": ["Crit (Mortal)"]
         }
       ]
     },
@@ -1398,9 +1180,7 @@
         "points": 230,
         "unitSize": 2,
         "regimentOptions": [],
-        "baseSizes": [
-          "90 x 52mm"
-        ],
+        "baseSizes": ["90 x 52mm"],
         "notes": null
       },
       "stats": {
@@ -1431,14 +1211,8 @@
           "effect": "Each time you make an unmodified save roll of 6 for a combat attack that targets this unit, inflict 1 mortal damage on the attacking unit after the Fight ability has been resolved."
         }
       ],
-      "primaryKeywords": [
-        "Cavalry"
-      ],
-      "secondaryKeywords": [
-        "Order",
-        "Stormcast Eternals",
-        "Extremis Chamber"
-      ],
+      "primaryKeywords": ["Cavalry"],
+      "secondaryKeywords": ["Order", "Stormcast Eternals", "Extremis Chamber"],
       "rangedWeapons": [
         {
           "name": "Stormblast",
@@ -1447,10 +1221,7 @@
           "hit": "3+",
           "wnd": "3+",
           "rnd": "2",
-          "abilities": [
-            "Crit (2 Hits)",
-            "Companion"
-          ]
+          "abilities": ["Crit (2 Hits)", "Companion"]
         }
       ],
       "meleeWeapons": [
@@ -1460,9 +1231,7 @@
           "hit": "3+",
           "wnd": "3+",
           "rnd": "1",
-          "abilities": [
-            "Anti-Infantry (+1 Rend)"
-          ]
+          "abilities": ["Anti-Infantry (+1 Rend)"]
         },
         {
           "name": "Dracoth’s Claws and Fangs",
@@ -1470,9 +1239,7 @@
           "hit": "4+",
           "wnd": "2+",
           "rnd": "2",
-          "abilities": [
-            "Companion"
-          ]
+          "abilities": ["Companion"]
         }
       ]
     },
@@ -1483,10 +1250,7 @@
         "points": 160,
         "unitSize": 1,
         "regimentOptions": [],
-        "baseSizes": [
-          "40mm [1]",
-          " 32mm [1]"
-        ],
+        "baseSizes": ["40mm [1]", " 32mm [1]"],
         "notes": null
       },
       "stats": {
@@ -1517,15 +1281,8 @@
           "effect": "This unit’s Gryph-hound is a token. This unit has Ward (5+) while its Gryph-hound is on the battlefield. If you make an unmodified save roll of 1 for this unit, remove its Gryph-hound from the battlefield after the Attack ability has been resolved (the damage point is still inflicted)."
         }
       ],
-      "primaryKeywords": [
-        "Hero",
-        "Infantry"
-      ],
-      "secondaryKeywords": [
-        "Order",
-        "Stormcast Eternals",
-        "Warrior Chamber"
-      ],
+      "primaryKeywords": ["Hero", "Infantry"],
+      "secondaryKeywords": ["Order", "Stormcast Eternals", "Warrior Chamber"],
       "meleeWeapons": [
         {
           "name": "Blessed Warhammer",
@@ -1533,9 +1290,7 @@
           "hit": "3+",
           "wnd": "3+",
           "rnd": "1",
-          "abilities": [
-            "Crit (Auto-wound)"
-          ]
+          "abilities": ["Crit (Auto-wound)"]
         }
       ]
     },
@@ -1546,9 +1301,7 @@
         "points": 210,
         "unitSize": 3,
         "regimentOptions": [],
-        "baseSizes": [
-          "40mm [3]"
-        ],
+        "baseSizes": ["40mm [3]"],
         "notes": "This unit cannot be reinforced."
       },
       "stats": {
@@ -1577,22 +1330,12 @@
           },
           "declare": "Pick a visible unit within 12\" of the caster to be the target, then make a casting roll of 2D6.",
           "effect": "If the target is a friendly unit, it has Strike-first for the rest of the turn. If the target is an enemy unit, it has Strike-last for the rest of the turn.",
-          "keywords": [
-            "Spell"
-          ],
+          "keywords": ["Spell"],
           "castingValue": 7
         }
       ],
-      "primaryKeywords": [
-        "Unique",
-        "Wizard (1)",
-        "Infantry"
-      ],
-      "secondaryKeywords": [
-        "Order",
-        "Stormcast Eternals",
-        "Warrior Chamber"
-      ],
+      "primaryKeywords": ["Unique", "Wizard (1)", "Infantry"],
+      "secondaryKeywords": ["Order", "Stormcast Eternals", "Warrior Chamber"],
       "rangedWeapons": [
         {
           "name": "Azyrite Bolts",
@@ -1622,9 +1365,7 @@
         "points": 110,
         "unitSize": 3,
         "regimentOptions": [],
-        "baseSizes": [
-          "40mm [3]"
-        ],
+        "baseSizes": ["40mm [3]"],
         "notes": "This unit cannot be reinforced."
       },
       "stats": {
@@ -1655,16 +1396,8 @@
           "effect": "Add 1 to save rolls for this unit while it is in combat with any enemy units that charged in the same turn."
         }
       ],
-      "primaryKeywords": [
-        "Unique",
-        "Infantry",
-        "Champion"
-      ],
-      "secondaryKeywords": [
-        "Order",
-        "Stormcast Eternals",
-        "Warrior Chamber"
-      ],
+      "primaryKeywords": ["Unique", "Infantry", "Champion"],
+      "secondaryKeywords": ["Order", "Stormcast Eternals", "Warrior Chamber"],
       "meleeWeapons": [
         {
           "name": "Heavens-wrought Weapon",
@@ -1672,9 +1405,7 @@
           "hit": "3+",
           "wnd": "3+",
           "rnd": "1",
-          "abilities": [
-            "Crit (Mortal)"
-          ]
+          "abilities": ["Crit (Mortal)"]
         }
       ]
     },
@@ -1685,9 +1416,7 @@
         "points": 0,
         "unitSize": 1,
         "regimentOptions": [],
-        "baseSizes": [
-          "40mm"
-        ],
+        "baseSizes": ["40mm"],
         "notes": "This unit can only be taken in Neave Blacktalon’s regiment."
       },
       "stats": {
@@ -1706,9 +1435,7 @@
           },
           "declare": null,
           "effect": "Until the start of your next turn, while a friendly The Blacktalons unit is wholly within 6\" of this unit, if the unmodified hit roll for a shooting attack that targets that unit is 1-5, the attack fails and the attack sequence ends.",
-          "keywords": [
-            "Spell"
-          ],
+          "keywords": ["Spell"],
           "castingValue": 6
         },
         {
@@ -1729,11 +1456,7 @@
         "Infantry",
         "Ward (5+)"
       ],
-      "secondaryKeywords": [
-        "Order",
-        "Idoneth Deepkin",
-        "The Blacktalons"
-      ],
+      "secondaryKeywords": ["Order", "Idoneth Deepkin", "The Blacktalons"],
       "meleeWeapons": [
         {
           "name": "Abyssal Touch",
@@ -1752,9 +1475,7 @@
         "points": 230,
         "unitSize": 2,
         "regimentOptions": [],
-        "baseSizes": [
-          "90 x 52mm"
-        ],
+        "baseSizes": ["90 x 52mm"],
         "notes": null
       },
       "stats": {
@@ -1785,14 +1506,8 @@
           "effect": "Each time you make an unmodified save roll of 6 for a combat attack that targets this unit, inflict 1 mortal damage on the attacking unit after the Fight ability has been resolved."
         }
       ],
-      "primaryKeywords": [
-        "Cavalry"
-      ],
-      "secondaryKeywords": [
-        "Order",
-        "Stormcast Eternals",
-        "Extremis Chamber"
-      ],
+      "primaryKeywords": ["Cavalry"],
+      "secondaryKeywords": ["Order", "Stormcast Eternals", "Extremis Chamber"],
       "rangedWeapons": [
         {
           "name": "Stormblast",
@@ -1801,10 +1516,7 @@
           "hit": "3+",
           "wnd": "3+",
           "rnd": "2",
-          "abilities": [
-            "Crit (2 Hits)",
-            "Companion"
-          ]
+          "abilities": ["Crit (2 Hits)", "Companion"]
         }
       ],
       "meleeWeapons": [
@@ -1814,9 +1526,7 @@
           "hit": "3+",
           "wnd": "3+",
           "rnd": "1",
-          "abilities": [
-            "Charge (+1 Damage)"
-          ]
+          "abilities": ["Charge (+1 Damage)"]
         },
         {
           "name": "Dracoth’s Claws and Fangs",
@@ -1824,9 +1534,7 @@
           "hit": "4+",
           "wnd": "2+",
           "rnd": "2",
-          "abilities": [
-            "Companion"
-          ]
+          "abilities": ["Companion"]
         }
       ]
     },
@@ -1837,9 +1545,7 @@
         "points": 120,
         "unitSize": 1,
         "regimentOptions": [],
-        "baseSizes": [
-          "90 x 52mm"
-        ],
+        "baseSizes": ["90 x 52mm"],
         "notes": "You can include 1 unit of this type for each Lord‑Celestant on Dracoth in your army."
       },
       "stats": {
@@ -1870,14 +1576,8 @@
           "effect": "Each time you make an unmodified save roll of 6 for a combat attack that targets this unit, inflict 1 mortal damage on the attacking unit after the Fight ability has been resolved."
         }
       ],
-      "primaryKeywords": [
-        "Cavalry"
-      ],
-      "secondaryKeywords": [
-        "Order",
-        "Stormcast Eternals",
-        "Extremis Chamber"
-      ],
+      "primaryKeywords": ["Cavalry"],
+      "secondaryKeywords": ["Order", "Stormcast Eternals", "Extremis Chamber"],
       "rangedWeapons": [
         {
           "name": "Stormblast",
@@ -1886,10 +1586,7 @@
           "hit": "3+",
           "wnd": "3+",
           "rnd": "2",
-          "abilities": [
-            "Crit (2 Hits)",
-            "Companion"
-          ]
+          "abilities": ["Crit (2 Hits)", "Companion"]
         }
       ],
       "meleeWeapons": [
@@ -1899,9 +1596,7 @@
           "hit": "4+",
           "wnd": "2+",
           "rnd": "2",
-          "abilities": [
-            "Companion"
-          ]
+          "abilities": ["Companion"]
         },
         {
           "name": "Stormstrike Glaive",
@@ -1909,9 +1604,7 @@
           "hit": "3+",
           "wnd": "3+",
           "rnd": "1",
-          "abilities": [
-            "Charge (+1 Damage)"
-          ]
+          "abilities": ["Charge (+1 Damage)"]
         }
       ]
     },
@@ -1922,9 +1615,7 @@
         "points": 120,
         "unitSize": 1,
         "regimentOptions": [],
-        "baseSizes": [
-          "90 x 52mm"
-        ],
+        "baseSizes": ["90 x 52mm"],
         "notes": "You can include 1 unit of this type for each Lord‑Celestant on Dracoth in your army."
       },
       "stats": {
@@ -1955,14 +1646,8 @@
           "effect": "Each time you make an unmodified save roll of 6 for a combat attack that targets this unit, inflict 1 mortal damage on the attacking unit after the Fight ability has been resolved."
         }
       ],
-      "primaryKeywords": [
-        "Cavalry"
-      ],
-      "secondaryKeywords": [
-        "Order",
-        "Stormcast Eternals",
-        "Extremis Chamber"
-      ],
+      "primaryKeywords": ["Cavalry"],
+      "secondaryKeywords": ["Order", "Stormcast Eternals", "Extremis Chamber"],
       "rangedWeapons": [
         {
           "name": "Stormblast",
@@ -1971,10 +1656,7 @@
           "hit": "3+",
           "wnd": "3+",
           "rnd": "2",
-          "abilities": [
-            "Crit (2 Hits)",
-            "Companion"
-          ]
+          "abilities": ["Crit (2 Hits)", "Companion"]
         }
       ],
       "meleeWeapons": [
@@ -1984,9 +1666,7 @@
           "hit": "4+",
           "wnd": "2+",
           "rnd": "2",
-          "abilities": [
-            "Companion"
-          ]
+          "abilities": ["Companion"]
         },
         {
           "name": "Thunderaxe",
@@ -1994,9 +1674,7 @@
           "hit": "3+",
           "wnd": "3+",
           "rnd": "1",
-          "abilities": [
-            "Anti-Infantry (+1 Rend)"
-          ]
+          "abilities": ["Anti-Infantry (+1 Rend)"]
         }
       ]
     },
@@ -2007,9 +1685,7 @@
         "points": 240,
         "unitSize": 5,
         "regimentOptions": [],
-        "baseSizes": [
-          "40mm"
-        ],
+        "baseSizes": ["40mm"],
         "notes": "This unit will move to Warhammer Legends on 1 June 2025."
       },
       "stats": {
@@ -2030,15 +1706,8 @@
           "effect": "Add 1 to the Damage characteristic of this unit’s Decimator Thunderaxes if the target unit has 10 or more models."
         }
       ],
-      "primaryKeywords": [
-        "Infantry",
-        "Champion"
-      ],
-      "secondaryKeywords": [
-        "Order",
-        "Stormcast Eternals",
-        "Warrior Chamber"
-      ],
+      "primaryKeywords": ["Infantry", "Champion"],
+      "secondaryKeywords": ["Order", "Stormcast Eternals", "Warrior Chamber"],
       "meleeWeapons": [
         {
           "name": "Decimator Thunderaxe",
@@ -2046,9 +1715,7 @@
           "hit": "3+",
           "wnd": "3+",
           "rnd": "1",
-          "abilities": [
-            "Crit (2 Hits)"
-          ]
+          "abilities": ["Crit (2 Hits)"]
         },
         {
           "name": "Starsoul Mace",
@@ -2056,9 +1723,7 @@
           "hit": "3+",
           "wnd": "3+",
           "rnd": "2",
-          "abilities": [
-            "Crit (Mortal)"
-          ]
+          "abilities": ["Crit (Mortal)"]
         }
       ]
     },
@@ -2069,9 +1734,7 @@
         "points": 120,
         "unitSize": 1,
         "regimentOptions": [],
-        "baseSizes": [
-          "40mm"
-        ],
+        "baseSizes": ["40mm"],
         "notes": null
       },
       "stats": {
@@ -2092,16 +1755,8 @@
           "effect": "Roll a dice. On a 2+, subtract 1 from ward rolls made by the target for the rest of the turn."
         }
       ],
-      "primaryKeywords": [
-        "Hero",
-        "Priest (1)",
-        "Infantry"
-      ],
-      "secondaryKeywords": [
-        "Order",
-        "Stormcast Eternals",
-        "Warrior Chamber"
-      ],
+      "primaryKeywords": ["Hero", "Priest (1)", "Infantry"],
+      "secondaryKeywords": ["Order", "Stormcast Eternals", "Warrior Chamber"],
       "meleeWeapons": [
         {
           "name": "Relic Maul",
@@ -2120,9 +1775,7 @@
         "points": 340,
         "unitSize": 1,
         "regimentOptions": [],
-        "baseSizes": [
-          "60mm"
-        ],
+        "baseSizes": ["60mm"],
         "notes": null
       },
       "stats": {
@@ -2171,10 +1824,7 @@
         "Fly",
         "Ward (5+)"
       ],
-      "secondaryKeywords": [
-        "Order",
-        "Stormcast Eternals"
-      ],
+      "secondaryKeywords": ["Order", "Stormcast Eternals"],
       "rangedWeapons": [
         {
           "name": "Thengavar",
@@ -2183,9 +1833,7 @@
           "hit": "3+",
           "wnd": "2+",
           "rnd": "2",
-          "abilities": [
-            "Anti-Monster (+1 Rend)"
-          ]
+          "abilities": ["Anti-Monster (+1 Rend)"]
         }
       ],
       "meleeWeapons": [
@@ -2195,9 +1843,7 @@
           "hit": "2+",
           "wnd": "2+",
           "rnd": "2",
-          "abilities": [
-            "Anti-Monster (+1 Rend)"
-          ]
+          "abilities": ["Anti-Monster (+1 Rend)"]
         },
         {
           "name": "Blade of the High Heavens",
@@ -2216,9 +1862,7 @@
         "points": 220,
         "unitSize": 3,
         "regimentOptions": [],
-        "baseSizes": [
-          "40mm"
-        ],
+        "baseSizes": ["40mm"],
         "notes": null
       },
       "stats": {
@@ -2249,15 +1893,8 @@
           "effect": "The target has Strike-last for the rest of the turn."
         }
       ],
-      "primaryKeywords": [
-        "Infantry",
-        "Champion"
-      ],
-      "secondaryKeywords": [
-        "Order",
-        "Stormcast Eternals",
-        "Warrior Chamber"
-      ],
+      "primaryKeywords": ["Infantry", "Champion"],
+      "secondaryKeywords": ["Order", "Stormcast Eternals", "Warrior Chamber"],
       "meleeWeapons": [
         {
           "name": "Meteoric Grandhammer",
@@ -2276,10 +1913,7 @@
         "points": 160,
         "unitSize": 1,
         "regimentOptions": [],
-        "baseSizes": [
-          "90 x 52mm [1]",
-          " 40mm [2]"
-        ],
+        "baseSizes": ["90 x 52mm [1]", " 40mm [2]"],
         "notes": null
       },
       "stats": {
@@ -2310,15 +1944,8 @@
           "effect": "Roll a dice. On a 1, remove 1 of this unit’s Gryph-hounds from the battlefield. On a 2+, pick 1 of this unit’s Gryph-hounds that is next to this unit or next to an enemy unit and place it next to the target instead.\n\nWhile any of this unit’s Gryph-hounds are next to an enemy unit, add 1 to hit rolls and wound rolls for this unit’s shooting attacks that target that unit. If an enemy unit is destroyed or removed from the battlefield while any of this unit’s Gryph-hounds are next to it, place those Gryph-hounds next to this unit."
         }
       ],
-      "primaryKeywords": [
-        "Hero",
-        "Infantry"
-      ],
-      "secondaryKeywords": [
-        "Order",
-        "Stormcast Eternals",
-        "Warrior Chamber"
-      ],
+      "primaryKeywords": ["Hero", "Infantry"],
+      "secondaryKeywords": ["Order", "Stormcast Eternals", "Warrior Chamber"],
       "rangedWeapons": [
         {
           "name": "Terminus Greatbow",
@@ -2348,9 +1975,7 @@
         "points": 130,
         "unitSize": 1,
         "regimentOptions": [],
-        "baseSizes": [
-          "40mm"
-        ],
+        "baseSizes": ["40mm"],
         "notes": null
       },
       "stats": {
@@ -2371,16 +1996,8 @@
           "effect": "Add 1 to chanting rolls for this unit."
         }
       ],
-      "primaryKeywords": [
-        "Hero",
-        "Priest (1)",
-        "Infantry"
-      ],
-      "secondaryKeywords": [
-        "Order",
-        "Stormcast Eternals",
-        "Warrior Chamber"
-      ],
+      "primaryKeywords": ["Hero", "Priest (1)", "Infantry"],
+      "secondaryKeywords": ["Order", "Stormcast Eternals", "Warrior Chamber"],
       "meleeWeapons": [
         {
           "name": "Relic Hammer",
@@ -2388,9 +2005,7 @@
           "hit": "3+",
           "wnd": "3+",
           "rnd": "1",
-          "abilities": [
-            "Crit (Auto-wound)"
-          ]
+          "abilities": ["Crit (Auto-wound)"]
         }
       ]
     },
@@ -2401,10 +2016,7 @@
         "points": 140,
         "unitSize": 1,
         "regimentOptions": [],
-        "baseSizes": [
-          "60mm [1]",
-          " 40mm [2]"
-        ],
+        "baseSizes": ["60mm [1]", " 40mm [2]"],
         "notes": "This unit will move to Warhammer Legends on 1 June 2025."
       },
       "stats": {
@@ -2425,9 +2037,7 @@
           "effect": "Roll a dice. On a 2+, inflict an amount of mortal damage on the target equal to the roll."
         }
       ],
-      "primaryKeywords": [
-        "War Machine"
-      ],
+      "primaryKeywords": ["War Machine"],
       "secondaryKeywords": [
         "Order",
         "Stormcast Eternals",
@@ -2441,10 +2051,7 @@
           "hit": "4+",
           "wnd": "2+",
           "rnd": "1",
-          "abilities": [
-            "Crit (2 Hits)",
-            "Anti-Monster (+1 Rend)"
-          ]
+          "abilities": ["Crit (2 Hits)", "Anti-Monster (+1 Rend)"]
         }
       ],
       "meleeWeapons": [
@@ -2465,9 +2072,7 @@
         "points": 0,
         "unitSize": 3,
         "regimentOptions": [],
-        "baseSizes": [
-          "40mm"
-        ],
+        "baseSizes": ["40mm"],
         "notes": "This unit can only be taken in Neave Blacktalon’s regiment. This unit cannot be reinforced."
       },
       "stats": {
@@ -2488,15 +2093,8 @@
           "effect": "While any friendly The Blacktalons Heroes are wholly within this unit’s combat range, both this unit and those friendly units have Ward (5+)."
         }
       ],
-      "primaryKeywords": [
-        "Unique",
-        "Infantry"
-      ],
-      "secondaryKeywords": [
-        "Order",
-        "Stormcast Eternals",
-        "The Blacktalons"
-      ],
+      "primaryKeywords": ["Unique", "Infantry"],
+      "secondaryKeywords": ["Order", "Stormcast Eternals", "The Blacktalons"],
       "rangedWeapons": [
         {
           "name": "Typhoon Crossbow",
@@ -2505,9 +2103,7 @@
           "hit": "3+",
           "wnd": "3+",
           "rnd": "1",
-          "abilities": [
-            "Anti-Hero (+1 Rend)"
-          ]
+          "abilities": ["Anti-Hero (+1 Rend)"]
         }
       ],
       "meleeWeapons": [
@@ -2533,9 +2129,7 @@
           "hit": "4+",
           "wnd": "3+",
           "rnd": "-",
-          "abilities": [
-            "Companion"
-          ]
+          "abilities": ["Companion"]
         }
       ]
     },
@@ -2546,9 +2140,7 @@
         "points": 190,
         "unitSize": 1,
         "regimentOptions": [],
-        "baseSizes": [
-          "90 x 52mm"
-        ],
+        "baseSizes": ["90 x 52mm"],
         "notes": null
       },
       "stats": {
@@ -2579,15 +2171,8 @@
           "effect": "Each time you make an unmodified save roll of 6 for a combat attack that targets this unit, inflict 1 mortal damage on the attacking unit after the Fight ability has been resolved."
         }
       ],
-      "primaryKeywords": [
-        "Hero",
-        "Cavalry"
-      ],
-      "secondaryKeywords": [
-        "Order",
-        "Stormcast Eternals",
-        "Extremis Chamber"
-      ],
+      "primaryKeywords": ["Hero", "Cavalry"],
+      "secondaryKeywords": ["Order", "Stormcast Eternals", "Extremis Chamber"],
       "rangedWeapons": [
         {
           "name": "Stormblast",
@@ -2596,10 +2181,7 @@
           "hit": "3+",
           "wnd": "3+",
           "rnd": "2",
-          "abilities": [
-            "Crit (2 Hits)",
-            "Companion"
-          ]
+          "abilities": ["Crit (2 Hits)", "Companion"]
         }
       ],
       "meleeWeapons": [
@@ -2609,9 +2191,7 @@
           "hit": "3+",
           "wnd": "3+",
           "rnd": "1",
-          "abilities": [
-            "Anti-Infantry (+1 Rend)"
-          ]
+          "abilities": ["Anti-Infantry (+1 Rend)"]
         },
         {
           "name": "Dracoth’s Claws and Fangs",
@@ -2619,9 +2199,7 @@
           "hit": "4+",
           "wnd": "2+",
           "rnd": "2",
-          "abilities": [
-            "Companion"
-          ]
+          "abilities": ["Companion"]
         }
       ]
     },
@@ -2632,9 +2210,7 @@
         "points": 220,
         "unitSize": 5,
         "regimentOptions": [],
-        "baseSizes": [
-          "40mm"
-        ],
+        "baseSizes": ["40mm"],
         "notes": "This unit will move to Warhammer Legends on 1 June 2025."
       },
       "stats": {
@@ -2655,15 +2231,8 @@
           "effect": "While any friendly Stormcast Eternals Infantry Heroes are within this unit’s combat range, both this unit and those friendly units have Ward (5+)."
         }
       ],
-      "primaryKeywords": [
-        "Infantry",
-        "Champion"
-      ],
-      "secondaryKeywords": [
-        "Order",
-        "Stormcast Eternals",
-        "Warrior Chamber"
-      ],
+      "primaryKeywords": ["Infantry", "Champion"],
+      "secondaryKeywords": ["Order", "Stormcast Eternals", "Warrior Chamber"],
       "meleeWeapons": [
         {
           "name": "Starsoul Mace",
@@ -2671,9 +2240,7 @@
           "hit": "3+",
           "wnd": "3+",
           "rnd": "2",
-          "abilities": [
-            "Crit (Mortal)"
-          ]
+          "abilities": ["Crit (Mortal)"]
         },
         {
           "name": "Protector Stormstrike Glaive",
@@ -2692,9 +2259,7 @@
         "points": 190,
         "unitSize": 1,
         "regimentOptions": [],
-        "baseSizes": [
-          "50mm"
-        ],
+        "baseSizes": ["50mm"],
         "notes": "This unit will move to Warhammer Legends on 1 June 2025."
       },
       "stats": {
@@ -2713,23 +2278,11 @@
           },
           "declare": "Pick a visible enemy unit within 24\" of this unit to be the target.",
           "effect": "If the target is a non-Monster unit, inflict D6 mortal damage on it. If the target is a Monster, inflict D6+3 mortal damage on it.",
-          "keywords": [
-            "Core",
-            "Attack",
-            "Shoot"
-          ]
+          "keywords": ["Core", "Attack", "Shoot"]
         }
       ],
-      "primaryKeywords": [
-        "Hero",
-        "Infantry",
-        "Fly"
-      ],
-      "secondaryKeywords": [
-        "Order",
-        "Stormcast Eternals",
-        "Warrior Chamber"
-      ],
+      "primaryKeywords": ["Hero", "Infantry", "Fly"],
+      "secondaryKeywords": ["Order", "Stormcast Eternals", "Warrior Chamber"],
       "rangedWeapons": [
         {
           "name": "Realmhunter’s Bow",
@@ -2738,10 +2291,7 @@
           "hit": "3+",
           "wnd": "3+",
           "rnd": "1",
-          "abilities": [
-            "Crit (2 Hits)",
-            "Anti-Monster (+1 Rend)"
-          ]
+          "abilities": ["Crit (2 Hits)", "Anti-Monster (+1 Rend)"]
         }
       ],
       "meleeWeapons": [
@@ -2751,9 +2301,7 @@
           "hit": "4+",
           "wnd": "3+",
           "rnd": "-",
-          "abilities": [
-            "Companion"
-          ]
+          "abilities": ["Companion"]
         },
         {
           "name": "Bowstave",
@@ -2772,9 +2320,7 @@
         "points": 360,
         "unitSize": 1,
         "regimentOptions": [],
-        "baseSizes": [
-          "100mm"
-        ],
+        "baseSizes": ["100mm"],
         "notes": null
       },
       "stats": {
@@ -2813,10 +2359,7 @@
         "Fly",
         "Ward (5+)"
       ],
-      "secondaryKeywords": [
-        "Order",
-        "Stormcast Eternals"
-      ],
+      "secondaryKeywords": ["Order", "Stormcast Eternals"],
       "rangedWeapons": [
         {
           "name": "Cometstrike Sceptre",
@@ -2835,9 +2378,7 @@
           "hit": "3+",
           "wnd": "2+",
           "rnd": "2",
-          "abilities": [
-            "Crit (Mortal)"
-          ]
+          "abilities": ["Crit (Mortal)"]
         }
       ]
     },
@@ -2848,9 +2389,7 @@
         "points": 220,
         "unitSize": 1,
         "regimentOptions": [],
-        "baseSizes": [
-          "90 x 52mm"
-        ],
+        "baseSizes": ["90 x 52mm"],
         "notes": "This unit will move to Warhammer Legends on 1 June 2025."
       },
       "stats": {
@@ -2881,11 +2420,7 @@
           "effect": "If the target is damaged, Heal (D6) the target. If the target is not damaged, return a slain model to it."
         }
       ],
-      "primaryKeywords": [
-        "Hero",
-        "Wizard (1)",
-        "Cavalry"
-      ],
+      "primaryKeywords": ["Hero", "Wizard (1)", "Cavalry"],
       "secondaryKeywords": [
         "Order",
         "Stormcast Eternals",
@@ -2898,9 +2433,7 @@
           "hit": "4+",
           "wnd": "3+",
           "rnd": "1",
-          "abilities": [
-            "Companion"
-          ]
+          "abilities": ["Companion"]
         },
         {
           "name": "Aetherstave",
@@ -2919,9 +2452,7 @@
         "points": 140,
         "unitSize": 5,
         "regimentOptions": [],
-        "baseSizes": [
-          "40mm"
-        ],
+        "baseSizes": ["40mm"],
         "notes": null
       },
       "stats": {
@@ -2942,15 +2473,8 @@
           "effect": "If an enemy unit had any damage points allocated to it this turn by this unit’s shooting attacks, add 1 to hit rolls for attacks made by friendly Stormcast Eternals units that target that unit for the rest of the turn."
         }
       ],
-      "primaryKeywords": [
-        "Infantry",
-        "Champion"
-      ],
-      "secondaryKeywords": [
-        "Order",
-        "Stormcast Eternals",
-        "Warrior Chamber"
-      ],
+      "primaryKeywords": ["Infantry", "Champion"],
+      "secondaryKeywords": ["Order", "Stormcast Eternals", "Warrior Chamber"],
       "rangedWeapons": [
         {
           "name": "Stormcaller Bow",
@@ -2980,9 +2504,7 @@
         "points": 270,
         "unitSize": 1,
         "regimentOptions": [],
-        "baseSizes": [
-          "50mm"
-        ],
+        "baseSizes": ["50mm"],
         "notes": null
       },
       "stats": {
@@ -3023,16 +2545,8 @@
           "effect": "If any enemy models were slain by this unit’s attacks this turn, Heal (4) this unit."
         }
       ],
-      "primaryKeywords": [
-        "Unique",
-        "Hero",
-        "Infantry",
-        "Ward (5+)"
-      ],
-      "secondaryKeywords": [
-        "Order",
-        "Stormcast Eternals"
-      ],
+      "primaryKeywords": ["Unique", "Hero", "Infantry", "Ward (5+)"],
+      "secondaryKeywords": ["Order", "Stormcast Eternals"],
       "rangedWeapons": [
         {
           "name": "Thunderbolts of Azyr",
@@ -3051,9 +2565,7 @@
           "hit": "3+",
           "wnd": "2+",
           "rnd": "2",
-          "abilities": [
-            "Crit (Auto-wound)"
-          ]
+          "abilities": ["Crit (Auto-wound)"]
         }
       ]
     },
@@ -3064,9 +2576,7 @@
         "points": 500,
         "unitSize": 1,
         "regimentOptions": [],
-        "baseSizes": [
-          "160mm"
-        ],
+        "baseSizes": ["160mm"],
         "notes": null
       },
       "stats": {
@@ -3095,9 +2605,7 @@
           },
           "declare": "Pick an enemy unit in combat with this unit to be the target.",
           "effect": "Roll a dice for each model in the target unit. For each 5+, inflict 1 mortal damage on the target.",
-          "keywords": [
-            "Rampage"
-          ]
+          "keywords": ["Rampage"]
         },
         {
           "name": "Fires of Retribution",
@@ -3110,17 +2618,8 @@
           "effect": "While this unit has 5-9 damage points, add 1 to the Attacks characteristic of its melee weapons. \n\nWhile this unit has 10 or more damage points, add 2 to the Attacks characteristic of its melee weapons instead."
         }
       ],
-      "primaryKeywords": [
-        "Warmaster",
-        "Unique",
-        "Hero",
-        "Monster",
-        "Fly"
-      ],
-      "secondaryKeywords": [
-        "Order",
-        "Stormcast Eternals"
-      ],
+      "primaryKeywords": ["Warmaster", "Unique", "Hero", "Monster", "Fly"],
+      "secondaryKeywords": ["Order", "Stormcast Eternals"],
       "rangedWeapons": [
         {
           "name": "Blazing Tempest",
@@ -3129,9 +2628,7 @@
           "hit": "2+",
           "wnd": "3+",
           "rnd": "2",
-          "abilities": [
-            "Shoot in Combat"
-          ]
+          "abilities": ["Shoot in Combat"]
         }
       ],
       "meleeWeapons": [
@@ -3149,9 +2646,7 @@
           "hit": "3+",
           "wnd": "2+",
           "rnd": "2",
-          "abilities": [
-            "Anti-Infantry (+1 Rend)"
-          ]
+          "abilities": ["Anti-Infantry (+1 Rend)"]
         }
       ]
     },
@@ -3162,9 +2657,7 @@
         "points": 140,
         "unitSize": 5,
         "regimentOptions": [],
-        "baseSizes": [
-          "40mm"
-        ],
+        "baseSizes": ["40mm"],
         "notes": "This unit will move to Warhammer Legends on 1 June 2025."
       },
       "stats": {
@@ -3185,15 +2678,8 @@
           "effect": "Roll a dice. On a 3+, the target cannot use Rampage abilities until the start of your next turn."
         }
       ],
-      "primaryKeywords": [
-        "Infantry",
-        "Champion"
-      ],
-      "secondaryKeywords": [
-        "Order",
-        "Stormcast Eternals",
-        "Warrior Chamber"
-      ],
+      "primaryKeywords": ["Infantry", "Champion"],
+      "secondaryKeywords": ["Order", "Stormcast Eternals", "Warrior Chamber"],
       "rangedWeapons": [
         {
           "name": "Shockbolt Bow",
@@ -3202,9 +2688,7 @@
           "hit": "3+",
           "wnd": "3+",
           "rnd": "1",
-          "abilities": [
-            "Anti-Monster (+1 Rend)"
-          ]
+          "abilities": ["Anti-Monster (+1 Rend)"]
         },
         {
           "name": "Skybolt Bow",
@@ -3213,9 +2697,7 @@
           "hit": "3+",
           "wnd": "3+",
           "rnd": "1",
-          "abilities": [
-            "Crit (Auto-wound)"
-          ]
+          "abilities": ["Crit (Auto-wound)"]
         }
       ],
       "meleeWeapons": [
@@ -3236,9 +2718,7 @@
         "points": 180,
         "unitSize": 5,
         "regimentOptions": [],
-        "baseSizes": [
-          "40mm"
-        ],
+        "baseSizes": ["40mm"],
         "notes": "This unit will move to Warhammer Legends on 1 June 2025."
       },
       "stats": {
@@ -3269,10 +2749,7 @@
           "effect": "Add 1 to wound rolls for the target’s combat attacks for the rest of the turn."
         }
       ],
-      "primaryKeywords": [
-        "Infantry",
-        "Champion"
-      ],
+      "primaryKeywords": ["Infantry", "Champion"],
       "secondaryKeywords": [
         "Order",
         "Stormcast Eternals",
@@ -3285,9 +2762,7 @@
           "hit": "3+",
           "wnd": "3+",
           "rnd": "1",
-          "abilities": [
-            "Crit (Mortal)"
-          ]
+          "abilities": ["Crit (Mortal)"]
         }
       ]
     },
@@ -3298,9 +2773,7 @@
         "points": 490,
         "unitSize": 1,
         "regimentOptions": [],
-        "baseSizes": [
-          "170 x 105mm"
-        ],
+        "baseSizes": ["170 x 105mm"],
         "notes": null
       },
       "stats": {
@@ -3339,9 +2812,7 @@
           },
           "declare": "Pick an enemy unit in combat with this unit to be the target.",
           "effect": "Roll 3 dice. For each roll that equals or exceeds the target’s Health characteristic, 1 model in the target unit is slain.",
-          "keywords": [
-            "Rampage"
-          ]
+          "keywords": ["Rampage"]
         },
         {
           "name": "Extremis Chamber",
@@ -3354,16 +2825,8 @@
           "effect": "Each time you make an unmodified save roll of 6 for a combat attack that targets this unit, inflict 1 mortal damage on the attacking unit after the Fight ability has been resolved."
         }
       ],
-      "primaryKeywords": [
-        "Hero",
-        "Monster",
-        "Fly"
-      ],
-      "secondaryKeywords": [
-        "Order",
-        "Stormcast Eternals",
-        "Extremis Chamber"
-      ],
+      "primaryKeywords": ["Hero", "Monster", "Fly"],
+      "secondaryKeywords": ["Order", "Stormcast Eternals", "Extremis Chamber"],
       "rangedWeapons": [
         {
           "name": "Rain of Stars",
@@ -3372,9 +2835,7 @@
           "hit": "3+",
           "wnd": "2+",
           "rnd": "2",
-          "abilities": [
-            "Companion"
-          ]
+          "abilities": ["Companion"]
         }
       ],
       "meleeWeapons": [
@@ -3384,9 +2845,7 @@
           "hit": "3+",
           "wnd": "3+",
           "rnd": "1",
-          "abilities": [
-            "Crit (Auto-wound)"
-          ]
+          "abilities": ["Crit (Auto-wound)"]
         },
         {
           "name": "💀 Stardrake’s Cavernous Jaws",
@@ -3394,9 +2853,7 @@
           "hit": "4+",
           "wnd": "2+",
           "rnd": "2",
-          "abilities": [
-            "Companion"
-          ]
+          "abilities": ["Companion"]
         }
       ]
     },
@@ -3407,9 +2864,7 @@
         "points": 230,
         "unitSize": 6,
         "regimentOptions": [],
-        "baseSizes": [
-          "40mm"
-        ],
+        "baseSizes": ["40mm"],
         "notes": "This unit cannot be reinforced."
       },
       "stats": {
@@ -3438,9 +2893,7 @@
           },
           "declare": "You can pick a friendly Knight‑Questor within this unit’s combat range to be the target.",
           "effect": "Remove this unit from the battlefield and set it up again on the battlefield more than 9\" from all enemy units. Then, if you picked a target, remove it from the battlefield and set it up again within this unit’s combat range and more than 9\" from all enemy units.",
-          "keywords": [
-            "Core"
-          ]
+          "keywords": ["Core"]
         },
         {
           "name": "His Will Be Done",
@@ -3453,15 +2906,8 @@
           "effect": "While this unit is contesting a questmarked objective:\n\n• Add 3 to this unit’s control score.\n• This unit has Ward (5+)."
         }
       ],
-      "primaryKeywords": [
-        "Infantry",
-        "Champion (1/6)"
-      ],
-      "secondaryKeywords": [
-        "Order",
-        "Stormcast Eternals",
-        "Warrior Chamber"
-      ],
+      "primaryKeywords": ["Infantry", "Champion (1/6)"],
+      "secondaryKeywords": ["Order", "Stormcast Eternals", "Warrior Chamber"],
       "meleeWeapons": [
         {
           "name": "Questor Weapons",
@@ -3480,9 +2926,7 @@
         "points": 140,
         "unitSize": 3,
         "regimentOptions": [],
-        "baseSizes": [
-          "40mm"
-        ],
+        "baseSizes": ["40mm"],
         "notes": null
       },
       "stats": {
@@ -3523,16 +2967,8 @@
           "effect": "Make a resistance roll of D6. On a 4+, that ability has no effect on this unit."
         }
       ],
-      "primaryKeywords": [
-        "Infantry",
-        "Champion",
-        "Fly"
-      ],
-      "secondaryKeywords": [
-        "Order",
-        "Stormcast Eternals",
-        "Ruination Chamber"
-      ],
+      "primaryKeywords": ["Infantry", "Champion", "Fly"],
+      "secondaryKeywords": ["Order", "Stormcast Eternals", "Ruination Chamber"],
       "rangedWeapons": [
         {
           "name": "Stormcall Javelin",
@@ -3551,9 +2987,7 @@
           "hit": "3+",
           "wnd": "3+",
           "rnd": "1",
-          "abilities": [
-            "Charge (+1 Damage)"
-          ]
+          "abilities": ["Charge (+1 Damage)"]
         }
       ]
     },
@@ -3564,9 +2998,7 @@
         "points": 280,
         "unitSize": 1,
         "regimentOptions": [],
-        "baseSizes": [
-          "100mm"
-        ],
+        "baseSizes": ["100mm"],
         "notes": "This unit will move to Warhammer Legends on 1 June 2025."
       },
       "stats": {
@@ -3605,17 +3037,10 @@
           },
           "declare": "Declare: If this unit is in combat, pick each visible friendly Stormcast Eternals unit within its combat range to be the targets.",
           "effect": "For the rest of the turn, the targets have Ward (5+) and this unit has Strike-last.",
-          "keywords": [
-            "Rampage"
-          ]
+          "keywords": ["Rampage"]
         }
       ],
-      "primaryKeywords": [
-        "Hero",
-        "Monster",
-        "Wizard (1)",
-        "Fly"
-      ],
+      "primaryKeywords": ["Hero", "Monster", "Wizard (1)", "Fly"],
       "secondaryKeywords": [
         "Order",
         "Stormcast Eternals",
@@ -3636,9 +3061,7 @@
           "hit": "4+",
           "wnd": "3+",
           "rnd": "1",
-          "abilities": [
-            "Companion"
-          ]
+          "abilities": ["Companion"]
         }
       ]
     },
@@ -3649,9 +3072,7 @@
         "points": 150,
         "unitSize": 1,
         "regimentOptions": [],
-        "baseSizes": [
-          "40mm"
-        ],
+        "baseSizes": ["40mm"],
         "notes": "This unit will move to Warhammer Legends on 1 June 2025."
       },
       "stats": {
@@ -3682,11 +3103,7 @@
           "effect": "Models cannot be returned to enemy units within 12\" of this unit."
         }
       ],
-      "primaryKeywords": [
-        "Hero",
-        "Wizard (1)",
-        "Infantry"
-      ],
+      "primaryKeywords": ["Hero", "Wizard (1)", "Infantry"],
       "secondaryKeywords": [
         "Order",
         "Stormcast Eternals",
@@ -3710,9 +3127,7 @@
         "points": 210,
         "unitSize": 1,
         "regimentOptions": [],
-        "baseSizes": [
-          "90 x 52mm"
-        ],
+        "baseSizes": ["90 x 52mm"],
         "notes": null
       },
       "stats": {
@@ -3743,15 +3158,8 @@
           "effect": "Make a resistance roll of D6. On a 4+, that ability has no effect on this unit."
         }
       ],
-      "primaryKeywords": [
-        "Hero",
-        "Cavalry"
-      ],
-      "secondaryKeywords": [
-        "Order",
-        "Stormcast Eternals",
-        "Ruination Chamber"
-      ],
+      "primaryKeywords": ["Hero", "Cavalry"],
+      "secondaryKeywords": ["Order", "Stormcast Eternals", "Ruination Chamber"],
       "meleeWeapons": [
         {
           "name": "Hallowed Greataxe",
@@ -3767,9 +3175,7 @@
           "hit": "4+",
           "wnd": "3+",
           "rnd": "1",
-          "abilities": [
-            "Companion"
-          ]
+          "abilities": ["Companion"]
         }
       ]
     },
@@ -3780,9 +3186,7 @@
         "points": 150,
         "unitSize": 3,
         "regimentOptions": [],
-        "baseSizes": [
-          "40mm"
-        ],
+        "baseSizes": ["40mm"],
         "notes": null
       },
       "stats": {
@@ -3813,15 +3217,8 @@
           "effect": "While this unit’s soul-bonded charge is within this unit’s combat range, both this unit and that soul-bonded charge have Ward (5+)."
         }
       ],
-      "primaryKeywords": [
-        "Infantry",
-        "Champion"
-      ],
-      "secondaryKeywords": [
-        "Order",
-        "Stormcast Eternals",
-        "Warrior Chamber"
-      ],
+      "primaryKeywords": ["Infantry", "Champion"],
+      "secondaryKeywords": ["Order", "Stormcast Eternals", "Warrior Chamber"],
       "meleeWeapons": [
         {
           "name": "Soulguard’s Halberd",
@@ -3840,9 +3237,7 @@
         "points": 110,
         "unitSize": 1,
         "regimentOptions": [],
-        "baseSizes": [
-          "40mm"
-        ],
+        "baseSizes": ["40mm"],
         "notes": "This unit will move to Warhammer Legends on 1 June 2025."
       },
       "stats": {
@@ -3873,15 +3268,8 @@
           "effect": "Roll a dice. On a 2+, inflict an amount of mortal damage on the target equal to the roll."
         }
       ],
-      "primaryKeywords": [
-        "Hero",
-        "Infantry"
-      ],
-      "secondaryKeywords": [
-        "Order",
-        "Stormcast Eternals",
-        "Warrior Chamber"
-      ],
+      "primaryKeywords": ["Hero", "Infantry"],
+      "secondaryKeywords": ["Order", "Stormcast Eternals", "Warrior Chamber"],
       "meleeWeapons": [
         {
           "name": "Sigmarite Broadsword",
@@ -3900,9 +3288,7 @@
         "points": 280,
         "unitSize": 1,
         "regimentOptions": [],
-        "baseSizes": [
-          "105 x 70mm"
-        ],
+        "baseSizes": ["105 x 70mm"],
         "notes": null
       },
       "stats": {
@@ -3931,9 +3317,7 @@
           },
           "declare": "Pick a friendly Stormdrake Guard unit within this unit’s combat range to be the target.",
           "effect": "Roll a dice. On a 2+, add 1 to the Attacks characteristic of both this unit’s and the target’s Draconith’s Fangs and Talons for the rest of the turn.",
-          "keywords": [
-            "Rampage"
-          ]
+          "keywords": ["Rampage"]
         },
         {
           "name": "Extremis Chamber",
@@ -3946,16 +3330,8 @@
           "effect": "Each time you make an unmodified save roll of 6 for a combat attack that targets this unit, inflict 1 mortal damage on the attacking unit after the Fight ability has been resolved."
         }
       ],
-      "primaryKeywords": [
-        "Hero",
-        "Monster",
-        "Fly"
-      ],
-      "secondaryKeywords": [
-        "Order",
-        "Stormcast Eternals",
-        "Extremis Chamber"
-      ],
+      "primaryKeywords": ["Hero", "Monster", "Fly"],
+      "secondaryKeywords": ["Order", "Stormcast Eternals", "Extremis Chamber"],
       "rangedWeapons": [
         {
           "name": "Draconic Flamestream",
@@ -3964,10 +3340,7 @@
           "hit": "2+",
           "wnd": "3+",
           "rnd": "2",
-          "abilities": [
-            "Shoot in Combat",
-            "Companion"
-          ]
+          "abilities": ["Shoot in Combat", "Companion"]
         }
       ],
       "meleeWeapons": [
@@ -3985,9 +3358,7 @@
           "hit": "4+",
           "wnd": "2+",
           "rnd": "2",
-          "abilities": [
-            "Companion"
-          ]
+          "abilities": ["Companion"]
         }
       ]
     },
@@ -3998,9 +3369,7 @@
         "points": 230,
         "unitSize": 1,
         "regimentOptions": [],
-        "baseSizes": [
-          "90 x 52mm"
-        ],
+        "baseSizes": ["90 x 52mm"],
         "notes": null
       },
       "stats": {
@@ -4031,16 +3400,8 @@
           "effect": "Add 3 to the control scores of friendly Warrior Chamber units while they are wholly within 12\" of this unit."
         }
       ],
-      "primaryKeywords": [
-        "Unique",
-        "Hero",
-        "Cavalry"
-      ],
-      "secondaryKeywords": [
-        "Order",
-        "Stormcast Eternals",
-        "Warrior Chamber"
-      ],
+      "primaryKeywords": ["Unique", "Hero", "Cavalry"],
+      "secondaryKeywords": ["Order", "Stormcast Eternals", "Warrior Chamber"],
       "rangedWeapons": [
         {
           "name": "Stormblast",
@@ -4049,10 +3410,7 @@
           "hit": "3+",
           "wnd": "3+",
           "rnd": "2",
-          "abilities": [
-            "Crit (2 Hits)",
-            "Companion"
-          ]
+          "abilities": ["Crit (2 Hits)", "Companion"]
         }
       ],
       "meleeWeapons": [
@@ -4062,9 +3420,7 @@
           "hit": "3+",
           "wnd": "2+",
           "rnd": "1",
-          "abilities": [
-            "Crit (Auto-wound)"
-          ]
+          "abilities": ["Crit (Auto-wound)"]
         },
         {
           "name": "Calanax’s Claws and Fangs",
@@ -4072,9 +3428,7 @@
           "hit": "4+",
           "wnd": "2+",
           "rnd": "2",
-          "abilities": [
-            "Companion"
-          ]
+          "abilities": ["Companion"]
         }
       ]
     },
@@ -4085,9 +3439,7 @@
         "points": 140,
         "unitSize": 1,
         "regimentOptions": [],
-        "baseSizes": [
-          "40mm"
-        ],
+        "baseSizes": ["40mm"],
         "notes": null
       },
       "stats": {
@@ -4128,16 +3480,8 @@
           "effect": "Make a resistance roll of D6. On a 4+, that ability has no effect on this unit."
         }
       ],
-      "primaryKeywords": [
-        "Hero",
-        "Priest (1)",
-        "Infantry"
-      ],
-      "secondaryKeywords": [
-        "Order",
-        "Stormcast Eternals",
-        "Ruination Chamber"
-      ],
+      "primaryKeywords": ["Hero", "Priest (1)", "Infantry"],
+      "secondaryKeywords": ["Order", "Stormcast Eternals", "Ruination Chamber"],
       "meleeWeapons": [
         {
           "name": "Judgement Blade",
@@ -4145,10 +3489,7 @@
           "hit": "3+",
           "wnd": "3+",
           "rnd": "1",
-          "abilities": [
-            "Anti-Wizard (+1 Rend)",
-            "Anti-Priest (+1 Rend)"
-          ]
+          "abilities": ["Anti-Wizard (+1 Rend)", "Anti-Priest (+1 Rend)"]
         },
         {
           "name": "Staff of Abjuration",
@@ -4167,9 +3508,7 @@
         "points": 230,
         "unitSize": 3,
         "regimentOptions": [],
-        "baseSizes": [
-          "75 x 42mm"
-        ],
+        "baseSizes": ["75 x 42mm"],
         "notes": null
       },
       "stats": {
@@ -4200,10 +3539,7 @@
           "effect": "If any damage points are allocated to an enemy unit by attacks made with this unit’s Shock Handaxes, subtract 1 from wound rolls for that enemy unit’s combat attacks for the rest of the turn."
         }
       ],
-      "primaryKeywords": [
-        "Cavalry",
-        "Champion"
-      ],
+      "primaryKeywords": ["Cavalry", "Champion"],
       "secondaryKeywords": [
         "Order",
         "Stormcast Eternals",
@@ -4218,9 +3554,7 @@
           "hit": "4+",
           "wnd": "4+",
           "rnd": "1",
-          "abilities": [
-            "Shoot in Combat"
-          ]
+          "abilities": ["Shoot in Combat"]
         }
       ],
       "meleeWeapons": [
@@ -4230,9 +3564,7 @@
           "hit": "4+",
           "wnd": "3+",
           "rnd": "1",
-          "abilities": [
-            "Companion"
-          ]
+          "abilities": ["Companion"]
         },
         {
           "name": "Shock Handaxe",
@@ -4240,9 +3572,7 @@
           "hit": "3+",
           "wnd": "3+",
           "rnd": "1",
-          "abilities": [
-            "Charge (+1 Damage)"
-          ]
+          "abilities": ["Charge (+1 Damage)"]
         }
       ]
     },
@@ -4253,9 +3583,7 @@
         "points": 120,
         "unitSize": 1,
         "regimentOptions": [],
-        "baseSizes": [
-          "40mm"
-        ],
+        "baseSizes": ["40mm"],
         "notes": "This Hero can join an eligible regiment as a Stormcast Exemplar."
       },
       "stats": {
@@ -4276,15 +3604,8 @@
           "effect": "Add 3 to each target’s control score for the rest of the turn. In addition, Heal (D3) each target."
         }
       ],
-      "primaryKeywords": [
-        "Hero",
-        "Infantry"
-      ],
-      "secondaryKeywords": [
-        "Order",
-        "Stormcast Eternals",
-        "Warrior Chamber"
-      ],
+      "primaryKeywords": ["Hero", "Infantry"],
+      "secondaryKeywords": ["Order", "Stormcast Eternals", "Warrior Chamber"],
       "meleeWeapons": [
         {
           "name": "Sigmarite Warblade",
@@ -4303,9 +3624,7 @@
         "points": 150,
         "unitSize": 1,
         "regimentOptions": [],
-        "baseSizes": [
-          "40mm"
-        ],
+        "baseSizes": ["40mm"],
         "notes": "This unit will move to Warhammer Legends on 1 June 2025."
       },
       "stats": {
@@ -4346,15 +3665,8 @@
           "effect": "For the rest of the turn, this unit has Ward (4+). Remove this unit’s Gryph-hound from the battlefield at the end of the turn."
         }
       ],
-      "primaryKeywords": [
-        "Hero",
-        "Infantry"
-      ],
-      "secondaryKeywords": [
-        "Order",
-        "Stormcast Eternals",
-        "Warrior Chamber"
-      ],
+      "primaryKeywords": ["Hero", "Infantry"],
+      "secondaryKeywords": ["Order", "Stormcast Eternals", "Warrior Chamber"],
       "meleeWeapons": [
         {
           "name": "Gryph-hound’s Beak",
@@ -4362,9 +3674,7 @@
           "hit": "4+",
           "wnd": "4+",
           "rnd": "-",
-          "abilities": [
-            "Companion"
-          ]
+          "abilities": ["Companion"]
         },
         {
           "name": "Castellant’s Halberd",
@@ -4372,9 +3682,7 @@
           "hit": "3+",
           "wnd": "3+",
           "rnd": "1",
-          "abilities": [
-            "Crit (Auto-wound)"
-          ]
+          "abilities": ["Crit (Auto-wound)"]
         }
       ]
     },
@@ -4385,9 +3693,7 @@
         "points": 150,
         "unitSize": 1,
         "regimentOptions": [],
-        "baseSizes": [
-          "40mm"
-        ],
+        "baseSizes": ["40mm"],
         "notes": "This Hero can join an eligible regiment as a Stormcast Exemplar."
       },
       "stats": {
@@ -4428,15 +3734,8 @@
           "effect": "While this unit is contesting a questmarked objective:\n\n• Add 3 to this unit’s control score.\n• This unit has Ward (5+)."
         }
       ],
-      "primaryKeywords": [
-        "Hero",
-        "Infantry"
-      ],
-      "secondaryKeywords": [
-        "Order",
-        "Stormcast Eternals",
-        "Warrior Chamber"
-      ],
+      "primaryKeywords": ["Hero", "Infantry"],
+      "secondaryKeywords": ["Order", "Stormcast Eternals", "Warrior Chamber"],
       "meleeWeapons": [
         {
           "name": "Questor Warblade",
@@ -4444,10 +3743,7 @@
           "hit": "3+",
           "wnd": "3+",
           "rnd": "1",
-          "abilities": [
-            "Anti-Hero (+1 Rend)",
-            "Crit (Mortal)"
-          ]
+          "abilities": ["Anti-Hero (+1 Rend)", "Crit (Mortal)"]
         }
       ]
     },
@@ -4458,9 +3754,7 @@
         "points": 220,
         "unitSize": 1,
         "regimentOptions": [],
-        "baseSizes": [
-          "90 x 52mm"
-        ],
+        "baseSizes": ["90 x 52mm"],
         "notes": "This unit will move to Warhammer Legends on 1 June 2025."
       },
       "stats": {
@@ -4479,9 +3773,7 @@
           },
           "declare": "Pick up to 3 enemy units in combat with this unit to be the targets, then make a casting roll of 2D6.",
           "effect": "If you picked 1 unit, inflict 3 mortal damage on the target. If you picked 2 units, inflict 2 mortal damage on each target. If you picked 3 units, inflict 1 mortal damage on each target.",
-          "keywords": [
-            "Spell"
-          ],
+          "keywords": ["Spell"],
           "castingValue": 5
         },
         {
@@ -4505,12 +3797,7 @@
           "effect": "Add 1 to wound rolls for the target’s attacks for the rest of the turn."
         }
       ],
-      "primaryKeywords": [
-        "Unique",
-        "Hero",
-        "Wizard (1)",
-        "Cavalry"
-      ],
+      "primaryKeywords": ["Unique", "Hero", "Wizard (1)", "Cavalry"],
       "secondaryKeywords": [
         "Order",
         "Stormcast Eternals",
@@ -4523,9 +3810,7 @@
           "hit": "3+",
           "wnd": "3+",
           "rnd": "1",
-          "abilities": [
-            "Companion"
-          ]
+          "abilities": ["Companion"]
         },
         {
           "name": "Astreia’s Aetherstave",
@@ -4533,9 +3818,7 @@
           "hit": "3+",
           "wnd": "3+",
           "rnd": "1",
-          "abilities": [
-            "Crit (Mortal)"
-          ]
+          "abilities": ["Crit (Mortal)"]
         }
       ]
     },
@@ -4546,10 +3829,7 @@
         "points": 170,
         "unitSize": 3,
         "regimentOptions": [],
-        "baseSizes": [
-          "60 x 35mm [2]",
-          " 40mm [1]"
-        ],
+        "baseSizes": ["60 x 35mm [2]", " 40mm [1]"],
         "notes": null
       },
       "stats": {
@@ -4580,15 +3860,8 @@
           "effect": "If this unit has not used a Move ability this turn and was not set up this turn, for the rest of the turn, this unit can ignore the effects of the ‘Guarded Hero’ ability (Core Rules, 25.0) when picking targets for its shooting attacks."
         }
       ],
-      "primaryKeywords": [
-        "Infantry",
-        "Champion"
-      ],
-      "secondaryKeywords": [
-        "Order",
-        "Stormcast Eternals",
-        "Vanguard Chamber"
-      ],
+      "primaryKeywords": ["Infantry", "Champion"],
+      "secondaryKeywords": ["Order", "Stormcast Eternals", "Vanguard Chamber"],
       "rangedWeapons": [
         {
           "name": "Longstrike Crossbow",
@@ -4597,10 +3870,7 @@
           "hit": "3+",
           "wnd": "3+",
           "rnd": "2",
-          "abilities": [
-            "Anti-Hero (+1 Rend)",
-            "Crit (Auto-wound)"
-          ]
+          "abilities": ["Anti-Hero (+1 Rend)", "Crit (Auto-wound)"]
         }
       ],
       "meleeWeapons": [
@@ -4621,10 +3891,7 @@
         "points": 130,
         "unitSize": 3,
         "regimentOptions": [],
-        "baseSizes": [
-          "40mm [3]",
-          " 25mm [1]"
-        ],
+        "baseSizes": ["40mm [3]", " 25mm [1]"],
         "notes": "This unit cannot be reinforced."
       },
       "stats": {
@@ -4655,16 +3922,8 @@
           "effect": "Until the start of your next turn, place Taros next to the target. While Taros is placed next to an enemy unit, that enemy unit cannot use commands."
         }
       ],
-      "primaryKeywords": [
-        "Unique",
-        "Infantry",
-        "Champion"
-      ],
-      "secondaryKeywords": [
-        "Order",
-        "Stormcast Eternals",
-        "Warrior Chamber"
-      ],
+      "primaryKeywords": ["Unique", "Infantry", "Champion"],
+      "secondaryKeywords": ["Order", "Stormcast Eternals", "Warrior Chamber"],
       "rangedWeapons": [
         {
           "name": "Stormcaller Bow",
@@ -4683,10 +3942,7 @@
           "hit": "3+",
           "wnd": "3+",
           "rnd": "1",
-          "abilities": [
-            "Crit (Mortal)",
-            "Anti-Monster (+1 Rend)"
-          ]
+          "abilities": ["Crit (Mortal)", "Anti-Monster (+1 Rend)"]
         },
         {
           "name": "Truthseeker Weapons",
@@ -4694,9 +3950,7 @@
           "hit": "3+",
           "wnd": "3+",
           "rnd": "1",
-          "abilities": [
-            "Crit (Mortal)"
-          ]
+          "abilities": ["Crit (Mortal)"]
         }
       ]
     },
@@ -4707,9 +3961,7 @@
         "points": 90,
         "unitSize": 3,
         "regimentOptions": [],
-        "baseSizes": [
-          "32mm"
-        ],
+        "baseSizes": ["32mm"],
         "notes": null
       },
       "stats": {
@@ -4740,15 +3992,8 @@
           "effect": "This unit has a maximum control score of 1."
         }
       ],
-      "primaryKeywords": [
-        "Beast",
-        "Fly"
-      ],
-      "secondaryKeywords": [
-        "Order",
-        "Stormcast Eternals",
-        "Vanguard Chamber"
-      ],
+      "primaryKeywords": ["Beast", "Fly"],
+      "secondaryKeywords": ["Order", "Stormcast Eternals", "Vanguard Chamber"],
       "meleeWeapons": [
         {
           "name": "Beak and Claws",
@@ -4756,9 +4001,7 @@
           "hit": "4+",
           "wnd": "4+",
           "rnd": "-",
-          "abilities": [
-            "Companion"
-          ]
+          "abilities": ["Companion"]
         }
       ]
     },
@@ -4769,9 +4012,7 @@
         "points": 150,
         "unitSize": 3,
         "regimentOptions": [],
-        "baseSizes": [
-          "40mm"
-        ],
+        "baseSizes": ["40mm"],
         "notes": null
       },
       "stats": {
@@ -4802,15 +4043,8 @@
           "effect": "Make a resistance roll of D6. On a 4+, that ability has no effect on this unit."
         }
       ],
-      "primaryKeywords": [
-        "Infantry",
-        "Champion"
-      ],
-      "secondaryKeywords": [
-        "Order",
-        "Stormcast Eternals",
-        "Ruination Chamber"
-      ],
+      "primaryKeywords": ["Infantry", "Champion"],
+      "secondaryKeywords": ["Order", "Stormcast Eternals", "Ruination Chamber"],
       "meleeWeapons": [
         {
           "name": "Rune-blessed Weapons",
@@ -4818,9 +4052,7 @@
           "hit": "3+",
           "wnd": "3+",
           "rnd": "1",
-          "abilities": [
-            "Crit (Mortal)"
-          ]
+          "abilities": ["Crit (Mortal)"]
         }
       ]
     },
@@ -4831,9 +4063,7 @@
         "points": 230,
         "unitSize": 3,
         "regimentOptions": [],
-        "baseSizes": [
-          "75 x 42mm"
-        ],
+        "baseSizes": ["75 x 42mm"],
         "notes": null
       },
       "stats": {
@@ -4864,10 +4094,7 @@
           "effect": "This unit can immediately use a Shoot ability as if it were your shooting phase, but it must target that enemy unit. This unit’s Starstrike Javelins have Shoot in Combat this phase."
         }
       ],
-      "primaryKeywords": [
-        "Cavalry",
-        "Champion"
-      ],
+      "primaryKeywords": ["Cavalry", "Champion"],
       "secondaryKeywords": [
         "Order",
         "Stormcast Eternals",
@@ -4882,9 +4109,7 @@
           "hit": "4+",
           "wnd": "4+",
           "rnd": "1",
-          "abilities": [
-            "Shoot in Combat"
-          ]
+          "abilities": ["Shoot in Combat"]
         },
         {
           "name": "Starstrike Javelin",
@@ -4911,9 +4136,7 @@
           "hit": "4+",
           "wnd": "3+",
           "rnd": "1",
-          "abilities": [
-            "Companion"
-          ]
+          "abilities": ["Companion"]
         }
       ]
     },
@@ -4924,9 +4147,7 @@
         "points": 130,
         "unitSize": 3,
         "regimentOptions": [],
-        "baseSizes": [
-          "40mm"
-        ],
+        "baseSizes": ["40mm"],
         "notes": "This unit will move to Warhammer Legends on 1 June 2025."
       },
       "stats": {
@@ -4967,10 +4188,7 @@
           "effect": "If this unit has not used a Move ability this turn and was not set up this turn, this unit’s shooting attacks score critical hits on unmodified hit rolls of 5+ for the rest of the turn."
         }
       ],
-      "primaryKeywords": [
-        "Infantry",
-        "Champion"
-      ],
+      "primaryKeywords": ["Infantry", "Champion"],
       "secondaryKeywords": [
         "Order",
         "Stormcast Eternals",
@@ -4984,10 +4202,7 @@
           "hit": "3+",
           "wnd": "3+",
           "rnd": "1",
-          "abilities": [
-            "Crit (2 Hits)",
-            "Anti-Cavalry (+1 Rend)"
-          ]
+          "abilities": ["Crit (2 Hits)", "Anti-Cavalry (+1 Rend)"]
         }
       ],
       "meleeWeapons": [
@@ -5008,9 +4223,7 @@
         "points": 80,
         "unitSize": 6,
         "regimentOptions": [],
-        "baseSizes": [
-          "40mm"
-        ],
+        "baseSizes": ["40mm"],
         "notes": null
       },
       "stats": {
@@ -5041,14 +4254,8 @@
           "effect": "This unit has a maximum control score of 1."
         }
       ],
-      "primaryKeywords": [
-        "Beast",
-        "Champion"
-      ],
-      "secondaryKeywords": [
-        "Order",
-        "Stormcast Eternals"
-      ],
+      "primaryKeywords": ["Beast", "Champion"],
+      "secondaryKeywords": ["Order", "Stormcast Eternals"],
       "meleeWeapons": [
         {
           "name": "Vicious Beak and Claws",
@@ -5056,9 +4263,7 @@
           "hit": "4+",
           "wnd": "4+",
           "rnd": "-",
-          "abilities": [
-            "Companion"
-          ]
+          "abilities": ["Companion"]
         }
       ]
     },
@@ -5069,9 +4274,7 @@
         "points": 200,
         "unitSize": 1,
         "regimentOptions": [],
-        "baseSizes": [
-          "90 x 52mm"
-        ],
+        "baseSizes": ["90 x 52mm"],
         "notes": null
       },
       "stats": {
@@ -5102,15 +4305,8 @@
           "effect": "Remove this unit and the targets (if any) from the battlefield. Set this unit up again on the battlefield more than 9\" from all enemy units. Then, set up each target wholly within 12\" of this unit and more than 9\" from all enemy units."
         }
       ],
-      "primaryKeywords": [
-        "Hero",
-        "Cavalry"
-      ],
-      "secondaryKeywords": [
-        "Order",
-        "Stormcast Eternals",
-        "Vanguard Chamber"
-      ],
+      "primaryKeywords": ["Hero", "Cavalry"],
+      "secondaryKeywords": ["Order", "Stormcast Eternals", "Vanguard Chamber"],
       "rangedWeapons": [
         {
           "name": "Heavy Boltstorm Pistol",
@@ -5119,9 +4315,7 @@
           "hit": "3+",
           "wnd": "3+",
           "rnd": "1",
-          "abilities": [
-            "Shoot in Combat"
-          ]
+          "abilities": ["Shoot in Combat"]
         }
       ],
       "meleeWeapons": [
@@ -5139,9 +4333,7 @@
           "hit": "4+",
           "wnd": "3+",
           "rnd": "1",
-          "abilities": [
-            "Companion"
-          ]
+          "abilities": ["Companion"]
         }
       ]
     },
@@ -5152,9 +4344,7 @@
         "points": 460,
         "unitSize": 1,
         "regimentOptions": [],
-        "baseSizes": [
-          "170 x 105mm"
-        ],
+        "baseSizes": ["170 x 105mm"],
         "notes": null
       },
       "stats": {
@@ -5183,9 +4373,7 @@
           },
           "declare": "Pick an enemy Monster in combat with this unit to be the target.",
           "effect": "Roll a dice. On a 2+, for the rest of the turn:\n\n• Add 1 to the Damage characteristic of this unit’s Stardrake’s Cavernous Jaws for attacks that target that unit.\n• If the target is also a Hero, add 1 to the Damage characteristic of this unit’s Templar Weapons for attacks that target that unit.",
-          "keywords": [
-            "Rampage"
-          ]
+          "keywords": ["Rampage"]
         },
         {
           "name": "Extremis Chamber",
@@ -5198,16 +4386,8 @@
           "effect": "Each time you make an unmodified save roll of 6 for a combat attack that targets this unit, inflict 1 mortal damage on the attacking unit after the Fight ability has been resolved."
         }
       ],
-      "primaryKeywords": [
-        "Hero",
-        "Monster",
-        "Fly"
-      ],
-      "secondaryKeywords": [
-        "Order",
-        "Stormcast Eternals",
-        "Extremis Chamber"
-      ],
+      "primaryKeywords": ["Hero", "Monster", "Fly"],
+      "secondaryKeywords": ["Order", "Stormcast Eternals", "Extremis Chamber"],
       "rangedWeapons": [
         {
           "name": "Rain of Stars",
@@ -5216,9 +4396,7 @@
           "hit": "3+",
           "wnd": "2+",
           "rnd": "2",
-          "abilities": [
-            "Companion"
-          ]
+          "abilities": ["Companion"]
         },
         {
           "name": "Skybolt Bow",
@@ -5227,9 +4405,7 @@
           "hit": "3+",
           "wnd": "3+",
           "rnd": "1",
-          "abilities": [
-            "Crit (Auto-wound)"
-          ]
+          "abilities": ["Crit (Auto-wound)"]
         }
       ],
       "meleeWeapons": [
@@ -5239,9 +4415,7 @@
           "hit": "4+",
           "wnd": "2+",
           "rnd": "2",
-          "abilities": [
-            "Companion"
-          ]
+          "abilities": ["Companion"]
         },
         {
           "name": "Templar Weapons",
@@ -5249,10 +4423,7 @@
           "hit": "3+",
           "wnd": "3+",
           "rnd": "1",
-          "abilities": [
-            "Anti-Hero (+1 Rend)",
-            "Anti-Monster (+1 Rend)"
-          ]
+          "abilities": ["Anti-Hero (+1 Rend)", "Anti-Monster (+1 Rend)"]
         }
       ]
     },
@@ -5263,9 +4434,7 @@
         "points": 160,
         "unitSize": 5,
         "regimentOptions": [],
-        "baseSizes": [
-          "40mm"
-        ],
+        "baseSizes": ["40mm"],
         "notes": "This unit will move to Warhammer Legends on 1 June 2025."
       },
       "stats": {
@@ -5286,15 +4455,8 @@
           "effect": "Roll a dice. On a 3+, until the start of your next turn, subtract 1 from the number of dice rolled when making charge rolls for the target, to a minimum of 1."
         }
       ],
-      "primaryKeywords": [
-        "Infantry",
-        "Champion"
-      ],
-      "secondaryKeywords": [
-        "Order",
-        "Stormcast Eternals",
-        "Warrior Chamber"
-      ],
+      "primaryKeywords": ["Infantry", "Champion"],
+      "secondaryKeywords": ["Order", "Stormcast Eternals", "Warrior Chamber"],
       "rangedWeapons": [
         {
           "name": "Boltstorm Crossbow",
@@ -5303,9 +4465,7 @@
           "hit": "3+",
           "wnd": "3+",
           "rnd": "-",
-          "abilities": [
-            "Anti-Infantry (+1 Rend)"
-          ]
+          "abilities": ["Anti-Infantry (+1 Rend)"]
         },
         {
           "name": "Thunderbolt Crossbow",
@@ -5314,9 +4474,7 @@
           "hit": "3+",
           "wnd": "3+",
           "rnd": "-",
-          "abilities": [
-            "Anti-Infantry (+1 Rend)"
-          ]
+          "abilities": ["Anti-Infantry (+1 Rend)"]
         }
       ],
       "meleeWeapons": [
@@ -5337,9 +4495,7 @@
         "points": 110,
         "unitSize": 5,
         "regimentOptions": [],
-        "baseSizes": [
-          "40mm"
-        ],
+        "baseSizes": ["40mm"],
         "notes": null
       },
       "stats": {
@@ -5360,16 +4516,8 @@
           "effect": "If this unit did not charge this turn and is in combat with an enemy unit that charged this turn, roll a dice. On a 4+, this unit has Strike-first for the rest of the turn."
         }
       ],
-      "primaryKeywords": [
-        "Infantry",
-        "Champion",
-        "Standard Bearer (1/5)"
-      ],
-      "secondaryKeywords": [
-        "Order",
-        "Stormcast Eternals",
-        "Warrior Chamber"
-      ],
+      "primaryKeywords": ["Infantry", "Champion", "Standard Bearer (1/5)"],
+      "secondaryKeywords": ["Order", "Stormcast Eternals", "Warrior Chamber"],
       "meleeWeapons": [
         {
           "name": "Stormspear",
@@ -5377,9 +4525,7 @@
           "hit": "3+",
           "wnd": "3+",
           "rnd": "1",
-          "abilities": [
-            "Anti-charge (+1 Rend)"
-          ]
+          "abilities": ["Anti-charge (+1 Rend)"]
         }
       ]
     },
@@ -5390,9 +4536,7 @@
         "points": 180,
         "unitSize": 3,
         "regimentOptions": [],
-        "baseSizes": [
-          "40mm"
-        ],
+        "baseSizes": ["40mm"],
         "notes": null
       },
       "stats": {
@@ -5423,15 +4567,8 @@
           "effect": "Roll a dice for each model in this unit. If any of the rolls are a 6, the target has Strike-last for the rest of the turn."
         }
       ],
-      "primaryKeywords": [
-        "Infantry",
-        "Champion"
-      ],
-      "secondaryKeywords": [
-        "Order",
-        "Stormcast Eternals",
-        "Warrior Chamber"
-      ],
+      "primaryKeywords": ["Infantry", "Champion"],
+      "secondaryKeywords": ["Order", "Stormcast Eternals", "Warrior Chamber"],
       "meleeWeapons": [
         {
           "name": "Meteoric Hammer",
@@ -5450,9 +4587,7 @@
         "points": 170,
         "unitSize": 5,
         "regimentOptions": [],
-        "baseSizes": [
-          "40mm"
-        ],
+        "baseSizes": ["40mm"],
         "notes": "This unit will move to Warhammer Legends on 1 June 2025."
       },
       "stats": {
@@ -5473,10 +4608,7 @@
           "effect": "If this unit is contesting an objective you control, pick 1 of the following effects to apply for the rest of the turn:\n\n• Other than the Companion weapon ability, weapon abilities for attacks that target this unit have no effect.\n• This unit’s combat attacks score critical hits on unmodified hit rolls of 5+."
         }
       ],
-      "primaryKeywords": [
-        "Infantry",
-        "Champion"
-      ],
+      "primaryKeywords": ["Infantry", "Champion"],
       "secondaryKeywords": [
         "Order",
         "Stormcast Eternals",
@@ -5489,9 +4621,7 @@
           "hit": "3+",
           "wnd": "3+",
           "rnd": "1",
-          "abilities": [
-            "Crit (2 Hits)"
-          ]
+          "abilities": ["Crit (2 Hits)"]
         },
         {
           "name": "Stormsmite Greatmace",
@@ -5499,9 +4629,7 @@
           "hit": "3+",
           "wnd": "3+",
           "rnd": "1",
-          "abilities": [
-            "Crit (2 Hits)"
-          ]
+          "abilities": ["Crit (2 Hits)"]
         }
       ]
     },
@@ -5512,9 +4640,7 @@
         "points": 130,
         "unitSize": 1,
         "regimentOptions": [],
-        "baseSizes": [
-          "40mm"
-        ],
+        "baseSizes": ["40mm"],
         "notes": null
       },
       "stats": {
@@ -5535,15 +4661,8 @@
           "effect": "Pick a friendly non-Hero Warrior Chamber Infantry unit that has not used a Fight ability this turn and is within this unit’s combat range to be the target. The target can be picked to use a Fight ability immediately after the Fight ability used by this unit has been resolved. If it is picked to do so, add 1 to wound rolls for the target’s attacks for the rest of the turn."
         }
       ],
-      "primaryKeywords": [
-        "Hero",
-        "Infantry"
-      ],
-      "secondaryKeywords": [
-        "Order",
-        "Stormcast Eternals",
-        "Warrior Chamber"
-      ],
+      "primaryKeywords": ["Hero", "Infantry"],
+      "secondaryKeywords": ["Order", "Stormcast Eternals", "Warrior Chamber"],
       "meleeWeapons": [
         {
           "name": "Weapons of Legend",
@@ -5551,9 +4670,7 @@
           "hit": "3+",
           "wnd": "3+",
           "rnd": "1",
-          "abilities": [
-            "Crit (Auto-wound)"
-          ]
+          "abilities": ["Crit (Auto-wound)"]
         }
       ]
     },
@@ -5564,9 +4681,7 @@
         "points": 130,
         "unitSize": 1,
         "regimentOptions": [],
-        "baseSizes": [
-          "90 x 52mm"
-        ],
+        "baseSizes": ["90 x 52mm"],
         "notes": "You can include 1 unit of this type for each Lord‑Celestant on Dracoth in your army."
       },
       "stats": {
@@ -5597,14 +4712,8 @@
           "effect": "Each time you make an unmodified save roll of 6 for a combat attack that targets this unit, inflict 1 mortal damage on the attacking unit after the Fight ability has been resolved."
         }
       ],
-      "primaryKeywords": [
-        "Cavalry"
-      ],
-      "secondaryKeywords": [
-        "Order",
-        "Stormcast Eternals",
-        "Extremis Chamber"
-      ],
+      "primaryKeywords": ["Cavalry"],
+      "secondaryKeywords": ["Order", "Stormcast Eternals", "Extremis Chamber"],
       "rangedWeapons": [
         {
           "name": "Stormblast",
@@ -5613,10 +4722,7 @@
           "hit": "3+",
           "wnd": "3+",
           "rnd": "2",
-          "abilities": [
-            "Crit (2 Hits)",
-            "Companion"
-          ]
+          "abilities": ["Crit (2 Hits)", "Companion"]
         }
       ],
       "meleeWeapons": [
@@ -5626,9 +4732,7 @@
           "hit": "4+",
           "wnd": "2+",
           "rnd": "2",
-          "abilities": [
-            "Companion"
-          ]
+          "abilities": ["Companion"]
         },
         {
           "name": "Lightning Hammer",
@@ -5636,9 +4740,7 @@
           "hit": "3+",
           "wnd": "2+",
           "rnd": "1",
-          "abilities": [
-            "Crit (Mortal)"
-          ]
+          "abilities": ["Crit (Mortal)"]
         }
       ]
     },
@@ -5649,9 +4751,7 @@
         "points": 120,
         "unitSize": 1,
         "regimentOptions": [],
-        "baseSizes": [
-          "40mm"
-        ],
+        "baseSizes": ["40mm"],
         "notes": null
       },
       "stats": {
@@ -5672,16 +4772,8 @@
           "effect": "Add 1 to casting rolls for this unit when it uses a Summon ability and add 1 to banishment rolls for this unit.\n\nEnemy Manifestations cannot pass through or end any move within this unit’s combat range unless they started that move within this unit’s combat range.\n\nThis unit has Ward (4+) against mortal damage inflicted by Manifestations."
         }
       ],
-      "primaryKeywords": [
-        "Hero",
-        "Wizard (1)",
-        "Infantry"
-      ],
-      "secondaryKeywords": [
-        "Order",
-        "Stormcast Eternals",
-        "Warrior Chamber"
-      ],
+      "primaryKeywords": ["Hero", "Wizard (1)", "Infantry"],
+      "secondaryKeywords": ["Order", "Stormcast Eternals", "Warrior Chamber"],
       "meleeWeapons": [
         {
           "name": "Valedictor’s Stave",
@@ -5689,9 +4781,7 @@
           "hit": "3+",
           "wnd": "3+",
           "rnd": "1",
-          "abilities": [
-            "Anti-Manifestation (+1 Rend)"
-          ]
+          "abilities": ["Anti-Manifestation (+1 Rend)"]
         }
       ]
     },
@@ -5702,9 +4792,7 @@
         "points": 110,
         "unitSize": 1,
         "regimentOptions": [],
-        "baseSizes": [
-          "90 x 52mm"
-        ],
+        "baseSizes": ["90 x 52mm"],
         "notes": "You can include 1 unit of this type for each Lord‑Celestant on Dracoth in your army."
       },
       "stats": {
@@ -5735,14 +4823,8 @@
           "effect": "Each time you make an unmodified save roll of 6 for a combat attack that targets this unit, inflict 1 mortal damage on the attacking unit after the Fight ability has been resolved."
         }
       ],
-      "primaryKeywords": [
-        "Cavalry"
-      ],
-      "secondaryKeywords": [
-        "Order",
-        "Stormcast Eternals",
-        "Extremis Chamber"
-      ],
+      "primaryKeywords": ["Cavalry"],
+      "secondaryKeywords": ["Order", "Stormcast Eternals", "Extremis Chamber"],
       "rangedWeapons": [
         {
           "name": "Volleystorm Crossbow",
@@ -5751,9 +4833,7 @@
           "hit": "3+",
           "wnd": "3+",
           "rnd": "1",
-          "abilities": [
-            "Crit (2 Hits)"
-          ]
+          "abilities": ["Crit (2 Hits)"]
         },
         {
           "name": "Stormblast",
@@ -5762,10 +4842,7 @@
           "hit": "3+",
           "wnd": "3+",
           "rnd": "2",
-          "abilities": [
-            "Crit (2 Hits)",
-            "Companion"
-          ]
+          "abilities": ["Crit (2 Hits)", "Companion"]
         }
       ],
       "meleeWeapons": [
@@ -5783,9 +4860,7 @@
           "hit": "4+",
           "wnd": "2+",
           "rnd": "2",
-          "abilities": [
-            "Companion"
-          ]
+          "abilities": ["Companion"]
         }
       ]
     },
@@ -5796,9 +4871,7 @@
         "points": 170,
         "unitSize": 1,
         "regimentOptions": [],
-        "baseSizes": [
-          "120 x 92mm"
-        ],
+        "baseSizes": ["120 x 92mm"],
         "notes": null
       },
       "stats": {
@@ -5829,14 +4902,8 @@
           "effect": "When this unit uses the ‘Power Through’ command, inflict an additional D3 mortal damage on the target and add D6\" to the distance this unit can move as part of that ability."
         }
       ],
-      "primaryKeywords": [
-        "War Machine"
-      ],
-      "secondaryKeywords": [
-        "Order",
-        "Stormcast Eternals",
-        "Warrior Chamber"
-      ],
+      "primaryKeywords": ["War Machine"],
+      "secondaryKeywords": ["Order", "Stormcast Eternals", "Warrior Chamber"],
       "rangedWeapons": [
         {
           "name": "Great Stormbow",
@@ -5845,10 +4912,7 @@
           "hit": "3+",
           "wnd": "3+",
           "rnd": "1",
-          "abilities": [
-            "Crit (2 Hits)",
-            "Anti-Infantry (+1 Rend)"
-          ]
+          "abilities": ["Crit (2 Hits)", "Anti-Infantry (+1 Rend)"]
         }
       ],
       "meleeWeapons": [
@@ -5858,9 +4922,7 @@
           "hit": "3+",
           "wnd": "3+",
           "rnd": "1",
-          "abilities": [
-            "Charge (+1 Damage)"
-          ]
+          "abilities": ["Charge (+1 Damage)"]
         },
         {
           "name": "Gryph-chargers’ Razor Beaks",
@@ -5868,9 +4930,7 @@
           "hit": "4+",
           "wnd": "3+",
           "rnd": "1",
-          "abilities": [
-            "Companion"
-          ]
+          "abilities": ["Companion"]
         },
         {
           "name": "Tempestuous Spear",
@@ -5889,9 +4949,7 @@
         "points": 140,
         "unitSize": 1,
         "regimentOptions": [],
-        "baseSizes": [
-          "40mm"
-        ],
+        "baseSizes": ["40mm"],
         "notes": "This unit will move to Warhammer Legends on 1 June 2025."
       },
       "stats": {
@@ -5922,16 +4980,8 @@
           "effect": "Each time you make an unmodified save roll of 6 for a combat attack that targets this unit, inflict 1 mortal damage on the attacking unit after the Fight ability has been resolved."
         }
       ],
-      "primaryKeywords": [
-        "Unique",
-        "Hero",
-        "Infantry"
-      ],
-      "secondaryKeywords": [
-        "Order",
-        "Stormcast Eternals",
-        "Warrior Chamber"
-      ],
+      "primaryKeywords": ["Unique", "Hero", "Infantry"],
+      "secondaryKeywords": ["Order", "Stormcast Eternals", "Warrior Chamber"],
       "meleeWeapons": [
         {
           "name": "Starbound Blade",
@@ -5939,9 +4989,7 @@
           "hit": "3+",
           "wnd": "3+",
           "rnd": "1",
-          "abilities": [
-            "Crit (Mortal)"
-          ]
+          "abilities": ["Crit (Mortal)"]
         }
       ]
     },
@@ -5952,9 +5000,7 @@
         "points": 360,
         "unitSize": 2,
         "regimentOptions": [],
-        "baseSizes": [
-          "105 x 70mm"
-        ],
+        "baseSizes": ["105 x 70mm"],
         "notes": null
       },
       "stats": {
@@ -5983,9 +5029,7 @@
           },
           "declare": null,
           "effect": "If this unit charged this turn, roll a dice. On a 3+, this unit can move 2D6\". It can pass through the combat ranges of enemy units and can end that move in combat. Then, pick an enemy unit that this unit passed across during that move. Inflict D3 mortal damage on that enemy unit.",
-          "keywords": [
-            "Rampage"
-          ]
+          "keywords": ["Rampage"]
         },
         {
           "name": "Extremis Chamber",
@@ -5998,16 +5042,8 @@
           "effect": "Each time you make an unmodified save roll of 6 for a combat attack that targets this unit, inflict 1 mortal damage on the attacking unit after the Fight ability has been resolved."
         }
       ],
-      "primaryKeywords": [
-        "Monster",
-        "Champion",
-        "Fly"
-      ],
-      "secondaryKeywords": [
-        "Order",
-        "Stormcast Eternals",
-        "Extremis Chamber"
-      ],
+      "primaryKeywords": ["Monster", "Champion", "Fly"],
+      "secondaryKeywords": ["Order", "Stormcast Eternals", "Extremis Chamber"],
       "rangedWeapons": [
         {
           "name": "Draconic Flamestream",
@@ -6016,10 +5052,7 @@
           "hit": "2+",
           "wnd": "3+",
           "rnd": "2",
-          "abilities": [
-            "Shoot in Combat",
-            "Companion"
-          ]
+          "abilities": ["Shoot in Combat", "Companion"]
         }
       ],
       "meleeWeapons": [
@@ -6029,10 +5062,7 @@
           "hit": "3+",
           "wnd": "3+",
           "rnd": "1",
-          "abilities": [
-            "Anti-Infantry (+1 Rend)",
-            "Charge (+1 Damage)"
-          ]
+          "abilities": ["Anti-Infantry (+1 Rend)", "Charge (+1 Damage)"]
         },
         {
           "name": "Draconith’s Fangs and Talons",
@@ -6040,9 +5070,7 @@
           "hit": "4+",
           "wnd": "2+",
           "rnd": "2",
-          "abilities": [
-            "Companion"
-          ]
+          "abilities": ["Companion"]
         },
         {
           "name": "Drakerider’s Warblade",
@@ -6061,9 +5089,7 @@
         "points": 210,
         "unitSize": 1,
         "regimentOptions": [],
-        "baseSizes": [
-          "90 x 52mm"
-        ],
+        "baseSizes": ["90 x 52mm"],
         "notes": "This unit will move to Warhammer Legends on 1 June 2025."
       },
       "stats": {
@@ -6094,11 +5120,7 @@
           "effect": "Add 1 to the Attacks characteristic of the targets’ Companion melee weapons for the rest of the turn."
         }
       ],
-      "primaryKeywords": [
-        "Hero",
-        "Wizard (1)",
-        "Cavalry"
-      ],
+      "primaryKeywords": ["Hero", "Wizard (1)", "Cavalry"],
       "secondaryKeywords": [
         "Order",
         "Stormcast Eternals",
@@ -6119,9 +5141,7 @@
           "hit": "3+",
           "wnd": "3+",
           "rnd": "1",
-          "abilities": [
-            "Companion"
-          ]
+          "abilities": ["Companion"]
         }
       ]
     },
@@ -6132,9 +5152,7 @@
         "points": 140,
         "unitSize": 1,
         "regimentOptions": [],
-        "baseSizes": [
-          "40mm"
-        ],
+        "baseSizes": ["40mm"],
         "notes": "This unit will move to Warhammer Legends on 1 June 2025."
       },
       "stats": {
@@ -6165,11 +5183,7 @@
           "effect": "Heal (D6) the target."
         }
       ],
-      "primaryKeywords": [
-        "Hero",
-        "Wizard (1)",
-        "Infantry"
-      ],
+      "primaryKeywords": ["Hero", "Wizard (1)", "Infantry"],
       "secondaryKeywords": [
         "Order",
         "Stormcast Eternals",
@@ -6193,9 +5207,7 @@
         "points": 120,
         "unitSize": 5,
         "regimentOptions": [],
-        "baseSizes": [
-          "40mm"
-        ],
+        "baseSizes": ["40mm"],
         "notes": null
       },
       "stats": {
@@ -6216,15 +5228,8 @@
           "effect": "Add 3 to this unit’s control score while it is contesting an objective wholly within friendly territory."
         }
       ],
-      "primaryKeywords": [
-        "Infantry",
-        "Champion"
-      ],
-      "secondaryKeywords": [
-        "Order",
-        "Stormcast Eternals",
-        "Warrior Chamber"
-      ],
+      "primaryKeywords": ["Infantry", "Champion"],
+      "secondaryKeywords": ["Order", "Stormcast Eternals", "Warrior Chamber"],
       "meleeWeapons": [
         {
           "name": "Warhammer",
@@ -6232,9 +5237,7 @@
           "hit": "3+",
           "wnd": "3+",
           "rnd": "1",
-          "abilities": [
-            "Crit (Mortal)"
-          ]
+          "abilities": ["Crit (Mortal)"]
         },
         {
           "name": "Grandhammer",
@@ -6242,9 +5245,7 @@
           "hit": "3+",
           "wnd": "3+",
           "rnd": "1",
-          "abilities": [
-            "Crit (Mortal)"
-          ]
+          "abilities": ["Crit (Mortal)"]
         }
       ]
     },
@@ -6255,9 +5256,7 @@
         "points": 180,
         "unitSize": 1,
         "regimentOptions": [],
-        "baseSizes": [
-          "105 x 70mm"
-        ],
+        "baseSizes": ["105 x 70mm"],
         "notes": "You can include 1 unit of this type for each Knight-Draconis in your army."
       },
       "stats": {
@@ -6286,9 +5285,7 @@
           },
           "declare": null,
           "effect": "If this unit charged this turn, roll a dice. On a 3+, this unit can move 2D6\". It can pass through the combat ranges of enemy units and can end that move in combat. Then, pick an enemy unit that this unit passed across during that move. Inflict D3 mortal damage on that enemy unit.",
-          "keywords": [
-            "Rampage"
-          ]
+          "keywords": ["Rampage"]
         },
         {
           "name": "Extremis Chamber",
@@ -6301,16 +5298,8 @@
           "effect": "Each time you make an unmodified save roll of 6 for a combat attack that targets this unit, inflict 1 mortal damage on the attacking unit after the Fight ability has been resolved."
         }
       ],
-      "primaryKeywords": [
-        "Monster",
-        "Champion",
-        "Fly"
-      ],
-      "secondaryKeywords": [
-        "Order",
-        "Stormcast Eternals",
-        "Extremis Chamber"
-      ],
+      "primaryKeywords": ["Monster", "Champion", "Fly"],
+      "secondaryKeywords": ["Order", "Stormcast Eternals", "Extremis Chamber"],
       "rangedWeapons": [
         {
           "name": "Draconic Flamestream",
@@ -6319,10 +5308,7 @@
           "hit": "2+",
           "wnd": "3+",
           "rnd": "2",
-          "abilities": [
-            "Shoot in Combat",
-            "Companion"
-          ]
+          "abilities": ["Shoot in Combat", "Companion"]
         }
       ],
       "meleeWeapons": [
@@ -6332,9 +5318,7 @@
           "hit": "4+",
           "wnd": "2+",
           "rnd": "2",
-          "abilities": [
-            "Companion"
-          ]
+          "abilities": ["Companion"]
         },
         {
           "name": "Drakerider’s Warblade",
@@ -6350,10 +5334,7 @@
           "hit": "3+",
           "wnd": "3+",
           "rnd": "1",
-          "abilities": [
-            "Anti-Infantry (+1 Rend)",
-            "Charge (+1 Damage)"
-          ]
+          "abilities": ["Anti-Infantry (+1 Rend)", "Charge (+1 Damage)"]
         }
       ]
     },
@@ -6364,9 +5345,7 @@
         "points": 310,
         "unitSize": 1,
         "regimentOptions": [],
-        "baseSizes": [
-          "100mm"
-        ],
+        "baseSizes": ["100mm"],
         "notes": "This unit will move to Warhammer Legends on 1 June 2025."
       },
       "stats": {
@@ -6395,9 +5374,7 @@
           },
           "declare": "Pick a visible enemy unit within 12\" of this unit to be the target.",
           "effect": "Inflict 3 mortal damage on the target, then inflict 1 mortal damage on each other enemy unit within 3\" of the target.",
-          "keywords": [
-            "Spell"
-          ],
+          "keywords": ["Spell"],
           "castingValue": 6
         },
         {
@@ -6409,18 +5386,10 @@
           },
           "declare": "Pick an enemy unit in combat with this unit to be the target.",
           "effect": "For the rest of the phase, add 1 to hit rolls for combat attacks that target that enemy unit.",
-          "keywords": [
-            "Rampage"
-          ]
+          "keywords": ["Rampage"]
         }
       ],
-      "primaryKeywords": [
-        "Unique",
-        "Hero",
-        "Monster",
-        "Wizard (2)",
-        "Fly"
-      ],
+      "primaryKeywords": ["Unique", "Hero", "Monster", "Wizard (2)", "Fly"],
       "secondaryKeywords": [
         "Order",
         "Stormcast Eternals",
@@ -6441,9 +5410,7 @@
           "hit": "4+",
           "wnd": "3+",
           "rnd": "1",
-          "abilities": [
-            "Companion"
-          ]
+          "abilities": ["Companion"]
         }
       ]
     },
@@ -6454,9 +5421,7 @@
         "points": 130,
         "unitSize": 3,
         "regimentOptions": [],
-        "baseSizes": [
-          "40mm [3]"
-        ],
+        "baseSizes": ["40mm [3]"],
         "notes": "This unit cannot be reinforced."
       },
       "stats": {
@@ -6487,11 +5452,7 @@
           "effect": "For the rest of the phase, add 1 to wound rolls for the target’s combat attacks."
         }
       ],
-      "primaryKeywords": [
-        "Unique",
-        "Infantry",
-        "Champion"
-      ],
+      "primaryKeywords": ["Unique", "Infantry", "Champion"],
       "secondaryKeywords": [
         "Order",
         "Stormcast Eternals",
@@ -6504,9 +5465,7 @@
           "hit": "3+",
           "wnd": "3+",
           "rnd": "1",
-          "abilities": [
-            "Crit (Mortal)"
-          ]
+          "abilities": ["Crit (Mortal)"]
         }
       ]
     }
@@ -6521,9 +5480,7 @@
       },
       "declare": "If there are more friendly **STORMCAST ETERNALS** units on the battlefield than there are set up in reserve, pick a friendly **STORMCAST ETERNALS** unit that has not been deployed.",
       "effect": "Set up that unit in reserve **in the Celestial Realm.** It has now been deployed.",
-      "keywords": [
-        "Deploy"
-      ]
+      "keywords": ["Deploy"]
     },
     {
       "name": "Scions of the Storm",
@@ -6588,11 +5545,10 @@
           "declare": "Pick a friendly **STORMCAST ETERNALS PRIEST** to chant this prayer, pick a visible friendly **STORMCAST ETERNALS INFANTRY** unit wholly within 12\" of them to be the target, then make a chanting roll of D6.",
           "effect": "Add 1 to the Attacks characteristic of the target's melee weapons until the start of your next turn. If the chanting roll was 12+, this ability affects all visible friendly **STORMCAST ETERNALS** units wholly within 12\" of the chanter.",
           "chantingValue": "6",
-          "keywords": [
-            "Prayer"
-          ]
+          "keywords": ["Prayer"]
         }
       ]
     }
   ]
 }
+

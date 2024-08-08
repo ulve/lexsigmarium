@@ -1,6 +1,6 @@
 {
   "$schema": "../army.schema.json",
-  "title": "Soul Blight Gravelords",
+  "title": "Soulblight Gravelords",
   "grandFaction": "Death",
   "icon": "soulblight.png",
   "color": "#430505",
