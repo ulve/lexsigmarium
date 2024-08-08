@@ -20,8 +20,8 @@
       "stats": {
         "movement": "5\"",
         "save": "3+",
-        "control": "1",
-        "health": "2"
+        "health": "2",
+        "control": "1"
       },
       "abilities": [
         {
@@ -103,8 +103,8 @@
       "stats": {
         "movement": "8\"",
         "save": "-",
-        "control": "7+",
-        "health": "-"
+        "health": "-",
+        "banishment": "7+"
       },
       "abilities": [
         {
@@ -143,8 +143,8 @@
       "stats": {
         "movement": "5\"",
         "save": "3+",
-        "control": "1",
-        "health": "3"
+        "health": "3",
+        "control": "1"
       },
       "abilities": [
         {
@@ -217,8 +217,8 @@
       "stats": {
         "movement": "5\"",
         "save": "3+",
-        "control": "2",
-        "health": "6"
+        "health": "6",
+        "control": "2"
       },
       "abilities": [
         {
@@ -282,8 +282,8 @@
       "stats": {
         "movement": "5\"",
         "save": "3+",
-        "control": "2",
-        "health": "6"
+        "health": "6",
+        "control": "2"
       },
       "abilities": [
         {
@@ -354,8 +354,8 @@
       "stats": {
         "movement": "5\"",
         "save": "3+",
-        "control": "1",
-        "health": "2"
+        "health": "2",
+        "control": "1"
       },
       "abilities": [
         {
@@ -428,8 +428,8 @@
       "stats": {
         "movement": "-",
         "save": "4+",
-        "control": "6+",
-        "health": "5"
+        "health": "5",
+        "banishment": "6+"
       },
       "abilities": [
         {
@@ -478,8 +478,8 @@
       "stats": {
         "movement": "10\"",
         "save": "3+",
-        "control": "2",
-        "health": "5"
+        "health": "5",
+        "control": "2"
       },
       "abilities": [
         {
@@ -550,8 +550,8 @@
       "stats": {
         "movement": "10\"",
         "save": "3+",
-        "control": "2",
-        "health": "5"
+        "health": "5",
+        "control": "2"
       },
       "abilities": [
         {
@@ -635,8 +635,8 @@
       "stats": {
         "movement": "5\"",
         "save": "3+",
-        "control": "2",
-        "health": "6"
+        "health": "6",
+        "control": "2"
       },
       "abilities": [
         {
@@ -699,8 +699,8 @@
       "stats": {
         "movement": "5\"",
         "save": "3+",
-        "control": "2",
-        "health": "6"
+        "health": "6",
+        "control": "2"
       },
       "abilities": [
         {
@@ -751,8 +751,8 @@
       "stats": {
         "movement": "12\"",
         "save": "3+",
-        "control": "5",
-        "health": "20"
+        "health": "20",
+        "control": "5"
       },
       "abilities": [
         {
@@ -864,8 +864,8 @@
       "stats": {
         "movement": "10\"",
         "save": "3+",
-        "control": "2",
-        "health": "5"
+        "health": "5",
+        "control": "2"
       },
       "abilities": [
         {
@@ -958,8 +958,8 @@
       "stats": {
         "movement": "12\"",
         "save": "3+",
-        "control": "5",
-        "health": "16"
+        "health": "16",
+        "control": "5"
       },
       "abilities": [
         {
@@ -1069,8 +1069,8 @@
       "stats": {
         "movement": "8\"",
         "save": "6+",
-        "control": "7+",
-        "health": "7"
+        "health": "7",
+        "banishment": "7+"
       },
       "abilities": [
         {
@@ -1122,8 +1122,8 @@
       "stats": {
         "movement": "5\"",
         "save": "3+",
-        "control": "1",
-        "health": "2"
+        "health": "2",
+        "control": "1"
       },
       "abilities": [
         {
@@ -1176,8 +1176,8 @@
       "stats": {
         "movement": "7\"",
         "save": "3+",
-        "control": "2",
-        "health": "6"
+        "health": "6",
+        "control": "2"
       },
       "abilities": [
         {
@@ -1252,8 +1252,8 @@
       "stats": {
         "movement": "7\"",
         "save": "3+",
-        "control": "2",
-        "health": "6"
+        "health": "6",
+        "control": "2"
       },
       "abilities": [
         {
@@ -1344,8 +1344,8 @@
       "stats": {
         "movement": "4\"",
         "save": "3+",
-        "control": "1",
-        "health": "3"
+        "health": "3",
+        "control": "1"
       },
       "abilities": [
         {
@@ -1406,8 +1406,8 @@
       "stats": {
         "movement": "10\"",
         "save": "3+",
-        "control": "2",
-        "health": "5"
+        "health": "5",
+        "control": "2"
       },
       "abilities": [
         {
@@ -1492,8 +1492,8 @@
       "stats": {
         "movement": "5\"",
         "save": "3+",
-        "control": "2",
-        "health": "6"
+        "health": "6",
+        "control": "2"
       },
       "abilities": [
         {
@@ -1554,8 +1554,8 @@
       "stats": {
         "movement": "5\"",
         "save": "3+",
-        "control": "1",
-        "health": "3"
+        "health": "3",
+        "control": "1"
       },
       "abilities": [
         {
@@ -1630,8 +1630,8 @@
       "stats": {
         "movement": "5\"",
         "save": "3+",
-        "control": "1",
-        "health": "3"
+        "health": "3",
+        "control": "1"
       },
       "abilities": [
         {
@@ -1693,8 +1693,8 @@
       "stats": {
         "movement": "6\"",
         "save": "4+",
-        "control": "2",
-        "health": "5"
+        "health": "5",
+        "control": "2"
       },
       "abilities": [
         {
@@ -1760,8 +1760,8 @@
       "stats": {
         "movement": "10\"",
         "save": "3+",
-        "control": "2",
-        "health": "5"
+        "health": "5",
+        "control": "2"
       },
       "abilities": [
         {
@@ -1845,8 +1845,8 @@
       "stats": {
         "movement": "10\"",
         "save": "3+",
-        "control": "2",
-        "health": "5"
+        "health": "5",
+        "control": "2"
       },
       "abilities": [
         {
@@ -1930,8 +1930,8 @@
       "stats": {
         "movement": "10\"",
         "save": "3+",
-        "control": "2",
-        "health": "5"
+        "health": "5",
+        "control": "2"
       },
       "abilities": [
         {
@@ -2015,8 +2015,8 @@
       "stats": {
         "movement": "4\"",
         "save": "3+",
-        "control": "1",
-        "health": "3"
+        "health": "3",
+        "control": "1"
       },
       "abilities": [
         {
@@ -2077,8 +2077,8 @@
       "stats": {
         "movement": "5\"",
         "save": "3+",
-        "control": "2",
-        "health": "6"
+        "health": "6",
+        "control": "2"
       },
       "abilities": [
         {
@@ -2128,8 +2128,8 @@
       "stats": {
         "movement": "12\"",
         "save": "3+",
-        "control": "2",
-        "health": "8"
+        "health": "8",
+        "control": "2"
       },
       "abilities": [
         {
@@ -2224,8 +2224,8 @@
       "stats": {
         "movement": "4\"",
         "save": "3+",
-        "control": "1",
-        "health": "3"
+        "health": "3",
+        "control": "1"
       },
       "abilities": [
         {
@@ -2285,8 +2285,8 @@
       "stats": {
         "movement": "6\"",
         "save": "3+",
-        "control": "2",
-        "health": "6"
+        "health": "6",
+        "control": "2"
       },
       "abilities": [
         {
@@ -2356,8 +2356,8 @@
       "stats": {
         "movement": "5\"",
         "save": "3+",
-        "control": "2",
-        "health": "6"
+        "health": "6",
+        "control": "2"
       },
       "abilities": [
         {
@@ -2410,8 +2410,8 @@
       "stats": {
         "movement": "3\"",
         "save": "3+",
-        "control": "2",
-        "health": "6"
+        "health": "6",
+        "control": "2"
       },
       "abilities": [
         {
@@ -2473,8 +2473,8 @@
       "stats": {
         "movement": "5\"",
         "save": "3+",
-        "control": "1",
-        "health": "3"
+        "health": "3",
+        "control": "1"
       },
       "abilities": [
         {
@@ -2554,8 +2554,8 @@
       "stats": {
         "movement": "10\"",
         "save": "3+",
-        "control": "2",
-        "health": "8"
+        "health": "8",
+        "control": "2"
       },
       "abilities": [
         {
@@ -2640,8 +2640,8 @@
       "stats": {
         "movement": "4\"",
         "save": "3+",
-        "control": "1",
-        "health": "3"
+        "health": "3",
+        "control": "1"
       },
       "abilities": [
         {
@@ -2700,8 +2700,8 @@
       "stats": {
         "movement": "12\"",
         "save": "3+",
-        "control": "2",
-        "health": "6"
+        "health": "6",
+        "control": "2"
       },
       "abilities": [
         {
@@ -2780,8 +2780,8 @@
       "stats": {
         "movement": "12\"",
         "save": "3+",
-        "control": "2",
-        "health": "10"
+        "health": "10",
+        "control": "2"
       },
       "abilities": [
         {
@@ -2856,8 +2856,8 @@
       "stats": {
         "movement": "12\"",
         "save": "3+",
-        "control": "2",
-        "health": "8"
+        "health": "8",
+        "control": "2"
       },
       "abilities": [
         {
@@ -2927,8 +2927,8 @@
       "stats": {
         "movement": "6\"",
         "save": "3+",
-        "control": "1",
-        "health": "2"
+        "health": "2",
+        "control": "1"
       },
       "abilities": [
         {
@@ -2988,8 +2988,8 @@
       "stats": {
         "movement": "5\"",
         "save": "3+",
-        "control": "2",
-        "health": "8"
+        "health": "8",
+        "control": "2"
       },
       "abilities": [
         {
@@ -3072,8 +3072,8 @@
       "stats": {
         "movement": "12\"",
         "save": "3+",
-        "control": "5",
-        "health": "20"
+        "health": "20",
+        "control": "5"
       },
       "abilities": [
         {
@@ -3170,8 +3170,8 @@
       "stats": {
         "movement": "5\"",
         "save": "3+",
-        "control": "1",
-        "health": "2"
+        "health": "2",
+        "control": "1"
       },
       "abilities": [
         {
@@ -3244,8 +3244,8 @@
       "stats": {
         "movement": "5\"",
         "save": "3+",
-        "control": "2",
-        "health": "3"
+        "health": "3",
+        "control": "2"
       },
       "abilities": [
         {
@@ -3306,8 +3306,8 @@
       "stats": {
         "movement": "12\"",
         "save": "3+",
-        "control": "5",
-        "health": "18"
+        "health": "18",
+        "control": "5"
       },
       "abilities": [
         {
@@ -3415,8 +3415,8 @@
       "stats": {
         "movement": "5\"",
         "save": "3+",
-        "control": "1",
-        "health": "3"
+        "health": "3",
+        "control": "1"
       },
       "abilities": [
         {
@@ -3488,8 +3488,8 @@
       "stats": {
         "movement": "12\"",
         "save": "3+",
-        "control": "1",
-        "health": "2"
+        "health": "2",
+        "control": "1"
       },
       "abilities": [
         {
@@ -3572,8 +3572,8 @@
       "stats": {
         "movement": "14\"",
         "save": "3+",
-        "control": "5",
-        "health": "12"
+        "health": "12",
+        "control": "5"
       },
       "abilities": [
         {
@@ -3657,8 +3657,8 @@
       "stats": {
         "movement": "5\"",
         "save": "3+",
-        "control": "2",
-        "health": "6"
+        "health": "6",
+        "control": "2"
       },
       "abilities": [
         {
@@ -3718,8 +3718,8 @@
       "stats": {
         "movement": "12\"",
         "save": "3+",
-        "control": "2",
-        "health": "8"
+        "health": "8",
+        "control": "2"
       },
       "abilities": [
         {
@@ -3788,8 +3788,8 @@
       "stats": {
         "movement": "5\"",
         "save": "3+",
-        "control": "1",
-        "health": "3"
+        "health": "3",
+        "control": "1"
       },
       "abilities": [
         {
@@ -3848,8 +3848,8 @@
       "stats": {
         "movement": "5\"",
         "save": "3+",
-        "control": "2",
-        "health": "6"
+        "health": "6",
+        "control": "2"
       },
       "abilities": [
         {
@@ -3908,8 +3908,8 @@
       "stats": {
         "movement": "12\"",
         "save": "3+",
-        "control": "5",
-        "health": "11"
+        "health": "11",
+        "control": "5"
       },
       "abilities": [
         {
@@ -4006,8 +4006,8 @@
       "stats": {
         "movement": "10\"",
         "save": "3+",
-        "control": "2",
-        "health": "8"
+        "health": "8",
+        "control": "2"
       },
       "abilities": [
         {
@@ -4093,8 +4093,8 @@
       "stats": {
         "movement": "5\"",
         "save": "3+",
-        "control": "2",
-        "health": "6"
+        "health": "6",
+        "control": "2"
       },
       "abilities": [
         {
@@ -4175,8 +4175,8 @@
       "stats": {
         "movement": "14\"",
         "save": "3+",
-        "control": "2",
-        "health": "5"
+        "health": "5",
+        "control": "2"
       },
       "abilities": [
         {
@@ -4261,8 +4261,8 @@
       "stats": {
         "movement": "5\"",
         "save": "3+",
-        "control": "5",
-        "health": "6"
+        "health": "6",
+        "control": "5"
       },
       "abilities": [
         {
@@ -4311,8 +4311,8 @@
       "stats": {
         "movement": "5\"",
         "save": "3+",
-        "control": "2",
-        "health": "6"
+        "health": "6",
+        "control": "2"
       },
       "abilities": [
         {
@@ -4393,8 +4393,8 @@
       "stats": {
         "movement": "5\"",
         "save": "3+",
-        "control": "2",
-        "health": "6"
+        "health": "6",
+        "control": "2"
       },
       "abilities": [
         {
@@ -4466,8 +4466,8 @@
       "stats": {
         "movement": "10\"",
         "save": "3+",
-        "control": "2",
-        "health": "8"
+        "health": "8",
+        "control": "2"
       },
       "abilities": [
         {
@@ -4555,8 +4555,8 @@
       "stats": {
         "movement": "5\"",
         "save": "3+",
-        "control": "1",
-        "health": "2"
+        "health": "2",
+        "control": "1"
       },
       "abilities": [
         {
@@ -4630,8 +4630,8 @@
       "stats": {
         "movement": "5\"",
         "save": "3+",
-        "control": "1",
-        "health": "3"
+        "health": "3",
+        "control": "1"
       },
       "abilities": [
         {
@@ -4715,8 +4715,8 @@
       "stats": {
         "movement": "12\"",
         "save": "6+",
-        "control": "1",
-        "health": "2"
+        "health": "2",
+        "control": "1"
       },
       "abilities": [
         {
@@ -4777,8 +4777,8 @@
       "stats": {
         "movement": "5\"",
         "save": "3+",
-        "control": "1",
-        "health": "3"
+        "health": "3",
+        "control": "1"
       },
       "abilities": [
         {
@@ -4839,8 +4839,8 @@
       "stats": {
         "movement": "14\"",
         "save": "3+",
-        "control": "2",
-        "health": "5"
+        "health": "5",
+        "control": "2"
       },
       "abilities": [
         {
@@ -4932,8 +4932,8 @@
       "stats": {
         "movement": "5\"",
         "save": "3+",
-        "control": "1",
-        "health": "2"
+        "health": "2",
+        "control": "1"
       },
       "abilities": [
         {
@@ -5016,8 +5016,8 @@
       "stats": {
         "movement": "9\"",
         "save": "6+",
-        "control": "1",
-        "health": "2"
+        "health": "2",
+        "control": "1"
       },
       "abilities": [
         {
@@ -5077,8 +5077,8 @@
       "stats": {
         "movement": "14\"",
         "save": "3+",
-        "control": "2",
-        "health": "8"
+        "health": "8",
+        "control": "2"
       },
       "abilities": [
         {
@@ -5160,8 +5160,8 @@
       "stats": {
         "movement": "12\"",
         "save": "3+",
-        "control": "5",
-        "health": "18"
+        "health": "18",
+        "control": "5"
       },
       "abilities": [
         {
@@ -5271,8 +5271,8 @@
       "stats": {
         "movement": "5\"",
         "save": "3+",
-        "control": "1",
-        "health": "2"
+        "health": "2",
+        "control": "1"
       },
       "abilities": [
         {
@@ -5345,8 +5345,8 @@
       "stats": {
         "movement": "5\"",
         "save": "3+",
-        "control": "1",
-        "health": "2"
+        "health": "2",
+        "control": "1"
       },
       "abilities": [
         {
@@ -5398,8 +5398,8 @@
       "stats": {
         "movement": "4\"",
         "save": "2+",
-        "control": "1",
-        "health": "3"
+        "health": "3",
+        "control": "1"
       },
       "abilities": [
         {
@@ -5458,8 +5458,8 @@
       "stats": {
         "movement": "5\"",
         "save": "3+",
-        "control": "1",
-        "health": "2"
+        "health": "2",
+        "control": "1"
       },
       "abilities": [
         {
@@ -5520,8 +5520,8 @@
       "stats": {
         "movement": "5\"",
         "save": "3+",
-        "control": "2",
-        "health": "6"
+        "health": "6",
+        "control": "2"
       },
       "abilities": [
         {
@@ -5572,8 +5572,8 @@
       "stats": {
         "movement": "10\"",
         "save": "3+",
-        "control": "2",
-        "health": "5"
+        "health": "5",
+        "control": "2"
       },
       "abilities": [
         {
@@ -5657,8 +5657,8 @@
       "stats": {
         "movement": "5\"",
         "save": "3+",
-        "control": "2",
-        "health": "6"
+        "health": "6",
+        "control": "2"
       },
       "abilities": [
         {
@@ -5710,8 +5710,8 @@
       "stats": {
         "movement": "10\"",
         "save": "3+",
-        "control": "2",
-        "health": "5"
+        "health": "5",
+        "control": "2"
       },
       "abilities": [
         {
@@ -5804,8 +5804,8 @@
       "stats": {
         "movement": "10\"",
         "save": "3+",
-        "control": "2",
-        "health": "10"
+        "health": "10",
+        "control": "2"
       },
       "abilities": [
         {
@@ -5897,8 +5897,8 @@
       "stats": {
         "movement": "5\"",
         "save": "3+",
-        "control": "2",
-        "health": "6"
+        "health": "6",
+        "control": "2"
       },
       "abilities": [
         {
@@ -5960,8 +5960,8 @@
       "stats": {
         "movement": "12\"",
         "save": "3+",
-        "control": "5",
-        "health": "9"
+        "health": "9",
+        "control": "5"
       },
       "abilities": [
         {
@@ -6069,8 +6069,8 @@
       "stats": {
         "movement": "10\"",
         "save": "3+",
-        "control": "2",
-        "health": "8"
+        "health": "8",
+        "control": "2"
       },
       "abilities": [
         {
@@ -6140,8 +6140,8 @@
       "stats": {
         "movement": "5\"",
         "save": "3+",
-        "control": "2",
-        "health": "6"
+        "health": "6",
+        "control": "2"
       },
       "abilities": [
         {
@@ -6201,8 +6201,8 @@
       "stats": {
         "movement": "5\"",
         "save": "3+",
-        "control": "1",
-        "health": "2"
+        "health": "2",
+        "control": "1"
       },
       "abilities": [
         {
@@ -6263,8 +6263,8 @@
       "stats": {
         "movement": "12\"",
         "save": "3+",
-        "control": "5",
-        "health": "9"
+        "health": "9",
+        "control": "5"
       },
       "abilities": [
         {
@@ -6372,8 +6372,8 @@
       "stats": {
         "movement": "14\"",
         "save": "3+",
-        "control": "5",
-        "health": "12"
+        "health": "12",
+        "control": "5"
       },
       "abilities": [
         {
@@ -6462,8 +6462,8 @@
       "stats": {
         "movement": "5\"",
         "save": "3+",
-        "control": "1",
-        "health": "3"
+        "health": "3",
+        "control": "1"
       },
       "abilities": [
         {

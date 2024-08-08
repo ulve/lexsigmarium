@@ -79,8 +79,8 @@
       "stats": {
         "movement": "12\"",
         "save": "6+",
-        "control": "7+",
-        "health": "6"
+        "health": "6",
+        "banishment": "7+"
       },
       "abilities": [
         {
@@ -120,8 +120,8 @@
       "stats": {
         "movement": "5\"",
         "save": "6+",
-        "control": "2",
-        "health": "4"
+        "health": "4",
+        "control": "2"
       },
       "abilities": [
         {
@@ -181,8 +181,8 @@
       "stats": {
         "movement": "2D6\"",
         "save": "6+",
-        "control": "1",
-        "health": "1"
+        "health": "1",
+        "control": "1"
       },
       "abilities": [
         {
@@ -240,8 +240,8 @@
       "stats": {
         "movement": "6\"",
         "save": "4+",
-        "control": "5",
-        "health": "16"
+        "health": "16",
+        "control": "5"
       },
       "abilities": [
         {
@@ -332,8 +332,8 @@
       "stats": {
         "movement": "6\"",
         "save": "5+",
-        "control": "7+",
-        "health": "6"
+        "health": "6",
+        "banishment": "7+"
       },
       "abilities": [
         {
@@ -382,8 +382,8 @@
       "stats": {
         "movement": "5\"",
         "save": "5+",
-        "control": "2",
-        "health": "6"
+        "health": "6",
+        "control": "2"
       },
       "abilities": [
         {
@@ -453,8 +453,8 @@
       "stats": {
         "movement": "12\"",
         "save": "5+",
-        "control": "1",
-        "health": "3"
+        "health": "3",
+        "control": "1"
       },
       "abilities": [
         {
@@ -524,8 +524,8 @@
       "stats": {
         "movement": "12\"",
         "save": "5+",
-        "control": "1",
-        "health": "2"
+        "health": "2",
+        "control": "1"
       },
       "abilities": [
         {
@@ -597,8 +597,8 @@
       "stats": {
         "movement": "5\"",
         "save": "6+",
-        "control": "1",
-        "health": "1"
+        "health": "1",
+        "control": "1"
       },
       "abilities": [
         {
@@ -660,8 +660,8 @@
       "stats": {
         "movement": "5\"",
         "save": "6+",
-        "control": "2",
-        "health": "4"
+        "health": "4",
+        "control": "2"
       },
       "abilities": [
         {
@@ -711,8 +711,8 @@
       "stats": {
         "movement": "8\"",
         "save": "5+",
-        "control": "10",
-        "health": "12"
+        "health": "12",
+        "control": "10"
       },
       "abilities": [
         {
@@ -800,8 +800,8 @@
       "stats": {
         "movement": "6\"",
         "save": "4+",
-        "control": "2",
-        "health": "8"
+        "health": "8",
+        "control": "2"
       },
       "abilities": [
         {
@@ -894,8 +894,8 @@
       "stats": {
         "movement": "5\"",
         "save": "6+",
-        "control": "2",
-        "health": "5"
+        "health": "5",
+        "control": "2"
       },
       "abilities": [
         {
@@ -955,8 +955,8 @@
       "stats": {
         "movement": "10\"",
         "save": "5+",
-        "control": "2",
-        "health": "7"
+        "health": "7",
+        "control": "2"
       },
       "abilities": [
         {
@@ -1027,8 +1027,8 @@
       "stats": {
         "movement": "5\"",
         "save": "6+",
-        "control": "1",
-        "health": "2"
+        "health": "2",
+        "control": "1"
       },
       "abilities": [
         {
@@ -1109,8 +1109,8 @@
       "stats": {
         "movement": "10\"",
         "save": "4+",
-        "control": "5",
-        "health": "16"
+        "health": "16",
+        "control": "5"
       },
       "abilities": [
         {
@@ -1236,8 +1236,8 @@
       "stats": {
         "movement": "2D6\"",
         "save": "6+",
-        "control": "1",
-        "health": "1"
+        "health": "1",
+        "control": "1"
       },
       "abilities": [
         {
@@ -1308,8 +1308,8 @@
       "stats": {
         "movement": "5\"",
         "save": "5+",
-        "control": "2",
-        "health": "5"
+        "health": "5",
+        "control": "2"
       },
       "abilities": [
         {
@@ -1394,8 +1394,8 @@
       "stats": {
         "movement": "D6+6\"",
         "save": "5+",
-        "control": "1",
-        "health": "2"
+        "health": "2",
+        "control": "1"
       },
       "abilities": [
         {
@@ -1458,8 +1458,8 @@
       "stats": {
         "movement": "6\"",
         "save": "5+",
-        "control": "2",
-        "health": "5"
+        "health": "5",
+        "control": "2"
       },
       "abilities": [
         {
@@ -1530,8 +1530,8 @@
       "stats": {
         "movement": "6\"",
         "save": "4+",
-        "control": "2",
-        "health": "5"
+        "health": "5",
+        "control": "2"
       },
       "abilities": [
         {
@@ -1591,8 +1591,8 @@
       "stats": {
         "movement": "10\"",
         "save": "4+",
-        "control": "15",
-        "health": "18"
+        "health": "18",
+        "control": "15"
       },
       "abilities": [
         {
@@ -1704,8 +1704,8 @@
       "stats": {
         "movement": "D6+3\"",
         "save": "6+",
-        "control": "1",
-        "health": "1"
+        "health": "1",
+        "control": "1"
       },
       "abilities": [
         {
@@ -1784,8 +1784,8 @@
       "stats": {
         "movement": "D6+6\"",
         "save": "5+",
-        "control": "5",
-        "health": "6"
+        "health": "6",
+        "control": "5"
       },
       "abilities": [
         {
@@ -1848,8 +1848,8 @@
       "stats": {
         "movement": "10\"",
         "save": "5+",
-        "control": "2",
-        "health": "2"
+        "health": "2",
+        "control": "2"
       },
       "abilities": [
         {
@@ -1922,8 +1922,8 @@
       "stats": {
         "movement": "5\"",
         "save": "5+",
-        "control": "1",
-        "health": "1"
+        "health": "1",
+        "control": "1"
       },
       "abilities": [
         {
@@ -1974,8 +1974,8 @@
       "stats": {
         "movement": "D6+8\"",
         "save": "6+",
-        "control": "1",
-        "health": "2"
+        "health": "2",
+        "control": "1"
       },
       "abilities": [
         {
@@ -2036,8 +2036,8 @@
       "stats": {
         "movement": "5\"",
         "save": "6+",
-        "control": "2",
-        "health": "6"
+        "health": "6",
+        "control": "2"
       },
       "abilities": [
         {
@@ -2114,8 +2114,8 @@
       "stats": {
         "movement": "10\"",
         "save": "4+",
-        "control": "10",
-        "health": "16"
+        "health": "16",
+        "control": "10"
       },
       "abilities": [
         {
@@ -2219,8 +2219,8 @@
       "stats": {
         "movement": "-",
         "save": "4+",
-        "control": "-",
-        "health": "14"
+        "health": "14",
+        "control": "-"
       },
       "abilities": [
         {
@@ -2268,8 +2268,8 @@
       "stats": {
         "movement": "5\"",
         "save": "4+",
-        "control": "2",
-        "health": "5"
+        "health": "5",
+        "control": "2"
       },
       "abilities": [
         {
@@ -2329,8 +2329,8 @@
       "stats": {
         "movement": "5\"",
         "save": "6+",
-        "control": "2",
-        "health": "3"
+        "health": "3",
+        "control": "2"
       },
       "abilities": [
         {
@@ -2389,8 +2389,8 @@
       "stats": {
         "movement": "10\"",
         "save": "4+",
-        "control": "5",
-        "health": "16"
+        "health": "16",
+        "control": "5"
       },
       "abilities": [
         {
@@ -2515,8 +2515,8 @@
       "stats": {
         "movement": "5\"",
         "save": "6+",
-        "control": "1",
-        "health": "2"
+        "health": "2",
+        "control": "1"
       },
       "abilities": [
         {
@@ -2575,8 +2575,8 @@
       "stats": {
         "movement": "6\"",
         "save": "4+",
-        "control": "5",
-        "health": "10"
+        "health": "10",
+        "control": "5"
       },
       "abilities": [
         {
@@ -2647,8 +2647,8 @@
       "stats": {
         "movement": "10\"",
         "save": "4+",
-        "control": "5",
-        "health": "14"
+        "health": "14",
+        "control": "5"
       },
       "abilities": [
         {
@@ -2756,8 +2756,8 @@
       "stats": {
         "movement": "D6+8\"",
         "save": "5+",
-        "control": "5",
-        "health": "14"
+        "health": "14",
+        "control": "5"
       },
       "abilities": [
         {
@@ -2861,8 +2861,8 @@
       "stats": {
         "movement": "-",
         "save": "6+",
-        "control": "7+",
-        "health": "6"
+        "health": "6",
+        "banishment": "7+"
       },
       "abilities": [
         {
@@ -2901,8 +2901,8 @@
       "stats": {
         "movement": "8\"",
         "save": "6+",
-        "control": "7+",
-        "health": "6"
+        "health": "6",
+        "banishment": "7+"
       },
       "abilities": [
         {
@@ -2963,8 +2963,8 @@
       "stats": {
         "movement": "D6+8\"",
         "save": "5+",
-        "control": "5",
-        "health": "14"
+        "health": "14",
+        "control": "5"
       },
       "abilities": [
         {
@@ -3057,8 +3057,8 @@
       "stats": {
         "movement": "6\"",
         "save": "4+",
-        "control": "5",
-        "health": "12"
+        "health": "12",
+        "control": "5"
       },
       "abilities": [
         {
@@ -3130,8 +3130,8 @@
       "stats": {
         "movement": "6\"",
         "save": "6+",
-        "control": "5",
-        "health": "4"
+        "health": "4",
+        "control": "5"
       },
       "abilities": [
         {
@@ -3198,8 +3198,8 @@
       "stats": {
         "movement": "5\"",
         "save": "6+",
-        "control": "1",
-        "health": "2"
+        "health": "2",
+        "control": "1"
       },
       "abilities": [
         {

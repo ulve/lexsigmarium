@@ -104,8 +104,8 @@
       "stats": {
         "movement": "10\"",
         "save": "4+",
-        "control": "5",
-        "health": "12"
+        "health": "12",
+        "control": "5"
       },
       "abilities": [
         {
@@ -186,8 +186,8 @@
       "stats": {
         "movement": "10\"",
         "save": "4+",
-        "control": "15",
-        "health": "18"
+        "health": "18",
+        "control": "15"
       },
       "abilities": [
         {
@@ -300,8 +300,8 @@
       "stats": {
         "movement": "10\"",
         "save": "3+",
-        "control": "5",
-        "health": "12"
+        "health": "12",
+        "control": "5"
       },
       "abilities": [
         {
@@ -392,8 +392,8 @@
       "stats": {
         "movement": "4\"",
         "save": "3+",
-        "control": "1",
-        "health": "3"
+        "health": "3",
+        "control": "1"
       },
       "abilities": [
         {
@@ -453,8 +453,8 @@
       "stats": {
         "movement": "4\"",
         "save": "3+",
-        "control": "2",
-        "health": "7"
+        "health": "7",
+        "control": "2"
       },
       "abilities": [
         {
@@ -539,8 +539,8 @@
       "stats": {
         "movement": "10\"",
         "save": "3+",
-        "control": "5",
-        "health": "18"
+        "health": "18",
+        "control": "5"
       },
       "abilities": [
         {
@@ -650,8 +650,8 @@
       "stats": {
         "movement": "4\"",
         "save": "3+",
-        "control": "1",
-        "health": "3"
+        "health": "3",
+        "control": "1"
       },
       "abilities": [
         {
@@ -703,8 +703,8 @@
       "stats": {
         "movement": "10\"",
         "save": "3+",
-        "control": "5",
-        "health": "20"
+        "health": "20",
+        "control": "5"
       },
       "abilities": [
         {
@@ -816,8 +816,8 @@
       "stats": {
         "movement": "4\"",
         "save": "3+",
-        "control": "1",
-        "health": "2"
+        "health": "2",
+        "control": "1"
       },
       "abilities": [
         {
@@ -868,8 +868,8 @@
       "stats": {
         "movement": "4\"",
         "save": "5+",
-        "control": "1",
-        "health": "3"
+        "health": "3",
+        "control": "1"
       },
       "abilities": [
         {
@@ -920,8 +920,8 @@
       "stats": {
         "movement": "4\"",
         "save": "6+",
-        "control": "2",
-        "health": "6"
+        "health": "6",
+        "control": "2"
       },
       "abilities": [
         {
@@ -983,8 +983,8 @@
       "stats": {
         "movement": "4\"",
         "save": "3+",
-        "control": "2",
-        "health": "6"
+        "health": "6",
+        "control": "2"
       },
       "abilities": [
         {
@@ -1042,8 +1042,8 @@
       "stats": {
         "movement": "9\"",
         "save": "3+",
-        "control": "2",
-        "health": "5"
+        "health": "5",
+        "control": "2"
       },
       "abilities": [
         {
@@ -1104,8 +1104,8 @@
       "stats": {
         "movement": "10\"",
         "save": "3+",
-        "control": "5",
-        "health": "14"
+        "health": "14",
+        "control": "5"
       },
       "abilities": [
         {
@@ -1205,8 +1205,8 @@
       "stats": {
         "movement": "4\"",
         "save": "5+",
-        "control": "1",
-        "health": "3"
+        "health": "3",
+        "control": "1"
       },
       "abilities": [
         {
@@ -1266,8 +1266,8 @@
       "stats": {
         "movement": "4\"",
         "save": "3+",
-        "control": "2",
-        "health": "8"
+        "health": "8",
+        "control": "2"
       },
       "abilities": [
         {
@@ -1335,8 +1335,8 @@
       "stats": {
         "movement": "4\"",
         "save": "4+",
-        "control": "2",
-        "health": "6"
+        "health": "6",
+        "control": "2"
       },
       "abilities": [
         {
@@ -1385,8 +1385,8 @@
       "stats": {
         "movement": "4\"",
         "save": "3+",
-        "control": "1",
-        "health": "3"
+        "health": "3",
+        "control": "1"
       },
       "abilities": [
         {
