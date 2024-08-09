@@ -36,10 +36,23 @@ function printFrontmatter(army) {
 
 function printWarscrolls(army) {
   let str = "## Warscrolls\n\n";
-  army.warscrolls.forEach((unit) => {
-    str += printTitle(unit);
-    str += printWarscroll(unit, army.color, army.icon);
-  });
+  // heroes
+  army.warscrolls
+    .filter((w) => w.primaryKeywords.includes("Hero"))
+    .sort((a, b) => a.name.localeCompare(b.name))
+    .forEach((unit) => {
+      str += printTitle(unit);
+      str += printWarscroll(unit, army.color, army.icon);
+    });
+
+  // ordinary units
+  army.warscrolls
+    .filter((w) => !w.primaryKeywords.includes("Hero"))
+    .sort((a, b) => a.name.localeCompare(b.name))
+    .forEach((unit) => {
+      str += printTitle(unit);
+      str += printWarscroll(unit, army.color, army.icon);
+    });
 
   return str;
 }
