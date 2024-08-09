@@ -17,11 +17,11 @@ function WarscrollHeader({ unit, color }) {
   return (
     <div className="warscroll-header">
       <div className="stat-card">
-        <div className="stat-header">Movement</div>
+        <div className="stat-header">Move</div>
         <div className="stat">{unit.stats.movement}</div>
       </div>
       <div className="stat-card">
-        <div className="stat-header">Save/Ward</div>
+        <div className="stat-header">Save / Ward</div>
         {ward ? (
           <div className="stat">
             {unit.stats.save}/{ward}
@@ -51,4 +51,3 @@ function WarscrollHeader({ unit, color }) {
 }
 
 export default WarscrollHeader;
-
