@@ -1,6 +1,7 @@
 .warscroll-weapons {
   flex: 1;
   padding: 1rem;
+  width: 100%;
   --weapon-tr: #c4c5b1;
 }
 
@@ -14,7 +15,10 @@
 
 .fl-table {
   font-weight: normal;
+  width: 100%;
   border: none;
+  white-space: nowrap;
+  border-radius: 0.25rem;
   border-collapse: collapse;
   box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 }
@@ -28,6 +32,7 @@ fl-table th {
 
 .fl-table thead th {
   padding: 4px;
+  width: 100%;
   background: url("@site/static/img/clean-gray-paper.png"), var(--faction-color);
   text-align: center;
   font-family: "Cinzel", serif;
@@ -48,4 +53,3 @@ fl-table th {
     font-size: 0.75rem;
   }
 }
-
