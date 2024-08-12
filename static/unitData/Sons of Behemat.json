@@ -237,6 +237,7 @@
           "hit": "3+",
           "wnd": "2+",
           "rnd": "1",
+          "dmg": "2",
           "abilities": []
         },
         {
@@ -245,6 +246,7 @@
           "hit": "3+",
           "wnd": "2+",
           "rnd": "3",
+          "dmg": "4",
           "abilities": []
         },
         {
@@ -253,6 +255,7 @@
           "hit": "4+",
           "wnd": "2+",
           "rnd": "2",
+          "dmg": "D3",
           "abilities": [
             "Crit (2 Hits)"
           ]
@@ -351,6 +354,7 @@
           "hit": "3+",
           "wnd": "2+",
           "rnd": "3",
+          "dmg": "4",
           "abilities": []
         }
       ],
@@ -361,6 +365,7 @@
           "hit": "4+",
           "wnd": "2+",
           "rnd": "2",
+          "dmg": "D3",
           "abilities": [
             "Anti-Infantry (+1 Rend)"
           ]
@@ -371,6 +376,7 @@
           "hit": "4+",
           "wnd": "2+",
           "rnd": "2",
+          "dmg": "D6",
           "abilities": [
             "Anti-Hero (+1 Rend)"
           ]
@@ -381,6 +387,7 @@
           "hit": "4+",
           "wnd": "2+",
           "rnd": "2",
+          "dmg": "4",
           "abilities": [
             "Anti-Faction Terrain (+1 Rend)"
           ]
@@ -443,6 +450,7 @@
           "hit": "5+",
           "wnd": "2+",
           "rnd": "2",
+          "dmg": "D3",
           "abilities": []
         }
       ],
@@ -453,6 +461,7 @@
           "hit": "4+",
           "wnd": "2+",
           "rnd": "2",
+          "dmg": "4",
           "abilities": []
         },
         {
@@ -461,6 +470,7 @@
           "hit": "4+",
           "wnd": "2+",
           "rnd": "2",
+          "dmg": "D3",
           "abilities": []
         },
         {
@@ -469,6 +479,7 @@
           "hit": "4+",
           "wnd": "2+",
           "rnd": "1",
+          "dmg": "2",
           "abilities": []
         }
       ]
@@ -559,6 +570,7 @@
           "hit": "4+",
           "wnd": "2+",
           "rnd": "2",
+          "dmg": "D3",
           "abilities": [
             "Anti-Infantry (+1 Rend)"
           ]
@@ -569,6 +581,7 @@
           "hit": "4+",
           "wnd": "2+",
           "rnd": "2",
+          "dmg": "D6",
           "abilities": [
             "Anti-Hero (+1 Rend)"
           ]
@@ -579,6 +592,7 @@
           "hit": "4+",
           "wnd": "2+",
           "rnd": "2",
+          "dmg": "2",
           "abilities": [
             "Anti-Infantry (+1 Rend)"
           ]
@@ -672,6 +686,7 @@
           "hit": "4+",
           "wnd": "3+",
           "rnd": "1",
+          "dmg": "D3",
           "abilities": []
         }
       ],
@@ -682,6 +697,7 @@
           "hit": "4+",
           "wnd": "2+",
           "rnd": "2",
+          "dmg": "D6",
           "abilities": [
             "Anti-Hero (+1 Rend)"
           ]
@@ -692,6 +708,7 @@
           "hit": "4+",
           "wnd": "2+",
           "rnd": "2",
+          "dmg": "D3",
           "abilities": [
             "Anti-Infantry (+1 Rend)"
           ]
@@ -702,6 +719,7 @@
           "hit": "4+",
           "wnd": "2+",
           "rnd": "2",
+          "dmg": "4",
           "abilities": []
         }
       ]
@@ -772,6 +790,7 @@
           "hit": "5+",
           "wnd": "2+",
           "rnd": "2",
+          "dmg": "D3",
           "abilities": []
         }
       ],
@@ -782,6 +801,7 @@
           "hit": "4+",
           "wnd": "2+",
           "rnd": "1",
+          "dmg": "2",
           "abilities": []
         },
         {
@@ -790,6 +810,7 @@
           "hit": "4+",
           "wnd": "2+",
           "rnd": "2",
+          "dmg": "D3",
           "abilities": []
         },
         {
@@ -798,6 +819,7 @@
           "hit": "4+",
           "wnd": "2+",
           "rnd": "2",
+          "dmg": "4",
           "abilities": []
         }
       ]
@@ -893,6 +915,7 @@
           "hit": "4+",
           "wnd": "2+",
           "rnd": "2",
+          "dmg": "D6",
           "abilities": [
             "Anti-Hero (+1 Rend)"
           ]
@@ -903,6 +926,7 @@
           "hit": "4+",
           "wnd": "2+",
           "rnd": "2",
+          "dmg": "5",
           "abilities": [
             "Anti-Monster (+1 Rend)"
           ]
@@ -913,6 +937,7 @@
           "hit": "4+",
           "wnd": "2+",
           "rnd": "2",
+          "dmg": "D3",
           "abilities": [
             "Anti-Infantry (+1 Rend)"
           ]
@@ -1012,6 +1037,7 @@
           "hit": "4+",
           "wnd": "2+",
           "rnd": "2",
+          "dmg": "5",
           "abilities": []
         },
         {
@@ -1020,6 +1046,7 @@
           "hit": "4+",
           "wnd": "2+",
           "rnd": "2",
+          "dmg": "D6",
           "abilities": [
             "Anti-Hero (+1 Rend)"
           ]
@@ -1030,6 +1057,7 @@
           "hit": "4+",
           "wnd": "2+",
           "rnd": "2",
+          "dmg": "D3",
           "abilities": [
             "Anti-Infantry (+1 Rend)"
           ]

@@ -189,6 +189,7 @@
           "hit": "5+",
           "wnd": "3+",
           "rnd": "-",
+          "dmg": "1",
           "abilities": [
             "Companion"
           ]
@@ -199,6 +200,7 @@
           "hit": "3+",
           "wnd": "3+",
           "rnd": "1",
+          "dmg": "2",
           "abilities": [
             "Crit (2 Hits)",
             "Charge (+1 Damage)"
@@ -275,6 +277,7 @@
           "hit": "4+",
           "wnd": "4+",
           "rnd": "1",
+          "dmg": "1",
           "abilities": []
         }
       ],
@@ -285,6 +288,7 @@
           "hit": "4+",
           "wnd": "2+",
           "rnd": "2",
+          "dmg": "2",
           "abilities": [
             "Crit (2 Hits)"
           ]
@@ -295,6 +299,7 @@
           "hit": "4+",
           "wnd": "3+",
           "rnd": "1",
+          "dmg": "2",
           "abilities": []
         }
       ]
@@ -347,6 +352,7 @@
           "hit": "3+",
           "wnd": "4+",
           "rnd": "1",
+          "dmg": "D3",
           "abilities": [
             "Shoot in Combat"
           ]
@@ -359,6 +365,7 @@
           "hit": "3+",
           "wnd": "4+",
           "rnd": "1",
+          "dmg": "D3",
           "abilities": []
         }
       ]
@@ -410,6 +417,7 @@
           "hit": "4+",
           "wnd": "2+",
           "rnd": "2",
+          "dmg": "2",
           "abilities": []
         }
       ]
@@ -511,6 +519,7 @@
           "hit": "4+",
           "wnd": "2+",
           "rnd": "2",
+          "dmg": "2",
           "abilities": [
             "Companion"
           ]
@@ -521,6 +530,7 @@
           "hit": "4+",
           "wnd": "3+",
           "rnd": "1",
+          "dmg": "D3",
           "abilities": [
             "Crit (2 Hits)"
           ]
@@ -574,6 +584,7 @@
           "hit": "3+",
           "wnd": "4+",
           "rnd": "-",
+          "dmg": "1",
           "abilities": [
             "Crit (2 Hits)",
             "Anti-charge (+1 Rend)"
@@ -642,6 +653,7 @@
           "hit": "4+",
           "wnd": "3+",
           "rnd": "-",
+          "dmg": "1",
           "abilities": [
             "Companion"
           ]
@@ -652,6 +664,7 @@
           "hit": "3+",
           "wnd": "4+",
           "rnd": "1",
+          "dmg": "1",
           "abilities": [
             "Crit (2 Hits)"
           ]
@@ -705,6 +718,7 @@
           "hit": "4+",
           "wnd": "2+",
           "rnd": "1",
+          "dmg": "D3",
           "abilities": []
         }
       ]
@@ -755,6 +769,7 @@
           "hit": "4+",
           "wnd": "2+",
           "rnd": "1",
+          "dmg": "D3+2",
           "abilities": [
             "Crit (2 Hits)",
             "Anti-Infantry (+1 Rend)"
@@ -768,6 +783,7 @@
           "hit": "4+",
           "wnd": "4+",
           "rnd": "-",
+          "dmg": "1",
           "abilities": [
             "Companion"
           ]
@@ -837,6 +853,7 @@
           "hit": "3+",
           "wnd": "2+",
           "rnd": "1",
+          "dmg": "2",
           "abilities": []
         }
       ],
@@ -847,6 +864,7 @@
           "hit": "4+",
           "wnd": "3+",
           "rnd": "1",
+          "dmg": "2",
           "abilities": [
             "Crit (2 Hits)"
           ]
@@ -901,6 +919,7 @@
           "hit": "4+",
           "wnd": "4+",
           "rnd": "-",
+          "dmg": "2",
           "abilities": [
             "Crit (2 Hits)"
           ]
@@ -1034,6 +1053,7 @@
           "hit": "3+",
           "wnd": "3+",
           "rnd": "2",
+          "dmg": "2",
           "abilities": []
         },
         {
@@ -1042,6 +1062,7 @@
           "hit": "3+",
           "wnd": "3+",
           "rnd": "2",
+          "dmg": "3",
           "abilities": [
             "Crit (2 Hits)"
           ]
@@ -1052,6 +1073,7 @@
           "hit": "3+",
           "wnd": "4+",
           "rnd": "1",
+          "dmg": "1",
           "abilities": [
             "Crit (2 Hits)"
           ]
@@ -1110,6 +1132,7 @@
           "hit": "5+",
           "wnd": "4+",
           "rnd": "1",
+          "dmg": "1",
           "abilities": [
             "Companion"
           ]
@@ -1120,6 +1143,7 @@
           "hit": "4+",
           "wnd": "4+",
           "rnd": "1",
+          "dmg": "D3",
           "abilities": [
             "Crit (2 Hits)"
           ]
@@ -1183,6 +1207,7 @@
           "hit": "3+",
           "wnd": "4+",
           "rnd": "1",
+          "dmg": "1",
           "abilities": [
             "Crit (2 Hits)",
             "Charge (+1 Damage)"
@@ -1194,6 +1219,7 @@
           "hit": "5+",
           "wnd": "3+",
           "rnd": "-",
+          "dmg": "1",
           "abilities": [
             "Companion"
           ]
@@ -1245,6 +1271,7 @@
           "hit": "3+",
           "wnd": "3+",
           "rnd": "1",
+          "dmg": "2",
           "abilities": [
             "Crit (2 Hits)"
           ]
@@ -1299,6 +1326,7 @@
           "hit": "4+",
           "wnd": "4+",
           "rnd": "-",
+          "dmg": "2",
           "abilities": [
             "Crit (2 Hits)"
           ]
@@ -1372,6 +1400,7 @@
           "hit": "3+",
           "wnd": "3+",
           "rnd": "2",
+          "dmg": "2",
           "abilities": [
             "Crit (2 Hits)",
             "Charge (+1 Damage)"
@@ -1383,6 +1412,7 @@
           "hit": "5+",
           "wnd": "3+",
           "rnd": "-",
+          "dmg": "1",
           "abilities": [
             "Companion"
           ]
@@ -1447,6 +1477,7 @@
           "hit": "4+",
           "wnd": "3+",
           "rnd": "2",
+          "dmg": "2",
           "abilities": [
             "Crit (2 Hits)"
           ]
@@ -1498,6 +1529,7 @@
           "hit": "3+",
           "wnd": "3+",
           "rnd": "2",
+          "dmg": "1",
           "abilities": [
             "Crit (2 Hits)"
           ]
@@ -1601,6 +1633,7 @@
           "hit": "3+",
           "wnd": "3+",
           "rnd": "2",
+          "dmg": "D6",
           "abilities": []
         },
         {
@@ -1609,6 +1642,7 @@
           "hit": "3+",
           "wnd": "3+",
           "rnd": "2",
+          "dmg": "3",
           "abilities": []
         }
       ]
@@ -1669,6 +1703,7 @@
           "hit": "3+",
           "wnd": "2+",
           "rnd": "2",
+          "dmg": "3",
           "abilities": [
             "Crit (2 Hits)",
             "Anti-Monster (+1 Rend)"
@@ -1732,6 +1767,7 @@
           "hit": "3+",
           "wnd": "2+",
           "rnd": "2",
+          "dmg": "3",
           "abilities": [
             "Crit (2 Hits)",
             "Anti-Monster (+1 Rend)"
@@ -1797,6 +1833,7 @@
           "hit": "3+",
           "wnd": "4+",
           "rnd": "-",
+          "dmg": "1",
           "abilities": [
             "Anti-charge (+1 Rend)"
           ]
@@ -1807,6 +1844,7 @@
           "hit": "3+",
           "wnd": "3+",
           "rnd": "2",
+          "dmg": "2",
           "abilities": [
             "Anti-charge (+1 Rend)"
           ]

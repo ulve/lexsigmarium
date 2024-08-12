@@ -164,6 +164,7 @@
           "hit": "4+",
           "wnd": "3+",
           "rnd": "1",
+          "dmg": "2",
           "abilities": [
             "Crit (Auto-wound)"
           ]
@@ -258,6 +259,7 @@
           "hit": "3+",
           "wnd": "3+",
           "rnd": "2",
+          "dmg": "2",
           "abilities": [
             "Anti-Hero (+1 Rend)",
             "Crit (Auto-wound)"
@@ -313,6 +315,7 @@
           "hit": "3+",
           "wnd": "3+",
           "rnd": "2",
+          "dmg": "3",
           "abilities": [
             "Crit (Auto-wound)"
           ]
@@ -323,6 +326,7 @@
           "hit": "4+",
           "wnd": "4+",
           "rnd": "-",
+          "dmg": "1",
           "abilities": [
             "Companion",
             "Crit (Auto-wound)"
@@ -376,6 +380,7 @@
           "hit": "4+",
           "wnd": "3+",
           "rnd": "2",
+          "dmg": "D3",
           "abilities": [
             "Crit (Auto-wound)"
           ]
@@ -481,6 +486,7 @@
           "hit": "3+",
           "wnd": "3+",
           "rnd": "2",
+          "dmg": "1",
           "abilities": [
             "Shoot in Combat"
           ]
@@ -493,6 +499,7 @@
           "hit": "4+",
           "wnd": "3+",
           "rnd": "1",
+          "dmg": "2",
           "abilities": [
             "Crit (Auto-wound)"
           ]
@@ -549,6 +556,7 @@
           "hit": "4+",
           "wnd": "4+",
           "rnd": "1",
+          "dmg": "1",
           "abilities": [
             "Shoot in Combat",
             "Crit (Auto-wound)"
@@ -562,6 +570,7 @@
           "hit": "4+",
           "wnd": "4+",
           "rnd": "-",
+          "dmg": "1",
           "abilities": [
             "Crit (Auto-wound)"
           ]
@@ -615,6 +624,7 @@
           "hit": "5+",
           "wnd": "3+",
           "rnd": "-",
+          "dmg": "1",
           "abilities": [
             "Companion",
             "Crit (Auto-wound)"
@@ -626,6 +636,7 @@
           "hit": "4+",
           "wnd": "4+",
           "rnd": "1",
+          "dmg": "1",
           "abilities": [
             "Charge (+1 Damage)",
             "Crit (Auto-wound)"
@@ -679,6 +690,7 @@
           "hit": "3+",
           "wnd": "3+",
           "rnd": "1",
+          "dmg": "1",
           "abilities": [
             "Crit (Auto-wound)"
           ]
@@ -731,6 +743,7 @@
           "hit": "4+",
           "wnd": "4+",
           "rnd": "-",
+          "dmg": "1",
           "abilities": [
             "Crit (Auto-wound)"
           ]
@@ -786,6 +799,7 @@
           "hit": "4+",
           "wnd": "3+",
           "rnd": "1",
+          "dmg": "1",
           "abilities": [
             "Crit (Auto-wound)"
           ]
@@ -798,6 +812,7 @@
           "hit": "4+",
           "wnd": "4+",
           "rnd": "-",
+          "dmg": "1",
           "abilities": [
             "Crit (Auto-wound)"
           ]
@@ -861,6 +876,7 @@
           "hit": "4+",
           "wnd": "4+",
           "rnd": "-",
+          "dmg": "D3",
           "abilities": [
             "Crit (Auto-wound)"
           ]
@@ -942,6 +958,7 @@
           "hit": "2+",
           "wnd": "2+",
           "rnd": "3",
+          "dmg": "D6",
           "abilities": [
             "Crit (Auto-wound)"
           ]
@@ -954,6 +971,7 @@
           "hit": "4+",
           "wnd": "3+",
           "rnd": "1",
+          "dmg": "D3",
           "abilities": [
             "Crit (Auto-wound)"
           ]
@@ -964,6 +982,7 @@
           "hit": "4+",
           "wnd": "4+",
           "rnd": "-",
+          "dmg": "1",
           "abilities": [
             "Companion",
             "Crit (Auto-wound)"
@@ -1018,6 +1037,7 @@
           "hit": "4+",
           "wnd": "3+",
           "rnd": "1",
+          "dmg": "1",
           "abilities": [
             "Anti-Infantry (+1 Rend)",
             "Crit (Auto-wound)"
@@ -1072,6 +1092,7 @@
           "hit": "4+",
           "wnd": "3+",
           "rnd": "1",
+          "dmg": "2",
           "abilities": [
             "Crit (Auto-wound)"
           ]
@@ -1127,6 +1148,7 @@
           "hit": "3+",
           "wnd": "3+",
           "rnd": "2",
+          "dmg": "D6",
           "abilities": [
             "Crit (Auto-wound)"
           ]
@@ -1137,6 +1159,7 @@
           "hit": "4+",
           "wnd": "4+",
           "rnd": "-",
+          "dmg": "1",
           "abilities": []
         }
       ]
@@ -1188,6 +1211,7 @@
           "hit": "4+",
           "wnd": "3+",
           "rnd": "1",
+          "dmg": "2",
           "abilities": [
             "Crit (Auto-wound)"
           ]
@@ -1251,6 +1275,7 @@
           "hit": "4+",
           "wnd": "4+",
           "rnd": "1",
+          "dmg": "1",
           "abilities": [
             "Crit (Auto-wound)"
           ]
@@ -1314,6 +1339,7 @@
           "hit": "4+",
           "wnd": "3+",
           "rnd": "1",
+          "dmg": "1",
           "abilities": [
             "Charge (+1 Damage)",
             "Crit (Auto-wound)"
@@ -1379,6 +1405,7 @@
           "hit": "4+",
           "wnd": "3+",
           "rnd": "2",
+          "dmg": "D3",
           "abilities": [
             "Shoot in Combat"
           ]
@@ -1391,6 +1418,7 @@
           "hit": "4+",
           "wnd": "3+",
           "rnd": "2",
+          "dmg": "D3",
           "abilities": [
             "Crit (Auto-wound)"
           ]
@@ -1467,6 +1495,7 @@
           "hit": "4+",
           "wnd": "3+",
           "rnd": "2",
+          "dmg": "2",
           "abilities": [
             "Shoot in Combat",
             "Crit (Auto-wound)"
@@ -1480,6 +1509,7 @@
           "hit": "5+",
           "wnd": "3+",
           "rnd": "-",
+          "dmg": "1",
           "abilities": [
             "Companion",
             "Crit (Auto-wound)"
@@ -1491,6 +1521,7 @@
           "hit": "4+",
           "wnd": "4+",
           "rnd": "-",
+          "dmg": "1",
           "abilities": [
             "Companion",
             "Crit (Auto-wound)"
@@ -1502,6 +1533,7 @@
           "hit": "3+",
           "wnd": "3+",
           "rnd": "2",
+          "dmg": "2",
           "abilities": [
             "Crit (Auto-wound)"
           ]
@@ -1555,6 +1587,7 @@
           "hit": "3+",
           "wnd": "2+",
           "rnd": "2",
+          "dmg": "4",
           "abilities": []
         }
       ]
@@ -1632,6 +1665,7 @@
           "hit": "3+",
           "wnd": "3+",
           "rnd": "2",
+          "dmg": "2",
           "abilities": [
             "Charge (+1 Damage)",
             "Crit (Auto-wound)"
@@ -1643,6 +1677,7 @@
           "hit": "5+",
           "wnd": "3+",
           "rnd": "-",
+          "dmg": "1",
           "abilities": [
             "Companion",
             "Crit (Auto-wound)"
@@ -1707,6 +1742,7 @@
           "hit": "4+",
           "wnd": "3+",
           "rnd": "1",
+          "dmg": "2",
           "abilities": [
             "Crit (Auto-wound)"
           ]
@@ -1772,6 +1808,7 @@
           "hit": "4+",
           "wnd": "3+",
           "rnd": "1",
+          "dmg": "2",
           "abilities": [
             "Crit (Auto-wound)"
           ]
@@ -1782,6 +1819,7 @@
           "hit": "5+",
           "wnd": "3+",
           "rnd": "-",
+          "dmg": "1",
           "abilities": [
             "Companion",
             "Crit (Auto-wound)"
@@ -1840,6 +1878,7 @@
           "hit": "4+",
           "wnd": "3+",
           "rnd": "2",
+          "dmg": "D3",
           "abilities": [
             "Crit (Auto-wound)"
           ]
@@ -1943,6 +1982,7 @@
           "hit": "3+",
           "wnd": "3+",
           "rnd": "2",
+          "dmg": "3",
           "abilities": []
         },
         {
@@ -1951,6 +1991,7 @@
           "hit": "3+",
           "wnd": "3+",
           "rnd": "2",
+          "dmg": "D6",
           "abilities": []
         }
       ]
@@ -2012,6 +2053,7 @@
           "hit": "4+",
           "wnd": "3+",
           "rnd": "1",
+          "dmg": "2",
           "abilities": [
             "Crit (Auto-wound)"
           ]
@@ -2022,6 +2064,7 @@
           "hit": "5+",
           "wnd": "3+",
           "rnd": "-",
+          "dmg": "1",
           "abilities": [
             "Companion",
             "Crit (Auto-wound)"
@@ -2076,6 +2119,7 @@
           "hit": "4+",
           "wnd": "5+",
           "rnd": "-",
+          "dmg": "1",
           "abilities": [
             "Crit (Auto-wound)"
           ]
@@ -2129,6 +2173,7 @@
           "hit": "4+",
           "wnd": "3+",
           "rnd": "2",
+          "dmg": "1",
           "abilities": []
         }
       ],
@@ -2139,6 +2184,7 @@
           "hit": "4+",
           "wnd": "3+",
           "rnd": "2",
+          "dmg": "1",
           "abilities": [
             "Crit (Auto-wound)"
           ]
@@ -2204,6 +2250,7 @@
           "hit": "4+",
           "wnd": "3+",
           "rnd": "2",
+          "dmg": "D3",
           "abilities": [
             "Shoot in Combat"
           ]
@@ -2216,6 +2263,7 @@
           "hit": "4+",
           "wnd": "3+",
           "rnd": "2",
+          "dmg": "D3",
           "abilities": [
             "Crit (Auto-wound)"
           ]
@@ -2226,6 +2274,7 @@
           "hit": "4+",
           "wnd": "5+",
           "rnd": "-",
+          "dmg": "1",
           "abilities": [
             "Crit (Auto-wound)"
           ]

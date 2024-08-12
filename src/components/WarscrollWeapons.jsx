@@ -208,13 +208,14 @@ function fisk(unit, weapon) {
 }
 
 function WarscrollWeapons({ unit, color }) {
+  console.log(unit);
   return (
     <div className="warscroll-weapons">
       {unit.rangedWeapons && (
         <table className="fl-table">
           <thead>
             <tr>
-              <th className="weapon-left">Ranged Weapons</th>
+              <th className="weapon-left">Ranged</th>
               <th className="weapon-center">Rng</th>
               <th className="weapon-center">Atk</th>
               <th className="weapon-center">Hit</th>
@@ -247,7 +248,7 @@ function WarscrollWeapons({ unit, color }) {
         <table className="fl-table">
           <thead>
             <tr>
-              <th className="weapon-left">Melee Weapons</th>
+              <th className="weapon-left">Melee</th>
               <th className="weapon-center">Atk</th>
               <th className="weapon-center">Hit</th>
               <th className="weapon-center">Wnd</th>

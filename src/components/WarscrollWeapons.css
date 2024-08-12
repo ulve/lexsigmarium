@@ -1,7 +1,9 @@
 .warscroll-weapons {
   flex: 1;
   padding: 1rem;
+  padding-right: 7rem;
   width: 100%;
+
   --weapon-tr: #c4c5b1;
 }
 
@@ -51,5 +53,8 @@ fl-table th {
 @media (max-width: 575px) {
   .fl-table {
     font-size: 0.75rem;
+  }
+  .warscroll-weapons {
+    padding-right: 1rem;
   }
 }

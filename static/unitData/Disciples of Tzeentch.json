@@ -148,6 +148,7 @@
           "hit": "5+",
           "wnd": "4+",
           "rnd": "-",
+          "dmg": "1",
           "abilities": [
             "Crit (2 Hits)",
             "Companion"
@@ -202,6 +203,7 @@
           "hit": "4+",
           "wnd": "4+",
           "rnd": "-",
+          "dmg": "1",
           "abilities": [
             "Wyrdflame"
           ]
@@ -214,6 +216,7 @@
           "hit": "4+",
           "wnd": "5+",
           "rnd": "-",
+          "dmg": "1",
           "abilities": []
         },
         {
@@ -222,6 +225,7 @@
           "hit": "4+",
           "wnd": "4+",
           "rnd": "-",
+          "dmg": "1",
           "abilities": []
         }
       ]
@@ -273,6 +277,7 @@
           "hit": "4+",
           "wnd": "3+",
           "rnd": "1",
+          "dmg": "D3",
           "abilities": [
             "Anti-Wizard (+1 Rend)"
           ]
@@ -339,6 +344,7 @@
           "hit": "3+",
           "wnd": "4+",
           "rnd": "-",
+          "dmg": "D3",
           "abilities": [
             "Wyrdflame"
           ]
@@ -351,6 +357,7 @@
           "hit": "4+",
           "wnd": "3+",
           "rnd": "1",
+          "dmg": "D3",
           "abilities": [
             "Companion"
           ]
@@ -361,6 +368,7 @@
           "hit": "3+",
           "wnd": "4+",
           "rnd": "-",
+          "dmg": "D3",
           "abilities": []
         }
       ]
@@ -425,6 +433,7 @@
           "hit": "4+",
           "wnd": "4+",
           "rnd": "1",
+          "dmg": "D3",
           "abilities": [
             "Wyrdflame"
           ]
@@ -437,6 +446,7 @@
           "hit": "4+",
           "wnd": "3+",
           "rnd": "1",
+          "dmg": "D3",
           "abilities": []
         },
         {
@@ -445,6 +455,7 @@
           "hit": "4+",
           "wnd": "3+",
           "rnd": "1",
+          "dmg": "1",
           "abilities": [
             "Anti-Monster (+1 Rend)",
             "Companion"
@@ -499,6 +510,7 @@
           "hit": "4+",
           "wnd": "3+",
           "rnd": "1",
+          "dmg": "2",
           "abilities": []
         }
       ]
@@ -581,6 +593,7 @@
           "hit": "4+",
           "wnd": "3+",
           "rnd": "1",
+          "dmg": "D3",
           "abilities": [
             "Crit (Mortal)"
           ]
@@ -593,6 +606,7 @@
           "hit": "4+",
           "wnd": "3+",
           "rnd": "1",
+          "dmg": "D3",
           "abilities": [
             "Companion"
           ]
@@ -603,6 +617,7 @@
           "hit": "3+",
           "wnd": "3+",
           "rnd": "1",
+          "dmg": "2",
           "abilities": []
         }
       ]
@@ -667,6 +682,7 @@
           "hit": "4+",
           "wnd": "3+",
           "rnd": "1",
+          "dmg": "D3",
           "abilities": []
         }
       ],
@@ -677,6 +693,7 @@
           "hit": "4+",
           "wnd": "3+",
           "rnd": "1",
+          "dmg": "D3",
           "abilities": [
             "Companion"
           ]
@@ -687,6 +704,7 @@
           "hit": "4+",
           "wnd": "3+",
           "rnd": "-",
+          "dmg": "1",
           "abilities": []
         }
       ]
@@ -740,6 +758,7 @@
           "hit": "3+",
           "wnd": "4+",
           "rnd": "-",
+          "dmg": "D3",
           "abilities": [
             "Anti-Infantry (+1 Rend)",
             "Wyrdflame"
@@ -753,6 +772,7 @@
           "hit": "3+",
           "wnd": "4+",
           "rnd": "-",
+          "dmg": "1",
           "abilities": []
         }
       ]
@@ -816,6 +836,7 @@
           "hit": "4+",
           "wnd": "4+",
           "rnd": "1",
+          "dmg": "D3",
           "abilities": [
             "Wyrdflame"
           ]
@@ -828,6 +849,7 @@
           "hit": "4+",
           "wnd": "3+",
           "rnd": "1",
+          "dmg": "D3",
           "abilities": []
         }
       ]
@@ -890,6 +912,7 @@
           "hit": "3+",
           "wnd": "4+",
           "rnd": "-",
+          "dmg": "D3",
           "abilities": [
             "Anti-Infantry (+1 Rend)",
             "Wyrdflame"
@@ -903,6 +926,7 @@
           "hit": "3+",
           "wnd": "4+",
           "rnd": "-",
+          "dmg": "1",
           "abilities": []
         }
       ]
@@ -969,6 +993,7 @@
           "hit": "3+",
           "wnd": "3+",
           "rnd": "1",
+          "dmg": "1",
           "abilities": [
             "Wyrdflame"
           ]
@@ -981,6 +1006,7 @@
           "hit": "4+",
           "wnd": "4+",
           "rnd": "1",
+          "dmg": "2",
           "abilities": []
         }
       ]
@@ -1042,6 +1068,7 @@
           "hit": "4+",
           "wnd": "3+",
           "rnd": "-",
+          "dmg": "1",
           "abilities": [
             "Wyrdflame"
           ]
@@ -1054,6 +1081,7 @@
           "hit": "4+",
           "wnd": "4+",
           "rnd": "-",
+          "dmg": "1",
           "abilities": []
         },
         {
@@ -1062,6 +1090,7 @@
           "hit": "4+",
           "wnd": "3+",
           "rnd": "1",
+          "dmg": "2",
           "abilities": []
         }
       ]
@@ -1127,6 +1156,7 @@
           "hit": "4+",
           "wnd": "4+",
           "rnd": "-",
+          "dmg": "1",
           "abilities": [
             "Wyrdflame",
             "Anti-Unique (+1 Rend)"
@@ -1140,6 +1170,7 @@
           "hit": "4+",
           "wnd": "5+",
           "rnd": "-",
+          "dmg": "1",
           "abilities": []
         }
       ]
@@ -1217,6 +1248,7 @@
           "hit": "3+",
           "wnd": "3+",
           "rnd": "1",
+          "dmg": "D3",
           "abilities": []
         }
       ]
@@ -1306,6 +1338,7 @@
           "hit": "3+",
           "wnd": "3+",
           "rnd": "1",
+          "dmg": "1",
           "abilities": [
             "Wyrdflame"
           ]
@@ -1318,6 +1351,7 @@
           "hit": "3+",
           "wnd": "3+",
           "rnd": "-",
+          "dmg": "D3",
           "abilities": [
             "Anti-Wizard (+1 Rend)"
           ]
@@ -1328,6 +1362,7 @@
           "hit": "4+",
           "wnd": "3+",
           "rnd": "2",
+          "dmg": "3",
           "abilities": []
         },
         {
@@ -1336,6 +1371,7 @@
           "hit": "4+",
           "wnd": "3+",
           "rnd": "1",
+          "dmg": "2",
           "abilities": []
         }
       ]
@@ -1404,6 +1440,7 @@
           "hit": "4+",
           "wnd": "3+",
           "rnd": "1",
+          "dmg": "D3",
           "abilities": [
             "Companion"
           ]
@@ -1414,6 +1451,7 @@
           "hit": "5+",
           "wnd": "5+",
           "rnd": "-",
+          "dmg": "1",
           "abilities": []
         }
       ]
@@ -1475,6 +1513,7 @@
           "hit": "4+",
           "wnd": "3+",
           "rnd": "1",
+          "dmg": "1",
           "abilities": [
             "Anti-Monster (+1 Rend)",
             "Companion"
@@ -1530,6 +1569,7 @@
           "hit": "3+",
           "wnd": "4+",
           "rnd": "-",
+          "dmg": "D3",
           "abilities": [
             "Anti-Infantry (+1 Rend)",
             "Wyrdflame"
@@ -1543,6 +1583,7 @@
           "hit": "4+",
           "wnd": "3+",
           "rnd": "-",
+          "dmg": "1",
           "abilities": []
         },
         {
@@ -1551,6 +1592,7 @@
           "hit": "4+",
           "wnd": "3+",
           "rnd": "1",
+          "dmg": "1",
           "abilities": [
             "Anti-Monster (+1 Rend)",
             "Companion"
@@ -1618,6 +1660,7 @@
           "hit": "4+",
           "wnd": "3+",
           "rnd": "1",
+          "dmg": "D3",
           "abilities": [
             "Companion"
           ]
@@ -1628,6 +1671,7 @@
           "hit": "4+",
           "wnd": "3+",
           "rnd": "1",
+          "dmg": "D3",
           "abilities": []
         }
       ]
@@ -1721,6 +1765,7 @@
           "hit": "4+",
           "wnd": "3+",
           "rnd": "1",
+          "dmg": "D3",
           "abilities": [
             "Companion"
           ]
@@ -1731,6 +1776,7 @@
           "hit": "4+",
           "wnd": "3+",
           "rnd": "1",
+          "dmg": "2",
           "abilities": []
         }
       ]
@@ -1792,6 +1838,7 @@
           "hit": "4+",
           "wnd": "3+",
           "rnd": "1",
+          "dmg": "D3",
           "abilities": [
             "Companion"
           ]
@@ -1802,6 +1849,7 @@
           "hit": "3+",
           "wnd": "3+",
           "rnd": "1",
+          "dmg": "D3",
           "abilities": [
             "Wyrdflame"
           ]
@@ -1867,6 +1915,7 @@
           "hit": "3+",
           "wnd": "4+",
           "rnd": "-",
+          "dmg": "D3",
           "abilities": []
         }
       ],
@@ -1877,6 +1926,7 @@
           "hit": "4+",
           "wnd": "2+",
           "rnd": "1",
+          "dmg": "2",
           "abilities": [
             "Charge (+1 Damage)"
           ]
@@ -1887,6 +1937,7 @@
           "hit": "4+",
           "wnd": "3+",
           "rnd": "-",
+          "dmg": "D3",
           "abilities": []
         }
       ]
@@ -1940,6 +1991,7 @@
           "hit": "4+",
           "wnd": "3+",
           "rnd": "1",
+          "dmg": "1",
           "abilities": []
         },
         {
@@ -1948,6 +2000,7 @@
           "hit": "4+",
           "wnd": "3+",
           "rnd": "1",
+          "dmg": "2",
           "abilities": []
         }
       ]
@@ -2047,6 +2100,7 @@
           "hit": "3+",
           "wnd": "2+",
           "rnd": "1",
+          "dmg": "D3",
           "abilities": []
         },
         {
@@ -2055,6 +2109,7 @@
           "hit": "4+",
           "wnd": "3+",
           "rnd": "1",
+          "dmg": "2",
           "abilities": []
         }
       ]
@@ -2117,6 +2172,7 @@
           "hit": "4+",
           "wnd": "4+",
           "rnd": "-",
+          "dmg": "1",
           "abilities": []
         }
       ],
@@ -2127,6 +2183,7 @@
           "hit": "4+",
           "wnd": "4+",
           "rnd": "-",
+          "dmg": "1",
           "abilities": []
         },
         {
@@ -2135,6 +2192,7 @@
           "hit": "4+",
           "wnd": "3+",
           "rnd": "1",
+          "dmg": "1",
           "abilities": [
             "Anti-Faction Terrain (+1 Rend)"
           ]
@@ -2145,6 +2203,7 @@
           "hit": "3+",
           "wnd": "3+",
           "rnd": "1",
+          "dmg": "D3",
           "abilities": [
             "Companion"
           ]
@@ -2249,6 +2308,7 @@
           "hit": "3+",
           "wnd": "4+",
           "rnd": "-",
+          "dmg": "D3",
           "abilities": [
             "Wyrdflame"
           ]
@@ -2261,6 +2321,7 @@
           "hit": "3+",
           "wnd": "4+",
           "rnd": "-",
+          "dmg": "D3",
           "abilities": []
         }
       ]
@@ -2341,6 +2402,7 @@
           "hit": "4+",
           "wnd": "3+",
           "rnd": "1",
+          "dmg": "D3",
           "abilities": [
             "Crit (Mortal)"
           ]
@@ -2353,6 +2415,7 @@
           "hit": "3+",
           "wnd": "3+",
           "rnd": "1",
+          "dmg": "2",
           "abilities": []
         }
       ]
@@ -2407,6 +2470,7 @@
           "hit": "4+",
           "wnd": "4+",
           "rnd": "-",
+          "dmg": "1",
           "abilities": [
             "Wyrdflame"
           ]
@@ -2419,6 +2483,7 @@
           "hit": "4+",
           "wnd": "4+",
           "rnd": "-",
+          "dmg": "1",
           "abilities": []
         }
       ]
@@ -2473,6 +2538,7 @@
           "hit": "4+",
           "wnd": "4+",
           "rnd": "1",
+          "dmg": "D3",
           "abilities": [
             "Wyrdflame"
           ]
@@ -2485,6 +2551,7 @@
           "hit": "4+",
           "wnd": "3+",
           "rnd": "1",
+          "dmg": "D3",
           "abilities": []
         },
         {
@@ -2493,6 +2560,7 @@
           "hit": "4+",
           "wnd": "3+",
           "rnd": "1",
+          "dmg": "D3",
           "abilities": [
             "Companion"
           ]
@@ -2558,6 +2626,7 @@
           "hit": "4+",
           "wnd": "3+",
           "rnd": "1",
+          "dmg": "1",
           "abilities": [
             "Wyrdflame"
           ]
@@ -2570,6 +2639,7 @@
           "hit": "4+",
           "wnd": "4+",
           "rnd": "-",
+          "dmg": "1",
           "abilities": []
         }
       ]

@@ -1,6 +1,6 @@
 .warscroll-abilities {
   display: flex;
-  padding: 1em;
+  padding: 1rem;
   gap: 2rem;
   width: 100%;
   flex-wrap: wrap;
@@ -19,4 +19,3 @@
   min-width: 10rem;
   max-width: 45%;
 }
-
