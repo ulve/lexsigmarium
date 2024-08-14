@@ -31,4 +31,3 @@ function Warscroll({ unit, icon, color }) {
 }
 
 export default Warscroll;
-
