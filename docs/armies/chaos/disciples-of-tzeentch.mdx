@@ -6,106 +6,83 @@ import Warscroll from '@site/src/components/Warscroll';
 import WarscrollAbility from '@site/src/components/WarscrollAbility';
 
 ## Battle Traits
-
 ### Burning Wyrdflame
 
 <WarscrollAbility ability={{"name":"Burning Wyrdflame","header":{"icon":"offensive","color":"eggplant","text":"Once Per Turn (Army), End of Any Turn"},"effect":"Inflict D3 mortal damage on each Burning enemy unit, **Manifestation** and **faction terrain** feature."}} />
-
 ### Conflagration of Tzeentch
 
 <WarscrollAbility ability={{"name":"Conflagration of Tzeentch","header":{"icon":"special","color":"teal","text":"Once Per Turn (Army), Any Shooting Phase"},"declare":"Pick an enemy unit that had any damage points allocated to it this turn by **Wyrdflame** **Spell** abilities or shooting attacks made with weapons that have the **Wyrdflame** weapon ability to be the target.","effect":"The target has the Burning keyword."}} />
-
 ### Masters of Destiny
 
 <WarscrollAbility ability={{"name":"Masters of Destiny","header":{"icon":"special","color":"black","text":"Deployment Phase"},"effect":"Roll 9 dice and place them to one side. These are your destiny dice. Destiny dice can be spent during the battle to change certain dice rolls. You can never have more than 9 destiny dice at once.\n\nDuring the battle, instead of making a roll from the list below for a friendly Disciples of **Tzeentch** unit, you can spend your destiny dice. The roll you would have made is replaced with the roll on the destiny dice you spend. If you want to replace a 2D6 roll, 3D6 roll, etc. you must spend a number of destiny dice equal to the number before ‘D6’. Any rolls that have been replaced count as unmodified rolls, and they cannot be re-rolled, they cannot be changed and they cannot be modified by other friendly abilities (but they can be modified by enemy abilities). You cannot spend destiny dice to replace re-rolls.\n\nDestiny dice can be spent in place of the following dice rolls:\n• Casting rolls\n• Unbinding rolls\n• Banishment rolls\n• **Run** rolls\n• **Charge** rolls in your turn\n• Hit rolls\n• Wound rolls\n• Save rolls"}} />
-
 ### Quenching the Flames
 
 <WarscrollAbility ability={{"name":"Quenching the Flames","header":{"icon":"special","color":"black","text":"Passive"},"effect":"If an ability would heal or return slain models to a Burning enemy unit, **Manifestation** or terrain feature, that ability does not heal or return any slain models to it. Instead, it no longer has the Burning keyword."}} />
 
 ## Battle Formations
-
-#### Sinister Counter-hexes
+### Arcanite Cabal
 
 <WarscrollAbility ability={{"name":"Sinister Counter-hexes","header":{"icon":"special","color":"yellow","text":"Passive"},"declare":null,"effect":"Add 1 to unbinding rolls for friendly Arcanite units. In addition, if a friendly Arcanite unit unbinds a spell, no command points are spent for that unit to use the ‘Magical Intervention’ command in that phase."}} />
-
-#### Twist of Fate
+### Change Host
 
 <WarscrollAbility ability={{"name":"Twist of Fate","header":{"icon":"movement","color":"eggplant","text":"Once Per Battle (Army), End of Your Turn"},"declare":"Pick a friendly Disciples of Tzeentch Daemon unit that is in combat to be the target.","effect":"Roll a dice. On a 3+, remove the target from the battlefield and set it up again on the battlefield. Each model in the target unit must be set up in combat with any of the enemy units that the target was in combat with before it was removed from the battlefield."}} />
-
-#### Screeching Warflock
+### Tzaangor Coven
 
 <WarscrollAbility ability={{"name":"Screeching Warflock","header":{"icon":"rallying","color":"yellow","text":"Passive"},"declare":null,"effect":"Each time a friendly Warflock unit uses the ‘Rally’ command, you can make 3 additional rally rolls of D6."}} />
-
-#### Mutagenic Inferno
+### Wyrdflame Host
 
 <WarscrollAbility ability={{"name":"Mutagenic Inferno","header":{"icon":"defensive","color":"green","text":"Passive"},"declare":null,"effect":"Subtract 1 from wound rolls for attacks made by Burning enemy units."}} />
 
 ## Arcana and Incantations
 ### Lore of Change
-
 #### Transformed to Spawn
 
 <WarscrollAbility ability={{"name":"Transformed to Spawn","header":{"icon":"special","color":"yellow","text":"Your Hero Phase"},"declare":"Pick a friendly Disciples of Tzeentch Wizard to cast this spell, pick a visible enemy unit within 12\" of them to be the target, then make a casting roll of 2D6.","effect":"Inflict D3 mortal damage on the target. If any models are slain by this ability, pick a friendly Chaos Spawn of Tzeentch unit that is in reserve as a potential fate or that has been destroyed.\n\nIf you picked a unit in reserve as a potential fate, set it up on the battlefield in combat with the target. If you picked a unit that has been destroyed, set up an identical replacement unit on the battlefield in combat with the target.","castingValue":7,"keywords":["Spell"]}} />
-
 #### Fold Reality
 
 <WarscrollAbility ability={{"name":"Fold Reality","header":{"icon":"movement","color":"yellow","text":"Your Hero Phase"},"declare":"Pick a friendly Disciples of Tzeentch Wizard to cast this spell, pick a visible friendly Disciples of Tzeentch unit wholly within 12\" of them to be the target, then make a casting roll of 2D6.","effect":"Remove the target from the battlefield and set it up again on the battlefield more than 9\" from all enemy units.","castingValue":7,"keywords":["Spell"]}} />
-
 #### Bolt of Tzeentch
 
 <WarscrollAbility ability={{"name":"Bolt of Tzeentch","header":{"icon":"offensive","color":"yellow","text":"Your Hero Phase"},"declare":"Pick a friendly Disciples of Tzeentch Wizard to cast this spell, pick a visible enemy unit within 18\" of them to be the target, then make a casting roll of 2D6.","effect":"Inflict D3 mortal damage on the target.","castingValue":6,"keywords":["Spell","Unlimited","Wyrdflame"]}} />
 ### Manifestations of Tzeentch
-
 #### Summon Burning Sigil of Tzeentch
 
 <WarscrollAbility ability={{"name":"Summon Burning Sigil of Tzeentch","header":{"icon":"special","color":"yellow","text":"Your Hero Phase"},"declare":"If there is not a friendly Burning Sigil of Tzeentch on the battlefield, pick a friendly Disciples of Tzeentch Wizard to cast this spell, then make a casting roll of 2D6.","effect":"Set up a Burning Sigil of Tzeentch wholly within 12\" of the caster and visible to them.","castingValue":5,"keywords":["Summon","Spell"]}} />
-
 #### Summon Tome of Eyes
 
 <WarscrollAbility ability={{"name":"Summon Tome of Eyes","header":{"icon":"special","color":"yellow","text":"Your Hero Phase"},"declare":"If there is not a friendly Tome of Eyes on the battlefield, pick a friendly Disciples of Tzeentch Wizard to cast this spell, then make a casting roll of 2D6.","effect":"Set up a Tome of Eyes wholly within 12\" of the caster and visible to them.","castingValue":5,"keywords":["Summon","Spell"]}} />
-
 #### Summon Daemonic Simulacrum
 
 <WarscrollAbility ability={{"name":"Summon Daemonic Simulacrum","header":{"icon":"special","color":"yellow","text":"Your Hero Phase"},"declare":"If there is not a friendly Daemonic Simulacrum on the battlefield, pick a friendly Disciples of Tzeentch Wizard to cast this spell, then make a casting roll of 2D6.","effect":"Set up a Daemonic Simulacrum wholly within 12\" of the caster, visible to them and more than 9\" from all enemy units.","castingValue":7,"keywords":["Summon","Spell"]}} />
 ### Lore of Fate
-
 #### Infernal Gateway
 
 <WarscrollAbility ability={{"name":"Infernal Gateway","header":{"icon":"offensive","color":"yellow","text":"Your Hero Phase"},"declare":"Pick a friendly Disciples of Tzeentch Wizard to cast this spell, pick a visible enemy unit within 12\" of them to be the target, then make a casting roll of 2D6.","effect":"Roll either 4 dice or a number of dice equal to the number of destiny dice you have left, whichever is greater. For each 4+, inflict 1 mortal damage on the target.","castingValue":6,"keywords":["Spell"]}} />
-
 #### Glimpse The Future
 
 <WarscrollAbility ability={{"name":"Glimpse The Future","header":{"icon":"special","color":"yellow","text":"Your Hero Phase"},"declare":"Pick a friendly Disciples of Tzeentch Wizard to cast this spell, then make a casting roll of 2D6.","effect":"Set aside any destiny dice that have a value of 6, and roll all of your other destiny dice again. If you have no destiny dice, roll a dice and add it to your destiny dice.","castingValue":7,"keywords":["Spell","Unlimited"]}} />
-
 #### Shield of Fate
 
 <WarscrollAbility ability={{"name":"Shield of Fate","header":{"icon":"defensive","color":"yellow","text":"Your Hero Phase"},"declare":"Pick a friendly Disciples of Tzeentch Wizard to cast this spell, pick a visible friendly Disciples of Tzeentch unit wholly within 18\" of them to be the target, then make a casting roll of 2D6.’","effect":"The target has Ward (5+) until the start of your next turn. In addition, if you have 4 or more destiny dice left, subtract 1 from hit rolls for attacks that target that unit until the start of your next turn.","castingValue":7,"keywords":["Spell"]}} />
 
 ## Artefacts of Power
-
 ### Ambition's End
 
 <WarscrollAbility ability={{"name":"Ambition's End","header":{"icon":"special","color":"red","text":"Once Per Battle, Any Combat Phase"},"declare":"Pick an enemy **Wizard** in combat with this unit to be the target.","effect":"Inflict D3 mortal damage on the target. In addition, subtract 1 from casting rolls for the target for the rest of the battle."}} />
-
 ### Nine-eyed Tome
 
 <WarscrollAbility ability={{"name":"Nine-eyed Tome","header":{"icon":"special","color":"yellow","text":"Passive"},"effect":"Add 1 to casting rolls and banishment rolls for this unit."}} />
-
 ### Wyrdflame Blade
 
 <WarscrollAbility ability={{"name":"Wyrdflame Blade","header":{"icon":"special","color":"red","text":"Passive"},"effect":"If any damage points are allocated to an enemy unit by this unit’s combat attacks, that enemy unit has the Burning keyword."}} />
 
 ## Heroic Traits
-
 ### Cult Demagogue
 
 <WarscrollAbility ability={{"name":"Cult Demagogue","header":{"icon":"special","color":"yellow","text":"Passive"},"effect":"If each dice in a casting roll for this unit has the same value and the **spell** is not miscast, add 3 to the casting roll."}} />
-
 ### Illusionist
 
 <WarscrollAbility ability={{"name":"Illusionist","header":{"icon":"defensive","color":"green","text":"Passive"},"effect":"Subtract 1 from hit rolls for attacks that target friendly units while they are wholly within this unit’s combat range."}} />
-
 ### Nexus of Fate
 
 <WarscrollAbility ability={{"name":"Nexus of Fate","header":{"icon":"special","color":"yellow","text":"Your Hero Phase"},"effect":"Roll a dice. You must replace 1 of your destiny dice with that roll."}} />

@@ -6,101 +6,79 @@ import Warscroll from '@site/src/components/Warscroll';
 import WarscrollAbility from '@site/src/components/WarscrollAbility';
 
 ## Battle Traits
-
 ### Deep Thinkers
 
 <WarscrollAbility ability={{"name":"Deep Thinkers","header":{"icon":"special","color":"black","text":"Start of Battle Round"},"effect":"You can only use this ability if you have not used any **Facet of War** abilities this battle round.\n\nAdd 1 to casting rolls for friendly **Scinari** units for the rest of the battle round.","keywords":["Facet of War"]}} />
-
 ### Enduring As Rock
 
 <WarscrollAbility ability={{"name":"Enduring As Rock","header":{"icon":"defensive","color":"black","text":"Start of Battle Round"},"effect":"You can only use this ability if you have not used any **Facet of War** abilities this battle round.\n\nSubtract 1 from the Rend characteristic of weapons used for attacks that target friendly **Alarith** units for the rest of the battle round.","keywords":["Facet of War"]}} />
-
 ### Lightning Reactions
 
 <WarscrollAbility ability={{"name":"Lightning Reactions","header":{"icon":"offensive","color":"red","text":"Passive"},"effect":"When players are alternating picking units to use a **Fight** ability, when it is your turn to pick a unit, you can pick 2 Lumineth Realm-lords units instead of 1. Resolve the second **Fight** ability immediately after the first."}} />
-
 ### Move Like the Wind
 
 <WarscrollAbility ability={{"name":"Move Like the Wind","header":{"icon":"shooting","color":"teal","text":"Your Shooting Phase"},"declare":"You can only use this ability if you have not used any **Facet of War** abilities this battle round. Pick up to 3 friendly **Hurakan** units that are not in combat to be the targets.","effect":"Each target can **move** a distance up to its **Move** characteristic. It cannot **move** into combat during any part of that **move**, and it cannot use **Shoot** abilities for the rest of the turn.","keywords":["Facet of War","Move"]}} />
-
 ### Power of Hysh
 
 <WarscrollAbility ability={{"name":"Power of Hysh","header":{"icon":"offensive","color":"black","text":"Start of Battle Round"},"declare":"You can only use this ability if you have not used any **Facet of War** abilities this battle round. Pick a friendly **Vanari** unit to be the target.","effect":"The target’s attacks score critical hits on unmodified hit rolls of 5+ for the rest of the battle round.","keywords":["Facet of War"]}} />
-
 ### Shining Company
 
 <WarscrollAbility ability={{"name":"Shining Company","header":{"icon":"defensive","color":"black","text":"Start of Battle Round"},"effect":"You can only use this ability if you have not used any **Facet of War** abilities this battle round.\n\nFor the rest of the battle round, subtract 1 from hit rolls for attacks that target friendly **Vanari** units that have not charged this turn and that have not been picked as the target of the ‘Power of Hysh’ ability this battle round.","keywords":["Facet of War"]}} />
 
 ## Battle Formations
-
-#### Alarith Fortitude
+### Alarith Temple
 
 <WarscrollAbility ability={{"name":"Alarith Fortitude","header":{"icon":"special","color":"black","text":"Passive"},"declare":null,"effect":"You can use the ‘Enduring as Rock’ ability in addition to the other Facet of War ability used during the battle round."}} />
-
-#### Grace of the Hurakan
+### Hurakan Temple
 
 <WarscrollAbility ability={{"name":"Grace of the Hurakan","header":{"icon":"special","color":"teal","text":"Passive"},"declare":null,"effect":"You can use the ‘Move Like the Wind’ ability in addition to the other Facet of War ability used during the battle round."}} />
-
-#### Lore of the Scinari
+### Scinari Council
 
 <WarscrollAbility ability={{"name":"Lore of the Scinari","header":{"icon":"special","color":"black","text":"Passive"},"declare":null,"effect":"You can use the ‘Deep Thinkers’ ability in addition to the other Facet of War ability used during the battle round."}} />
-
-#### Vanari Brilliance
+### Vanari Battlehost
 
 <WarscrollAbility ability={{"name":"Vanari Brilliance","header":{"icon":"special","color":"black","text":"Passive"},"declare":null,"effect":"You can use the ‘Power of Hysh’ ability in addition to the other Facet of War ability used during the battle round."}} />
 
 ## Arcana and Incantations
 ### Lore of Hysh
-
 #### Overwhelming Heat
 
 <WarscrollAbility ability={{"name":"Overwhelming Heat","header":{"icon":"special","color":"yellow","text":"Your Hero Phase"},"declare":"Pick a friendly Lumineth Realm‑lords Wizard to cast this spell, pick a visible enemy unit within 18\" of them to be the target, then make a casting roll of 2D6.","effect":"Halve the target’s Move characteristic until the start of your next turn, then roll a dice. If the roll equals or exceeds the target’s Save characteristic, inflict D3 mortal damage on it.","castingValue":7,"keywords":["Spell"]}} />
-
 #### Protection of Hysh
 
 <WarscrollAbility ability={{"name":"Protection of Hysh","header":{"icon":"defensive","color":"yellow","text":"Your Hero Phase"},"declare":"Pick a friendly Lumineth Realm‑lords Wizard to cast this spell, then make a casting roll of 2D6.","effect":"Until the start of your next turn, friendly units have Ward (5+) while they are wholly within 12\" of the caster.","castingValue":8,"keywords":["Spell"]}} />
-
 #### Speed of Hysh
 
 <WarscrollAbility ability={{"name":"Speed of Hysh","header":{"icon":"movement","color":"yellow","text":"Your Hero Phase"},"declare":"Pick a friendly Lumineth Realm‑lords Wizard to cast this spell, pick a visible friendly Lumineth Realm‑lords unit wholly within 18\" of them to be the target, then make a casting roll of 2D6.","effect":"Add 4\" to the target’s Move characteristic until the start of your next turn.","castingValue":5,"keywords":["Spell","Unlimited"]}} />
 ### Manifestations of Hysh
-
 #### Summon Rune of Petrification
 
 <WarscrollAbility ability={{"name":"Summon Rune of Petrification","header":{"icon":"special","color":"yellow","text":"Your Hero Phase"},"declare":"If there is not a friendly Rune of Petrification on the battlefield, pick a friendly Lumineth Realm‑lords Wizard to cast this spell, then make a casting roll of 2D6.","effect":"Set up a Rune of Petrification wholly within 18\" of the caster and visible to them.","castingValue":7,"keywords":["Summon","Spell"]}} />
-
 #### Summon Hyshian Twinstones
 
 <WarscrollAbility ability={{"name":"Summon Hyshian Twinstones","header":{"icon":"special","color":"yellow","text":"Your Hero Phase"},"declare":"If there is not a friendly Hyshian Twinstones endless spell on the battlefield, pick a friendly Lumineth Realm‑lords Wizard to cast this spell, then make a casting roll of 2D6.","effect":"Set up a Hyshian Twinstones endless spell wholly within 6\" of the caster.","castingValue":5,"keywords":["Summon","Spell"]}} />
-
 #### Summon Sanctum of Amyntok
 
 <WarscrollAbility ability={{"name":"Summon Sanctum of Amyntok","header":{"icon":"special","color":"yellow","text":"Your Hero Phase"},"declare":"If there is not a friendly Sanctum of Amyntok on the battlefield, pick a friendly Lumineth Realm‑lords Wizard to cast this spell, pick a visible friendly Lumineth Realm‑lords Infantry Hero wholly within 12\" of them and more than 3\" from all other units and terrain features to be the target, then make a casting roll of 2D6.","effect":"Set up a Sanctum of Amyntok within the target’s combat range, visible to the caster and not in combat. A Sanctum of Amyntok has 3 parts that must be set up touching each other so that they form a ring with the target inside.","castingValue":4,"keywords":["Summon","Spell"]}} />
 
 ## Artefacts of Power
-
 ### Phoenix Stone
 
 <WarscrollAbility ability={{"name":"Phoenix Stone","header":{"icon":"defensive","color":"green","text":"Passive"},"effect":"If this unit would be destroyed, before removing it from play, roll a dice. On a 3+, this unit is not destroyed and any remaining damage points inflicted on it have no effect. Then, Heal (1) this unit. This unit cannot use this ability again for the rest of the battle."}} />
-
 ### Silver Wand
 
 <WarscrollAbility ability={{"name":"Silver Wand","header":{"icon":"special","color":"yellow","text":"Passive"},"effect":"If this unit is not a **Wizard**, it has **Wizard** (1). Otherwise, add 1 to this unit’s power level."}} />
-
 ### Waystone
 
 <WarscrollAbility ability={{"name":"Waystone","header":{"icon":"movement","color":"gray","text":"Once Per Battle, Your Movement Phase"},"effect":"Remove this unit from the battlefield and set it up again on the battlefield more than 9\" from all enemy units.","keywords":["Core"]}} />
 
 ## Heroic Traits
-
 ### Masterful Tactician
 
 <WarscrollAbility ability={{"name":"Masterful Tactician","header":{"icon":"special","color":"gray","text":"Reaction: You declared the ‘Redeploy’ command for a friendly Lumineth Realm‑lords unit wholly within 12\" of this unit"},"effect":"If you roll a 1-3 when determining the distance that unit can **move**, you can use a value of 4 instead."}} />
-
 ### Paragon of Hysh
 
 <WarscrollAbility ability={{"name":"Paragon of Hysh","header":{"icon":"special","color":"black","text":"Once Per Battle, Reaction: You declared the ‘Charge’ ability or a Spell ability for this unit"},"effect":"You can re-roll the **charge** roll or casting roll for that ability."}} />
-
 ### Perfect Strike
 
 <WarscrollAbility ability={{"name":"Perfect Strike","header":{"icon":"offensive","color":"red","text":"Once Per Battle, Any Combat Phase"},"declare":"Pick an enemy unit in combat with this unit to be the target.","effect":"Inflict D3+3 mortal damage on the target.","keywords":["Core","Attack","Fight"]}} />

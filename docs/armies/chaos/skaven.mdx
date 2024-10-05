@@ -6,110 +6,86 @@ import Warscroll from '@site/src/components/Warscroll';
 import WarscrollAbility from '@site/src/components/WarscrollAbility';
 
 ## Battle Traits
-
 ### Always Three Clawsteps Ahead
 
 <WarscrollAbility ability={{"name":"Always Three Clawsteps Ahead","header":{"icon":"movement","color":"yellow","text":"Once Per Turn (Army), Enemy Hero Phase"},"declare":"Pick a friendly non-**Monster** Skaven unit that is not in combat and was not set up this turn to use this ability.","effect":"That unit can use the 'Normal **Move**' ability as if it were your movement phase."}} />
-
 ### Gnawhole Ambush
 
 <WarscrollAbility ability={{"name":"Gnawhole Ambush","header":{"icon":"movement","color":"gray","text":"Your Movement Phase"},"declare":"Pick a friendly Skaven unit that is in the tunnels below to use this ability.","effect":"Set up that unit wholly within 6\" of a friendly Gnawhole and more than 9\" from all enemy units."}} />
-
 ### Splinters of the Vermindoom
 
 <WarscrollAbility ability={{"name":"Splinters of the Vermindoom","header":{"icon":"special","color":"black","text":"Once Per Battle Round (Army), Start of Battle Round"},"declare":"You can use this ability if there are fewer than 3 friendly Gnawholes on the battlefield.","effect":"Set up a Gnawhole on the battlefield more than 9\" from all enemy units, more than 1\" from all friendly units and more than 3\" from all objectives and other terrain features."}} />
-
 ### The Lurking Vermintide
 
 <WarscrollAbility ability={{"name":"The Lurking Vermintide","header":{"icon":"special","color":"black","text":"Deployment Phase"},"declare":"Pick a friendly Skaven unit that has not been deployed.","effect":"Set up that unit in reserve in the tunnels below. It has now been deployed.","keywords":["Deploy"]}} />
-
 ### Too Quick To Hit-hit
 
 <WarscrollAbility ability={{"name":"Too Quick To Hit-hit","header":{"icon":"defensive","color":"gray","text":"Passive"},"effect":"No mortal damage is inflicted on friendly Skaven **Infantry** and **Cavalry** units by **Retreat** abilities."}} />
 
 ## Battle Formations
-
-#### Claw-picked
+### Claw-horde
 
 <WarscrollAbility ability={{"name":"Claw-picked","header":{"icon":"offensive","color":"red","text":"Once Per Turn (Army), Your Combat Phase"},"declare":"Pick up to 3 friendly Verminus units that charged this turn to be the targets.","effect":"Add 1 to the Rend characteristic of the targets’ melee weapons for the rest of the turn."}} />
-
-#### Prized Creations
+### Fleshmeld Menagerie
 
 <WarscrollAbility ability={{"name":"Prized Creations","header":{"icon":"special","color":"yellow","text":"Once Per Turn (Army), Your Hero Phase"},"declare":"Pick up to 3 friendly non-Hero Moulder units to be the targets.","effect":"Roll a dice for each target and apply the corresponding effect:\n\n1-2 - Self-destructive Fury\nInflict D3 mortal damage on the target.\n\n3-4 - Rabid Infusion\nAdd 1 to the Attacks characteristic of the target’s melee weapons until the start of your next turn.\n\n5-6 - Blinded by Frenzy\nIn addition to the effect of ‘Rabid Infusion’, the target has Ward (5+) until the start of your next turn."}} />
-
-#### Corrupted Earth
+### Virulent Procession
 
 <WarscrollAbility ability={{"name":"Corrupted Earth","header":{"icon":"offensive","color":"eggplant","text":"Once Per Turn (Army), End of Any Turn"},"declare":"Pick up to 3 friendly Pestilens units to be the targets.","effect":"For each target:\n\n• Make a pile-in move.\n• Then, pick an enemy unit in combat with the target and roll a D3. On a 2+, inflict an amount of mortal damage on that enemy unit equal to the roll."}} />
-
-#### Skryre Prototypes
+### Warpcog Convocation
 
 <WarscrollAbility ability={{"name":"Skryre Prototypes","header":{"icon":"shooting","color":"teal","text":"Once Per Turn (Army), Your Shooting Phase"},"declare":"Pick up to 3 friendly Skryre units to be the targets.","effect":"Roll a dice for each target and apply the corresponding effect:\n\n1 - Kaboom!\nInflict D3 mortal damage on the target.\n\n2-5 - More Power!\nAdd 1 to wound rolls for the target’s shooting attacks for the rest of the turn.\n\n6 - More-more Power!\nIn addition to the effect of ‘More Power!’, add 1 to the Rend characteristic of the target’s ranged weapons for the rest of the turn."}} />
 
 ## Arcana and Incantations
 ### Lore of Ruin
-
 #### Skitterleap
 
 <WarscrollAbility ability={{"name":"Skitterleap","header":{"icon":"movement","color":"yellow","text":"Your Hero Phase"},"declare":"Pick a friendly Skaven Wizard to cast this spell, pick a visible friendly Skaven Hero wholly within 13\" of them to be the target, then make a casting roll of 2D6.","effect":"Remove the target from the battlefield and set it up again on the battlefield more than 9\" from all enemy units.","castingValue":6,"keywords":["Spell","Unlimited"]}} />
-
 #### Warpgale
 
 <WarscrollAbility ability={{"name":"Warpgale","header":{"icon":"defensive","color":"yellow","text":"Your Hero Phase"},"declare":"Pick a friendly Skaven Wizard to cast this spell, pick a visible enemy unit within 18\" of them to be the target, then make a casting roll of 2D6.","effect":"The target has Strike-last for the rest of the turn.","castingValue":6,"keywords":["Spell"]}} />
-
 #### Wither
 
 <WarscrollAbility ability={{"name":"Wither","header":{"icon":"offensive","color":"yellow","text":"Your Hero Phase"},"declare":"Pick a friendly Skaven Wizard to cast this spell, pick a visible enemy unit within 13\" of them to be the target, then make a casting roll of 2D6.","effect":"Inflict D3 mortal damage on the target.","castingValue":6,"keywords":["Spell"]}} />
 ### Noxious Prayers
-
 #### Rabid-tough
 
 <WarscrollAbility ability={{"name":"Rabid-tough","header":{"icon":"defensive","color":"yellow","text":"Your Hero Phase"},"declare":"Pick a friendly Skaven Priest to chant this prayer, pick a visible friendly Skaven Infantry unit wholly within 13\" of them to be the target, then make a chanting roll of D6.","effect":"Subtract 1 from wound rolls for attacks that target that unit until the start of your next turn. In addition, if the chanting roll was 8+, add 1 to save rolls for the target until the start of your next turn.","castingValue":5,"keywords":["Prayer"]}} />
-
 #### Filth-crust
 
 <WarscrollAbility ability={{"name":"Filth-crust","header":{"icon":"offensive","color":"yellow","text":"Your Hero Phase"},"declare":"Pick a friendly Skaven Priest to chant this prayer, pick a visible friendly Skaven Infantry unit wholly within 13\" of them to be the target, then make a chanting roll of D6.","effect":"Add 1 to wound rolls for the target’s combat attacks until the start of your next turn. In addition, if the chanting roll was 8+, the target’s melee weapons have Crit (Mortal) until the start of your next turn.","castingValue":4,"keywords":["Prayer","Unlimited"]}} />
-
 #### Bile-torrent
 
 <WarscrollAbility ability={{"name":"Bile-torrent","header":{"icon":"offensive","color":"yellow","text":"Your Hero Phase"},"declare":"Pick a friendly Skaven Priest to chant this prayer, pick a visible enemy unit within 13\" of them to be the target, then make a chanting roll of D6.","effect":"Roll a number of dice equal to the number of models in the target unit. For each 5+, inflict 1 mortal damage on the target. If the chanting roll was 8+, inflict 1 mortal damage on the target for each 4+ instead.","castingValue":4,"keywords":["Prayer"]}} />
 ### Manifestions of Doom
-
 #### Summon Vermintide
 
 <WarscrollAbility ability={{"name":"Summon Vermintide","header":{"icon":"special","color":"yellow","text":"Your Hero Phase"},"declare":"If there is not a friendly Vermintide on the battlefield, pick a friendly Skaven Wizard to cast this spell, then make a casting roll of 2D6.","effect":"Set up a Vermintide wholly within 13\" of the caster, visible to them and more than 9\" from all enemy units.","castingValue":7,"keywords":["Summon","Spell"]}} />
-
 #### Summon Warp Lightning Vortex
 
 <WarscrollAbility ability={{"name":"Summon Warp Lightning Vortex","header":{"icon":"special","color":"yellow","text":"Your Hero Phase"},"declare":"If there is not a friendly Warp Lightning Vortex on the battlefield, pick a friendly Skaven Wizard to cast this spell, then make a casting roll of 2D6.","effect":"Set up the first part of the Warp Lightning Vortex within 18\" of the caster and visible to them, then set up the second and third parts exactly 7\" from the first part and exactly 7\" from each other so that they form a triangle.","castingValue":7,"keywords":["Summon","Spell"]}} />
-
 #### Summon Bell of Doom
 
 <WarscrollAbility ability={{"name":"Summon Bell of Doom","header":{"icon":"special","color":"yellow","text":"Your Hero Phase"},"declare":"If there is not a friendly Bell of Doom on the battlefield, pick a friendly Skaven Wizard to cast this spell, then make a casting roll of 2D6.","effect":"Set up a Bell of Doom wholly within 13\" of the caster, visible to them and more than 9\" from all enemy units.","castingValue":7,"keywords":["Summon","Spell"]}} />
 
 ## Artefacts of Power
-
 ### Foulhide
 
 <WarscrollAbility ability={{"name":"Foulhide","header":{"icon":"defensive","color":"eggplant","text":"End of Any Turn"},"effect":"Heal (D3) this unit."}} />
-
 ### Skavenbrew
 
 <WarscrollAbility ability={{"name":"Skavenbrew","header":{"icon":"offensive","color":"red","text":"Once Per Battle, Any Combat Phase"},"declare":"Pick a friendly non-**Hero** Skaven **Infantry** unit wholly within 13\" of this unit to be the target.","effect":"Inflict D3 mortal damage on the target. Then, add 1 to the Attacks characteristic of the target’s melee weapons for the rest of the turn."}} />
-
 ### Warpstone Charm
 
 <WarscrollAbility ability={{"name":"Warpstone Charm","header":{"icon":"defensive","color":"red","text":"Any Combat Phase"},"declare":"Pick an enemy unit in combat with this unit to be the target.","effect":"Roll a dice. On a 3+, subtract 1 from save rolls for the target for the rest of the turn."}} />
 
 ## Heroic Traits
-
 ### Scurry Away
 
 <WarscrollAbility ability={{"name":"Scurry Away","header":{"icon":"movement","color":"red","text":"Any Combat Phase"},"effect":"If this unit is in combat, roll a dice. On a 3+, this unit can immediately use the ‘**Retreat**’ ability as if it were your movement phase."}} />
-
 ### Short-tempered
 
 <WarscrollAbility ability={{"name":"Short-tempered","header":{"icon":"movement","color":"black","text":"Passive"},"effect":"Add 1 to **run** rolls and **charge** rolls for friendly Skaven units while they are wholly within 13\" of this unit."}} />
-
 ### Skilled Manipulator
 
 <WarscrollAbility ability={{"name":"Skilled Manipulator","header":{"icon":"defensive","color":"green","text":"Passive"},"effect":"While this unit is within the combat range of a friendly non-**Hero** Skaven **Infantry** unit:\n\n• This unit has Ward (4+).\n• Each time you make a successful ward roll for this unit, allocate 1 damage point to a friendly non-**Hero** Skaven **Infantry** unit within this unit’s combat range after the damage sequence for this unit has been resolved (ward rolls cannot be made for those damage points)."}} />

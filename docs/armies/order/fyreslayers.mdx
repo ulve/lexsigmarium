@@ -6,97 +6,76 @@ import Warscroll from '@site/src/components/Warscroll';
 import WarscrollAbility from '@site/src/components/WarscrollAbility';
 
 ## Battle Traits
-
 ### Rune of Farsight
 
 <WarscrollAbility ability={{"name":"Rune of Farsight","header":{"icon":"shooting","color":"teal","text":"Once Per Battle (Army), Your Shooting Phase"},"declare":"You can only use this ability if you have not used any **Ur-gold Rune** abilities this battle round.\n\nPick any number of enemy units within 10\" of any visible friendly Fyreslayers units to be targets.","effect":"Roll a D3 for each target. On a 2+, inflict an amount of mortal damage on the target equal to the roll.","keywords":["Ur-gold Rune"]}} />
-
 ### Rune of Fiery Determination
 
 <WarscrollAbility ability={{"name":"Rune of Fiery Determination","header":{"icon":"defensive","color":"yellow","text":"Once Per Battle (Army), Any Hero Phase"},"effect":"You can only use this ability if you have not used any **Ur-gold Rune** abilities this battle round.\n\nFriendly Fyreslayers units have Ward (5+) for the rest of the battle round.","keywords":["Ur-gold Rune"]}} />
-
 ### Rune of Fury
 
 <WarscrollAbility ability={{"name":"Rune of Fury","header":{"icon":"offensive","color":"black","text":"Once Per Battle (Army), Start of Any Turn"},"effect":"You can only use this ability if you have not used any **Ur-gold Rune** abilities this battle round.\n\nFor the rest of the battle round, friendly Fyreslayers units have Strike-first while they are in combat with an enemy unit that charged in the same turn.","keywords":["Ur-gold Rune"]}} />
-
 ### Rune of Relentless Zeal
 
 <WarscrollAbility ability={{"name":"Rune of Relentless Zeal","header":{"icon":"movement","color":"gray","text":"Once Per Battle (Army), Your Movement Phase"},"effect":"You can only use this ability if you have not used any **Ur-gold Rune** abilities this battle round.\n\nFor the rest of the battle round, friendly Fyreslayers units can use **Charge** abilities even if they used a **Run** ability in the same turn.","keywords":["Ur-gold Rune"]}} />
-
 ### Rune of Searing Heat
 
 <WarscrollAbility ability={{"name":"Rune of Searing Heat","header":{"icon":"offensive","color":"red","text":"Once Per Battle (Army), Any Combat Phase"},"effect":"You can only use this ability if you have not used any **Ur-gold Rune** abilities this battle round.\n\nMelee weapons used by friendly Fyreslayers units have Crit (Mortal) for the rest of the battle round.","keywords":["Ur-gold Rune"]}} />
 
 ## Battle Formations
-
-#### Bulwark of Molten Stone
+### Forge Brethren
 
 <WarscrollAbility ability={{"name":"Bulwark of Molten Stone","header":{"icon":"defensive","color":"green","text":"Passive"},"declare":null,"effect":"Add 1 to save rolls for friendly Infantry units while they are wholly within friendly territory."}} />
-
-#### Martial Pride and Stubborn Will
+### Lords of the Lodge
 
 <WarscrollAbility ability={{"name":"Martial Pride and Stubborn Will","header":{"icon":"control","color":"eggplant","text":"Passive"},"declare":null,"effect":"Add 3 to the control scores of friendly Fyreslayers Heroes. In addition, the control scores of Fyreslayers Heroes cannot be modified by enemy abilities."}} />
-
-#### Ancient Bloodlines
+### Scales of Vulcatrix
 
 <WarscrollAbility ability={{"name":"Ancient Bloodlines","header":{"icon":"defensive","color":"green","text":"Passive"},"declare":null,"effect":"Add 2 to the Health characteristic of friendly Magmadroth units."}} />
-
-#### Berserk Kindred
+### Warrior Kinband
 
 <WarscrollAbility ability={{"name":"Berserk Kindred","header":{"icon":"offensive","color":"red","text":"Passive"},"declare":null,"effect":"Add 1 to wound rolls for combat attacks made by friendly Fyreslayers Infantry units that charged in the same turn."}} />
 
 ## Arcana and Incantations
 ### Magmic Invocations
-
 #### Summon Runic Fyrewall
 
 <WarscrollAbility ability={{"name":"Summon Runic Fyrewall","header":{"icon":"special","color":"yellow","text":"Your Hero Phase"},"declare":"If there is not a friendly Runic Fyrewall on the battlefield, pick a friendly Fyreslayers Priest to chant this prayer, then make a chanting roll of D6.","effect":"Set up a Runic Fyrewall wholly within 12\" of the chanter and visible to them.","castingValue":4,"keywords":["Summon","Prayer"]}} />
-
 #### Summon Molten Infernoth
 
 <WarscrollAbility ability={{"name":"Summon Molten Infernoth","header":{"icon":"special","color":"yellow","text":"Your Hero Phase"},"declare":"If there is not a friendly Molten Infernoth on the battlefield, pick a friendly Fyreslayers Priest to chant this prayer, then make a chanting roll of D6.","effect":"Set up a Molten Infernoth wholly within 12\" of the chanter, visible to them and more than 9\" from all enemy units.","castingValue":6,"keywords":["Summon","Prayer"]}} />
-
 #### Summon Zharrgron Flame-spitter
 
 <WarscrollAbility ability={{"name":"Summon Zharrgron Flame-spitter","header":{"icon":"special","color":"yellow","text":"Your Hero Phase"},"declare":"If there is not a friendly Zharrgron Flame-spitter on the battlefield, pick a friendly Fyreslayers Priest to chant this prayer, then make a chanting roll of D6.","effect":"Set up a Zharrgron Flame-spitter wholly within 12\" of the chanter and visible to them.","castingValue":4,"keywords":["Summon","Prayer"]}} />
 ### Zharrgrim Blessings
-
 #### Prayer of Ash
 
 <WarscrollAbility ability={{"name":"Prayer of Ash","header":{"icon":"defensive","color":"yellow","text":"Your Hero Phase"},"declare":"Pick a friendly Fyreslayers Priest to chant this prayer, pick a visible friendly Fyreslayers unit wholly within 12\" of them to be the target, then make a chanting roll of D6.","effect":"Subtract 1 from wound rolls for attacks that target that friendly unit until the start of your next turn.\nIf the chanting roll was 8+, also subtract 1 from the Rend characteristic of attacks that target that friendly unit until the start of your next turn.","castingValue":4,"keywords":["Prayer","Unlimited"]}} />
-
 #### Wrath of Vulcatrix
 
 <WarscrollAbility ability={{"name":"Wrath of Vulcatrix","header":{"icon":"offensive","color":"yellow","text":"Your Hero Phase"},"declare":"Pick a friendly Fyreslayers Priest to chant this prayer, pick a visible friendly Magmadroth unit wholly within 12\" of them to be the target, then make a chanting roll of D6.","effect":"For the rest of the turn, the ‘Battle Damaged’ ability has no effect on the target and add 1 to the Attacks characteristic of the target’s Companion weapons.\nIf the chanting roll was 8+, add 1 to the Attacks characteristic of the target’s Companion weapons for every 4 damage points the target has.","castingValue":4,"keywords":["Prayer"]}} />
-
 #### Prayer of Grimnir's Fury
 
 <WarscrollAbility ability={{"name":"Prayer of Grimnir's Fury","header":{"icon":"offensive","color":"yellow","text":"Your Hero Phase"},"declare":"Pick a friendly Fyreslayers Priest to chant this prayer, pick a visible friendly Fyreslayers Infantry Hero wholly within 12\" of them to be the target, then make a chanting roll of D6.","effect":"The target can use 2 Fight abilities this turn. After the first is used, however, the target has Strike-last for the rest of the turn. \nIf the chanting roll was 8+, also add 1 to wound rolls for the target’s combat attacks for the rest of the turn.","castingValue":4,"keywords":["Prayer"]}} />
 
 ## Artefacts of Power
-
 ### Ash-cloud Rune
 
 <WarscrollAbility ability={{"name":"Ash-cloud Rune","header":{"icon":"shooting","color":"yellow","text":"Once Per Battle, Enemy Hero Phase"},"effect":"Until the start of your next turn, friendly **Infantry** units cannot be targeted by shooting attacks while they are wholly within 12\" of this unit."}} />
-
 ### Draught of the Finest Magmalt
 
 <WarscrollAbility ability={{"name":"Draught of the Finest Magmalt","header":{"icon":"offensive","color":"red","text":"Once Per Battle, Any Combat Phase"},"effect":"Add 3 to the Attacks characteristic of this unit’s melee weapons for the rest of the turn."}} />
-
 ### Droth-helm
 
 <WarscrollAbility ability={{"name":"Droth-helm","header":{"icon":"offensive","color":"red","text":"Passive"},"effect":"Add 1 to hit rolls for Companion weapons used by friendly Fyreslayers  units while they are wholly within 12\" of this unit."}} />
 
 ## Heroic Traits
-
 ### Ash-beard
 
 <WarscrollAbility ability={{"name":"Ash-beard","header":{"icon":"special","color":"yellow","text":"Passive"},"effect":"If this unit is not a **Priest**, they have **Priest** (1). If this unit was already a **Priest**, add 1 to this unit’s chanting rolls."}} />
-
 ### Blood of the Berzerker
 
 <WarscrollAbility ability={{"name":"Blood of the Berzerker","header":{"icon":"movement","color":"orange","text":"Passive"},"effect":"Add 1 to **charge** rolls for friendly Fyreslayers units while they are wholly within 12\" of this unit."}} />
-
 ### Fiercely Competitive
 
 <WarscrollAbility ability={{"name":"Fiercely Competitive","header":{"icon":"offensive","color":"red","text":"Passive"},"effect":"If this unit is in combat with an enemy unit that has Strike-first, this unit has Strike-first. If this unit is in combat with an enemy unit that uses the ‘All-out **Attack**’ command, add 1 to hit rolls for this unit’s attacks for the rest of the turn."}} />

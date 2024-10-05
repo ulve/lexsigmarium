@@ -6,101 +6,79 @@ import Warscroll from '@site/src/components/Warscroll';
 import WarscrollAbility from '@site/src/components/WarscrollAbility';
 
 ## Battle Traits
-
 ### Brass Skull Meteor
 
 <WarscrollAbility ability={{"name":"Brass Skull Meteor","header":{"icon":"offensive","color":"yellow","text":"Any Hero Phase"},"declare":"You can only use this ability if you have not used any **Blood Tithe** abilities this turn. Spend 4 **blood tithe** points and pick an enemy unit that is visible to a friendly Blades of **Khorne** **Hero** to be the target.","effect":"Roll 8 dice. For each 3+, inflict 1 mortal damage on the target.","keywords":["Blood Tithe"]}} />
-
 ### Heads Must Roll
 
 <WarscrollAbility ability={{"name":"Heads Must Roll","header":{"icon":"offensive","color":"red","text":"Any Combat Phase"},"declare":"You can only use this ability if you have not used any **Blood Tithe** abilities this turn. Spend 6 **blood tithe** points.","effect":"For the rest of the turn, add 1 to the Rend characteristic of melee weapons used by friendly Blades of **Khorne** units.","keywords":["Blood Tithe"]}} />
-
 ### Murderlust
 
 <WarscrollAbility ability={{"name":"Murderlust","header":{"icon":"movement","color":"gray","text":"Any Movement Phase"},"declare":"You can only use this ability if you have not used any **Blood Tithe** abilities this turn. Spend 1 **blood tithe** point and pick a friendly Blades of **Khorne** unit that is not in combat to be the target.","effect":"The target can **move** 3\". It can **move** into combat.","keywords":["Blood Tithe","Move"]}} />
-
 ### Slaughter Triumphant
 
 <WarscrollAbility ability={{"name":"Slaughter Triumphant","header":{"icon":"special","color":"gray","text":"Any Movement Phase"},"declare":"You can only use this ability if you have not used any **Blood Tithe** abilities this turn. Spend 8 **blood tithe** points.","effect":"Pick 1 of the following effects:\n\n• Add 1 to the Attacks characteristic of melee weapons used by friendly Blades of **Khorne** units for the rest of the battle.\n• Pick a friendly non-**Unique** **Bloodthirster** unit that has been destroyed. Set up an identical replacement unit on the battlefield more than 9\" from all enemy units.","keywords":["Blood Tithe"]}} />
-
 ### Spelleater Curse
 
 <WarscrollAbility ability={{"name":"Spelleater Curse","header":{"icon":"special","color":"yellow","text":"Reaction: Opponent declared a Spell ability"},"declare":"You can only use this ability if you have not used any **Blood Tithe** abilities this turn. Spend 2 **blood tithe** points.","effect":"That **spell** is unbound.","keywords":["Blood Tithe"]}} />
-
 ### The Blood Tithe
 
 <WarscrollAbility ability={{"name":"The Blood Tithe","header":{"icon":"special","color":"black","text":"Passive"},"effect":"You start the battle with 0 **blood tithe** points. Earn 1 **blood tithe** point each time a unit (friendly or enemy) is destroyed."}} />
 
 ## Battle Formations
-
-#### Tireless Conquerors
+### Bloodbound Warhorde
 
 <WarscrollAbility ability={{"name":"Tireless Conquerors","header":{"icon":"offensive","color":"red","text":"Passive"},"declare":null,"effect":"Add 1 to hit rolls for combat attacks made by friendly Bloodbound units that target an enemy unit that is contesting an objective you do not control."}} />
-
-#### Obliterating Charge
+### Brass Stampede
 
 <WarscrollAbility ability={{"name":"Obliterating Charge","header":{"icon":"offensive","color":"red","text":"Passive"},"declare":null,"effect":"If the unmodified charge roll for a friendly Blades of Khorne Cavalry unit is 8+, it has Strike-first for the rest of the turn."}} />
-
-#### Butchers of Nations
+### Khornate Legion
 
 <WarscrollAbility ability={{"name":"Butchers of Nations","header":{"icon":"offensive","color":"black","text":"Once Per Turn (Army), Reaction: You declared a Fight ability for a friendly Blades of Khorne Daemon unit"},"declare":null,"effect":"Pick a friendly Bloodbound unit that has not used a Fight ability this turn and is within 12\" of the unit using this ability to be the target. The target can be picked to use a Fight ability immediately after the Fight ability used by this unit has been resolved."}} />
-
-#### Strength Through Slaughter
+### Murder Host
 
 <WarscrollAbility ability={{"name":"Strength Through Slaughter","header":{"icon":"defensive","color":"green","text":"Passive"},"declare":null,"effect":"If a friendly non-Monster Blades of Khorne Daemon uses a Fight ability, it has Ward (5+) for the rest of the turn."}} />
 
 ## Arcana and Incantations
 ### Judgements of Khorne
-
 #### Summon Hexgorger Skulls
 
 <WarscrollAbility ability={{"name":"Summon Hexgorger Skulls","header":{"icon":"special","color":"yellow","text":"Your Hero Phase"},"declare":"If there is not a friendly Hexgorger Skulls invocation on the battlefield, pick a friendly Blades of Khorne Priest to chant this prayer, then make a chanting roll of D6.","effect":"Set up a Hexgorger Skulls invocation wholly within 12\" of the chanter, visible to them and more than 9\" from all enemy units. A Hexgorger Skulls invocation has 2 parts that must be set up within 8\" of each other.","castingValue":4,"keywords":["Summon","Prayer"]}} />
-
 #### Summon Wrath-axe
 
 <WarscrollAbility ability={{"name":"Summon Wrath-axe","header":{"icon":"special","color":"yellow","text":"Your Hero Phase"},"declare":"If there is not a friendly Wrathaxe on the battlefield, pick a friendly Blades of Khorne Priest to chant this prayer, then make a chanting roll of D6.","effect":"Set up a Wrath-axe wholly within 12\" of the chanter, visible to them and more than 9\" from all enemy units.","castingValue":4,"keywords":["Summon","Prayer"]}} />
-
 #### Summon Bleeding Icon
 
 <WarscrollAbility ability={{"name":"Summon Bleeding Icon","header":{"icon":"special","color":"yellow","text":"Your Hero Phase"},"declare":"If there is not a friendly Bleeding Icon on the battlefield, pick a friendly Blades of Khorne Priest to chant this prayer, then make a chanting roll of D6.","effect":"Set up a Bleeding Icon wholly within 12\" of the chanter and visible to them.","castingValue":4,"keywords":["Summon","Prayer"]}} />
 ### Blood Blesssings of Khorne
-
 #### Unholy Flames
 
 <WarscrollAbility ability={{"name":"Unholy Flames","header":{"icon":"offensive","color":"yellow","text":"Your Hero Phase"},"declare":"Pick a friendly Blades of Khorne Priest to chant this prayer, pick a visible friendly Blades of Khorne unit wholly within 12\" of them to be the target, then make a chanting roll of D6.","effect":"Add 1 to the Rend characteristic of the target’s melee weapons for the rest of the turn. In addition, if the chanting roll was 10+, add 1 to wound rolls for the target’s attacks for the rest of the turn.","castingValue":5,"keywords":["Prayer","Unlimited"]}} />
-
 #### Blood Boil
 
 <WarscrollAbility ability={{"name":"Blood Boil","header":{"icon":"offensive","color":"yellow","text":"Your Hero Phase"},"declare":"Pick a friendly Blades of Khorne Priest to chant this prayer, pick a visible enemy unit within 18\" of them to be the target, then make a chanting roll of D6.","effect":"Roll a number of dice equal to the number of models in the target unit. For each 5+, inflict 1 mortal damage on the target. In addition, if the chanting roll was 8+, subtract 1 from wound rolls for the target until the start of your next turn.","castingValue":4,"keywords":["Prayer"]}} />
-
 #### Witchbane Curse
 
 <WarscrollAbility ability={{"name":"Witchbane Curse","header":{"icon":"special","color":"yellow","text":"Your Hero Phase"},"declare":"Pick a friendly Blades of Khorne Priest to chant this prayer, pick a visible enemy Wizard within 18\" of them to be the target, then make a chanting roll of D6.","effect":"Subtract 1 from the target’s power level, to a minimum of 0, until the end of your next turn. In addition, if the chanting roll was 8+, inflict 3 mortal damage on the target.","castingValue":4,"keywords":["Prayer"]}} />
 
 ## Artefacts of Power
-
 ### Ar'gath, The King of Blades
 
 <WarscrollAbility ability={{"name":"Ar'gath, The King of Blades","header":{"icon":"offensive","color":"red","text":"Any Combat Phase"},"declare":"Pick an enemy **Hero** in combat with this unit to be the target.","effect":"Ward rolls cannot be made for the target for the rest of the turn."}} />
-
 ### Collar of Contempt
 
 <WarscrollAbility ability={{"name":"Collar of Contempt","header":{"icon":"special","color":"yellow","text":"Passive"},"effect":"This unit can use **Unbind** abilities as if it had **Wizard** (1). Each time this unit unbinds a **spell**, inflict D3 mortal damage on the caster."}} />
-
 ### Halo of Blood
 
 <WarscrollAbility ability={{"name":"Halo of Blood","header":{"icon":"special","color":"black","text":"Passive"},"effect":"Ignore negative modifiers to this unit’s control score and to hit rolls and wound rolls for this unit’s attacks."}} />
 
 ## Heroic Traits
-
 ### Favoured of Khorne
 
 <WarscrollAbility ability={{"name":"Favoured of Khorne","header":{"icon":"special","color":"black","text":"Passive"},"effect":"You begin the battle with 1 **blood tithe** point."}} />
-
 ### Firebrand
 
 <WarscrollAbility ability={{"name":"Firebrand","header":{"icon":"special","color":"yellow","text":"Passive"},"effect":"If this unit is not a **Priest**, it has **Priest** (1). If this unit is already a **Priest**, add 1 to banishment rolls for it instead."}} />
-
 ### Relentless Hunger
 
 <WarscrollAbility ability={{"name":"Relentless Hunger","header":{"icon":"movement","color":"gray","text":"Passive"},"effect":"If this unit is picked to be the target of the ‘Murderlust’ ability, it can **move** 6\" instead of 3\"."}} />

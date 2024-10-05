@@ -6,85 +6,67 @@ import Warscroll from '@site/src/components/Warscroll';
 import WarscrollAbility from '@site/src/components/WarscrollAbility';
 
 ## Battle Traits
-
 ### Eye of the Gods
 
 <WarscrollAbility ability={{"name":"Eye of the Gods","header":{"icon":"special","color":"eggplant","text":"Once Per Turn, End of Any Turn"},"declare":"Each friendly Slaves to Darkness unit that destroyed an enemy unit this turn is a target. Friendly Beasts and non-**Hero** Monsters cannot be targeted by this ability.","effect":"Make a reward roll of D6 for each target and apply the corresponding effect below. You can re-roll the reward roll for the target, but if you do so and you roll a 1, inflict D3 mortal damage on the target.\n\n1 - Snubbed by the Gods\nNo effect.\n\n2 - Mutative Regrowth\nHeal (3) the target.\n\n3 - Unnatural Grace\nAdd 1 to hit rolls for the target’s combat attacks for the rest of the battle.\n\n4 - Lurid Aura\nThe target has Ward (6+) for the rest of the battle. If the target already has Ward (6+), it has Ward (5+) instead.\n\n5 - Slaughterer’s Might\nAdd 1 to the Rend characteristic of the target’s melee weapons for the rest of the battle.\n\n6 - **Champion** of Chaos\nPick any other effect.\n\nThe same effect can be applied multiple times to a unit, and more than 1 effect can apply to a unit at the same time."}} />
-
 ### Marks of Chaos
 
 <WarscrollAbility ability={{"name":"Marks of Chaos","header":{"icon":"special","color":"black","text":"Passive"},"effect":"Friendly Slaves to Darkness units have 1 of the following effects based on the Mark of Chaos keyword they have.\n\n• **Undivided**: Add 1 to wound rolls for the unit’s combat attacks that target a **Hero** or **Monster**.\n\n• **Khorne**: Add 1 to the Attacks characteristic of the unit’s melee weapons for the rest of the turn if the unit charged in the same turn.\n\n• **Tzeentch**: The unit has Ward (4+) against mortal damage inflicted by **Spell** abilities and abilities used by Manifestations.\n\n• **Nurgle**: Subtract 1 from wound rolls for combat attacks that target the unit.\n\n• **Slaanesh**: Add 1 to **run** rolls and **charge** rolls for the unit.\n\nIf a unit with a Mark of Chaos keyword is replaced, the replacement unit has the same Mark of Chaos keyword."}} />
 
 ## Battle Formations
-
-#### Rally The Tribes
+### Darkoath Horde
 
 <WarscrollAbility ability={{"name":"Rally The Tribes","header":{"icon":"rallying","color":"gray","text":"Once Per Turn (Army), Your Movement Phase"},"declare":"If there is a friendly Darkoath Hero on the battlefield, pick a friendly non-Hero non‑Unique Darkoath unit that has been destroyed to be the target.","effect":"Roll a dice. On a 3+, set up a replacement unit with half the number of models from the target unit (rounding up) on the battlefield, wholly within 6\" of a battlefield edge and more than 3\" from all enemy units."}} />
-
-#### Feral Ruin
+### Despoilers
 
 <WarscrollAbility ability={{"name":"Feral Ruin","header":{"icon":"offensive","color":"red","text":"Once Per Turn (Army), Reaction: You declared a Fight ability for a friendly Daemon Prince unit"},"declare":null,"effect":"Pick a friendly non-Hero Slaves to Darkness Monster or Beast unit that has not used a Fight ability this turn and is wholly within 12\" of this unit to be the target. The target can be picked to use a Fight ability immediately after the Fight ability used by this unit has been resolved."}} />
-
-#### Ironclad Onslaught
+### Godswrath Warband
 
 <WarscrollAbility ability={{"name":"Ironclad Onslaught","header":{"icon":"special","color":"eggplant","text":"Once Per Turn (Army), End of Your Turn"},"declare":"Pick an objective that is contested by any friendly units to be the target.","effect":"Place a defiled token next to the target objective. Then, roll a D3 for each enemy unit contesting an objective that has a defiled token. On a 2+, inflict an amount of mortal damage on that enemy unit equal to the roll."}} />
-
-#### United in Darkness
+### Legion of Chaos
 
 <WarscrollAbility ability={{"name":"United in Darkness","header":{"icon":"control","color":"eggplant","text":"Passive"},"declare":null,"effect":"While there is at least 1 friendly Warriors of Chaos Hero and 1 other friendly Daemon Hero or Darkoath Hero on the battlefield, add 2 to the control scores of friendly Slaves to Darkness units while they are contesting an objective that is wholly outside friendly territory."}} />
 
 ## Arcana and Incantations
 ### Lore of the Damned
-
 #### Daemonic Speed
 
 <WarscrollAbility ability={{"name":"Daemonic Speed","header":{"icon":"movement","color":"yellow","text":"Your Hero Phase"},"declare":"Pick a friendly Slaves to Darkness Wizard to cast this spell, pick a visible friendly Slaves to Darkness unit wholly within 12\" of them to be the target, then make a casting roll of 2D6.","effect":"For the rest of the turn, add 1 to the number of dice rolled when making charge rolls for the target, to a maximum of 3.","castingValue":7,"keywords":["Spell"]}} />
-
 #### Spite-tongue Curse
 
 <WarscrollAbility ability={{"name":"Spite-tongue Curse","header":{"icon":"offensive","color":"yellow","text":"Your Hero Phase"},"declare":"Pick a friendly Slaves to Darkness Wizard to cast this spell, pick a visible enemy unit within 12\" of them to be the target, then make a casting roll of 2D6. If the casting attempt is unsuccessful or if the spell is unbound, inflict D3 mortal damage on the caster.","effect":"Inflict 3 mortal damage on the target.","castingValue":5,"keywords":["Spell","Unlimited"]}} />
-
 #### Binding Damnation
 
 <WarscrollAbility ability={{"name":"Binding Damnation","header":{"icon":"defensive","color":"yellow","text":"Your Hero Phase"},"declare":"Pick a friendly Slaves to Darkness Wizard to cast this spell, pick a visible enemy unit within 12\" of them to be the target, then make a casting roll of 2D6.","effect":"The target has Strike-last until the start of your next turn.","castingValue":7,"keywords":["Spell"]}} />
 ### Manifestations of Malevolence
-
 #### Summon Darkfire Daemonrift
 
 <WarscrollAbility ability={{"name":"Summon Darkfire Daemonrift","header":{"icon":"special","color":"yellow","text":"Your Hero Phase"},"declare":"If there is not a friendly Darkfire Daemonrift on the battlefield, pick a friendly Slaves to Darkness Wizard to cast this spell, then make a casting roll of 2D6.","effect":"Set up a Darkfire Daemonrift wholly within 12\" of the caster, visible to them and more than 9\" from all enemy units.","castingValue":7,"keywords":["Summon","Spell"]}} />
-
 #### Summon Eightfold Doom-sigil
 
 <WarscrollAbility ability={{"name":"Summon Eightfold Doom-sigil","header":{"icon":"special","color":"yellow","text":"Your Hero Phase"},"declare":"If there is not a friendly Eightfold Doom‑Sigil on the battlefield, pick a friendly Slaves to Darkness Wizard to cast this spell, then make a casting roll of 2D6.","effect":"Set up an Eightfold Doom‑Sigil wholly within 12\" of the caster and visible to them","castingValue":7,"keywords":["Summon","Spell"]}} />
-
 #### Summon Realmscourge Rupture
 
 <WarscrollAbility ability={{"name":"Summon Realmscourge Rupture","header":{"icon":"special","color":"yellow","text":"Your Hero Phase"},"declare":"If there is not a friendly Realmscourge Rupture on the battlefield, pick a friendly Slaves to Darkness Wizard to cast this spell, then make a casting roll of 2D6.","effect":"Set up a Realmscourge Rupture wholly within 12\" of the caster, visible to them and more than 9\" from all enemy units.","castingValue":7,"keywords":["Summon","Spell"]}} />
 
 ## Artefacts of Power
-
 ### Infernal Puppet
 
 <WarscrollAbility ability={{"name":"Infernal Puppet","header":{"icon":"offensive","color":"black","text":"Once Per Battle, Start of Any Turn"},"declare":"Pick a visible enemy **Wizard** within 24\" of this unit to be the target.","effect":"For the rest of the turn, each time the target is picked to use a **Spell** ability, inflict D3 mortal damage on the target as a reaction. If the target is destroyed by this ability, do not resolve the effect of that **Spell** ability."}} />
-
 ### Realmwarper's Twist-rune
 
 <WarscrollAbility ability={{"name":"Realmwarper's Twist-rune","header":{"icon":"special","color":"yellow","text":"Once Per Battle, Your Hero Phase"},"declare":"Pick a terrain feature within 12\" of this unit to be the target.","effect":"If the target does not have the ‘Obscuring’ terrain ability, it gains that ability until the start of your next turn. Then, roll a dice for each model (friendly and enemy) within 1\" of the target. For each 5+, inflict 1 mortal damage on that model’s unit."}} />
-
 ### The Conqueror's Crown
 
 <WarscrollAbility ability={{"name":"The Conqueror's Crown","header":{"icon":"control","color":"eggplant","text":"Passive"},"effect":"Subtract 5 from the control scores of enemy **Infantry** units while they are in combat with this unit."}} />
 
 ## Heroic Traits
-
 ### Deathmonger
 
 <WarscrollAbility ability={{"name":"Deathmonger","header":{"icon":"offensive","color":"red","text":"Once Per Battle, Any Combat Phase"},"effect":"This unit can use 2 **Fight** abilities this phase. After the first is used, however, this unit has Strike-last for the rest of the turn."}} />
-
 ### Favoured of the Pantheon
 
 <WarscrollAbility ability={{"name":"Favoured of the Pantheon","header":{"icon":"special","color":"black","text":"Deployment Phase"},"effect":"This unit can use the ‘Eye of the Gods’ ability as if it were the end of the turn and it had destroyed an enemy unit this turn."}} />
-
 ### Radiance of Dark Glory
 
 <WarscrollAbility ability={{"name":"Radiance of Dark Glory","header":{"icon":"defensive","color":"yellow","text":"Any Hero Phase"},"declare":"Pick each damaged friendly unit wholly within 12\" of this unit to be the targets.","effect":"Roll a dice for each target. On a 3+, Heal (1) the target. Heal (3) the target instead if it is a **Monster**."}} />

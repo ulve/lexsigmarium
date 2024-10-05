@@ -6,101 +6,79 @@ import Warscroll from '@site/src/components/Warscroll';
 import WarscrollAbility from '@site/src/components/WarscrollAbility';
 
 ## Battle Traits
-
 ### Further the Great Plan
 
 <WarscrollAbility ability={{"name":"Further the Great Plan","header":{"icon":"special","color":"black","text":"Once Per Battle, Start of the Third Battle Round"},"declare":"You can use this ability if you meet the condition below that corresponds to the **Asterism** you picked in the deployment phase.\n\nItzl the Tamer: 3 or more enemy units have been destroyed.\n\nQuetzl the Preserver: There are no enemy units wholly within friendly territory.\n\nSotek the Deliverer: The enemy general is in combat or has been destroyed.\n\nTepok the Seer: There are any friendly **Slann** units on the battlefield and no friendly **Slann** units are in combat or have been destroyed.","effect":"Pick a different **Asterism** ability. It can be used in addition to the one you picked in the deployment phase."}} />
-
 ### Itzl the Tamer
 
 <WarscrollAbility ability={{"name":"Itzl the Tamer","header":{"icon":"offensive","color":"red","text":"Passive"},"effect":"Companion weapons used by friendly Seraphon units have Crit (2 Hits).","keywords":["Asterism"]}} />
-
 ### Quetzl the Preserver
 
 <WarscrollAbility ability={{"name":"Quetzl the Preserver","header":{"icon":"defensive","color":"green","text":"Passive"},"effect":"Subtract 1 from the Rend characteristic of melee weapons for attacks that target friendly Seraphon units that are wholly within friendly territory.","keywords":["Asterism"]}} />
-
 ### Sotek the Deliverer
 
 <WarscrollAbility ability={{"name":"Sotek the Deliverer","header":{"icon":"movement","color":"orange","text":"Passive"},"effect":"Add 2 to the **Move** characteristic of friendly Seraphon units.","keywords":["Asterism"]}} />
-
 ### Tepok the Seer
 
 <WarscrollAbility ability={{"name":"Tepok the Seer","header":{"icon":"special","color":"yellow","text":"Passive"},"effect":"Add 1 to casting rolls for friendly Seraphon units.","keywords":["Asterism"]}} />
-
 ### The Great Plan
 
 <WarscrollAbility ability={{"name":"The Great Plan","header":{"icon":"special","color":"black","text":"Once Per Battle, Deployment Phase"},"declare":"Pick an **Asterism** ability.","effect":"That **Asterism** ability can be used for the rest of the battle, but the others cannot, unless allowed by the ‘Further the Great Plan’ ability."}} />
 
 ## Battle Formations
-
-#### Celestial Translocation
+### Eternal Starhost
 
 <WarscrollAbility ability={{"name":"Celestial Translocation","header":{"icon":"movement","color":"gray","text":"Once Per Turn (Army), Your Movement Phase"},"declare":"Pick a friendly Seraphon unit wholly within 12\" of a friendly Seraphon Wizard to use this ability.","effect":"Roll a dice. On a 3+, remove that unit from the battlefield and set it up again on the battlefield more than 9\" from all enemy units."}} />
-
-#### Nimble and Quick
+### Shadowstrike Starhost
 
 <WarscrollAbility ability={{"name":"Nimble and Quick","header":{"icon":"movement","color":"teal","text":"Once Per Turn (Army), Your Shooting Phase"},"declare":"Pick up to 3 friendly Skink Infantry or Skink Cavalry units that are not in combat to be the targets.","effect":"Each target can move D6\". Each target cannot move into combat during any part of that move."}} />
-
-#### Vengeance of Azyr
+### Sunclaw Starhost
 
 <WarscrollAbility ability={{"name":"Vengeance of Azyr","header":{"icon":"offensive","color":"eggplant","text":"Once Per Turn (Army), End of Any Turn"},"declare":"Pick up to 3 friendly Saurus or Kroxigor units that are in combat to be the targets.","effect":"For each target:\n\n• Make a pile-in move.\n\n• Then, pick an enemy unit in combat with the target and roll a D3. On a 2+, inflict an amount of mortal damage on that enemy unit equal to the roll."}} />
-
-#### Scaly Monstrosities
+### Thunderquake Starhost
 
 <WarscrollAbility ability={{"name":"Scaly Monstrosities","header":{"icon":"defensive","color":"green","text":"Passive"},"declare":null,"effect":"Add 2 to the Health characteristic of friendly Seraphon Monster units."}} />
 
 ## Arcana and Incantations
 ### Lore of Primal Jungles
-
 #### Light of Chotec
 
 <WarscrollAbility ability={{"name":"Light of Chotec","header":{"icon":"defensive","color":"yellow","text":"Your Hero Phase"},"declare":"Pick a friendly Seraphon Wizard to cast this spell, pick a visible friendly Seraphon unit wholly within 12\" of them to be the target, then make a casting roll of 2D6.","effect":"Roll a number of dice equal to the number of damage points the target has. For each 4+, Heal (1) the target.","castingValue":6,"keywords":["Spell","Unlimited"]}} />
-
 #### The Earth Trembles
 
 <WarscrollAbility ability={{"name":"The Earth Trembles","header":{"icon":"offensive","color":"yellow","text":"Your Hero Phase"},"declare":"Pick a friendly Seraphon Wizard to cast this spell, pick a point on the battlefield within 18\" of them to be the target point, then make a casting roll of 2D6.","effect":"Draw a straight line between the target point and the closest part on the caster’s base. Roll a D3 for each unit (friendly and enemy) that has models passed across by this line. On a 2+, inflict an amount of mortal damage on that unit equal to the roll.","castingValue":8,"keywords":["Spell"]}} />
-
 #### Empowered Celestite
 
 <WarscrollAbility ability={{"name":"Empowered Celestite","header":{"icon":"offensive","color":"yellow","text":"Your Hero Phase"},"declare":"Pick a friendly Seraphon Wizard to cast this spell, pick a visible friendly Saurus unit wholly within 12\" of them to be the target, then make a casting roll of 2D6.","effect":"Add 1 to the Rend characteristic of the target’s melee weapons for the rest of the turn.","castingValue":7,"keywords":["Spell"]}} />
 ### Lore of Celestial Manipulation
-
 #### Mystical Unforging
 
 <WarscrollAbility ability={{"name":"Mystical Unforging","header":{"icon":"defensive","color":"yellow","text":"Your Hero Phase"},"declare":"Pick a friendly Seraphon Wizard to cast this spell, pick a visible enemy unit within 12\" of them to be the target, then make a casting roll of 2D6.","effect":"Subtract 1 from the Rend characteristic of the target’s weapons until the start of your next turn.","castingValue":6,"keywords":["Spell","Unlimited"]}} />
-
 #### Speed of Huanchi
 
 <WarscrollAbility ability={{"name":"Speed of Huanchi","header":{"icon":"movement","color":"yellow","text":"Your Hero Phase"},"declare":"Pick a friendly Seraphon Wizard to cast this spell, pick a visible friendly Seraphon unit wholly within 12\" of them to be the target, then make a casting roll of 2D6.","effect":"Until the start of your next turn, the target can use a Run ability and still use Shoot and/or Charge abilities later in the turn.","castingValue":6,"keywords":["Spell"]}} />
-
 #### Comet's Call
 
 <WarscrollAbility ability={{"name":"Comet's Call","header":{"icon":"offensive","color":"yellow","text":"Your Hero Phase"},"declare":"Pick a friendly Seraphon Wizard to cast this spell, pick a visible enemy unit within 18\" of them to be the target, then make a casting roll of 2D6.","effect":"Roll a dice for each model in the target unit. For each 5+, inflict 1 mortal damage on the target.","castingValue":7,"keywords":["Spell"]}} />
 
 ## Artefacts of Power
-
 ### Bloodrage Pendant
 
 <WarscrollAbility ability={{"name":"Bloodrage Pendant","header":{"icon":"offensive","color":"red","text":"Passive"},"effect":"Add 1 to the Attacks characteristic of this unit’s melee weapons. Add 2 instead if the number of damage points allocated to this unit is equal to or greater than half of this unit’s Health characteristic (rounding up)."}} />
-
 ### Coatl Familiar
 
 <WarscrollAbility ability={{"name":"Coatl Familiar","header":{"icon":"special","color":"yellow","text":"Once Per Battle, Reaction: You declared a Spell ability for a friendly Seraphon Wizard within this unit’s combat range"},"effect":"Add D6 to the casting roll for that **spell**."}} />
-
 ### Incandescent Rectrices
 
 <WarscrollAbility ability={{"name":"Incandescent Rectrices","header":{"icon":"defensive","color":"yellow","text":"Any Hero Phase"},"effect":"Heal (D3) this unit."}} />
 
 ## Heroic Traits
-
 ### Beastmaster
 
 <WarscrollAbility ability={{"name":"Beastmaster","header":{"icon":"movement","color":"orange","text":"Passive"},"effect":"Add 2\" to the **Move** characteristic of friendly Seraphon **Cavalry** and Seraphon **Monster** units for the rest of the phase if they are wholly within 12\" of this unit at the start of the **move**."}} />
-
 ### Being of the Stars
 
 <WarscrollAbility ability={{"name":"Being of the Stars","header":{"icon":"defensive","color":"green","text":"Passive"},"effect":"Ignore modifiers to save rolls for this unit (positive and negative)."}} />
-
 ### Reptilian Cunning
 
 <WarscrollAbility ability={{"name":"Reptilian Cunning","header":{"icon":"offensive","color":"red","text":"Passive"},"effect":"If this unit charged this turn, if a friendly unit wholly within 12\" of this unit uses the ‘All-out **Attack**’ command in the combat phase, no command points are spent."}} />

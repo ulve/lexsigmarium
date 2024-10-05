@@ -6,85 +6,67 @@ import Warscroll from '@site/src/components/Warscroll';
 import WarscrollAbility from '@site/src/components/WarscrollAbility';
 
 ## Battle Traits
-
 ### An Excess of Depravity
 
 <WarscrollAbility ability={{"name":"An Excess of Depravity","header":{"icon":"special","color":"black","text":"Start of Battle Round"},"declare":"Pick up to 3 friendly Hedonites of **Slaanesh** units to be the targets.","effect":"The targets have the Euphoric keyword for the rest of the battle round.\n\nIn addition, for each friendly unit you pick, give your opponent 1 temptation dice. Your opponent can use 1 temptation dice to replace 1 wound roll, 1 save roll, 1 ward roll or 1 **run** roll for a unit in their army with a 6, or they can use 2 temptation dice to replace 2 of the dice in a **charge** roll for a unit in their army with two 6s.\n\nEach time your opponent uses a temptation dice, they must roll it. On a 1-2, your opponent’s roll is replaced by that value instead of a 6, and you must allocate D3 damage points to the unit for which the roll was replaced immediately after the ability used by that unit has been resolved (ward rolls cannot be made for those damage points).\n\nAt the end of the battle round, any temptation dice that have not been used are lost."}} />
-
 ### Euphoric Killers
 
 <WarscrollAbility ability={{"name":"Euphoric Killers","header":{"icon":"special","color":"black","text":"Passive"},"effect":"While a friendly unit has the Euphoric keyword:\n\n• That unit’s weapons have Crit (2 Hits).\n• That unit can use a **Run** ability and still use **Shoot** and/or **Charge** abilities later in the turn."}} />
 
 ## Battle Formations
-
-#### The Ecstatic Throngs
+### Depraved Carnival
 
 <WarscrollAbility ability={{"name":"The Ecstatic Throngs","header":{"icon":"offensive","color":"red","text":"Passive"},"declare":null,"effect":"Add 1 to hit rolls for friendly Sybarite Infantry units while they are damaged or if they had any models slain in the same turn."}} />
-
-#### Exquisite Palate
+### Epicurean Revellers
 
 <WarscrollAbility ability={{"name":"Exquisite Palate","header":{"icon":"rallying","color":"yellow","text":"Passive"},"declare":null,"effect":"Each time a friendly non-Hero Hedonites of Slaanesh Daemon uses the ‘Rally’ command, you can make 3 additional rally rolls of D6."}} />
-
-#### Reckless Haste
+### Seeker Cavalcade
 
 <WarscrollAbility ability={{"name":"Reckless Haste","header":{"icon":"movement","color":"gray","text":"Passive"},"declare":null,"effect":"Friendly Hedonites of Slaanesh Cavalry units can use a Retreat ability and still use Charge abilities later in the turn. In addition, no mortal damage is inflicted on Hedonites of Slaanesh Cavalry units by Retreat abilities."}} />
-
-#### Godly Ambitions
+### Supreme Sybarites
 
 <WarscrollAbility ability={{"name":"Godly Ambitions","header":{"icon":"control","color":"eggplant","text":"Passive"},"declare":null,"effect":"Add 3 to the control scores of friendly non‑Hero Hedonites of Slaanesh units while they are within the combat ranges of any friendly Hedonites of Slaanesh Heroes."}} />
 
 ## Arcana and Incantations
 ### Lore of Extravagance
-
 #### Sadistic Spite
 
 <WarscrollAbility ability={{"name":"Sadistic Spite","header":{"icon":"offensive","color":"yellow","text":"Your Hero Phase"},"declare":"Pick a friendly Hedonites of Slaanesh Wizard to cast this spell, pick a visible friendly Euphoric unit to be the target, then make a casting roll of 2D6.","effect":"The target’s melee weapons have Crit (Mortal) instead of Crit (2 Hits) for the rest of the battle round.","castingValue":6,"keywords":["Spell","Unlimited"]}} />
-
 #### Overwhelming Acquiescence
 
 <WarscrollAbility ability={{"name":"Overwhelming Acquiescence","header":{"icon":"offensive","color":"yellow","text":"Your Hero Phase"},"declare":"Pick a friendly Hedonites of Slaanesh Wizard to cast this spell, pick a visible enemy unit within 18\" of them to be the target, then make a casting roll of 2D6.","effect":"Add 1 to wound rolls for attacks that target that enemy unit until the start of your next turn.","castingValue":7,"keywords":["Spell"]}} />
-
 #### Phantasmagoria
 
 <WarscrollAbility ability={{"name":"Phantasmagoria","header":{"icon":"movement","color":"yellow","text":"Your Hero Phase"},"declare":"Pick a friendly Hedonites of Slaanesh Wizard to cast this spell, pick a visible enemy unit within 12\" of them to be the target, then make a casting roll of 2D6.","effect":"Until the start of your next turn, each time the target is picked to use a Fight ability, you can pick a friendly unit in combat with the target. That friendly unit can move 2D3\" after the Fight ability has been resolved. It can pass through the combat ranges of enemy units and can end that move in combat.","castingValue":5,"keywords":["Spell"]}} />
 ### Manifestations of Depravity
-
 #### Summon Mesmerising Mirror
 
 <WarscrollAbility ability={{"name":"Summon Mesmerising Mirror","header":{"icon":"special","color":"yellow","text":"Your Hero Phase"},"declare":"If there is not a friendly Mesmerising Mirror on the battlefield, pick a friendly Hedonites of Slaanesh Wizard to cast this spell, then make a casting roll of 2D6.","effect":"Set up a Mesmerising Mirror wholly within 12\" of the caster and visible to them.","castingValue":6,"keywords":["Summon","Spell"]}} />
-
 #### Summon Wheels of Excruciation
 
 <WarscrollAbility ability={{"name":"Summon Wheels of Excruciation","header":{"icon":"special","color":"yellow","text":"Your Hero Phase"},"declare":"If there is not a friendly Wheels of Excruciation endless spell on the battlefield, pick a friendly Hedonites of Slaanesh Wizard to cast this spell, then make a casting roll of 2D6.","effect":"Set up a Wheels of Excruciation endless spell wholly within 12\" of the caster, visible to them and more than 9\" from all enemy units.","castingValue":6,"keywords":["Summon","Spell"]}} />
-
 #### Summon Dreadful Visage
 
 <WarscrollAbility ability={{"name":"Summon Dreadful Visage","header":{"icon":"special","color":"yellow","text":"Your Hero Phase"},"declare":"If there is not a friendly Dreadful Visage on the battlefield, pick a friendly Hedonites of Slaanesh Wizard to cast this spell, then make a casting roll of 2D6.","effect":"Set up a Dreadful Visage wholly within 12\" of the caster, visible to them and more than 9\" from all enemy units.","castingValue":7,"keywords":["Summon","Spell"]}} />
 
 ## Artefacts of Power
-
 ### Icon of Infinite Excess
 
 <WarscrollAbility ability={{"name":"Icon of Infinite Excess","header":{"icon":"offensive","color":"red","text":"Once Per Battle, Any Combat Phase"},"declare":"Pick a non-**Hero** Hedonites of **Slaanesh** unit wholly within 12\" of this unit to be the target.","effect":"Add 1 to the Attacks characteristic of the target’s melee weapons for the rest of the turn."}} />
-
 ### Pendant of Slaanesh
 
 <WarscrollAbility ability={{"name":"Pendant of Slaanesh","header":{"icon":"defensive","color":"eggplant","text":"End of Any Turn"},"effect":"If any damage points were allocated to this unit this turn, Heal (3) this unit."}} />
-
 ### Threnody Voicebox
 
 <WarscrollAbility ability={{"name":"Threnody Voicebox","header":{"icon":"defensive","color":"red","text":"Once Per Battle, Any Combat Phase"},"effect":"For the rest of the turn, subtract 1 from the Attacks characteristic of melee weapons used by enemy units while they are in combat with this unit."}} />
 
 ## Heroic Traits
-
 ### Glory Hog
 
 <WarscrollAbility ability={{"name":"Glory Hog","header":{"icon":"special","color":"black","text":"Passive"},"effect":"If an enemy **Hero** is destroyed by this unit, this unit has the Euphoric keyword for the rest of the battle."}} />
-
 ### Into the Fray
 
 <WarscrollAbility ability={{"name":"Into the Fray","header":{"icon":"offensive","color":"red","text":"Passive"},"effect":"If this unit charged this turn and the unmodified **charge** roll was 8+, this unit has Strike-first for the rest of the turn."}} />
-
 ### Strongest Alone
 
 <WarscrollAbility ability={{"name":"Strongest Alone","header":{"icon":"offensive","color":"red","text":"Passive"},"effect":"Add 1 to hit rolls and wound rolls for this unit’s attacks while it is more than 6\" from all other friendly units."}} />

@@ -6,101 +6,79 @@ import Warscroll from '@site/src/components/Warscroll';
 import WarscrollAbility from '@site/src/components/WarscrollAbility';
 
 ## Battle Traits
-
 ### Bludgeon
 
 <WarscrollAbility ability={{"name":"Bludgeon","header":{"icon":"offensive","color":"red","text":"Any Combat Phase"},"declare":"If no friendly units have used a **Relentless Discipline** ability this phase, pick a friendly Ossiarch Bonereapers **Hero** to use this ability.","effect":"For the rest of the turn, add 1 to wound rolls for combat attacks made by friendly Ossiarch Bonereapers units while they are wholly within 12\" of that **Hero**.","keywords":["Relentless Discipline"]}} />
-
 ### Coordinated Charge
 
 <WarscrollAbility ability={{"name":"Coordinated Charge","header":{"icon":"movement","color":"orange","text":"Any Charge Phase"},"declare":"If no friendly units have used a **Relentless Discipline** ability this phase, pick a friendly Ossiarch Bonereapers **Hero** to use this ability.","effect":"For the rest of the turn, add 1 to **charge** rolls for friendly Ossiarch Bonereapers units while they are wholly within 12\" of that **Hero**.","keywords":["Relentless Discipline"]}} />
-
 ### Counter-strike
 
 <WarscrollAbility ability={{"name":"Counter-strike","header":{"icon":"offensive","color":"orange","text":"Any Charge Phase"},"declare":"If no friendly units have used a **Relentless Discipline** ability this phase, pick a friendly Ossiarch Bonereapers **Hero** to use this ability.","effect":"For the rest of the turn, friendly units’ melee weapons have Anti‑**charge** (+1 Rend) while they are wholly within 12\" of that **Hero**.","keywords":["Relentless Discipline"]}} />
-
 ### Impenetrable Ranks
 
 <WarscrollAbility ability={{"name":"Impenetrable Ranks","header":{"icon":"defensive","color":"red","text":"Any Combat Phase"},"declare":"If no friendly units have used a **Relentless Discipline** ability this phase, pick a friendly Ossiarch Bonereapers **Hero** to use this ability.","effect":"For the rest of the turn, friendly Ossiarch Bonereapers have Ward (5+) while they are wholly within 12\" of that **Hero**.","keywords":["Relentless Discipline"]}} />
-
 ### Re-form Ranks
 
 <WarscrollAbility ability={{"name":"Re-form Ranks","header":{"icon":"movement","color":"gray","text":"Your Movement Phase"},"declare":"If no friendly units have used a **Relentless Discipline** ability this phase, pick a friendly Ossiarch Bonereapers **Hero** to use this ability.","effect":"For the rest of the turn, while they are wholly within 12\" of that **Hero**, friendly Ossiarch Bonereapers units can use **Charge** abilities even if they used a **Retreat** ability in the same turn.","keywords":["Relentless Discipline"]}} />
-
 ### Unstoppable Advance
 
 <WarscrollAbility ability={{"name":"Unstoppable Advance","header":{"icon":"movement","color":"gray","text":"Your Movement Phase"},"declare":"If no friendly units have used a **Relentless Discipline** ability this phase, pick a friendly Ossiarch Bonereapers **Hero** to use this ability. All friendly Ossiarch Bonereapers units wholly within 12\" of that **Hero** are the targets.","effect":"Add 2\" to the **Move** characteristic of each target for the rest of the turn.","keywords":["Relentless Discipline"]}} />
 
 ## Battle Formations
-
-#### Swift as Death
+### Kavalos Lance
 
 <WarscrollAbility ability={{"name":"Swift as Death","header":{"icon":"movement","color":"black","text":"Once Per Battle (Army), Deployment Phase"},"declare":"Pick up to 3 friendly Ossiarch Bonereapers Cavalry units to be the targets.","effect":"Each target can move 6\" but cannot end that move in combat."}} />
-
-#### Crawling Barrage
+### Mortek Ballistari
 
 <WarscrollAbility ability={{"name":"Crawling Barrage","header":{"icon":"shooting","color":"teal","text":"Your Shooting Phase"},"declare":"Pick up to 3 friendly Mortek Crawler units that are wholly within friendly territory and that have not used a Move ability this turn to be the targets.","effect":"Add 1 to hit rolls for each target’s shooting attacks for the rest of the turn."}} />
-
-#### Send in the Reserve
+### Mortek Phalanx
 
 <WarscrollAbility ability={{"name":"Send in the Reserve","header":{"icon":"rallying","color":"gray","text":"Once Per Turn (Army), Your Movement Phase"},"declare":"Pick a friendly Mortek Guard unit that has been destroyed to be the target.","effect":"Roll a dice. On a 5+, set up a replacement unit with half the number of models from the target unit (rounding up) on the battlefield more than 9\" from all enemy units."}} />
-
-#### Necrotic Symphony
+### Mortisan Council
 
 <WarscrollAbility ability={{"name":"Necrotic Symphony","header":{"icon":"special","color":"yellow","text":"Passive"},"declare":null,"effect":"Add 1 to casting rolls for friendly Ossiarch Bonereapers Infantry Wizards."}} />
 
 ## Arcana and Incantations
 ### Horrors of the Necropolis
-
 #### Summon Bone-tithe Shrieker
 
 <WarscrollAbility ability={{"name":"Summon Bone-tithe Shrieker","header":{"icon":"special","color":"yellow","text":"Your Hero Phase"},"declare":"If there is not a friendly Bone‑tithe Shrieker on the battlefield, pick a friendly Ossiarch Bonereapers Wizard to cast this spell, then make a casting roll of 2D6.","effect":"Set up a Bone-tithe Shrieker wholly within 12\" of the caster, visible to them and more than 9\" from all enemy units.","castingValue":6,"keywords":["Summon","Spell"]}} />
-
 #### Summon Soulstealer Carrion
 
 <WarscrollAbility ability={{"name":"Summon Soulstealer Carrion","header":{"icon":"special","color":"yellow","text":"Your Hero Phase"},"declare":"If there is not a friendly Soulstealer Carrion on the battlefield, pick a friendly Ossiarch Bonereapers Wizard to cast this spell, then make a casting roll of 2D6.","effect":"Set up a Soulstealer Carrion wholly within 12\" of the caster, visible to them and more than 9\" from all enemy units.","castingValue":6,"keywords":["Summon","Spell"]}} />
-
 #### Summon Nightmare Predator
 
 <WarscrollAbility ability={{"name":"Summon Nightmare Predator","header":{"icon":"special","color":"yellow","text":"Your Hero Phase"},"declare":"If there is not a friendly Nightmare Predator on the battlefield, pick a friendly Ossiarch Bonereapers Wizard to cast this spell, then make a casting roll of 2D6.","effect":"Set up a Nightmare Predator wholly within 12\" of the caster, visible to them and more than 9\" from all enemy units.","castingValue":6,"keywords":["Summon","Spell"]}} />
 ### Lore of Ossian Sorcery
-
 #### Empower Nadirite Weapons
 
 <WarscrollAbility ability={{"name":"Empower Nadirite Weapons","header":{"icon":"offensive","color":"yellow","text":"Your Hero Phase"},"declare":"Pick a friendly Ossiarch Bonereapers Wizard to cast this spell, pick a visible friendly Ossiarch Bonereapers unit within 12\" of them to be the target, then make a casting roll of 2D6.","effect":"The target’s combat attacks score critical hits on unmodified hit rolls of 5+ until the start of your next turn.","castingValue":5,"keywords":["Spell","Unlimited"]}} />
-
 #### Shard Storm
 
 <WarscrollAbility ability={{"name":"Shard Storm","header":{"icon":"offensive","color":"yellow","text":"Your Hero Phase"},"declare":"Pick a friendly Ossiarch Bonereapers Wizard to cast this spell, pick a visible enemy unit within 18\" of them to be the target, then make a casting roll of 2D6.","effect":"Roll a number of dice equal to the number of models in the target unit. For each 5+, inflict 1 mortal damage on the target.","castingValue":7,"keywords":["Spell"]}} />
-
 #### Drain Vitality
 
 <WarscrollAbility ability={{"name":"Drain Vitality","header":{"icon":"defensive","color":"yellow","text":"Your Hero Phase"},"declare":"Pick a friendly Ossiarch Bonereapers Wizard to cast this spell, pick a visible enemy unit within 12\" of them to be the target, then make a casting roll of 2D6.","effect":"Until the start of your next turn, subtract 1 from hit rolls for the target’s attacks and subtract 1 from save rolls for the target.","castingValue":7,"keywords":["Spell"]}} />
 
 ## Artefacts of Power
-
 ### Helm of Tyranny
 
 <WarscrollAbility ability={{"name":"Helm of Tyranny","header":{"icon":"control","color":"eggplant","text":"Passive"},"effect":"Subtract 2 from the control scores of enemy units while they are within 12\" of this unit."}} />
-
 ### Lode of Saturation
 
 <WarscrollAbility ability={{"name":"Lode of Saturation","header":{"icon":"defensive","color":"green","text":"Passive"},"effect":"This unit has Ward (5+)."}} />
-
 ### Marrowpact
 
 <WarscrollAbility ability={{"name":"Marrowpact","header":{"icon":"offensive","color":"red","text":"Once Per Battle, Any Combat Phase"},"effect":"For the rest of the turn, if the unmodified hit roll for a combat **attack** that targets this unit is 1-2, inflict 1 mortal damage on the attacking unit after the **Fight** ability has been resolved."}} />
 
 ## Heroic Traits
-
 ### Aura of Sterility
 
 <WarscrollAbility ability={{"name":"Aura of Sterility","header":{"icon":"defensive","color":"green","text":"Passive"},"effect":"Subtract 1 from wound rolls for shooting attacks that target friendly Ossiarch Bonereapers units while they are wholly within 12\" of this unit."}} />
-
 ### Diversionary Tactics
 
 <WarscrollAbility ability={{"name":"Diversionary Tactics","header":{"icon":"movement","color":"orange","text":"Passive"},"effect":"Subtract 2 from **charge** rolls for enemy units while they are within 12\" of this unit."}} />
-
 ### Mighty Archaeossian
 
 <WarscrollAbility ability={{"name":"Mighty Archaeossian","header":{"icon":"defensive","color":"green","text":"Passive"},"effect":"If the unmodified hit roll for an **attack** that targets this unit is 1-3, the **attack** fails and the **attack** sequence ends."}} />
