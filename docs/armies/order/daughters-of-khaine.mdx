@@ -6,82 +6,107 @@ import Warscroll from '@site/src/components/Warscroll';
 import WarscrollAbility from '@site/src/components/WarscrollAbility';
 
 ## Battle Traits
+
 ### All-out Slaughter
 
 <WarscrollAbility ability={{"name":"All-out Slaughter","header":{"icon":"offensive","color":"red","text":"Once Per Battle, Any Combat Phase"},"declare":"Pick a friendly Daughters of Khaine **Infantry** unit that is in combat to use this ability.","effect":"That unit can use 2 **Fight** abilities this phase. After the first is used, this unit has Strike-last for the rest of the turn."}} />
+
 ### Blood Rites
 
 <WarscrollAbility ability={{"name":"Blood Rites","header":{"icon":"special","color":"black","text":"Passive"},"effect":"A different effect applies to friendly Daughters of Khaine units each battle round, as shown below. The effects of all previous battle rounds also apply to those units.\n\nBattle Round 1:\nQuickening Bloodlust: Add 1 to **run** rolls for this unit.\n\nBattle Round 2:\nHeadlong Fury: Add 1 to **charge** rolls for this unit.\n\nBattle Round 3:\nZealot’s Rage: Add 1 to hit rolls for this unit’s combat attacks.\n\nBattle Round 4:\nSlaughterer’s Wound: Add 1 to wound rolls for this unit’s combat attacks.\n\nBattle Round 5:\nFrenzied Worshippers: Add 1 to the Attacks characteristic of this unit’s melee weapons."}} />
 
 ## Battle Formations
+
 ### Cauldron Guard
 
 <WarscrollAbility ability={{"name":"Frenzied Devotees","header":{"icon":"offensive","color":"eggplant","text":"Once Per Turn (Army), End of Any Turn"},"declare":"Pick up to 3 friendly Daughters of Khaine Infantry or War Machine units that are in combat to be the targets.","effect":"For each target:\n\n• Make a pile-in move.\n• Then, pick an enemy unit in combat with the target and roll a D3. On a 2+, inflict an amount of mortal damage on that enemy unit equal to the roll."}} />
+
 ### Scáthcoven
 
 <WarscrollAbility ability={{"name":"Speed of the Scáthborn","header":{"icon":"offensive","color":"red","text":"Passive"},"declare":null,"effect":"If the unmodified charge roll for a friendly Melusai or Khinerai unit is 8+, that unit has Strike-first for the rest of the turn."}} />
+
 ### Shadow Patrol
 
 <WarscrollAbility ability={{"name":"Shadowpaths","header":{"icon":"movement","color":"gray","text":"Once Per Turn (Army), Your Movement Phase"},"declare":"Pick a friendly Daughters of Khaine Infantry unit that is not in combat to use this ability.","effect":"Roll a dice. On a 3+, remove that unit from the battlefield and set it up again on the battlefield more than 9\" from all enemy units."}} />
+
 ### Slaughter Troupe
 
 <WarscrollAbility ability={{"name":"Gladiatorial Acrobatics","header":{"icon":"movement","color":"orange","text":"Once Per Turn (Army), Reaction: You declared a Charge ability for a friendly Daughters of Khaine Aelf unit"},"declare":null,"effect":"Change one of the dice in the charge roll to a 4."}} />
 
 ## Arcana and Incantations
+
 ### Prayers of the Khainite Cult
+
 #### Sacrament of Blood
 
 <WarscrollAbility ability={{"name":"Sacrament of Blood","header":{"icon":"offensive","color":"yellow","text":"Your Hero Phase"},"declare":"Pick a friendly Daughters of Khaine Priest to chant this prayer, pick a visible friendly Daughters of Khaine unit wholly within 12\" of them to be the target, then make a chanting roll of D6.","effect":"Until the start of your next turn, add 1 to the current battle round number when determining which effects of the ‘Blood Rites’ ability apply to the target. If the chanting roll was 10+, until the start of your next turn, treat the current battle round number as 5 when determining which effects of the ‘Blood Rites’ ability apply to the target instead.","castingValue":5,"keywords":["Prayer","Unlimited"]}} />
+
 #### Martyr's Sacrifice
 
 <WarscrollAbility ability={{"name":"Martyr's Sacrifice","header":{"icon":"offensive","color":"yellow","text":"Your Hero Phase"},"declare":"Pick a friendly Daughters of Khaine Priest to chant this prayer, pick a visible friendly Daughters of Khaine unit wholly within 12\" of them to be the target, then make a chanting roll of D6.","effect":"Until the start of your next turn, each time a model in the target unit is slain by a combat attack, before removing the model from play, pick an enemy unit in combat with the target and roll a dice. If the chanting roll was 8+, roll 2 dice instead of 1. For each 5+, inflict 1 mortal damage on that enemy unit after the Fight ability has been resolved.","castingValue":4,"keywords":["Prayer"]}} />
+
 #### Covenant of the Iron Heart
 
 <WarscrollAbility ability={{"name":"Covenant of the Iron Heart","header":{"icon":"control","color":"yellow","text":"Your Hero Phase"},"declare":"Pick a friendly Daughters of Khaine Priest to chant this prayer, pick a visible friendly Daughters of Khaine unit wholly within 12\" of them to be the target, then make a chanting roll of D6.","effect":"Ignore negative modifiers to the target’s control score until the start of your next turn. In addition, if the chanting roll was 8+, add 5 to the target’s control score until the start of your next turn.","castingValue":4,"keywords":["Prayer"]}} />
+
 ### Manifestations of Khaine
+
 #### Summon Bladewind
 
 <WarscrollAbility ability={{"name":"Summon Bladewind","header":{"icon":"special","color":"yellow","text":"Your Hero Phase"},"declare":"If there is not a friendly Bladewind on the battlefield, pick a friendly Daughters of Khaine Wizard to cast this spell, then make a casting roll of 2D6.","effect":"Set up a Bladewind wholly within 9\" of the caster, visible to them and more than 9\" from all enemy units.","castingValue":6,"keywords":["Summon","Spell"]}} />
+
 #### Summon Heart of Fury
 
 <WarscrollAbility ability={{"name":"Summon Heart of Fury","header":{"icon":"special","color":"yellow","text":"Your Hero Phase"},"declare":"If there is not a friendly Heart of Fury on the battlefield, pick a friendly Daughters of Khaine Priest to chant this prayer, then make a chanting roll of D6.","effect":"Set up a Heart of Fury wholly within 9\" of the chanter and visible to them.","castingValue":5,"keywords":["Summon","Prayer"]}} />
+
 #### Summon Bloodwrack Viper
 
 <WarscrollAbility ability={{"name":"Summon Bloodwrack Viper","header":{"icon":"special","color":"yellow","text":"Your Hero Phase"},"declare":"If there is not a friendly Bloodwrack Viper on the battlefield, pick a friendly Daughters of Khaine Wizard to cast this spell, then make a casting roll of 2D6.","effect":"Set up a Bloodwrack Viper wholly within 9\" of the caster, visible to them and more than 9\" from all enemy units.","castingValue":6,"keywords":["Summon","Spell"]}} />
+
 ### Lore of Shadows
+
 #### Doomfire
 
 <WarscrollAbility ability={{"name":"Doomfire","header":{"icon":"offensive","color":"yellow","text":"Your Hero Phase"},"declare":"Pick a friendly Daughters of Khaine Wizard to cast this spell, pick a visible enemy unit within 12\" of them to be the target, then make a casting roll of 2D6.","effect":"If the target unit has fewer than 10 models, inflict D3 mortal damage on the target.\n\nIf the target unit has 10-19 models, inflict D6 mortal damage on the target. \n\nIf the target unit has 20 or more models, inflict 6 mortal damage on the target.","castingValue":7,"keywords":["Spell"]}} />
+
 #### Steed of Shadows
 
 <WarscrollAbility ability={{"name":"Steed of Shadows","header":{"icon":"movement","color":"yellow","text":"Your Hero Phase"},"declare":"Pick a friendly Daughters of Khaine Wizard to cast this spell, pick a visible friendly Daughters of Khaine unit wholly within 12\" of them to be the target, then make a casting roll of 2D6.","effect":"The target can use Charge abilities this turn even if it used a Run ability in the same turn.","castingValue":5,"keywords":["Spell","Unlimited"]}} />
+
 #### Mindrazor
 
 <WarscrollAbility ability={{"name":"Mindrazor","header":{"icon":"offensive","color":"yellow","text":"Your Hero Phase"},"declare":"Pick a friendly Daughters of Khaine Wizard to cast this spell, pick a visible friendly Daughters of Khaine unit wholly within 12\" of them to be the target, then make a casting roll of 2D6.","effect":"Add 1 to the Rend characteristic of the target’s melee weapons until the start of your next turn. In addition, if the target charged this turn, add 1 to the Damage characteristic of its melee weapons until the start of your next turn.","castingValue":8,"keywords":["Spell"]}} />
 
 ## Artefacts of Power
+
 ### Crown of Woe
 
 <WarscrollAbility ability={{"name":"Crown of Woe","header":{"icon":"control","color":"eggplant","text":"Passive"},"effect":"Subtract 2 from the control scores of enemy units while they are within 9\" of this unit."}} />
+
 ### Khainite Pendant
 
 <WarscrollAbility ability={{"name":"Khainite Pendant","header":{"icon":"special","color":"yellow","text":"Once Per Battle, Your Hero Phase"},"declare":"Pick a friendly Daughters of Khaine **Priest** wholly within 12\" of this unit.","effect":"Give that unit D6 ritual points."}} />
+
 ### Sevenfold Shadow
 
 <WarscrollAbility ability={{"name":"Sevenfold Shadow","header":{"icon":"movement","color":"gray","text":"Once Per Battle, Your Movement Phase"},"effect":"If this unit is not in combat, remove it from the battlefield and set it up again on the battlefield more than 9\" from all enemy units.","keywords":["Core"]}} />
 
 ## Heroic Traits
+
 ### Bathed in Blood
 
 <WarscrollAbility ability={{"name":"Bathed in Blood","header":{"icon":"defensive","color":"eggplant","text":"End of Any Turn"},"effect":"Heal (3) this unit if it is in combat."}} />
+
 ### Master of Poisons
 
 <WarscrollAbility ability={{"name":"Master of Poisons","header":{"icon":"offensive","color":"eggplant","text":"End of Any Turn"},"declare":"Pick an enemy unit that had any damage points allocated to it this turn by this unit’s combat attacks to be the target.","effect":"For the rest of the battle:\n\n• The target cannot be healed.\n• Slain models cannot be returned to the target unit."}} />
+
 ### Zealous Orator
 
 <WarscrollAbility ability={{"name":"Zealous Orator","header":{"icon":"rallying","color":"yellow","text":"Passive"},"effect":"If a friendly unit wholly within 12\" of this unit uses the ‘Rally’ command, you can make 3 additional rally rolls of D6."}} />
 
 ## Warscrolls
+
 ### Bloodwrack Medusa
 
 <Warscroll color={"#4B132D"} icon={"daughters-of-khaine.png"} unit={{"name":"Bloodwrack Medusa","profile":{"points":180,"unitSize":1,"regimentOptions":[],"baseSizes":["40mm"],"notes":null},"stats":{"movement":"8\"","save":"5+","health":"6","control":"2"},"primaryKeywords":["Melusai","Wizard","Infantry","Ward (6+)","Hero"],"secondaryKeywords":["Daughters of Khaine","Grand Alliance Order"],"abilities":[{"name":"Bloodwrack Stare","header":{"icon":"shooting","color":"teal","text":"Passive"},"declare":null,"effect":"Each time this unit attacks with its Bloodwrack Stare, if the attack scores a hit, roll a number of dice equal to the number of models in the target unit. For each 5+, inflict 1 mortal damage on that unit. You cannot pick the same enemy unit to be targeted by attacks made with a Bloodwrack Stare more than once per phase."},{"name":"Melusai Kin","header":{"icon":"offensive","color":"red","text":"Reaction: You declared a Fight ability for this unit"},"declare":null,"effect":"Pick a friendly non-Hero Melusai unit that has not used a Fight ability this turn and is within this unit’s combat range to be the target. The target can be picked to use a Fight ability immediately after the Fight ability used by this unit has been resolved."}],"meleeWeapons":[{"name":"Bloodwrack Spear and Whisperclaw","atk":"5","hit":"3+","wnd":"4+","rnd":"1","dmg":"2","abilities":[]}],"rangedWeapons":[{"name":"Bloodwrack Stare","rng":"12\"","atk":"1","hit":"2+","wnd":"*","rnd":"*","dmg":"*","abilities":["Shoot in Combat"]}]}} />
@@ -181,5 +206,4 @@ import WarscrollAbility from '@site/src/components/WarscrollAbility';
 ### Witch Aelves with Paired Sciansá
 
 <Warscroll color={"#4B132D"} icon={"daughters-of-khaine.png"} unit={{"name":"Witch Aelves with Paired Sciansá","profile":{"points":110,"unitSize":10,"regimentOptions":[],"baseSizes":["25mm"],"notes":null},"stats":{"movement":"6\"","save":"6+","health":"1","control":"1"},"primaryKeywords":["Champion","Standard Bearer","Aelf","Musician","Infantry","Ward (6+)"],"secondaryKeywords":["Daughters of Khaine","The Croneseer’s Pariahs","Grand Alliance Order"],"abilities":[{"name":"Frenzied Fervour","header":{"icon":"offensive","color":"red","text":"Passive"},"declare":null,"effect":"Add 1 to the Rend characteristic of this unit’s melee weapons for the rest of the turn if this unit charged in the same turn."}],"meleeWeapons":[{"name":"Paired Sciansá","atk":"3","hit":"3+","wnd":"4+","rnd":"-","dmg":"1","abilities":["Crit (Auto-wound)"]}]}} />
-
 

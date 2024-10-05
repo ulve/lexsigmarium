@@ -6,84 +6,109 @@ import Warscroll from '@site/src/components/Warscroll';
 import WarscrollAbility from '@site/src/components/WarscrollAbility';
 
 ## Battle Traits
+
 ### Discorporate
 
 <WarscrollAbility ability={{"name":"Discorporate","header":{"icon":"defensive","color":"green","text":"Reaction: Opponent declared an Attack ability"},"effect":"That unit has Ward (5+) for the rest of the phase."}} />
+
 ### Ethereal
 
 <WarscrollAbility ability={{"name":"Ethereal","header":{"icon":"defensive","color":"green","text":"Passive"},"effect":"Ignore all modifiers to save rolls (positive and negative) for friendly Nighthaunt units, excluding Nagash."}} />
+
 ### Petrify
 
 <WarscrollAbility ability={{"name":"Petrify","header":{"icon":"defensive","color":"orange","text":"Once Per Turn (Army), Your Charge Phase"},"declare":"Pick a friendly Nighthaunt **Hero** that has not used an **Aura of Dread** ability this turn and that charged this turn to use this ability, then pick an enemy unit within 1\" of it to be the target.","effect":"The target has Strike-last for the rest of the turn.","keywords":["Aura of Dread"]}} />
+
 ### Shriek
 
 <WarscrollAbility ability={{"name":"Shriek","header":{"icon":"defensive","color":"orange","text":"Once Per Turn (Army), Your Charge Phase"},"declare":"Pick a friendly Nighthaunt unit that has not used an **Aura of Dread** ability this turn and that charged this turn to use this ability, then pick an enemy unit within 1\" of it to be the target. The number of models in the friendly Nighthaunt unit must be greater than the number of models in the target unit.","effect":"Subtract 1 from hit rolls for the target’s attacks for the rest of the turn.","keywords":["Aura of Dread"]}} />
+
 ### Stun
 
 <WarscrollAbility ability={{"name":"Stun","header":{"icon":"offensive","color":"orange","text":"Once Per Turn (Army), Your Charge Phase"},"declare":"Pick a friendly Nighthaunt **War Machine** or **Cavalry** unit that has not used an **Aura of Dread** ability this turn and that charged this turn to use this ability, then pick an enemy unit within 1\" of it to be the target.","effect":"Subtract 1 from save rolls for the target for the rest of the turn.","keywords":["Aura of Dread"]}} />
+
 ### Wave of Terror
 
 <WarscrollAbility ability={{"name":"Wave of Terror","header":{"icon":"movement","color":"orange","text":"Once Per Turn (Army), Your Charge Phase"},"effect":"Friendly Nighthaunt units that are in combat can use **Charge** abilities this phase. However, if a unit that is in combat uses a **Charge** ability and the **charge** roll is 3 or less, that unit does not count as having charged that turn."}} />
 
 ## Battle Formations
+
 ### Death Stalkers
 
 <WarscrollAbility ability={{"name":"There Is No Escape","header":{"icon":"movement","color":"gray","text":"Your Movement Phase"},"declare":"Pick a friendly Nighthaunt unit to be the target.","effect":"For the rest of the turn, the target unit can still use Charge abilities even if it used a Run or Retreat ability in the same turn. In addition, for the rest of the turn, no mortal damage is inflicted on that unit by Retreat abilities."}} />
+
 ### Hunters of The Accursed
 
 <WarscrollAbility ability={{"name":"Vengeful Malison","header":{"icon":"offensive","color":"eggplant","text":"Once Per Turn (Army), End of Any Turn"},"declare":"Pick up to 3 enemy Heroes each within 12\" of a different friendly Nighthaunt Hero to be the targets.","effect":"Roll a D3 for each target. On a 2+, inflict an amount of mortal damage on the target equal to the roll."}} />
+
 ### Procession of Death
 
 <WarscrollAbility ability={{"name":"Cavalcade of Death","header":{"icon":"defensive","color":"green","text":"Passive"},"declare":null,"effect":"Friendly Nighthaunt Infantry units have Ward (5+) while they are wholly within 6\" of a friendly Black Coach."}} />
+
 ### Vanishing Phantasms
 
 <WarscrollAbility ability={{"name":"Ethereal Translocation","header":{"icon":"movement","color":"gray","text":"Once Per Turn (Army), Your Movement Phase"},"declare":"Pick a friendly Nighthaunt unit that is not in combat to use this ability.","effect":"Remove that unit from the battlefield and set it up again on the battlefield more than 9\" from all enemy units.","keywords":["Core"]}} />
 
 ## Arcana and Incantations
+
 ### Lore of the Underworlds
+
 #### Spectral Lure
 
 <WarscrollAbility ability={{"name":"Spectral Lure","header":{"icon":"rallying","color":"yellow","text":"Your Hero Phase"},"declare":"Pick a friendly Nighthaunt Wizard to cast this spell, pick a friendly Nighthaunt unit wholly within 12\" of them to be the target, then make a casting roll of 2D6.","effect":"Return a number of slain models to the target unit with a combined Health characteristic of up to D6.","castingValue":6,"keywords":["Spell"]}} />
+
 #### Shademist
 
 <WarscrollAbility ability={{"name":"Shademist","header":{"icon":"defensive","color":"yellow","text":"Your Hero Phase"},"declare":"Pick a friendly Nighthaunt Wizard to cast this spell, pick a visible friendly Nighthaunt unit that has 3 or more models and is wholly within 12\" of them to be the target, then make a casting roll of 2D6.","effect":"Subtract 1 from wound rolls for attacks that target that unit until the start of your next turn.","castingValue":6,"keywords":["Spell","Unlimited"]}} />
+
 #### Spirit Drain
 
 <WarscrollAbility ability={{"name":"Spirit Drain","header":{"icon":"offensive","color":"yellow","text":"Your Hero Phase"},"declare":"Pick a friendly Nighthaunt Wizard to cast this spell, pick a visible enemy unit within 18\" of them to be the target, then make a casting roll of 2D6.","effect":"Roll a number of dice equal to the number of models in the target unit. For each 5+, inflict 1 mortal damage on the target.","castingValue":7,"keywords":["Spell"]}} />
+
 ### Cthonic Sorceries
+
 #### Summon Vault of Souls
 
 <WarscrollAbility ability={{"name":"Summon Vault of Souls","header":{"icon":"special","color":"yellow","text":"Your Hero Phase"},"declare":"If there is not a friendly Vault of Souls on the battlefield, pick a friendly Nighthaunt Wizard to cast this spell, then make a casting roll of 2D6.","effect":"Set up a Vault of Souls wholly within 12\" of the caster and visible to them.","castingValue":6,"keywords":["Summon","Spell"]}} />
+
 #### Summon Shyish Reaper
 
 <WarscrollAbility ability={{"name":"Summon Shyish Reaper","header":{"icon":"special","color":"yellow","text":"Your Hero Phase"},"declare":"If there is not a friendly Shyish Reaper on the battlefield, pick a friendly Nighthaunt Wizard to cast this spell, then make a casting roll of 2D6.","effect":"Set up a Shyish Reaper wholly within 9\" of the caster, visible to them and more than 9\" from all enemy units.","castingValue":6,"keywords":["Summon","Spell"]}} />
+
 #### Summon Mortalis Terminexus
 
 <WarscrollAbility ability={{"name":"Summon Mortalis Terminexus","header":{"icon":"special","color":"yellow","text":"Your Hero Phase"},"declare":"If there is not a friendly Mortalis Terminexus on the battlefield, pick a friendly Nighthaunt Wizard to cast this spell, then make a casting roll of 2D6.","effect":"Set up a Mortalis Terminexus wholly within 12\" of the caster and visible to them.","castingValue":6,"keywords":["Summon","Spell"]}} />
 
 ## Artefacts of Power
+
 ### Covetous Familiar
 
 <WarscrollAbility ability={{"name":"Covetous Familiar","header":{"icon":"offensive","color":"red","text":"Reaction: Opponent declared a Fight ability for a unit in combat with this unit"},"effect":"Roll a D3. On a 2+, inflict an amount of mortal damage on that enemy unit equal to the roll."}} />
+
 ### Lightshard of the Harvest Moon
 
 <WarscrollAbility ability={{"name":"Lightshard of the Harvest Moon","header":{"icon":"offensive","color":"red","text":"Once Per Battle, Any Combat Phase"},"effect":"If this unit is in combat, add 1 to the Attacks characteristic of melee weapons used by friendly Nighthaunt units wholly within 12\" of this unit for the rest of the turn."}} />
+
 ### Soulfire Ring
 
 <WarscrollAbility ability={{"name":"Soulfire Ring","header":{"icon":"defensive","color":"eggplant","text":"End of Any Turn"},"effect":"If any enemy models were slain by this unit’s combat attacks this turn, Heal (D6) this unit."}} />
 
 ## Heroic Traits
+
 ### Cloaked in Shadow
 
 <WarscrollAbility ability={{"name":"Cloaked in Shadow","header":{"icon":"defensive","color":"green","text":"Passive"},"effect":"If the unmodified hit roll for an **attack** that targets this unit is 1-3, the **attack** fails and the **attack** sequence ends."}} />
+
 ### Ruler of the Spectral Hosts
 
 <WarscrollAbility ability={{"name":"Ruler of the Spectral Hosts","header":{"icon":"rallying","color":"gray","text":"Once Per Battle, Your Movement Phase"},"declare":"Pick a friendly Nighthaunt unit that started the battle with 3 or more models and that has been destroyed to be the target.","effect":"Set up a replacement unit with half the number of models from the target unit (rounding up) wholly within 12\" of this unit and more than 9\" from all enemy units."}} />
+
 ### Terrifying Entity
 
 <WarscrollAbility ability={{"name":"Terrifying Entity","header":{"icon":"special","color":"green","text":"Passive"},"effect":"This unit can use any of the **Aura of Dread** abilities, even if it doesn’t have the required keyword(s) for that ability."}} />
 
 ## Warscrolls
+
 ### Awlrach the Drowner
 
 <Warscroll color={"#335648"} icon={"nighthaunt.png"} unit={{"name":"Awlrach the Drowner","profile":{"points":160,"unitSize":1,"regimentOptions":[],"baseSizes":["80mm"],"notes":null},"stats":{"movement":"10\"","save":"4+","health":"7","control":"2"},"primaryKeywords":["War Machine","Unique","Ward (6+)","Fly","Hero"],"secondaryKeywords":["Nighthaunt","Grand Alliance Death"],"abilities":[{"name":"Passage Through The Underworlds","header":{"icon":"movement","color":"gray","text":"Once Per Turn (Army), Your Movement Phase"},"declare":"If this unit is not in combat, pick a friendly non-Hero Nighthaunt unit that is not in combat and is wholly within 12\" of this unit to be the target.","effect":"Remove this unit and the target from the battlefield, then set them up again on the battlefield wholly within 6\" of each other and more than 7\" from all enemy units.","keywords":["Core"]}],"meleeWeapons":[{"name":"Deathwood Oar","atk":"4","hit":"4+","wnd":"3+","rnd":"2","dmg":"D3","abilities":["Crit (Auto-wound)"]}]}} />
@@ -203,5 +228,4 @@ import WarscrollAbility from '@site/src/components/WarscrollAbility';
 ### Vault of Souls
 
 <Warscroll color={"#335648"} icon={"nighthaunt.png"} unit={{"name":"Vault of Souls","profile":{"points":null,"unitSize":1,"regimentOptions":[],"baseSizes":["50mm"],"notes":null},"stats":{"movement":"-","save":"4+","health":"6","banishment":"8+"},"primaryKeywords":["Manifestation","Endless Spell","Ward (6+)","Fly"],"secondaryKeywords":["Nighthaunt","Grand Alliance Death"],"abilities":[{"name":"Siphon Souls","header":{"icon":"special","color":"black","text":"Passive"},"declare":null,"effect":"Each time a model (friendly or enemy) is slain within 12\" of this Manifestation, give this Manifestation a soul point, to a maximum of 6."},{"name":"Soul Eruption","header":{"icon":"offensive","color":"eggplant","text":"End of Any Turn"},"declare":"If this Manifestation has 6 soul points, pick any number of enemy units within 6\" of this unit to be the targets.","effect":"Roll a dice for each target. On a 3+, inflict an amount of mortal damage on the target equal to the roll. Then, reset this Manifestation’s soul points to 0."}]}} />
-
 

@@ -6,32 +6,41 @@ import Warscroll from '@site/src/components/Warscroll';
 import WarscrollAbility from '@site/src/components/WarscrollAbility';
 
 ## Battle Traits
+
 ### Colossal Slam
 
 <WarscrollAbility ability={{"name":"Colossal Slam","header":{"icon":"offensive","color":"red","text":"Once Per Turn (Army), Any Combat Phase"},"declare":"Pick a friendly Mega‑**Gargant** that has not used a **Rampage** ability this turn to use this ability, then pick an enemy **Monster** or **War Machine** within 1\" of it to be the target.","effect":"Roll a dice. On a 3+, remove the target from the battlefield and set it up again within 1\" of the unit using this ability. Then, inflict D3 mortal damage on the target.","keywords":["Rampage"]}} />
+
 ### Earthshaking Roar
 
 <WarscrollAbility ability={{"name":"Earthshaking Roar","header":{"icon":"special","color":"red","text":"Once Per Turn (Army), Any Combat Phase"},"declare":"Pick a friendly Mega‑**Gargant** or **Gargant** unit that has not used a **Rampage** ability this turn to use this ability, then pick an enemy unit in combat with it to be the target.","effect":"Roll a dice. On a 3+, the target cannot use commands for the rest of the turn.","keywords":["Rampage"]}} />
+
 ### Gargant Charge
 
 <WarscrollAbility ability={{"name":"Gargant Charge","header":{"icon":"offensive","color":"orange","text":"Any Charge Phase"},"declare":"Pick a friendly Mega‑**Gargant** or **Gargant** unit that charged this turn and has not used a **Rampage** ability this turn to use this ability, then pick a visible enemy unit within 1\" of it to be the target.","effect":"Roll a D3. On a 2+, inflict an amount of mortal damage on the target equal to the roll.","keywords":["Rampage"]}} />
+
 ### Jump Up and Down
 
 <WarscrollAbility ability={{"name":"Jump Up and Down","header":{"icon":"offensive","color":"red","text":"Once Per Turn (Army), Any Combat Phase"},"declare":"Pick a friendly Mega‑**Gargant** or **Gargant** unit that has not used a **Rampage** ability this turn to use this ability, then pick an enemy **Infantry** unit in combat with it to be the target.","effect":"Roll a dice. On a 3+, roll a dice for each model in the target unit. If the unit using this ability is a **Gargant**, inflict 1 mortal damage on the target for each 6. If it is a **Mega-Gargant**, inflict 1 mortal damage on the target for each 5+.","keywords":["Rampage"]}} />
+
 ### Timberrrrr!
 
 <WarscrollAbility ability={{"name":"Timberrrrr!","header":{"icon":"offensive","color":"red","text":"Passive"},"effect":"Each time a friendly Mega‑**Gargant** or **Gargant** model is slain, before removing it from play, the players must roll off. The winner picks a point on the battlefield within 3\" of that model. Inflict D3 mortal damage on each unit (friendly and enemy) within 3\" of that point that has a lower Health characteristic than that model."}} />
 
 ## Battle Formations
+
 ### Boss Tribe
 
 <WarscrollAbility ability={{"name":"Big Mouth","header":{"icon":"offensive","color":"red","text":"Once Per Turn (Army), Reaction: You declared a Fight ability for a friendly Mega-Gargant"},"declare":null,"effect":"Pick a friendly Gargant unit that has not used a Fight ability this turn and is wholly within 12\" of this unit to be the target. The target can be picked to use a Fight ability immediately after the Fight ability used by this unit has been resolved."}} />
+
 ### Breaker Tribe
 
 <WarscrollAbility ability={{"name":"Besieging Bulk","header":{"icon":"defensive","color":"green","text":"Passive"},"declare":null,"effect":"Friendly Mega-Gargants have Ward (6+) while they are within the combat ranges of any other friendly Mega-Gargants."}} />
+
 ### Stomper Tribe
 
 <WarscrollAbility ability={{"name":"Revel in War","header":{"icon":"offensive","color":"red","text":"Passive"},"declare":null,"effect":"You can pick 2 friendly Mega‑Gargants or Gargant units that have not used a Rampage ability this turn to use the ‘Jump Up and Down’ ability instead of 1."}} />
+
 ### Taker Tribe
 
 <WarscrollAbility ability={{"name":"More Stuff For Me Collection","header":{"icon":"special","color":"black","text":"Once Per Battle, Deployment Phase"},"declare":"Pick a friendly non-Unique Sons of Behemat Hero that does not have an artefact of power.","effect":"Give that Hero 1 artefact of power from ‘Titanic Trophies’.\n\nDesigner’s Note: This artefact of power is given to the unit during the deployment phase, not during army composition."}} />
@@ -39,37 +48,47 @@ import WarscrollAbility from '@site/src/components/WarscrollAbility';
 ## Arcana and Incantations
 
 ## Artefacts of Power
+
 ### Amberstone Totem
 
 <WarscrollAbility ability={{"name":"Amberstone Totem","header":{"icon":"movement","color":"orange","text":"Once Per Battle, Your Charge Phase"},"effect":"For the rest of the turn, this unit can use **Charge** abilities even if it used a **Run** ability in the same turn."}} />
+
 ### Extra-calloused Feet
 
 <WarscrollAbility ability={{"name":"Extra-calloused Feet","header":{"icon":"offensive","color":"red","text":"Passive"},"effect":"Add 1 to the Attacks characteristic, Rend characteristic and Damage characteristic of this unit’s Almighty Stomp or Almightier Stomp."}} />
+
 ### Glowy Lantern
 
 <WarscrollAbility ability={{"name":"Glowy Lantern","header":{"icon":"special","color":"yellow","text":"Passive"},"effect":"This unit can use **Summon** abilities from the **manifestation** lore you picked during army composition as if it had **Wizard** (1)."}} />
+
 ### Glowy Shield of Protectiness
 
 <WarscrollAbility ability={{"name":"Glowy Shield of Protectiness","header":{"icon":"defensive","color":"green","text":"Passive"},"effect":"Each time you make an unmodified save roll of 6 for a combat **attack** that targets this unit, inflict 1 mortal damage on the attacking unit after the **Fight** ability has been resolved."}} />
+
 ### Kingslaughter Cowl
 
 <WarscrollAbility ability={{"name":"Kingslaughter Cowl","header":{"icon":"offensive","color":"red","text":"Passive"},"effect":"Add 1 to the Attacks characteristic of this unit’s melee weapons while this unit is in combat with an enemy **Hero**."}} />
+
 ### Mantle of Tusk and Horns
 
 <WarscrollAbility ability={{"name":"Mantle of Tusk and Horns","header":{"icon":"offensive","color":"red","text":"Once Per Battle, Your Combat Phase"},"effect":"For the rest of the turn, add 1 to hit rolls for combat attacks made by friendly Sons of Behemat units while they are wholly within 12\" of this unit."}} />
 
 ## Heroic Traits
+
 ### Furious Temper
 
 <WarscrollAbility ability={{"name":"Furious Temper","header":{"icon":"offensive","color":"red","text":"Once Per Battle, Any Combat Phase"},"effect":"For the rest of the turn:\n\n• Add 2 to the Attacks characteristic of this unit’s melee weapons.\n• Subtract 1 from save rolls for this unit."}} />
+
 ### Monstrously Tough
 
 <WarscrollAbility ability={{"name":"Monstrously Tough","header":{"icon":"defensive","color":"green","text":"Passive"},"effect":"This unit has a Health characteristic of 40 instead of 35."}} />
+
 ### Rabble Rouser
 
 <WarscrollAbility ability={{"name":"Rabble Rouser","header":{"icon":"movement","color":"orange","text":"Passive"},"effect":"Add 1 to **charge** rolls for friendly Sons of Behemat units while they are wholly within 12\" of this unit."}} />
 
 ## Warscrolls
+
 ### Beast-smasher Mega-Gargant
 
 <Warscroll color={"#442D2F"} icon={"sons-of-behemath.png"} unit={{"name":"Beast-smasher Mega-Gargant","profile":{"points":470,"unitSize":1,"regimentOptions":[],"baseSizes":["130mm"],"notes":"This Hero can join an eligible regiment as an Eager Lout."},"stats":{"movement":"10\"","save":"4+","health":"35","control":"20"},"primaryKeywords":["Mega-Gargant","Monster","Eager Lout","Hero"],"secondaryKeywords":["Grand Alliance Destruction","King Brodd's Stomp","Sons of Behemat"],"abilities":[{"name":"Behemoth Brawler","header":{"icon":"defensive","color":"green","text":"Passive"},"declare":null,"effect":"Subtract 1 from the Attacks characteristic of enemy Monsters while they are in combat with this unit."},{"name":"Longshanks","header":{"icon":"movement","color":"gray","text":"Passive"},"declare":null,"effect":"This unit can pass through models in non-Monster units and parts of terrain features that are less than 4\" tall."},{"name":"Beast-breaking Strike","header":{"icon":"offensive","color":"red","text":"Any Combat Phase"},"declare":"Pick an enemy Monster in combat with this unit to be the target.","effect":"This unit can make a pile-in move. Then, roll a dice. On a 4+, inflict 5D6 mortal damage on the target.","keywords":["Core","Attack","Fight"]},{"name":"Battle Damaged","header":{"icon":"battleDamaged","color":"black","text":"Passive"},"declare":null,"effect":"While this unit has 15 or more damage points, the Attacks characteristic of its Menhir Club is 3 and this unit has a Control characteristic of 10."},{"name":"Son of Behemat","header":{"icon":"defensive","color":"green","text":"Passive"},"declare":null,"effect":"If this unit would be automatically destroyed, it is not automatically destroyed. Instead, allocate 6 damage points to it (ward rolls cannot be made for those damage points)."}],"meleeWeapons":[{"name":"Death Grip","atk":"1","hit":"4+","wnd":"2+","rnd":"2","dmg":"D6","abilities":["Anti-Hero (+1 Rend)"]},{"name":"💀Menhir Club","atk":"4","hit":"4+","wnd":"2+","rnd":"2","dmg":"5","abilities":["Anti-Monster (+1 Rend)"]},{"name":"Almighty Stomp","atk":"2","hit":"4+","wnd":"2+","rnd":"2","dmg":"D3","abilities":["Anti-Infantry (+1 Rend)"]}]}} />
@@ -101,5 +120,4 @@ import WarscrollAbility from '@site/src/components/WarscrollAbility';
 ### Mancrusher Mob
 
 <Warscroll color={"#442D2F"} icon={"sons-of-behemath.png"} unit={{"name":"Mancrusher Mob","profile":{"points":420,"unitSize":3,"regimentOptions":[],"baseSizes":["90 x 52mm"],"notes":"This unit cannot be reinforced."},"stats":{"movement":"8\"","save":"5+","health":"12","control":"10"},"primaryKeywords":["Gargant","Monster"],"secondaryKeywords":["Grand Alliance Destruction","King Brodd's Stomp","Sons of Behemat"],"abilities":[{"name":"'Oo's Under The Heel Now?","header":{"icon":"offensive","color":"orange","text":"Passive"},"declare":null,"effect":"Each time this unit uses the ‘Gargant Charge’ ability, add 1 to the amount of mortal damage inflicted, if any, for each model in this unit."},{"name":"Keep Up!","header":{"icon":"movement","color":"orange","text":"Passive"},"declare":null,"effect":"While this unit is wholly within 12\" of a friendly Mega-Gargant, this unit can use Charge abilities even if it used a Run ability in the same turn."},{"name":"Stuff 'Em In Me Bag","header":{"icon":"offensive","color":"red","text":"Once Per Turn, Any Combat Phase"},"declare":"Pick an enemy unit in combat with this unit to be the target.","effect":"Roll a dice. If the roll is at least double the target’s Health characteristic, 1 model in the target unit is slain."}],"meleeWeapons":[{"name":"Massive Club","atk":"4","hit":"4+","wnd":"2+","rnd":"1","dmg":"2","abilities":[]},{"name":"Mighty Kick","atk":"1","hit":"4+","wnd":"2+","rnd":"2","dmg":"D3","abilities":[]},{"name":"’Eadbutt","atk":"1","hit":"4+","wnd":"2+","rnd":"2","dmg":"4","abilities":[]}],"rangedWeapons":[{"name":"Throwin’ Rocks","rng":"12\"","atk":"1","hit":"5+","wnd":"2+","rnd":"2","dmg":"D3","abilities":[]}]}} />
-
 

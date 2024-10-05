@@ -6,71 +6,91 @@ import Warscroll from '@site/src/components/Warscroll';
 import WarscrollAbility from '@site/src/components/WarscrollAbility';
 
 ## Battle Traits
+
 ### Deathly Invocation
 
 <WarscrollAbility ability={{"name":"Deathly Invocation","header":{"icon":"rallying","color":"yellow","text":"Once Per Turn (Army), Any Hero Phase"},"declare":"Pick a friendly Soulblight Gravelords **Hero** to use this ability, then pick up to 3 friendly **Deathrattle** or **Deadwalkers** units wholly within 12\" of that **Hero** to be the targets.","effect":"For each target:\n\n• If the target is damaged, Heal (3) the target.\n• If the target is not damaged, return a number of slain models to it with a combined Health characteristic of up to 3."}} />
+
 ### Endless Legions
 
 <WarscrollAbility ability={{"name":"Endless Legions","header":{"icon":"special","color":"gray","text":"Once Per Turn (Army), Any Movement Phase"},"declare":"Pick a friendly non-**Unique** **Deathrattle** or **Deadwalkers** unit that started the battle with 2 or more models and that has been destroyed to be the target.","effect":"Set up a replacement unit with half the number of models from the target unit (rounding up) wholly within 12\" of a friendly Soulblight Gravelords **Hero** or wholly within 6\" of a terrain feature. It must be set up more than 9\" from all enemy units.\n\nIf it is your movement phase, you can set up the replacement unit more than 3\" from all enemy units instead of more than 9\", but if you set it up within 9\" of any enemy units, it cannot use **Charge** abilities this turn."}} />
+
 ### The Hunger
 
 <WarscrollAbility ability={{"name":"The Hunger","header":{"icon":"defensive","color":"eggplant","text":"Once Per Turn (Army), End of Any Turn"},"declare":"Pick each friendly **Vampire** unit that used a **Fight** ability this turn to be the targets.","effect":"Heal (D3) each target. Heal (2D3) the target instead if it destroyed an enemy unit this turn using a **Fight** ability."}} />
+
 ### The Rising Dead
 
 <WarscrollAbility ability={{"name":"The Rising Dead","header":{"icon":"movement","color":"gray","text":"Your Movement Phase"},"declare":"Pick a friendly unit that is in the grave.","effect":"Set up that unit wholly within 6\" of a terrain feature and more than 9\" from all enemy units."}} />
+
 ### The Unquiet Dead
 
 <WarscrollAbility ability={{"name":"The Unquiet Dead","header":{"icon":"special","color":"black","text":"Deployment Phase"},"declare":"Pick a friendly **Deathrattle** or **Deadwalkers** unit that has not been deployed.","effect":"Set up that unit in reserve in the grave. It has now been deployed. You cannot set up more friendly units in the grave than there are on the battlefield.","keywords":["Deploy"]}} />
 
 ## Battle Formations
+
 ### Bacchanal of Blood
 
 <WarscrollAbility ability={{"name":"Aristocracy of the Night","header":{"icon":"special","color":"black","text":"Passive"},"declare":null,"effect":"Add 1 to casting rolls for friendly Vampire units that are not in combat and add 1 to wound rolls for combat attacks made by friendly Vampire units that charged in the same turn."}} />
+
 ### Deathmarch
 
 <WarscrollAbility ability={{"name":"Tide of Bones and Blades","header":{"icon":"offensive","color":"red","text":"Passive"},"declare":null,"effect":"Add 1 to the Rend characteristic of melee weapons used by friendly Deathrattle units that charged in the same turn for attacks that target a unit that has fewer models than the attacking unit."}} />
+
 ### Deathstench Drove
 
 <WarscrollAbility ability={{"name":"Dragged Down and Torn Apart","header":{"icon":"offensive","color":"eggplant","text":"Once Per Turn (Army), End of Any Turn"},"declare":"Pick up to 3 friendly Deadwalkers units in combat to be the targets.","effect":"For each target:\n\n• Make a pile-in move.\n• Then, pick an enemy unit in combat with the target and roll a D3. On a 2+, inflict an amount of mortal damage on that enemy unit equal to the roll."}} />
+
 ### Legion of Shyish
 
 <WarscrollAbility ability={{"name":"Horror Unending","header":{"icon":"special","color":"yellow","text":"Passive"},"declare":null,"effect":"You can pick 1 additional target when using the ‘Deathly Invocation’ ability."}} />
 
 ## Arcana and Incantations
+
 ### Lore of Undeath
+
 #### Prison of Grief
 
 <WarscrollAbility ability={{"name":"Prison of Grief","header":{"icon":"defensive","color":"yellow","text":"Your Hero Phase"},"declare":"Pick a friendly Soulblight Gravelords Wizard to cast this spell, pick a visible enemy unit within 12\" of them to be the target, then make a casting roll of 2D6.","effect":"The target has Strike-last until the start of your next turn.","castingValue":7,"keywords":["Spell"]}} />
+
 #### Waste Away
 
 <WarscrollAbility ability={{"name":"Waste Away","header":{"icon":"defensive","color":"yellow","text":"Your Hero Phase"},"declare":"Pick a friendly Soulblight Gravelords Wizard to cast this spell, pick a visible enemy unit within 12\" of them to be the target, then make a casting roll of 2D6.","effect":"For the rest of the turn, subtract 1 from the Damage characteristic of the target’s melee weapons.","castingValue":7,"keywords":["Spell"]}} />
+
 #### Vile Transference
 
 <WarscrollAbility ability={{"name":"Vile Transference","header":{"icon":"special","color":"yellow","text":"Your Hero Phase"},"declare":"Pick a friendly Soulblight Gravelords Wizard to cast this spell, pick a visible enemy unit within 18\" of them that has not been picked to be the target of this ability this turn to be the target, then make a casting roll of 2D6.","effect":"Roll a number of dice equal to the number of models in the target unit. For each 6, inflict 1 mortal damage on that unit. If any enemy models were slain by this spell, Heal (D3) the caster.","castingValue":7,"keywords":["Spell","Unlimited"]}} />
 
 ## Artefacts of Power
+
 ### Amulet of Screams
 
 <WarscrollAbility ability={{"name":"Amulet of Screams","header":{"icon":"offensive","color":"yellow","text":"Reaction: Opponent declared a Spell ability for a Wizard within 18\" of this unit"},"effect":"Roll a D3. On a 2+, inflict an amount of mortal damage on the caster equal to the roll. If the target is destroyed by this ability, do not resolve the effect of that **Spell** ability."}} />
+
 ### Orb of Enchantment
 
 <WarscrollAbility ability={{"name":"Orb of Enchantment","header":{"icon":"defensive","color":"red","text":"Once Per Battle, Any Combat Phase"},"declare":"Pick an enemy **Hero** in combat with this unit to be the target.","effect":"The target has Strike-last for the rest of the turn."}} />
+
 ### Shard of Night
 
 <WarscrollAbility ability={{"name":"Shard of Night","header":{"icon":"defensive","color":"teal","text":"Passive"},"effect":"Ignore modifiers to save rolls for shooting attacks that target this unit (positive and negative)."}} />
 
 ## Heroic Traits
+
 ### Lash of the Sire
 
 <WarscrollAbility ability={{"name":"Lash of the Sire","header":{"icon":"movement","color":"yellow","text":"Once Per Turn, Your Hero Phase"},"declare":"Pick another friendly Soulblight Gravelords unit within this unit’s combat range to be the target.","effect":"Roll a dice. On a 2+, if the target is not in combat, it can **move** D6\". If the target is in combat, it can make a pile‑in **move**."}} />
+
 ### Unbending Will
 
 <WarscrollAbility ability={{"name":"Unbending Will","header":{"icon":"control","color":"yellow","text":"Once Per Turn, Your Hero Phase"},"declare":"Pick a friendly **Deathrattle** or **Deadwalkers** unit that has 2 or more models and is wholly within 12\" of this unit to be the target.","effect":"Add D6 to the target’s control score for the rest of the turn."}} />
+
 ### Unhinged Rampager
 
 <WarscrollAbility ability={{"name":"Unhinged Rampager","header":{"icon":"movement","color":"orange","text":"Passive"},"effect":"You can re-roll **charge** rolls for this unit in your **charge** phase."}} />
 
 ## Warscrolls
+
 ### Belladamma Volga, First of the Vyrkos
 
 <Warscroll color={"#430505"} icon={"soulblight-gravelords.png"} unit={{"name":"Belladamma Volga, First of the Vyrkos","profile":{"points":230,"unitSize":1,"regimentOptions":[],"baseSizes":["60mm"],"notes":null},"stats":{"movement":"8\"","save":"4+","health":"9","control":"5"},"primaryKeywords":["Vampire","Wizard","Unique","Ward (6+)","Cavalry","Hero"],"secondaryKeywords":["Grand Alliance Death","Soulblight Gravelords"],"abilities":[{"name":"First of the Vyrkos","header":{"icon":"control","color":"eggplant","text":"Passive"},"declare":null,"effect":"Add 3 to the control scores of friendly Radukar the Wolf, Radukar the Beast, Ivya Volga, Lady Annika, Kritza, Vyrkos Blood-born and Vargskyr units while they are wholly within 18\" of this unit."},{"name":"Under a Killing Moon","header":{"icon":"special","color":"yellow","text":"Your Hero Phase"},"declare":"Pick up to 3 visible friendly Dire Wolves units wholly within 18\" of this unit to be the targets, then make a casting roll of 2D6.","effect":"For the rest of the turn:\n• Add 1 to the Rend characteristic of the targets’ melee weapons.\n• The targets can ignore the effect of the ‘Beast’ ability.","castingValue":7,"keywords":["Spell"]},{"name":"Wolfguard","header":{"icon":"defensive","color":"green","text":"Passive"},"declare":null,"effect":"While this unit is within the combat range of a friendly Dire Wolves unit:\n\n• This unit has Ward (4+).\n• Each time you make a successful ward roll for this unit, allocate 1 damage point to a friendly Dire Wolves unit within this unit’s combat range after the damage sequence for this unit has been resolved (ward rolls cannot be made for those damage points)."}],"meleeWeapons":[{"name":"Timeworn Scimitar","atk":"4","hit":"3+","wnd":"3+","rnd":"1","dmg":"2","abilities":[]},{"name":"Lupine Fangs and Claws","atk":"6","hit":"4+","wnd":"4+","rnd":"-","dmg":"1","abilities":["Companion"]}]}} />
@@ -230,5 +250,4 @@ import WarscrollAbility from '@site/src/components/WarscrollAbility';
 ### Zombie Dragon
 
 <Warscroll color={"#430505"} icon={"soulblight-gravelords.png"} unit={{"name":"Zombie Dragon","profile":{"points":270,"unitSize":1,"regimentOptions":[],"baseSizes":["130mm"],"notes":null},"stats":{"movement":"12\"","save":"5+","health":"14","control":"5"},"primaryKeywords":["Monster","Ward (6+)","Fly"],"secondaryKeywords":["Grand Alliance Death","Soulblight Gravelords"],"abilities":[{"name":"Death on Tattered Wings","header":{"icon":"special","color":"black","text":"Deployment Phase"},"declare":"Pick this unit if it has not been deployed.","effect":"Set up this unit in reserve high above the battlefield. It has now been deployed.","keywords":["Deploy"]},{"name":"Battle Damaged","header":{"icon":"battleDamaged","color":"black","text":"Passive"},"declare":null,"effect":"While this unit has 10 or more damage points, the Attacks characteristic of its Draconic Claws is 5."},{"name":"Armour Crunch","header":{"icon":"offensive","color":"red","text":"Once Per Turn (Army), Any Combat Phase"},"declare":"If this unit charged this turn, pick an enemy Cavalry or Monster unit in combat with it to be the target.","effect":"Roll a dice. If the roll is equal to or exceeds the target’s Save characteristic, inflict 3 mortal damage on the target.","keywords":["Rampage"]},{"name":"Loathsome Descent","header":{"icon":"movement","color":"gray","text":"Your Movement Phase"},"declare":"Pick this unit if it is high above the battlefield.","effect":"Set up this unit anywhere on the battlefield more than 9\" from all enemy units."}],"meleeWeapons":[{"name":"💀Draconic Claws","atk":"7","hit":"4+","wnd":"2+","rnd":"1","dmg":"2","abilities":["Companion"]},{"name":"Draconic Maw","atk":"3","hit":"4+","wnd":"2+","rnd":"2","dmg":"3","abilities":["Companion"]}],"rangedWeapons":[{"name":"Pestilential Breath","rng":"10\"","atk":"D6","hit":"2+","wnd":"4+","rnd":"1","dmg":"2","abilities":["Shoot in Combat","Companion"]}]}} />
-
 

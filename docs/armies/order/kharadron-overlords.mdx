@@ -6,29 +6,37 @@ import Warscroll from '@site/src/components/Warscroll';
 import WarscrollAbility from '@site/src/components/WarscrollAbility';
 
 ## Battle Traits
+
 ### Descend from the Clouds
 
 <WarscrollAbility ability={{"name":"Descend from the Clouds","header":{"icon":"movement","color":"gray","text":"Your Movement Phase"},"declare":"Pick a friendly **Skyvessel** in the clouds to use this ability.","effect":"Set up that **Skyvessel** anywhere on the battlefield more than 9\" from all enemy units. Then, set up all other units that were set up in the clouds with that **Skyvessel** wholly within 6\" of it and more than 9\" from all enemy units."}} />
+
 ### Flying High
 
 <WarscrollAbility ability={{"name":"Flying High","header":{"icon":"special","color":"black","text":"Once Per Battle, Deployment Phase"},"declare":"Pick a friendly **Skyvessel** that is part of a regiment from which no units have been deployed, then pick a number of units up to its Transport Capacity (see its warscroll) that are in its regiment.","effect":"Set up all of those units in reserve in the clouds. They have now been deployed.","keywords":["Deploy"]}} />
+
 ### Skyvessel Cover
 
 <WarscrollAbility ability={{"name":"Skyvessel Cover","header":{"icon":"defensive","color":"green","text":"Passive"},"effect":"Subtract 1 from hit rolls for shooting attacks that target friendly Kharadron Overlords **Infantry** units while they are wholly within 6\" of a friendly Arkanaut Ironclad or Arkanaut Frigate."}} />
+
 ### Transport Skyfarers
 
 <WarscrollAbility ability={{"name":"Transport Skyfarers","header":{"icon":"movement","color":"gray","text":"Reaction: You declared a non-Charge Move ability for a friendly Skyvessel"},"effect":"Pick a number of units up to that **Skyvessel**’s Transport Capacity (see its warscroll) that are wholly within 6\" of it to be the targets. Units that have been transported this turn cannot be targets.\n\nRemove the targets from the battlefield. After the **Skyvessel** ends its **move**, you must set up each target unit on the battlefield, wholly within 6\" of that **Skyvessel** and not in combat. Those units have been transported. A unit cannot use **Charge** abilities if it was transported in the same turn."}} />
 
 ## Battle Formations
+
 ### Aether-runners
 
 <WarscrollAbility ability={{"name":"Fastest Vessels in the Fleet","header":{"icon":"movement","color":"gray","text":"Passive"},"declare":null,"effect":"Add 2\" to the Move characteristic of all friendly Skyvessels."}} />
+
 ### Endrineers Guild Expeditionary Force
 
 <WarscrollAbility ability={{"name":"Special Procurement","header":{"icon":"special","color":"black","text":"Once Per Battle, Deployment Phase"},"declare":"Pick a friendly non-Unique Kharadron Overlords Hero that does not have an artefact of power.","effect":"Give that Hero 1 artefact of power from the ‘Inventions of the Sky‑ports’.\n\nDesigner’s Note: This artefact of power is given to the unit during the deployment phase, not during army composition."}} />
+
 ### Grundcorps Wing
 
 <WarscrollAbility ability={{"name":"Grudgesettler Protocols","header":{"icon":"shooting","color":"teal","text":"Once Per Battle, Your Shooting Phase"},"declare":null,"effect":"Add 3\" to the Range characteristic of ranged weapons used by friendly Grundstok Thunderers and Grundstok Gunhaulers units for the rest of the turn."}} />
+
 ### Iron Sky Attack Squadron
 
 <WarscrollAbility ability={{"name":"Meticulously Maintained","header":{"icon":"defensive","color":"green","text":"Passive"},"declare":null,"effect":"Ignore the first damage point that would be allocated to each friendly Skyvessel in each phase."}} />
@@ -36,28 +44,35 @@ import WarscrollAbility from '@site/src/components/WarscrollAbility';
 ## Arcana and Incantations
 
 ## Artefacts of Power
+
 ### Blazebeard and Sons 'Drakk-Hobbler' Mag-Bolas
 
 <WarscrollAbility ability={{"name":"Blazebeard and Sons 'Drakk-Hobbler' Mag-Bolas","header":{"icon":"defensive","color":"black","text":"Once Per Battle, Any Shooting or Combat Phase"},"declare":"Pick an enemy **Monster** within 12\" of this unit to be the target.","effect":"Until the start of your next turn, subtract 1 from the number of dice rolled when making **charge** rolls for the target, to a minimum of 1."}} />
+
 ### Celestium Burst-grenade
 
 <WarscrollAbility ability={{"name":"Celestium Burst-grenade","header":{"icon":"offensive","color":"teal","text":"Once Per Battle, Your Shooting Phase"},"declare":"Pick an enemy unit within 12\" of this unit to be the target.","effect":"Ward rolls cannot be made for the target for the rest of the turn."}} />
+
 ### Voidstone Orb
 
 <WarscrollAbility ability={{"name":"Voidstone Orb","header":{"icon":"special","color":"yellow","text":"Once Per Battle, Reaction: Opponent declared a Spell ability for a Wizard within 30\" of this unit"},"effect":"That **spell** is unbound."}} />
 
 ## Heroic Traits
+
 ### Cunning Fleetmaster
 
 <WarscrollAbility ability={{"name":"Cunning Fleetmaster","header":{"icon":"movement","color":"gray","text":"Passive"},"effect":"Each time a friendly **Skyvessel** wholly within 12\" of this unit uses the ‘Redeploy’ command, roll 2 dice and use the highest result when determining the distance that unit can **move**."}} />
+
 ### Endrinmaestro
 
 <WarscrollAbility ability={{"name":"Endrinmaestro","header":{"icon":"shooting","color":"teal","text":"Passive"},"effect":"Add 2\" to the Range characteristic of ranged weapons used by friendly Kharadron Overlords **Infantry** units while they are wholly within 12\" of this unit."}} />
+
 ### Grudgebearer
 
 <WarscrollAbility ability={{"name":"Grudgebearer","header":{"icon":"offensive","color":"black","text":"Deployment Phase"},"declare":"Pick an enemy unit to be the target.","effect":"Double the Damage characteristic of this unit’s weapons for attacks that target that enemy unit for the rest of the battle."}} />
 
 ## Warscrolls
+
 ### Aether-Khemist
 
 <Warscroll color={"#67473A"} icon={"kharadron-overlords.png"} unit={{"name":"Aether-Khemist","profile":{"points":130,"unitSize":1,"regimentOptions":[],"baseSizes":["32mm"],"notes":"This Hero can join an eligible regiment as a Guild Officer."},"stats":{"movement":"4\"","save":"4+","health":"5","control":"2"},"primaryKeywords":["Guild Officer","Duardin","Infantry","Skyfarer","Hero"],"secondaryKeywords":["Grundstok Expeditionary Force","Kharadron Overlords","Grand Alliance Order"],"abilities":[{"name":"Atmospheric Isolation","header":{"icon":"defensive","color":"red","text":"Any Combat Phase"},"declare":"Pick an enemy unit in combat with this unit to be the target.","effect":"Roll a dice. On a 3+, subtract 1 from hit rolls for the target’s combat attacks for the rest of the turn."},{"name":"Aetheric Augmentation","header":{"icon":"shooting","color":"teal","text":"Once Per Turn (Army), Your Shooting Phase"},"declare":"Pick a friendly Kharadron Overlords Infantry unit wholly within 12\" of this unit to be the target.","effect":"Roll a dice. On a 3+, add 1 to the Rend characteristic of the target’s ranged weapons for the rest of the turn."}],"meleeWeapons":[{"name":"Heavy Instruments","atk":"3","hit":"4+","wnd":"4+","rnd":"-","dmg":"D3","abilities":[]}],"rangedWeapons":[{"name":"Atmospheric Anatomiser","rng":"8\"","atk":"3D6","hit":"4+","wnd":"4+","rnd":"2","dmg":"1","abilities":["Shoot in Combat"]}]}} />
@@ -117,5 +132,4 @@ import WarscrollAbility from '@site/src/components/WarscrollAbility';
 ### Skywardens
 
 <Warscroll color={"#67473A"} icon={"kharadron-overlords.png"} unit={{"name":"Skywardens","profile":{"points":140,"unitSize":3,"regimentOptions":[],"baseSizes":["32mm"],"notes":null},"stats":{"movement":"12\"","save":"4+","health":"2","control":"1"},"primaryKeywords":["Champion","Duardin","Infantry","Skyfarer","Fly"],"secondaryKeywords":["Kharadron Overlords","Grand Alliance Order"],"abilities":[{"name":"Timed Charges","header":{"icon":"offensive","color":"eggplant","text":"End of Any Turn"},"declare":"Pick an enemy unit in combat with this unit to be the target.","effect":"Roll a D3. On a 2+:\n\n• Inflict an amount of mortal damage on the target equal to the roll.\n• This unit can immediately use the ‘Retreat’ ability as if it were your movement phase without any mortal damage being inflicted on it."}],"meleeWeapons":[{"name":"Skypike","atk":"2","hit":"3+","wnd":"3+","rnd":"1","dmg":"2","abilities":["Crit (Mortal)"]},{"name":"Gun Butt","atk":"1","hit":"4+","wnd":"5+","rnd":"-","dmg":"1","abilities":[]}],"rangedWeapons":[{"name":"Skywarden Heavy Weapon","rng":"15\"","atk":"1","hit":"4+","wnd":"3+","rnd":"1","dmg":"D3","abilities":["Anti-Monster (+1 Rend)"]},{"name":"Aethermatic Volley Gun","rng":"15\"","atk":"2D6","hit":"4+","wnd":"4+","rnd":"-","dmg":"1","abilities":["Crit (2 Hits)"]},{"name":"Vulcaniser Pistol","rng":"10\"","atk":"3","hit":"3+","wnd":"3+","rnd":"1","dmg":"1","abilities":["Shoot in Combat"]}]}} />
-
 
