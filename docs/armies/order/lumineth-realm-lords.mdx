@@ -1,6 +1,6 @@
 ---
 title: Lumineth Realm-lords
-dataVersion: 167
+dataVersion: 181
 ---
 
 import Warscroll from '@site/src/components/Warscroll';
@@ -22,7 +22,7 @@ import WarscrollAbility from '@site/src/components/WarscrollAbility';
 
 ### Move Like the Wind
 
-<WarscrollAbility ability={{"name":"Move Like the Wind","header":{"icon":"shooting","color":"teal","text":"Your Shooting Phase"},"declare":"You can only use this ability if you have not used any **Facet of War** abilities this battle round. Pick up to 3 friendly **Hurakan** units that are not in combat to be the targets.","effect":"Each target can **move** a distance up to its **Move** characteristic. It cannot **move** into combat during any part of that **move**, and it cannot use **Shoot** abilities for the rest of the turn.","keywords":["Facet of War","Move"]}} />
+<WarscrollAbility ability={{"name":"Move Like the Wind","header":{"icon":"shooting","color":"teal","text":"Your Shooting Phase"},"declare":"You can only use this ability if you have not used any **Facet of War** abilities this battle round. Pick up to 3 friendly **Hurakan** units that are not in combat to be the targets.","effect":"Each target can **move** 2D6\". It cannot **move** into combat during any part of that **move**, and it cannot use **Shoot** abilities for the rest of the turn.","keywords":["Facet of War","Move"]}} />
 
 ### Power of Hysh
 
@@ -220,5 +220,5 @@ import WarscrollAbility from '@site/src/components/WarscrollAbility';
 
 ### Ydrilan Riverblades
 
-<Warscroll color={"#024D66"} icon={"lumineth-realm-lords.png"} unit={{"name":"Ydrilan Riverblades","profile":{"points":160,"unitSize":10,"regimentOptions":[],"baseSizes":["32mm [5], 28.5mm [5]"],"notes":"This unit cannot be reinforced."},"stats":{"movement":"7\"","save":"5+","health":"1","control":"1"},"primaryKeywords":["Champion","Aelf","Ydrilan","Infantry"],"secondaryKeywords":["Lumineth Realm-lords","Grand Alliance Order"],"abilities":[{"name":"Travel The Waterways","header":{"icon":"movement","color":"gray","text":"Your Movement Phase"},"declare":null,"effect":"Remove this unit from the battlefield and set it up again on the battlefield wholly within 6\" of a battlefield edge and more than 9\" from all enemy units.","keywords":["Core"]},{"name":"Relentless as the Driving Current","header":{"icon":"movement","color":"red","text":"Any Combat Phase"},"declare":null,"effect":"This unit can move 2D6\". It can pass through models in enemy units but must end that move in combat."}],"meleeWeapons":[{"name":"Ydrilan Blades","atk":"3","hit":"3+","wnd":"4+","rnd":"1","dmg":"1","abilities":["Anti-Hero (+1 Rend)"]}],"rangedWeapons":[{"name":"Ythara Darts","rng":"10\"","atk":"2","hit":"3+","wnd":"4+","rnd":"-","dmg":"1","abilities":["Shoot in Combat"]}]}} />
+<Warscroll color={"#024D66"} icon={"lumineth-realm-lords.png"} unit={{"name":"Ydrilan Riverblades","profile":{"points":160,"unitSize":10,"regimentOptions":[],"baseSizes":["32mm [5], 28.5mm [5]"],"notes":"This unit cannot be reinforced."},"stats":{"movement":"7\"","save":"5+","health":"1","control":"1"},"primaryKeywords":["Champion","Aelf","Ydrilan","Infantry"],"secondaryKeywords":["Lumineth Realm-lords","Grand Alliance Order"],"abilities":[{"name":"Travel The Waterways","header":{"icon":"movement","color":"gray","text":"Your Movement Phase"},"declare":null,"effect":"Remove this unit from the battlefield and set it up again on the battlefield wholly within 6\" of a battlefield edge and more than 9\" from all enemy units.","keywords":["Core"]},{"name":"Relentless as the Driving Current","header":{"icon":"movement","color":"red","text":"Any Combat Phase"},"declare":null,"effect":"If this unit is in combat, it can move 2D6\". It can pass through models in enemy units but must end that move in combat."}],"meleeWeapons":[{"name":"Ydrilan Blades","atk":"3","hit":"3+","wnd":"4+","rnd":"1","dmg":"1","abilities":["Anti-Hero (+1 Rend)"]}],"rangedWeapons":[{"name":"Ythara Darts","rng":"10\"","atk":"2","hit":"3+","wnd":"4+","rnd":"-","dmg":"1","abilities":["Shoot in Combat"]}]}} />
 
