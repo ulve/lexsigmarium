@@ -1,0 +1,2639 @@
+{
+  "dataVersion": 181,
+  "warscrolls": [
+    {
+      "id": "06807378-996c-40e2-beac-ca4d0c9637c6",
+      "name": "Great Bray-Shaman",
+      "subname": null,
+      "lore": "The Great Bray-Shamans are the soothsayers and mystics of the beastherds. What they lack in raw strength, they make up for with a mastery of Chaos magic that can reduce a foe to a writhing mass of corrupted flesh.",
+      "bannerImage": "https://dhss9aar8ocw.cloudfront.net/a40c6d18-dcb8-4cf0-98c5-e77b0c2c44fd",
+      "rowImage": "https://dhss9aar8ocw.cloudfront.net/e17cc9e5-b37b-4153-b80e-13f5c667e4c8",
+      "modelCount": 1,
+      "baseSize": "32mm",
+      "points": 120,
+      "notes": "This unit will move to Warhammer Legends on 1 June 2025.",
+      "isSpearhead": false,
+      "cannotBeReinforced": true,
+      "hiddenFromReference": false,
+      "hiddenFromStormForge": false,
+      "referenceKeywords": "Hero, Wizard (1), Infantry, Chaos, Beasts of Chaos, Brayherd",
+      "move": "6\"",
+      "save": "5+",
+      "control": "2",
+      "health": "5",
+      "wargearOptionsText": null,
+      "publicationId": "77f5aebf-eb94-4f70-99f6-8bded0f78996",
+      "limitingWarscrollId": null,
+      "requiredPrimaryHeroWarscrollId": null,
+      "isLegends": false,
+      "faction": "Beasts of Chaos",
+      "weapons": [
+        {
+          "id": "594d0db2-1357-432b-add0-e4a4b7e90c5c",
+          "name": "Fetish Staff",
+          "type": "melee",
+          "range": null,
+          "attacks": "3",
+          "hit": "4+",
+          "wound": "3+",
+          "rend": "-",
+          "damage": "D3",
+          "battleDamaged": false,
+          "warscrollId": "06807378-996c-40e2-beac-ca4d0c9637c6",
+          "weaponAbilities": []
+        }
+      ],
+      "abilities": [
+        {
+          "id": "d73ba885-f3df-4efc-9ff4-2ddc8a2fb559",
+          "name": "Infuse With Bestial Vigour",
+          "phaseDetails": "Once Per Turn (Army), Your Movement Phase",
+          "phase": "movementPhase",
+          "castingValue": null,
+          "cpCost": null,
+          "reaction": false,
+          "lore": "Raw chaotic energy emanates from the Bray-Shaman, imbuing surrounding beastmen with unnatural speed.",
+          "usedBy": null,
+          "declare": "Pick a friendly Beasts of Chaos unit wholly within 12\" of this unit to be the target.",
+          "effect": "For the rest of the turn, the target can use a Run ability and still use Charge abilities later in the turn.",
+          "abilityAndCommandIcon": "movement",
+          "warscrollId": "06807378-996c-40e2-beac-ca4d0c9637c6",
+          "keywords": []
+        }
+      ],
+      "keywords": [
+        "Wizard",
+        "Infantry",
+        "Brayherd",
+        "Hero"
+      ],
+      "factionKeywords": [
+        "Beasts of Chaos",
+        "Grand Alliance Chaos"
+      ]
+    },
+    {
+      "id": "07aa3af7-d5b4-4ddd-ae51-69805fd8efed",
+      "name": "Ungors",
+      "subname": null,
+      "lore": "The most man-like of the gor-kin, Ungors are tormented and despised by their stronger cousins. They take out their bitterness on their enemies, spitefully thrusting their shortspears into throats and bellies and darting away before the foe can retaliate.",
+      "bannerImage": "https://dhss9aar8ocw.cloudfront.net/a1e6077e-9c19-4c19-8cce-0666cf9b853a",
+      "rowImage": "https://dhss9aar8ocw.cloudfront.net/4d798945-39ca-43f7-a7c0-3012eff346f2",
+      "modelCount": 10,
+      "baseSize": "25mm",
+      "points": 80,
+      "notes": "This unit will move to Warhammer Legends on 1 June 2025.",
+      "isSpearhead": false,
+      "cannotBeReinforced": false,
+      "hiddenFromReference": false,
+      "hiddenFromStormForge": false,
+      "referenceKeywords": "Infantry, Champion, Musician (1/10), Standard Bearer (1/10), Chaos, Beasts of Chaos, Brayherd",
+      "move": "6\"",
+      "save": "5+",
+      "control": "1",
+      "health": "1",
+      "wargearOptionsText": null,
+      "publicationId": "77f5aebf-eb94-4f70-99f6-8bded0f78996",
+      "limitingWarscrollId": null,
+      "requiredPrimaryHeroWarscrollId": null,
+      "isLegends": false,
+      "faction": "Beasts of Chaos",
+      "weapons": [
+        {
+          "id": "dbc1a458-6beb-44de-8274-dd8d1b6ea93a",
+          "name": "Gnarled Weapon",
+          "type": "melee",
+          "range": null,
+          "attacks": "2",
+          "hit": "4+",
+          "wound": "5+",
+          "rend": "-",
+          "damage": "1",
+          "battleDamaged": false,
+          "warscrollId": "07aa3af7-d5b4-4ddd-ae51-69805fd8efed",
+          "weaponAbilities": [
+            "Crit (2 Hits)"
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "id": "09b7b417-be0b-4547-b295-6a88faabbcbf",
+          "name": "Fleet of Hoof",
+          "phaseDetails": "Once Per Turn (Army), Any Combat Phase",
+          "phase": "combatPhase",
+          "castingValue": null,
+          "cpCost": null,
+          "reaction": false,
+          "lore": "The wiry agility of the Ungors allows them to move with great speed while evading enemy attacks, making them difficult to pin down.",
+          "usedBy": null,
+          "declare": null,
+          "effect": "If this unit is in combat, roll a dice. On a 3+, this unit can immediately use the ‘Retreat’ ability as if it were your movement phase without any mortal damage being inflicted on it.",
+          "abilityAndCommandIcon": "movement",
+          "warscrollId": "07aa3af7-d5b4-4ddd-ae51-69805fd8efed",
+          "keywords": []
+        }
+      ],
+      "keywords": [
+        "Champion",
+        "Standard Bearer",
+        "Musician",
+        "Infantry",
+        "Brayherd"
+      ],
+      "factionKeywords": [
+        "Beasts of Chaos",
+        "Grand Alliance Chaos"
+      ]
+    },
+    {
+      "id": "3c24a98f-6201-4abd-9ae9-0639904d4ade",
+      "name": "Bullgors",
+      "subname": null,
+      "lore": "Bullgors are hulking, taurine monstrosities consumed by the need to stuff their mouths with raw flesh and blood. They are the shock troops of the greatfrays, capable of smashing their way through almost any shieldwall or line of pikes.",
+      "bannerImage": "https://dhss9aar8ocw.cloudfront.net/b0a51516-fe26-4ce8-9d24-dda9d631c071",
+      "rowImage": "https://dhss9aar8ocw.cloudfront.net/ff29f771-d822-42df-ae53-c3383ddecfc6",
+      "modelCount": 3,
+      "baseSize": "50mm",
+      "points": 180,
+      "notes": "This unit will move to Warhammer Legends on 1 June 2025.",
+      "isSpearhead": false,
+      "cannotBeReinforced": false,
+      "hiddenFromReference": false,
+      "hiddenFromStormForge": false,
+      "referenceKeywords": "Infantry, Champion, Musician (1/3), Standard Bearer (1/3), Chaos, Beasts of Chaos, Warherd",
+      "move": "6\"",
+      "save": "5+",
+      "control": "1",
+      "health": "4",
+      "wargearOptionsText": null,
+      "publicationId": "77f5aebf-eb94-4f70-99f6-8bded0f78996",
+      "limitingWarscrollId": null,
+      "requiredPrimaryHeroWarscrollId": null,
+      "isLegends": false,
+      "faction": "Beasts of Chaos",
+      "weapons": [
+        {
+          "id": "26a5c092-599d-4cd5-acdb-230211306c3b",
+          "name": "Man-splitter Axes",
+          "type": "melee",
+          "range": null,
+          "attacks": "4",
+          "hit": "4+",
+          "wound": "2+",
+          "rend": "1",
+          "damage": "2",
+          "battleDamaged": false,
+          "warscrollId": "3c24a98f-6201-4abd-9ae9-0639904d4ade",
+          "weaponAbilities": []
+        },
+        {
+          "id": "56ec1519-3215-4637-8df3-cd1d633170da",
+          "name": "Iron-capped Horns",
+          "type": "melee",
+          "range": null,
+          "attacks": "2",
+          "hit": "5+",
+          "wound": "3+",
+          "rend": "-",
+          "damage": "2",
+          "battleDamaged": false,
+          "warscrollId": "3c24a98f-6201-4abd-9ae9-0639904d4ade",
+          "weaponAbilities": [
+            "Charge (+1 Damage)"
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "id": "a6252b8d-1d26-402a-88a4-a004842ae00b",
+          "name": "Warherd Charge",
+          "phaseDetails": "Any Charge Phase",
+          "phase": "chargePhase",
+          "castingValue": null,
+          "cpCost": null,
+          "reaction": false,
+          "lore": "When a warherd charges, the enemy is sent flying through the air by the force of the impact.",
+          "usedBy": null,
+          "declare": "If this unit charged this phase, pick an enemy unit within 1\" of it to be the target.",
+          "effect": "Roll a dice for each model in this unit. For each 2+, inflict 1 mortal damage on the target.",
+          "abilityAndCommandIcon": "offensive",
+          "warscrollId": "3c24a98f-6201-4abd-9ae9-0639904d4ade",
+          "keywords": []
+        }
+      ],
+      "keywords": [
+        "Champion",
+        "Standard Bearer",
+        "Musician",
+        "Infantry"
+      ],
+      "factionKeywords": [
+        "Beasts of Chaos",
+        "Grand Alliance Chaos"
+      ]
+    },
+    {
+      "id": "1ab21e97-0c46-4b88-9d12-e72be2ab4421",
+      "name": "Ravening Direflock",
+      "subname": null,
+      "lore": "The spectral crows of a Ravening Direflock are harbingers of doom, filling the minds of those who hear their piercing caws with an inescapable sense of dread. They circle over the battlefield, harrying those who try to flee the carnage.",
+      "bannerImage": "https://dhss9aar8ocw.cloudfront.net/43bf04c0-9b3a-4407-bb29-026af0937b62",
+      "rowImage": "https://dhss9aar8ocw.cloudfront.net/35f61d19-f599-40ff-bbeb-93de9db730db",
+      "modelCount": 3,
+      "baseSize": "40mm",
+      "points": null,
+      "notes": null,
+      "isSpearhead": false,
+      "cannotBeReinforced": true,
+      "hiddenFromReference": false,
+      "hiddenFromStormForge": true,
+      "referenceKeywords": "Manifestation, Endless Spell, Fly, Ward (6+), Chaos, Beasts of Chaos",
+      "move": "16\"",
+      "save": "6+",
+      "control": "7+",
+      "health": "6",
+      "wargearOptionsText": null,
+      "publicationId": "77f5aebf-eb94-4f70-99f6-8bded0f78996",
+      "limitingWarscrollId": null,
+      "requiredPrimaryHeroWarscrollId": null,
+      "isLegends": false,
+      "faction": "Beasts of Chaos",
+      "weapons": [
+        {
+          "id": "260c0b17-418e-4c73-bc7e-55d517d109bd",
+          "name": "Murderous Beaks",
+          "type": "melee",
+          "range": null,
+          "attacks": "6",
+          "hit": "4+",
+          "wound": "5+",
+          "rend": "1",
+          "damage": "1",
+          "battleDamaged": false,
+          "warscrollId": "1ab21e97-0c46-4b88-9d12-e72be2ab4421",
+          "weaponAbilities": []
+        }
+      ],
+      "abilities": [
+        {
+          "id": "50b71c4c-d642-44db-9817-3c4bad4198c8",
+          "name": "Multiple Parts",
+          "phaseDetails": "Passive",
+          "phase": "startOfTurn",
+          "castingValue": null,
+          "cpCost": null,
+          "reaction": false,
+          "lore": null,
+          "usedBy": null,
+          "declare": null,
+          "effect": "When a number of damage points equal to this Manifestation’s Health characteristic are allocated to it, this Manifestation is destroyed and all of its parts are removed from play.\n\nEach time this Manifestation moves, each of its parts must end within 1\" of at least 1 other part.\n\nEach part of this Manifestation is armed with Murderous Beaks.",
+          "abilityAndCommandIcon": "special",
+          "warscrollId": "1ab21e97-0c46-4b88-9d12-e72be2ab4421",
+          "keywords": []
+        },
+        {
+          "id": "71ba2be4-53a8-497e-931f-ba4743b61edf",
+          "name": "Harbingers of Dark Omens",
+          "phaseDetails": "Passive",
+          "phase": "endOfTurn",
+          "castingValue": null,
+          "cpCost": null,
+          "reaction": false,
+          "lore": "Those who hear the cawing of these fell creatures experience terrifying visions of their own impending doom.",
+          "usedBy": null,
+          "declare": null,
+          "effect": "Subtract 5 from the control scores of enemy units while they are within 12\" of this unit.",
+          "abilityAndCommandIcon": "control",
+          "warscrollId": "1ab21e97-0c46-4b88-9d12-e72be2ab4421",
+          "keywords": []
+        }
+      ],
+      "keywords": [
+        "Manifestation",
+        "Endless Spell",
+        "Ward (6+)",
+        "Fly"
+      ],
+      "factionKeywords": [
+        "Beasts of Chaos",
+        "Grand Alliance Chaos"
+      ]
+    },
+    {
+      "id": "88dd030a-55b0-43ba-8509-b5b6a09de53b",
+      "name": "Dragon Ogors",
+      "subname": null,
+      "lore": "Imposing creatures with muscular, humanoid torsos and the lower bodies of draconids, Dragon Ogors are formidable warriors. They overrun their foes with a headlong charge, lashing out with crackling storm-weapons and obliterating their enemies in a tempestuous rage.",
+      "bannerImage": "https://dhss9aar8ocw.cloudfront.net/317ba178-593d-4d1c-a454-049901c93f58",
+      "rowImage": "https://dhss9aar8ocw.cloudfront.net/c25828f0-5fb4-4680-9742-4c595dc3af0c",
+      "modelCount": 3,
+      "baseSize": "90 x 52mm",
+      "points": 220,
+      "notes": "This unit will move to Warhammer Legends on 1 June 2025.",
+      "isSpearhead": false,
+      "cannotBeReinforced": false,
+      "hiddenFromReference": false,
+      "hiddenFromStormForge": false,
+      "referenceKeywords": "Cavalry, Chaos, Beasts of Chaos, Thunderscorn",
+      "move": "8\"",
+      "save": "4+",
+      "control": "2",
+      "health": "5",
+      "wargearOptionsText": null,
+      "publicationId": "77f5aebf-eb94-4f70-99f6-8bded0f78996",
+      "limitingWarscrollId": null,
+      "requiredPrimaryHeroWarscrollId": null,
+      "isLegends": false,
+      "faction": "Beasts of Chaos",
+      "weapons": [
+        {
+          "id": "20bbc68b-2860-418c-ac45-3947f1e99ada",
+          "name": "Storm-forged Weapons",
+          "type": "melee",
+          "range": null,
+          "attacks": "4",
+          "hit": "4+",
+          "wound": "2+",
+          "rend": "1",
+          "damage": "2",
+          "battleDamaged": false,
+          "warscrollId": "88dd030a-55b0-43ba-8509-b5b6a09de53b",
+          "weaponAbilities": [
+            "Crit (Mortal)"
+          ]
+        },
+        {
+          "id": "274e8c7b-316a-4df5-8576-812dc18e69ae",
+          "name": "Raking Foreclaws",
+          "type": "melee",
+          "range": null,
+          "attacks": "2",
+          "hit": "5+",
+          "wound": "3+",
+          "rend": "-",
+          "damage": "1",
+          "battleDamaged": false,
+          "warscrollId": "88dd030a-55b0-43ba-8509-b5b6a09de53b",
+          "weaponAbilities": []
+        }
+      ],
+      "abilities": [
+        {
+          "id": "68038bdc-7305-4b2c-8936-27754feebef8",
+          "name": "Speed Of An Avalanche",
+          "phaseDetails": "Any Combat Phase",
+          "phase": "combatPhase",
+          "castingValue": null,
+          "cpCost": null,
+          "reaction": false,
+          "lore": "Despite their formidable size, Dragon Ogors can move as swift as an avalanche, often surprising enemies who foolishly charge them.",
+          "usedBy": null,
+          "declare": null,
+          "effect": "If this unit did not charge this turn and is in combat with an enemy unit that charged this turn, roll a dice. On a 4+, this unit has Strike-first for the rest of the turn.",
+          "abilityAndCommandIcon": "offensive",
+          "warscrollId": "88dd030a-55b0-43ba-8509-b5b6a09de53b",
+          "keywords": []
+        }
+      ],
+      "keywords": [
+        "Thunderscorn",
+        "Cavalry"
+      ],
+      "factionKeywords": [
+        "Beasts of Chaos",
+        "Grand Alliance Chaos"
+      ]
+    },
+    {
+      "id": "26ca1d2f-b514-4a4c-991e-7d41df2c0952",
+      "name": "Dragon Ogor Shaggoth",
+      "subname": null,
+      "lore": "Dragon Ogor Shaggoths are ancient and powerful beings imbued with the coruscating power of the storm. When they go to war, the mountains themselves tremble and foes are hewn apart by the score.",
+      "bannerImage": "https://dhss9aar8ocw.cloudfront.net/46fb8a35-3a47-4f96-b9fe-d970d6cad885",
+      "rowImage": "https://dhss9aar8ocw.cloudfront.net/93167a23-380a-4c61-a2e0-e27340bafff0",
+      "modelCount": 1,
+      "baseSize": "90 x 52mm",
+      "points": 240,
+      "notes": "This unit will move to Warhammer Legends on 1 June 2025.",
+      "isSpearhead": false,
+      "cannotBeReinforced": true,
+      "hiddenFromReference": false,
+      "hiddenFromStormForge": false,
+      "referenceKeywords": "Hero, Monster, Wizard (1), Chaos, Beasts of Chaos, Thunderscorn",
+      "move": "8\"",
+      "save": "4+",
+      "control": "2",
+      "health": "10",
+      "wargearOptionsText": null,
+      "publicationId": "77f5aebf-eb94-4f70-99f6-8bded0f78996",
+      "limitingWarscrollId": null,
+      "requiredPrimaryHeroWarscrollId": null,
+      "isLegends": false,
+      "faction": "Beasts of Chaos",
+      "weapons": [
+        {
+          "id": "da202c7c-64aa-4a3e-948f-9d2540d187f5",
+          "name": "Storm-forged Axe",
+          "type": "melee",
+          "range": null,
+          "attacks": "6",
+          "hit": "3+",
+          "wound": "2+",
+          "rend": "1",
+          "damage": "3",
+          "battleDamaged": false,
+          "warscrollId": "26ca1d2f-b514-4a4c-991e-7d41df2c0952",
+          "weaponAbilities": [
+            "Crit (Mortal)"
+          ]
+        },
+        {
+          "id": "ee9b9104-09a3-4401-9e89-c00d966df6d4",
+          "name": "Crackling Bolts",
+          "type": "ranged",
+          "range": "12\"",
+          "attacks": "2D6",
+          "hit": "4+",
+          "wound": "3+",
+          "rend": "1",
+          "damage": "1",
+          "battleDamaged": false,
+          "warscrollId": "26ca1d2f-b514-4a4c-991e-7d41df2c0952",
+          "weaponAbilities": [
+            "Crit (2 Hits)",
+            "Shoot in Combat"
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "id": "edd7289f-a9e5-48ab-ad58-0ae8a928843b",
+          "name": "Beneath The Tempest",
+          "phaseDetails": "Once Per Turn (Army), End of Any Turn",
+          "phase": "endOfTurn",
+          "castingValue": null,
+          "cpCost": null,
+          "reaction": false,
+          "lore": "Dark clouds gather above the battlefield, threatening to unleash the fury of the tempest.",
+          "usedBy": null,
+          "declare": "Pick each enemy unit in combat with this unit to be the targets.",
+          "effect": "Roll a dice. On a 2+, Heal (X) this unit, where X is an amount equal to the roll. Then, roll a D3 for each target. On a 2+, inflict an amount of mortal damage on the target equal to the roll.",
+          "abilityAndCommandIcon": "special",
+          "warscrollId": "26ca1d2f-b514-4a4c-991e-7d41df2c0952",
+          "keywords": [
+            "Rampage"
+          ]
+        },
+        {
+          "id": "f3a24d7a-fdc2-482d-9d2f-e0e92e3c810f",
+          "name": "Scion of the Primordial Storm",
+          "phaseDetails": "Reaction: Opponent declared a Spell ability",
+          "phase": "heroPhase",
+          "castingValue": null,
+          "cpCost": null,
+          "reaction": true,
+          "lore": "The untrammelled fury of the primordial storm flows through this creature, a fulminating power so intense that it can render malevolent sorceries harmless.",
+          "usedBy": null,
+          "declare": null,
+          "effect": "If this unit or a friendly Dragon Ogors unit wholly within 12\" of this unit was picked to be the target of that spell, roll a dice. On a 4+, ignore the effect of that spell on this unit or that friendly unit. This unit can use this ability more than once per phase but only once per Spell ability.",
+          "abilityAndCommandIcon": "special",
+          "warscrollId": "26ca1d2f-b514-4a4c-991e-7d41df2c0952",
+          "keywords": []
+        }
+      ],
+      "keywords": [
+        "Thunderscorn",
+        "Monster",
+        "Wizard",
+        "Hero"
+      ],
+      "factionKeywords": [
+        "Beasts of Chaos",
+        "Grand Alliance Chaos"
+      ]
+    },
+    {
+      "id": "91bfc67a-f2d1-4edf-8dc9-fbbc3f5a0493",
+      "name": "Cockatrice",
+      "subname": null,
+      "lore": "A Cockatrice is a fell creature that dwells in the harshest wastelands of the Mortal Realms. Its cursed gaze can transform a foe into a screaming statue, while its raking talons and cruel beak shred flesh and muscle effortlessly.",
+      "bannerImage": "https://dhss9aar8ocw.cloudfront.net/c2bd3bc3-feee-4af7-a41d-1bee77d1fe14",
+      "rowImage": "https://dhss9aar8ocw.cloudfront.net/06908d36-bdc6-410d-8e48-3e28b2cc762d",
+      "modelCount": 1,
+      "baseSize": "60mm",
+      "points": 150,
+      "notes": "This unit will move to Warhammer Legends on 1 June 2025.",
+      "isSpearhead": false,
+      "cannotBeReinforced": true,
+      "hiddenFromReference": false,
+      "hiddenFromStormForge": false,
+      "referenceKeywords": "Beast, Fly, Chaos, Beasts of Chaos",
+      "move": "12\"",
+      "save": "5+",
+      "control": "1",
+      "health": "8",
+      "wargearOptionsText": null,
+      "publicationId": "77f5aebf-eb94-4f70-99f6-8bded0f78996",
+      "limitingWarscrollId": null,
+      "requiredPrimaryHeroWarscrollId": null,
+      "isLegends": false,
+      "faction": "Beasts of Chaos",
+      "weapons": [
+        {
+          "id": "59d4c0df-d56e-4fe2-9eb0-8856b68d86f2",
+          "name": "Stabbing Beak and Talons",
+          "type": "melee",
+          "range": null,
+          "attacks": "5",
+          "hit": "4+",
+          "wound": "2+",
+          "rend": "1",
+          "damage": "2",
+          "battleDamaged": false,
+          "warscrollId": "91bfc67a-f2d1-4edf-8dc9-fbbc3f5a0493",
+          "weaponAbilities": [
+            "Companion"
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "id": "26e5635a-9f27-46c1-b9bd-e47aca354925",
+          "name": "Petrifying Gaze",
+          "phaseDetails": "Once Per Turn (Army,) Your Shooting Phase",
+          "phase": "shootingPhase",
+          "castingValue": null,
+          "cpCost": null,
+          "reaction": false,
+          "lore": "As a Cockatrice surges forwards, its eyes begin to glow with warping energy, transfixing foes where they stand.",
+          "usedBy": null,
+          "declare": "Pick a visible enemy unit within 12\" of this unit to be the target.",
+          "effect": "Roll a dice for each model in the target unit. For each 6, inflict 1 mortal damage on the target. If any damage points are allocated to the target by this ability, the target has Strike-last for the rest of the turn.",
+          "abilityAndCommandIcon": "shooting",
+          "warscrollId": "91bfc67a-f2d1-4edf-8dc9-fbbc3f5a0493",
+          "keywords": []
+        },
+        {
+          "id": "69e6e0be-1924-4235-aee4-0f8b9a886706",
+          "name": "Beast",
+          "phaseDetails": "Passive",
+          "phase": "endOfTurn",
+          "castingValue": null,
+          "cpCost": null,
+          "reaction": false,
+          "lore": null,
+          "usedBy": null,
+          "declare": null,
+          "effect": "This unit has a maximum control score of 1.",
+          "abilityAndCommandIcon": "control",
+          "warscrollId": "91bfc67a-f2d1-4edf-8dc9-fbbc3f5a0493",
+          "keywords": []
+        }
+      ],
+      "keywords": [
+        "Beast",
+        "Fly"
+      ],
+      "factionKeywords": [
+        "Beasts of Chaos",
+        "Grand Alliance Chaos"
+      ]
+    },
+    {
+      "id": "39adfcf8-2ecd-414c-a580-be178b063de2",
+      "name": "Ghorgon",
+      "subname": null,
+      "lore": "The terrifying, four-armed colossi known as Ghorgons are cursed with an unquenchable desire for raw meat. Even as they hack and kill with bladed forelimbs, a second pair of arms stuffs ruptured corpses and strips of flesh into the Ghorgon’s drooling maw.",
+      "bannerImage": "https://dhss9aar8ocw.cloudfront.net/361ec15e-669b-4e8e-b753-eecc0c888031",
+      "rowImage": "https://dhss9aar8ocw.cloudfront.net/bae7ed50-4d32-4e8b-b3d2-9c89106f7149",
+      "modelCount": 1,
+      "baseSize": "120 x 92mm",
+      "points": 220,
+      "notes": "This unit will move to Warhammer Legends on 1 June 2025.",
+      "isSpearhead": false,
+      "cannotBeReinforced": true,
+      "hiddenFromReference": false,
+      "hiddenFromStormForge": false,
+      "referenceKeywords": "Monster, Chaos, Beasts of Chaos, Warherd",
+      "move": "8\"",
+      "save": "5+",
+      "control": "5",
+      "health": "15",
+      "wargearOptionsText": null,
+      "publicationId": "77f5aebf-eb94-4f70-99f6-8bded0f78996",
+      "limitingWarscrollId": null,
+      "requiredPrimaryHeroWarscrollId": null,
+      "isLegends": false,
+      "faction": "Beasts of Chaos",
+      "weapons": [
+        {
+          "id": "88192873-c57a-4bf1-8ffa-98aab58ad94b",
+          "name": "Huge Slavering Maw",
+          "type": "melee",
+          "range": null,
+          "attacks": "2",
+          "hit": "4+",
+          "wound": "2+",
+          "rend": "1",
+          "damage": "D6",
+          "battleDamaged": false,
+          "warscrollId": "39adfcf8-2ecd-414c-a580-be178b063de2",
+          "weaponAbilities": []
+        },
+        {
+          "id": "acaba79c-ac7a-4713-b4ba-786fbc3ab4d4",
+          "name": "Butchering Blades",
+          "type": "melee",
+          "range": null,
+          "attacks": "7",
+          "hit": "4+",
+          "wound": "2+",
+          "rend": "1",
+          "damage": "3",
+          "battleDamaged": true,
+          "warscrollId": "39adfcf8-2ecd-414c-a580-be178b063de2",
+          "weaponAbilities": [
+            "Anti-Infantry (+1 Rend)"
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "id": "af4cc195-8feb-4a0a-b57e-5c3aab78e681",
+          "name": "Swallow Whole",
+          "phaseDetails": "Once Per Turn (Army), Any Combat Phase",
+          "phase": "combatPhase",
+          "castingValue": null,
+          "cpCost": null,
+          "reaction": false,
+          "lore": "The huge, cavernous maw of a Ghorgon can swallow a man whole – a grisly fate for any warrior.",
+          "usedBy": null,
+          "declare": "Pick an enemy unit in combat with this unit to be the target.",
+          "effect": "Roll a dice. If the roll exceeds the target’s Health characteristic:\n\n• 1 model in the target unit is slain.\n• Heal (X) this unit, where X is an amount equal to the roll.",
+          "abilityAndCommandIcon": "special",
+          "warscrollId": "39adfcf8-2ecd-414c-a580-be178b063de2",
+          "keywords": [
+            "Rampage"
+          ]
+        },
+        {
+          "id": "db0fcaf2-0939-4ae5-9028-a8264ec22b1f",
+          "name": "Battle Damaged",
+          "phaseDetails": "Passive",
+          "phase": "startOfTurn",
+          "castingValue": null,
+          "cpCost": null,
+          "reaction": false,
+          "lore": null,
+          "usedBy": null,
+          "declare": null,
+          "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its Butchering Blades is 4.",
+          "abilityAndCommandIcon": "battleDamaged",
+          "warscrollId": "39adfcf8-2ecd-414c-a580-be178b063de2",
+          "keywords": []
+        }
+      ],
+      "keywords": [
+        "Warherd",
+        "Monster"
+      ],
+      "factionKeywords": [
+        "Beasts of Chaos",
+        "Grand Alliance Chaos"
+      ]
+    },
+    {
+      "id": "3b32ed7d-8da1-494d-88b7-733a1adad5b5",
+      "name": "Doombull",
+      "subname": null,
+      "lore": "Doombulls are the strongest and most ferocious of their kind, swollen with muscle and as broad as they are tall. They feast upon only the worthiest foes, sating their bloodgreed with the gore of champions and heroes.",
+      "bannerImage": "https://dhss9aar8ocw.cloudfront.net/a6da6921-d7d0-4515-8090-814a76559c6a",
+      "rowImage": "https://dhss9aar8ocw.cloudfront.net/42a6607d-2756-48a1-8f48-c6203b7abc2e",
+      "modelCount": 1,
+      "baseSize": "50mm",
+      "points": 180,
+      "notes": "This unit will move to Warhammer Legends on 1 June 2025.",
+      "isSpearhead": false,
+      "cannotBeReinforced": true,
+      "hiddenFromReference": false,
+      "hiddenFromStormForge": false,
+      "referenceKeywords": "Hero, Infantry, Chaos, Beasts of Chaos, Warherd",
+      "move": "6\"",
+      "save": "5+",
+      "control": "2",
+      "health": "8",
+      "wargearOptionsText": null,
+      "publicationId": "77f5aebf-eb94-4f70-99f6-8bded0f78996",
+      "limitingWarscrollId": null,
+      "requiredPrimaryHeroWarscrollId": null,
+      "isLegends": false,
+      "faction": "Beasts of Chaos",
+      "weapons": [
+        {
+          "id": "0e711ffb-dde9-4327-8190-b0d00df3af5e",
+          "name": "Slaughterer’s Axe",
+          "type": "melee",
+          "range": null,
+          "attacks": "4",
+          "hit": "4+",
+          "wound": "2+",
+          "rend": "1",
+          "damage": "3",
+          "battleDamaged": false,
+          "warscrollId": "3b32ed7d-8da1-494d-88b7-733a1adad5b5",
+          "weaponAbilities": []
+        },
+        {
+          "id": "bd7ec314-7747-4493-8ada-d1e4a0289121",
+          "name": "Alphabeast Horns",
+          "type": "melee",
+          "range": null,
+          "attacks": "2",
+          "hit": "4+",
+          "wound": "2+",
+          "rend": "-",
+          "damage": "2",
+          "battleDamaged": false,
+          "warscrollId": "3b32ed7d-8da1-494d-88b7-733a1adad5b5",
+          "weaponAbilities": [
+            "Charge (+1 Damage)"
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "id": "6c66d32f-7914-43f6-acb1-2c683e0fd713",
+          "name": "Alpha Charge",
+          "phaseDetails": "Any Charge Phase",
+          "phase": "chargePhase",
+          "castingValue": null,
+          "cpCost": null,
+          "reaction": false,
+          "lore": "A Doombull is a living, snorting siege engine, and their headlong charge can shatter entire enemy formations.",
+          "usedBy": null,
+          "declare": "If this unit charged this phase, pick an enemy unit within 1\" of it to be the target.",
+          "effect": "Roll a D3. On a 2+, inflict an amount of mortal damage on the target equal to the roll.",
+          "abilityAndCommandIcon": "offensive",
+          "warscrollId": "3b32ed7d-8da1-494d-88b7-733a1adad5b5",
+          "keywords": []
+        },
+        {
+          "id": "e6e59649-a07a-4459-89e9-34b60526aef3",
+          "name": "Slaughterer's Call",
+          "phaseDetails": "Once Per Turn (Army), Any Charge Phase",
+          "phase": "chargePhase",
+          "castingValue": null,
+          "cpCost": null,
+          "reaction": false,
+          "lore": "A feral roar by the Doombull alerts the warherd to the scent of flesh on the wind, sending them into an attacking frenzy.",
+          "usedBy": null,
+          "declare": "Pick a friendly Warherd unit that is not in combat and is wholly within 12\" of this unit to be the target.",
+          "effect": "For the rest of the turn, add 1 to the number of dice rolled when making charge rolls for the target, to a maximum of 3.",
+          "abilityAndCommandIcon": "movement",
+          "warscrollId": "3b32ed7d-8da1-494d-88b7-733a1adad5b5",
+          "keywords": []
+        }
+      ],
+      "keywords": [
+        "Warherd",
+        "Infantry",
+        "Hero"
+      ],
+      "factionKeywords": [
+        "Beasts of Chaos",
+        "Grand Alliance Chaos"
+      ]
+    },
+    {
+      "id": "68be013b-c898-4554-ab00-aaeda347acde",
+      "name": "Herdstone",
+      "subname": null,
+      "lore": "Herdstones are the sites at which the Beasts of Chaos carry out their savage rituals. Wrought from the Chaos-infused substance of the realms, from them spills the corruptive taint of the anarchic wilds to bleed freely into the land.",
+      "bannerImage": "https://dhss9aar8ocw.cloudfront.net/7893c674-e989-494a-bb26-64f636cb3471",
+      "rowImage": "https://dhss9aar8ocw.cloudfront.net/072807cb-ac81-4421-9c27-bc8dee2aee17",
+      "modelCount": 1,
+      "baseSize": "Use model",
+      "points": null,
+      "notes": null,
+      "isSpearhead": false,
+      "cannotBeReinforced": true,
+      "hiddenFromReference": false,
+      "hiddenFromStormForge": false,
+      "referenceKeywords": "Faction Terrain, Chaos, Beasts of Chaos",
+      "move": "-",
+      "save": "4+",
+      "control": "-",
+      "health": "14",
+      "wargearOptionsText": "The following universal terrain abilities apply to this terrain feature (Terrain, 1.2):\n\nCover, Unstable",
+      "publicationId": "77f5aebf-eb94-4f70-99f6-8bded0f78996",
+      "limitingWarscrollId": null,
+      "requiredPrimaryHeroWarscrollId": null,
+      "isLegends": false,
+      "faction": "Beasts of Chaos",
+      "weapons": [],
+      "abilities": [
+        {
+          "id": "d6a13c22-d796-4a10-a78b-629009a3a230",
+          "name": "Entropic Lodestone",
+          "phaseDetails": "Passive",
+          "phase": "combatPhase",
+          "castingValue": null,
+          "cpCost": null,
+          "reaction": false,
+          "lore": "As the corrupting influence of the herdstone spreads, buildings, armour and other trappings of civilisation begin to crumble to dust, allowing even the crude weapons of the Beasts of Chaos to cut through their defences with ease.",
+          "usedBy": null,
+          "declare": null,
+          "effect": "From the second battle round onwards, add 1 to the Rend characteristic of melee weapons used by friendly Beasts of Chaos units while they are wholly within 24\" of this terrain feature.\n\nIf this terrain feature is wholly within 18\" of the centre of the battlefield, this ability affects all friendly Beasts of Chaos units on the battlefield instead of those wholly within 24\" of it.",
+          "abilityAndCommandIcon": "offensive",
+          "warscrollId": "68be013b-c898-4554-ab00-aaeda347acde",
+          "keywords": []
+        }
+      ],
+      "keywords": [
+        "Faction Terrain"
+      ],
+      "factionKeywords": [
+        "Beasts of Chaos",
+        "Grand Alliance Chaos"
+      ]
+    },
+    {
+      "id": "70ec6a85-e44d-4bb5-a916-5a417094375f",
+      "name": "Wildfire Taurus",
+      "subname": null,
+      "lore": "Wildfire Tauruses are summoned from the fires of the largest herdstones. They take the shape of gargantuan flaming bulls, stampeding through massed ranks of armoured warriors, setting flesh ablaze and flattening those not consumed in the conflagration.",
+      "bannerImage": "https://dhss9aar8ocw.cloudfront.net/ad33a613-ac91-4921-9dff-206963c66c41",
+      "rowImage": "https://dhss9aar8ocw.cloudfront.net/84aa8e47-7dfc-4fac-8847-e628d2afb6d6",
+      "modelCount": 1,
+      "baseSize": "105 x 70mm",
+      "points": null,
+      "notes": null,
+      "isSpearhead": false,
+      "cannotBeReinforced": true,
+      "hiddenFromReference": false,
+      "hiddenFromStormForge": true,
+      "referenceKeywords": "Manifestation, Endless Spell, Fly, Ward (6+), Chaos, Beasts of Chaos",
+      "move": "12\"",
+      "save": "6+",
+      "control": "8+",
+      "health": "10",
+      "wargearOptionsText": null,
+      "publicationId": "77f5aebf-eb94-4f70-99f6-8bded0f78996",
+      "limitingWarscrollId": null,
+      "requiredPrimaryHeroWarscrollId": null,
+      "isLegends": false,
+      "faction": "Beasts of Chaos",
+      "weapons": [
+        {
+          "id": "a6fbde20-5a6b-4fc9-bfee-12a68ad9fa89",
+          "name": "Taurine Horns",
+          "type": "melee",
+          "range": null,
+          "attacks": "6",
+          "hit": "4+",
+          "wound": "2+",
+          "rend": "2",
+          "damage": "D3",
+          "battleDamaged": false,
+          "warscrollId": "70ec6a85-e44d-4bb5-a916-5a417094375f",
+          "weaponAbilities": [
+            "Charge (+1 Damage)"
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "id": "f3a50dc2-dcfe-408d-bdf4-bece43089ab3",
+          "name": "Trail of Destruction",
+          "phaseDetails": "Any Charge Phase",
+          "phase": "chargePhase",
+          "castingValue": null,
+          "cpCost": null,
+          "reaction": false,
+          "lore": "Warriors are sent sprawling, set aflame and trampled underhoof as the Wildfire Taurus charges headlong through their ranks.",
+          "usedBy": null,
+          "declare": "If this unit charged this phase, pick an enemy unit within 1\" of it to be the target.",
+          "effect": "Roll a number of dice equal to the unmodified charge roll. For each 4+, inflict 1 mortal damage on the target. If any damage points are allocated to the target by this ability, the target has Strike-last for the rest of the turn.",
+          "abilityAndCommandIcon": "offensive",
+          "warscrollId": "70ec6a85-e44d-4bb5-a916-5a417094375f",
+          "keywords": []
+        }
+      ],
+      "keywords": [
+        "Manifestation",
+        "Endless Spell",
+        "Ward (6+)",
+        "Fly"
+      ],
+      "factionKeywords": [
+        "Beasts of Chaos",
+        "Grand Alliance Chaos"
+      ]
+    },
+    {
+      "id": "921f823c-54c5-4e65-8618-de8dce820642",
+      "name": "Ungor Raiders",
+      "subname": null,
+      "lore": "Many Ungors prefer to fight with shortbows, for this allows them to keep their foes at a safe distance. Skulking about on the edges of the battlefield, they riddle their quarry with hails of arrows before fading away into the wilds in search of new victims.",
+      "bannerImage": "https://dhss9aar8ocw.cloudfront.net/6e4e0b0e-de47-4b39-a9a3-292c933b8667",
+      "rowImage": "https://dhss9aar8ocw.cloudfront.net/ca3d4982-b325-476f-b274-169e855644ba",
+      "modelCount": 10,
+      "baseSize": "25mm",
+      "points": 90,
+      "notes": "This unit will move to Warhammer Legends on 1 June 2025.",
+      "isSpearhead": false,
+      "cannotBeReinforced": false,
+      "hiddenFromReference": false,
+      "hiddenFromStormForge": false,
+      "referenceKeywords": "Infantry, Champion, Musician (1/10), Standard Bearer (1/10), Chaos, Beasts of Chaos, Brayherd",
+      "move": "6\"",
+      "save": "6+",
+      "control": "1",
+      "health": "1",
+      "wargearOptionsText": null,
+      "publicationId": "77f5aebf-eb94-4f70-99f6-8bded0f78996",
+      "limitingWarscrollId": null,
+      "requiredPrimaryHeroWarscrollId": null,
+      "isLegends": false,
+      "faction": "Beasts of Chaos",
+      "weapons": [
+        {
+          "id": "287fa804-627b-44ba-80a6-2509399e1620",
+          "name": "Jagged Shank",
+          "type": "melee",
+          "range": null,
+          "attacks": "1",
+          "hit": "4+",
+          "wound": "5+",
+          "rend": "-",
+          "damage": "1",
+          "battleDamaged": false,
+          "warscrollId": "921f823c-54c5-4e65-8618-de8dce820642",
+          "weaponAbilities": [
+            "Crit (2 Hits)"
+          ]
+        },
+        {
+          "id": "906f2ac0-bda6-4fd6-8842-506bc2fe666c",
+          "name": "Raider Bow",
+          "type": "ranged",
+          "range": "18\"",
+          "attacks": "2",
+          "hit": "4+",
+          "wound": "5+",
+          "rend": "-",
+          "damage": "1",
+          "battleDamaged": false,
+          "warscrollId": "921f823c-54c5-4e65-8618-de8dce820642",
+          "weaponAbilities": []
+        }
+      ],
+      "abilities": [
+        {
+          "id": "7127fcbc-c751-43a6-bdd7-29c9b3cf63ce",
+          "name": "Hidden Volley",
+          "phaseDetails": "Once Per Turn (Army), Your Hero Phase",
+          "phase": "heroPhase",
+          "castingValue": null,
+          "cpCost": null,
+          "reaction": false,
+          "lore": "Ungor Raiders are capable of unleashing devastating volleys of arrows from the safety of canopies and vantage points. By the time the foe knows where the attacks are coming from, the Raiders have already moved on.",
+          "usedBy": null,
+          "declare": "If this unit is in reserve in ambush, pick a non-Hero enemy unit within 12\" of a battlefield edge to be the target.",
+          "effect": "Roll a number of dice equal to the number of models in this unit. For each 6, inflict 1 mortal damage on the target. Then, in your next movement phase, set up this unit on the battlefield using the ‘Beastherd Ambush’ ability. If it is not possible to do so, it is destroyed.",
+          "abilityAndCommandIcon": "offensive",
+          "warscrollId": "921f823c-54c5-4e65-8618-de8dce820642",
+          "keywords": []
+        }
+      ],
+      "keywords": [
+        "Champion",
+        "Standard Bearer",
+        "Musician",
+        "Infantry",
+        "Brayherd"
+      ],
+      "factionKeywords": [
+        "Beasts of Chaos",
+        "Grand Alliance Chaos"
+      ]
+    },
+    {
+      "id": "57cd4b17-7f17-4ceb-8a22-ce7fb114db9d",
+      "name": "Beasts of Chaos Chaos Spawn",
+      "subname": null,
+      "lore": "Utterly devolved in both body and mind by the corrupting power of pure anarchy, the hideous creatures known as Chaos Spawn lurch into battle, lashing out with whip-like tendrils and scything talons in a maddened frenzy.",
+      "bannerImage": "https://dhss9aar8ocw.cloudfront.net/40465898-8a75-4020-9c6e-0fea2e76a76c",
+      "rowImage": "https://dhss9aar8ocw.cloudfront.net/2c26d8a8-d2ec-41b4-ad52-b2ed8279ae69",
+      "modelCount": 1,
+      "baseSize": "50mm",
+      "points": 70,
+      "notes": "This unit will move to Warhammer Legends on 1 June 2025.",
+      "isSpearhead": false,
+      "cannotBeReinforced": true,
+      "hiddenFromReference": false,
+      "hiddenFromStormForge": false,
+      "referenceKeywords": "Beast, Chaos, Beasts of Chaos",
+      "move": "2D6\"",
+      "save": "5+",
+      "control": "1",
+      "health": "5",
+      "wargearOptionsText": null,
+      "publicationId": "77f5aebf-eb94-4f70-99f6-8bded0f78996",
+      "limitingWarscrollId": null,
+      "requiredPrimaryHeroWarscrollId": null,
+      "isLegends": false,
+      "faction": "Beasts of Chaos",
+      "weapons": [
+        {
+          "id": "416b0cf2-6c0e-41c4-b2cc-5fbc5d5901e6",
+          "name": "Freakish Mutations",
+          "type": "melee",
+          "range": null,
+          "attacks": "2D6",
+          "hit": "5+",
+          "wound": "4+",
+          "rend": "-",
+          "damage": "1",
+          "battleDamaged": false,
+          "warscrollId": "57cd4b17-7f17-4ceb-8a22-ce7fb114db9d",
+          "weaponAbilities": [
+            "Crit (2 Hits)",
+            "Companion"
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "id": "c5b3d180-7485-4253-976e-392d46be0166",
+          "name": "Beast",
+          "phaseDetails": "Passive",
+          "phase": "endOfTurn",
+          "castingValue": null,
+          "cpCost": null,
+          "reaction": false,
+          "lore": null,
+          "usedBy": null,
+          "declare": null,
+          "effect": "This unit has a maximum control score of 1.",
+          "abilityAndCommandIcon": "control",
+          "warscrollId": "57cd4b17-7f17-4ceb-8a22-ce7fb114db9d",
+          "keywords": []
+        }
+      ],
+      "keywords": [
+        "Beast"
+      ],
+      "factionKeywords": [
+        "Beasts of Chaos",
+        "Grand Alliance Chaos"
+      ]
+    },
+    {
+      "id": "65d30710-6611-49b8-aa88-23078e3a4132",
+      "name": "Razorgor",
+      "subname": null,
+      "lore": "Razorgors are mountains of twisted flesh and wiry hair possessed of a vicious fury and a bottomless appetite. They gobble their prey down in a few gulping bites, consuming flesh, metal, wood and stone alike.",
+      "bannerImage": "https://dhss9aar8ocw.cloudfront.net/d2ce3688-fd52-429c-8709-34ac86c6ef6d",
+      "rowImage": "https://dhss9aar8ocw.cloudfront.net/b2bd4cc5-5cbd-47f0-9f17-c60acd307e93",
+      "modelCount": 1,
+      "baseSize": "75 x 42mm",
+      "points": 90,
+      "notes": "This unit will move to Warhammer Legends on 1 June 2025.",
+      "isSpearhead": false,
+      "cannotBeReinforced": true,
+      "hiddenFromReference": false,
+      "hiddenFromStormForge": false,
+      "referenceKeywords": "Beast, Chaos, Beasts of Chaos",
+      "move": "10\"",
+      "save": "5+",
+      "control": "1",
+      "health": "4",
+      "wargearOptionsText": null,
+      "publicationId": "77f5aebf-eb94-4f70-99f6-8bded0f78996",
+      "limitingWarscrollId": null,
+      "requiredPrimaryHeroWarscrollId": null,
+      "isLegends": false,
+      "faction": "Beasts of Chaos",
+      "weapons": [
+        {
+          "id": "38a4d458-0fb1-4c78-acfe-0c6fba73bf05",
+          "name": "Large Tusks and Hooves",
+          "type": "melee",
+          "range": null,
+          "attacks": "5",
+          "hit": "4+",
+          "wound": "2+",
+          "rend": "-",
+          "damage": "2",
+          "battleDamaged": false,
+          "warscrollId": "65d30710-6611-49b8-aa88-23078e3a4132",
+          "weaponAbilities": [
+            "Charge (+1 Damage)"
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "id": "0a7200c1-09d5-4423-a5f3-92fcb98ea278",
+          "name": "Beast",
+          "phaseDetails": "Passive",
+          "phase": "endOfTurn",
+          "castingValue": null,
+          "cpCost": null,
+          "reaction": false,
+          "lore": null,
+          "usedBy": null,
+          "declare": null,
+          "effect": "This unit has a maximum control score of 1.",
+          "abilityAndCommandIcon": "control",
+          "warscrollId": "65d30710-6611-49b8-aa88-23078e3a4132",
+          "keywords": []
+        },
+        {
+          "id": "d8834508-6c8e-46c3-ba52-2ccfaa7cdf3d",
+          "name": "Feed On Mangled Remains",
+          "phaseDetails": "Passive",
+          "phase": "defensive",
+          "castingValue": null,
+          "cpCost": null,
+          "reaction": false,
+          "lore": "Such is the appetite and metabolism of a Razorgor that it can consume a slain warrior, armour and all, in a matter of seconds and still remain unsatisfied.",
+          "usedBy": null,
+          "declare": null,
+          "effect": "Each time this unit uses a Fight ability, after that Fight ability has been resolved, Heal (D3) this unit.",
+          "abilityAndCommandIcon": "defensive",
+          "warscrollId": "65d30710-6611-49b8-aa88-23078e3a4132",
+          "keywords": []
+        }
+      ],
+      "keywords": [
+        "Beast"
+      ],
+      "factionKeywords": [
+        "Beasts of Chaos",
+        "Grand Alliance Chaos"
+      ]
+    },
+    {
+      "id": "887fc79d-10ac-49fa-a621-dac2b9e0dd9d",
+      "name": "Bestigors",
+      "subname": null,
+      "lore": "Bestigors are the strongest and fiercest of the gorkin. Clad in stolen armour and wielding two-handed axes, they charge into the thick of the fighting, ramming enemies to the ground with their horns before delivering a brutal killing blow.",
+      "bannerImage": "https://dhss9aar8ocw.cloudfront.net/c022e062-7c9f-4273-b0de-81de06f6ff2e",
+      "rowImage": "https://dhss9aar8ocw.cloudfront.net/0cfc80c1-9d30-4086-b5bc-d27dc32e492d",
+      "modelCount": 10,
+      "baseSize": "32mm",
+      "points": 200,
+      "notes": "This unit will move to Warhammer Legends on 1 June 2025.",
+      "isSpearhead": false,
+      "cannotBeReinforced": false,
+      "hiddenFromReference": false,
+      "hiddenFromStormForge": false,
+      "referenceKeywords": "Infantry, Champion, Musician (1/10), Standard Bearer (1/10), Chaos, Beasts of Chaos, Brayherd",
+      "move": "6\"",
+      "save": "4+",
+      "control": "1",
+      "health": "2",
+      "wargearOptionsText": null,
+      "publicationId": "77f5aebf-eb94-4f70-99f6-8bded0f78996",
+      "limitingWarscrollId": null,
+      "requiredPrimaryHeroWarscrollId": null,
+      "isLegends": false,
+      "faction": "Beasts of Chaos",
+      "weapons": [
+        {
+          "id": "7df694c0-447c-4c7a-b31f-c87e7aa0f9e1",
+          "name": "Despoiler Axe",
+          "type": "melee",
+          "range": null,
+          "attacks": "3",
+          "hit": "4+",
+          "wound": "3+",
+          "rend": "1",
+          "damage": "1",
+          "battleDamaged": false,
+          "warscrollId": "887fc79d-10ac-49fa-a621-dac2b9e0dd9d",
+          "weaponAbilities": [
+            "Crit (2 Hits)"
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "id": "e7473d14-6451-42b7-8034-1e685d4f0677",
+          "name": "Ferocious Advance",
+          "phaseDetails": "Passive",
+          "phase": "defensive",
+          "castingValue": null,
+          "cpCost": null,
+          "reaction": false,
+          "lore": "Volleys of enemy fire do nothing to dissuade these bestial warriors from running down the enemy.",
+          "usedBy": null,
+          "declare": null,
+          "effect": "Subtract 1 from wound rolls for shooting attacks that target this unit.",
+          "abilityAndCommandIcon": "defensive",
+          "warscrollId": "887fc79d-10ac-49fa-a621-dac2b9e0dd9d",
+          "keywords": []
+        },
+        {
+          "id": "cf481306-2e8e-4198-901c-0bb9d0374535",
+          "name": "Despoilers",
+          "phaseDetails": "Reaction: Opponent declared the ‘All-out Defence’ command for a unit within 6\" of this unit",
+          "phase": "combatPhase",
+          "castingValue": null,
+          "cpCost": null,
+          "reaction": true,
+          "lore": "Bestigors reserve the greatest part of their hatred for those who rally under the banners of civilisation.",
+          "usedBy": null,
+          "declare": null,
+          "effect": "Add 1 to the Attacks characteristic of this unit’s Despoiler Axes for the rest of the turn.",
+          "abilityAndCommandIcon": "offensive",
+          "warscrollId": "887fc79d-10ac-49fa-a621-dac2b9e0dd9d",
+          "keywords": []
+        }
+      ],
+      "keywords": [
+        "Champion",
+        "Standard Bearer",
+        "Musician",
+        "Infantry",
+        "Brayherd"
+      ],
+      "factionKeywords": [
+        "Beasts of Chaos",
+        "Grand Alliance Chaos"
+      ]
+    },
+    {
+      "id": "827583e3-0316-4eb9-a9c5-51e2575571e4",
+      "name": "Centigors",
+      "subname": null,
+      "lore": "Drunken barbarians who love nothing more than a bloody brawl, the half-equine warriors known as Centigors charge across the battlefield in search of enemies to stomp, smash and brutalise.",
+      "bannerImage": "https://dhss9aar8ocw.cloudfront.net/f6fd23da-e01a-4d83-a1b6-5782eebfdbac",
+      "rowImage": "https://dhss9aar8ocw.cloudfront.net/f1b06de9-072b-4e1f-a907-638c93d63b52",
+      "modelCount": 5,
+      "baseSize": "60 x 35mm",
+      "points": 160,
+      "notes": "This unit will move to Warhammer Legends on 1 June 2025.",
+      "isSpearhead": false,
+      "cannotBeReinforced": false,
+      "hiddenFromReference": false,
+      "hiddenFromStormForge": false,
+      "referenceKeywords": "Cavalry, Champion, Musician (1/5), Standard Bearer (1/5), Chaos, Beasts of Chaos, Brayherd",
+      "move": "10\"",
+      "save": "5+",
+      "control": "1",
+      "health": "2",
+      "wargearOptionsText": null,
+      "publicationId": "77f5aebf-eb94-4f70-99f6-8bded0f78996",
+      "limitingWarscrollId": null,
+      "requiredPrimaryHeroWarscrollId": null,
+      "isLegends": false,
+      "faction": "Beasts of Chaos",
+      "weapons": [
+        {
+          "id": "14cc4087-b965-43f4-99fd-6f44bc6bfc85",
+          "name": "Gutpiercer Spear",
+          "type": "ranged",
+          "range": "8\"",
+          "attacks": "1",
+          "hit": "4+",
+          "wound": "3+",
+          "rend": "1",
+          "damage": "D3",
+          "battleDamaged": false,
+          "warscrollId": "827583e3-0316-4eb9-a9c5-51e2575571e4",
+          "weaponAbilities": []
+        },
+        {
+          "id": "2ec74411-518b-47cb-90e0-ea58631b33e5",
+          "name": "Clawed Forelimbs",
+          "type": "melee",
+          "range": null,
+          "attacks": "2",
+          "hit": "5+",
+          "wound": "3+",
+          "rend": "-",
+          "damage": "1",
+          "battleDamaged": false,
+          "warscrollId": "827583e3-0316-4eb9-a9c5-51e2575571e4",
+          "weaponAbilities": []
+        },
+        {
+          "id": "f1354b8a-1162-4d72-9461-a41baef147af",
+          "name": "Gutpiercer Spear",
+          "type": "melee",
+          "range": null,
+          "attacks": "3",
+          "hit": "4+",
+          "wound": "3+",
+          "rend": "1",
+          "damage": "1",
+          "battleDamaged": false,
+          "warscrollId": "827583e3-0316-4eb9-a9c5-51e2575571e4",
+          "weaponAbilities": [
+            "Anti-Cavalry (+1 Rend)",
+            "Charge (+1 Damage)"
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "id": "022e7713-d287-4725-9d17-86e994a22660",
+          "name": "Drunken Revelry",
+          "phaseDetails": "Once Per Turn (Army), Your Movement Phase",
+          "phase": "movementPhase",
+          "castingValue": null,
+          "cpCost": null,
+          "reaction": false,
+          "lore": "Centigors glut themselves on potent brews made of fermented blood and Chaos-infused oozes that they bring from their territories, sending them into a state of drunken bravado in which they are blind to fear and pain.",
+          "usedBy": null,
+          "declare": null,
+          "effect": "This unit can use this ability if it is not in combat. It has Ward (4+) for the rest of the turn.",
+          "abilityAndCommandIcon": "defensive",
+          "warscrollId": "827583e3-0316-4eb9-a9c5-51e2575571e4",
+          "keywords": []
+        }
+      ],
+      "keywords": [
+        "Champion",
+        "Standard Bearer",
+        "Musician",
+        "Brayherd",
+        "Cavalry"
+      ],
+      "factionKeywords": [
+        "Beasts of Chaos",
+        "Grand Alliance Chaos"
+      ]
+    },
+    {
+      "id": "8f972c56-74cc-48c9-ba96-df7e61b4618e",
+      "name": "Doomblast Dirgehorn",
+      "subname": null,
+      "lore": "Wrought from coalesced Chaos energies, the Doomblast Dirgehorn emits an unending, dolorous blast that drowns out all thought. The howling cacophony strips those in earshot of their sanity and reduces skilled warriors to fumbling fools.",
+      "bannerImage": "https://dhss9aar8ocw.cloudfront.net/2cd3301b-53ad-4f5a-980c-2f31bed5373a",
+      "rowImage": "https://dhss9aar8ocw.cloudfront.net/5245dd32-057c-4059-99fb-5b32d286f938",
+      "modelCount": 1,
+      "baseSize": "40mm",
+      "points": null,
+      "notes": null,
+      "isSpearhead": false,
+      "cannotBeReinforced": true,
+      "hiddenFromReference": false,
+      "hiddenFromStormForge": true,
+      "referenceKeywords": "Manifestation, Endless Spell, Ward (6+), Chaos, Beasts of Chaos",
+      "move": "-",
+      "save": "6+",
+      "control": "7+",
+      "health": "7",
+      "wargearOptionsText": null,
+      "publicationId": "77f5aebf-eb94-4f70-99f6-8bded0f78996",
+      "limitingWarscrollId": null,
+      "requiredPrimaryHeroWarscrollId": null,
+      "isLegends": false,
+      "faction": "Beasts of Chaos",
+      "weapons": [],
+      "abilities": [
+        {
+          "id": "9c5a8dbb-5647-4122-b5d0-f577261f6643",
+          "name": "Louder and Louder",
+          "phaseDetails": "Start of Battle Round",
+          "phase": "startOfTurn",
+          "castingValue": null,
+          "cpCost": null,
+          "reaction": false,
+          "lore": "The maddening blast of this foul magic grows ever more deafening until all within a dozen leagues can hear it.",
+          "usedBy": null,
+          "declare": null,
+          "effect": "Increase the range of this Manifestation’s ‘Booming Cacophony’ ability by 6\". This effect can be applied multiple times to this Manifestation and is cumulative. If this Manifestation is removed from play, this effect no longer applies.",
+          "abilityAndCommandIcon": "special",
+          "warscrollId": "8f972c56-74cc-48c9-ba96-df7e61b4618e",
+          "keywords": []
+        },
+        {
+          "id": "c6dd47ba-c136-4a17-9bf7-f430fe01a719",
+          "name": "Booming Cacophony",
+          "phaseDetails": "Passive",
+          "phase": "defensive",
+          "castingValue": null,
+          "cpCost": null,
+          "reaction": false,
+          "lore": "In the terrible blasting of the Dirgehorn can be heard the bestial growls of a thousand beastherds.",
+          "usedBy": null,
+          "declare": null,
+          "effect": "When this Manifestation is set up, the range of this ability is 6\". Subtract 1 from wound rolls for attacks made by enemy units while they are within range of this Manifestation’s ability.",
+          "abilityAndCommandIcon": "defensive",
+          "warscrollId": "8f972c56-74cc-48c9-ba96-df7e61b4618e",
+          "keywords": []
+        }
+      ],
+      "keywords": [
+        "Manifestation",
+        "Endless Spell",
+        "Ward (6+)"
+      ],
+      "factionKeywords": [
+        "Beasts of Chaos",
+        "Grand Alliance Chaos"
+      ]
+    },
+    {
+      "id": "929baa4a-5cb6-48d5-874b-8b06d2290a66",
+      "name": "Tuskgor Chariots",
+      "subname": null,
+      "lore": "Tuskgor Chariots are crude but fearsomely powerful war machines. Though they appear ramshackle in construction, the snorting, porcine brutes that haul them into battle are capable of wreaking terrible damage as they smash into the foe.",
+      "bannerImage": "https://dhss9aar8ocw.cloudfront.net/f1ac1080-89fa-4da4-b104-7c7bdb8cd2b0",
+      "rowImage": "https://dhss9aar8ocw.cloudfront.net/b9f534fa-ddab-4b57-939d-52bcd4c4a1fb",
+      "modelCount": 1,
+      "baseSize": "105 x 70mm",
+      "points": 110,
+      "notes": "This unit will move to Warhammer Legends on 1 June 2025.",
+      "isSpearhead": false,
+      "cannotBeReinforced": true,
+      "hiddenFromReference": false,
+      "hiddenFromStormForge": false,
+      "referenceKeywords": "War Machine, Chaos, Beasts of Chaos, Brayherd",
+      "move": "10\"",
+      "save": "4+",
+      "control": "2",
+      "health": "7",
+      "wargearOptionsText": null,
+      "publicationId": "77f5aebf-eb94-4f70-99f6-8bded0f78996",
+      "limitingWarscrollId": null,
+      "requiredPrimaryHeroWarscrollId": null,
+      "isLegends": false,
+      "faction": "Beasts of Chaos",
+      "weapons": [
+        {
+          "id": "0f5cbe22-d9d9-490a-aa0a-a28f3331bfbd",
+          "name": "Despoiler Weapons",
+          "type": "melee",
+          "range": null,
+          "attacks": "4",
+          "hit": "4+",
+          "wound": "3+",
+          "rend": "1",
+          "damage": "1",
+          "battleDamaged": false,
+          "warscrollId": "929baa4a-5cb6-48d5-874b-8b06d2290a66",
+          "weaponAbilities": [
+            "Crit (2 Hits)"
+          ]
+        },
+        {
+          "id": "52b8196b-9e47-49a6-8c53-15c4a95e1221",
+          "name": "Tuskgors’ Iron-hard Tusks",
+          "type": "melee",
+          "range": null,
+          "attacks": "4",
+          "hit": "5+",
+          "wound": "3+",
+          "rend": "1",
+          "damage": "1",
+          "battleDamaged": false,
+          "warscrollId": "929baa4a-5cb6-48d5-874b-8b06d2290a66",
+          "weaponAbilities": [
+            "Companion"
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "id": "175ee178-6482-4f35-a1a1-df955dc243a3",
+          "name": "Tuskgor Charge",
+          "phaseDetails": "Any Charge Phase",
+          "phase": "chargePhase",
+          "castingValue": null,
+          "cpCost": null,
+          "reaction": false,
+          "lore": "Spurred on by merciless whipping, Tuskgor Chariots barrel headlong into their foes.",
+          "usedBy": null,
+          "declare": "If this unit charged this phase, pick an enemy unit within 1\" of it to be the target.",
+          "effect": "Roll a D3. On a 2+, inflict an amount of mortal damage on the target equal to the roll.",
+          "abilityAndCommandIcon": "offensive",
+          "warscrollId": "929baa4a-5cb6-48d5-874b-8b06d2290a66",
+          "keywords": []
+        }
+      ],
+      "keywords": [
+        "War Machine",
+        "Brayherd"
+      ],
+      "factionKeywords": [
+        "Beasts of Chaos",
+        "Grand Alliance Chaos"
+      ]
+    },
+    {
+      "id": "9739b383-a1cb-4575-a324-0f5974820ed0",
+      "name": "Cygor",
+      "subname": null,
+      "lore": "Cygors are blind to the physical world but can sense and follow the trails of magic that permeate reality. They seek out sorcerers, wizards and other beings rich in eldritch power, cramming these spellcasters into their slavering maws and feasting upon the raw magic that spills from their broken bodies.",
+      "bannerImage": "https://dhss9aar8ocw.cloudfront.net/7a28d1b0-be98-418f-b0c0-932d288d6ffe",
+      "rowImage": "https://dhss9aar8ocw.cloudfront.net/19cdd5eb-9d3d-4b17-a387-19900b69a38e",
+      "modelCount": 1,
+      "baseSize": "120 x 92mm",
+      "points": 210,
+      "notes": "This unit will move to Warhammer Legends on 1 June 2025.",
+      "isSpearhead": false,
+      "cannotBeReinforced": true,
+      "hiddenFromReference": false,
+      "hiddenFromStormForge": false,
+      "referenceKeywords": "Monster, Chaos, Beasts of Chaos, Warherd",
+      "move": "8\"",
+      "save": "5+",
+      "control": "5",
+      "health": "15",
+      "wargearOptionsText": null,
+      "publicationId": "77f5aebf-eb94-4f70-99f6-8bded0f78996",
+      "limitingWarscrollId": null,
+      "requiredPrimaryHeroWarscrollId": null,
+      "isLegends": false,
+      "faction": "Beasts of Chaos",
+      "weapons": [
+        {
+          "id": "9ffe73a1-02a6-4c7f-a3f2-d79ee1a5a779",
+          "name": "Desecrated Boulder",
+          "type": "ranged",
+          "range": "15\"",
+          "attacks": "1",
+          "hit": "4+",
+          "wound": "2+",
+          "rend": "2",
+          "damage": "D3+3",
+          "battleDamaged": false,
+          "warscrollId": "9739b383-a1cb-4575-a324-0f5974820ed0",
+          "weaponAbilities": [
+            "Shoot in Combat"
+          ]
+        },
+        {
+          "id": "eddaa3b5-7c55-4f92-abcd-2f17d2c167f7",
+          "name": "Massive Horns",
+          "type": "melee",
+          "range": null,
+          "attacks": "6",
+          "hit": "4+",
+          "wound": "2+",
+          "rend": "1",
+          "damage": "2",
+          "battleDamaged": true,
+          "warscrollId": "9739b383-a1cb-4575-a324-0f5974820ed0",
+          "weaponAbilities": [
+            "Anti-Manifestation (+1 Rend)"
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "id": "0b2b26a5-a1f7-41f9-9f26-07c9c3f34c2e",
+          "name": "Battle Damaged",
+          "phaseDetails": "Passive",
+          "phase": "startOfTurn",
+          "castingValue": null,
+          "cpCost": null,
+          "reaction": false,
+          "lore": null,
+          "usedBy": null,
+          "declare": null,
+          "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its Massive Horns is 4.",
+          "abilityAndCommandIcon": "battleDamaged",
+          "warscrollId": "9739b383-a1cb-4575-a324-0f5974820ed0",
+          "keywords": []
+        },
+        {
+          "id": "4821b25a-b0d3-4b9f-97d4-a6b1f7a484c2",
+          "name": "Soul-eater",
+          "phaseDetails": "Passive",
+          "phase": "heroPhase",
+          "castingValue": null,
+          "cpCost": null,
+          "reaction": false,
+          "lore": "Feeding off the swirling winds of magic, Cygors pose an incredible threat to spellcasters.",
+          "usedBy": null,
+          "declare": null,
+          "effect": "This unit can use Unbind abilities as if it had Wizard (1). Each time this unit unbinds a spell, inflict D3 mortal damage on the caster.",
+          "abilityAndCommandIcon": "special",
+          "warscrollId": "9739b383-a1cb-4575-a324-0f5974820ed0",
+          "keywords": []
+        },
+        {
+          "id": "7ac276a9-f332-4846-933c-feede8884297",
+          "name": "Consume Endless Spell",
+          "phaseDetails": "Once Per Turn (Army), Any Combat Phase",
+          "phase": "combatPhase",
+          "castingValue": null,
+          "cpCost": null,
+          "reaction": false,
+          "lore": "A Cygor perceives mystic evocations as they are being formed, swallowing manifested spells as easily as the wizards that summoned them.",
+          "usedBy": null,
+          "declare": "Pick an Endless Spell within 9\" of this unit to be the target.",
+          "effect": "Roll 2D6. If the roll exceeds the target’s Banishment characteristic:\n\n• The target is banished.\n• Heal (X) this unit, where X is an amount equal to the roll.",
+          "abilityAndCommandIcon": "special",
+          "warscrollId": "9739b383-a1cb-4575-a324-0f5974820ed0",
+          "keywords": [
+            "Rampage"
+          ]
+        }
+      ],
+      "keywords": [
+        "Warherd",
+        "Monster"
+      ],
+      "factionKeywords": [
+        "Beasts of Chaos",
+        "Grand Alliance Chaos"
+      ]
+    },
+    {
+      "id": "bb9d34e3-a61e-4256-b96f-d80f5fdeb3da",
+      "name": "Jabberslythe",
+      "subname": null,
+      "lore": "Jabberslythes are nightmarish fusions of reptile, amphibian and insect, with sharp claws and a spiked tail that can punch through solid steel. They are so unearthly in their hideousness that to merely look upon one is to risk insanity.",
+      "bannerImage": "https://dhss9aar8ocw.cloudfront.net/781063be-370a-44a2-b75c-31342a657af5",
+      "rowImage": "https://dhss9aar8ocw.cloudfront.net/744d405d-c347-457c-82de-12bd2d599e8b",
+      "modelCount": 1,
+      "baseSize": "120 x 92mm",
+      "points": 210,
+      "notes": "This unit will move to Warhammer Legends on 1 June 2025.",
+      "isSpearhead": false,
+      "cannotBeReinforced": true,
+      "hiddenFromReference": false,
+      "hiddenFromStormForge": false,
+      "referenceKeywords": "Monster, Fly, Chaos, Beasts of Chaos",
+      "move": "10\"",
+      "save": "4+",
+      "control": "5",
+      "health": "12",
+      "wargearOptionsText": null,
+      "publicationId": "77f5aebf-eb94-4f70-99f6-8bded0f78996",
+      "limitingWarscrollId": null,
+      "requiredPrimaryHeroWarscrollId": null,
+      "isLegends": false,
+      "faction": "Beasts of Chaos",
+      "weapons": [
+        {
+          "id": "15cc4fa0-f967-47b2-8cb3-6050eb9c442f",
+          "name": "Slythey Tongue",
+          "type": "ranged",
+          "range": "8\"",
+          "attacks": "3",
+          "hit": "4+",
+          "wound": "2+",
+          "rend": "1",
+          "damage": "D3",
+          "battleDamaged": false,
+          "warscrollId": "bb9d34e3-a61e-4256-b96f-d80f5fdeb3da",
+          "weaponAbilities": [
+            "Shoot in Combat",
+            "Companion"
+          ]
+        },
+        {
+          "id": "88c0fe8d-bef6-4168-bf4c-2fc82941de22",
+          "name": "Vorpal Claws and Tail",
+          "type": "melee",
+          "range": null,
+          "attacks": "6",
+          "hit": "4+",
+          "wound": "2+",
+          "rend": "1",
+          "damage": "2",
+          "battleDamaged": false,
+          "warscrollId": "bb9d34e3-a61e-4256-b96f-d80f5fdeb3da",
+          "weaponAbilities": [
+            "Companion"
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "id": "4db72a90-4dbf-4f49-a73b-dc89b3b50234",
+          "name": "Aura of Madness",
+          "phaseDetails": "Once Per Turn (Army), Any Combat Phase",
+          "phase": "combatPhase",
+          "castingValue": null,
+          "cpCost": null,
+          "reaction": false,
+          "lore": "Those who gaze upon a Jabberslythe are soon overcome by a babbling madness, rendering them easy prey for the creature.",
+          "usedBy": null,
+          "declare": "Roll a D3. On a 2+, pick up to a number of enemy units equal to the roll that are within 9\" of this unit to be the targets.",
+          "effect": "For the rest of the turn, each time the unmodified hit roll for a combat attack made by the target is 1, inflict 1 mortal damage on the target after the Fight ability has been resolved.",
+          "abilityAndCommandIcon": "offensive",
+          "warscrollId": "bb9d34e3-a61e-4256-b96f-d80f5fdeb3da",
+          "keywords": [
+            "Rampage"
+          ]
+        }
+      ],
+      "keywords": [
+        "Monster",
+        "Fly"
+      ],
+      "factionKeywords": [
+        "Beasts of Chaos",
+        "Grand Alliance Chaos"
+      ]
+    },
+    {
+      "id": "bdf541cd-3d06-482b-a93c-7ec77a1cd732",
+      "name": "Chaos Gargant",
+      "subname": null,
+      "lore": "Lumbering, living totems of corruption, Chaos Gargants combine the formidable strength of their kind with all manner of gruesome mutations. Swinging crude weapons and hollering at the top of their lungs, they throw themselves into the thick of battle, stomping and crushing their foes beneath their cloven hooves.",
+      "bannerImage": "https://dhss9aar8ocw.cloudfront.net/5c62e123-eec1-4db2-a288-2da1571ec2f9",
+      "rowImage": "https://dhss9aar8ocw.cloudfront.net/020142f5-a57e-4269-9605-4e783c67bcfa",
+      "modelCount": 1,
+      "baseSize": "90 x 52mm",
+      "points": 150,
+      "notes": "This unit will move to Warhammer Legends on 1 June 2025.",
+      "isSpearhead": false,
+      "cannotBeReinforced": true,
+      "hiddenFromReference": false,
+      "hiddenFromStormForge": false,
+      "referenceKeywords": "Monster, Chaos, Beasts of Chaos",
+      "move": "8\"",
+      "save": "5+",
+      "control": "5",
+      "health": "12",
+      "wargearOptionsText": null,
+      "publicationId": "77f5aebf-eb94-4f70-99f6-8bded0f78996",
+      "limitingWarscrollId": null,
+      "requiredPrimaryHeroWarscrollId": null,
+      "isLegends": false,
+      "faction": "Beasts of Chaos",
+      "weapons": [
+        {
+          "id": "661757e9-47a0-475f-b7f7-24bc76325657",
+          "name": "Mighty Kick",
+          "type": "melee",
+          "range": null,
+          "attacks": "1",
+          "hit": "4+",
+          "wound": "2+",
+          "rend": "2",
+          "damage": "D3",
+          "battleDamaged": false,
+          "warscrollId": "bdf541cd-3d06-482b-a93c-7ec77a1cd732",
+          "weaponAbilities": []
+        },
+        {
+          "id": "ab646672-8615-43b0-8f79-c0794da62c33",
+          "name": "Massive Club",
+          "type": "melee",
+          "range": null,
+          "attacks": "4",
+          "hit": "4+",
+          "wound": "2+",
+          "rend": "1",
+          "damage": "2",
+          "battleDamaged": false,
+          "warscrollId": "bdf541cd-3d06-482b-a93c-7ec77a1cd732",
+          "weaponAbilities": []
+        },
+        {
+          "id": "b052ee5c-a8e1-4275-b3a2-fcaf1a2460b7",
+          "name": "’Eadbutt",
+          "type": "melee",
+          "range": null,
+          "attacks": "1",
+          "hit": "4+",
+          "wound": "2+",
+          "rend": "2",
+          "damage": "4",
+          "battleDamaged": false,
+          "warscrollId": "bdf541cd-3d06-482b-a93c-7ec77a1cd732",
+          "weaponAbilities": []
+        },
+        {
+          "id": "f2976317-e073-448e-af03-8e59b83e17da",
+          "name": "Throwin’ Rocks",
+          "type": "ranged",
+          "range": "12\"",
+          "attacks": "1",
+          "hit": "5+",
+          "wound": "2+",
+          "rend": "2",
+          "damage": "D3",
+          "battleDamaged": false,
+          "warscrollId": "bdf541cd-3d06-482b-a93c-7ec77a1cd732",
+          "weaponAbilities": []
+        }
+      ],
+      "abilities": [
+        {
+          "id": "b0c77220-95cc-4a79-a2c9-1d1464439bea",
+          "name": "Timberrrrr!",
+          "phaseDetails": "Passive",
+          "phase": "combatPhase",
+          "castingValue": null,
+          "cpCost": null,
+          "reaction": false,
+          "lore": "A dying gargant is a weapon of ruin in its own right, though it is anyone’s guess where their body will fall.",
+          "usedBy": null,
+          "declare": null,
+          "effect": "When this unit is destroyed, before removing it from play, the players must roll off. The winner picks a point on the battlefield within 3\" of this unit. Inflict D3 mortal damage on each unit (friendly and enemy) within 3\" of that point that has a lower Health characteristic than this unit.",
+          "abilityAndCommandIcon": "offensive",
+          "warscrollId": "bdf541cd-3d06-482b-a93c-7ec77a1cd732",
+          "keywords": []
+        },
+        {
+          "id": "c71a022e-a818-4582-be27-dc9e279c9f04",
+          "name": "Whipped Into A Frenzy",
+          "phaseDetails": "Once Per Turn (Army), Any Combat Phase",
+          "phase": "combatPhase",
+          "castingValue": null,
+          "cpCost": null,
+          "reaction": false,
+          "lore": "The leaders of a beastherd often goad gargants so as to send them into a berserk rage.",
+          "usedBy": null,
+          "declare": null,
+          "effect": "If this unit is within 6\" of any friendly Beasts of Chaos Heroes, add 1 to the Attacks characteristic of this unit’s melee weapons for the rest of the turn.",
+          "abilityAndCommandIcon": "offensive",
+          "warscrollId": "bdf541cd-3d06-482b-a93c-7ec77a1cd732",
+          "keywords": [
+            "Rampage"
+          ]
+        }
+      ],
+      "keywords": [
+        "Monster"
+      ],
+      "factionKeywords": [
+        "Beasts of Chaos",
+        "Grand Alliance Chaos"
+      ]
+    },
+    {
+      "id": "ccf6c172-b215-464f-a897-fe3df354bdc3",
+      "name": "Chaos Warhounds",
+      "subname": null,
+      "lore": "Lean, vicious and hideously mutated, Chaos Warhounds are products of the hellish environments in which they dwell. They are tireless pursuers that will chase their prey for hours before ripping them to bloody shreds.",
+      "bannerImage": "https://dhss9aar8ocw.cloudfront.net/91cf886d-1870-4e9a-afc1-ba4dfd3af3f4",
+      "rowImage": "https://dhss9aar8ocw.cloudfront.net/a3837ef2-95d4-49e5-b6ca-c78338e09aca",
+      "modelCount": 10,
+      "baseSize": "60 x 35mm",
+      "points": 130,
+      "notes": "This unit will move to Warhammer Legends on 1 June 2025.",
+      "isSpearhead": false,
+      "cannotBeReinforced": false,
+      "hiddenFromReference": false,
+      "hiddenFromStormForge": false,
+      "referenceKeywords": "Beast, Chaos, Beasts of Chaos",
+      "move": "10\"",
+      "save": "6+",
+      "control": "1",
+      "health": "2",
+      "wargearOptionsText": null,
+      "publicationId": "77f5aebf-eb94-4f70-99f6-8bded0f78996",
+      "limitingWarscrollId": null,
+      "requiredPrimaryHeroWarscrollId": null,
+      "isLegends": false,
+      "faction": "Beasts of Chaos",
+      "weapons": [
+        {
+          "id": "d49cadf6-46bc-4045-8ef0-eeda3be2b7c3",
+          "name": "Canine Jaws",
+          "type": "melee",
+          "range": null,
+          "attacks": "2",
+          "hit": "4+",
+          "wound": "3+",
+          "rend": "-",
+          "damage": "1",
+          "battleDamaged": false,
+          "warscrollId": "ccf6c172-b215-464f-a897-fe3df354bdc3",
+          "weaponAbilities": [
+            "Companion"
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "id": "e62d3267-1b93-4e21-bab5-94c5e58496b1",
+          "name": "Outrunners of Chaos",
+          "phaseDetails": "Reaction: You declared a Charge ability for this unit",
+          "phase": "chargePhase",
+          "castingValue": null,
+          "cpCost": null,
+          "reaction": true,
+          "lore": "Packs of Chaos Warhounds close upon their prey with unnatural quickness.",
+          "usedBy": null,
+          "declare": null,
+          "effect": "Change one of the dice in the charge roll to a 4.",
+          "abilityAndCommandIcon": "movement",
+          "warscrollId": "ccf6c172-b215-464f-a897-fe3df354bdc3",
+          "keywords": []
+        },
+        {
+          "id": "b726f4d2-6e88-472a-8bfb-bb241638983a",
+          "name": "Beast",
+          "phaseDetails": "Passive",
+          "phase": "endOfTurn",
+          "castingValue": null,
+          "cpCost": null,
+          "reaction": false,
+          "lore": null,
+          "usedBy": null,
+          "declare": null,
+          "effect": "This unit has a maximum control score of 1.",
+          "abilityAndCommandIcon": "control",
+          "warscrollId": "ccf6c172-b215-464f-a897-fe3df354bdc3",
+          "keywords": []
+        }
+      ],
+      "keywords": [
+        "Beast"
+      ],
+      "factionKeywords": [
+        "Beasts of Chaos",
+        "Grand Alliance Chaos"
+      ]
+    },
+    {
+      "id": "be6c98ce-a57c-4115-a208-845220283835",
+      "name": "Chimera",
+      "subname": null,
+      "lore": "Warped and ravenous alphapredators of the Chaos wilds, Chimeras are tri-headed abominations that descend from the skies to overwhelm their prey. Three monstrous heads rip, tear and spit streams of fire even as the beast’s vicious claws maul and mutilate.",
+      "bannerImage": "https://dhss9aar8ocw.cloudfront.net/f1b9c920-a337-4b27-9a7c-87f18f98e4c9",
+      "rowImage": "https://dhss9aar8ocw.cloudfront.net/bfb9b573-39ed-43ef-bdac-78d1b4748b68",
+      "modelCount": 1,
+      "baseSize": "120 x 92mm",
+      "points": 200,
+      "notes": "This unit will move to Warhammer Legends on 1 June 2025.",
+      "isSpearhead": false,
+      "cannotBeReinforced": true,
+      "hiddenFromReference": false,
+      "hiddenFromStormForge": false,
+      "referenceKeywords": "Monster, Fly, Chaos, Beasts of Chaos",
+      "move": "10\"",
+      "save": "5+",
+      "control": "5",
+      "health": "12",
+      "wargearOptionsText": null,
+      "publicationId": "77f5aebf-eb94-4f70-99f6-8bded0f78996",
+      "limitingWarscrollId": null,
+      "requiredPrimaryHeroWarscrollId": null,
+      "isLegends": false,
+      "faction": "Beasts of Chaos",
+      "weapons": [
+        {
+          "id": "a3a101d0-1a5d-45b7-a9e1-8a11511fc37d",
+          "name": "Mauling Claws",
+          "type": "melee",
+          "range": null,
+          "attacks": "6",
+          "hit": "4+",
+          "wound": "2+",
+          "rend": "-",
+          "damage": "2",
+          "battleDamaged": false,
+          "warscrollId": "be6c98ce-a57c-4115-a208-845220283835",
+          "weaponAbilities": [
+            "Crit (2 Hits)",
+            "Companion"
+          ]
+        },
+        {
+          "id": "b8f87971-fb95-4a30-a6e0-0ebc2d37df99",
+          "name": "Brimstone Breath",
+          "type": "ranged",
+          "range": "12\"",
+          "attacks": "6",
+          "hit": "2+",
+          "wound": "4+",
+          "rend": "-",
+          "damage": "1",
+          "battleDamaged": false,
+          "warscrollId": "be6c98ce-a57c-4115-a208-845220283835",
+          "weaponAbilities": [
+            "Shoot in Combat",
+            "Companion"
+          ]
+        },
+        {
+          "id": "dee475f6-94f8-4bcc-a041-bd10a29bdd35",
+          "name": "Chimeric Heads",
+          "type": "melee",
+          "range": null,
+          "attacks": "6",
+          "hit": "4+",
+          "wound": "2+",
+          "rend": "1",
+          "damage": "D3",
+          "battleDamaged": false,
+          "warscrollId": "be6c98ce-a57c-4115-a208-845220283835",
+          "weaponAbilities": [
+            "Companion"
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "id": "050cb096-59e2-47fa-a491-79cd2c6c7205",
+          "name": "Thricefold Savagery",
+          "phaseDetails": "Once Per Turn (Army), Any Combat Phase",
+          "phase": "combatPhase",
+          "castingValue": null,
+          "cpCost": null,
+          "reaction": false,
+          "lore": "Each head of a Chimera operates independently of the others, and though they are prone to violent disagreement as to which prey they should hunt, they are capable of working in terrifying concert.",
+          "usedBy": null,
+          "declare": null,
+          "effect": "Roll 3 dice. For each 4+, add 1 to the Attacks characteristic of this unit’s Chimeric Heads for the rest of the turn.",
+          "abilityAndCommandIcon": "offensive",
+          "warscrollId": "be6c98ce-a57c-4115-a208-845220283835",
+          "keywords": [
+            "Rampage"
+          ]
+        }
+      ],
+      "keywords": [
+        "Monster",
+        "Fly"
+      ],
+      "factionKeywords": [
+        "Beasts of Chaos",
+        "Grand Alliance Chaos"
+      ]
+    },
+    {
+      "id": "e59912bc-a831-403d-b42c-b89ae1ecebf5",
+      "name": "Beastlord",
+      "subname": null,
+      "lore": "In the merciless society of the Beasts of Chaos, only the mightiest rise to power. These are the Beastlords, hulking killers who command through intimidation and brutality and delight in sinking their man-ripper axes into the skulls of their foes.",
+      "bannerImage": "https://dhss9aar8ocw.cloudfront.net/cfd0e9de-8d5f-4851-8eb8-017729aca1a6",
+      "rowImage": "https://dhss9aar8ocw.cloudfront.net/c436c9b5-1316-4297-bf23-3fdd6e385a12",
+      "modelCount": 1,
+      "baseSize": "40mm",
+      "points": 170,
+      "notes": "This unit will move to Warhammer Legends on 1 June 2025.",
+      "isSpearhead": false,
+      "cannotBeReinforced": true,
+      "hiddenFromReference": false,
+      "hiddenFromStormForge": false,
+      "referenceKeywords": "Hero, Infantry, Chaos, Beasts of Chaos, Brayherd",
+      "move": "6\"",
+      "save": "4+",
+      "control": "2",
+      "health": "6",
+      "wargearOptionsText": null,
+      "publicationId": "77f5aebf-eb94-4f70-99f6-8bded0f78996",
+      "limitingWarscrollId": null,
+      "requiredPrimaryHeroWarscrollId": null,
+      "isLegends": false,
+      "faction": "Beasts of Chaos",
+      "weapons": [
+        {
+          "id": "e82a4ab1-08c4-40e6-8b8a-af4c9980a91c",
+          "name": "Paired Man-ripper Axes",
+          "type": "melee",
+          "range": null,
+          "attacks": "5",
+          "hit": "3+",
+          "wound": "3+",
+          "rend": "1",
+          "damage": "2",
+          "battleDamaged": false,
+          "warscrollId": "e59912bc-a831-403d-b42c-b89ae1ecebf5",
+          "weaponAbilities": [
+            "Crit (2 Hits)",
+            "Anti-Hero (+1 Rend)"
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "id": "6f00f463-8dad-4675-8564-8059441a646a",
+          "name": "Hatred of Heroes",
+          "phaseDetails": "Passive",
+          "phase": "combatPhase",
+          "castingValue": null,
+          "cpCost": null,
+          "reaction": false,
+          "lore": "A Beastlord reserves their prodigious strength and fury for the greatest of the enemy’s champions, calling upon their followers to witness and join the butchery.",
+          "usedBy": null,
+          "declare": null,
+          "effect": "While this unit is in combat with any enemy Heroes, add 1 to hit rolls and wound rolls for combat attacks made by friendly Beasts of Chaos units wholly within 12\" of this unit.",
+          "abilityAndCommandIcon": "offensive",
+          "warscrollId": "e59912bc-a831-403d-b42c-b89ae1ecebf5",
+          "keywords": []
+        },
+        {
+          "id": "05d23c81-33dc-4b28-9a65-b3e18ee030b1",
+          "name": "Call of Battle",
+          "phaseDetails": "Reaction: You declared a Fight ability for this unit",
+          "phase": "combatPhase",
+          "castingValue": null,
+          "cpCost": null,
+          "reaction": true,
+          "lore": "Beastlords swiftly lead their underlings towards the foe, desperate to get to grips with the enemy so that the bloodletting can begin.",
+          "usedBy": null,
+          "declare": null,
+          "effect": "Pick a friendly non-Hero Brayherd Infantry unit that has not used a Fight ability this turn and is within this unit’s combat range to be the target. The target can be picked to use a Fight ability immediately after the Fight ability used by this unit has been resolved.",
+          "abilityAndCommandIcon": "offensive",
+          "warscrollId": "e59912bc-a831-403d-b42c-b89ae1ecebf5",
+          "keywords": []
+        }
+      ],
+      "keywords": [
+        "Infantry",
+        "Brayherd",
+        "Hero"
+      ],
+      "factionKeywords": [
+        "Beasts of Chaos",
+        "Grand Alliance Chaos"
+      ]
+    },
+    {
+      "id": "fe371ba5-6a45-4b99-ad9e-6458b2fe69a6",
+      "name": "Gors",
+      "subname": null,
+      "lore": "Gors form the greater mass of a beastherd’s fighting force. Taller and more robust than humans, these vicious warriors wield axes and pitted swords. They rely upon superior numbers and the element of surprise to overcome their foes, crushing their will to fight with sudden, devastating stampedes.",
+      "bannerImage": "https://dhss9aar8ocw.cloudfront.net/a9917005-1d79-490f-ab59-3edf345d57f5",
+      "rowImage": "https://dhss9aar8ocw.cloudfront.net/424fc34f-2800-4c0b-ac85-35b2bd963b74",
+      "modelCount": 10,
+      "baseSize": "32mm",
+      "points": 110,
+      "notes": "This unit will move to Warhammer Legends on 1 June 2025.",
+      "isSpearhead": false,
+      "cannotBeReinforced": false,
+      "hiddenFromReference": false,
+      "hiddenFromStormForge": false,
+      "referenceKeywords": "Infantry, Champion, Musician (1/10), Standard Bearer (1/10), Chaos, Beasts of Chaos, Brayherd",
+      "move": "6\"",
+      "save": "5+",
+      "control": "1",
+      "health": "1",
+      "wargearOptionsText": null,
+      "publicationId": "77f5aebf-eb94-4f70-99f6-8bded0f78996",
+      "limitingWarscrollId": null,
+      "requiredPrimaryHeroWarscrollId": null,
+      "isLegends": false,
+      "faction": "Beasts of Chaos",
+      "weapons": [
+        {
+          "id": "8ffffe5e-3ac4-4860-bcb4-5779102c220e",
+          "name": "Hacking Blades",
+          "type": "melee",
+          "range": null,
+          "attacks": "2",
+          "hit": "4+",
+          "wound": "3+",
+          "rend": "-",
+          "damage": "1",
+          "battleDamaged": false,
+          "warscrollId": "fe371ba5-6a45-4b99-ad9e-6458b2fe69a6",
+          "weaponAbilities": [
+            "Crit (2 Hits)"
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "id": "5ccd44d9-4486-41cc-a414-19875cbdb3da",
+          "name": "Gor Stampede",
+          "phaseDetails": "Your Charge Phase",
+          "phase": "chargePhase",
+          "castingValue": null,
+          "cpCost": null,
+          "reaction": false,
+          "lore": "Gors gather in massive droves before charging their enemies, seeking to overwhelm them with superior numbers and brutish aggression.",
+          "usedBy": null,
+          "declare": "If this unit charged this phase, pick an enemy non-Hero Infantry unit that has fewer models than this unit and is within 1\" of it to be the target.",
+          "effect": "Roll a dice. On a 3+, the target has Strike-last for the rest of the turn.",
+          "abilityAndCommandIcon": "defensive",
+          "warscrollId": "fe371ba5-6a45-4b99-ad9e-6458b2fe69a6",
+          "keywords": []
+        }
+      ],
+      "keywords": [
+        "Champion",
+        "Standard Bearer",
+        "Musician",
+        "Infantry",
+        "Brayherd"
+      ],
+      "factionKeywords": [
+        "Beasts of Chaos",
+        "Grand Alliance Chaos"
+      ]
+    }
+  ],
+  "heroicTraits": [
+    {
+      "faction": "Beasts of Chaos",
+      "abilityGroupName": "Alphabeast Instincts",
+      "abilityType": "heroicTraits",
+      "id": "ca6e5009-4388-4eb4-886c-57edd7a85596",
+      "name": "Bestial Cunning",
+      "phaseDetails": "Your Movement Phase",
+      "phase": "movementPhase",
+      "abilityAndCommandIcon": "movement",
+      "cpCost": null,
+      "lore": "Bestial warlords might lack the tactical nous of trained soldiers, but there are few creatures more adept at sniffing out an enemy’s weakness and violently exploiting it.",
+      "declare": "Pick up to 3 friendly Beasts of Chaos units wholly within 12\" of this unit that were set up this turn using the ‘Beastherd Ambush’ ability to be the targets.",
+      "usedBy": null,
+      "effect": "Each target can immediately **move** D3\". The targets cannot **move** into combat during any part of that **move**.",
+      "image": null,
+      "altText": null,
+      "subsectionName": null,
+      "subsectionLore": null,
+      "subsectionRulesText": null,
+      "reaction": false,
+      "abilityGroupId": "034f4edf-ef6a-4fd9-b487-d86bd1c56b48",
+      "keywords": []
+    },
+    {
+      "faction": "Beasts of Chaos",
+      "abilityGroupName": "Alphabeast Instincts",
+      "abilityType": "heroicTraits",
+      "id": "ec6550b2-c659-47b8-b8f0-bc72c2ce0f19",
+      "name": "Propagator of Ruin",
+      "phaseDetails": "Passive",
+      "phase": "heroPhase",
+      "abilityAndCommandIcon": "special",
+      "cpCost": null,
+      "lore": "This general seethes with anarchic power and with their every action seeks to promulgate the majesty of Chaos.",
+      "usedBy": null,
+      "effect": "While this unit is on the battlefield, you can use the ‘Rituals of Ruin’ ability twice per turn in your **hero** phase instead of once per turn. You cannot pick the same effect more than once per turn.",
+      "image": null,
+      "altText": null,
+      "subsectionName": null,
+      "subsectionLore": null,
+      "subsectionRulesText": null,
+      "reaction": false,
+      "abilityGroupId": "034f4edf-ef6a-4fd9-b487-d86bd1c56b48",
+      "keywords": []
+    },
+    {
+      "faction": "Beasts of Chaos",
+      "abilityGroupName": "Alphabeast Instincts",
+      "abilityType": "heroicTraits",
+      "id": "a90477d2-579a-45f7-9902-1f267eac542f",
+      "name": "Death-grip",
+      "phaseDetails": "Once Per Turn, Reaction: Opponent declared a Shoot ability that targeted a friendly Beasts of Chaos unit",
+      "phase": "shootingPhase",
+      "abilityAndCommandIcon": "movement",
+      "cpCost": null,
+      "lore": "As the enemy brings their firepower to bear, this general urges their kin to stay within claw’s grasp of their assailants.",
+      "usedBy": null,
+      "effect": "If that friendly Beasts of Chaos unit is not in combat and is wholly within 18\" of this unit, after the **Shoot** ability has been resolved, that friendly unit can **move** 2D6\". It can **move** into combat.",
+      "image": null,
+      "altText": null,
+      "subsectionName": null,
+      "subsectionLore": null,
+      "subsectionRulesText": null,
+      "reaction": true,
+      "abilityGroupId": "034f4edf-ef6a-4fd9-b487-d86bd1c56b48",
+      "keywords": []
+    }
+  ],
+  "battleTraits": [
+    {
+      "faction": "Beasts of Chaos",
+      "abilityGroupName": "Beasts of Chaos Battle Traits",
+      "abilityType": "battleTraits",
+      "id": "3683dd1d-5cff-4c13-9eb3-a26f64f95ac3",
+      "name": "Rituals of Ruin",
+      "phaseDetails": "Once Per Turn (Army), Your Hero Phase",
+      "phase": "heroPhase",
+      "abilityAndCommandIcon": "special",
+      "cpCost": null,
+      "lore": "The mightiest of the beastmen worship the power of primeval Chaos, slaughtering and devouring in order to be blessed with strength or to force their opponents into throes of primal savagery.",
+      "usedBy": null,
+      "effect": "Pick 1 of the following effects:\n\nWarping Curse: Pick an enemy unit within 12\" of a friendly Beasts of Chaos **Hero** or, if there is a friendly Beasts of Chaos **Hero** in reserve, within 12\" of a battlefield edge to be the target. Then, roll a D3. On a 2+, inflict an amount of mortal damage on the target equal to the roll.\n\nBrand of Wild Fury: Pick a friendly Beasts of Chaos unit wholly within 12\" of a friendly Beasts of Chaos **Hero** or, if there is a friendly Beasts of Chaos **Hero** in reserve, wholly within 12\" of a battlefield edge to be the target. Then, roll a dice. On a 2+, the target has Ward (6+) for the rest of the turn.\n\nBestial Instinct: Pick a friendly Beasts of Chaos unit wholly within 12\" of a friendly Beasts of Chaos **Hero** or, if there is a friendly Beasts of Chaos **Hero** in reserve, wholly within 12\" of a battlefield edge to be the target. Then, roll a dice. On a 2+, add 1 to wound rolls for the target’s combat attacks for the rest of the turn.",
+      "image": null,
+      "altText": null,
+      "subsectionName": null,
+      "subsectionLore": null,
+      "subsectionRulesText": null,
+      "reaction": false,
+      "abilityGroupId": "508e746f-9cd3-4f4a-9a62-d47a6b989352",
+      "keywords": []
+    },
+    {
+      "faction": "Beasts of Chaos",
+      "abilityGroupName": "Beasts of Chaos Battle Traits",
+      "abilityType": "battleTraits",
+      "id": "7d3bc175-0844-4b96-9aef-565e54d559f9",
+      "name": "Beastherd Ambush",
+      "phaseDetails": "Your Movement Phase",
+      "phase": "movementPhase",
+      "abilityAndCommandIcon": "movement",
+      "cpCost": null,
+      "lore": "As the beasts close upon their foes, horn-blasts sound in every direction, signalling the launch of a deadly ambush.",
+      "declare": "Pick a friendly Beasts of Chaos unit that is in ambush.",
+      "usedBy": null,
+      "effect": "Set up that unit on the battlefield wholly within 9\" of a battlefield edge and more than 9\" from all enemy units.\n\nFor the rest of the turn, add 1 to **charge** rolls for that unit.",
+      "image": null,
+      "altText": null,
+      "subsectionName": null,
+      "subsectionLore": null,
+      "subsectionRulesText": null,
+      "reaction": false,
+      "abilityGroupId": "508e746f-9cd3-4f4a-9a62-d47a6b989352",
+      "keywords": []
+    },
+    {
+      "faction": "Beasts of Chaos",
+      "abilityGroupName": "Beasts of Chaos Battle Traits",
+      "abilityType": "battleTraits",
+      "id": "cc8ec828-32de-4f04-abaf-3eaf8cef51d6",
+      "name": "Masters of the Wilderness",
+      "phaseDetails": "Deployment Phase",
+      "phase": "startOfTurn",
+      "abilityAndCommandIcon": "special",
+      "cpCost": null,
+      "lore": "The wild lands of the Mortal Realms are the territory of the Beasts of Chaos, and they have dwelt in these places for longer than can be remembered.",
+      "declare": "Pick a friendly Beasts of Chaos unit that has not been deployed.",
+      "usedBy": null,
+      "effect": "Set up that unit in reserve in ambush. It has now been deployed.\n\nDesigner’s Note: Any number of friendly Beasts of Chaos units can start the battle in reserve – even your entire Beasts of Chaos army!",
+      "image": null,
+      "altText": null,
+      "subsectionName": null,
+      "subsectionLore": null,
+      "subsectionRulesText": null,
+      "reaction": false,
+      "abilityGroupId": "508e746f-9cd3-4f4a-9a62-d47a6b989352",
+      "keywords": [
+        "Deploy"
+      ]
+    }
+  ],
+  "artefactsOfPower": [
+    {
+      "faction": "Beasts of Chaos",
+      "abilityGroupName": "Anarchic Relics",
+      "abilityType": "artefactsOfPower",
+      "id": "1a6a47f8-9e9f-435d-95e9-278f57ce99f8",
+      "name": "Slitherwrack Helm",
+      "phaseDetails": "Passive",
+      "phase": "chargePhase",
+      "abilityAndCommandIcon": "movement",
+      "cpCost": null,
+      "lore": "This war-helm was fashioned from the skull of an infamous toad dragon; its pure repulsiveness causes enemies to retch and reel, rendering them helpless in their disgust.",
+      "usedBy": null,
+      "effect": "Subtract 1 from **charge** rolls for enemy units while they are within 12\" of this unit.",
+      "image": null,
+      "altText": null,
+      "subsectionName": null,
+      "subsectionLore": null,
+      "subsectionRulesText": null,
+      "reaction": false,
+      "abilityGroupId": "d449a1ff-c0c8-4b0e-b7ce-872fe12ab39f",
+      "keywords": []
+    },
+    {
+      "faction": "Beasts of Chaos",
+      "abilityGroupName": "Anarchic Relics",
+      "abilityType": "artefactsOfPower",
+      "id": "67c89ad8-c11e-4e2d-b7f7-2b05e28e03ab",
+      "name": "Gnarlstaff of Morghur",
+      "phaseDetails": "Your Hero Phase",
+      "phase": "heroPhase",
+      "abilityAndCommandIcon": "offensive",
+      "cpCost": null,
+      "lore": "Infused with the corrupting taint of the Shadowgave, the hideous mewling sounds emitted by this staff unmake the arcane wards of the enemy.",
+      "declare": "Pick a visible enemy unit within 12\" of this unit to be the target.",
+      "usedBy": null,
+      "effect": "Roll a dice. On a 2+, ward rolls cannot be made for the target for the rest of the turn.",
+      "image": null,
+      "altText": null,
+      "subsectionName": null,
+      "subsectionLore": null,
+      "subsectionRulesText": null,
+      "reaction": false,
+      "abilityGroupId": "d449a1ff-c0c8-4b0e-b7ce-872fe12ab39f",
+      "keywords": []
+    },
+    {
+      "faction": "Beasts of Chaos",
+      "abilityGroupName": "Anarchic Relics",
+      "abilityType": "artefactsOfPower",
+      "id": "824cec0f-6aa0-4f6e-aa28-20f48dc3658d",
+      "name": "Brayblast Trumpet",
+      "phaseDetails": "Your Movement Phase",
+      "phase": "movementPhase",
+      "abilityAndCommandIcon": "rallying",
+      "cpCost": null,
+      "lore": "Carved from the bone of a Shaggoth, the thunderous blasts of this horn draw the true children of Chaos towards it.",
+      "declare": "Pick a friendly non-**Unique** Beasts of Chaos **Infantry** or **Cavalry** unit that started the battle with 2 or more models and that has been destroyed to be the target.",
+      "usedBy": null,
+      "effect": "Roll a dice. On a 4+, set up a replacement unit with half the number of models from the target unit (rounding up) wholly within 12\" of a battlefield edge and more than 9\" from all enemy units.",
+      "image": null,
+      "altText": null,
+      "subsectionName": null,
+      "subsectionLore": null,
+      "subsectionRulesText": null,
+      "reaction": false,
+      "abilityGroupId": "d449a1ff-c0c8-4b0e-b7ce-872fe12ab39f",
+      "keywords": []
+    }
+  ],
+  "lores": [
+    {
+      "faction": "Beasts of Chaos",
+      "loreName": "Bestial Manifestations",
+      "abilities": [
+        {
+          "id": "0355ac93-63db-44b5-a1e4-757a3a8ff879",
+          "name": "Summon Wildfire Taurus",
+          "phaseDetails": "Your Hero Phase",
+          "phase": "heroPhase",
+          "abilityAndCommandIcon": "special",
+          "lore": "Wisps of flame develop into a roaring, charging beast of black smoke and wildfire.",
+          "declare": "If there is not a friendly Wildfire Taurus on the battlefield, pick a friendly Beasts of Chaos Wizard to cast this spell, then make a casting roll of 2D6.",
+          "usedBy": null,
+          "effect": "Set up a Wildfire Taurus wholly within 18\" of the caster and more than 9\" from all enemy units.",
+          "castingValue": 7,
+          "linkedWarscrollId": "70ec6a85-e44d-4bb5-a916-5a417094375f",
+          "loreId": "2b84e5ef-e958-4e29-a0bc-6a30747106a1",
+          "keywords": [
+            "Summon",
+            "Spell"
+          ]
+        },
+        {
+          "id": "c7895208-1baa-4d2a-91db-43c9a79b97eb",
+          "name": "Summon Doomblast Dirgehorn",
+          "phaseDetails": "Your Hero Phase",
+          "phase": "heroPhase",
+          "abilityAndCommandIcon": "special",
+          "lore": "Drawn from beneath the earth, animal bones are fused into the shape of a giant horn.",
+          "declare": "If there is not a friendly Doomblast Dirgehorn on the battlefield, pick a friendly Beasts of Chaos Wizard to cast this spell, then make a casting roll of 2D6.",
+          "usedBy": null,
+          "effect": "Set up a Doomblast Dirgehorn wholly within 18\" of the caster.",
+          "castingValue": 6,
+          "linkedWarscrollId": "8f972c56-74cc-48c9-ba96-df7e61b4618e",
+          "loreId": "2b84e5ef-e958-4e29-a0bc-6a30747106a1",
+          "keywords": [
+            "Summon",
+            "Spell"
+          ]
+        },
+        {
+          "id": "0b50e343-9bd3-46f3-9ec9-04fc5ee05628",
+          "name": "Summon Ravening Direflock",
+          "phaseDetails": "Your Hero Phase",
+          "phase": "heroPhase",
+          "abilityAndCommandIcon": "special",
+          "lore": "Dark feathers borne on the wind coalesce to form the terrible shapes of the Ravening Direflock.",
+          "declare": "If there is not a friendly Ravening Direflock on the battlefield, pick a friendly Beasts of Chaos Wizard to cast this spell, then make a casting roll of 2D6.",
+          "usedBy": null,
+          "effect": "Set up a Ravening Direflock wholly within 18\" of the caster and more than 9\" from all enemy units. A Ravening Direflock has 3 parts that must each be set up within 1\" of at least 1 other part.",
+          "castingValue": 7,
+          "linkedWarscrollId": "1ab21e97-0c46-4b88-9d12-e72be2ab4421",
+          "loreId": "2b84e5ef-e958-4e29-a0bc-6a30747106a1",
+          "keywords": [
+            "Summon",
+            "Spell"
+          ]
+        }
+      ]
+    },
+    {
+      "faction": "Beasts of Chaos",
+      "loreName": "Lore of the Twisted Wilds",
+      "abilities": [
+        {
+          "id": "4c8fb805-1aaf-481a-bd1c-57ed257b34cc",
+          "name": "Vicious Stranglethorns",
+          "phaseDetails": "Your Hero Phase",
+          "phase": "heroPhase",
+          "abilityAndCommandIcon": "movement",
+          "lore": "Twisting, thorn-covered vines erupt from the undergrowth to ensnare the foe.",
+          "declare": "Pick a friendly Beasts of Chaos Wizard to cast this spell, pick a visible enemy unit within 12\" of them to be the target, then make a casting roll of 2D6.",
+          "usedBy": null,
+          "effect": "Until the start of your next turn:\n\n• Halve the target’s Move characteristic.\n• Subtract 1 from the number of dice rolled when making charge rolls for the target, to a minimum of 1.",
+          "castingValue": 8,
+          "linkedWarscrollId": null,
+          "loreId": "9b7b323a-a2ec-4a31-989b-64d3bbf27d18",
+          "keywords": [
+            "Spell"
+          ]
+        },
+        {
+          "id": "ad423b35-9773-4a03-af90-622a82a06232",
+          "name": "Devolve",
+          "phaseDetails": "Your Hero Phase",
+          "phase": "heroPhase",
+          "abilityAndCommandIcon": "special",
+          "lore": "Delving into the minds of their enemies, the shaman magnifies the savage and animalistic parts of their foes’ psyches until they are little more than growling beasts.",
+          "declare": "Pick a friendly Beasts of Chaos Wizard to cast this spell, pick a visible enemy non-Hero unit within 12\" of them to be the target, then make a casting roll of 2D6.",
+          "usedBy": null,
+          "effect": "Until the start of your next turn:\n\n• The target unit has a maximum control score of 1.\n• The target cannot use commands.\n• Each time the target moves, it must end that move closer to the caster.",
+          "castingValue": 7,
+          "linkedWarscrollId": null,
+          "loreId": "9b7b323a-a2ec-4a31-989b-64d3bbf27d18",
+          "keywords": [
+            "Spell"
+          ]
+        },
+        {
+          "id": "e0fd9ee1-28b2-41d1-a1d7-742c89374e29",
+          "name": "Viletide",
+          "phaseDetails": "Your Hero Phase",
+          "phase": "heroPhase",
+          "abilityAndCommandIcon": "special",
+          "lore": "A seemingly ceaseless wave of bile, gore and writhing insects crashes into the enemy.",
+          "declare": "Pick a friendly Beasts of Chaos Wizard to cast this spell, pick a visible enemy unit within 12\" of them to be the target, then make a casting roll of 2D6.",
+          "usedBy": null,
+          "effect": "Inflict D3 mortal damage on the target. In addition, until the start of your next turn, the target cannot use commands.",
+          "castingValue": 7,
+          "linkedWarscrollId": null,
+          "loreId": "9b7b323a-a2ec-4a31-989b-64d3bbf27d18",
+          "keywords": [
+            "Spell",
+            "Unlimited"
+          ]
+        }
+      ]
+    }
+  ],
+  "battleFormations": [
+    {
+      "faction": "Beasts of Chaos",
+      "battleFormationName": "Hungering Warherd",
+      "abilities": [
+        {
+          "id": "182c4011-c5d7-428b-bac1-ada3f801f6ef",
+          "name": "Bloodgreed",
+          "phaseDetails": "End of Any Turn",
+          "phase": "endOfTurn",
+          "abilityAndCommandIcon": "defensive",
+          "lore": "Those beastmen in the throes of the bloodgreed who sate their cursed hunger for flesh are all but impossible to put down.",
+          "declare": "Pick each friendly Warherd unit that used a Fight ability this turn to be the targets.",
+          "effect": "Heal (3) each target.",
+          "usedBy": null,
+          "reaction": false,
+          "battleFormationId": "2d84e1f8-9472-42f6-815a-32e3a7861e25",
+          "keywords": []
+        }
+      ]
+    },
+    {
+      "faction": "Beasts of Chaos",
+      "battleFormationName": "Almighty Beastherd",
+      "abilities": [
+        {
+          "id": "170a4656-3d83-4c8c-86c8-56596a9f305b",
+          "name": "Arch-Despoilers",
+          "phaseDetails": "Passive",
+          "phase": "combatPhase",
+          "abilityAndCommandIcon": "offensive",
+          "lore": "The rampaging creatures of the beastherds despise all aspects of civilisation, and they will tear down monuments with their bare hands if necessary.",
+          "declare": null,
+          "effect": "Add 1 to hit rolls for combat attacks made by friendly Beasts of Chaos units that target an enemy unit that is contesting an objective you do not control.",
+          "usedBy": null,
+          "reaction": false,
+          "battleFormationId": "61924162-710f-4b25-a6b8-ea88613b5bd9",
+          "keywords": []
+        }
+      ]
+    },
+    {
+      "faction": "Beasts of Chaos",
+      "battleFormationName": "Marauding Brayherd",
+      "abilities": [
+        {
+          "id": "bc46bded-580c-4739-a78a-867fa74650e8",
+          "name": "Fiends of the Wilds",
+          "phaseDetails": "Once Per Turn (Army), Reaction: You declared a Charge ability for a friendly Brayherd unit",
+          "phase": "chargePhase",
+          "abilityAndCommandIcon": "movement",
+          "lore": "To the blasting of brayhorns come the roaming brayherds, stampeding from all directions to tear the enemy asunder.",
+          "declare": null,
+          "effect": "Change one of the dice in the charge roll to a 4.",
+          "usedBy": null,
+          "reaction": true,
+          "battleFormationId": "91c3c41c-c0b2-477b-9ad9-3bfe0a6165a3",
+          "keywords": []
+        }
+      ]
+    },
+    {
+      "faction": "Beasts of Chaos",
+      "battleFormationName": "Thunderscorn Stormherd",
+      "abilities": [
+        {
+          "id": "fb7b8cbc-5d10-4cde-9165-0494744befeb",
+          "name": "Raging Storm",
+          "phaseDetails": "Your Hero Phase",
+          "phase": "heroPhase",
+          "abilityAndCommandIcon": "special",
+          "lore": "Lightning arcs down to the battlefield, imbuing the Thunderscorn with renewed vigour and smiting their enemies with lethal crackling energy.",
+          "declare": "Pick each friendly Thunderscorn unit on the battlefield to be the friendly targets, then pick each enemy unit in combat with any friendly Thunderscorn units to be the enemy targets.",
+          "effect": "Heal (1) each friendly target. Then, roll a D3 for each enemy target, if any. On a 2+, inflict an amount of mortal damage on the enemy target equal to the roll.",
+          "usedBy": null,
+          "reaction": false,
+          "battleFormationId": "a9bae0f1-7f6e-497e-b74f-d35936f39d56",
+          "keywords": []
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,2767 @@
+{
+  "dataVersion": 181,
+  "warscrolls": [
+    {
+      "id": "0883a693-2fa9-4b93-b864-0144083050f8",
+      "name": "Liege-Kavalos",
+      "subname": null,
+      "lore": "Clad in the morbid panoply of the Ossiarch legions, a Liege-Kavalos directs their armies with chilling focus. Their place is at the tip of charging cavalry formations, punching through enemies like Katakros’s own spear. Once they have inflicted sufficient ruin and shock, a Liege-Kavalos leads their riders to smash from the foe’s back ranks, wheel about and repeat the process; many boast that they could trample an entire civilisation beneath their hooves if given a single lance of Deathriders and enough time to see it done.\n\nLiege-Kavaloi are the satraps and provincial lords of the Bonereapers’ empire, charged with custodianship of the necropolises and expansion of the Necrotopia. The proud souls that animate them were, in life, renowned for their ability to inspire fanatical loyalty; in death, that force of will drives those undead they command onwards without pause, to the horror of the living. Ossiarch footsoldiers obey the orders of their Liege-Kavalos without hesitation or delay; this complete obedience, when combined with the Liege-Kavalos’s military genius, has secured countless stunning victories in the name of the Ossiarch Empire.",
+      "bannerImage": "https://dhss9aar8ocw.cloudfront.net/d10b6142-fa65-4c5f-9782-dbb37982dc19",
+      "rowImage": "https://dhss9aar8ocw.cloudfront.net/8d5b5949-6504-41b3-86d0-5ace33755d4f",
+      "modelCount": 1,
+      "baseSize": "80mm",
+      "points": 210,
+      "notes": "This Hero can join an eligible regiment as a Legion Subcommander.",
+      "isSpearhead": false,
+      "cannotBeReinforced": true,
+      "hiddenFromReference": false,
+      "hiddenFromStormForge": false,
+      "referenceKeywords": "Hero, Cavalry, Ward (6+), Death, Ossiarch Bonereapers",
+      "move": "10\"",
+      "save": "3+",
+      "control": "2",
+      "health": "7",
+      "wargearOptionsText": null,
+      "publicationId": "383a370b-8c4e-4e88-90f7-71c7ad826967",
+      "limitingWarscrollId": null,
+      "requiredPrimaryHeroWarscrollId": null,
+      "isLegends": false,
+      "faction": "Ossiarch Bonereapers",
+      "weapons": [
+        {
+          "id": "18f78c1f-906b-412b-8437-0d99acfe7659",
+          "name": "Kavalos Steed’s Hooves, Teeth and Barbed Tails",
+          "type": "melee",
+          "range": null,
+          "attacks": "4",
+          "hit": "5+",
+          "wound": "3+",
+          "rend": "-",
+          "damage": "1",
+          "battleDamaged": false,
+          "warscrollId": "0883a693-2fa9-4b93-b864-0144083050f8",
+          "weaponAbilities": [
+            "Companion"
+          ]
+        },
+        {
+          "id": "c7eafadc-4051-45ce-85a2-f16330d4571b",
+          "name": "Commander’s Blade",
+          "type": "melee",
+          "range": null,
+          "attacks": "5",
+          "hit": "3+",
+          "wound": "3+",
+          "rend": "1",
+          "damage": "2",
+          "battleDamaged": false,
+          "warscrollId": "0883a693-2fa9-4b93-b864-0144083050f8",
+          "weaponAbilities": [
+            "Crit (2 Hits)",
+            "Charge (+1 Damage)"
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "id": "54a0ed85-3bdf-4f8a-a000-c97e7c98cc7c",
+          "name": "Unstoppable Charge",
+          "phaseDetails": "Any Charge Phase",
+          "phase": "chargePhase",
+          "castingValue": null,
+          "cpCost": null,
+          "reaction": false,
+          "lore": "When a Kavalos steed charges the foe, it can use its size and weight to smash enemy footsoldiers to the ground and crush them beneath its nadirite-shod hooves.",
+          "usedBy": null,
+          "declare": "If this unit charged this phase, pick an enemy Infantry unit that it passed across to be the target.",
+          "effect": "Roll a D3. On a 2+, inflict an amount of mortal damage on the target equal to the roll.",
+          "abilityAndCommandIcon": "offensive",
+          "warscrollId": "0883a693-2fa9-4b93-b864-0144083050f8",
+          "keywords": []
+        },
+        {
+          "id": "741f9634-49ae-4ac2-a03a-377b25450ff8",
+          "name": "Master of Cavalry",
+          "phaseDetails": "Reaction: You declared a Fight ability for this unit",
+          "phase": "combatPhase",
+          "castingValue": null,
+          "cpCost": null,
+          "reaction": true,
+          "lore": "A Liege‑Kavalos rides at the very tip of the cavalry spearhead, driving deep into the enemy’s vitals and smashing open a breach for their Deathriders to exploit.",
+          "usedBy": null,
+          "declare": null,
+          "effect": "Pick a friendly Kavalos Deathriders unit that has not used a Fight ability this turn and is within this unit’s combat range to be the target. The target can be picked to use a Fight ability immediately after the Fight ability used by this unit has been resolved.",
+          "abilityAndCommandIcon": "offensive",
+          "warscrollId": "0883a693-2fa9-4b93-b864-0144083050f8",
+          "keywords": []
+        },
+        {
+          "id": "bd1847aa-523f-487d-8a9e-0af2f79968ab",
+          "name": "Spear of the Kavaloi",
+          "phaseDetails": "Passive",
+          "phase": "chargePhase",
+          "castingValue": null,
+          "cpCost": null,
+          "reaction": false,
+          "lore": "A Liege-Kavalos on the charge can punch straight through the enemy line.",
+          "usedBy": null,
+          "declare": null,
+          "effect": "When this unit uses a Charge ability, it can pass through models in enemy Infantry units as if it had Fly.",
+          "abilityAndCommandIcon": "movement",
+          "warscrollId": "0883a693-2fa9-4b93-b864-0144083050f8",
+          "keywords": []
+        }
+      ],
+      "keywords": [
+        "Ward (6+)",
+        "Legion Subcommander",
+        "Cavalry",
+        "Hero"
+      ],
+      "factionKeywords": [
+        "Grand Alliance Death",
+        "Ossiarch Bonereapers"
+      ]
+    },
+    {
+      "id": "0f539f45-6ff7-4e2a-b290-c6573d2d114b",
+      "name": "Gothizzar Harvester",
+      "subname": null,
+      "lore": "The ground trembles and a charnel reek fills the air as a Gothizzar Harvester lumbers forward, joints clicking as it trawls through the carrion left behind by war. These massive constructs embody the grotesque pragmatism of the Ossiarch Bonereapers. They are designed not only to slaughter the enemy with bladed limbs and gouts of green spirit-flame but also to gather the slain up in the osseous cage atop their back, where a multitude of dexterous appendages proceed to strip flesh from bone and process the bounty of corpses. Indeed, a Gothizzar Harvester’s passage across the lands can be tracked by the grim trail of flesh, gristle and empty armour left in its wake.\n\nEven in the thick of battle, the Harvester’s duties continue, as it amasses a gruesome stockpile that can be used to repair a legion’s casualties on the field. Despite their value as force multipliers, Ossiarch commanders typically use Harvesters to smash openings in the enemy’s formation, bludgeoning and hacking their way through a mass of bodies. As they trample forwards, distress soon turns to blind terror and precipitates panicked retreats – even bold warriors can be forgiven for fleeing as they watch their comrades being slaughtered, picked apart and processed before their very eyes.",
+      "bannerImage": "https://dhss9aar8ocw.cloudfront.net/043b9857-fd3c-48d3-b0e4-5a8bbbb1884f",
+      "rowImage": "https://dhss9aar8ocw.cloudfront.net/2e800cb3-d204-4467-b019-6b4a8bef2f9c",
+      "modelCount": 1,
+      "baseSize": "105 x 70mm",
+      "points": 220,
+      "notes": null,
+      "isSpearhead": false,
+      "cannotBeReinforced": true,
+      "hiddenFromReference": false,
+      "hiddenFromStormForge": false,
+      "referenceKeywords": "Monster, Ward (6+), Death, Ossiarch Bonereapers",
+      "move": "6\"",
+      "save": "4+",
+      "control": "5",
+      "health": "10",
+      "wargearOptionsText": null,
+      "publicationId": "383a370b-8c4e-4e88-90f7-71c7ad826967",
+      "limitingWarscrollId": null,
+      "requiredPrimaryHeroWarscrollId": null,
+      "isLegends": false,
+      "faction": "Ossiarch Bonereapers",
+      "weapons": [
+        {
+          "id": "0c815c22-9c57-47cb-99ce-4bf372ce6365",
+          "name": "Death’s Head Maw",
+          "type": "ranged",
+          "range": "12\"",
+          "attacks": "4",
+          "hit": "4+",
+          "wound": "4+",
+          "rend": "1",
+          "damage": "1",
+          "battleDamaged": false,
+          "warscrollId": "0f539f45-6ff7-4e2a-b290-c6573d2d114b",
+          "weaponAbilities": []
+        },
+        {
+          "id": "125daa02-4572-4a85-9a00-7bf04e9d38ad",
+          "name": "Soulcrusher Weapons",
+          "type": "melee",
+          "range": null,
+          "attacks": "6",
+          "hit": "4+",
+          "wound": "2+",
+          "rend": "2",
+          "damage": "2",
+          "battleDamaged": false,
+          "warscrollId": "0f539f45-6ff7-4e2a-b290-c6573d2d114b",
+          "weaponAbilities": [
+            "Crit (2 Hits)"
+          ]
+        },
+        {
+          "id": "fea711ba-ad9e-4e99-9888-3a57883f7eb6",
+          "name": "Ossified Hooves and Tail",
+          "type": "melee",
+          "range": null,
+          "attacks": "4",
+          "hit": "4+",
+          "wound": "3+",
+          "rend": "1",
+          "damage": "2",
+          "battleDamaged": false,
+          "warscrollId": "0f539f45-6ff7-4e2a-b290-c6573d2d114b",
+          "weaponAbilities": []
+        }
+      ],
+      "abilities": [
+        {
+          "id": "0d8f1a38-8e82-4201-918c-e9c57d4ce2c1",
+          "name": "Bone Harvest",
+          "phaseDetails": "Passive",
+          "phase": "startOfTurn",
+          "castingValue": null,
+          "cpCost": null,
+          "reaction": false,
+          "lore": "As a Gothizzar Harvester fights, it works to amass a grisly stockpile of bones.",
+          "usedBy": null,
+          "declare": null,
+          "effect": "Each time an enemy model in combat with this unit is slain, give this unit 1 bone-tithe point. This unit can have a maximum of 6 bone-tithe points at once.",
+          "abilityAndCommandIcon": "special",
+          "warscrollId": "0f539f45-6ff7-4e2a-b290-c6573d2d114b",
+          "keywords": []
+        },
+        {
+          "id": "3dc1c033-40b9-40a1-bddf-e0f6068dfcbe",
+          "name": "Repair Construct",
+          "phaseDetails": "End of Any Turn",
+          "phase": "endOfTurn",
+          "castingValue": null,
+          "cpCost": null,
+          "reaction": false,
+          "lore": "The Harvester uses a portion of its morbid crop to restore the forms of fellow Ossiarchs.",
+          "usedBy": null,
+          "declare": "Pick a friendly Ossiarch Bonereapers unit wholly within 12\" of this unit to be the target.",
+          "effect": "Return a number of slain models to the target with a combined Health characteristic equal to the number of bone-tithe points this unit has. Then, reset this unit’s bone-tithe points to 0.",
+          "abilityAndCommandIcon": "rallying",
+          "warscrollId": "0f539f45-6ff7-4e2a-b290-c6573d2d114b",
+          "keywords": []
+        },
+        {
+          "id": "88bdee4e-76ac-451c-bef1-c7d3d1b83574",
+          "name": "Gruesome Surgery",
+          "phaseDetails": "Once Per Turn (Army), Any Combat Phase",
+          "phase": "combatPhase",
+          "castingValue": null,
+          "cpCost": null,
+          "reaction": false,
+          "lore": "Gothizzar Harvesters are capable of swiftly disassembling their foes so that nearby Mortek might be reconstituted from their blood-smeared bones.",
+          "usedBy": null,
+          "declare": "Pick an enemy Infantry unit in combat with this unit to be the target.",
+          "effect": "Roll a D3. On a 2+, inflict an amount of mortal damage on the target equal to the roll. For each model slain by this ability, you can return 1 slain model to a friendly Mortek Guard unit wholly within 12\" of this unit.",
+          "abilityAndCommandIcon": "special",
+          "warscrollId": "0f539f45-6ff7-4e2a-b290-c6573d2d114b",
+          "keywords": [
+            "Rampage"
+          ]
+        }
+      ],
+      "keywords": [
+        "Monster",
+        "Ward (6+)"
+      ],
+      "factionKeywords": [
+        "Grand Alliance Death",
+        "Ossiarch Bonereapers"
+      ]
+    },
+    {
+      "id": "1f9600c9-5e09-41ee-bdfd-03aae0f34541",
+      "name": "Bone-tithe Shrieker",
+      "subname": null,
+      "lore": "Fear is a weapon wisely deployed by the Ossiarch legions, for the shattering of an army’s will to fight brings about its destruction swifter and surer than any ingenious gambit. The Bone-tithe Shrieker is a soul-linked conjuration developed by arcanists of the Mortisan caste to swamp the battlefield in a tide of existential terror and to bring death to those who would avoid paying their rightful tribute of osseous matter.\n\nA Bone-tithe Shrieker appears as a four-headed, pyramidal monstrosity floating upon contrails of Shyishan magic. Its many faces spin constantly, seeking those marked by Nagash as traitors and tithe-avoiders. Having identified such a presence, the Shrieker lives up to its name, unleashing an ear-splitting and soulrending scream that turns living creatures nearby into trembling, shell-shocked statues – easy prey for advancing Ossiarch footsoldiers, who are immune to this fear-inflicting aural onslaught.",
+      "bannerImage": "https://dhss9aar8ocw.cloudfront.net/40205d5f-88b1-476c-843d-8a6664c80609",
+      "rowImage": "https://dhss9aar8ocw.cloudfront.net/0b08a656-ae6a-47e1-8d13-cd1bffb26ec8",
+      "modelCount": 1,
+      "baseSize": "90 x 52mm",
+      "points": null,
+      "notes": null,
+      "isSpearhead": false,
+      "cannotBeReinforced": true,
+      "hiddenFromReference": false,
+      "hiddenFromStormForge": true,
+      "referenceKeywords": "Manifestation, Endless Spell, Fly, Ward (6+), Death, Ossiarch Bonereapers",
+      "move": "8\"",
+      "save": "5+",
+      "control": "7+",
+      "health": "7",
+      "wargearOptionsText": null,
+      "publicationId": "383a370b-8c4e-4e88-90f7-71c7ad826967",
+      "limitingWarscrollId": null,
+      "requiredPrimaryHeroWarscrollId": null,
+      "isLegends": false,
+      "faction": "Ossiarch Bonereapers",
+      "weapons": [
+        {
+          "id": "30ff83d4-95ae-48f6-95d2-35d6cd89b50c",
+          "name": "Soul-rending Shriek",
+          "type": "melee",
+          "range": null,
+          "attacks": "4",
+          "hit": "3+",
+          "wound": "4+",
+          "rend": "1",
+          "damage": "D3",
+          "battleDamaged": false,
+          "warscrollId": "1f9600c9-5e09-41ee-bdfd-03aae0f34541",
+          "weaponAbilities": []
+        },
+        {
+          "id": "cccbda0d-25c4-4df8-b928-d6169364bb2e",
+          "name": "Soul-rending Shriek",
+          "type": "ranged",
+          "range": "12\"",
+          "attacks": "4",
+          "hit": "3+",
+          "wound": "4+",
+          "rend": "1",
+          "damage": "D3",
+          "battleDamaged": false,
+          "warscrollId": "1f9600c9-5e09-41ee-bdfd-03aae0f34541",
+          "weaponAbilities": [
+            "Shoot in Combat"
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "id": "c958de30-9350-4c61-a2a8-02f3db02e9be",
+          "name": "No Escape",
+          "phaseDetails": "Passive",
+          "phase": "combatPhase",
+          "castingValue": null,
+          "cpCost": null,
+          "reaction": false,
+          "lore": "There is no hope for the enemy when a Bone-tithe Shrieker is nearby.",
+          "usedBy": null,
+          "declare": null,
+          "effect": "Subtract 1 from ward rolls for enemy units while they are within 12\" of this Manifestation.",
+          "abilityAndCommandIcon": "offensive",
+          "warscrollId": "1f9600c9-5e09-41ee-bdfd-03aae0f34541",
+          "keywords": []
+        }
+      ],
+      "keywords": [
+        "Manifestation",
+        "Endless Spell",
+        "Ward (6+)",
+        "Fly"
+      ],
+      "factionKeywords": [
+        "Grand Alliance Death",
+        "Ossiarch Bonereapers"
+      ]
+    },
+    {
+      "id": "271348a4-c72d-47c8-ae94-0f604d29530c",
+      "name": "Nightmare Predator",
+      "subname": null,
+      "lore": "Shaped from Shyishan magic, a Nightmare Predator manifests as a towering, skull-faced fiend with raking talons and a cruel laugh that chills the blood to ice. Modelled upon some of the most horrific entities to be found in those areas of Shyish saturated with the energies of ending, these malignant spells were created by the Ossiarch’s foremost Soulmasons. They were shaped from the residual spite and fury of damaged souls, a surfeit of spirit-matter moulded into a weapon with which they might accomplish the swift annihilation of the living. Nightmare Predators are most commonly unleashed upon the battlefield, where their deadly momentum can turn the tide of battle in the blink of an eye.\n\nConjured to destroy enemies and bonded to the will of its caster, the Nightmare Predator floats eerily across the battlefield towards its quarry, unstoppable and inevitable. Anything unfortunate enough to stand between the spell and its intended target is simply obliterated. The Predator’s ethereal claws lash out to lacerate the bodies of its screaming victims, stripping their flesh to the bone before tossing them aside.",
+      "bannerImage": "https://dhss9aar8ocw.cloudfront.net/c85cb8ad-2cd9-4504-ad89-fd58eae8c73d",
+      "rowImage": "https://dhss9aar8ocw.cloudfront.net/83475601-863d-49d8-b4b0-da67a37a8f3f",
+      "modelCount": 1,
+      "baseSize": "60mm",
+      "points": null,
+      "notes": null,
+      "isSpearhead": false,
+      "cannotBeReinforced": true,
+      "hiddenFromReference": false,
+      "hiddenFromStormForge": true,
+      "referenceKeywords": "Manifestation, Endless Spell, Fly, Ward (6+), Death, Ossiarch Bonereapers",
+      "move": "8\"",
+      "save": "5+",
+      "control": "7+",
+      "health": "7",
+      "wargearOptionsText": null,
+      "publicationId": "383a370b-8c4e-4e88-90f7-71c7ad826967",
+      "limitingWarscrollId": null,
+      "requiredPrimaryHeroWarscrollId": null,
+      "isLegends": false,
+      "faction": "Ossiarch Bonereapers",
+      "weapons": [
+        {
+          "id": "43150813-aae2-4385-a0b4-cf7f4da7123c",
+          "name": "Lacerating Claws",
+          "type": "melee",
+          "range": null,
+          "attacks": "6",
+          "hit": "4+",
+          "wound": "2+",
+          "rend": "2",
+          "damage": "2",
+          "battleDamaged": false,
+          "warscrollId": "271348a4-c72d-47c8-ae94-0f604d29530c",
+          "weaponAbilities": []
+        }
+      ],
+      "abilities": [
+        {
+          "id": "abbe98b2-a199-47c2-af5c-37e96e437f44",
+          "name": "Death Incarnate",
+          "phaseDetails": "End of Any Turn",
+          "phase": "endOfTurn",
+          "castingValue": null,
+          "cpCost": null,
+          "reaction": false,
+          "lore": "Even when destroyed, the nightmare predator reforms to continue tormenting its enemies.",
+          "usedBy": null,
+          "declare": null,
+          "effect": "If this Manifestation was destroyed or banished this turn and the unit that summoned it is on the battlefield, roll a dice. On a 4+, set up this Manifestation again, wholly within 12\" of the unit that summoned it and more than 9\" from all enemy units.",
+          "abilityAndCommandIcon": "rallying",
+          "warscrollId": "271348a4-c72d-47c8-ae94-0f604d29530c",
+          "keywords": []
+        }
+      ],
+      "keywords": [
+        "Manifestation",
+        "Endless Spell",
+        "Ward (6+)",
+        "Fly"
+      ],
+      "factionKeywords": [
+        "Grand Alliance Death",
+        "Ossiarch Bonereapers"
+      ]
+    },
+    {
+      "id": "29a6a996-a56f-470f-a3dd-135e32331bd9",
+      "name": "Arkhan the Black, Mortarch of Sacrament",
+      "subname": null,
+      "lore": "Highest-ranking amongst the Mortarchs is Arkhan the Black, an ancient liche-lord who has served the Great Necromancer for centuries beyond counting, learning mysteries of Shyishan magic that none but the gods are privy to. If there is a being in existence that Nagash trusts, it is Arkhan, and the morbid sorcerer is dispatched to oversee his master’s most critical schemes. To aid him in this, the Mortarch of Sacrament was granted full control of the Bonereaper legion known as the Null Myriad, which he leads on bitter campaigns of suppression and annihilation against the living.\n\nArkhan’s command of necromancy is bettered only by Nagash himself, and in battle, he unleashes its full might upon any who dare impede his master’s plans. Mounted atop the dread abyssal Razarak and wielding the Staff of Spirits, the Mortarch summons surging storms of amethyst energy, sending this deadly cascade crashing down upon his victims and turning them to withered husks. The soulstuff of these unfortunates – ripped from their flesh as it turns to dust – is devoured by Arkhan, mending any damage done to his physical form and further empowering his magic.",
+      "bannerImage": "https://dhss9aar8ocw.cloudfront.net/197aa0c0-6396-481b-8640-dd5b101b4aaa",
+      "rowImage": "https://dhss9aar8ocw.cloudfront.net/00bd29cd-50c6-4b30-9bfb-eb9be92a7216",
+      "modelCount": 1,
+      "baseSize": "120 x 92mm",
+      "points": 410,
+      "notes": null,
+      "isSpearhead": false,
+      "cannotBeReinforced": true,
+      "hiddenFromReference": false,
+      "hiddenFromStormForge": false,
+      "referenceKeywords": "Warmaster, Unique, Hero, Monster, Wizard (3), Fly, Ward (6+), Death, Ossiarch Bonereapers",
+      "move": "12\"",
+      "save": "3+",
+      "control": "5",
+      "health": "14",
+      "wargearOptionsText": null,
+      "publicationId": "383a370b-8c4e-4e88-90f7-71c7ad826967",
+      "limitingWarscrollId": null,
+      "requiredPrimaryHeroWarscrollId": null,
+      "isLegends": false,
+      "faction": "Ossiarch Bonereapers",
+      "weapons": [
+        {
+          "id": "46d0c100-fe9a-4507-bf83-6cc519f70c0b",
+          "name": "Razarak’s Ebon Claws",
+          "type": "melee",
+          "range": null,
+          "attacks": "6",
+          "hit": "4+",
+          "wound": "2+",
+          "rend": "2",
+          "damage": "2",
+          "battleDamaged": true,
+          "warscrollId": "29a6a996-a56f-470f-a3dd-135e32331bd9",
+          "weaponAbilities": [
+            "Companion"
+          ]
+        },
+        {
+          "id": "e9201e3d-a350-48a2-b2a6-6914108ca52e",
+          "name": "Zefet-kar and Khenash-an",
+          "type": "melee",
+          "range": null,
+          "attacks": "4",
+          "hit": "4+",
+          "wound": "3+",
+          "rend": "1",
+          "damage": "D3",
+          "battleDamaged": false,
+          "warscrollId": "29a6a996-a56f-470f-a3dd-135e32331bd9",
+          "weaponAbilities": [
+            "Crit (2 Hits)"
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "id": "205f7872-65c7-40eb-895e-dfd360d3632b",
+          "name": "Battle Damaged",
+          "phaseDetails": "Passive",
+          "phase": "startOfTurn",
+          "castingValue": null,
+          "cpCost": null,
+          "reaction": false,
+          "lore": null,
+          "usedBy": null,
+          "declare": null,
+          "effect": "While this unit has 10 or more damage points, the Attacks characteristic of Razarak’s Ebon Claws is 4.",
+          "abilityAndCommandIcon": "battleDamaged",
+          "warscrollId": "29a6a996-a56f-470f-a3dd-135e32331bd9",
+          "keywords": []
+        },
+        {
+          "id": "64469689-8226-4c65-af3f-4dea3d27d0f4",
+          "name": "Curse of Years",
+          "phaseDetails": "Your Hero Phase",
+          "phase": "heroPhase",
+          "castingValue": 6,
+          "cpCost": null,
+          "reaction": false,
+          "lore": "Tracing a spiteful gesture in the air, Arkhan curses the enemy to age at an incredible rate.",
+          "usedBy": null,
+          "declare": "Pick a visible enemy unit within 18\" of this unit to be the target, then make a casting roll of 2D6.",
+          "effect": "Roll 10 dice. For each 6:\n\n• Inflict 1 mortal damage on the target.\n• Roll an extra dice.\n\nFor each 5+ on those extra dice, repeat the above bullet points. Then, do the same for each 4+, then each 3+, then each 2+.",
+          "abilityAndCommandIcon": "offensive",
+          "warscrollId": "29a6a996-a56f-470f-a3dd-135e32331bd9",
+          "keywords": [
+            "Spell"
+          ]
+        },
+        {
+          "id": "e67b6256-acde-4ff8-8a44-2332155c7610",
+          "name": "The Doom of Traitors",
+          "phaseDetails": "Once Per Turn (Army), Any Combat Phase",
+          "phase": "combatPhase",
+          "castingValue": null,
+          "cpCost": null,
+          "reaction": false,
+          "lore": "The dread abyssal Razarak bears Arkhan into battle, seeking out those who have stoked the ire of the Great Necromancer.",
+          "usedBy": null,
+          "declare": "If this unit charged this turn, pick an enemy unit in combat with it to be the target.",
+          "effect": "Roll a D3. On a 2+, inflict an amount of mortal damage on the target equal to the roll. If the target is a Hero, double the amount of mortal damage inflicted.",
+          "abilityAndCommandIcon": "offensive",
+          "warscrollId": "29a6a996-a56f-470f-a3dd-135e32331bd9",
+          "keywords": [
+            "Rampage"
+          ]
+        },
+        {
+          "id": "ee6e4d1a-cc46-44df-859a-c298366f9a5b",
+          "name": "The Staff of Spirits",
+          "phaseDetails": "Passive",
+          "phase": "heroPhase",
+          "castingValue": null,
+          "cpCost": null,
+          "reaction": false,
+          "lore": "Khenash-an, the Staff of Spirits, grants Arkhan the power to absorb the souls of his foes.",
+          "usedBy": null,
+          "declare": null,
+          "effect": "Add 1 to casting rolls for this unit. Each time this unit successfully casts a spell, Heal (1) this unit.",
+          "abilityAndCommandIcon": "special",
+          "warscrollId": "29a6a996-a56f-470f-a3dd-135e32331bd9",
+          "keywords": []
+        },
+        {
+          "id": "49b2343a-1c62-4668-8aa2-dc2cb99d4842",
+          "name": "Mortarch of Sacrament",
+          "phaseDetails": "Reaction: Opponent declared a Spell ability",
+          "phase": "heroPhase",
+          "castingValue": null,
+          "cpCost": null,
+          "reaction": true,
+          "lore": "Arkhan’s loyalty has seen him become privy to secrets of Shyishan magic known to none outside the ranks of the gods.",
+          "usedBy": null,
+          "declare": null,
+          "effect": "If a friendly Ossiarch Bonereapers unit wholly within 18\" of this unit was picked to be the target of that spell, roll a dice. On a 4+, ignore the effect of that spell on that unit. This unit can use this ability more than once per phase but only once per Spell ability.",
+          "abilityAndCommandIcon": "defensive",
+          "warscrollId": "29a6a996-a56f-470f-a3dd-135e32331bd9",
+          "keywords": []
+        }
+      ],
+      "keywords": [
+        "Monster",
+        "Wizard",
+        "Unique",
+        "Ward (6+)",
+        "Fly",
+        "Warmaster",
+        "Hero"
+      ],
+      "factionKeywords": [
+        "Grand Alliance Death",
+        "Ossiarch Bonereapers"
+      ]
+    },
+    {
+      "id": "4b9e29b0-3d9a-4fcb-8786-272114874694",
+      "name": "Teratic Cohort",
+      "subname": null,
+      "lore": "Nagash is a merciless god, and those who displease him are destined to suffer terribly. The Ossiarch constructs of the Teratic Cohort were plucked from the ranks of the legions after failing in their duty, their forms broken down and remoulded into bestial shapes befitting the pariahs of Ossiarch society. Denied the glory of martial victory, they now perform only the most brutish and honourless tasks: conquering monster-ridden forests, hunting down troublesome raiders and seeking out valuable troves of osseous matter. Their existing soultrap gems set in new beast-bone forms, they are more aggressive and unpredictable than other Ossiarchs.\n\nEach Cohort detachment is led by a Kavalos Centari, a hulking centauroid creature usually formed from the upper half of a condemned Liege-Kavalos and the lower half of their former steed. Embittered and shamed by their new duties, they must nevertheless lead a motley retinue of Teratic warriors to victory in Nagash’s name. Aviarch Harpies and canine Teratic Prowlers are vicious hunting beasts made from the soulstuff of defective Ossiarchs, and one-eyed Mortek Cykloptians function as autonomous conduits through which their masters can peer upon lands their mighty armies would find it impossible to traverse.",
+      "bannerImage": "https://dhss9aar8ocw.cloudfront.net/f65198dd-f7de-4269-be7a-29d2505d89f5",
+      "rowImage": "https://dhss9aar8ocw.cloudfront.net/e20d6813-574c-4aea-8635-10cdac7cc95d",
+      "modelCount": 8,
+      "baseSize": "60 x 35mm [1], 32mm [2], 28.5mm [5]",
+      "points": 140,
+      "notes": "This unit cannot be reinforced.",
+      "isSpearhead": false,
+      "cannotBeReinforced": true,
+      "hiddenFromReference": false,
+      "hiddenFromStormForge": false,
+      "referenceKeywords": "Infantry, Champion (1/8), Ward (6+), Death, Ossiarch Bonereapers",
+      "move": "7\"",
+      "save": "4+",
+      "control": "1",
+      "health": "2",
+      "wargearOptionsText": "Each model in this unit is armed with Claws and Talons.\n\n• The champion is a Kavalos Centari and must replace their Claws and Talons with Teratic Weapons.\n• 2/8 models in this unit are Mortek Cykloptians and must replace their Claws and Talons with Teratic Weapons.",
+      "publicationId": "383a370b-8c4e-4e88-90f7-71c7ad826967",
+      "limitingWarscrollId": null,
+      "requiredPrimaryHeroWarscrollId": null,
+      "isLegends": false,
+      "faction": "Ossiarch Bonereapers",
+      "weapons": [
+        {
+          "id": "a6477316-9d19-4da1-b3f5-b09675fef9ba",
+          "name": "Claws and Talons",
+          "type": "melee",
+          "range": null,
+          "attacks": "2",
+          "hit": "4+",
+          "wound": "3+",
+          "rend": "-",
+          "damage": "1",
+          "battleDamaged": false,
+          "warscrollId": "4b9e29b0-3d9a-4fcb-8786-272114874694",
+          "weaponAbilities": [
+            "Companion"
+          ]
+        },
+        {
+          "id": "ad7baa42-790b-480a-a628-82a789572781",
+          "name": "Teratic Weapons",
+          "type": "melee",
+          "range": null,
+          "attacks": "2",
+          "hit": "3+",
+          "wound": "4+",
+          "rend": "1",
+          "damage": "1",
+          "battleDamaged": false,
+          "warscrollId": "4b9e29b0-3d9a-4fcb-8786-272114874694",
+          "weaponAbilities": [
+            "Crit (2 Hits)"
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "id": "50af6bcf-a0d1-4c25-aaaf-112bfcbdd2be",
+          "name": "Predator's Cunning",
+          "phaseDetails": "Deployment Phase",
+          "phase": "startOfTurn",
+          "castingValue": null,
+          "cpCost": null,
+          "reaction": false,
+          "lore": "Fashioned from the soulstuff of hunting beasts, Teratic Cohorts have perfected the art of the ambush.",
+          "usedBy": null,
+          "declare": "Pick this unit if it has not been deployed.",
+          "effect": "Set up this unit in reserve outflanking the enemy. It has now been deployed.",
+          "abilityAndCommandIcon": "special",
+          "warscrollId": "4b9e29b0-3d9a-4fcb-8786-272114874694",
+          "keywords": [
+            "Deploy"
+          ]
+        },
+        {
+          "id": "5727c82f-d52d-4100-9990-d273b1f9a225",
+          "name": "Hunters Unleashed",
+          "phaseDetails": "Your Movement Phase",
+          "phase": "movementPhase",
+          "castingValue": null,
+          "cpCost": null,
+          "reaction": false,
+          "lore": "Unable to hold back any longer, these feral constructs rush forward to engage their prey.",
+          "usedBy": null,
+          "declare": "Pick this unit if it is outflanking the enemy.",
+          "effect": "Set up this unit anywhere on the battlefield more than 9\" from all enemy units.",
+          "abilityAndCommandIcon": "movement",
+          "warscrollId": "4b9e29b0-3d9a-4fcb-8786-272114874694",
+          "keywords": []
+        }
+      ],
+      "keywords": [
+        "Champion",
+        "Infantry",
+        "Ward (6+)"
+      ],
+      "factionKeywords": [
+        "Grand Alliance Death",
+        "Ossiarch Bonereapers"
+      ]
+    },
+    {
+      "id": "5fb9f85d-0087-458e-abf9-b3425f5e7552",
+      "name": "Soulstealer Carrion",
+      "subname": null,
+      "lore": "It is common to see winged forms circling above an Ossiarch army on the march, like vultures expecting a surfeit of rotting flesh. In fact, these are not creatures of flesh and blood but necromantic creations known as Soulstealer Carrion. Each linked to the essence of an Ossiarch mage, these conjurations are sent into the skies to act as spies, scouts and sentries. The summoner of the endless spell can see through the avian entity’s eyes, ensuring that an Ossiarch legion is rarely taken unawares by an outflanking army.\n\nThough beholden to the will of their summoner, a Soulstealer Carrion possesses a strange form of sentience that ensures that it remains useful even after the enemy has been sighted. Freed from direct control, it dives and swoops above the heads of the Ossiarchs’ foes, radiating such a baleful aura of doom that even the bravest souls find their resolve to fight ebbing away, replaced with a sense of existential dread.",
+      "bannerImage": "https://dhss9aar8ocw.cloudfront.net/03b5fbd9-fefd-4c41-b8dd-9b92981cb811",
+      "rowImage": "https://dhss9aar8ocw.cloudfront.net/348c4401-c170-42b9-a716-8a79d4d15f9c",
+      "modelCount": 1,
+      "baseSize": "60mm",
+      "points": null,
+      "notes": null,
+      "isSpearhead": false,
+      "cannotBeReinforced": true,
+      "hiddenFromReference": false,
+      "hiddenFromStormForge": true,
+      "referenceKeywords": "Manifestation, Endless Spell, Fly, Ward (6+), Death, Ossiarch Bonereapers",
+      "move": "10\"",
+      "save": "5+",
+      "control": "7+",
+      "health": "7",
+      "wargearOptionsText": null,
+      "publicationId": "383a370b-8c4e-4e88-90f7-71c7ad826967",
+      "limitingWarscrollId": null,
+      "requiredPrimaryHeroWarscrollId": null,
+      "isLegends": false,
+      "faction": "Ossiarch Bonereapers",
+      "weapons": [
+        {
+          "id": "a408edb3-0408-4edf-b1c7-b1b433f5c4f8",
+          "name": "Spectral Claws and Beak",
+          "type": "melee",
+          "range": null,
+          "attacks": "6",
+          "hit": "4+",
+          "wound": "2+",
+          "rend": "1",
+          "damage": "D3",
+          "battleDamaged": false,
+          "warscrollId": "5fb9f85d-0087-458e-abf9-b3425f5e7552",
+          "weaponAbilities": []
+        }
+      ],
+      "abilities": [
+        {
+          "id": "b30a6d40-83c4-4017-878e-ed42b2691170",
+          "name": "Aviarch Sentry",
+          "phaseDetails": "Passive",
+          "phase": "endOfTurn",
+          "castingValue": null,
+          "cpCost": null,
+          "reaction": false,
+          "lore": "This ethereal monstrosity invokes terror as it swoops over enemy battlelines, causing the foe’s resolve to waver.",
+          "usedBy": null,
+          "declare": null,
+          "effect": "Subtract 5 from the control scores of enemy Infantry units while they are within 6\" of this Manifestation.",
+          "abilityAndCommandIcon": "control",
+          "warscrollId": "5fb9f85d-0087-458e-abf9-b3425f5e7552",
+          "keywords": []
+        }
+      ],
+      "keywords": [
+        "Manifestation",
+        "Endless Spell",
+        "Ward (6+)",
+        "Fly"
+      ],
+      "factionKeywords": [
+        "Grand Alliance Death",
+        "Ossiarch Bonereapers"
+      ]
+    },
+    {
+      "id": "6402c028-d472-4985-b8c8-d0d1a7676e21",
+      "name": "Mortek Crawler",
+      "subname": null,
+      "lore": "Few weapons in the Ossiarch arsenal inspire such a quaking terror in their victims as the Mortek Crawler. A siege engine of grotesque yet ingenious design, this contraption is possessed of a crude animus, allowing it to lumber forward upon multiple bone limbs and place itself in the optimum firing position. Attendant engineers then operate the Crawler’s mechanisms, loading and directing the weapon at the heart of the enemy’s formation. At the signal of a high-ranking war vizier, the Crawler’s main arm lurches forwards, hurling a payload of glowing missiles towards its target.\n\nA Crawler’s ammunition consists not of physical matter but of fiendish concentrations of deathly energy. The most commonly used projectiles are clusters of necrotically charged skulls. Where these land, they burst in a storm of sorcery that shatters stone and blasts the life from nearby soldiers. Sometimes, a Crawler will be loaded with strange, polyhedral steles inscribed with grim hexes, designed to unleash a concentrated burst of death magic against a single target. More insidious still are the cauldrons of torment: warded containers filled with tormented soul-slivers, which burst upon impact and fill the air with a maddening aura of terror and pain that drives mortals hopelessly insane.",
+      "bannerImage": "https://dhss9aar8ocw.cloudfront.net/3ac70786-ec1e-43f8-8105-d22ce519c358",
+      "rowImage": "https://dhss9aar8ocw.cloudfront.net/65204d51-bd54-4acf-91c9-8d5b4d5eddab",
+      "modelCount": 1,
+      "baseSize": "170 x 105mm",
+      "points": 260,
+      "notes": null,
+      "isSpearhead": false,
+      "cannotBeReinforced": true,
+      "hiddenFromReference": false,
+      "hiddenFromStormForge": false,
+      "referenceKeywords": "War Machine, Ward (6+), Death, Ossiarch Bonereapers",
+      "move": "5\"",
+      "save": "4+",
+      "control": "5",
+      "health": "12",
+      "wargearOptionsText": null,
+      "publicationId": "383a370b-8c4e-4e88-90f7-71c7ad826967",
+      "limitingWarscrollId": null,
+      "requiredPrimaryHeroWarscrollId": null,
+      "isLegends": false,
+      "faction": "Ossiarch Bonereapers",
+      "weapons": [
+        {
+          "id": "8df7fd1e-979c-401b-b659-c7ae547afa47",
+          "name": "Dread Catapult",
+          "type": "ranged",
+          "range": "24\"",
+          "attacks": "4",
+          "hit": "4+",
+          "wound": "2+",
+          "rend": "1",
+          "damage": "D3+2",
+          "battleDamaged": false,
+          "warscrollId": "6402c028-d472-4985-b8c8-d0d1a7676e21",
+          "weaponAbilities": [
+            "Crit (2 Hits)",
+            "Anti-Infantry (+1 Rend)"
+          ]
+        },
+        {
+          "id": "d4289dbd-2466-4339-8295-0eae0892b532",
+          "name": "Attendants’ Crawler Tools",
+          "type": "melee",
+          "range": null,
+          "attacks": "6",
+          "hit": "4+",
+          "wound": "4+",
+          "rend": "-",
+          "damage": "1",
+          "battleDamaged": false,
+          "warscrollId": "6402c028-d472-4985-b8c8-d0d1a7676e21",
+          "weaponAbilities": [
+            "Companion"
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "id": "8f8637df-3c61-4ebc-81e1-51e1bd3c39b9",
+          "name": "Deathly Barrage",
+          "phaseDetails": "Any Shooting Phase",
+          "phase": "shootingPhase",
+          "castingValue": null,
+          "cpCost": null,
+          "reaction": false,
+          "lore": "The grisly ammunition of a Mortek Crawler can leave even the most stoic souls staggering.",
+          "usedBy": null,
+          "declare": "Pick an enemy unit that was targeted by all of this unit’s shooting attacks this phase to be the target.",
+          "effect": "Roll a dice. Add 1 to the roll if this unit is wholly within 12\" of a friendly Mortisan Ossifector, and add 1 to the roll if any other friendly Mortek Crawler units picked that enemy unit to be the target of this ability this turn. On a 4+, the target has Strike‑last for the rest of the turn.",
+          "abilityAndCommandIcon": "defensive",
+          "warscrollId": "6402c028-d472-4985-b8c8-d0d1a7676e21",
+          "keywords": []
+        }
+      ],
+      "keywords": [
+        "War Machine",
+        "Ward (6+)"
+      ],
+      "factionKeywords": [
+        "Grand Alliance Death",
+        "Ossiarch Bonereapers"
+      ]
+    },
+    {
+      "id": "67789d49-2064-41cb-944c-ce8de8433c96",
+      "name": "Vokmortian, Master of the Bone-tithe",
+      "subname": null,
+      "lore": "Bearer of the Decree of Nagash and overseer of a realm-wide harvest of corpse-matter, Vokmortian is a being whose appearance strikes dread into the living. There is some mystery as to his true nature: some believe him to be the flickering essence of a conquered death god, others that he was the first Bonereaper or a being formed from the cursed timepieces that surround Nagash’s sanctuary. Whatever the truth, Vokmortian was granted the grim title of Master of the Bone-tithe, and his existence is dedicated to ensuring that mortals deliver unto the Great Necromancer that which is owed. Even the Mortarchs guard their tongues in his presence, for whatever the High Emissarian sees, Nagash sees too – and Vokmortian is no more forgiving than his master.\n\nThe Decree of Nagash is not merely a roll of ancient parchment: it is an unholy writ, leaden with magics of tyranny that can cow the mightiest heroes. Those who think to defy Nagashizzar are reminded of the folly of this course by the severed, wailing heads hanging from Vokmortian’s staff – victims who refused the tithe, still imbued with a flicker of horrific awareness so that they might eternally regret their hubris.",
+      "bannerImage": "https://dhss9aar8ocw.cloudfront.net/8df4cdd8-2bf6-42b0-9866-1f09eeb986a3",
+      "rowImage": "https://dhss9aar8ocw.cloudfront.net/79c9975d-4cce-4e72-9c6d-4e9dcf3b8d63",
+      "modelCount": 1,
+      "baseSize": "40mm",
+      "points": 170,
+      "notes": null,
+      "isSpearhead": false,
+      "cannotBeReinforced": true,
+      "hiddenFromReference": false,
+      "hiddenFromStormForge": false,
+      "referenceKeywords": "Unique, Hero, Wizard (2), Infantry, Ward (6+), Death, Ossiarch Bonereapers",
+      "move": "5\"",
+      "save": "4+",
+      "control": "2",
+      "health": "5",
+      "wargearOptionsText": null,
+      "publicationId": "383a370b-8c4e-4e88-90f7-71c7ad826967",
+      "limitingWarscrollId": null,
+      "requiredPrimaryHeroWarscrollId": null,
+      "isLegends": false,
+      "faction": "Ossiarch Bonereapers",
+      "weapons": [
+        {
+          "id": "160e3a9a-db50-40ab-901a-ecace60ac18e",
+          "name": "Gaze of Death",
+          "type": "ranged",
+          "range": "12\"",
+          "attacks": "1",
+          "hit": "3+",
+          "wound": "2+",
+          "rend": "1",
+          "damage": "2",
+          "battleDamaged": false,
+          "warscrollId": "67789d49-2064-41cb-944c-ce8de8433c96",
+          "weaponAbilities": []
+        },
+        {
+          "id": "17ad7d8d-f477-4558-ada0-9154104a5782",
+          "name": "Staff of Retribution",
+          "type": "melee",
+          "range": null,
+          "attacks": "3",
+          "hit": "4+",
+          "wound": "3+",
+          "rend": "1",
+          "damage": "2",
+          "battleDamaged": false,
+          "warscrollId": "67789d49-2064-41cb-944c-ce8de8433c96",
+          "weaponAbilities": [
+            "Crit (2 Hits)"
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "id": "7c834192-bb6f-435b-96a2-e469ad6af709",
+          "name": "Voice of Nagash",
+          "phaseDetails": "Once Per Battle, Any Hero Phase",
+          "phase": "heroPhase",
+          "castingValue": null,
+          "cpCost": null,
+          "reaction": false,
+          "lore": "The sheer force of Vokmortian’s oratory fills even the boldest commanders with doubt.",
+          "usedBy": null,
+          "declare": "Pick a visible enemy unit within 12\" of this unit to be the target.",
+          "effect": "For the rest of the turn, non‑Fight Core abilities cost 1 command point for the target to use.",
+          "abilityAndCommandIcon": "special",
+          "warscrollId": "67789d49-2064-41cb-944c-ce8de8433c96",
+          "keywords": []
+        },
+        {
+          "id": "c61f94b9-b123-4da6-a64f-fc70a9a62495",
+          "name": "Mortal Contract",
+          "phaseDetails": "Your Hero Phase",
+          "phase": "heroPhase",
+          "castingValue": 7,
+          "cpCost": null,
+          "reaction": false,
+          "lore": "Vokmortian binds an enemy to a deadly mystical contract.",
+          "usedBy": null,
+          "declare": "Pick a visible enemy unit within 18\" of this unit to be bound, pick a visible friendly Ossiarch Bonereapers unit wholly within 18\" of this unit to be bound, then make a casting roll of 2D6.",
+          "effect": "Until the start of your next turn, each time the bound friendly unit is picked to be the target of an ability used by the bound enemy unit, roll a D3. On a 2+, inflict an amount of mortal damage on the bound enemy unit equal to the roll as a reaction. If the bound enemy unit is destroyed by this ability, do not resolve the effect of the enemy ability.",
+          "abilityAndCommandIcon": "offensive",
+          "warscrollId": "67789d49-2064-41cb-944c-ce8de8433c96",
+          "keywords": [
+            "Spell"
+          ]
+        }
+      ],
+      "keywords": [
+        "Wizard",
+        "Unique",
+        "Infantry",
+        "Ward (6+)",
+        "Hero"
+      ],
+      "factionKeywords": [
+        "Grand Alliance Death",
+        "Ossiarch Bonereapers"
+      ]
+    },
+    {
+      "id": "884eaa1b-add3-48d8-bd5d-ebf7fb1769ed",
+      "name": "Mortisan Boneshaper",
+      "subname": null,
+      "lore": "It is the Mortisan Boneshapers who are responsible for the building of the Ossiarch war machine, peeling apart raw bone matter and remoulding it. They do so with delicate precision in order to create new weapons or to repair the damage done to Mortek legionaries. When selecting souls to animate the first of these mages, Nagash prioritised craftsmen of ability and renown. The underworlds were practically ransacked for such spirits, the artisans’ inclination to fashion works of beauty perverted to the purpose of war and the veneration of their malignant god. A skilled Boneshaper can keep an Ossiarch cohort fighting on despite tremendous losses, supplementing their necromantic repairs with the skeletal remains of those the Bonereapers have recently slain.\n\nOf course, such mastery of osseous matter can also be directly weaponised if the situation demands it. Appearing frailer than their combat-ready counterparts, the Mortisans are often singled out as easy targets – a delusion that only lasts until they summon a storm of razor-sharp bone shards to eviscerate any would-be assailants. Should the enemy manage to close to melee range, the Boneshaper’s talons – primarily designed for delicate sculpting – are more than capable of ripping out throats or piercing hearts.",
+      "bannerImage": "https://dhss9aar8ocw.cloudfront.net/f44b248f-c0be-4c8a-b9bd-15ccf811a88d",
+      "rowImage": "https://dhss9aar8ocw.cloudfront.net/4afa28ea-3aa7-41da-8631-045162169b9c",
+      "modelCount": 1,
+      "baseSize": "32mm",
+      "points": 130,
+      "notes": null,
+      "isSpearhead": false,
+      "cannotBeReinforced": true,
+      "hiddenFromReference": false,
+      "hiddenFromStormForge": false,
+      "referenceKeywords": "Hero, Wizard (1), Infantry, Ward (6+), Death, Ossiarch Bonereapers, Mortisan",
+      "move": "5\"",
+      "save": "4+",
+      "control": "2",
+      "health": "5",
+      "wargearOptionsText": null,
+      "publicationId": "383a370b-8c4e-4e88-90f7-71c7ad826967",
+      "limitingWarscrollId": null,
+      "requiredPrimaryHeroWarscrollId": null,
+      "isLegends": false,
+      "faction": "Ossiarch Bonereapers",
+      "weapons": [
+        {
+          "id": "2c7e37ea-6faf-4cc4-a1ae-b1c62a09f996",
+          "name": "Ossified Talons",
+          "type": "melee",
+          "range": null,
+          "attacks": "3",
+          "hit": "4+",
+          "wound": "4+",
+          "rend": "-",
+          "damage": "2",
+          "battleDamaged": false,
+          "warscrollId": "884eaa1b-add3-48d8-bd5d-ebf7fb1769ed",
+          "weaponAbilities": [
+            "Crit (2 Hits)"
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "id": "a80e588b-6d84-4044-94eb-588e73a1999b",
+          "name": "Boneshaper",
+          "phaseDetails": "Once Per Turn, Your Hero Phase",
+          "phase": "heroPhase",
+          "castingValue": null,
+          "cpCost": null,
+          "reaction": false,
+          "lore": "The Boneshaper uses their arcane arts to form shattered bones into new Ossiarch constructs.",
+          "usedBy": null,
+          "declare": "Pick a friendly Ossiarch Bonereapers unit wholly within 12\" of this unit to be the target.",
+          "effect": "Roll a dice. On a 3+:\n\n• If the target is damaged, Heal (3) the target.\n• If the target is not damaged, return a number of slain models to the target unit with a combined Health characteristic of up to 3.",
+          "abilityAndCommandIcon": "special",
+          "warscrollId": "884eaa1b-add3-48d8-bd5d-ebf7fb1769ed",
+          "keywords": []
+        }
+      ],
+      "keywords": [
+        "Wizard",
+        "Mortisan",
+        "Infantry",
+        "Ward (6+)",
+        "Hero"
+      ],
+      "factionKeywords": [
+        "Grand Alliance Death",
+        "Ossiarch Bonereapers"
+      ]
+    },
+    {
+      "id": "a9332a73-0279-4b60-ab51-c50ea9ea1d5c",
+      "name": "Bone-tithe Nexus",
+      "subname": null,
+      "lore": "The process by which Ossiarch tithemasters gather their grisly bounty can differ greatly legion by legion, but it is common for them to demand that the offerings of the living be placed at a designated site of power. Known as a Bone-tithe Nexus, this location is thoroughly drenched in necrotic energies, functioning not only as a repository of corpse-matter but also as a grotesque infirmary where damaged Ossiarch warriors can be repaired in soul and bone.\n\nAt the centre of the Nexus looms a four-skulled tower that silently oversees the offered tribute of the Bonereapers’ mortal vassals. Should any shipment prove insufficient – or should any would-be rebels attempt to break their contract – the eyes of the statue will glow with deathly power, spitting devastating beams of energy that blast the life from those whom they strike. The Bone-tithe Nexus is capable of delivering a number of other punishments if it is deemed necessary, including curses of agony, mind-wiping enchantments and hexes that reduce the strongest warriors to withered, unmoving husks.",
+      "bannerImage": "https://dhss9aar8ocw.cloudfront.net/f6470069-bb20-4c6a-bcda-9067aecd68f0",
+      "rowImage": "https://dhss9aar8ocw.cloudfront.net/08943cf8-2d3d-4342-9581-e234fd46ddca",
+      "modelCount": 1,
+      "baseSize": "Use model",
+      "points": null,
+      "notes": null,
+      "isSpearhead": false,
+      "cannotBeReinforced": true,
+      "hiddenFromReference": false,
+      "hiddenFromStormForge": false,
+      "referenceKeywords": "Faction Terrain, Death, Ossiarch Bonereapers",
+      "move": "-",
+      "save": "4+",
+      "control": "-",
+      "health": "13",
+      "wargearOptionsText": "The following universal terrain abilities apply to this terrain feature (Terrain, 1.2):\n\nCover, Unstable",
+      "publicationId": "383a370b-8c4e-4e88-90f7-71c7ad826967",
+      "limitingWarscrollId": null,
+      "requiredPrimaryHeroWarscrollId": null,
+      "isLegends": false,
+      "faction": "Ossiarch Bonereapers",
+      "weapons": [],
+      "abilities": [
+        {
+          "id": "17cf689a-9f9f-470a-9024-d6e43822f211",
+          "name": "Deadly Gaze",
+          "phaseDetails": "Your Hero Phase",
+          "phase": "heroPhase",
+          "castingValue": null,
+          "cpCost": null,
+          "reaction": false,
+          "lore": "The statue that towers above a Bone-tithe Nexus can unleash punishing beams of energy upon those who break an Ossiarch contract. Each of the statue’s four faces can deliver a different punishment.",
+          "usedBy": null,
+          "declare": "Pick a visible enemy unit within 18\" of this terrain feature to be the target.",
+          "effect": "Roll a dice. On a 4+, pick 1 of the following effects to apply:\n\nPunishment of Agony: Subtract 1 from hit rolls for the target until the start of your next turn.\n\nPunishment of Ignorance: Subtract 1 from casting rolls and/or chanting rolls for the target until the start of your next turn.\n\nPunishment of Lethargy: Halve the target’s Move characteristic until the start of your next turn.\n\nPunishment of Death: Inflict D3 mortal damage on the target.",
+          "abilityAndCommandIcon": "special",
+          "warscrollId": "a9332a73-0279-4b60-ab51-c50ea9ea1d5c",
+          "keywords": []
+        }
+      ],
+      "keywords": [
+        "Faction Terrain"
+      ],
+      "factionKeywords": [
+        "Grand Alliance Death",
+        "Ossiarch Bonereapers"
+      ]
+    },
+    {
+      "id": "ad65264e-af6d-4909-994d-5ab4eef8a04e",
+      "name": "Katakros, Mortarch of the Necropolis",
+      "subname": null,
+      "lore": "A genius of war whose mastery of strategy and tactics is unrivalled, Orpheon Katakros was chosen by Nagash to oversee the obliteration of mortal life and the final victory of death over life. The Mortarch of the Necropolis appears as a true goliath of war, his osseous frame shaped into a vision of anatomical perfection, his baleflame gaze observing the advance of his Ossiarch hosts with cold, analytical satisfaction. Katakros eschews the petty cruelties and political infighting of Nagash’s other Mortarchs. He seeks only complete perfection on the battlefield and in the arena of empire-building.\n\nKatakros prefers to observe each battle from a strategically advantageous point, surrounded by a retinue of trusted acolytes. Here he analyses the flow of combat, dispatching a flurry of orders via avian bone-constructs and signalling complex manoeuvres through his Prime Necrophoros, who bears the Mortarch’s personal standard. He has little interest in personal combat, leaving such matters to his ever-present subordinate, the Liege-Immortis Karash. If a particularly worthy foe makes themselves known, however, Katakros will take up the ensorcelled spear Inda-Khaat and the Shield Immortis, disposing of his opponent with the same precision with which he directs his legions.",
+      "bannerImage": "https://dhss9aar8ocw.cloudfront.net/1ecbb4d8-44a7-4d0e-bbfb-c401068202ed",
+      "rowImage": "https://dhss9aar8ocw.cloudfront.net/369e160a-65ef-4b99-beee-59175b892377",
+      "modelCount": 1,
+      "baseSize": "120 x 92mm",
+      "points": 500,
+      "notes": null,
+      "isSpearhead": false,
+      "cannotBeReinforced": true,
+      "hiddenFromReference": false,
+      "hiddenFromStormForge": false,
+      "referenceKeywords": "Warmaster, Unique, Hero, Infantry, Ward (6+), Death, Ossiarch Bonereapers",
+      "move": "4\"",
+      "save": "3+",
+      "control": "5",
+      "health": "20",
+      "wargearOptionsText": null,
+      "publicationId": "383a370b-8c4e-4e88-90f7-71c7ad826967",
+      "limitingWarscrollId": null,
+      "requiredPrimaryHeroWarscrollId": null,
+      "isLegends": false,
+      "faction": "Ossiarch Bonereapers",
+      "weapons": [
+        {
+          "id": "55de2609-fa55-49a6-900a-e203f23df222",
+          "name": "The Shield Immortis",
+          "type": "melee",
+          "range": null,
+          "attacks": "3",
+          "hit": "3+",
+          "wound": "3+",
+          "rend": "2",
+          "damage": "2",
+          "battleDamaged": false,
+          "warscrollId": "ad65264e-af6d-4909-994d-5ab4eef8a04e",
+          "weaponAbilities": []
+        },
+        {
+          "id": "63d9e26d-b404-4a47-a9ce-8544a18983bd",
+          "name": "Inda-Khaat",
+          "type": "melee",
+          "range": null,
+          "attacks": "5",
+          "hit": "3+",
+          "wound": "3+",
+          "rend": "2",
+          "damage": "3",
+          "battleDamaged": true,
+          "warscrollId": "ad65264e-af6d-4909-994d-5ab4eef8a04e",
+          "weaponAbilities": [
+            "Crit (2 Hits)"
+          ]
+        },
+        {
+          "id": "e87283c8-a8e3-46d8-947d-37bcfd52d812",
+          "name": "Retinue Blades",
+          "type": "melee",
+          "range": null,
+          "attacks": "10",
+          "hit": "3+",
+          "wound": "4+",
+          "rend": "1",
+          "damage": "1",
+          "battleDamaged": false,
+          "warscrollId": "ad65264e-af6d-4909-994d-5ab4eef8a04e",
+          "weaponAbilities": [
+            "Crit (2 Hits)"
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "id": "1694ab80-b957-49bc-a6a9-6f3c7ce1e5a6",
+          "name": "Prime Necrophoros",
+          "phaseDetails": "Passive",
+          "phase": "endOfTurn",
+          "castingValue": null,
+          "cpCost": null,
+          "reaction": false,
+          "lore": "This Necrophoros holds aloft Katakros’s personal banner.",
+          "usedBy": null,
+          "declare": null,
+          "effect": "Add 3 to the control scores of other friendly Ossiarch Bonereapers units while they are wholly within 18\" of this unit.",
+          "abilityAndCommandIcon": "control",
+          "warscrollId": "ad65264e-af6d-4909-994d-5ab4eef8a04e",
+          "keywords": []
+        },
+        {
+          "id": "8327e93c-b664-4ffd-9bf0-34a30ad0cc7b",
+          "name": "Supreme Lord of the Bonereaper Legions",
+          "phaseDetails": "Your Hero Phase",
+          "phase": "heroPhase",
+          "castingValue": null,
+          "cpCost": 1,
+          "reaction": false,
+          "lore": "An Ossiarch force personally led by Katakros is said to be worth ten identical forces led by his generals.",
+          "usedBy": null,
+          "declare": "Pick up to 3 friendly Ossiarch Bonereapers units wholly within 18\" of this unit to be the targets.",
+          "effect": "Until the start of your next turn, add 1 to save rolls for the targets while they are wholly within 18\" of this unit.",
+          "abilityAndCommandIcon": "defensive",
+          "warscrollId": "ad65264e-af6d-4909-994d-5ab4eef8a04e",
+          "keywords": []
+        },
+        {
+          "id": "8452f7f4-4b11-4fc7-bf84-09ea75eda22e",
+          "name": "Battle Damaged",
+          "phaseDetails": "Passive",
+          "phase": "startOfTurn",
+          "castingValue": null,
+          "cpCost": null,
+          "reaction": false,
+          "lore": null,
+          "usedBy": null,
+          "declare": null,
+          "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its Inda-Khaat is 3.",
+          "abilityAndCommandIcon": "battleDamaged",
+          "warscrollId": "ad65264e-af6d-4909-994d-5ab4eef8a04e",
+          "keywords": []
+        },
+        {
+          "id": "db2db5a1-c5a1-423c-96f7-03dc78ad5e19",
+          "name": "Mortarch of the Necropolis",
+          "phaseDetails": "Passive",
+          "phase": "heroPhase",
+          "castingValue": null,
+          "cpCost": null,
+          "reaction": false,
+          "lore": "Katakros is the most perfect of Nagash’s constructs and the ruler of the Ossiarch Empire.",
+          "usedBy": null,
+          "declare": null,
+          "effect": "If this unit uses a Relentless Discipline ability, that ability affects friendly Ossiarch Bonereapers units wholly within 18\" of this unit instead of wholly within 12\".",
+          "abilityAndCommandIcon": "special",
+          "warscrollId": "ad65264e-af6d-4909-994d-5ab4eef8a04e",
+          "keywords": []
+        },
+        {
+          "id": "02ab7aff-eba3-4f6d-a400-4554cdd2de5f",
+          "name": "Aviarch Spymaster",
+          "phaseDetails": "Once Per Turn, Reaction: Opponent declared a command for a unit within 18\" of this unit",
+          "phase": "startOfTurn",
+          "castingValue": null,
+          "cpCost": null,
+          "reaction": true,
+          "lore": "The Aviarch Spymaster can use their spy network to disrupt the plans of Katakros’s enemies.",
+          "usedBy": null,
+          "declare": null,
+          "effect": "Roll a dice. On a 5+, that command has no effect, it still counts as having been used and the command points spent to use it are still lost.",
+          "abilityAndCommandIcon": "special",
+          "warscrollId": "ad65264e-af6d-4909-994d-5ab4eef8a04e",
+          "keywords": []
+        }
+      ],
+      "keywords": [
+        "Unique",
+        "Infantry",
+        "Ward (6+)",
+        "Warmaster",
+        "Hero"
+      ],
+      "factionKeywords": [
+        "Grand Alliance Death",
+        "Ossiarch Bonereapers"
+      ]
+    },
+    {
+      "id": "b1d5de9c-897f-428b-a874-cd6a0804282d",
+      "name": "Mortisan Soulmason",
+      "subname": null,
+      "lore": "Soulmasons stand paramount amongst the Mortisans. Lords of soul alchemy, they process the vast reserves of spiritual energy hoarded by the legions. One may liken them to quartermasters in some manner, apportioning soul-matter to their minions and keeping the rest for Nagash’s vaults – though they are permitted to siphon off a small degree for personal experimentation. A Soulmason possesses encyclopaedic knowledge of the spiritual reserves available to them and knows precisely how much to call upon to energise or repair damaged warriors. They are famous for their trance-like focus, able to split their blended consciousness and perform a dizzying array of calculations at once.\n\nWhile Soulmasons are adept at aggressive spellcraft, their true value lies in bolstering the spirits of fellow Ossiarchs. Through their soul alchemy, these Mortisans provide aetheric nourishment to the Bonereapers, heightening their ferocity and focus. Such complex forms of sorcery beyond any Necromancer, and the Soulmasons must retain total concentration when wielding them, otherwise the welling gheist-energies may burst free in a shrieking mass. To avoid having to distract themselves with combat, Soulmasons take to battle atop elaborate bipedal thrones, whose raking claws can keep foes at a safe distance.",
+      "bannerImage": "https://dhss9aar8ocw.cloudfront.net/d18d824f-d56b-46c8-95a7-2fb1af0ce584",
+      "rowImage": "https://dhss9aar8ocw.cloudfront.net/c0ff5dc7-2e93-4605-947f-b1be10f0c8e2",
+      "modelCount": 1,
+      "baseSize": "40mm",
+      "points": 160,
+      "notes": null,
+      "isSpearhead": false,
+      "cannotBeReinforced": true,
+      "hiddenFromReference": false,
+      "hiddenFromStormForge": false,
+      "referenceKeywords": "Hero, Wizard (2), Infantry, Ward (6+), Death, Ossiarch Bonereapers, Mortisan",
+      "move": "5\"",
+      "save": "4+",
+      "control": "2",
+      "health": "6",
+      "wargearOptionsText": null,
+      "publicationId": "383a370b-8c4e-4e88-90f7-71c7ad826967",
+      "limitingWarscrollId": null,
+      "requiredPrimaryHeroWarscrollId": null,
+      "isLegends": false,
+      "faction": "Ossiarch Bonereapers",
+      "weapons": [
+        {
+          "id": "2275a87c-febf-4dda-aa7a-914e6057e622",
+          "name": "Mortek Throne’s Ossified Claws",
+          "type": "melee",
+          "range": null,
+          "attacks": "2",
+          "hit": "5+",
+          "wound": "4+",
+          "rend": "1",
+          "damage": "1",
+          "battleDamaged": false,
+          "warscrollId": "b1d5de9c-897f-428b-a874-cd6a0804282d",
+          "weaponAbilities": [
+            "Companion"
+          ]
+        },
+        {
+          "id": "c3849b3b-2a4b-4d21-bc5e-4407f837c3c4",
+          "name": "Soulmason’s Staff",
+          "type": "melee",
+          "range": null,
+          "attacks": "3",
+          "hit": "4+",
+          "wound": "4+",
+          "rend": "1",
+          "damage": "D3",
+          "battleDamaged": false,
+          "warscrollId": "b1d5de9c-897f-428b-a874-cd6a0804282d",
+          "weaponAbilities": [
+            "Crit (2 Hits)"
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "id": "58e434f9-a9e5-47b8-95d0-e1043315755a",
+          "name": "Soul-guide",
+          "phaseDetails": "Your Hero Phase",
+          "phase": "heroPhase",
+          "castingValue": 7,
+          "cpCost": null,
+          "reaction": false,
+          "lore": "The Soulmason empowers and focuses the souls that animate a nearby regiment of Ossiarch warriors.",
+          "usedBy": null,
+          "declare": "Pick a visible friendly Ossiarch Bonereapers unit wholly within 12\" of the caster to be the target, then make a casting roll of 2D6.",
+          "effect": "The target has Strike-first for the rest of the turn.",
+          "abilityAndCommandIcon": "offensive",
+          "warscrollId": "b1d5de9c-897f-428b-a874-cd6a0804282d",
+          "keywords": [
+            "Spell"
+          ]
+        }
+      ],
+      "keywords": [
+        "Wizard",
+        "Mortisan",
+        "Infantry",
+        "Ward (6+)",
+        "Hero"
+      ],
+      "factionKeywords": [
+        "Grand Alliance Death",
+        "Ossiarch Bonereapers"
+      ]
+    },
+    {
+      "id": "b4b6c911-bf90-477a-9900-fac2e319d767",
+      "name": "Kavalos Deathriders",
+      "subname": null,
+      "lore": "Few can outpace the Kavalos Deathriders, the fearsome cavalry of the Ossiarch Empire. Their mounts are fashioned for speed and ferocity above all, powered by animalistic essences and the rendered-down souls of Bonereapers who have failed in their duties – and who remain eminently aware of their new equine status. Arrows, blades and arcane projectiles ricochet off these creatures, their charge not slowing a jot. When a Deathrider echelon slams home, it is akin to being hit by an avalanche, and their nadirite weapons – as well as the fangs and sharpened tails of their steeds – ensure that the Kavaloi rarely leave survivors in their wake.\n\nThough they take great pride in their martial skill, the Kavaloi riders are as disciplined on the battlefield as any other Bonereapers, befitting their status as warriors of the elite Priad warrior caste. They avoid the wild, glory-seeking charges that are so often the undoing of mortal or even immortal cavaliers; instead, the Deathriders’ Hekatos leaders form their troops into tight and precise wedges to plunge into enemy formations. Once the foe’s cohesion is shattered, the Deathriders will bid their steeds wheel away with an eerie synchrony or else ride on through terrain no normal horse would dare.",
+      "bannerImage": "https://dhss9aar8ocw.cloudfront.net/af95cac2-7f2c-482d-a9ce-305ba44f0891",
+      "rowImage": "https://dhss9aar8ocw.cloudfront.net/97295cf8-cd74-47ba-af8b-5d16b07ef9b0",
+      "modelCount": 5,
+      "baseSize": "60 x 35mm",
+      "points": 180,
+      "notes": null,
+      "isSpearhead": false,
+      "cannotBeReinforced": false,
+      "hiddenFromReference": false,
+      "hiddenFromStormForge": false,
+      "referenceKeywords": "Cavalry, Champion, Standard Bearer (1/5), Ward (6+), Death, Ossiarch Bonereapers",
+      "move": "10\"",
+      "save": "4+",
+      "control": "1",
+      "health": "3",
+      "wargearOptionsText": null,
+      "publicationId": "383a370b-8c4e-4e88-90f7-71c7ad826967",
+      "limitingWarscrollId": null,
+      "requiredPrimaryHeroWarscrollId": null,
+      "isLegends": false,
+      "faction": "Ossiarch Bonereapers",
+      "weapons": [
+        {
+          "id": "06605bff-e9b7-4d30-aa19-0041aa8a2ba4",
+          "name": "Kavalos Blades",
+          "type": "melee",
+          "range": null,
+          "attacks": "3",
+          "hit": "3+",
+          "wound": "4+",
+          "rend": "1",
+          "damage": "1",
+          "battleDamaged": false,
+          "warscrollId": "b4b6c911-bf90-477a-9900-fac2e319d767",
+          "weaponAbilities": [
+            "Crit (2 Hits)",
+            "Charge (+1 Damage)"
+          ]
+        },
+        {
+          "id": "9e6e5310-7f4a-4dff-ab10-ee625538d23d",
+          "name": "Kavalos Steed’s Hooves and Teeth",
+          "type": "melee",
+          "range": null,
+          "attacks": "2",
+          "hit": "5+",
+          "wound": "3+",
+          "rend": "-",
+          "damage": "1",
+          "battleDamaged": false,
+          "warscrollId": "b4b6c911-bf90-477a-9900-fac2e319d767",
+          "weaponAbilities": [
+            "Companion"
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "id": "7b676ddd-4943-4153-b86c-6a41f79ece5b",
+          "name": "Deathrider Wedge",
+          "phaseDetails": "Passive",
+          "phase": "chargePhase",
+          "castingValue": null,
+          "cpCost": null,
+          "reaction": false,
+          "lore": "Kavalos Deathriders charge in an arrowhead formation that punches straight through the enemy line.",
+          "usedBy": null,
+          "declare": null,
+          "effect": "When this unit uses a Charge ability, models in this unit can pass through models in enemy Infantry units as if this unit had Fly.",
+          "abilityAndCommandIcon": "movement",
+          "warscrollId": "b4b6c911-bf90-477a-9900-fac2e319d767",
+          "keywords": []
+        },
+        {
+          "id": "aa33269c-c6a6-4c02-9a2b-31764d624dc1",
+          "name": "Unstoppable Charge",
+          "phaseDetails": "Any Charge Phase",
+          "phase": "chargePhase",
+          "castingValue": null,
+          "cpCost": null,
+          "reaction": false,
+          "lore": "When a Kavalos steed charges the foe, it can use its size and weight to smash enemy footsoldiers to the ground and crush them beneath its nadirite-shod hooves.",
+          "usedBy": null,
+          "declare": "If this unit charged this phase, pick an enemy Infantry unit that it passed across to be the target.",
+          "effect": "Roll a D3. On a 2+, inflict an amount of mortal damage on the target equal to the roll.",
+          "abilityAndCommandIcon": "offensive",
+          "warscrollId": "b4b6c911-bf90-477a-9900-fac2e319d767",
+          "keywords": []
+        }
+      ],
+      "keywords": [
+        "Champion",
+        "Standard Bearer",
+        "Ward (6+)",
+        "Cavalry"
+      ],
+      "factionKeywords": [
+        "Grand Alliance Death",
+        "Ossiarch Bonereapers"
+      ]
+    },
+    {
+      "id": "c8d44cc3-4783-4794-92ff-a9cae6142ebb",
+      "name": "Immortis Guard",
+      "subname": null,
+      "lore": "Immortis Guard are formidable bodyguards, goliaths wielding tower shields taller than a Freeguild soldier. Their tactics and armaments are a legacy of the Scions Praetoris, once the tallest and strongest of Katakros’s vassal troops, famed for their intractable discipline. The Immortis Guard continue that storied legacy. Their own shields are a literal extension of their skeletal frames, used to drive the enemy back and clear space for the disembowelling slash of a dread halberd.\n\nThough they do not get to choose whom they protect, the Immortis Guard go about their duty with the utmost dedication. It is claimed that they have never routed, and Katakros himself rarely takes to the field without a contingent at his side. More so than any other class of Ossiarchs, the Immortis Guard view their cohorts as single entities and each warrior as merely an element of the whole. They speak in an eerie, emotionless unity and coordinate their defences through a faint telepathic bond. It is said that the only time an Immortis Guard experiences a flicker of sentiment is when one of their brethren is irrevocably felled in the line of duty. Any dismay, however, is soon buried beneath the imperative to unleash a punishing counter-attack.",
+      "bannerImage": "https://dhss9aar8ocw.cloudfront.net/8937f47f-7f61-4d84-a8d7-da9f31d186e1",
+      "rowImage": "https://dhss9aar8ocw.cloudfront.net/6da9ce07-3d89-4390-9d0b-89655f6231e8",
+      "modelCount": 3,
+      "baseSize": "50mm",
+      "points": 200,
+      "notes": null,
+      "isSpearhead": false,
+      "cannotBeReinforced": false,
+      "hiddenFromReference": false,
+      "hiddenFromStormForge": false,
+      "referenceKeywords": "Infantry, Ward (6+), Death, Ossiarch Bonereapers",
+      "move": "5\"",
+      "save": "3+",
+      "control": "1",
+      "health": "4",
+      "wargearOptionsText": null,
+      "publicationId": "383a370b-8c4e-4e88-90f7-71c7ad826967",
+      "limitingWarscrollId": null,
+      "requiredPrimaryHeroWarscrollId": null,
+      "isLegends": false,
+      "faction": "Ossiarch Bonereapers",
+      "weapons": [
+        {
+          "id": "4f0b25e1-bcfa-45f5-af95-a092acafa58a",
+          "name": "Dread Halberd",
+          "type": "melee",
+          "range": null,
+          "attacks": "3",
+          "hit": "3+",
+          "wound": "3+",
+          "rend": "1",
+          "damage": "2",
+          "battleDamaged": false,
+          "warscrollId": "c8d44cc3-4783-4794-92ff-a9cae6142ebb",
+          "weaponAbilities": [
+            "Crit (2 Hits)"
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "id": "67025562-1839-485a-92fa-fa69c48100e8",
+          "name": "Soulbound Protectors",
+          "phaseDetails": "Passive",
+          "phase": "defensive",
+          "castingValue": null,
+          "cpCost": null,
+          "reaction": false,
+          "lore": "Immortis Guard will use their own bodies to shield their rulers from harm.",
+          "usedBy": null,
+          "declare": null,
+          "effect": "Add 1 to ward rolls for friendly Ossiarch Bonereapers Heroes within this unit’s combat range. However, each time you make an unmodified ward roll of 1 for a friendly Ossiarch Bonereapers Hero within this unit’s combat range, allocate 1 damage point to this unit after the damage sequence for that Hero has been resolved (ward rolls cannot be made for those damage points).",
+          "abilityAndCommandIcon": "defensive",
+          "warscrollId": "c8d44cc3-4783-4794-92ff-a9cae6142ebb",
+          "keywords": []
+        }
+      ],
+      "keywords": [
+        "Infantry",
+        "Ward (6+)"
+      ],
+      "factionKeywords": [
+        "Grand Alliance Death",
+        "Ossiarch Bonereapers"
+      ]
+    },
+    {
+      "id": "d2023c85-cb28-490a-9887-c4c5545e12b9",
+      "name": "Mortisan Ossifector",
+      "subname": null,
+      "lore": "Mortisan Ossifectors are mages dedicated to fashioning the most formidable bone constructs imaginable. They concern themselves with crafting behemothic Gothizzar Harvesters and perfecting the firing mechanisms of Mortek Crawlers, and they are even entrusted with knowledge of the rites that give rise to the dread Morghasts. An Ossifector will supervise these entities in battle with a craftsman’s critical eye, employing their magics to swiftly repair even the most grievous breaks and fractures suffered by their charges.\n\nOssifectors are amongst the proudest bone-sculptors of Katakros’s empire. For these deathless artisans, quality is the only true metric, and they view themselves as pioneers as well as masters in matters of craftsmanship. As battle rages around them, they work their sorceries to augment their creations’ violent potential or resilience. Super‑hardened barbs erupt along the forelimbs of Gothizzar Harvesters, while Mortek Crawlers are coated in layers of ensorcelled bone that absorb kinetic energy before unleashing it with lethal force.",
+      "bannerImage": "https://dhss9aar8ocw.cloudfront.net/828de7da-6b41-4d54-aa28-e2034070368b",
+      "rowImage": "https://dhss9aar8ocw.cloudfront.net/8eebf378-43fe-454d-aa83-846fcf5bc348",
+      "modelCount": 1,
+      "baseSize": "32mm",
+      "points": 110,
+      "notes": null,
+      "isSpearhead": false,
+      "cannotBeReinforced": true,
+      "hiddenFromReference": false,
+      "hiddenFromStormForge": false,
+      "referenceKeywords": "Hero, Wizard (1), Infantry, Ward (6+), Death, Ossiarch Bonereapers, Mortisan",
+      "move": "5\"",
+      "save": "4+",
+      "control": "2",
+      "health": "5",
+      "wargearOptionsText": null,
+      "publicationId": "383a370b-8c4e-4e88-90f7-71c7ad826967",
+      "limitingWarscrollId": null,
+      "requiredPrimaryHeroWarscrollId": null,
+      "isLegends": false,
+      "faction": "Ossiarch Bonereapers",
+      "weapons": [
+        {
+          "id": "4c034bd4-32e3-4cd2-8927-77f73f85bc78",
+          "name": "Ossified Talons",
+          "type": "melee",
+          "range": null,
+          "attacks": "3",
+          "hit": "4+",
+          "wound": "4+",
+          "rend": "-",
+          "damage": "2",
+          "battleDamaged": false,
+          "warscrollId": "d2023c85-cb28-490a-9887-c4c5545e12b9",
+          "weaponAbilities": [
+            "Crit (2 Hits)"
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "id": "2080658a-ad6e-4b81-a180-66b8d1fdee7b",
+          "name": "Refined Creation",
+          "phaseDetails": "Once Per Turn (Army), Your Hero Phase",
+          "phase": "heroPhase",
+          "castingValue": null,
+          "cpCost": null,
+          "reaction": false,
+          "lore": "Ossifectors are always looking to improve upon their work, wielding necrotic sorcery to augment their creations in battle.",
+          "usedBy": null,
+          "declare": "Pick a friendly Gothizzar Harvester, Morghast Archai or Morghast Harbingers unit wholly within 12\" of this unit to be the target.",
+          "effect": "Roll a dice. On a 3+, add 1 to the Rend characteristic of the target’s melee weapons until the start of your next turn.",
+          "abilityAndCommandIcon": "offensive",
+          "warscrollId": "d2023c85-cb28-490a-9887-c4c5545e12b9",
+          "keywords": []
+        }
+      ],
+      "keywords": [
+        "Wizard",
+        "Mortisan",
+        "Infantry",
+        "Ward (6+)",
+        "Hero"
+      ],
+      "factionKeywords": [
+        "Grand Alliance Death",
+        "Ossiarch Bonereapers"
+      ]
+    },
+    {
+      "id": "fa97fe2f-02dd-4860-a6a0-9fc63b3a8901",
+      "name": "Arch-Kavalos Zandtos",
+      "subname": null,
+      "lore": "Few undead beings loathe the living with such fearsome intensity as Arch‑Kavalos Zandtos. To him, even the most cultured aelven lord is nothing more than a contemptuous barbarian seeking to sully the deathly perfection of Shyish. Riding at the head of the Ossiarch’s elite cavalry formations, Zandtos seeks to annihilate all those who bear the taint of mortality, banishing their presence from his beloved realm for good. Such is his zealotry on this subject that even Katakros has on occasion had cause to censure the Arch-Kavalos for indulging his ruthless aggression. Yet the Mortarch of the Necropolis never keeps Zandtos leashed for long, because his mastery of cavalry warfare is a weapon too valuable to be cast aside.\n\nWielding the fabled Dark Lance itself – both a murderous weapon and an exalted staff of office – Arch-Kavalos Zandtos charges into battle eagerly, plunging his weapon through the flesh of his foes while his warsteed stomps and kicks furiously. His hatred of mortalkind is so intense that it affects nearby Kavalos riders, stirring the smouldering embers of their souls into a battle-fury that sees them recklessly hurtle into combat in pursuit of victory.",
+      "bannerImage": "https://dhss9aar8ocw.cloudfront.net/134b2294-b2a5-46b8-a984-98809e15c850",
+      "rowImage": "https://dhss9aar8ocw.cloudfront.net/560d120e-f40a-4fb5-8a2f-2536b22e62ce",
+      "modelCount": 1,
+      "baseSize": "80mm",
+      "points": 230,
+      "notes": null,
+      "isSpearhead": false,
+      "cannotBeReinforced": true,
+      "hiddenFromReference": false,
+      "hiddenFromStormForge": false,
+      "referenceKeywords": "Unique, Hero, Cavalry, Ward (6+), Death, Ossiarch Bonereapers",
+      "move": "10\"",
+      "save": "3+",
+      "control": "2",
+      "health": "8",
+      "wargearOptionsText": null,
+      "publicationId": "383a370b-8c4e-4e88-90f7-71c7ad826967",
+      "limitingWarscrollId": null,
+      "requiredPrimaryHeroWarscrollId": null,
+      "isLegends": false,
+      "faction": "Ossiarch Bonereapers",
+      "weapons": [
+        {
+          "id": "1832f5fa-8509-4b63-8316-3ef419135b33",
+          "name": "The Dark Lance",
+          "type": "melee",
+          "range": null,
+          "attacks": "5",
+          "hit": "3+",
+          "wound": "3+",
+          "rend": "2",
+          "damage": "2",
+          "battleDamaged": false,
+          "warscrollId": "fa97fe2f-02dd-4860-a6a0-9fc63b3a8901",
+          "weaponAbilities": [
+            "Crit (2 Hits)",
+            "Charge (+1 Damage)"
+          ]
+        },
+        {
+          "id": "95eb36af-e1e1-4461-ae0e-6176e2b65ee5",
+          "name": "Kavalos Steed’s Hooves, Teeth and Barbed Tails",
+          "type": "melee",
+          "range": null,
+          "attacks": "4",
+          "hit": "5+",
+          "wound": "3+",
+          "rend": "-",
+          "damage": "1",
+          "battleDamaged": false,
+          "warscrollId": "fa97fe2f-02dd-4860-a6a0-9fc63b3a8901",
+          "weaponAbilities": [
+            "Companion"
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "id": "0fc6b782-0dec-41bf-aac4-395be80f8db2",
+          "name": "Still Their Breath!",
+          "phaseDetails": "Once Per Battle, Any Combat Phase",
+          "phase": "combatPhase",
+          "castingValue": null,
+          "cpCost": null,
+          "reaction": false,
+          "lore": "Such is Zandtos’s disdain for those who trespass in Shyish that those who fight beside him come to share it.",
+          "usedBy": null,
+          "declare": null,
+          "effect": "If this unit is in combat, for the rest of the turn, add 1 to the Attacks characteristic of melee weapons used by friendly non-Hero Ossiarch Bonereapers units while they are wholly within 12\" of this unit.",
+          "abilityAndCommandIcon": "offensive",
+          "warscrollId": "fa97fe2f-02dd-4860-a6a0-9fc63b3a8901",
+          "keywords": []
+        },
+        {
+          "id": "13a50865-aa09-4c2e-bd4e-b7a60aaa695a",
+          "name": "Spear of the Kavaloi",
+          "phaseDetails": "Passive",
+          "phase": "chargePhase",
+          "castingValue": null,
+          "cpCost": null,
+          "reaction": false,
+          "lore": "A Liege-Kavalos on the charge can punch straight through the enemy line.",
+          "usedBy": null,
+          "declare": null,
+          "effect": "When this unit uses a Charge ability, it can pass through models in enemy Infantry units as if it had Fly.",
+          "abilityAndCommandIcon": "movement",
+          "warscrollId": "fa97fe2f-02dd-4860-a6a0-9fc63b3a8901",
+          "keywords": []
+        },
+        {
+          "id": "e3cd1312-498f-4a63-beed-8421d3f18434",
+          "name": "Unstoppable Charge",
+          "phaseDetails": "Any Charge Phase",
+          "phase": "chargePhase",
+          "castingValue": null,
+          "cpCost": null,
+          "reaction": false,
+          "lore": "When a Kavalos steed charges the foe, it can use its size and weight to smash enemy footsoldiers to the ground and crush them beneath its nadirite-shod hooves.",
+          "usedBy": null,
+          "declare": "If this unit charged this phase, pick an enemy Infantry unit that it passed across to be the target.",
+          "effect": "Roll a D3. On a 2+, inflict an amount of mortal damage on the target equal to the roll.",
+          "abilityAndCommandIcon": "offensive",
+          "warscrollId": "fa97fe2f-02dd-4860-a6a0-9fc63b3a8901",
+          "keywords": []
+        }
+      ],
+      "keywords": [
+        "Unique",
+        "Ward (6+)",
+        "Cavalry",
+        "Hero"
+      ],
+      "factionKeywords": [
+        "Grand Alliance Death",
+        "Ossiarch Bonereapers"
+      ]
+    },
+    {
+      "id": "fca2760a-78cd-42a4-bf11-77084e17e6cf",
+      "name": "Mortisan Soulreaper",
+      "subname": null,
+      "lore": "Soulreapers are the most sinister and dour of all Bonereapers. Though they number among the Mortisans, they are considered a breed apart by their kin, for it is not their prerogative to create; they only destroy, severing enemy spirits from their bodies with their enchanted scythes. Dark rumours follow them, many concerning their sealed lips, which are attributed to anything from a transgression against Nagash by the first of their number to the Folly of Tua’ghreph, the tale of an incautious Soulreaper being infected by the gheistechoes of an aelven mage.\n\nSoulreapers are miserly with harvested spirits, believing that their more vocal kin often squander this most precious resource. The Mortisans use this energy to fuel their scythe swings, to sap their enemies’ strength or to imbue nearby Ossiarchs with a sudden burst of aggression. Whatever soul-power a Soulreaper does not expend in this fashion is sealed within the grave-sand repositories that hang around their waist. In this form, the souls are transferred to a necropolis and secured in its vaults until the order to animate more Ossiarch warriors is received.",
+      "bannerImage": "https://dhss9aar8ocw.cloudfront.net/27dffabb-1265-4043-b8ad-6608d5001c27",
+      "rowImage": "https://dhss9aar8ocw.cloudfront.net/c684c9a9-d744-4046-b016-f5fd3074c266",
+      "modelCount": 1,
+      "baseSize": "32mm",
+      "points": 120,
+      "notes": null,
+      "isSpearhead": false,
+      "cannotBeReinforced": true,
+      "hiddenFromReference": false,
+      "hiddenFromStormForge": false,
+      "referenceKeywords": "Hero, Wizard (1), Infantry, Ward (6+), Death, Ossiarch Bonereapers, Mortisan",
+      "move": "5\"",
+      "save": "4+",
+      "control": "2",
+      "health": "5",
+      "wargearOptionsText": null,
+      "publicationId": "383a370b-8c4e-4e88-90f7-71c7ad826967",
+      "limitingWarscrollId": null,
+      "requiredPrimaryHeroWarscrollId": null,
+      "isLegends": false,
+      "faction": "Ossiarch Bonereapers",
+      "weapons": [
+        {
+          "id": "711d41db-6976-4b5a-ac23-04116e60ff15",
+          "name": "Soulreaper Scythe",
+          "type": "melee",
+          "range": null,
+          "attacks": "3",
+          "hit": "4+",
+          "wound": "3+",
+          "rend": "2",
+          "damage": "2",
+          "battleDamaged": false,
+          "warscrollId": "fca2760a-78cd-42a4-bf11-77084e17e6cf",
+          "weaponAbilities": [
+            "Crit (2 Hits)"
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "id": "8c6ef8b6-d979-4ce5-8472-1459856429f4",
+          "name": "Soulreaper",
+          "phaseDetails": "Passive",
+          "phase": "defensive",
+          "castingValue": null,
+          "cpCost": null,
+          "reaction": false,
+          "lore": "The mere presence of a Soulreaper will sap a foe’s strength, leaving them weak and vulnerable.",
+          "usedBy": null,
+          "declare": null,
+          "effect": "Subtract 1 from wound rolls for combat attacks made by enemy units while they are in combat with this unit.",
+          "abilityAndCommandIcon": "defensive",
+          "warscrollId": "fca2760a-78cd-42a4-bf11-77084e17e6cf",
+          "keywords": []
+        },
+        {
+          "id": "83687c86-5259-4d69-8878-7e29fdf3590a",
+          "name": "Necrotic Impetus",
+          "phaseDetails": "Reaction: You declared a Fight ability for this unit",
+          "phase": "combatPhase",
+          "castingValue": null,
+          "cpCost": null,
+          "reaction": true,
+          "lore": "The Soulreaper sends a surge of death energy through nearby Ossiarch footsoldiers, redoubling the ferocity of their attacks.",
+          "usedBy": null,
+          "declare": null,
+          "effect": "Pick a friendly non-Hero Ossiarch Bonereapers Infantry unit that has not used a Fight ability this turn and is within this unit’s combat range to be the target. The target can be picked to use a Fight ability immediately after the Fight ability used by this unit has been resolved. If it is picked to do so, add 1 to hit rolls for the target’s attacks for the rest of the turn.",
+          "abilityAndCommandIcon": "offensive",
+          "warscrollId": "fca2760a-78cd-42a4-bf11-77084e17e6cf",
+          "keywords": []
+        }
+      ],
+      "keywords": [
+        "Mortisan",
+        "Infantry",
+        "Ward (6+)",
+        "Hero"
+      ],
+      "factionKeywords": [
+        "Grand Alliance Death",
+        "Ossiarch Bonereapers"
+      ]
+    },
+    {
+      "id": "fd687b75-3b2d-4918-a19e-b34fc797e4eb",
+      "name": "Necropolis Stalkers",
+      "subname": null,
+      "lore": "Necropolis Stalkers are brutal, unsubtle linebreakers. They are unleashed not to perform nuanced manoeuvres or to convey some measured warning but to exterminate the living. Their fused hands exist only to clutch weapons, be they slender nadirite blades or cleaving falchions, and they attack with a ferocity uncommon amongst the methodical Ossiarch armies. They are also surprisingly swift despite their size, capable of closing the distance with their prey in just a few loping strides. Yet by far their most infamous feature is their four-faced quadrarch masks. These are designed to do more than merely unnerve; into each identical visage is bound the soul of a legendary warrior from across the realms, each of whom favoured a particular martial form.\n\nThe Mortisans have further sharpened the specialist talents of Necropolis Stalkers by stripping away even more of the souls’ distracting individuality than is typical, rendering them akin to machines. In battle, a Necropolis Stalker can bring one of these spirit fragments and their respective skills to the forefront of their consciousness, signified by their mask rotating until a new head faces forwards. As a result, Stalkers are supremely adaptive killers, equally capable against hordes of lesser enemies and coteries of armoured elites.",
+      "bannerImage": "https://dhss9aar8ocw.cloudfront.net/0b02d10d-b8d2-4286-8d6d-f34dcb6ee89d",
+      "rowImage": "https://dhss9aar8ocw.cloudfront.net/057d171a-0546-4791-82b5-f3f93db8dfcd",
+      "modelCount": 3,
+      "baseSize": "50mm",
+      "points": 170,
+      "notes": null,
+      "isSpearhead": false,
+      "cannotBeReinforced": false,
+      "hiddenFromReference": false,
+      "hiddenFromStormForge": false,
+      "referenceKeywords": "Infantry, Ward (6+), Death, Ossiarch Bonereapers",
+      "move": "6\"",
+      "save": "4+",
+      "control": "1",
+      "health": "4",
+      "wargearOptionsText": null,
+      "publicationId": "383a370b-8c4e-4e88-90f7-71c7ad826967",
+      "limitingWarscrollId": null,
+      "requiredPrimaryHeroWarscrollId": null,
+      "isLegends": false,
+      "faction": "Ossiarch Bonereapers",
+      "weapons": [
+        {
+          "id": "c17947e7-2d48-4bfd-a93a-623309e36a4a",
+          "name": "Stalker Blades",
+          "type": "melee",
+          "range": null,
+          "attacks": "4",
+          "hit": "3+",
+          "wound": "3+",
+          "rend": "2",
+          "damage": "1",
+          "battleDamaged": false,
+          "warscrollId": "fd687b75-3b2d-4918-a19e-b34fc797e4eb",
+          "weaponAbilities": [
+            "Crit (2 Hits)"
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "id": "3585c99c-b3e7-4e7f-ba35-cffa1fc98194",
+          "name": "Quadrarch Aspects",
+          "phaseDetails": "Any Combat Phase",
+          "phase": "combatPhase",
+          "castingValue": null,
+          "cpCost": null,
+          "reaction": false,
+          "lore": "Stalkers are imbued with a powerful skill by whichever of their four skulls faces the foe.",
+          "usedBy": null,
+          "declare": null,
+          "effect": "Pick 1 of the following effects to apply for the rest of the turn:\n\nDomination Aspect: Subtract 3 from the control scores of enemy units while they are in combat with this unit.\n\nBlade-parry Aspect: Subtract 1 from hit rolls for combat attacks that target this unit.\n\nDestroyer Aspect: Ward rolls cannot be made for damage points inflicted by this unit’s combat attacks.\n\nPrecision Aspect: This unit’s melee weapons have Anti-Hero (+1 Rend) while this unit is in combat with an enemy Hero.",
+          "abilityAndCommandIcon": "special",
+          "warscrollId": "fd687b75-3b2d-4918-a19e-b34fc797e4eb",
+          "keywords": []
+        }
+      ],
+      "keywords": [
+        "Infantry",
+        "Ward (6+)"
+      ],
+      "factionKeywords": [
+        "Grand Alliance Death",
+        "Ossiarch Bonereapers"
+      ]
+    },
+    {
+      "id": "6924f171-d00e-45e3-933e-58e5241d77b6",
+      "name": "Nagash, Supreme Lord of the Undead",
+      "subname": null,
+      "lore": "All living beings dread the name of Nagash, the God of Undeath. Cruel and tyrannical, the overlord of Shyish intends to conquer the Mortal Realms and transform them into a lifeless Necrotopia, in which not a speck of dust moves unless it is by his will. Wielding Alakanash, the Staff of Power, the cursed blade Zefet-nebtar, and surrounded by the Nine Books of Nagash, the Great Necromancer commands the full, terrible power of Shyishan magic. With a contemptuous gesture, he tears the souls from the living, their last moments of agonising horror providing the fuel for his next arcane onslaught.\n\nTo the Ossiarchs, Nagash is a creator god of dark majesty, the being that will bring about a true golden age for undead across the Mortal Realms. In his presence, they fight all the harder, inspired by a sense of devotion that is no less intense than any mortal’s religious fervour. When combined with the martial excellence of the Ossiarch legions, Nagash’s magic can unmake any foe, leaving the lands littered with corpses. These precious resources are soon gathered and stripped of their soft and vulnerable flesh, refined into osseous fuel for further conquests.",
+      "bannerImage": "https://dhss9aar8ocw.cloudfront.net/c3bb9672-e8bc-4cd4-b82f-bb1e6bf4c609",
+      "rowImage": "https://dhss9aar8ocw.cloudfront.net/e8dc791a-71f5-4263-9750-529fc5da9a77",
+      "modelCount": 1,
+      "baseSize": "130mm",
+      "points": 880,
+      "notes": null,
+      "isSpearhead": false,
+      "cannotBeReinforced": true,
+      "hiddenFromReference": false,
+      "hiddenFromStormForge": false,
+      "referenceKeywords": "Warmaster, Unique, Hero, Monster, Wizard (9), Fly, Ward (5+), Death, Ossiarch Bonereapers",
+      "move": "10\"",
+      "save": "3+",
+      "control": "10",
+      "health": "18",
+      "wargearOptionsText": null,
+      "publicationId": "383a370b-8c4e-4e88-90f7-71c7ad826967",
+      "limitingWarscrollId": null,
+      "requiredPrimaryHeroWarscrollId": null,
+      "isLegends": false,
+      "faction": "Ossiarch Bonereapers",
+      "weapons": [
+        {
+          "id": "ba39cc60-f45d-4fd5-9e05-789919b7bdf4",
+          "name": "Alakanash",
+          "type": "melee",
+          "range": null,
+          "attacks": "4",
+          "hit": "3+",
+          "wound": "3+",
+          "rend": "2",
+          "damage": "D6",
+          "battleDamaged": false,
+          "warscrollId": "6924f171-d00e-45e3-933e-58e5241d77b6",
+          "weaponAbilities": []
+        },
+        {
+          "id": "f66f38ae-95a6-4cef-81fa-6b6dbec9acff",
+          "name": "Zefet-nebtar",
+          "type": "melee",
+          "range": null,
+          "attacks": "4",
+          "hit": "3+",
+          "wound": "3+",
+          "rend": "2",
+          "damage": "3",
+          "battleDamaged": false,
+          "warscrollId": "6924f171-d00e-45e3-933e-58e5241d77b6",
+          "weaponAbilities": []
+        }
+      ],
+      "abilities": [
+        {
+          "id": "24b053d6-3ef6-411c-bcdd-dcd3a8ec94a8",
+          "name": "Hand of Dust",
+          "phaseDetails": "Once Per Turn (Army), End of Any Turn",
+          "phase": "endOfTurn",
+          "castingValue": null,
+          "cpCost": null,
+          "reaction": false,
+          "lore": "Nagash’s touch can turn a foe to a pile of dusty bones in moments.",
+          "usedBy": null,
+          "declare": "Pick a visible enemy Hero or Monster in combat with this unit to be the target.",
+          "effect": "Hide a dice in one of your hands or under one of two appropriate containers. Your opponent must pick one of your hands or containers. If they pick the one hiding the dice, this ability has no effect. If they pick the empty one, the target is automatically destroyed.",
+          "abilityAndCommandIcon": "offensive",
+          "warscrollId": "6924f171-d00e-45e3-933e-58e5241d77b6",
+          "keywords": [
+            "Rampage"
+          ]
+        },
+        {
+          "id": "307a57c7-155c-4d0d-805c-5269481b0d31",
+          "name": "Battle Damaged",
+          "phaseDetails": "Passive",
+          "phase": "startOfTurn",
+          "castingValue": null,
+          "cpCost": null,
+          "reaction": false,
+          "lore": null,
+          "usedBy": null,
+          "declare": null,
+          "effect": "While this unit has 10 or more damage points, subtract 3 from its power level.",
+          "abilityAndCommandIcon": "battleDamaged",
+          "warscrollId": "6924f171-d00e-45e3-933e-58e5241d77b6",
+          "keywords": []
+        },
+        {
+          "id": "61c5061f-b8b7-4156-89a6-bd30246a88d7",
+          "name": "Supreme Lord of the Undead",
+          "phaseDetails": "Once Per Battle, Your Hero Phase",
+          "phase": "heroPhase",
+          "castingValue": null,
+          "cpCost": null,
+          "reaction": false,
+          "lore": null,
+          "usedBy": null,
+          "declare": "Pick a friendly non-Hero non-Unique Death unit that has been destroyed to be the target.",
+          "effect": "Set up a replacement unit identical to the target wholly within 12\" of this unit and more than 9\" from all enemy units.",
+          "abilityAndCommandIcon": "rallying",
+          "warscrollId": "6924f171-d00e-45e3-933e-58e5241d77b6",
+          "keywords": []
+        },
+        {
+          "id": "6bf8fb50-8ae7-4f00-bd85-af14656338f7",
+          "name": "The Staff of Power",
+          "phaseDetails": "Passive",
+          "phase": "heroPhase",
+          "castingValue": null,
+          "cpCost": null,
+          "reaction": false,
+          "lore": "Alakanash is capped with gems of purest grave-sand.",
+          "usedBy": null,
+          "declare": null,
+          "effect": "Add 2 to casting rolls for this unit while it has not miscast any spells this turn. If this unit miscasts a spell, ignore the restriction that would stop this unit from casting any more spells this turn.",
+          "abilityAndCommandIcon": "special",
+          "warscrollId": "6924f171-d00e-45e3-933e-58e5241d77b6",
+          "keywords": []
+        },
+        {
+          "id": "db96aa0b-19d0-4c78-9f0f-a07c6dcf4012",
+          "name": "Invocation of Nagash",
+          "phaseDetails": "Your Hero Phase",
+          "phase": "heroPhase",
+          "castingValue": 7,
+          "cpCost": null,
+          "reaction": false,
+          "lore": "In a storm of morbid sorcery, Nagash blasts his foes’ souls or re-knits his minions’ bodies.",
+          "usedBy": null,
+          "declare": "This unit can cast this spell more than once per phase. Pick a visible unit wholly within 18\" of this unit that has not been picked to be the target of this spell this turn to be the target, then make a casting roll of 2D6.",
+          "effect": "If the target is an enemy unit, inflict D3 mortal damage on it. If the target is a friendly Death unit, pick 1 of the following effects:\n\n• Return a number of slain models to the target unit with a combined Health characteristic of up to 3.\n• The target has Ward (5+) until the start of your next turn.",
+          "abilityAndCommandIcon": "special",
+          "warscrollId": "6924f171-d00e-45e3-933e-58e5241d77b6",
+          "keywords": [
+            "Spell"
+          ]
+        }
+      ],
+      "keywords": [
+        "Ward (5+)",
+        "Monster",
+        "Wizard",
+        "Unique",
+        "Fly",
+        "Warmaster",
+        "Hero"
+      ],
+      "factionKeywords": [
+        "Grand Alliance Death",
+        "Ossiarch Bonereapers"
+      ]
+    },
+    {
+      "id": "49e9ea8b-c11a-4eca-9615-f98d58b2dc08",
+      "name": "Morghast Archai",
+      "subname": null,
+      "lore": "The deathly seraphs known as Morghasts are viewed with respectful wariness even by other Bonereapers. Although they wear the colours of the legions, they are the direct embodiments of Nagash’s will and his eyes and ears within the Ossiarch Empire. The complex necromantic rites of their creation, known to involve the sacrifice of seers and wizards, are entrusted only to the most senior Mortisans. The air around a Morghast is constantly filled with the despairing mewling of lost souls, while the foul spirit-energies that suffuse their halberds and blades allow them to cleave their victims’ physical bodies and tear the metaphysical essence beneath to shreds.\n\nMorghast Archai are heralds and spectres of death that shadow Nagash’s armies, observing their progress for signs of weakness – and doling out swift judgement to those generals adjudged to be failing the Great Necromancer. When battle dawns, they fight alongside the legions, unleashing their true might. Their ebon-wrought armour is threaded with spells to protect them from arcane attack and that can be used to empower their magic-wielding charges, should the need arise.",
+      "bannerImage": "https://dhss9aar8ocw.cloudfront.net/8a94394d-da3b-4289-9328-7ba44119d3d7",
+      "rowImage": "https://dhss9aar8ocw.cloudfront.net/c2614c23-a63d-4a8d-8dc4-347f720b7c77",
+      "modelCount": 2,
+      "baseSize": "60mm",
+      "points": 270,
+      "notes": null,
+      "isSpearhead": false,
+      "cannotBeReinforced": false,
+      "hiddenFromReference": false,
+      "hiddenFromStormForge": false,
+      "referenceKeywords": "Infantry, Fly, Ward (6+), Death, Ossiarch Bonereapers",
+      "move": "10\"",
+      "save": "3+",
+      "control": "2",
+      "health": "6",
+      "wargearOptionsText": null,
+      "publicationId": "383a370b-8c4e-4e88-90f7-71c7ad826967",
+      "limitingWarscrollId": null,
+      "requiredPrimaryHeroWarscrollId": null,
+      "isLegends": false,
+      "faction": "Ossiarch Bonereapers",
+      "weapons": [
+        {
+          "id": "0fba5662-e32c-427e-9a28-08ec8cbb5c56",
+          "name": "Spirit Weapons",
+          "type": "melee",
+          "range": null,
+          "attacks": "3",
+          "hit": "3+",
+          "wound": "2+",
+          "rend": "2",
+          "damage": "3",
+          "battleDamaged": false,
+          "warscrollId": "49e9ea8b-c11a-4eca-9615-f98d58b2dc08",
+          "weaponAbilities": [
+            "Crit (2 Hits)",
+            "Anti-Monster (+1 Rend)"
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "id": "36ff2ee3-4eab-4e90-8c04-5bfc8d88acc8",
+          "name": "Discharge Armour",
+          "phaseDetails": "Any Hero Phase",
+          "phase": "heroPhase",
+          "castingValue": null,
+          "cpCost": null,
+          "reaction": false,
+          "lore": "The Morghast releases the arcane energy in their armour to overpower nearby magic users.",
+          "usedBy": null,
+          "declare": "If this unit has an arcane charge token, pick a friendly Ossiarch Bonereapers Wizard wholly within 12\" of this unit to be the target.",
+          "effect": "Remove this unit’s arcane charge token, then add 1 to casting rolls for the target for the rest of the turn.",
+          "abilityAndCommandIcon": "special",
+          "warscrollId": "49e9ea8b-c11a-4eca-9615-f98d58b2dc08",
+          "keywords": []
+        },
+        {
+          "id": "fa30a9d2-4a28-4c04-98a9-5cb75741e971",
+          "name": "Ebon-wrought Armour",
+          "phaseDetails": "Passive",
+          "phase": "defensive",
+          "castingValue": null,
+          "cpCost": null,
+          "reaction": false,
+          "lore": "The Morghast’s armour is threaded with spells that protect them against arcane assault.",
+          "usedBy": null,
+          "declare": null,
+          "effect": "This unit has Ward (3+) against damage points inflicted by Spell abilities, Prayer abilities and abilities used by Manifestations.\n\nIf you make a successful ward roll for this unit, or if this unit destroys an enemy Manifestation, give this unit an arcane charge token. This unit cannot have more than 1 arcane charge token at once.",
+          "abilityAndCommandIcon": "special",
+          "warscrollId": "49e9ea8b-c11a-4eca-9615-f98d58b2dc08",
+          "keywords": []
+        }
+      ],
+      "keywords": [
+        "Infantry",
+        "Ward (6+)",
+        "Fly"
+      ],
+      "factionKeywords": [
+        "Grand Alliance Death",
+        "Ossiarch Bonereapers"
+      ]
+    },
+    {
+      "id": "c753aa2f-28ca-4182-b874-e9aab7dad1f3",
+      "name": "Morghast Harbingers",
+      "subname": null,
+      "lore": "The deathly seraphs known as Morghasts are viewed with respectful wariness even by other Bonereapers. Although they wear the colours of the legions, they are the direct embodiments of Nagash’s will and his eyes and ears within the Ossiarch Empire. The complex necromantic rites of their creation, known to involve the sacrifice of seers and wizards, are entrusted only to the most senior Mortisans. The air around a Morghast is constantly filled with the despairing mewling of lost souls, while the foul spirit-energies that suffuse their halberds and blades allow them to cleave their victims’ physical bodies and tear the metaphysical essence beneath to shreds.\n\nMorghast Harbingers were created as agents of Nagash’s omnicidal fury, shaped and armed to annihilate those who dare defy him. They range ahead of the Ossiarch armies, flying with a swiftness that belies their size and scanning the lands beneath for worthy victims. Upon sighting such a target, they plummet like huge birds of prey, slamming into their quarry with bone-shaking force before dismembering them with fell blades. Harbingers are accustomed to obeying Nagash’s commands alone, and only a direct command from a high-ranking Liege-Kavalos or Emissarian can contain their single-minded fervour.",
+      "bannerImage": "https://dhss9aar8ocw.cloudfront.net/24c33195-84a8-4ea3-90f5-1dc244e1ff1a",
+      "rowImage": "https://dhss9aar8ocw.cloudfront.net/682e36b3-57ab-4e1e-ba86-159fa575b3b1",
+      "modelCount": 2,
+      "baseSize": "60mm",
+      "points": 270,
+      "notes": null,
+      "isSpearhead": false,
+      "cannotBeReinforced": false,
+      "hiddenFromReference": false,
+      "hiddenFromStormForge": false,
+      "referenceKeywords": "Infantry, Fly, Ward (6+), Death, Ossiarch Bonereapers",
+      "move": "10\"",
+      "save": "4+",
+      "control": "2",
+      "health": "6",
+      "wargearOptionsText": null,
+      "publicationId": "383a370b-8c4e-4e88-90f7-71c7ad826967",
+      "limitingWarscrollId": null,
+      "requiredPrimaryHeroWarscrollId": null,
+      "isLegends": false,
+      "faction": "Ossiarch Bonereapers",
+      "weapons": [
+        {
+          "id": "84cb47e1-fdca-4017-949d-6e0ea0f798c8",
+          "name": "Spirit Weapons",
+          "type": "melee",
+          "range": null,
+          "attacks": "3",
+          "hit": "3+",
+          "wound": "2+",
+          "rend": "2",
+          "damage": "3",
+          "battleDamaged": false,
+          "warscrollId": "c753aa2f-28ca-4182-b874-e9aab7dad1f3",
+          "weaponAbilities": [
+            "Crit (2 Hits)",
+            "Anti-Monster (+1 Rend)"
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "id": "c80b0abc-bcbe-4630-8119-bb1585ffd7bf",
+          "name": "Harbingers of Death",
+          "phaseDetails": "Passive",
+          "phase": "chargePhase",
+          "castingValue": null,
+          "cpCost": null,
+          "reaction": false,
+          "lore": "Morghast Harbingers hurl themselves at the foe with unbridled ferocity.",
+          "usedBy": null,
+          "declare": null,
+          "effect": "Add 1 to the number of dice rolled when making charge rolls for this unit, to a maximum of 3.",
+          "abilityAndCommandIcon": "movement",
+          "warscrollId": "c753aa2f-28ca-4182-b874-e9aab7dad1f3",
+          "keywords": []
+        },
+        {
+          "id": "91818476-8b22-4d42-b4f4-382cc1f007fe",
+          "name": "Heralds of Nagash",
+          "phaseDetails": "Once Per Turn (Army), Reaction: You declared a Relentless Discipline ability",
+          "phase": "startOfTurn",
+          "castingValue": null,
+          "cpCost": null,
+          "reaction": true,
+          "lore": "Morghast Harbingers are direct embodiments of Nagash’s will and as such require no commander to function with deadly efficiency.",
+          "usedBy": null,
+          "declare": null,
+          "effect": "This unit is affected by that Relentless Discipline ability as if it were wholly within range of the friendly Hero picked to use it.",
+          "abilityAndCommandIcon": "special",
+          "warscrollId": "c753aa2f-28ca-4182-b874-e9aab7dad1f3",
+          "keywords": []
+        }
+      ],
+      "keywords": [
+        "Infantry",
+        "Ward (6+)",
+        "Fly"
+      ],
+      "factionKeywords": [
+        "Grand Alliance Death",
+        "Ossiarch Bonereapers"
+      ]
+    },
+    {
+      "id": "39407e23-a64f-4992-8c46-cf0b855b0ef2",
+      "name": "Mortek Guard",
+      "subname": null,
+      "lore": "Mortek Guard are the passionless heart of the Ossiarch legions. Though numerous in comparison to other Bonereaper constructs, they are no mindless chattel. The blend of warlike personalities that pulses within each Mortek’s soultrap gem grants the capacity for autonomy, though only a flicker – enough to adapt to changing circumstances and venerate Nagash without the possibility of any troubling notions of individuality shining through. Their strikes are clinical and efficient, whether delivered with nadirite spears and swords or with the greatblades favoured by those Morteks fashioned from the mutilated souls of berserkers and weaponmasters.\n\nDiscipline is the watchword of the Mortek Guard, the fulcrum upon which their successes turn. They cannot be bribed, induced to panic or burdened by despair; if they feel anything, it is only satisfaction at demonstrating the Bonereapers’ battlefield mastery. Whether they fight upon desert sands or beneath the canopies of flesh-eating trees, the Mortek Guard endure the harshest conditions without comment. Corpses pile around their feet as they kill with machine-like efficiency, preferring to preserve the bones of their victims whenever possible so that their final tally might contribute to the endless tithe.",
+      "bannerImage": "https://dhss9aar8ocw.cloudfront.net/2b72f9e0-3af5-4e93-a8fe-6c9130ac93dd",
+      "rowImage": "https://dhss9aar8ocw.cloudfront.net/022efda3-b1fb-4be3-b039-a14915ebfa69",
+      "modelCount": 10,
+      "baseSize": "25mm",
+      "points": 120,
+      "notes": null,
+      "isSpearhead": false,
+      "cannotBeReinforced": false,
+      "hiddenFromReference": false,
+      "hiddenFromStormForge": false,
+      "referenceKeywords": "Infantry, Champion, Standard Bearer (1/10), Ward (6+), Death, Ossiarch Bonereapers",
+      "move": "4\"",
+      "save": "4+",
+      "control": "1",
+      "health": "1",
+      "wargearOptionsText": null,
+      "publicationId": "383a370b-8c4e-4e88-90f7-71c7ad826967",
+      "limitingWarscrollId": null,
+      "requiredPrimaryHeroWarscrollId": null,
+      "isLegends": false,
+      "faction": "Ossiarch Bonereapers",
+      "weapons": [
+        {
+          "id": "b1b08b7e-8906-4f24-a6a2-ca7b51f439ab",
+          "name": "Nadirite Weapons",
+          "type": "melee",
+          "range": null,
+          "attacks": "2",
+          "hit": "3+",
+          "wound": "4+",
+          "rend": "-",
+          "damage": "1",
+          "battleDamaged": false,
+          "warscrollId": "39407e23-a64f-4992-8c46-cf0b855b0ef2",
+          "weaponAbilities": [
+            "Crit (2 Hits)",
+            "Anti-charge (+1 Rend)"
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "id": "09a65025-f3d5-4e5f-99c0-14515c2f0574",
+          "name": "Shieldwall",
+          "phaseDetails": "Passive",
+          "phase": "defensive",
+          "castingValue": null,
+          "cpCost": null,
+          "reaction": false,
+          "lore": "At their leader’s command, the regiment locks their shields to form an impenetrable barrier.",
+          "usedBy": null,
+          "declare": null,
+          "effect": "Ignore all modifiers to save rolls for this unit (positive and negative) for the rest of the turn if this unit did not use a Move ability in the same turn.",
+          "abilityAndCommandIcon": "defensive",
+          "warscrollId": "39407e23-a64f-4992-8c46-cf0b855b0ef2",
+          "keywords": []
+        }
+      ],
+      "keywords": [
+        "Champion",
+        "Standard Bearer",
+        "Infantry",
+        "Ward (6+)"
+      ],
+      "factionKeywords": [
+        "Grand Alliance Death",
+        "Ossiarch Bonereapers"
+      ]
+    }
+  ],
+  "heroicTraits": [
+    {
+      "faction": "Ossiarch Bonereapers",
+      "abilityGroupName": "Teachings of the Tithe-Reapers",
+      "abilityType": "heroicTraits",
+      "id": "31279b72-01c0-4380-af2a-5d3864c6ee68",
+      "name": "Mighty Archaeossian",
+      "phaseDetails": "Passive",
+      "phase": "defensive",
+      "abilityAndCommandIcon": "defensive",
+      "cpCost": null,
+      "lore": "The fossilised bone from which this hero is formed is supernaturally hard.",
+      "usedBy": null,
+      "effect": "If the unmodified hit roll for an **attack** that targets this unit is 1-3, the **attack** fails and the **attack** sequence ends.",
+      "image": null,
+      "altText": null,
+      "subsectionName": null,
+      "subsectionLore": null,
+      "subsectionRulesText": null,
+      "reaction": false,
+      "abilityGroupId": "b8d0ec0d-ebd4-4677-9bb6-6d52e2c776b4",
+      "keywords": []
+    },
+    {
+      "faction": "Ossiarch Bonereapers",
+      "abilityGroupName": "Teachings of the Tithe-Reapers",
+      "abilityType": "heroicTraits",
+      "id": "d44c7826-869c-467e-a747-e2bc4fb1f9ae",
+      "name": "Aura of Sterility",
+      "phaseDetails": "Passive",
+      "phase": "defensive",
+      "abilityAndCommandIcon": "defensive",
+      "cpCost": null,
+      "lore": "Ending magics shroud this hero, sapping the force from arrows and other projectiles.",
+      "usedBy": null,
+      "effect": "Subtract 1 from wound rolls for shooting attacks that target friendly Ossiarch Bonereapers units while they are wholly within 12\" of this unit.",
+      "image": null,
+      "altText": null,
+      "subsectionName": null,
+      "subsectionLore": null,
+      "subsectionRulesText": null,
+      "reaction": false,
+      "abilityGroupId": "b8d0ec0d-ebd4-4677-9bb6-6d52e2c776b4",
+      "keywords": []
+    },
+    {
+      "faction": "Ossiarch Bonereapers",
+      "abilityGroupName": "Teachings of the Tithe-Reapers",
+      "abilityType": "heroicTraits",
+      "id": "eaa44bf3-bec7-4ad5-a2cb-16f503e0c58b",
+      "name": "Diversionary Tactics",
+      "phaseDetails": "Passive",
+      "phase": "chargePhase",
+      "abilityAndCommandIcon": "movement",
+      "cpCost": null,
+      "lore": "Infused with especially cunning souls, this hero uses all manner of snares and ruses to hinder a foe’s advance.",
+      "usedBy": null,
+      "effect": "Subtract 2 from **charge** rolls for enemy units while they are within 12\" of this unit.",
+      "image": null,
+      "altText": null,
+      "subsectionName": null,
+      "subsectionLore": null,
+      "subsectionRulesText": null,
+      "reaction": false,
+      "abilityGroupId": "b8d0ec0d-ebd4-4677-9bb6-6d52e2c776b4",
+      "keywords": []
+    }
+  ],
+  "artefactsOfPower": [
+    {
+      "faction": "Ossiarch Bonereapers",
+      "abilityGroupName": "Relics of the Empire",
+      "abilityType": "artefactsOfPower",
+      "id": "a171c038-98d5-40a1-a6d3-64085d696b8a",
+      "name": "Helm of Tyranny",
+      "phaseDetails": "Passive",
+      "phase": "endOfTurn",
+      "abilityAndCommandIcon": "control",
+      "cpCost": null,
+      "lore": "This helm radiates the oppressive will of the wearer, filling nearby foes with supernatural dread.",
+      "usedBy": null,
+      "effect": "Subtract 2 from the control scores of enemy units while they are within 12\" of this unit.",
+      "image": null,
+      "altText": null,
+      "subsectionName": null,
+      "subsectionLore": null,
+      "subsectionRulesText": null,
+      "reaction": false,
+      "abilityGroupId": "eee04e9d-26fb-4359-940c-45e95d131555",
+      "keywords": []
+    },
+    {
+      "faction": "Ossiarch Bonereapers",
+      "abilityGroupName": "Relics of the Empire",
+      "abilityType": "artefactsOfPower",
+      "id": "b312e230-0bb6-4779-a4f6-07cb656570a8",
+      "name": "Lode of Saturation",
+      "phaseDetails": "Passive",
+      "phase": "defensive",
+      "abilityAndCommandIcon": "defensive",
+      "cpCost": null,
+      "lore": "This ingot of nadirite–iron alloy, when pressed against a bone construct, renders its structure nigh invulnerable.",
+      "usedBy": null,
+      "effect": "This unit has Ward (5+).",
+      "image": null,
+      "altText": null,
+      "subsectionName": null,
+      "subsectionLore": null,
+      "subsectionRulesText": null,
+      "reaction": false,
+      "abilityGroupId": "eee04e9d-26fb-4359-940c-45e95d131555",
+      "keywords": []
+    },
+    {
+      "faction": "Ossiarch Bonereapers",
+      "abilityGroupName": "Relics of the Empire",
+      "abilityType": "artefactsOfPower",
+      "id": "f6a86e0f-0724-48f4-96f6-f6169c2f4495",
+      "name": "Marrowpact",
+      "phaseDetails": "Once Per Battle, Any Combat Phase",
+      "phase": "combatPhase",
+      "abilityAndCommandIcon": "offensive",
+      "cpCost": null,
+      "lore": "The glyphs borne to war by this champion bind those who view them in arcane pacts that siphon the energy from their bone marrow.",
+      "usedBy": null,
+      "effect": "For the rest of the turn, if the unmodified hit roll for a combat **attack** that targets this unit is 1-2, inflict 1 mortal damage on the attacking unit after the **Fight** ability has been resolved.",
+      "image": null,
+      "altText": null,
+      "subsectionName": null,
+      "subsectionLore": null,
+      "subsectionRulesText": null,
+      "reaction": false,
+      "abilityGroupId": "eee04e9d-26fb-4359-940c-45e95d131555",
+      "keywords": []
+    }
+  ],
+  "battleTraits": [
+    {
+      "faction": "Ossiarch Bonereapers",
+      "abilityGroupName": "Ossiarch Bonereapers Battle Traits",
+      "abilityType": "battleTraits",
+      "id": "2190c1c4-9adb-4a64-a4aa-9d823b8afd06",
+      "name": "Coordinated Charge",
+      "phaseDetails": "Any Charge Phase",
+      "phase": "chargePhase",
+      "abilityAndCommandIcon": "movement",
+      "cpCost": null,
+      "lore": "At a signal, the Ossiarch legions charge in unison.",
+      "declare": "If no friendly units have used a **Relentless Discipline** ability this phase, pick a friendly Ossiarch Bonereapers **Hero** to use this ability.",
+      "usedBy": null,
+      "effect": "For the rest of the turn, add 1 to **charge** rolls for friendly Ossiarch Bonereapers units while they are wholly within 12\" of that **Hero**.",
+      "image": null,
+      "altText": null,
+      "subsectionName": null,
+      "subsectionLore": null,
+      "subsectionRulesText": null,
+      "reaction": false,
+      "abilityGroupId": "f3e6e85e-1031-43af-ae29-607f3a20b8b8",
+      "keywords": [
+        "Relentless Discipline"
+      ]
+    },
+    {
+      "faction": "Ossiarch Bonereapers",
+      "abilityGroupName": "Ossiarch Bonereapers Battle Traits",
+      "abilityType": "battleTraits",
+      "id": "3472fa9a-bee8-43e3-9472-c29b30a2740b",
+      "name": "Counter-strike",
+      "phaseDetails": "Any Charge Phase",
+      "phase": "chargePhase",
+      "abilityAndCommandIcon": "offensive",
+      "cpCost": null,
+      "lore": "The Ossiarchs ready their weapons for an enemy assault.",
+      "declare": "If no friendly units have used a **Relentless Discipline** ability this phase, pick a friendly Ossiarch Bonereapers **Hero** to use this ability.",
+      "usedBy": null,
+      "effect": "For the rest of the turn, friendly units’ melee weapons have Anti‑**charge** (+1 Rend) while they are wholly within 12\" of that **Hero**.",
+      "image": null,
+      "altText": null,
+      "subsectionName": null,
+      "subsectionLore": null,
+      "subsectionRulesText": null,
+      "reaction": false,
+      "abilityGroupId": "f3e6e85e-1031-43af-ae29-607f3a20b8b8",
+      "keywords": [
+        "Relentless Discipline"
+      ]
+    },
+    {
+      "faction": "Ossiarch Bonereapers",
+      "abilityGroupName": "Ossiarch Bonereapers Battle Traits",
+      "abilityType": "battleTraits",
+      "id": "4e8fa124-ce37-4d87-a04e-050ea90f737b",
+      "name": "Impenetrable Ranks",
+      "phaseDetails": "Any Combat Phase",
+      "phase": "combatPhase",
+      "abilityAndCommandIcon": "defensive",
+      "cpCost": null,
+      "lore": "Ossiarch warriors snap into defensive formations that grant them even greater resilience.",
+      "declare": "If no friendly units have used a **Relentless Discipline** ability this phase, pick a friendly Ossiarch Bonereapers **Hero** to use this ability.",
+      "usedBy": null,
+      "effect": "For the rest of the turn, friendly Ossiarch Bonereapers have Ward (5+) while they are wholly within 12\" of that **Hero**.",
+      "image": null,
+      "altText": null,
+      "subsectionName": null,
+      "subsectionLore": null,
+      "subsectionRulesText": null,
+      "reaction": false,
+      "abilityGroupId": "f3e6e85e-1031-43af-ae29-607f3a20b8b8",
+      "keywords": [
+        "Relentless Discipline"
+      ]
+    },
+    {
+      "faction": "Ossiarch Bonereapers",
+      "abilityGroupName": "Ossiarch Bonereapers Battle Traits",
+      "abilityType": "battleTraits",
+      "id": "66ebab4e-185a-42cf-8d42-2e54563d0940",
+      "name": "Re-form Ranks",
+      "phaseDetails": "Your Movement Phase",
+      "phase": "movementPhase",
+      "abilityAndCommandIcon": "movement",
+      "cpCost": null,
+      "lore": "Bonereapers swiftly disengage and charge back into the fray.",
+      "declare": "If no friendly units have used a **Relentless Discipline** ability this phase, pick a friendly Ossiarch Bonereapers **Hero** to use this ability.",
+      "usedBy": null,
+      "effect": "For the rest of the turn, while they are wholly within 12\" of that **Hero**, friendly Ossiarch Bonereapers units can use **Charge** abilities even if they used a **Retreat** ability in the same turn.",
+      "image": null,
+      "altText": null,
+      "subsectionName": null,
+      "subsectionLore": null,
+      "subsectionRulesText": null,
+      "reaction": false,
+      "abilityGroupId": "f3e6e85e-1031-43af-ae29-607f3a20b8b8",
+      "keywords": [
+        "Relentless Discipline"
+      ]
+    },
+    {
+      "faction": "Ossiarch Bonereapers",
+      "abilityGroupName": "Ossiarch Bonereapers Battle Traits",
+      "abilityType": "battleTraits",
+      "id": "785c1690-d840-4ed5-8392-26ed952c9541",
+      "name": "Bludgeon",
+      "phaseDetails": "Any Combat Phase",
+      "phase": "combatPhase",
+      "abilityAndCommandIcon": "offensive",
+      "cpCost": null,
+      "lore": "The Bonereapers deliver blows that make a mockery of armour.",
+      "declare": "If no friendly units have used a **Relentless Discipline** ability this phase, pick a friendly Ossiarch Bonereapers **Hero** to use this ability.",
+      "usedBy": null,
+      "effect": "For the rest of the turn, add 1 to wound rolls for combat attacks made by friendly Ossiarch Bonereapers units while they are wholly within 12\" of that **Hero**.",
+      "image": null,
+      "altText": null,
+      "subsectionName": null,
+      "subsectionLore": null,
+      "subsectionRulesText": null,
+      "reaction": false,
+      "abilityGroupId": "f3e6e85e-1031-43af-ae29-607f3a20b8b8",
+      "keywords": [
+        "Relentless Discipline"
+      ]
+    },
+    {
+      "faction": "Ossiarch Bonereapers",
+      "abilityGroupName": "Ossiarch Bonereapers Battle Traits",
+      "abilityType": "battleTraits",
+      "id": "c426ea41-9b12-4109-80e1-2ab30157b3a5",
+      "name": "Unstoppable Advance",
+      "phaseDetails": "Your Movement Phase",
+      "phase": "movementPhase",
+      "abilityAndCommandIcon": "movement",
+      "cpCost": null,
+      "lore": "The Ossiarchs advance at a remorseless pace.",
+      "declare": "If no friendly units have used a **Relentless Discipline** ability this phase, pick a friendly Ossiarch Bonereapers **Hero** to use this ability. All friendly Ossiarch Bonereapers units wholly within 12\" of that **Hero** are the targets.",
+      "usedBy": null,
+      "effect": "Add 2\" to the **Move** characteristic of each target for the rest of the turn.",
+      "image": null,
+      "altText": null,
+      "subsectionName": null,
+      "subsectionLore": null,
+      "subsectionRulesText": null,
+      "reaction": false,
+      "abilityGroupId": "f3e6e85e-1031-43af-ae29-607f3a20b8b8",
+      "keywords": [
+        "Relentless Discipline"
+      ]
+    }
+  ],
+  "lores": [
+    {
+      "faction": "Ossiarch Bonereapers",
+      "loreName": "Horrors of the Necropolis",
+      "abilities": [
+        {
+          "id": "2413786c-0b06-48f7-9fc2-afa827108292",
+          "name": "Summon Bone-tithe Shrieker",
+          "phaseDetails": "Your Hero Phase",
+          "phase": "heroPhase",
+          "abilityAndCommandIcon": "special",
+          "lore": "The caster conjures a four-headed, all-seeing monstrosity to hunt down those who would escape the Ossiarch tithe.",
+          "declare": "If there is not a friendly Bone‑tithe Shrieker on the battlefield, pick a friendly Ossiarch Bonereapers Wizard to cast this spell, then make a casting roll of 2D6.",
+          "usedBy": null,
+          "effect": "Set up a Bone-tithe Shrieker wholly within 12\" of the caster, visible to them and more than 9\" from all enemy units.",
+          "castingValue": 6,
+          "linkedWarscrollId": "1f9600c9-5e09-41ee-bdfd-03aae0f34541",
+          "loreId": "1288628b-530c-4e27-9445-263990b2239e",
+          "keywords": [
+            "Summon",
+            "Spell"
+          ]
+        },
+        {
+          "id": "472eddd4-19e1-4356-85d9-1b6867e69764",
+          "name": "Summon Soulstealer Carrion",
+          "phaseDetails": "Your Hero Phase",
+          "phase": "heroPhase",
+          "abilityAndCommandIcon": "special",
+          "lore": "Soaring from its caster’s spread fingertips, the Soulstealer Carrion takes wing above the battlefield.",
+          "declare": "If there is not a friendly Soulstealer Carrion on the battlefield, pick a friendly Ossiarch Bonereapers Wizard to cast this spell, then make a casting roll of 2D6.",
+          "usedBy": null,
+          "effect": "Set up a Soulstealer Carrion wholly within 12\" of the caster, visible to them and more than 9\" from all enemy units.",
+          "castingValue": 6,
+          "linkedWarscrollId": "5fb9f85d-0087-458e-abf9-b3425f5e7552",
+          "loreId": "1288628b-530c-4e27-9445-263990b2239e",
+          "keywords": [
+            "Summon",
+            "Spell"
+          ]
+        },
+        {
+          "id": "b7fad1fc-029d-4e8b-bfa9-3158bc0c1835",
+          "name": "Summon Nightmare Predator",
+          "phaseDetails": "Your Hero Phase",
+          "phase": "heroPhase",
+          "abilityAndCommandIcon": "special",
+          "lore": "The Nightmare Predator is a looming conjuration of Shyishan magic that takes the form of a disturbing terror.",
+          "declare": "If there is not a friendly Nightmare Predator on the battlefield, pick a friendly Ossiarch Bonereapers Wizard to cast this spell, then make a casting roll of 2D6.",
+          "usedBy": null,
+          "effect": "Set up a Nightmare Predator wholly within 12\" of the caster, visible to them and more than 9\" from all enemy units.",
+          "castingValue": 6,
+          "linkedWarscrollId": "271348a4-c72d-47c8-ae94-0f604d29530c",
+          "loreId": "1288628b-530c-4e27-9445-263990b2239e",
+          "keywords": [
+            "Summon",
+            "Spell"
+          ]
+        }
+      ]
+    },
+    {
+      "faction": "Ossiarch Bonereapers",
+      "loreName": "Lore of Ossian Sorcery",
+      "abilities": [
+        {
+          "id": "081a79d4-95cd-407f-991a-e43b6634aa78",
+          "name": "Empower Nadirite Weapons",
+          "phaseDetails": "Your Hero Phase",
+          "phase": "heroPhase",
+          "abilityAndCommandIcon": "offensive",
+          "lore": "The caster imbues nadirite weapons with deadly power.",
+          "declare": "Pick a friendly Ossiarch Bonereapers Wizard to cast this spell, pick a visible friendly Ossiarch Bonereapers unit within 12\" of them to be the target, then make a casting roll of 2D6.",
+          "usedBy": null,
+          "effect": "The target’s combat attacks score critical hits on unmodified hit rolls of 5+ until the start of your next turn.",
+          "castingValue": 5,
+          "linkedWarscrollId": null,
+          "loreId": "55639d27-941e-4f38-8f3f-6afd953dba11",
+          "keywords": [
+            "Spell",
+            "Unlimited"
+          ]
+        },
+        {
+          "id": "b37775da-50ff-43ae-8b20-557872f5043b",
+          "name": "Shard Storm",
+          "phaseDetails": "Your Hero Phase",
+          "phase": "heroPhase",
+          "abilityAndCommandIcon": "offensive",
+          "lore": "The caster conjures forth a great cloud of bone-shards and hurls them at the foe.",
+          "declare": "Pick a friendly Ossiarch Bonereapers Wizard to cast this spell, pick a visible enemy unit within 18\" of them to be the target, then make a casting roll of 2D6.",
+          "usedBy": null,
+          "effect": "Roll a number of dice equal to the number of models in the target unit. For each 5+, inflict 1 mortal damage on the target.",
+          "castingValue": 7,
+          "linkedWarscrollId": null,
+          "loreId": "55639d27-941e-4f38-8f3f-6afd953dba11",
+          "keywords": [
+            "Spell"
+          ]
+        },
+        {
+          "id": "ca290ae5-ffc0-452c-ac34-ac247b74b843",
+          "name": "Drain Vitality",
+          "phaseDetails": "Your Hero Phase",
+          "phase": "heroPhase",
+          "abilityAndCommandIcon": "defensive",
+          "lore": "This cursed spell saps a foe’s strength, leaving them weak and vulnerable.",
+          "declare": "Pick a friendly Ossiarch Bonereapers Wizard to cast this spell, pick a visible enemy unit within 12\" of them to be the target, then make a casting roll of 2D6.",
+          "usedBy": null,
+          "effect": "Until the start of your next turn, subtract 1 from hit rolls for the target’s attacks and subtract 1 from save rolls for the target.",
+          "castingValue": 7,
+          "linkedWarscrollId": null,
+          "loreId": "55639d27-941e-4f38-8f3f-6afd953dba11",
+          "keywords": [
+            "Spell"
+          ]
+        }
+      ]
+    }
+  ],
+  "battleFormations": [
+    {
+      "faction": "Ossiarch Bonereapers",
+      "battleFormationName": "Mortisan Council",
+      "abilities": [
+        {
+          "id": "d4fcecf7-1b0e-4dad-8e56-02665af9c510",
+          "name": "Necrotic Symphony",
+          "phaseDetails": "Passive",
+          "phase": "heroPhase",
+          "abilityAndCommandIcon": "special",
+          "lore": "Each Mortisan thrives in the presence of their fellow craftsmen, their arcane might spiralling as the collective magnifies their individual potency.",
+          "declare": null,
+          "effect": "Add 1 to casting rolls for friendly Ossiarch Bonereapers Infantry Wizards.",
+          "usedBy": null,
+          "reaction": false,
+          "battleFormationId": "643538a1-d256-4daf-8ec9-d40a6c97f942",
+          "keywords": []
+        }
+      ]
+    },
+    {
+      "faction": "Ossiarch Bonereapers",
+      "battleFormationName": "Kavalos Lance",
+      "abilities": [
+        {
+          "id": "03e7438a-07e8-4d9e-bb7d-205c7301f587",
+          "name": "Swift as Death",
+          "phaseDetails": "Once Per Battle (Army), Deployment Phase",
+          "phase": "startOfTurn",
+          "abilityAndCommandIcon": "movement",
+          "lore": "Kavalos formations dominate the battlefield with their sheer speed, seeking out the enemy’s weakest point before sending a deadly charge crashing home.",
+          "declare": "Pick up to 3 friendly Ossiarch Bonereapers Cavalry units to be the targets.",
+          "effect": "Each target can move 6\" but cannot end that move in combat.",
+          "usedBy": null,
+          "reaction": false,
+          "battleFormationId": "7b6fc962-c629-4b51-945f-8408d33bbbf4",
+          "keywords": []
+        }
+      ]
+    },
+    {
+      "faction": "Ossiarch Bonereapers",
+      "battleFormationName": "Mortek Phalanx",
+      "abilities": [
+        {
+          "id": "db760128-4c68-442c-a93c-f7d32cf305b9",
+          "name": "Send in the Reserve",
+          "phaseDetails": "Once Per Turn (Army), Your Movement Phase",
+          "phase": "movementPhase",
+          "abilityAndCommandIcon": "rallying",
+          "lore": "The Mortek Guard are deployed in deep ranks, with strategic reserves ready to enter the fray whenever the cohesion of the battleline is threatened.",
+          "declare": "Pick a friendly Mortek Guard unit that has been destroyed to be the target.",
+          "effect": "Roll a dice. On a 5+, set up a replacement unit with half the number of models from the target unit (rounding up) on the battlefield more than 9\" from all enemy units.",
+          "usedBy": null,
+          "reaction": false,
+          "battleFormationId": "c9e33e53-4c30-4d95-9138-770412efdf1f",
+          "keywords": []
+        }
+      ]
+    },
+    {
+      "faction": "Ossiarch Bonereapers",
+      "battleFormationName": "Mortek Ballistari",
+      "abilities": [
+        {
+          "id": "1b8d3665-c9ee-42a3-a2b6-e8ba5e214f1f",
+          "name": "Crawling Barrage",
+          "phaseDetails": "Your Shooting Phase",
+          "phase": "shootingPhase",
+          "abilityAndCommandIcon": "shooting",
+          "lore": "Ossiarch artillery is best utilised en masse, unleashing their necrotic payload from a secure position behind the Mortek ranks.",
+          "declare": "Pick up to 3 friendly Mortek Crawler units that are wholly within friendly territory and that have not used a Move ability this turn to be the targets.",
+          "effect": "Add 1 to hit rolls for each target’s shooting attacks for the rest of the turn.",
+          "usedBy": null,
+          "reaction": false,
+          "battleFormationId": "e88e8eda-c919-4008-9689-a398bf6814ed",
+          "keywords": []
+        }
+      ]
+    }
+  ]
+}
