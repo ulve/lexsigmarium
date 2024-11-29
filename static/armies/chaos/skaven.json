@@ -1,5 +1,5 @@
 {
-  "dataVersion": 181,
+  "dataVersion": 197,
   "warscrolls": [
     {
       "id": "ad5d5f68-67cf-4570-84b6-80f7dd908efc",
@@ -72,8 +72,8 @@
           "reaction": false,
           "lore": "These burly commanders are the breeders, mutators and healers of the Clans Moulder.",
           "usedBy": null,
-          "declare": "Pick another friendly Moulder unit wholly within 13\" of this unit to be the target.",
-          "effect": "Heal (3) the target.",
+          "declare": "Pick another friendly **Moulder** unit wholly within 13\" of this unit to be the target.",
+          "effect": "**Heal (3)** the target.",
           "abilityAndCommandIcon": "defensive",
           "warscrollId": "ad5d5f68-67cf-4570-84b6-80f7dd908efc",
           "keywords": []
@@ -88,7 +88,7 @@
           "reaction": false,
           "lore": "Master Moulders use pain and terror to drive their fighting beasts into a battle frenzy.",
           "usedBy": null,
-          "declare": "Pick another friendly Moulder unit within this unit’s combat range to be the target.",
+          "declare": "Pick another friendly **Moulder** unit within this unit’s combat range to be the target.",
           "effect": "Add 1 to charge rolls for the target for the rest of the turn.",
           "abilityAndCommandIcon": "movement",
           "warscrollId": "ad5d5f68-67cf-4570-84b6-80f7dd908efc",
@@ -161,7 +161,7 @@
           "lore": "The dreadful ringing of the Bell of Doom fills the minds of the Skaven’s foes with a deep despair.",
           "usedBy": null,
           "declare": null,
-          "effect": "Subtract 1 from wound rolls for attacks that target friendly Skaven Infantry units while they are wholly within 13\" of this Manifestation.",
+          "effect": "Subtract 1 from wound rolls for attacks that target friendly **Skaven Infantry** units while they are wholly within 13\" of this **Manifestation**.",
           "abilityAndCommandIcon": "defensive",
           "warscrollId": "4ac3d504-e858-470e-b224-be7673965d4a",
           "keywords": []
@@ -176,97 +176,6 @@
       "factionKeywords": [
         "Skaven",
         "Grand Alliance Chaos"
-      ]
-    },
-    {
-      "id": "4bad545f-37ea-427b-b21f-544b0c630aee",
-      "name": "Doomwheel",
-      "subname": null,
-      "lore": "Many uncanny war engines have emerged from the forges of the Clans Skryre, but the Doomwheels are arguably the most bizarre. These contraptions can appear almost amusing to incredulous foes; resembling giant wheels, they roll forwards at an unsteady pace. Yet amusement gives way to terror as the Doomwheel picks up speed, erratic blasts of warp lightning leaping from the ruinous realmstone crystals affixed to prongs on its flanks. Any caught in its path will be either blasted to blackened corpses or simply ground to bloody smears.",
-      "bannerImage": "https://dhss9aar8ocw.cloudfront.net/50430378-5174-45f0-bb3e-08aeee9e6b47",
-      "rowImage": "https://dhss9aar8ocw.cloudfront.net/e8bc63e5-c40d-4f79-8bc4-d7e7248b3769",
-      "modelCount": 1,
-      "baseSize": "105 x 70mm",
-      "points": 140,
-      "notes": "You cannot include more than 1 Skryre War Machine in a regiment led by a non-Skryre Hero.",
-      "isSpearhead": false,
-      "cannotBeReinforced": true,
-      "hiddenFromReference": false,
-      "hiddenFromStormForge": false,
-      "referenceKeywords": "War Machine, Chaos, Skaven, Skryre",
-      "move": "2D6+7\"",
-      "save": "4+",
-      "control": "1",
-      "health": "8",
-      "wargearOptionsText": null,
-      "publicationId": "5937ad21-f179-4af2-9b19-d476ef9e64c2",
-      "limitingWarscrollId": null,
-      "requiredPrimaryHeroWarscrollId": null,
-      "isLegends": false,
-      "faction": "Skaven",
-      "weapons": [
-        {
-          "id": "2892c8b2-1297-448a-af4d-256dbf9571fd",
-          "name": "Warp Bolts",
-          "type": "ranged",
-          "range": "13\"",
-          "attacks": "D6",
-          "hit": "3+",
-          "wound": "3+",
-          "rend": "1",
-          "damage": "D3",
-          "battleDamaged": false,
-          "warscrollId": "4bad545f-37ea-427b-b21f-544b0c630aee",
-          "weaponAbilities": [
-            "Shoot in Combat"
-          ]
-        },
-        {
-          "id": "378ad8b3-1c52-40dd-bc8b-1c2dafea067e",
-          "name": "Grinding Wheels",
-          "type": "melee",
-          "range": null,
-          "attacks": "6",
-          "hit": "4+",
-          "wound": "3+",
-          "rend": "-",
-          "damage": "1",
-          "battleDamaged": false,
-          "warscrollId": "4bad545f-37ea-427b-b21f-544b0c630aee",
-          "weaponAbilities": [
-            "Charge (+1 Damage)"
-          ]
-        }
-      ],
-      "abilities": [
-        {
-          "id": "05d3df0e-e55e-4e1c-acdf-dfd91a0e710b",
-          "name": "Rolling Doom",
-          "phaseDetails": "Your Movement Phase",
-          "phase": "movementPhase",
-          "castingValue": null,
-          "cpCost": null,
-          "reaction": false,
-          "lore": "A Doomwheel will mercilessly crush anything in its path.",
-          "usedBy": null,
-          "declare": null,
-          "effect": "This unit can move a distance up to its Move characteristic. This unit can pass through other models and the combat ranges of enemy units, but it cannot end that move in combat.\n\nThen, pick up to 3 enemy units that this unit passed across during that move to be the targets. Roll a D3 for each target. On a 2+, inflict an amount of mortal damage on the target equal to the roll.\n\nDesigner’s Note: This unit can use this ability even if it is in combat.",
-          "abilityAndCommandIcon": "special",
-          "warscrollId": "4bad545f-37ea-427b-b21f-544b0c630aee",
-          "keywords": [
-            "Core",
-            "Move"
-          ]
-        }
-      ],
-      "keywords": [
-        "War Machine",
-        "Skryre"
-      ],
-      "factionKeywords": [
-        "Skaven",
-        "Grand Alliance Chaos",
-        "The Great-Grand Gnawhorde"
       ]
     },
     {
@@ -389,7 +298,7 @@
           "lore": null,
           "usedBy": null,
           "declare": null,
-          "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its Great Plague Censer is 2.",
+          "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its **Great Plague Censer** is 2.",
           "abilityAndCommandIcon": "battleDamaged",
           "warscrollId": "6bb28b66-dfb6-4b8f-b960-b241328eb4a6",
           "keywords": []
@@ -405,7 +314,7 @@
           "lore": "This giant construct is venerated by the swarms of pox-ridden rats that flock to its side.",
           "usedBy": null,
           "declare": null,
-          "effect": "Friendly Pestilens units have Ward (6+) while they are wholly within 6\" of this unit.",
+          "effect": "Friendly **Pestilens** units have **Ward (6+)** while they are wholly within 6\" of this unit.",
           "abilityAndCommandIcon": "defensive",
           "warscrollId": "6bb28b66-dfb6-4b8f-b960-b241328eb4a6",
           "keywords": []
@@ -479,7 +388,7 @@
           "lore": "Possessed with a mad zealotry, Plague Monks in their death throes will bite, claw and scratch their foe, leaving wounds that quickly fester and rot.",
           "usedBy": null,
           "declare": null,
-          "effect": "Each time a model in this unit is slain by a combat attack and that model was in combat with the attacking unit, roll a dice. On a 6+, inflict 1 mortal damage on the attacking unit after the Fight ability has been resolved.",
+          "effect": "Each time a model in this unit is slain by a combat attack and that model was in combat with the attacking unit, roll a dice. On a 6+, inflict 1 mortal damage on the attacking unit after the **Fight** ability has been resolved.",
           "abilityAndCommandIcon": "offensive",
           "warscrollId": "8578ef81-3807-4608-90d8-f3bc4bca7fb1",
           "keywords": []
@@ -498,6 +407,111 @@
       ]
     },
     {
+      "id": "8c870116-d7ad-40a6-a395-d846df304c6b",
+      "name": "Acolyte Globadiers",
+      "subname": null,
+      "lore": "The Acolyte Globadiers of the Clans Skryre are tinkerers and artificers, miners and munitions carriers. They are a step above the thrall-rats that toil on the production lines or serve as fodder for weapons testing, and they scheme constantly about attaining the status of Warlock. The masters of the Clans Skryre are well aware of this, and they are little disposed to acquiring new rivals.",
+      "bannerImage": "https://dhss9aar8ocw.cloudfront.net/60105d83-233f-4da8-b80a-9f7db28f896f",
+      "rowImage": "https://dhss9aar8ocw.cloudfront.net/af4abb8e-5e6e-49ba-b109-484a16243b4a",
+      "modelCount": 5,
+      "baseSize": "28.5mm",
+      "points": 130,
+      "notes": "You cannot include more than 1 **Skryre Weapon Team** in a regiment led by a non-**Skryre Hero**.",
+      "isSpearhead": false,
+      "cannotBeReinforced": false,
+      "hiddenFromReference": false,
+      "hiddenFromStormForge": false,
+      "referenceKeywords": "Infantry, Weapon Team, Champion, Chaos, Skaven, Skryre",
+      "move": "6\"",
+      "save": "6+",
+      "control": "1",
+      "health": "2",
+      "wargearOptionsText": null,
+      "publicationId": "5937ad21-f179-4af2-9b19-d476ef9e64c2",
+      "limitingWarscrollId": null,
+      "requiredPrimaryHeroWarscrollId": null,
+      "isLegends": false,
+      "faction": "Skaven",
+      "weapons": [
+        {
+          "id": "1e2e36d0-9447-4da5-93ec-d324677eabae",
+          "name": "Poisoned Wind Globes",
+          "type": "ranged",
+          "range": "10\"",
+          "attacks": "1",
+          "hit": "3+",
+          "wound": "3+",
+          "rend": "1",
+          "damage": "D3",
+          "battleDamaged": false,
+          "warscrollId": "8c870116-d7ad-40a6-a395-d846df304c6b",
+          "weaponAbilities": [
+            "Anti-Infantry (+1 Rend)",
+            "Shoot in Combat"
+          ]
+        },
+        {
+          "id": "4f47d974-e230-49e2-bddf-f8ee6650b8e9",
+          "name": "Rusty Knife",
+          "type": "melee",
+          "range": null,
+          "attacks": "1",
+          "hit": "4+",
+          "wound": "5+",
+          "rend": "-",
+          "damage": "1",
+          "battleDamaged": false,
+          "warscrollId": "8c870116-d7ad-40a6-a395-d846df304c6b",
+          "weaponAbilities": []
+        }
+      ],
+      "abilities": [
+        {
+          "id": "5c3981cd-cf6c-41a8-b78d-d001c67e427a",
+          "name": "Hidden Weapon Team",
+          "phaseDetails": "Passive",
+          "phase": "defensive",
+          "castingValue": null,
+          "cpCost": null,
+          "reaction": false,
+          "lore": "Skryre weapon teams often lurk amidst larger formations.",
+          "usedBy": null,
+          "declare": null,
+          "effect": "While this unit is within the combat range of a friendly **Clanrats** unit that has 5 or more models, and there are no other friendly **Weapon Team** units within that unit’s combat range, this unit is not visible to enemy units more than 13\" away.",
+          "abilityAndCommandIcon": "defensive",
+          "warscrollId": "8c870116-d7ad-40a6-a395-d846df304c6b",
+          "keywords": []
+        },
+        {
+          "id": "b1895f1b-0e38-45c4-83e6-7cae7b1c97df",
+          "name": "Gas Clouds",
+          "phaseDetails": "Passive",
+          "phase": "shootingPhase",
+          "castingValue": null,
+          "cpCost": null,
+          "reaction": false,
+          "lore": "Poisoned wind globes are crystal orbs filled with deadly warp-gas that can engulf and lethally transmute an enemy regiment.",
+          "usedBy": null,
+          "declare": null,
+          "effect": "Add 1 to the Damage characteristic of this unit’s **Poisoned Wind Globes** for attacks that target an enemy unit that has 10 or more models.",
+          "abilityAndCommandIcon": "shooting",
+          "warscrollId": "8c870116-d7ad-40a6-a395-d846df304c6b",
+          "keywords": []
+        }
+      ],
+      "keywords": [
+        "Champion",
+        "Weapon Team",
+        "Infantry",
+        "Skryre"
+      ],
+      "factionKeywords": [
+        "Skaven",
+        "Grand Alliance Chaos",
+        "The Great-Grand Gnawhorde"
+      ]
+    },
+    {
       "id": "8ab5c605-a774-442f-b851-ecbfe845b3c6",
       "name": "Ratling Warpblaster",
       "subname": null,
@@ -507,7 +521,7 @@
       "modelCount": 1,
       "baseSize": "105 x 70mm",
       "points": 180,
-      "notes": "You cannot include more than 1 Skryre War Machine in a regiment led by a non-Skryre Hero.",
+      "notes": "You cannot include more than 1 **Skryre War Machine** in a regiment led by a non-**Skryre Hero**.",
       "isSpearhead": false,
       "cannotBeReinforced": true,
       "hiddenFromReference": false,
@@ -583,7 +597,7 @@
           "lore": "Under the dubious supervision of the Warlocks of Clans Skryre, the gunner cranks up the Ratling Warpblaster’s velocity to the max.",
           "usedBy": null,
           "declare": null,
-          "effect": "If this unit is within the combat range of a friendly Skryre Hero, this unit’s Hail of Warpstone Bullets has an Attacks characteristic of 6D6+3 instead of 3D6+3 for the rest of the turn. \n\nHowever, for each unmodified hit roll of 1 for an attack made with this unit’s Hail of Warpstone Bullets, inflict 1 mortal damage on this unit after the Shoot ability has been resolved.",
+          "effect": "If this unit is within the combat range of a friendly **Skryre Hero**, this unit’s **Hail of Warpstone Bullets** has an Attacks characteristic of 6D6+3 instead of 3D6+3 for the rest of the turn.\n\nHowever, for each unmodified hit roll of 1 for an attack made with this unit’s **Hail of Warpstone Bullets**, inflict 1 mortal damage on this unit after the **Shoot** ability has been resolved.",
           "abilityAndCommandIcon": "shooting",
           "warscrollId": "8ab5c605-a774-442f-b851-ecbfe845b3c6",
           "keywords": []
@@ -591,111 +605,6 @@
       ],
       "keywords": [
         "War Machine",
-        "Skryre"
-      ],
-      "factionKeywords": [
-        "Skaven",
-        "Grand Alliance Chaos",
-        "The Great-Grand Gnawhorde"
-      ]
-    },
-    {
-      "id": "8c870116-d7ad-40a6-a395-d846df304c6b",
-      "name": "Acolyte Globadiers",
-      "subname": null,
-      "lore": "The Acolyte Globadiers of the Clans Skryre are tinkerers and artificers, miners and munitions carriers. They are a step above the thrall-rats that toil on the production lines or serve as fodder for weapons testing, and they scheme constantly about attaining the status of Warlock. The masters of the Clans Skryre are well aware of this, and they are little disposed to acquiring new rivals.",
-      "bannerImage": "https://dhss9aar8ocw.cloudfront.net/60105d83-233f-4da8-b80a-9f7db28f896f",
-      "rowImage": "https://dhss9aar8ocw.cloudfront.net/af4abb8e-5e6e-49ba-b109-484a16243b4a",
-      "modelCount": 5,
-      "baseSize": "28.5mm",
-      "points": 130,
-      "notes": "You cannot include more than 1 Skryre Weapon Team in a regiment led by a non-Skryre Hero.",
-      "isSpearhead": false,
-      "cannotBeReinforced": false,
-      "hiddenFromReference": false,
-      "hiddenFromStormForge": false,
-      "referenceKeywords": "Infantry, Weapon Team, Champion, Chaos, Skaven, Skryre",
-      "move": "6\"",
-      "save": "6+",
-      "control": "1",
-      "health": "2",
-      "wargearOptionsText": null,
-      "publicationId": "5937ad21-f179-4af2-9b19-d476ef9e64c2",
-      "limitingWarscrollId": null,
-      "requiredPrimaryHeroWarscrollId": null,
-      "isLegends": false,
-      "faction": "Skaven",
-      "weapons": [
-        {
-          "id": "1e2e36d0-9447-4da5-93ec-d324677eabae",
-          "name": "Poisoned Wind Globes",
-          "type": "ranged",
-          "range": "10\"",
-          "attacks": "1",
-          "hit": "3+",
-          "wound": "3+",
-          "rend": "1",
-          "damage": "D3",
-          "battleDamaged": false,
-          "warscrollId": "8c870116-d7ad-40a6-a395-d846df304c6b",
-          "weaponAbilities": [
-            "Anti-Infantry (+1 Rend)",
-            "Shoot in Combat"
-          ]
-        },
-        {
-          "id": "4f47d974-e230-49e2-bddf-f8ee6650b8e9",
-          "name": "Rusty Knife",
-          "type": "melee",
-          "range": null,
-          "attacks": "1",
-          "hit": "4+",
-          "wound": "5+",
-          "rend": "-",
-          "damage": "1",
-          "battleDamaged": false,
-          "warscrollId": "8c870116-d7ad-40a6-a395-d846df304c6b",
-          "weaponAbilities": []
-        }
-      ],
-      "abilities": [
-        {
-          "id": "5c3981cd-cf6c-41a8-b78d-d001c67e427a",
-          "name": "Hidden Weapon Team",
-          "phaseDetails": "Passive",
-          "phase": "defensive",
-          "castingValue": null,
-          "cpCost": null,
-          "reaction": false,
-          "lore": "Skryre weapon teams often lurk amidst larger formations.",
-          "usedBy": null,
-          "declare": null,
-          "effect": "While this unit is within the combat range of a friendly Clanrats unit that has 5 or more models, and there are no other friendly Weapon Team units within that unit’s combat range, this unit is not visible to enemy units more than 13\" away.",
-          "abilityAndCommandIcon": "defensive",
-          "warscrollId": "8c870116-d7ad-40a6-a395-d846df304c6b",
-          "keywords": []
-        },
-        {
-          "id": "b1895f1b-0e38-45c4-83e6-7cae7b1c97df",
-          "name": "Gas Clouds",
-          "phaseDetails": "Passive",
-          "phase": "shootingPhase",
-          "castingValue": null,
-          "cpCost": null,
-          "reaction": false,
-          "lore": "Poisoned wind globes are crystal orbs filled with deadly warp-gas that can engulf and lethally transmute an enemy regiment.",
-          "usedBy": null,
-          "declare": null,
-          "effect": "Add 1 to the Damage characteristic of this unit’s Poisoned Wind Globes for attacks that target an enemy unit that has 10 or more models.",
-          "abilityAndCommandIcon": "shooting",
-          "warscrollId": "8c870116-d7ad-40a6-a395-d846df304c6b",
-          "keywords": []
-        }
-      ],
-      "keywords": [
-        "Champion",
-        "Weapon Team",
-        "Infantry",
         "Skryre"
       ],
       "factionKeywords": [
@@ -760,7 +669,7 @@
           "lore": "An endless tide of unholy vermin pours through the cracks in reality, their eyes aglow and their fangs unnaturally sharp.",
           "usedBy": null,
           "declare": null,
-          "effect": "Heal (D6) this Manifestation.",
+          "effect": "**Heal (D6)** this **Manifestation**.",
           "abilityAndCommandIcon": "defensive",
           "warscrollId": "9d798937-25d7-46f3-963c-0ce94c9bfa47",
           "keywords": []
@@ -953,7 +862,7 @@
           "lore": "To catch Vizzik's gaze is to be driven from one's mind by agonising raptures.",
           "usedBy": null,
           "declare": "Pick an enemy unit in combat with this unit to be the target.",
-          "effect": "Roll a dice. On a 2+, for the rest of the turn:\n\n• If this unit is in combat with the target when the target is picked to use a Fight ability, all of the target's attacks must target this unit.\n• Subtract 1 from hit rolls and wound rolls for the target's combat attacks that target this unit.",
+          "effect": "Roll a dice. On a 2+, for the rest of the turn:\n\n• If this unit is in combat with the target when the target is picked to use a **Fight** ability, all of the target's attacks must target this unit.\n• Subtract 1 from hit rolls and wound rolls for the target's combat attacks that target this unit.",
           "abilityAndCommandIcon": "defensive",
           "warscrollId": "c87b1dab-262b-4a28-871f-062875c44c58",
           "keywords": [
@@ -970,8 +879,8 @@
           "reaction": false,
           "lore": "Such is the force of Vizzik's screeching oratory that the verminous hordes froth and spasm under his influence as mere mortals unravel to visions of their inevitable doom.",
           "usedBy": null,
-          "declare": "Pick a visible enemy unit within 13\"of this unit or a visible friendly Skaven Infantry unit within 13\" of this unit to be the target, then make a chanting roll of D6.",
-          "effect": "If the target is an enemy unit, subtract 1 from the Attacks characteristic of the target's melee weapons until the start of your next turn.\n\nIf the target is a friendly unit, it can use 2 Fight abilities this turn. After the first is used, however, the target has Strike-last for the rest of the turn.\n\nIf the chanting roll was 12+, you can pick 2 targets instead of 1.",
+          "declare": "Pick a visible enemy unit within 13\"of this unit or a visible friendly **Skaven Infantry** unit within 13\" of this unit to be the target, then make a chanting roll of D6.",
+          "effect": "If the target is an enemy unit, subtract 1 from the Attacks characteristic of the target's melee weapons until the start of your next turn.\n\nIf the target is a friendly unit, it can use 2 **Fight** abilities this turn. After the first is used, however, the target has **Strike-last** for the rest of the turn.\n\nIf the chanting roll was 12+, you can pick 2 targets instead of 1.",
           "abilityAndCommandIcon": "special",
           "warscrollId": "c87b1dab-262b-4a28-871f-062875c44c58",
           "keywords": [
@@ -996,26 +905,26 @@
       ]
     },
     {
-      "id": "bd8b04a7-1ece-4d9b-b3e5-1c0d9c7dd91f",
-      "name": "Ratling Gun",
+      "id": "c48e3ec3-6f8a-4f19-8a7d-924e37100e9e",
+      "name": "Stormfiends",
       "subname": null,
-      "lore": "Ratling Guns are amongst the most commonplace of the weapon teams that emerge from the forges of the Clans Skryre. Powered by complex warp-steam batteries and activated by a hand-crank operated by the weapon's loader, Ratling Guns are notoriously difficult to aim. The sheer volume of bullets they unleash, however, can shred an enemy cohort regardless.",
-      "bannerImage": "https://dhss9aar8ocw.cloudfront.net/e346ab6a-6633-4861-894d-6cb64a1962e5",
-      "rowImage": "https://dhss9aar8ocw.cloudfront.net/c2f3007a-dde6-4195-bec2-ec7cf2f61484",
+      "lore": "The Clans Moulder and Clans Skryre have long enjoyed a profitable, if fraught, alliance. Stormfiends are one of the many horrors engendered by these collaborations. In appearance, they resemble a Rat Ogor granted even greater bulk through potent warpstone serums, and they can wield various deadly Skryre firearms without tearing themselves apart through recoil.",
+      "bannerImage": "https://dhss9aar8ocw.cloudfront.net/3d12c21d-ac72-4edc-9e44-a1e010ded2ed",
+      "rowImage": "https://dhss9aar8ocw.cloudfront.net/cdd8975a-3a63-4db1-9185-a6b5c1933131",
       "modelCount": 3,
-      "baseSize": "60 x 35mm",
-      "points": 150,
-      "notes": "You cannot include more than 1 Skryre Weapon Team in a regiment led by a non-Skryre Hero.",
+      "baseSize": "60mm",
+      "points": 260,
+      "notes": null,
       "isSpearhead": false,
       "cannotBeReinforced": false,
       "hiddenFromReference": false,
       "hiddenFromStormForge": false,
-      "referenceKeywords": "Infantry, Weapon Team, Chaos, Skaven, Skryre",
+      "referenceKeywords": "Infantry, Chaos, Skaven, Skryre, Moulder",
       "move": "6\"",
-      "save": "6+",
-      "control": "1",
-      "health": "3",
-      "wargearOptionsText": null,
+      "save": "4+",
+      "control": "2",
+      "health": "6",
+      "wargearOptionsText": "***1/3 models must be armed with 1 of the following options:***\n• ***Warpfire Projectors and Clubbing Blows***\n• ***Windlaunchers and Clubbing Blows***\n\n***1/3 models must be armed with 1 of the following options:***\n• ***Ratling Cannons and Clubbing Blows***\n• ***Grinderfists***\n\n***1/3 models must be armed with 1 of the following options:***\n• ***Doomflayer Gauntlets***\n• ***Shock Gauntlets***",
       "publicationId": "5937ad21-f179-4af2-9b19-d476ef9e64c2",
       "limitingWarscrollId": null,
       "requiredPrimaryHeroWarscrollId": null,
@@ -1023,8 +932,200 @@
       "faction": "Skaven",
       "weapons": [
         {
-          "id": "664ff8a1-0e39-44b5-9271-722b56779b0c",
-          "name": "Rusty Knives",
+          "id": "0223b717-5c0f-4116-b816-5481dc52aeaa",
+          "name": "Windlaunchers",
+          "type": "ranged",
+          "range": "15\"",
+          "attacks": "3",
+          "hit": "4+",
+          "wound": "3+",
+          "rend": "2",
+          "damage": "D3",
+          "battleDamaged": false,
+          "warscrollId": "c48e3ec3-6f8a-4f19-8a7d-924e37100e9e",
+          "weaponAbilities": []
+        },
+        {
+          "id": "33dfb347-5191-4aa6-9196-e0834430aebc",
+          "name": "Doomflayer Gauntlets",
+          "type": "melee",
+          "range": null,
+          "attacks": "5",
+          "hit": "4+",
+          "wound": "2+",
+          "rend": "2",
+          "damage": "D3",
+          "battleDamaged": false,
+          "warscrollId": "c48e3ec3-6f8a-4f19-8a7d-924e37100e9e",
+          "weaponAbilities": [
+            "Charge (+1 Damage)"
+          ]
+        },
+        {
+          "id": "580a03d0-ee7c-44a6-a5cf-13d6eb98a815",
+          "name": "Ratling Cannons",
+          "type": "ranged",
+          "range": "15\"",
+          "attacks": "3D6",
+          "hit": "4+",
+          "wound": "3+",
+          "rend": "1",
+          "damage": "1",
+          "battleDamaged": false,
+          "warscrollId": "c48e3ec3-6f8a-4f19-8a7d-924e37100e9e",
+          "weaponAbilities": []
+        },
+        {
+          "id": "6c2e9b9f-24f8-4508-a9ab-53d4b98b115f",
+          "name": "Grinderfists",
+          "type": "melee",
+          "range": null,
+          "attacks": "4",
+          "hit": "4+",
+          "wound": "2+",
+          "rend": "2",
+          "damage": "2",
+          "battleDamaged": false,
+          "warscrollId": "c48e3ec3-6f8a-4f19-8a7d-924e37100e9e",
+          "weaponAbilities": []
+        },
+        {
+          "id": "ddca6d2f-a785-4e45-a486-a474437c6609",
+          "name": "Shock Gauntlets",
+          "type": "melee",
+          "range": null,
+          "attacks": "4",
+          "hit": "4+",
+          "wound": "2+",
+          "rend": "1",
+          "damage": "2",
+          "battleDamaged": false,
+          "warscrollId": "c48e3ec3-6f8a-4f19-8a7d-924e37100e9e",
+          "weaponAbilities": []
+        },
+        {
+          "id": "edd73058-401e-40a5-86e0-1afe50c7a078",
+          "name": "Clubbing Blows",
+          "type": "melee",
+          "range": null,
+          "attacks": "3",
+          "hit": "4+",
+          "wound": "2+",
+          "rend": "-",
+          "damage": "2",
+          "battleDamaged": false,
+          "warscrollId": "c48e3ec3-6f8a-4f19-8a7d-924e37100e9e",
+          "weaponAbilities": []
+        },
+        {
+          "id": "f62a694c-3550-4564-b383-505e6aa4fd77",
+          "name": "Warpfire Projectors",
+          "type": "ranged",
+          "range": "10\"",
+          "attacks": "2D6",
+          "hit": "2+",
+          "wound": "4+",
+          "rend": "2",
+          "damage": "1",
+          "battleDamaged": false,
+          "warscrollId": "c48e3ec3-6f8a-4f19-8a7d-924e37100e9e",
+          "weaponAbilities": [
+            "Shoot in Combat"
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "id": "0fe735ff-c013-4f41-b5e0-ddf9d79de5f0",
+          "name": "Shock Gauntlets",
+          "phaseDetails": "Passive",
+          "phase": "combatPhase",
+          "castingValue": null,
+          "cpCost": null,
+          "reaction": false,
+          "lore": "The electrical discharge created by shock gauntlets can trigger a series of linked explosions.",
+          "usedBy": null,
+          "declare": null,
+          "effect": "Each time an attack made with this unit’s **Shock Gauntlets** scores a critical hit, that attack scores D6 hits on the target unit instead of 1. Make a wound roll for each hit.",
+          "abilityAndCommandIcon": "offensive",
+          "warscrollId": "c48e3ec3-6f8a-4f19-8a7d-924e37100e9e",
+          "keywords": []
+        },
+        {
+          "id": "44d5aa4a-bfb9-4aae-924c-0b6113603c56",
+          "name": "Grinderfist Tunnellers",
+          "phaseDetails": "Any Movement Phase",
+          "phase": "movementPhase",
+          "castingValue": null,
+          "cpCost": null,
+          "reaction": false,
+          "lore": "Grinderfists can be used to create underground tunnels.",
+          "usedBy": null,
+          "declare": "Pick this unit if it is **in the tunnels below** and includes any models armed with **Grinderfists**.",
+          "effect": "Set up this unit anywhere on the battlefield more than 9\" from all enemy units.",
+          "abilityAndCommandIcon": "movement",
+          "warscrollId": "c48e3ec3-6f8a-4f19-8a7d-924e37100e9e",
+          "keywords": []
+        }
+      ],
+      "keywords": [
+        "Moulder",
+        "Infantry",
+        "Skryre"
+      ],
+      "factionKeywords": [
+        "Skaven",
+        "Grand Alliance Chaos",
+        "The Great-Grand Gnawhorde",
+        "Thanquol's Mutated Menagerie"
+      ]
+    },
+    {
+      "id": "6d353901-1a6c-4066-9767-3aa364906f1c",
+      "name": "Plaguepack",
+      "subname": null,
+      "lore": "A Plaguepack is formed of a Plague Priest and their entourage. These fervent ratmen are devoted to the Great Corruptor and his vision of a befouled cosmos. While their master proselytises, the most favoured (or troublesome) of the pack swing a mighty plague censer, breathing deep of its noxious and blinding fumes. Alongside a Plaguepack scuttle rotten rodents, some carrying shards of warpstone crystal - a useful power source for any Plague Priest mid-catechism.",
+      "bannerImage": "https://dhss9aar8ocw.cloudfront.net/6b678316-2ee9-4d4f-9718-1e757190281c",
+      "rowImage": "https://dhss9aar8ocw.cloudfront.net/cfc9af0b-44a8-4e92-8a58-45418e20d51c",
+      "modelCount": 5,
+      "baseSize": "32mm [1], 28.5mm [1], 25mm [4]",
+      "points": 140,
+      "notes": null,
+      "isSpearhead": false,
+      "cannotBeReinforced": false,
+      "hiddenFromReference": false,
+      "hiddenFromStormForge": false,
+      "referenceKeywords": "Priest (1), Infantry, Champion (1/5), Chaos, Skaven, Pestilens",
+      "move": "6\"",
+      "save": "6+",
+      "control": "1",
+      "health": "2",
+      "wargearOptionsText": "***Each model in this unit is armed with Weapons of Corruption.***\n\n• ***1/5 models is a Plague Censer Bearer and is armed with a Plague Censer instead of Weapons of Corruption.***\n• ***The champion cannot replace their weapons.***",
+      "publicationId": "5937ad21-f179-4af2-9b19-d476ef9e64c2",
+      "limitingWarscrollId": null,
+      "requiredPrimaryHeroWarscrollId": null,
+      "isLegends": false,
+      "faction": "Skaven",
+      "weapons": [
+        {
+          "id": "2722f5e1-487f-4878-86ee-26e1ee8a5cae",
+          "name": "Plague Censer",
+          "type": "melee",
+          "range": null,
+          "attacks": "4",
+          "hit": "4+",
+          "wound": "3+",
+          "rend": "1",
+          "damage": "2",
+          "battleDamaged": false,
+          "warscrollId": "6d353901-1a6c-4066-9767-3aa364906f1c",
+          "weaponAbilities": [
+            "Crit (Auto-wound)"
+          ]
+        },
+        {
+          "id": "f4e99118-6e44-4793-87cd-06ec885b936d",
+          "name": "Weapons of Corruption",
           "type": "melee",
           "range": null,
           "attacks": "2",
@@ -1033,53 +1134,55 @@
           "rend": "-",
           "damage": "1",
           "battleDamaged": false,
-          "warscrollId": "bd8b04a7-1ece-4d9b-b3e5-1c0d9c7dd91f",
-          "weaponAbilities": []
-        },
-        {
-          "id": "c6c52829-06d4-4302-9b07-94b713143b2c",
-          "name": "Ratling Gun",
-          "type": "ranged",
-          "range": "15\"",
-          "attacks": "3D6",
-          "hit": "4+",
-          "wound": "4+",
-          "rend": "1",
-          "damage": "1",
-          "battleDamaged": false,
-          "warscrollId": "bd8b04a7-1ece-4d9b-b3e5-1c0d9c7dd91f",
+          "warscrollId": "6d353901-1a6c-4066-9767-3aa364906f1c",
           "weaponAbilities": [
-            "Crit (2 Hits)"
+            "Crit (Auto-wound)"
           ]
         }
       ],
       "abilities": [
         {
-          "id": "7565d05e-207d-4e03-8883-7b26ac1b1862",
-          "name": "Hidden Weapon Team",
+          "id": "d8a761f5-29ba-4fbd-a9be-f48c4fc9a89f",
+          "name": "Enshrouding Fumes",
           "phaseDetails": "Passive",
           "phase": "defensive",
           "castingValue": null,
           "cpCost": null,
           "reaction": false,
-          "lore": "Skryre weapon teams often lurk amidst larger formations.",
+          "lore": "Choking, miasmatic clouds swirl around a Plaguepack.",
           "usedBy": null,
           "declare": null,
-          "effect": "While this unit is within the combat range of a friendly Clanrats unit that has 5 or more models, and there are no other friendly Weapon Team units within that unit’s combat range, this unit is not visible to enemy units more than 13\" away.",
+          "effect": "Subtract 1 from hit rolls for shooting attacks that target this unit.",
           "abilityAndCommandIcon": "defensive",
-          "warscrollId": "bd8b04a7-1ece-4d9b-b3e5-1c0d9c7dd91f",
+          "warscrollId": "6d353901-1a6c-4066-9767-3aa364906f1c",
+          "keywords": []
+        },
+        {
+          "id": "913e9b07-0d8e-459b-ae5d-b21b312d8ac2",
+          "name": "Plague Rat",
+          "phaseDetails": "Passive",
+          "phase": "heroPhase",
+          "castingValue": null,
+          "cpCost": null,
+          "reaction": false,
+          "lore": "Plague rats carry shards of warpstone that can be consumed to lend the Plaguepack’s prayers more frothing urgency.",
+          "usedBy": null,
+          "declare": null,
+          "effect": "This unit’s **Plague rat** is a token. If you make a unmodified chanting roll of 1 for this unit while its **Plague rat** is on the battlefield, you can remove its **Plague rat** from the battlefield and then re-roll that chanting roll.",
+          "abilityAndCommandIcon": "special",
+          "warscrollId": "6d353901-1a6c-4066-9767-3aa364906f1c",
           "keywords": []
         }
       ],
       "keywords": [
-        "Weapon Team",
-        "Infantry",
-        "Skryre"
+        "Champion",
+        "Pestilens",
+        "Priest",
+        "Infantry"
       ],
       "factionKeywords": [
         "Skaven",
-        "Grand Alliance Chaos",
-        "The Great-Grand Gnawhorde"
+        "Grand Alliance Chaos"
       ]
     },
     {
@@ -1136,7 +1239,7 @@
           "lore": "Those who dare face a Warpseer find themselves utterly pre-empted and outmanoeuvred.",
           "usedBy": null,
           "declare": "Pick an enemy unit in combat with this unit to be the target.",
-          "effect": "Roll a dice. On a 4+, the target has Strike-last for the rest of the turn.",
+          "effect": "Roll a dice. On a 4+, the target has **Strike-last** for the rest of the turn.",
           "abilityAndCommandIcon": "defensive",
           "warscrollId": "86c10183-3acf-479c-8d29-53e9cdf90ea5",
           "keywords": [
@@ -1206,6 +1309,93 @@
         "Skaven",
         "Grand Alliance Chaos",
         "The Great-Grand Gnawhorde"
+      ]
+    },
+    {
+      "id": "636ecadd-8bf7-4d87-94a7-dc1ff1fa133e",
+      "name": "Rat Ogors",
+      "subname": null,
+      "lore": "The power of the Clans Moulder is built on the broad shoulders of the Rat Ogors. These rabid war-mutants are created by grafting nimble Skaven to the muscled bulk of ogorkind through strange cryptosorcery and infusing them with warpstone shards and unguents. These misbegotten warriors are pumped full of all manner of toxic serums designed to magnify both their regenerative properties and their natural frenzy. A mixture of pain and gnawing hunger sees them tear at enemies in a blind fury, ripping off limbs and wolfing down flesh.",
+      "bannerImage": "https://dhss9aar8ocw.cloudfront.net/67acbf03-4ca7-4d6e-8f91-34c19a9c27a2",
+      "rowImage": "https://dhss9aar8ocw.cloudfront.net/05dce67c-a3ba-4201-a6a7-93b207c96d17",
+      "modelCount": 3,
+      "baseSize": "50mm",
+      "points": 160,
+      "notes": null,
+      "isSpearhead": false,
+      "cannotBeReinforced": false,
+      "hiddenFromReference": false,
+      "hiddenFromStormForge": false,
+      "referenceKeywords": "Infantry, Chaos, Skaven, Moulder",
+      "move": "6\"",
+      "save": "5+",
+      "control": "1",
+      "health": "4",
+      "wargearOptionsText": "***Each model in this unit is armed with Claws, Blades and Fangs.***\n\n***• 1/3 models are armed with a Warpfire Gun in addition to their other weapons.***",
+      "publicationId": "5937ad21-f179-4af2-9b19-d476ef9e64c2",
+      "limitingWarscrollId": null,
+      "requiredPrimaryHeroWarscrollId": null,
+      "isLegends": false,
+      "faction": "Skaven",
+      "weapons": [
+        {
+          "id": "57dc7d61-6bee-425a-9eda-8881d6b9df8d",
+          "name": "Claws, Blades and Fangs",
+          "type": "melee",
+          "range": null,
+          "attacks": "5",
+          "hit": "4+",
+          "wound": "3+",
+          "rend": "1",
+          "damage": "2",
+          "battleDamaged": false,
+          "warscrollId": "636ecadd-8bf7-4d87-94a7-dc1ff1fa133e",
+          "weaponAbilities": []
+        },
+        {
+          "id": "7fe26d13-2dcb-4f15-8c2b-2a43caa5264e",
+          "name": "Warpfire Gun",
+          "type": "ranged",
+          "range": "10\"",
+          "attacks": "2D6",
+          "hit": "2+",
+          "wound": "4+",
+          "rend": "2",
+          "damage": "1",
+          "battleDamaged": false,
+          "warscrollId": "636ecadd-8bf7-4d87-94a7-dc1ff1fa133e",
+          "weaponAbilities": [
+            "Shoot in Combat"
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "id": "ddc072cf-18cc-49f8-9fc3-077529427ad1",
+          "name": "Unleashed Warp-fury",
+          "phaseDetails": "Any Combat Phase",
+          "phase": "combatPhase",
+          "castingValue": null,
+          "cpCost": null,
+          "reaction": false,
+          "lore": "The warpstone hammered into the flesh of these creatures crackles with volatile energies, driving them into a frenzy.",
+          "usedBy": null,
+          "declare": null,
+          "effect": "Inflict D3 mortal damage on this unit. Then, add 1 to the Attacks characteristic of this unit’s melee weapons for the rest of the turn.",
+          "abilityAndCommandIcon": "offensive",
+          "warscrollId": "636ecadd-8bf7-4d87-94a7-dc1ff1fa133e",
+          "keywords": []
+        }
+      ],
+      "keywords": [
+        "Moulder",
+        "Infantry"
+      ],
+      "factionKeywords": [
+        "Skaven",
+        "Grand Alliance Chaos",
+        "The Great-Grand Gnawhorde",
+        "Thanquol's Mutated Menagerie"
       ]
     },
     {
@@ -1292,7 +1482,7 @@
           "lore": "The Arch-Warlocks of the Clans Skryre command their enginecovens with a blend of deadly efficiency and overt sadism.",
           "usedBy": null,
           "declare": null,
-          "effect": "If a friendly Skryre unit wholly within 13\" of this unit uses the 'Covering Fire' command, no command points are spent.",
+          "effect": "If a friendly **Skryre** unit wholly within 13\" of this unit uses the 'Covering Fire' command, no command points are spent.",
           "abilityAndCommandIcon": "special",
           "warscrollId": "b679e684-883b-4619-a1b0-db522254085a",
           "keywords": []
@@ -1365,12 +1555,30 @@
           "reaction": false,
           "lore": "Lord Skreech has a malevolent and horrific visage that can shatter the enemy’s resolve.",
           "usedBy": null,
-          "declare": "Pick an enemy Infantry unit in combat with this unit to be the target.",
+          "declare": "Pick an enemy **Infantry** unit in combat with this unit to be the target.",
           "effect": "Roll a dice. On a 3+:\n\n• The target cannot use commands for the rest of the turn.\n• Subtract an amount equal to the roll from the target’s control score until the start of your next turn.",
           "abilityAndCommandIcon": "special",
           "warscrollId": "f4fc2d01-d058-4576-abea-8eaf988d19a3",
           "keywords": [
             "Rampage"
+          ]
+        },
+        {
+          "id": "9c28c462-7a73-43c7-ae9a-4e47eba893ba",
+          "name": "The Dreaded Thirteenth Spell",
+          "phaseDetails": "Your Hero Phase",
+          "phase": "heroPhase",
+          "castingValue": 7,
+          "cpCost": null,
+          "reaction": false,
+          "lore": "The twisting power of the Great Horned Rat transforms men into rat-mutants that swiftly join the evil throng.",
+          "usedBy": null,
+          "declare": "Pick a visible enemy unit within 13\" to be the target, then make a casting roll of 2D6.",
+          "effect": "Roll 13 dice. For each 5+:\n\n• Inflict 1 mortal damage on the target.\n• You can return 1 slain model to a friendly **Clanrats** unit wholly within 13\" of this unit.",
+          "abilityAndCommandIcon": "special",
+          "warscrollId": "f4fc2d01-d058-4576-abea-8eaf988d19a3",
+          "keywords": [
+            "Spell"
           ]
         },
         {
@@ -1384,28 +1592,10 @@
           "lore": "Lord Verminking can call upon his extensive knowledge of the Skaven clans.",
           "usedBy": null,
           "declare": null,
-          "effect": "Pick 1 of the following effects to apply until the start of your next turn. You cannot pick the same effect more than once per battle.\n\nMaster of Dire Sorcery: Add 1 to casting rolls for friendly Masterclan Wizards while they are wholly within 13\" of this unit.\n\nCommander of Vermin: Add 1 to charge rolls for friendly Verminus units while they are wholly within 13\" of this unit.\n\nKnower of Warp-tech: Add 1 to hit rolls for shooting attacks made by friendly Skryre units while they are wholly within 13\" of this unit.\n\nDeliverer of Weeping Blades: Add 1 to the Rend characteristic of melee weapons used by friendly Eshin units while they are wholly within 13\" of this unit.\n\nBringer of Plagues: Add 1 to chanting rolls for friendly Pestilens Priests while they are wholly within 13\" of this unit.\n\nShaper of Fleshcraft: Heal (D3) each friendly Moulder unit wholly within 13\" of this unit.",
+          "effect": "Pick 1 of the following effects to apply until the start of your next turn. You cannot pick the same effect more than once per battle.\n\n***Master of Dire Sorcery:*** Add 1 to casting rolls for friendly **Masterclan** **Wizards** while they are wholly within 13\" of this unit.\n\n***Commander of Vermin:*** Add 1 to charge rolls for friendly **Verminus** units while they are wholly within 13\" of this unit.\n\n***Knower of Warp-tech:*** Add 1 to hit rolls for shooting attacks made by friendly **Skryre** units while they are wholly within 13\" of this unit.\n\n***Deliverer of Weeping Blades:*** Add 1 to the Rend characteristic of melee weapons used by friendly **Eshin** units while they are wholly within 13\" of this unit.\n\n***Bringer of Plagues:*** Add 1 to chanting rolls for friendly **Pestilens Priests** while they are wholly within 13\" of this unit.\n\n***Shaper of Fleshcraft:*** **Heal (D3)** each friendly **Moulder** unit wholly within 13\" of this unit.",
           "abilityAndCommandIcon": "special",
           "warscrollId": "f4fc2d01-d058-4576-abea-8eaf988d19a3",
           "keywords": []
-        },
-        {
-          "id": "9c28c462-7a73-43c7-ae9a-4e47eba893ba",
-          "name": "The Dreaded Thirteenth Spell",
-          "phaseDetails": "Your Hero Phase",
-          "phase": "heroPhase",
-          "castingValue": 7,
-          "cpCost": null,
-          "reaction": false,
-          "lore": "The twisting power of the Great Horned Rat transforms men into rat-mutants that swiftly join the evil throng.",
-          "usedBy": null,
-          "declare": "Pick a visible enemy unit within 13\" to be the target, then make a casting roll of 2D6.",
-          "effect": "Roll 13 dice. For each 5+:\n\n• Inflict 1 mortal damage on the target.\n• You can return 1 slain model to a friendly Clanrats unit wholly within 13\" of this unit.",
-          "abilityAndCommandIcon": "special",
-          "warscrollId": "f4fc2d01-d058-4576-abea-8eaf988d19a3",
-          "keywords": [
-            "Spell"
-          ]
         }
       ],
       "keywords": [
@@ -1498,8 +1688,8 @@
           "reaction": false,
           "lore": "None are better than a Warlock Galvaneer at engineering storms of electrical carnage.",
           "usedBy": null,
-          "declare": "Pick a friendly Warpvolt Scourgers unit within this unit's combat range to be the target.",
-          "effect": "Roll a dice. On a 2+, set the Attacks characteristic of the target's Warpvolt Scourgers to 10 for the rest of the turn.",
+          "declare": "Pick a friendly **Warpvolt Scourgers** unit within this unit's combat range to be the target.",
+          "effect": "Roll a dice. On a 2+, set the Attacks characteristic of the target's **Warpvolt Scourgers** to 10 for the rest of the turn.",
           "abilityAndCommandIcon": "shooting",
           "warscrollId": "c6162d50-1f0c-4ded-be8e-5f9882c12374",
           "keywords": []
@@ -1514,7 +1704,7 @@
           "reaction": false,
           "lore": "This warpvolt weapon unleashes an all-consuming wave of sparking death that vaporises nearby enemies.",
           "usedBy": null,
-          "declare": "Pick an enemy unit that had any damage points allocated to it this turn by attacks made with this unit's Warpvolt Obliterator to be the target.",
+          "declare": "Pick an enemy unit that had any damage points allocated to it this turn by attacks made with this unit's **Warpvolt Obliterator** to be the target.",
           "effect": "Roll a D3 for each other enemy unit within the target's combat range. On a 2+, inflict an amount of mortal damage on that enemy unit equal to the roll.",
           "abilityAndCommandIcon": "shooting",
           "warscrollId": "c6162d50-1f0c-4ded-be8e-5f9882c12374",
@@ -1601,8 +1791,8 @@
           "reaction": false,
           "lore": "No enemy is safe from the warp-laced bullets of a Warlock Engineer and his underlings.",
           "usedBy": null,
-          "declare": "Pick a visible enemy Hero to be the target.",
-          "effect": "For the rest of the turn, this unit and friendly Warplock Jezzails units wholly within 13\" of this unit can ignore the effects of the ‘Guarded Hero’ ability (Core Rules, 25.0) when picking the target for their shooting attacks.",
+          "declare": "Pick a visible enemy **Hero** to be the target.",
+          "effect": "For the rest of the turn, this unit and friendly **Warplock Jezzails** units wholly within 13\" of this unit can ignore the effects of the ‘Guarded Hero’ ability (Core Rules, 25.0) when picking the target for their shooting attacks.",
           "abilityAndCommandIcon": "shooting",
           "warscrollId": "736745f9-0ff7-4c76-8f6f-b66315aa1567",
           "keywords": []
@@ -1618,7 +1808,7 @@
           "lore": "The Engineer overcharges their weapon with volatile energy.",
           "usedBy": null,
           "declare": null,
-          "effect": "Roll a dice. On a 2+, set the Damage characteristic of this unit’s Warplock Musket to 3 for the rest of the turn. On a 1, inflict D3 mortal damage on this unit.",
+          "effect": "Roll a dice. On a 2+, set the Damage characteristic of this unit’s **Warplock Musket** to 3 for the rest of the turn. On a 1, inflict D3 mortal damage on this unit.",
           "abilityAndCommandIcon": "shooting",
           "warscrollId": "736745f9-0ff7-4c76-8f6f-b66315aa1567",
           "keywords": []
@@ -1709,7 +1899,7 @@
           "lore": "If the raving prayers of Pestilens priests reach fever pitch across the battlefield, the Verminlord Corruptor can cause one of the legendary Great Plagues to temporarily manifest.",
           "usedBy": null,
           "declare": null,
-          "effect": "If the unmodified chanting roll for a friendly Pestilens Priest this phase was 6, pick 1 of the following effects to apply:\n\nCrimsonweal Curse: Pick an enemy unit within 13\" of this unit to be the target. For the rest of the battle, each time the target uses a Move ability, inflict D3 mortal damage on it after the Move ability has been resolved.\n\nThe Neverplague: For the rest of the battle, you can re-roll chanting rolls for friendly Pestilens Priests.\n\nUndulant Scourge: Pick a visible enemy unit within 13\" of this unit to be the target. Inflict 2D3 mortal damage on the target.",
+          "effect": "If the unmodified chanting roll for a friendly **Pestilens Priest** this phase was 6, pick 1 of the following effects to apply:\n\n***Crimsonweal Curse:*** Pick an enemy unit within 13\" of this unit to be the target. For the rest of the battle, each time the target uses a **Move** ability, inflict D3 mortal damage on it after the **Move** ability has been resolved.\n\n***The Neverplague:*** For the rest of the battle, you can re-roll chanting rolls for friendly **Pestilens Priests**.\n\n***Undulant Scourge:*** Pick a visible enemy unit within 13\" of this unit to be the target. Inflict 2D3 mortal damage on the target.",
           "abilityAndCommandIcon": "special",
           "warscrollId": "dbd43bd3-be93-4960-9bb3-c2e73ca5b7e2",
           "keywords": []
@@ -1790,24 +1980,6 @@
       ],
       "abilities": [
         {
-          "id": "65e20460-3f29-47c5-810c-36e1738e3b58",
-          "name": "Burst From The Shadows",
-          "phaseDetails": "Once Per Turn (Army), Any Combat Phase",
-          "phase": "combatPhase",
-          "castingValue": null,
-          "cpCost": null,
-          "reaction": false,
-          "lore": "A Verminlord Deceiver is shrouded in darkness and dread, leaping through the aether to strike at its foes in the blink of an eye.",
-          "usedBy": null,
-          "declare": null,
-          "effect": "If this unit is in combat, roll a dice. On a 4+, you can pick a point on the battlefield within 13\" of this unit and within 1\" of any enemy units. Remove this unit from the battlefield and set it up again within 1\" of that point.\n\nDesigner’s Note: This ability allows the unit to set up in combat with a new enemy unit.",
-          "abilityAndCommandIcon": "movement",
-          "warscrollId": "3472f1fa-9725-4df9-852e-6639de7d2977",
-          "keywords": [
-            "Rampage"
-          ]
-        },
-        {
           "id": "cddc6e5f-7881-4f7f-84b3-028cb02725a5",
           "name": "Lord of Assassins",
           "phaseDetails": "Reaction: You declared the ‘Redeploy’ command for a friendly Eshin Infantry unit wholly within 13\" of this unit",
@@ -1822,6 +1994,24 @@
           "abilityAndCommandIcon": "movement",
           "warscrollId": "3472f1fa-9725-4df9-852e-6639de7d2977",
           "keywords": []
+        },
+        {
+          "id": "65e20460-3f29-47c5-810c-36e1738e3b58",
+          "name": "Burst From The Shadows",
+          "phaseDetails": "Once Per Turn (Army), Any Combat Phase",
+          "phase": "combatPhase",
+          "castingValue": null,
+          "cpCost": null,
+          "reaction": false,
+          "lore": "A Verminlord Deceiver is shrouded in darkness and dread, leaping through the aether to strike at its foes in the blink of an eye.",
+          "usedBy": null,
+          "declare": null,
+          "effect": "If this unit is in combat, roll a dice. On a 4+, you can pick a point on the battlefield within 13\" of this unit and within 1\" of any enemy units. Remove this unit from the battlefield and set it up again within 1\" of that point.\n\n**Designer’s Note:** *This ability allows the unit to set up in combat with a new enemy unit.*",
+          "abilityAndCommandIcon": "movement",
+          "warscrollId": "3472f1fa-9725-4df9-852e-6639de7d2977",
+          "keywords": [
+            "Rampage"
+          ]
         }
       ],
       "keywords": [
@@ -1923,7 +2113,7 @@
           "lore": null,
           "usedBy": null,
           "declare": null,
-          "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its Crushing Bulk is 4.",
+          "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its **Crushing Bulk** is 4.",
           "abilityAndCommandIcon": "battleDamaged",
           "warscrollId": "0632c9b5-e1ff-4b9b-802e-186d31200e3d",
           "keywords": []
@@ -1939,7 +2129,7 @@
           "lore": "The ominous tolling of a Screaming Bell resounds above the clamour of battle, crying out ‘Doom! Doom! Doom!’",
           "usedBy": null,
           "declare": null,
-          "effect": "Roll a dice and apply the corresponding effect:\n\n1 - Magical Backlash\nInflict D3 mortal damage on this unit.\n\n2-4 - Wall of Unholy Sound\nUntil the start of your next turn, subtract 1 from hit rolls for combat attacks made by enemy units while they are within 13\" of this unit.\n\n5-6 - Apocalyptic Doom\nRoll a D3 for each enemy unit within 13\" of this unit. On a 2+, inflict an amount of mortal damage on that unit equal to the roll.",
+          "effect": "Roll a dice and apply the corresponding effect:\n\n**1 - *Magical Backlash***\nInflict D3 mortal damage on this unit.\n\n**2-4 - *Wall of Unholy Sound***\nUntil the start of your next turn, subtract 1 from hit rolls for combat attacks made by enemy units while they are within 13\" of this unit.\n\n**5-6 - *Apocalyptic Doom***\nRoll a D3 for each enemy unit within 13\" of this unit. On a 2+, inflict an amount of mortal damage on that unit equal to the roll.",
           "abilityAndCommandIcon": "special",
           "warscrollId": "0632c9b5-e1ff-4b9b-802e-186d31200e3d",
           "keywords": []
@@ -1954,7 +2144,7 @@
           "reaction": false,
           "lore": "Harnessing the thunderous peals of the Screaming Bell, the Grey Seer channels a sorcerous blast into the ground beneath the foe’s feet. Gaping chasms yawn wide, sending screaming victims vanishing into the depths.",
           "usedBy": null,
-          "declare": "Pick a visible enemy unit that does not have Fly and is within 13\" of this unit to be the target, then make a casting roll of 2D6.",
+          "declare": "Pick a visible enemy unit that does not have **Fly** and is within 13\" of this unit to be the target, then make a casting roll of 2D6.",
           "effect": "If the casting roll exceeds the target’s Move characteristic, inflict an amount of mortal damage on the target equal to the difference between the casting roll and its Move characteristic.",
           "abilityAndCommandIcon": "offensive",
           "warscrollId": "0632c9b5-e1ff-4b9b-802e-186d31200e3d",
@@ -1973,7 +2163,7 @@
           "lore": "Throngs of rat-thralls swarm around this mighty construct in battle and will sell their lives to see it from harm.",
           "usedBy": null,
           "declare": null,
-          "effect": "Friendly Skaven Infantry units have Ward (6+) while they are wholly within 6\" of this unit.",
+          "effect": "Friendly **Skaven Infantry** units have **Ward (6+)** while they are wholly within 6\" of this unit.",
           "abilityAndCommandIcon": "defensive",
           "warscrollId": "0632c9b5-e1ff-4b9b-802e-186d31200e3d",
           "keywords": []
@@ -2064,7 +2254,7 @@
           "lore": "Though Doomfang offers the ageing Krittok martial power, he must constantly haggle with its daemonic occupant, a fact that can sometimes prove distracting.",
           "usedBy": null,
           "declare": null,
-          "effect": "This unit has Strike-first for the rest of the turn but it cannot use commands this phase.",
+          "effect": "This unit has **Strike-first** for the rest of the turn but it cannot use commands this phase.",
           "abilityAndCommandIcon": "offensive",
           "warscrollId": "3d75d170-568a-4279-8a14-f34ad7c585a4",
           "keywords": []
@@ -2080,7 +2270,7 @@
           "lore": "Krittok's laboriously crafted reputation for deviousness sees his thralls obey him without question.",
           "usedBy": null,
           "declare": null,
-          "effect": "You can pick 2 different eligible units to use the 'Always Three Clawsteps Ahead' ability this phase instead of 1, but at least 1 of those units must have the Verminus keyword.",
+          "effect": "You can pick 2 different eligible units to use the 'Always Three Clawsteps Ahead' ability this phase instead of 1, but at least 1 of those units must have the **Verminus** keyword.",
           "abilityAndCommandIcon": "movement",
           "warscrollId": "3d75d170-568a-4279-8a14-f34ad7c585a4",
           "keywords": []
@@ -2096,7 +2286,7 @@
           "lore": "Krittok has created a system in which his armoured swarms are so desperate to earn his favour that they spend only some of their time plotting his overthrow.",
           "usedBy": null,
           "declare": null,
-          "effect": "Add 1 to wound rolls for friendly Stormvermin units while they are wholly within 13\"of this unit.",
+          "effect": "Add 1 to wound rolls for friendly **Stormvermin** units while they are wholly within 13\"of this unit.",
           "abilityAndCommandIcon": "defensive",
           "warscrollId": "3d75d170-568a-4279-8a14-f34ad7c585a4",
           "keywords": []
@@ -2107,111 +2297,6 @@
         "Warmaster",
         "Unique",
         "Hero",
-        "Infantry"
-      ],
-      "factionKeywords": [
-        "Skaven",
-        "Grand Alliance Chaos"
-      ]
-    },
-    {
-      "id": "6d353901-1a6c-4066-9767-3aa364906f1c",
-      "name": "Plaguepack",
-      "subname": null,
-      "lore": "A Plaguepack is formed of a Plague Priest and their entourage. These fervent ratmen are devoted to the Great Corruptor and his vision of a befouled cosmos. While their master proselytises, the most favoured (or troublesome) of the pack swing a mighty plague censer, breathing deep of its noxious and blinding fumes. Alongside a Plaguepack scuttle rotten rodents, some carrying shards of warpstone crystal - a useful power source for any Plague Priest mid-catechism.",
-      "bannerImage": "https://dhss9aar8ocw.cloudfront.net/6b678316-2ee9-4d4f-9718-1e757190281c",
-      "rowImage": "https://dhss9aar8ocw.cloudfront.net/cfc9af0b-44a8-4e92-8a58-45418e20d51c",
-      "modelCount": 5,
-      "baseSize": "32mm [1], 28.5mm [1], 25mm [4]",
-      "points": 140,
-      "notes": null,
-      "isSpearhead": false,
-      "cannotBeReinforced": false,
-      "hiddenFromReference": false,
-      "hiddenFromStormForge": false,
-      "referenceKeywords": "Priest (1), Infantry, Champion (1/5), Chaos, Skaven, Pestilens",
-      "move": "6\"",
-      "save": "6+",
-      "control": "1",
-      "health": "2",
-      "wargearOptionsText": "Each model in this unit is armed with Weapons of Corruption. \n\n• 1/5 models is a Plague Censer Bearer and is armed with a Plague Censer instead of Weapons of Corruption. \n• The champion cannot replace their weapons.",
-      "publicationId": "5937ad21-f179-4af2-9b19-d476ef9e64c2",
-      "limitingWarscrollId": null,
-      "requiredPrimaryHeroWarscrollId": null,
-      "isLegends": false,
-      "faction": "Skaven",
-      "weapons": [
-        {
-          "id": "2722f5e1-487f-4878-86ee-26e1ee8a5cae",
-          "name": "Plague Censer",
-          "type": "melee",
-          "range": null,
-          "attacks": "4",
-          "hit": "4+",
-          "wound": "3+",
-          "rend": "1",
-          "damage": "2",
-          "battleDamaged": false,
-          "warscrollId": "6d353901-1a6c-4066-9767-3aa364906f1c",
-          "weaponAbilities": [
-            "Crit (Auto-wound)"
-          ]
-        },
-        {
-          "id": "f4e99118-6e44-4793-87cd-06ec885b936d",
-          "name": "Weapons of Corruption",
-          "type": "melee",
-          "range": null,
-          "attacks": "2",
-          "hit": "4+",
-          "wound": "5+",
-          "rend": "-",
-          "damage": "1",
-          "battleDamaged": false,
-          "warscrollId": "6d353901-1a6c-4066-9767-3aa364906f1c",
-          "weaponAbilities": [
-            "Crit (Auto-wound)"
-          ]
-        }
-      ],
-      "abilities": [
-        {
-          "id": "d8a761f5-29ba-4fbd-a9be-f48c4fc9a89f",
-          "name": "Enshrouding Fumes",
-          "phaseDetails": "Passive",
-          "phase": "defensive",
-          "castingValue": null,
-          "cpCost": null,
-          "reaction": false,
-          "lore": "Choking, miasmatic clouds swirl around a Plaguepack.",
-          "usedBy": null,
-          "declare": null,
-          "effect": "Subtract 1 from hit rolls for shooting attacks that target this unit.",
-          "abilityAndCommandIcon": "defensive",
-          "warscrollId": "6d353901-1a6c-4066-9767-3aa364906f1c",
-          "keywords": []
-        },
-        {
-          "id": "913e9b07-0d8e-459b-ae5d-b21b312d8ac2",
-          "name": "Plague Rat",
-          "phaseDetails": "Passive",
-          "phase": "heroPhase",
-          "castingValue": null,
-          "cpCost": null,
-          "reaction": false,
-          "lore": "Plague rats carry shards of warpstone that can be consumed to lend the Plaguepack’s prayers more frothing urgency.",
-          "usedBy": null,
-          "declare": null,
-          "effect": "This unit’s Plague rat is a token. If you make a unmodified chanting roll of 1 for this unit while its Plague rat is on the battlefield, you can remove its Plague rat from the battlefield and then re-roll that chanting roll.",
-          "abilityAndCommandIcon": "special",
-          "warscrollId": "6d353901-1a6c-4066-9767-3aa364906f1c",
-          "keywords": []
-        }
-      ],
-      "keywords": [
-        "Champion",
-        "Pestilens",
-        "Priest",
         "Infantry"
       ],
       "factionKeywords": [
@@ -2305,7 +2390,7 @@
           "lore": "An extra doomrocket warhead can be attached to the payload if the wielder dares.",
           "usedBy": null,
           "declare": null,
-          "effect": "Roll a dice. On a 2+, set the Damage characteristic of its Doomrocket to D3+3 for the rest of the turn. On a 1, inflict D3 mortal damage on this unit.",
+          "effect": "Roll a dice. On a 2+, set the Damage characteristic of its **Doomrocket** to D3+3 for the rest of the turn. On a 1, inflict D3 mortal damage on this unit.",
           "abilityAndCommandIcon": "shooting",
           "warscrollId": "a6b2694d-ce02-4c7a-a54f-066dcf1ddf40",
           "keywords": []
@@ -2323,6 +2408,91 @@
       ]
     },
     {
+      "id": "63068711-4d7d-4753-af6c-3da7d297c2ed",
+      "name": "Gnawhole",
+      "subname": null,
+      "lore": "Gnawholes are undeniably a boon when they emerge upon a battlefield. They allow a seemingly endless stream of Skaven reinforcements to be funnelled from the depths of Blight City, and if a pack of ratmen are feeling especially brave, they might elect to plunge into one and hope to emerge from another, outflanking the enemy in the process. The unstable nature of the gnawholes, however, means that delving into them in this way often sees a Skaven accidentally blasted to ashes, unintentionally burrow through a volcano or simply vanish without a trace.",
+      "bannerImage": "https://dhss9aar8ocw.cloudfront.net/2174426b-35e9-4f07-8fe3-8badd2e1ff28",
+      "rowImage": "https://dhss9aar8ocw.cloudfront.net/690199fe-f27e-4a36-9393-22eceaff14fa",
+      "modelCount": 1,
+      "baseSize": "Use model",
+      "points": null,
+      "notes": null,
+      "isSpearhead": false,
+      "cannotBeReinforced": true,
+      "hiddenFromReference": false,
+      "hiddenFromStormForge": false,
+      "referenceKeywords": "Faction Terrain, Chaos, Skaven",
+      "move": "-",
+      "save": "4+",
+      "control": "-",
+      "health": "6",
+      "wargearOptionsText": "**The following universal terrain abilities apply to this terrain feature (Terrain, 1.2):**\n\n**Cover**",
+      "publicationId": "5937ad21-f179-4af2-9b19-d476ef9e64c2",
+      "limitingWarscrollId": null,
+      "requiredPrimaryHeroWarscrollId": null,
+      "isLegends": false,
+      "faction": "Skaven",
+      "weapons": [],
+      "abilities": [
+        {
+          "id": "40621af9-331b-4f80-be49-8ab6dad319a0",
+          "name": "Tunnels Through Reality",
+          "phaseDetails": "Your Movement Phase",
+          "phase": "movementPhase",
+          "castingValue": null,
+          "cpCost": null,
+          "reaction": false,
+          "lore": "The Skaven can move through gnawholes to invade any corner of the Mortal Realms.",
+          "usedBy": null,
+          "declare": "Pick a friendly **Skaven** unit that is not in combat and is wholly within 6\" of this terrain feature to be the target.",
+          "effect": "Remove the target from the battlefield and set it up again wholly within 6\" of another friendly **Gnawhole** and more than 9\" from all enemy units.",
+          "abilityAndCommandIcon": "movement",
+          "warscrollId": "63068711-4d7d-4753-af6c-3da7d297c2ed",
+          "keywords": []
+        },
+        {
+          "id": "5c75abc5-a7d2-4c52-b08f-a5df2fafaa5d",
+          "name": "The Endless Vermintide",
+          "phaseDetails": "Once Per Turn (Army), End of Your Turn",
+          "phase": "endOfTurn",
+          "castingValue": null,
+          "cpCost": 1,
+          "reaction": false,
+          "lore": "Swarms of vermin scurry forth from the gnawhole, overwhelming the enemy lines.",
+          "usedBy": null,
+          "declare": "Pick a friendly non-**Hero Skaven Infantry** unit that has been destroyed to be the target.",
+          "effect": "Set up a replacement unit with half the number of models from the target unit (rounding up) wholly within 6\" of a friendly **Gnawhole** and more than 3\" from all enemy units.",
+          "abilityAndCommandIcon": "rallying",
+          "warscrollId": "63068711-4d7d-4753-af6c-3da7d297c2ed",
+          "keywords": []
+        },
+        {
+          "id": "7f35dd1d-2873-440a-9d5f-58238777da06",
+          "name": "Volatile Ground",
+          "phaseDetails": "Passive",
+          "phase": "combatPhase",
+          "castingValue": null,
+          "cpCost": null,
+          "reaction": false,
+          "lore": "Crackling warp lightning skitters around the ruptured rocks that ring this tear in reality.",
+          "usedBy": null,
+          "declare": null,
+          "effect": "Models can pass through this terrain feature but cannot be set up on or end moves on any part of this terrain feature.\n\nEach time an enemy unit ends a move that passed through or across this terrain feature, roll a D3. On a 2+, inflict an amount of mortal damage on that unit equal to the roll.",
+          "abilityAndCommandIcon": "offensive",
+          "warscrollId": "63068711-4d7d-4753-af6c-3da7d297c2ed",
+          "keywords": []
+        }
+      ],
+      "keywords": [
+        "Faction Terrain"
+      ],
+      "factionKeywords": [
+        "Skaven",
+        "Grand Alliance Chaos"
+      ]
+    },
+    {
       "id": "14a7bc82-ba4a-4510-a981-46fc762cbcb0",
       "name": "Warp-Grinder",
       "subname": null,
@@ -2332,7 +2502,7 @@
       "modelCount": 1,
       "baseSize": "90 x 52mm",
       "points": 170,
-      "notes": "You cannot include more than 1 Skryre War Machine in a regiment led by a non-Skryre Hero.",
+      "notes": "You cannot include more than 1 **Skryre War Machine** in a regiment led by a non-**Skryre Hero**.",
       "isSpearhead": false,
       "cannotBeReinforced": true,
       "hiddenFromReference": false,
@@ -2389,8 +2559,8 @@
           "reaction": false,
           "lore": "A Warp-Grinder can be used to tunnel through reality, allowing the Skaven to strike from unexpected quarters.",
           "usedBy": null,
-          "declare": "Pick this unit and up to 1 friendly non-Monster Skaven unit if those units have not been deployed.",
-          "effect": "Set up those units in reserve in the tunnels below. They have now been deployed.",
+          "declare": "Pick this unit and up to 1 friendly non-**Monster Skaven** unit if those units have not been deployed.",
+          "effect": "Set up those units in reserve **in the tunnels below**. They have now been deployed.",
           "abilityAndCommandIcon": "special",
           "warscrollId": "14a7bc82-ba4a-4510-a981-46fc762cbcb0",
           "keywords": [
@@ -2407,195 +2577,10 @@
           "reaction": false,
           "lore": "As the Warp-Grinder's tip tears open the realms, Skaven warriors burst forth shrieking and with blades drawn.",
           "usedBy": null,
-          "declare": "Pick this unit if it is in the tunnels below, then pick an enemy unit more than 6\" from all other enemy units to be the target.",
-          "effect": "Roll a dice. On a 4+, set up this unit within 3\" of the target and more than 6\" from all other enemy units. Then, set up the unit that was in the tunnels below with this unit within 3\" of the target and more than 6\" from all other enemy units.",
+          "declare": "Pick this unit if it is **in the tunnels below**, then pick an enemy unit more than 6\" from all other enemy units to be the target.",
+          "effect": "Roll a dice. On a 4+, set up this unit within 3\" of the target and more than 6\" from all other enemy units. Then, set up the unit that was **in the** **tunnels below** with this unit within 3\" of the target and more than 6\" from all other enemy units.",
           "abilityAndCommandIcon": "movement",
           "warscrollId": "14a7bc82-ba4a-4510-a981-46fc762cbcb0",
-          "keywords": []
-        }
-      ],
-      "keywords": [
-        "War Machine",
-        "Skryre"
-      ],
-      "factionKeywords": [
-        "Skaven",
-        "Grand Alliance Chaos",
-        "The Great-Grand Gnawhorde"
-      ]
-    },
-    {
-      "id": "63068711-4d7d-4753-af6c-3da7d297c2ed",
-      "name": "Gnawhole",
-      "subname": null,
-      "lore": "Gnawholes are undeniably a boon when they emerge upon a battlefield. They allow a seemingly endless stream of Skaven reinforcements to be funnelled from the depths of Blight City, and if a pack of ratmen are feeling especially brave, they might elect to plunge into one and hope to emerge from another, outflanking the enemy in the process. The unstable nature of the gnawholes, however, means that delving into them in this way often sees a Skaven accidentally blasted to ashes, unintentionally burrow through a volcano or simply vanish without a trace.",
-      "bannerImage": "https://dhss9aar8ocw.cloudfront.net/2174426b-35e9-4f07-8fe3-8badd2e1ff28",
-      "rowImage": "https://dhss9aar8ocw.cloudfront.net/690199fe-f27e-4a36-9393-22eceaff14fa",
-      "modelCount": 1,
-      "baseSize": "Use model",
-      "points": null,
-      "notes": null,
-      "isSpearhead": false,
-      "cannotBeReinforced": true,
-      "hiddenFromReference": false,
-      "hiddenFromStormForge": false,
-      "referenceKeywords": "Faction Terrain, Chaos, Skaven",
-      "move": "-",
-      "save": "4+",
-      "control": "-",
-      "health": "6",
-      "wargearOptionsText": "The following universal terrain abilities apply to this terrain feature (Terrain, 1.2):\n\nCover",
-      "publicationId": "5937ad21-f179-4af2-9b19-d476ef9e64c2",
-      "limitingWarscrollId": null,
-      "requiredPrimaryHeroWarscrollId": null,
-      "isLegends": false,
-      "faction": "Skaven",
-      "weapons": [],
-      "abilities": [
-        {
-          "id": "40621af9-331b-4f80-be49-8ab6dad319a0",
-          "name": "Tunnels Through Reality",
-          "phaseDetails": "Your Movement Phase",
-          "phase": "movementPhase",
-          "castingValue": null,
-          "cpCost": null,
-          "reaction": false,
-          "lore": "The Skaven can move through gnawholes to invade any corner of the Mortal Realms.",
-          "usedBy": null,
-          "declare": "Pick a friendly Skaven unit that is not in combat and is wholly within 6\" of this terrain feature to be the target.",
-          "effect": "Remove the target from the battlefield and set it up again wholly within 6\" of another friendly Gnawhole and more than 9\" from all enemy units.",
-          "abilityAndCommandIcon": "movement",
-          "warscrollId": "63068711-4d7d-4753-af6c-3da7d297c2ed",
-          "keywords": []
-        },
-        {
-          "id": "5c75abc5-a7d2-4c52-b08f-a5df2fafaa5d",
-          "name": "The Endless Vermintide",
-          "phaseDetails": "Once Per Turn (Army), End of Your Turn",
-          "phase": "endOfTurn",
-          "castingValue": null,
-          "cpCost": 1,
-          "reaction": false,
-          "lore": "Swarms of vermin scurry forth from the gnawhole, overwhelming the enemy lines.",
-          "usedBy": null,
-          "declare": "Pick a friendly non-Hero Skaven Infantry unit that has been destroyed to be the target.",
-          "effect": "Set up a replacement unit with half the number of models from the target unit (rounding up) wholly within 6\" of a friendly Gnawhole and more than 3\" from all enemy units.",
-          "abilityAndCommandIcon": "rallying",
-          "warscrollId": "63068711-4d7d-4753-af6c-3da7d297c2ed",
-          "keywords": []
-        },
-        {
-          "id": "7f35dd1d-2873-440a-9d5f-58238777da06",
-          "name": "Volatile Ground",
-          "phaseDetails": "Passive",
-          "phase": "combatPhase",
-          "castingValue": null,
-          "cpCost": null,
-          "reaction": false,
-          "lore": "Crackling warp lightning skitters around the ruptured rocks that ring this tear in reality.",
-          "usedBy": null,
-          "declare": null,
-          "effect": "Models can pass through this terrain feature but cannot be set up on or end moves on any part of this terrain feature.\n\nEach time an enemy unit ends a move that passed through or across this terrain feature, roll a D3. On a 2+, inflict an amount of mortal damage on that unit equal to the roll.",
-          "abilityAndCommandIcon": "offensive",
-          "warscrollId": "63068711-4d7d-4753-af6c-3da7d297c2ed",
-          "keywords": []
-        }
-      ],
-      "keywords": [
-        "Faction Terrain"
-      ],
-      "factionKeywords": [
-        "Skaven",
-        "Grand Alliance Chaos"
-      ]
-    },
-    {
-      "id": "57e3f767-cfa6-4577-a75e-5aedaa443068",
-      "name": "Warp Lightning Cannon",
-      "subname": null,
-      "lore": "Warp Lightning Cannons are the most infamous creations of the Clans Skryre. A dense warpstone core is attached to a long metallic barrel, etched with runes that magnify power channelled along it. Said power is focused in the warpstone 'tip' of the cannon before being discharged in a bolt of sizzling energy. The erratic nature of warpstone ensures that even the most skilled Skaven artillerist cannot accurately determine how much power will be exerted when the weapon is fired. Usually, they must simply pick their moment and hope for the best.",
-      "bannerImage": "https://dhss9aar8ocw.cloudfront.net/e316b727-18b4-4024-ae25-b1393dea9eb1",
-      "rowImage": "https://dhss9aar8ocw.cloudfront.net/91e41917-88c0-400c-83ad-7070dd732b84",
-      "modelCount": 1,
-      "baseSize": "120 x 92mm",
-      "points": 160,
-      "notes": "You cannot include more than 1 Skryre War Machine in a regiment led by a non-Skryre Hero.",
-      "isSpearhead": false,
-      "cannotBeReinforced": true,
-      "hiddenFromReference": false,
-      "hiddenFromStormForge": false,
-      "referenceKeywords": "War Machine, Chaos, Skaven, Skryre",
-      "move": "3\"",
-      "save": "4+",
-      "control": "2",
-      "health": "8",
-      "wargearOptionsText": null,
-      "publicationId": "5937ad21-f179-4af2-9b19-d476ef9e64c2",
-      "limitingWarscrollId": null,
-      "requiredPrimaryHeroWarscrollId": null,
-      "isLegends": false,
-      "faction": "Skaven",
-      "weapons": [
-        {
-          "id": "709660db-fadb-4c93-9d62-793ce9a84f94",
-          "name": "Crew’s Teeth and Knives",
-          "type": "melee",
-          "range": null,
-          "attacks": "D6",
-          "hit": "4+",
-          "wound": "5+",
-          "rend": "-",
-          "damage": "1",
-          "battleDamaged": false,
-          "warscrollId": "57e3f767-cfa6-4577-a75e-5aedaa443068",
-          "weaponAbilities": []
-        },
-        {
-          "id": "f9749563-949e-402a-b80a-856b778d091a",
-          "name": "Warp Lightning Blast",
-          "type": "ranged",
-          "range": "20\"",
-          "attacks": "2D6",
-          "hit": "4+",
-          "wound": "✹",
-          "rend": "✹",
-          "damage": "✹",
-          "battleDamaged": false,
-          "warscrollId": "57e3f767-cfa6-4577-a75e-5aedaa443068",
-          "weaponAbilities": []
-        }
-      ],
-      "abilities": [
-        {
-          "id": "a1e9e7c9-9cd2-456d-9590-fff76324adac",
-          "name": "More-more Warp Lightning!",
-          "phaseDetails": "Once Per Turn (Army), Your Shooting Phase",
-          "phase": "shootingPhase",
-          "castingValue": null,
-          "cpCost": null,
-          "reaction": false,
-          "lore": "Warlock Engineer can increase the power output of a Warp Lightning Cannon at the risk of harming the weapon and its crew.",
-          "usedBy": null,
-          "declare": null,
-          "effect": "If this unit is within the combat range of a friendly Skryre Hero, add 6 to the Attacks characteristic of this unit’s Warp Lightning Blast for the rest of the turn.\n\nHowever, for each unmodified hit roll of 1 for an attack made with this unit’s Warp Lightning Blast, inflict D3 mortal damage on this unit after the Shoot ability has been resolved.",
-          "abilityAndCommandIcon": "shooting",
-          "warscrollId": "57e3f767-cfa6-4577-a75e-5aedaa443068",
-          "keywords": []
-        },
-        {
-          "id": "fa371b59-66b4-449f-8cf9-9c9c8595f0a5",
-          "name": "Warp Lightning Blast",
-          "phaseDetails": "Passive",
-          "phase": "shootingPhase",
-          "castingValue": null,
-          "cpCost": null,
-          "reaction": false,
-          "lore": "A Warp Lightning Cannon fires massive bolts of warp lightning that disintegrate any who are struck by them.",
-          "usedBy": null,
-          "declare": null,
-          "effect": "Each attack made with this weapon in a single phase must target the same enemy unit. Each hit inflicts 1 mortal damage on the target and the attack sequence ends.",
-          "abilityAndCommandIcon": "shooting",
-          "warscrollId": "57e3f767-cfa6-4577-a75e-5aedaa443068",
           "keywords": []
         }
       ],
@@ -2679,7 +2664,7 @@
           "lore": "Having set up the Warplock Jezzail in position, the gunner can wait for the perfect moment to fire their shot.",
           "usedBy": null,
           "declare": null,
-          "effect": "If this unit has not used a Move ability this turn and was not set up this turn, add 6\" to the Range characteristic of this unit's Warplock Jezzails for the rest of the turn.",
+          "effect": "If this unit has not used a **Move** ability this turn and was not set up this turn, add 6\" to the Range characteristic of this unit's **Warplock Jezzails** for the rest of the turn.",
           "abilityAndCommandIcon": "shooting",
           "warscrollId": "6f97e7f9-728b-41cd-84dd-4d53b74f11ff",
           "keywords": []
@@ -2688,186 +2673,6 @@
       "keywords": [
         "Champion",
         "Infantry",
-        "Skryre"
-      ],
-      "factionKeywords": [
-        "Skaven",
-        "Grand Alliance Chaos",
-        "The Great-Grand Gnawhorde"
-      ]
-    },
-    {
-      "id": "563a9e39-a3f9-4b85-bbef-93e4eab37652",
-      "name": "Deathmaster",
-      "subname": null,
-      "lore": "Deathmasters are singularly adept killers. A significant part of their training centres around defying the self-interested Skaven mindset and honing the ability to set aside their own ambitions for the sake of their mission. Skulking unseen amidst the melee, Deathmasters wait for their target to leave themselves exposed before striking with great acrobatic ferocity, wielding an array of esoteric weapons such as warpstone throwing stars and weeping blades that can kill with the lightest scratch.",
-      "bannerImage": "https://dhss9aar8ocw.cloudfront.net/aa4a139f-0935-425d-be28-c6cbc95ca5de",
-      "rowImage": "https://dhss9aar8ocw.cloudfront.net/434c0487-a10d-4656-a6e5-372448ec5f19",
-      "modelCount": 1,
-      "baseSize": "32mm",
-      "points": 160,
-      "notes": "This Hero can join a Verminlord Deceiver’s regiment or an eligible regiment as a Skaven Overclaw.",
-      "isSpearhead": false,
-      "cannotBeReinforced": true,
-      "hiddenFromReference": false,
-      "hiddenFromStormForge": false,
-      "referenceKeywords": "Hero, Infantry, Chaos, Skaven, Eshin",
-      "move": "7\"",
-      "save": "5+",
-      "control": "2",
-      "health": "5",
-      "wargearOptionsText": null,
-      "publicationId": "5937ad21-f179-4af2-9b19-d476ef9e64c2",
-      "limitingWarscrollId": null,
-      "requiredPrimaryHeroWarscrollId": null,
-      "isLegends": false,
-      "faction": "Skaven",
-      "weapons": [
-        {
-          "id": "b58f63dd-0a3b-4741-8a73-312980b56b3f",
-          "name": "Weeping Blade",
-          "type": "melee",
-          "range": null,
-          "attacks": "5",
-          "hit": "3+",
-          "wound": "4+",
-          "rend": "1",
-          "damage": "D3",
-          "battleDamaged": false,
-          "warscrollId": "563a9e39-a3f9-4b85-bbef-93e4eab37652",
-          "weaponAbilities": [
-            "Anti-Hero (+1 Rend)",
-            "Crit (Mortal)"
-          ]
-        },
-        {
-          "id": "fa96ee96-b2fe-4c44-a5f5-61f4ee727a74",
-          "name": "Eshin Throwing Stars",
-          "type": "ranged",
-          "range": "10\"",
-          "attacks": "5",
-          "hit": "3+",
-          "wound": "4+",
-          "rend": "-",
-          "damage": "D3",
-          "battleDamaged": false,
-          "warscrollId": "563a9e39-a3f9-4b85-bbef-93e4eab37652",
-          "weaponAbilities": [
-            "Crit (Auto-wound)",
-            "Shoot in Combat"
-          ]
-        }
-      ],
-      "abilities": [
-        {
-          "id": "4de9041f-4789-465f-8024-90c11f99b674",
-          "name": "Running Death",
-          "phaseDetails": "Passive",
-          "phase": "startOfTurn",
-          "castingValue": null,
-          "cpCost": null,
-          "reaction": false,
-          "lore": "Deathmasters lead only the nimblest Eshin agents to war.",
-          "usedBy": null,
-          "declare": null,
-          "effect": "While friendly Eshin units are wholly within 13\" of this unit, they can use Shoot and/or Charge abilities even if they used a Run ability in the same turn.",
-          "abilityAndCommandIcon": "special",
-          "warscrollId": "563a9e39-a3f9-4b85-bbef-93e4eab37652",
-          "keywords": []
-        },
-        {
-          "id": "1ff06d8e-95c6-4075-a44e-5cc901c99380",
-          "name": "Shadowy Killers",
-          "phaseDetails": "Passive",
-          "phase": "defensive",
-          "castingValue": null,
-          "cpCost": null,
-          "reaction": false,
-          "lore": "Ulguan illusions and other tools of misdirection shroud Deathmasters in perpetual darkness, keeping them from harm.",
-          "usedBy": null,
-          "declare": null,
-          "effect": "If the unmodified hit roll for an attack that targets this unit is 1-4, the attack fails and the attack sequence ends.",
-          "abilityAndCommandIcon": "defensive",
-          "warscrollId": "563a9e39-a3f9-4b85-bbef-93e4eab37652",
-          "keywords": []
-        }
-      ],
-      "keywords": [
-        "Skaven Overclaw",
-        "Eshin",
-        "Infantry",
-        "Hero"
-      ],
-      "factionKeywords": [
-        "Skaven",
-        "Grand Alliance Chaos"
-      ]
-    },
-    {
-      "id": "3b61e10b-268e-427a-9724-db3736c4549f",
-      "name": "Doom-Flayers",
-      "subname": null,
-      "lore": "The whirling globes of death known as Doom-Flayers were originally designed as mining devices. It speaks to the Skaven mindset that an enterprising Warlock observed the devastation they wrought on rock and immediately began considering military applications. Doom-Flayers now trundle along behind massed formations of Clanrats and Stormvermin, their operators revving the warp-engine impatiently. Eventually, their destructive urges overtake them and they gun the acceleration to churn a great furrow forward through the earth.",
-      "bannerImage": "https://dhss9aar8ocw.cloudfront.net/0e984bfc-4304-4886-a602-5f128b00d6fe",
-      "rowImage": "https://dhss9aar8ocw.cloudfront.net/46ed75c5-c7a0-4f68-abdb-d473c9ef12f8",
-      "modelCount": 2,
-      "baseSize": "50mm",
-      "points": 130,
-      "notes": "You cannot include more than 1 Skryre War Machine in a regiment led by a non-Skryre Hero.",
-      "isSpearhead": false,
-      "cannotBeReinforced": false,
-      "hiddenFromReference": false,
-      "hiddenFromStormForge": false,
-      "referenceKeywords": "War Machine, Chaos, Skaven, Skryre",
-      "move": "2D6+3\"",
-      "save": "4+",
-      "control": "1",
-      "health": "4",
-      "wargearOptionsText": null,
-      "publicationId": "5937ad21-f179-4af2-9b19-d476ef9e64c2",
-      "limitingWarscrollId": null,
-      "requiredPrimaryHeroWarscrollId": null,
-      "isLegends": false,
-      "faction": "Skaven",
-      "weapons": [
-        {
-          "id": "57535af0-b85e-4558-9a5f-a942c7bbc666",
-          "name": "Whirling Blades",
-          "type": "melee",
-          "range": null,
-          "attacks": "2D6",
-          "hit": "3+",
-          "wound": "3+",
-          "rend": "1",
-          "damage": "1",
-          "battleDamaged": false,
-          "warscrollId": "3b61e10b-268e-427a-9724-db3736c4549f",
-          "weaponAbilities": [
-            "Anti-Infantry (+1 Rend)",
-            "Charge (+1 Damage)"
-          ]
-        }
-      ],
-      "abilities": [
-        {
-          "id": "6acd48cb-168d-49a4-bece-1c46af0dcc45",
-          "name": "Whirling Doom",
-          "phaseDetails": "Any Charge Phase",
-          "phase": "chargePhase",
-          "castingValue": null,
-          "cpCost": null,
-          "reaction": false,
-          "lore": "Doom-Flayers crash into the foe with hellish results, leaving a trail of gore in their wake.",
-          "usedBy": null,
-          "declare": "If this unit charged this phase, pick an enemy unit within 1\" of it to be the target.",
-          "effect": "Roll a D3. On a 2+, inflict an amount of mortal damage on the target equal to the roll.",
-          "abilityAndCommandIcon": "offensive",
-          "warscrollId": "3b61e10b-268e-427a-9724-db3736c4549f",
-          "keywords": []
-        }
-      ],
-      "keywords": [
-        "War Machine",
         "Skryre"
       ],
       "factionKeywords": [
@@ -3019,7 +2824,7 @@
           "reaction": false,
           "lore": "Coruscating bolts of warp lightning leap outwards from the Warp Lightning Vortex, obliterating those nearby.",
           "usedBy": null,
-          "declare": "If this Manifestation was not set up this turn, pick each enemy unit within 6\" of this Manifestation to be the targets.",
+          "declare": "If this **Manifestation** was not set up this turn, pick each enemy unit within 6\" of this **Manifestation** to be the targets.",
           "effect": "Roll a dice for each target. On a 4+, inflict D3 mortal damage on the target.",
           "abilityAndCommandIcon": "offensive",
           "warscrollId": "f015be42-53a4-4279-8f6a-49f133c958ab",
@@ -3036,7 +2841,7 @@
           "lore": null,
           "usedBy": null,
           "declare": null,
-          "effect": "When a number of damage points equal to this Manifestation’s Health characteristic are allocated to it, this Manifestation is destroyed and all its parts are removed from play.",
+          "effect": "When a number of damage points equal to this **Manifestation’**s Health characteristic are allocated to it, this **Manifestation** is destroyed and all its parts are removed from play.",
           "abilityAndCommandIcon": "special",
           "warscrollId": "f015be42-53a4-4279-8f6a-49f133c958ab",
           "keywords": []
@@ -3052,7 +2857,7 @@
           "lore": "The sheer destructive anarchy that surrounds a Warp Lightning Vortex slows the progress of warriors caught in its midst.",
           "usedBy": null,
           "declare": null,
-          "effect": "Subtract 2 from run rolls and charge rolls for enemy units while they are within 6\" of this Manifestation. In addition, if an enemy unit passes across this Manifestation, inflict D3 mortal damage on that enemy unit after the Move ability has been resolved.",
+          "effect": "Subtract 2 from run rolls and charge rolls for enemy units while they are within 6\" of this **Manifestation**. In addition, if an enemy unit passes across this **Manifestation**, inflict D3 mortal damage on that enemy unit after the **Move** ability has been resolved.",
           "abilityAndCommandIcon": "movement",
           "warscrollId": "f015be42-53a4-4279-8f6a-49f133c958ab",
           "keywords": []
@@ -3138,7 +2943,7 @@
           "lore": "A Plagueclaw hurls great globs of diseased filth at its targets that can send large formations into disarray.",
           "usedBy": null,
           "declare": null,
-          "effect": "Each time this unit uses a Shoot ability, if all of its attacks targeted the same enemy unit, after that ability has been resolved, roll a dice. If the result is equal to or less than the number of models in that enemy unit that were slain by attacks made by this unit’s Plagueclaw Catapult this phase, that enemy unit has Strike‑last for the rest of the turn.",
+          "effect": "Each time this unit uses a **Shoot** ability, if all of its attacks targeted the same enemy unit, after that ability has been resolved, roll a dice. If the result is equal to or less than the number of models in that enemy unit that were slain by attacks made by this unit’s **Plagueclaw Catapult** this phase, that enemy unit has **Strike‑last** for the rest of the turn.",
           "abilityAndCommandIcon": "defensive",
           "warscrollId": "ef61f2bb-e52f-4308-a178-1f54768cf2b6",
           "keywords": []
@@ -3151,93 +2956,6 @@
       "factionKeywords": [
         "Skaven",
         "Grand Alliance Chaos"
-      ]
-    },
-    {
-      "id": "636ecadd-8bf7-4d87-94a7-dc1ff1fa133e",
-      "name": "Rat Ogors",
-      "subname": null,
-      "lore": "The power of the Clans Moulder is built on the broad shoulders of the Rat Ogors. These rabid war-mutants are created by grafting nimble Skaven to the muscled bulk of ogorkind through strange cryptosorcery and infusing them with warpstone shards and unguents. These misbegotten warriors are pumped full of all manner of toxic serums designed to magnify both their regenerative properties and their natural frenzy. A mixture of pain and gnawing hunger sees them tear at enemies in a blind fury, ripping off limbs and wolfing down flesh.",
-      "bannerImage": "https://dhss9aar8ocw.cloudfront.net/67acbf03-4ca7-4d6e-8f91-34c19a9c27a2",
-      "rowImage": "https://dhss9aar8ocw.cloudfront.net/05dce67c-a3ba-4201-a6a7-93b207c96d17",
-      "modelCount": 3,
-      "baseSize": "50mm",
-      "points": 160,
-      "notes": null,
-      "isSpearhead": false,
-      "cannotBeReinforced": false,
-      "hiddenFromReference": false,
-      "hiddenFromStormForge": false,
-      "referenceKeywords": "Infantry, Chaos, Skaven, Moulder",
-      "move": "6\"",
-      "save": "5+",
-      "control": "1",
-      "health": "4",
-      "wargearOptionsText": "Each model in this unit is armed with Claws, Blades and Fangs.\n\n• 1/3 models are armed with a Warpfire Gun in addition to their other weapons.",
-      "publicationId": "5937ad21-f179-4af2-9b19-d476ef9e64c2",
-      "limitingWarscrollId": null,
-      "requiredPrimaryHeroWarscrollId": null,
-      "isLegends": false,
-      "faction": "Skaven",
-      "weapons": [
-        {
-          "id": "57dc7d61-6bee-425a-9eda-8881d6b9df8d",
-          "name": "Claws, Blades and Fangs",
-          "type": "melee",
-          "range": null,
-          "attacks": "5",
-          "hit": "4+",
-          "wound": "3+",
-          "rend": "1",
-          "damage": "2",
-          "battleDamaged": false,
-          "warscrollId": "636ecadd-8bf7-4d87-94a7-dc1ff1fa133e",
-          "weaponAbilities": []
-        },
-        {
-          "id": "7fe26d13-2dcb-4f15-8c2b-2a43caa5264e",
-          "name": "Warpfire Gun",
-          "type": "ranged",
-          "range": "10\"",
-          "attacks": "2D6",
-          "hit": "2+",
-          "wound": "4+",
-          "rend": "2",
-          "damage": "1",
-          "battleDamaged": false,
-          "warscrollId": "636ecadd-8bf7-4d87-94a7-dc1ff1fa133e",
-          "weaponAbilities": [
-            "Shoot in Combat"
-          ]
-        }
-      ],
-      "abilities": [
-        {
-          "id": "ddc072cf-18cc-49f8-9fc3-077529427ad1",
-          "name": "Unleashed Warp-fury",
-          "phaseDetails": "Any Combat Phase",
-          "phase": "combatPhase",
-          "castingValue": null,
-          "cpCost": null,
-          "reaction": false,
-          "lore": "The warpstone hammered into the flesh of these creatures crackles with volatile energies, driving them into a frenzy.",
-          "usedBy": null,
-          "declare": null,
-          "effect": "Inflict D3 mortal damage on this unit. Then, add 1 to the Attacks characteristic of this unit’s melee weapons for the rest of the turn.",
-          "abilityAndCommandIcon": "offensive",
-          "warscrollId": "636ecadd-8bf7-4d87-94a7-dc1ff1fa133e",
-          "keywords": []
-        }
-      ],
-      "keywords": [
-        "Moulder",
-        "Infantry"
-      ],
-      "factionKeywords": [
-        "Skaven",
-        "Grand Alliance Chaos",
-        "The Great-Grand Gnawhorde",
-        "Thanquol's Mutated Menagerie"
       ]
     },
     {
@@ -3296,7 +3014,7 @@
           "lore": "Every ratman of rank knows the value and prestige of Stormvermin bodyguard – they are even almost loyal…",
           "usedBy": null,
           "declare": null,
-          "effect": "Friendly Skaven Infantry Heroes have Ward (5+) while they are within this unit’s combat range.",
+          "effect": "Friendly **Skaven Infantry Heroes** have **Ward (5+)** while they are within this unit’s combat range.",
           "abilityAndCommandIcon": "defensive",
           "warscrollId": "67b2555f-23a3-413d-9537-114850eeccad",
           "keywords": []
@@ -3316,144 +3034,23 @@
       ]
     },
     {
-      "id": "4ee93176-c16f-4507-bb90-0d2acc6e57af",
-      "name": "Clawlord on Gnaw-beast",
+      "id": "563a9e39-a3f9-4b85-bbef-93e4eab37652",
+      "name": "Deathmaster",
       "subname": null,
-      "lore": "The title of Clawlord is not awarded through ceremony; it must be seized via cunning and violence. Clawlords of sufficient prestige may acquire a freakish mount known as a Gnaw-beast. These gangly-limbed and whipcord-fast horrors are bred by the Clans Moulder to possess a self-destructively swift metabolism. No matter how voraciously it feeds, the black hunger pains the Gnaw-beast constantly, granting it a frenzy that only fear of its master can curb.",
-      "bannerImage": "https://dhss9aar8ocw.cloudfront.net/5a14aea9-ed15-44ae-a501-954a5283542f",
-      "rowImage": "https://dhss9aar8ocw.cloudfront.net/37c7c2d4-741c-4d52-b793-258d4e5995dd",
-      "modelCount": 1,
-      "baseSize": "90 x 52mm",
-      "points": 160,
-      "notes": "This Hero can join a Verminlord Warbringer’s regiment or an eligible regiment as a Skaven Overclaw.",
-      "isSpearhead": false,
-      "cannotBeReinforced": true,
-      "hiddenFromReference": false,
-      "hiddenFromStormForge": false,
-      "referenceKeywords": "Hero, Cavalry, Chaos, Skaven, Verminus",
-      "move": "9\"",
-      "save": "4+",
-      "control": "2",
-      "health": "7",
-      "wargearOptionsText": null,
-      "publicationId": "5937ad21-f179-4af2-9b19-d476ef9e64c2",
-      "limitingWarscrollId": null,
-      "requiredPrimaryHeroWarscrollId": null,
-      "isLegends": false,
-      "faction": "Skaven",
-      "weapons": [
-        {
-          "id": "07e89b4e-2e86-495b-a075-0af9fb06217d",
-          "name": "Ratling Pistol",
-          "type": "ranged",
-          "range": "10\"",
-          "attacks": "D6",
-          "hit": "3+",
-          "wound": "3+",
-          "rend": "1",
-          "damage": "1",
-          "battleDamaged": false,
-          "warscrollId": "4ee93176-c16f-4507-bb90-0d2acc6e57af",
-          "weaponAbilities": [
-            "Shoot in Combat",
-            "Crit (Auto-wound)"
-          ]
-        },
-        {
-          "id": "16361407-1cbe-4d14-9975-f946cce3898a",
-          "name": "Gnaw-beast’s Chisel Fangs",
-          "type": "melee",
-          "range": null,
-          "attacks": "4",
-          "hit": "4+",
-          "wound": "3+",
-          "rend": "1",
-          "damage": "D3",
-          "battleDamaged": false,
-          "warscrollId": "4ee93176-c16f-4507-bb90-0d2acc6e57af",
-          "weaponAbilities": [
-            "Companion"
-          ]
-        },
-        {
-          "id": "f4c8c6c7-1db9-4e03-8ee1-91043e6cb428",
-          "name": "Warpforged Halberd",
-          "type": "melee",
-          "range": null,
-          "attacks": "5",
-          "hit": "3+",
-          "wound": "4+",
-          "rend": "1",
-          "damage": "2",
-          "battleDamaged": false,
-          "warscrollId": "4ee93176-c16f-4507-bb90-0d2acc6e57af",
-          "weaponAbilities": []
-        }
-      ],
-      "abilities": [
-        {
-          "id": "3ed03372-2d0f-4585-9536-6baa00a124d1",
-          "name": "Cruel Commander",
-          "phaseDetails": "Your Hero Phase",
-          "phase": "heroPhase",
-          "castingValue": null,
-          "cpCost": null,
-          "reaction": false,
-          "lore": "The Clawlord strikes down one of their underlings to show their cruel power and then, with shrieks and hissed threats, commands their swarming underlings to overrun the foe.",
-          "usedBy": null,
-          "declare": "Pick a friendly non-Hero Verminus Infantry unit wholly within 13\" of this unit to be the target.",
-          "effect": "Inflict 1 mortal damage on the target. Then, add 5 to the target’s control score until the start of your next turn.",
-          "abilityAndCommandIcon": "control",
-          "warscrollId": "4ee93176-c16f-4507-bb90-0d2acc6e57af",
-          "keywords": []
-        },
-        {
-          "id": "cf1b8168-a075-4c5f-9285-56f4a963f0b4",
-          "name": "Cornered Rat",
-          "phaseDetails": "Passive",
-          "phase": "combatPhase",
-          "castingValue": null,
-          "cpCost": null,
-          "reaction": false,
-          "lore": "A Clawlord in fear for their life fights with rabid ferocity.",
-          "usedBy": null,
-          "declare": null,
-          "effect": "While this unit is damaged, add 3 to the Attacks characteristic of its Warpforged Halberd.",
-          "abilityAndCommandIcon": "offensive",
-          "warscrollId": "4ee93176-c16f-4507-bb90-0d2acc6e57af",
-          "keywords": []
-        }
-      ],
-      "keywords": [
-        "Verminus",
-        "Skaven Overclaw",
-        "Cavalry",
-        "Hero"
-      ],
-      "factionKeywords": [
-        "Skaven",
-        "Grand Alliance Chaos",
-        "The Great-Grand Gnawhorde"
-      ]
-    },
-    {
-      "id": "bdb1a790-7f39-4e95-b16f-3359bb4f7024",
-      "name": "Clawlord",
-      "subname": null,
-      "lore": "Clawlords command from the very back ranks - the most honourable of all positions within Skaven society. After all, why should a leader sully their own blade with violence when there are plenty of minions able to die on their behalf? Clawlords expend the lives of their underlings freely, safe in the knowledge that there are always more where they came from. The wisest amongst them also make sure that they always have an escape route to paw - even if they must cut through enemies and allies alike in the process.",
-      "bannerImage": "https://dhss9aar8ocw.cloudfront.net/6239c490-e69c-4206-afe4-9c4dc7430281",
-      "rowImage": "https://dhss9aar8ocw.cloudfront.net/a7da9569-a30d-43bf-935b-38f9dc854baf",
+      "lore": "Deathmasters are singularly adept killers. A significant part of their training centres around defying the self-interested Skaven mindset and honing the ability to set aside their own ambitions for the sake of their mission. Skulking unseen amidst the melee, Deathmasters wait for their target to leave themselves exposed before striking with great acrobatic ferocity, wielding an array of esoteric weapons such as warpstone throwing stars and weeping blades that can kill with the lightest scratch.",
+      "bannerImage": "https://dhss9aar8ocw.cloudfront.net/aa4a139f-0935-425d-be28-c6cbc95ca5de",
+      "rowImage": "https://dhss9aar8ocw.cloudfront.net/434c0487-a10d-4656-a6e5-372448ec5f19",
       "modelCount": 1,
       "baseSize": "32mm",
-      "points": 100,
-      "notes": "This Hero can join a Verminlord Warbringer’s regiment or an eligible regiment as a Skaven Overclaw.",
+      "points": 160,
+      "notes": "This **Hero** can join a **Verminlord Deceiver**’s regiment or an eligible regiment as a *Skaven Overclaw*.",
       "isSpearhead": false,
       "cannotBeReinforced": true,
       "hiddenFromReference": false,
       "hiddenFromStormForge": false,
-      "referenceKeywords": "Hero, Infantry, Chaos, Skaven, Verminus",
-      "move": "6\"",
-      "save": "4+",
+      "referenceKeywords": "Hero, Infantry, Chaos, Skaven, Eshin",
+      "move": "7\"",
+      "save": "5+",
       "control": "2",
       "health": "5",
       "wargearOptionsText": null,
@@ -3464,59 +3061,251 @@
       "faction": "Skaven",
       "weapons": [
         {
-          "id": "ab6bb2d4-d7f4-4dbf-90ac-d16044d3a98d",
-          "name": "Warpforged Blade",
+          "id": "b58f63dd-0a3b-4741-8a73-312980b56b3f",
+          "name": "Weeping Blade",
           "type": "melee",
           "range": null,
-          "attacks": "6",
+          "attacks": "5",
           "hit": "3+",
           "wound": "4+",
           "rend": "1",
-          "damage": "2",
+          "damage": "D3",
           "battleDamaged": false,
-          "warscrollId": "bdb1a790-7f39-4e95-b16f-3359bb4f7024",
+          "warscrollId": "563a9e39-a3f9-4b85-bbef-93e4eab37652",
+          "weaponAbilities": [
+            "Anti-Hero (+1 Rend)",
+            "Crit (Mortal)"
+          ]
+        },
+        {
+          "id": "fa96ee96-b2fe-4c44-a5f5-61f4ee727a74",
+          "name": "Eshin Throwing Stars",
+          "type": "ranged",
+          "range": "10\"",
+          "attacks": "5",
+          "hit": "3+",
+          "wound": "4+",
+          "rend": "-",
+          "damage": "D3",
+          "battleDamaged": false,
+          "warscrollId": "563a9e39-a3f9-4b85-bbef-93e4eab37652",
+          "weaponAbilities": [
+            "Crit (Auto-wound)",
+            "Shoot in Combat"
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "id": "4de9041f-4789-465f-8024-90c11f99b674",
+          "name": "Running Death",
+          "phaseDetails": "Passive",
+          "phase": "startOfTurn",
+          "castingValue": null,
+          "cpCost": null,
+          "reaction": false,
+          "lore": "Deathmasters lead only the nimblest Eshin agents to war.",
+          "usedBy": null,
+          "declare": null,
+          "effect": "While friendly **Eshin** units are wholly within 13\" of this unit, they can use **Shoot** and/or **Charge** abilities even if they used a **Run** ability in the same turn.",
+          "abilityAndCommandIcon": "special",
+          "warscrollId": "563a9e39-a3f9-4b85-bbef-93e4eab37652",
+          "keywords": []
+        },
+        {
+          "id": "1ff06d8e-95c6-4075-a44e-5cc901c99380",
+          "name": "Shadowy Killers",
+          "phaseDetails": "Passive",
+          "phase": "defensive",
+          "castingValue": null,
+          "cpCost": null,
+          "reaction": false,
+          "lore": "Ulguan illusions and other tools of misdirection shroud Deathmasters in perpetual darkness, keeping them from harm.",
+          "usedBy": null,
+          "declare": null,
+          "effect": "If the unmodified hit roll for an attack that targets this unit is 1-4, the attack fails and the attack sequence ends.",
+          "abilityAndCommandIcon": "defensive",
+          "warscrollId": "563a9e39-a3f9-4b85-bbef-93e4eab37652",
+          "keywords": []
+        }
+      ],
+      "keywords": [
+        "Skaven Overclaw",
+        "Eshin",
+        "Infantry",
+        "Hero"
+      ],
+      "factionKeywords": [
+        "Skaven",
+        "Grand Alliance Chaos"
+      ]
+    },
+    {
+      "id": "3b61e10b-268e-427a-9724-db3736c4549f",
+      "name": "Doom-Flayers",
+      "subname": null,
+      "lore": "The whirling globes of death known as Doom-Flayers were originally designed as mining devices. It speaks to the Skaven mindset that an enterprising Warlock observed the devastation they wrought on rock and immediately began considering military applications. Doom-Flayers now trundle along behind massed formations of Clanrats and Stormvermin, their operators revving the warp-engine impatiently. Eventually, their destructive urges overtake them and they gun the acceleration to churn a great furrow forward through the earth.",
+      "bannerImage": "https://dhss9aar8ocw.cloudfront.net/0e984bfc-4304-4886-a602-5f128b00d6fe",
+      "rowImage": "https://dhss9aar8ocw.cloudfront.net/46ed75c5-c7a0-4f68-abdb-d473c9ef12f8",
+      "modelCount": 2,
+      "baseSize": "50mm",
+      "points": 130,
+      "notes": "You cannot include more than 1 **Skryre War Machine** in a regiment led by a non-**Skryre Hero**.",
+      "isSpearhead": false,
+      "cannotBeReinforced": false,
+      "hiddenFromReference": false,
+      "hiddenFromStormForge": false,
+      "referenceKeywords": "War Machine, Chaos, Skaven, Skryre",
+      "move": "2D6+3\"",
+      "save": "4+",
+      "control": "1",
+      "health": "4",
+      "wargearOptionsText": null,
+      "publicationId": "5937ad21-f179-4af2-9b19-d476ef9e64c2",
+      "limitingWarscrollId": null,
+      "requiredPrimaryHeroWarscrollId": null,
+      "isLegends": false,
+      "faction": "Skaven",
+      "weapons": [
+        {
+          "id": "57535af0-b85e-4558-9a5f-a942c7bbc666",
+          "name": "Whirling Blades",
+          "type": "melee",
+          "range": null,
+          "attacks": "2D6",
+          "hit": "3+",
+          "wound": "3+",
+          "rend": "1",
+          "damage": "1",
+          "battleDamaged": false,
+          "warscrollId": "3b61e10b-268e-427a-9724-db3736c4549f",
+          "weaponAbilities": [
+            "Anti-Infantry (+1 Rend)",
+            "Charge (+1 Damage)"
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "id": "6acd48cb-168d-49a4-bece-1c46af0dcc45",
+          "name": "Whirling Doom",
+          "phaseDetails": "Any Charge Phase",
+          "phase": "chargePhase",
+          "castingValue": null,
+          "cpCost": null,
+          "reaction": false,
+          "lore": "Doom-Flayers crash into the foe with hellish results, leaving a trail of gore in their wake.",
+          "usedBy": null,
+          "declare": "If this unit charged this phase, pick an enemy unit within 1\" of it to be the target.",
+          "effect": "Roll a D3. On a 2+, inflict an amount of mortal damage on the target equal to the roll.",
+          "abilityAndCommandIcon": "offensive",
+          "warscrollId": "3b61e10b-268e-427a-9724-db3736c4549f",
+          "keywords": []
+        }
+      ],
+      "keywords": [
+        "War Machine",
+        "Skryre"
+      ],
+      "factionKeywords": [
+        "Skaven",
+        "Grand Alliance Chaos",
+        "The Great-Grand Gnawhorde"
+      ]
+    },
+    {
+      "id": "57e3f767-cfa6-4577-a75e-5aedaa443068",
+      "name": "Warp Lightning Cannon",
+      "subname": null,
+      "lore": "Warp Lightning Cannons are the most infamous creations of the Clans Skryre. A dense warpstone core is attached to a long metallic barrel, etched with runes that magnify power channelled along it. Said power is focused in the warpstone 'tip' of the cannon before being discharged in a bolt of sizzling energy. The erratic nature of warpstone ensures that even the most skilled Skaven artillerist cannot accurately determine how much power will be exerted when the weapon is fired. Usually, they must simply pick their moment and hope for the best.",
+      "bannerImage": "https://dhss9aar8ocw.cloudfront.net/e316b727-18b4-4024-ae25-b1393dea9eb1",
+      "rowImage": "https://dhss9aar8ocw.cloudfront.net/91e41917-88c0-400c-83ad-7070dd732b84",
+      "modelCount": 1,
+      "baseSize": "120 x 92mm",
+      "points": 160,
+      "notes": "You cannot include more than 1 **Skryre War Machine** in a regiment led by a non-**Skryre Hero**.",
+      "isSpearhead": false,
+      "cannotBeReinforced": true,
+      "hiddenFromReference": false,
+      "hiddenFromStormForge": false,
+      "referenceKeywords": "War Machine, Chaos, Skaven, Skryre",
+      "move": "3\"",
+      "save": "4+",
+      "control": "2",
+      "health": "8",
+      "wargearOptionsText": null,
+      "publicationId": "5937ad21-f179-4af2-9b19-d476ef9e64c2",
+      "limitingWarscrollId": null,
+      "requiredPrimaryHeroWarscrollId": null,
+      "isLegends": false,
+      "faction": "Skaven",
+      "weapons": [
+        {
+          "id": "709660db-fadb-4c93-9d62-793ce9a84f94",
+          "name": "Crew’s Teeth and Knives",
+          "type": "melee",
+          "range": null,
+          "attacks": "D6",
+          "hit": "4+",
+          "wound": "5+",
+          "rend": "-",
+          "damage": "1",
+          "battleDamaged": false,
+          "warscrollId": "57e3f767-cfa6-4577-a75e-5aedaa443068",
+          "weaponAbilities": []
+        },
+        {
+          "id": "f9749563-949e-402a-b80a-856b778d091a",
+          "name": "Warp Lightning Blast",
+          "type": "ranged",
+          "range": "20\"",
+          "attacks": "2D6",
+          "hit": "4+",
+          "wound": "✹",
+          "rend": "✹",
+          "damage": "✹",
+          "battleDamaged": false,
+          "warscrollId": "57e3f767-cfa6-4577-a75e-5aedaa443068",
           "weaponAbilities": []
         }
       ],
       "abilities": [
         {
-          "id": "53721abb-bd6f-44f2-8302-aa13fcadded7",
-          "name": "Cornered Rat",
-          "phaseDetails": "Passive",
-          "phase": "combatPhase",
+          "id": "a1e9e7c9-9cd2-456d-9590-fff76324adac",
+          "name": "More-more Warp Lightning!",
+          "phaseDetails": "Once Per Turn (Army), Your Shooting Phase",
+          "phase": "shootingPhase",
           "castingValue": null,
           "cpCost": null,
           "reaction": false,
-          "lore": "A Clawlord in fear for their life fights with rabid ferocity.",
+          "lore": "Warlock Engineer can increase the power output of a Warp Lightning Cannon at the risk of harming the weapon and its crew.",
           "usedBy": null,
           "declare": null,
-          "effect": "While this unit is damaged, add 3 to the Attacks characteristic of its Warpforged Blade.",
-          "abilityAndCommandIcon": "offensive",
-          "warscrollId": "bdb1a790-7f39-4e95-b16f-3359bb4f7024",
+          "effect": "If this unit is within the combat range of a friendly **Skryre Hero**, add 6 to the Attacks characteristic of this unit’s **Warp Lightning Blast** for the rest of the turn.\n\nHowever, for each unmodified hit roll of 1 for an attack made with this unit’s **Warp Lightning Blast**, inflict D3 mortal damage on this unit after the **Shoot** ability has been resolved.",
+          "abilityAndCommandIcon": "shooting",
+          "warscrollId": "57e3f767-cfa6-4577-a75e-5aedaa443068",
           "keywords": []
         },
         {
-          "id": "96c39ddb-1588-4c67-a65c-1cf2519a777b",
-          "name": "Gnash-gnaw On Their Bones!",
-          "phaseDetails": "Reaction: You declared a Fight ability for this unit",
-          "phase": "combatPhase",
+          "id": "fa371b59-66b4-449f-8cf9-9c9c8595f0a5",
+          "name": "Warp Lightning Blast",
+          "phaseDetails": "Passive",
+          "phase": "shootingPhase",
           "castingValue": null,
           "cpCost": null,
-          "reaction": true,
-          "lore": "At a Clawlord’s command, their minions hurl themselves at the foe.",
+          "reaction": false,
+          "lore": "A Warp Lightning Cannon fires massive bolts of warp lightning that disintegrate any who are struck by them.",
           "usedBy": null,
           "declare": null,
-          "effect": "Pick a friendly non-Hero Verminus Infantry unit that has not used a Fight ability this turn and is within this unit’s combat range to be the target. The target can be picked to use a Fight ability immediately after the Fight ability used by this unit has been resolved.",
-          "abilityAndCommandIcon": "offensive",
-          "warscrollId": "bdb1a790-7f39-4e95-b16f-3359bb4f7024",
+          "effect": "Each attack made with this weapon in a single phase must target the same enemy unit. Each hit inflicts 1 mortal damage on the target and the attack sequence ends.",
+          "abilityAndCommandIcon": "shooting",
+          "warscrollId": "57e3f767-cfa6-4577-a75e-5aedaa443068",
           "keywords": []
         }
       ],
       "keywords": [
-        "Verminus",
-        "Skaven Overclaw",
-        "Infantry",
-        "Hero"
+        "War Machine",
+        "Skryre"
       ],
       "factionKeywords": [
         "Skaven",
@@ -3600,25 +3389,25 @@
       ]
     },
     {
-      "id": "d6dd5a13-f2f1-487e-bd6e-07af6e3124f8",
-      "name": "Warpfire Thrower",
+      "id": "bdb1a790-7f39-4e95-b16f-3359bb4f7024",
+      "name": "Clawlord",
       "subname": null,
-      "lore": "Within the voluminous barrel of a Warpfire Thrower sloshes a particularly incendiary and evil concoction. When the Skaven gunner depresses a trigger, this liquid is fed through crude piping to spew out of a brass nozzle, igniting on contact with the air to produce sheets of blinding green flame. So deadly is this compound that it cannot be doused through conventional means; those whom it strikes can only burn to death in agony as the fire leaps across tightly packed ranks of infantry.",
-      "bannerImage": "https://dhss9aar8ocw.cloudfront.net/76fce614-c73f-4ecb-9142-27bc2987e767",
-      "rowImage": "https://dhss9aar8ocw.cloudfront.net/ed8ec164-c5d8-4a9d-836d-41ba49d94710",
-      "modelCount": 3,
-      "baseSize": "60 x 35mm",
-      "points": 140,
-      "notes": "You cannot include more than 1 Skryre Weapon Team in a regiment led by a non-Skryre Hero.",
+      "lore": "Clawlords command from the very back ranks - the most honourable of all positions within Skaven society. After all, why should a leader sully their own blade with violence when there are plenty of minions able to die on their behalf? Clawlords expend the lives of their underlings freely, safe in the knowledge that there are always more where they came from. The wisest amongst them also make sure that they always have an escape route to paw - even if they must cut through enemies and allies alike in the process.",
+      "bannerImage": "https://dhss9aar8ocw.cloudfront.net/6239c490-e69c-4206-afe4-9c4dc7430281",
+      "rowImage": "https://dhss9aar8ocw.cloudfront.net/a7da9569-a30d-43bf-935b-38f9dc854baf",
+      "modelCount": 1,
+      "baseSize": "32mm",
+      "points": 100,
+      "notes": "This **Hero** can join a **Verminlord Warbringer**’s regiment or an eligible regiment as a *Skaven Overclaw*.",
       "isSpearhead": false,
-      "cannotBeReinforced": false,
+      "cannotBeReinforced": true,
       "hiddenFromReference": false,
       "hiddenFromStormForge": false,
-      "referenceKeywords": "Infantry, Weapon Team, Chaos, Skaven, Skryre",
+      "referenceKeywords": "Hero, Infantry, Chaos, Skaven, Verminus",
       "move": "6\"",
-      "save": "6+",
-      "control": "1",
-      "health": "3",
+      "save": "4+",
+      "control": "2",
+      "health": "5",
       "wargearOptionsText": null,
       "publicationId": "5937ad21-f179-4af2-9b19-d476ef9e64c2",
       "limitingWarscrollId": null,
@@ -3627,239 +3416,64 @@
       "faction": "Skaven",
       "weapons": [
         {
-          "id": "c2d920a5-5c82-41ba-8df4-d03685a8e095",
-          "name": "Warpfire Thrower",
-          "type": "ranged",
-          "range": "10\"",
-          "attacks": "2D6",
-          "hit": "2+",
-          "wound": "4+",
-          "rend": "2",
-          "damage": "1",
-          "battleDamaged": false,
-          "warscrollId": "d6dd5a13-f2f1-487e-bd6e-07af6e3124f8",
-          "weaponAbilities": [
-            "Shoot in Combat"
-          ]
-        },
-        {
-          "id": "d8be7cf4-cfa5-4c03-94df-4b8a3e0cbb93",
-          "name": "Rusty Knives",
+          "id": "ab6bb2d4-d7f4-4dbf-90ac-d16044d3a98d",
+          "name": "Warpforged Blade",
           "type": "melee",
           "range": null,
-          "attacks": "2",
-          "hit": "4+",
-          "wound": "5+",
-          "rend": "-",
-          "damage": "1",
+          "attacks": "6",
+          "hit": "3+",
+          "wound": "4+",
+          "rend": "1",
+          "damage": "2",
           "battleDamaged": false,
-          "warscrollId": "d6dd5a13-f2f1-487e-bd6e-07af6e3124f8",
+          "warscrollId": "bdb1a790-7f39-4e95-b16f-3359bb4f7024",
           "weaponAbilities": []
         }
       ],
       "abilities": [
         {
-          "id": "3003b133-4617-4930-a2e2-cc587987a1db",
-          "name": "Hidden Weapon Team",
-          "phaseDetails": "Passive",
-          "phase": "defensive",
-          "castingValue": null,
-          "cpCost": null,
-          "reaction": false,
-          "lore": "Skryre weapon teams often lurk amidst larger formations.",
-          "usedBy": null,
-          "declare": null,
-          "effect": "While this unit is within the combat range of a friendly Clanrats unit that has 5 or more models, and there are no other friendly Weapon Team units within that unit’s combat range, this unit is not visible to enemy units more than 13\" away.",
-          "abilityAndCommandIcon": "defensive",
-          "warscrollId": "d6dd5a13-f2f1-487e-bd6e-07af6e3124f8",
-          "keywords": []
-        }
-      ],
-      "keywords": [
-        "Weapon Team",
-        "Infantry",
-        "Skryre"
-      ],
-      "factionKeywords": [
-        "Skaven",
-        "Grand Alliance Chaos",
-        "The Great-Grand Gnawhorde"
-      ]
-    },
-    {
-      "id": "c48e3ec3-6f8a-4f19-8a7d-924e37100e9e",
-      "name": "Stormfiends",
-      "subname": null,
-      "lore": "The Clans Moulder and Clans Skryre have long enjoyed a profitable, if fraught, alliance. Stormfiends are one of the many horrors engendered by these collaborations. In appearance, they resemble a Rat Ogor granted even greater bulk through potent warpstone serums, and they can wield various deadly Skryre firearms without tearing themselves apart through recoil.",
-      "bannerImage": "https://dhss9aar8ocw.cloudfront.net/3d12c21d-ac72-4edc-9e44-a1e010ded2ed",
-      "rowImage": "https://dhss9aar8ocw.cloudfront.net/cdd8975a-3a63-4db1-9185-a6b5c1933131",
-      "modelCount": 3,
-      "baseSize": "60mm",
-      "points": 260,
-      "notes": null,
-      "isSpearhead": false,
-      "cannotBeReinforced": false,
-      "hiddenFromReference": false,
-      "hiddenFromStormForge": false,
-      "referenceKeywords": "Infantry, Chaos, Skaven, Skryre, Moulder",
-      "move": "6\"",
-      "save": "4+",
-      "control": "2",
-      "health": "6",
-      "wargearOptionsText": "1/3 models must be armed with 1 of the following options:\n• Warpfire Projectors and Clubbing Blows\n• Windlaunchers and Clubbing Blows \n\n1/3 models must be armed with 1 of the following options:\n• Ratling Cannons and Clubbing Blows \n• Grinderfists\n\n1/3 models must be armed with 1 of the following options:\n• Doomflayer Gauntlets\n• Shock Gauntlets",
-      "publicationId": "5937ad21-f179-4af2-9b19-d476ef9e64c2",
-      "limitingWarscrollId": null,
-      "requiredPrimaryHeroWarscrollId": null,
-      "isLegends": false,
-      "faction": "Skaven",
-      "weapons": [
-        {
-          "id": "0223b717-5c0f-4116-b816-5481dc52aeaa",
-          "name": "Windlaunchers",
-          "type": "ranged",
-          "range": "15\"",
-          "attacks": "3",
-          "hit": "4+",
-          "wound": "3+",
-          "rend": "2",
-          "damage": "D3",
-          "battleDamaged": false,
-          "warscrollId": "c48e3ec3-6f8a-4f19-8a7d-924e37100e9e",
-          "weaponAbilities": []
-        },
-        {
-          "id": "33dfb347-5191-4aa6-9196-e0834430aebc",
-          "name": "Doomflayer Gauntlets",
-          "type": "melee",
-          "range": null,
-          "attacks": "5",
-          "hit": "4+",
-          "wound": "2+",
-          "rend": "2",
-          "damage": "D3",
-          "battleDamaged": false,
-          "warscrollId": "c48e3ec3-6f8a-4f19-8a7d-924e37100e9e",
-          "weaponAbilities": [
-            "Charge (+1 Damage)"
-          ]
-        },
-        {
-          "id": "580a03d0-ee7c-44a6-a5cf-13d6eb98a815",
-          "name": "Ratling Cannons",
-          "type": "ranged",
-          "range": "15\"",
-          "attacks": "3D6",
-          "hit": "4+",
-          "wound": "3+",
-          "rend": "1",
-          "damage": "1",
-          "battleDamaged": false,
-          "warscrollId": "c48e3ec3-6f8a-4f19-8a7d-924e37100e9e",
-          "weaponAbilities": []
-        },
-        {
-          "id": "6c2e9b9f-24f8-4508-a9ab-53d4b98b115f",
-          "name": "Grinderfists",
-          "type": "melee",
-          "range": null,
-          "attacks": "4",
-          "hit": "4+",
-          "wound": "2+",
-          "rend": "2",
-          "damage": "2",
-          "battleDamaged": false,
-          "warscrollId": "c48e3ec3-6f8a-4f19-8a7d-924e37100e9e",
-          "weaponAbilities": []
-        },
-        {
-          "id": "ddca6d2f-a785-4e45-a486-a474437c6609",
-          "name": "Shock Gauntlets",
-          "type": "melee",
-          "range": null,
-          "attacks": "4",
-          "hit": "4+",
-          "wound": "2+",
-          "rend": "1",
-          "damage": "2",
-          "battleDamaged": false,
-          "warscrollId": "c48e3ec3-6f8a-4f19-8a7d-924e37100e9e",
-          "weaponAbilities": []
-        },
-        {
-          "id": "edd73058-401e-40a5-86e0-1afe50c7a078",
-          "name": "Clubbing Blows",
-          "type": "melee",
-          "range": null,
-          "attacks": "3",
-          "hit": "4+",
-          "wound": "2+",
-          "rend": "-",
-          "damage": "2",
-          "battleDamaged": false,
-          "warscrollId": "c48e3ec3-6f8a-4f19-8a7d-924e37100e9e",
-          "weaponAbilities": []
-        },
-        {
-          "id": "f62a694c-3550-4564-b383-505e6aa4fd77",
-          "name": "Warpfire Projectors",
-          "type": "ranged",
-          "range": "10\"",
-          "attacks": "2D6",
-          "hit": "2+",
-          "wound": "4+",
-          "rend": "2",
-          "damage": "1",
-          "battleDamaged": false,
-          "warscrollId": "c48e3ec3-6f8a-4f19-8a7d-924e37100e9e",
-          "weaponAbilities": [
-            "Shoot in Combat"
-          ]
-        }
-      ],
-      "abilities": [
-        {
-          "id": "0fe735ff-c013-4f41-b5e0-ddf9d79de5f0",
-          "name": "Shock Gauntlets",
+          "id": "53721abb-bd6f-44f2-8302-aa13fcadded7",
+          "name": "Cornered Rat",
           "phaseDetails": "Passive",
           "phase": "combatPhase",
           "castingValue": null,
           "cpCost": null,
           "reaction": false,
-          "lore": "The electrical discharge created by shock gauntlets can trigger a series of linked explosions.",
+          "lore": "A Clawlord in fear for their life fights with rabid ferocity.",
           "usedBy": null,
           "declare": null,
-          "effect": "Each time an attack made with this unit’s Shock Gauntlets scores a critical hit, that attack scores D6 hits on the target unit instead of 1. Make a wound roll for each hit.",
+          "effect": "While this unit is damaged, add 3 to the Attacks characteristic of its **Warpforged Blade**.",
           "abilityAndCommandIcon": "offensive",
-          "warscrollId": "c48e3ec3-6f8a-4f19-8a7d-924e37100e9e",
+          "warscrollId": "bdb1a790-7f39-4e95-b16f-3359bb4f7024",
           "keywords": []
         },
         {
-          "id": "44d5aa4a-bfb9-4aae-924c-0b6113603c56",
-          "name": "Grinderfist Tunnellers",
-          "phaseDetails": "Any Movement Phase",
-          "phase": "movementPhase",
+          "id": "96c39ddb-1588-4c67-a65c-1cf2519a777b",
+          "name": "Gnash-gnaw On Their Bones!",
+          "phaseDetails": "Reaction: You declared a Fight ability for this unit",
+          "phase": "combatPhase",
           "castingValue": null,
           "cpCost": null,
-          "reaction": false,
-          "lore": "Grinderfists can be used to create underground tunnels.",
+          "reaction": true,
+          "lore": "At a Clawlord’s command, their minions hurl themselves at the foe.",
           "usedBy": null,
-          "declare": "Pick this unit if it is in the tunnels below and includes any models armed with Grinderfists.",
-          "effect": "Set up this unit anywhere on the battlefield more than 9\" from all enemy units.",
-          "abilityAndCommandIcon": "movement",
-          "warscrollId": "c48e3ec3-6f8a-4f19-8a7d-924e37100e9e",
+          "declare": null,
+          "effect": "Pick a friendly non-**Hero Verminus Infantry** unit that has not used a **Fight** ability this turn and is within this unit’s combat range to be the target. The target can be picked to use a **Fight** ability immediately after the **Fight** ability used by this unit has been resolved.",
+          "abilityAndCommandIcon": "offensive",
+          "warscrollId": "bdb1a790-7f39-4e95-b16f-3359bb4f7024",
           "keywords": []
         }
       ],
       "keywords": [
-        "Moulder",
+        "Verminus",
+        "Skaven Overclaw",
         "Infantry",
-        "Skryre"
+        "Hero"
       ],
       "factionKeywords": [
         "Skaven",
         "Grand Alliance Chaos",
-        "The Great-Grand Gnawhorde",
-        "Thanquol's Mutated Menagerie"
+        "The Great-Grand Gnawhorde"
       ]
     },
     {
@@ -3919,7 +3533,7 @@
           "lore": null,
           "usedBy": null,
           "declare": null,
-          "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its Gnashing Teeth and Flailing Fists is 8.",
+          "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its **Gnashing Teeth and Flailing Fists** is 8.",
           "abilityAndCommandIcon": "battleDamaged",
           "warscrollId": "3c8dc1a0-2b36-41ce-9732-5868f277c46a",
           "keywords": []
@@ -3935,7 +3549,7 @@
           "lore": "Hell Pit Abominations are notoriously difficult to slay and can even regrow severed limbs.",
           "usedBy": null,
           "declare": null,
-          "effect": "Heal (D6) this unit.",
+          "effect": "**Heal (D6)** this unit.",
           "abilityAndCommandIcon": "defensive",
           "warscrollId": "3c8dc1a0-2b36-41ce-9732-5868f277c46a",
           "keywords": []
@@ -3950,7 +3564,7 @@
           "reaction": false,
           "lore": "A Hell Pit Abomination can rear up to its fullest height before crashing back to the ground, crushing foes beneath its sickening bulk.",
           "usedBy": null,
-          "declare": "Pick an enemy Infantry unit in combat with this unit to be the target.",
+          "declare": "Pick an enemy **Infantry** unit in combat with this unit to be the target.",
           "effect": "Roll a dice. On a 3+, roll a dice for each model in the target unit. For each 5+, inflict 1 mortal damage on the target.",
           "abilityAndCommandIcon": "offensive",
           "warscrollId": "3c8dc1a0-2b36-41ce-9732-5868f277c46a",
@@ -3969,7 +3583,7 @@
           "lore": "As it twitches in its shuddering death throes, there is a chance that either the Abomination’s unholy metabolism will restart one of its many foul hearts or its carcass will disgorge the revolting tide of parasitic rats that had been gnawing upon its innards.",
           "usedBy": null,
           "declare": null,
-          "effect": "The first time this unit would be destroyed, before removing it from the battlefield, roll a dice and apply the corresponding effect:\n\n1 - Dead\nThis unit is destroyed.\n\n2-4 - The Rats Emerge\nRoll a D3 for each enemy unit in combat with this unit. On a 2+, inflict an amount of mortal damage on that unit equal to the roll. Then, this unit is destroyed.\n\n5-6 - It’s Alive!\nThis unit is not destroyed and any remaining damage points inflicted on it have no effect. Then, Heal (D6) this unit.",
+          "effect": "The first time this unit would be destroyed, before removing it from the battlefield, roll a dice and apply the corresponding effect:\n\n**1 - *Dead***\nThis unit is destroyed.\n\n**2-4 - *The Rats Emerge***\nRoll a D3 for each enemy unit in combat with this unit. On a 2+, inflict an amount of mortal damage on that unit equal to the roll. Then, this unit is destroyed.\n\n**5-6 - *It’s Alive!***\nThis unit is not destroyed and any remaining damage points inflicted on it have no effect. Then, **Heal (D6)** this unit.",
           "abilityAndCommandIcon": "special",
           "warscrollId": "3c8dc1a0-2b36-41ce-9732-5868f277c46a",
           "keywords": []
@@ -4059,7 +3673,7 @@
           "reaction": false,
           "lore": "These towering monstrosities are the commanders of the seething hordes of Clans Verminus.",
           "usedBy": null,
-          "declare": "Pick up to 2 friendly Verminus Infantry units wholly within 13\" of this unit to be the targets.",
+          "declare": "Pick up to 2 friendly **Verminus Infantry** units wholly within 13\" of this unit to be the targets.",
           "effect": "The targets can each use the ‘All-out Attack’ or ‘All-out Defence’ command this phase even if that command has been used by a friendly unit this phase.",
           "abilityAndCommandIcon": "special",
           "warscrollId": "a18248d7-7fe6-4a57-a255-1a49d8e52c38",
@@ -4081,6 +3695,214 @@
       ]
     },
     {
+      "id": "4ee93176-c16f-4507-bb90-0d2acc6e57af",
+      "name": "Clawlord on Gnaw-beast",
+      "subname": null,
+      "lore": "The title of Clawlord is not awarded through ceremony; it must be seized via cunning and violence. Clawlords of sufficient prestige may acquire a freakish mount known as a Gnaw-beast. These gangly-limbed and whipcord-fast horrors are bred by the Clans Moulder to possess a self-destructively swift metabolism. No matter how voraciously it feeds, the black hunger pains the Gnaw-beast constantly, granting it a frenzy that only fear of its master can curb.",
+      "bannerImage": "https://dhss9aar8ocw.cloudfront.net/5a14aea9-ed15-44ae-a501-954a5283542f",
+      "rowImage": "https://dhss9aar8ocw.cloudfront.net/37c7c2d4-741c-4d52-b793-258d4e5995dd",
+      "modelCount": 1,
+      "baseSize": "90 x 52mm",
+      "points": 160,
+      "notes": "This **Hero** can join a **Verminlord Warbringer**’s regiment or an eligible regiment as a *Skaven Overclaw*.",
+      "isSpearhead": false,
+      "cannotBeReinforced": true,
+      "hiddenFromReference": false,
+      "hiddenFromStormForge": false,
+      "referenceKeywords": "Hero, Cavalry, Chaos, Skaven, Verminus",
+      "move": "9\"",
+      "save": "4+",
+      "control": "2",
+      "health": "7",
+      "wargearOptionsText": null,
+      "publicationId": "5937ad21-f179-4af2-9b19-d476ef9e64c2",
+      "limitingWarscrollId": null,
+      "requiredPrimaryHeroWarscrollId": null,
+      "isLegends": false,
+      "faction": "Skaven",
+      "weapons": [
+        {
+          "id": "07e89b4e-2e86-495b-a075-0af9fb06217d",
+          "name": "Ratling Pistol",
+          "type": "ranged",
+          "range": "10\"",
+          "attacks": "D6",
+          "hit": "3+",
+          "wound": "3+",
+          "rend": "1",
+          "damage": "1",
+          "battleDamaged": false,
+          "warscrollId": "4ee93176-c16f-4507-bb90-0d2acc6e57af",
+          "weaponAbilities": [
+            "Shoot in Combat",
+            "Crit (Auto-wound)"
+          ]
+        },
+        {
+          "id": "16361407-1cbe-4d14-9975-f946cce3898a",
+          "name": "Gnaw-beast’s Chisel Fangs",
+          "type": "melee",
+          "range": null,
+          "attacks": "4",
+          "hit": "4+",
+          "wound": "3+",
+          "rend": "1",
+          "damage": "D3",
+          "battleDamaged": false,
+          "warscrollId": "4ee93176-c16f-4507-bb90-0d2acc6e57af",
+          "weaponAbilities": [
+            "Companion"
+          ]
+        },
+        {
+          "id": "f4c8c6c7-1db9-4e03-8ee1-91043e6cb428",
+          "name": "Warpforged Halberd",
+          "type": "melee",
+          "range": null,
+          "attacks": "5",
+          "hit": "3+",
+          "wound": "4+",
+          "rend": "1",
+          "damage": "2",
+          "battleDamaged": false,
+          "warscrollId": "4ee93176-c16f-4507-bb90-0d2acc6e57af",
+          "weaponAbilities": []
+        }
+      ],
+      "abilities": [
+        {
+          "id": "3ed03372-2d0f-4585-9536-6baa00a124d1",
+          "name": "Cruel Commander",
+          "phaseDetails": "Your Hero Phase",
+          "phase": "heroPhase",
+          "castingValue": null,
+          "cpCost": null,
+          "reaction": false,
+          "lore": "The Clawlord strikes down one of their underlings to show their cruel power and then, with shrieks and hissed threats, commands their swarming underlings to overrun the foe.",
+          "usedBy": null,
+          "declare": "Pick a friendly non-**Hero Verminus Infantry** unit wholly within 13\" of this unit to be the target.",
+          "effect": "Inflict 1 mortal damage on the target. Then, add 5 to the target’s control score until the start of your next turn.",
+          "abilityAndCommandIcon": "control",
+          "warscrollId": "4ee93176-c16f-4507-bb90-0d2acc6e57af",
+          "keywords": []
+        },
+        {
+          "id": "cf1b8168-a075-4c5f-9285-56f4a963f0b4",
+          "name": "Cornered Rat",
+          "phaseDetails": "Passive",
+          "phase": "combatPhase",
+          "castingValue": null,
+          "cpCost": null,
+          "reaction": false,
+          "lore": "A Clawlord in fear for their life fights with rabid ferocity.",
+          "usedBy": null,
+          "declare": null,
+          "effect": "While this unit is damaged, add 3 to the Attacks characteristic of its **Warpforged Halberd**.",
+          "abilityAndCommandIcon": "offensive",
+          "warscrollId": "4ee93176-c16f-4507-bb90-0d2acc6e57af",
+          "keywords": []
+        }
+      ],
+      "keywords": [
+        "Verminus",
+        "Skaven Overclaw",
+        "Cavalry",
+        "Hero"
+      ],
+      "factionKeywords": [
+        "Skaven",
+        "Grand Alliance Chaos",
+        "The Great-Grand Gnawhorde"
+      ]
+    },
+    {
+      "id": "d6dd5a13-f2f1-487e-bd6e-07af6e3124f8",
+      "name": "Warpfire Throwers",
+      "subname": null,
+      "lore": "Within the voluminous barrel of a Warpfire Thrower sloshes a particularly incendiary and evil concoction. When the Skaven gunner depresses a trigger, this liquid is fed through crude piping to spew out of a brass nozzle, igniting on contact with the air to produce sheets of blinding green flame. So deadly is this compound that it cannot be doused through conventional means; those whom it strikes can only burn to death in agony as the fire leaps across tightly packed ranks of infantry.",
+      "bannerImage": "https://dhss9aar8ocw.cloudfront.net/76fce614-c73f-4ecb-9142-27bc2987e767",
+      "rowImage": "https://dhss9aar8ocw.cloudfront.net/ed8ec164-c5d8-4a9d-836d-41ba49d94710",
+      "modelCount": 3,
+      "baseSize": "60 x 35mm",
+      "points": 140,
+      "notes": "You cannot include more than 1 **Skryre Weapon Team** in a regiment led by a non-**Skryre Hero**.",
+      "isSpearhead": false,
+      "cannotBeReinforced": false,
+      "hiddenFromReference": false,
+      "hiddenFromStormForge": false,
+      "referenceKeywords": "Infantry, Weapon Team, Chaos, Skaven, Skryre",
+      "move": "6\"",
+      "save": "6+",
+      "control": "1",
+      "health": "3",
+      "wargearOptionsText": null,
+      "publicationId": "5937ad21-f179-4af2-9b19-d476ef9e64c2",
+      "limitingWarscrollId": null,
+      "requiredPrimaryHeroWarscrollId": null,
+      "isLegends": false,
+      "faction": "Skaven",
+      "weapons": [
+        {
+          "id": "c2d920a5-5c82-41ba-8df4-d03685a8e095",
+          "name": "Warpfire Thrower",
+          "type": "ranged",
+          "range": "10\"",
+          "attacks": "2D6",
+          "hit": "2+",
+          "wound": "4+",
+          "rend": "2",
+          "damage": "1",
+          "battleDamaged": false,
+          "warscrollId": "d6dd5a13-f2f1-487e-bd6e-07af6e3124f8",
+          "weaponAbilities": [
+            "Shoot in Combat"
+          ]
+        },
+        {
+          "id": "d8be7cf4-cfa5-4c03-94df-4b8a3e0cbb93",
+          "name": "Rusty Knives",
+          "type": "melee",
+          "range": null,
+          "attacks": "2",
+          "hit": "4+",
+          "wound": "5+",
+          "rend": "-",
+          "damage": "1",
+          "battleDamaged": false,
+          "warscrollId": "d6dd5a13-f2f1-487e-bd6e-07af6e3124f8",
+          "weaponAbilities": []
+        }
+      ],
+      "abilities": [
+        {
+          "id": "3003b133-4617-4930-a2e2-cc587987a1db",
+          "name": "Hidden Weapon Team",
+          "phaseDetails": "Passive",
+          "phase": "defensive",
+          "castingValue": null,
+          "cpCost": null,
+          "reaction": false,
+          "lore": "Skryre weapon teams often lurk amidst larger formations.",
+          "usedBy": null,
+          "declare": null,
+          "effect": "While this unit is within the combat range of a friendly **Clanrats** unit that has 5 or more models, and there are no other friendly **Weapon Team** units within that unit’s combat range, this unit is not visible to enemy units more than 13\" away.",
+          "abilityAndCommandIcon": "defensive",
+          "warscrollId": "d6dd5a13-f2f1-487e-bd6e-07af6e3124f8",
+          "keywords": []
+        }
+      ],
+      "keywords": [
+        "Weapon Team",
+        "Infantry",
+        "Skryre"
+      ],
+      "factionKeywords": [
+        "Skaven",
+        "Grand Alliance Chaos",
+        "The Great-Grand Gnawhorde"
+      ]
+    },
+    {
       "id": "26ad818b-85ab-4090-8194-cb33297d6781",
       "name": "Warpvolt Scourgers",
       "subname": null,
@@ -4090,7 +3912,7 @@
       "modelCount": 3,
       "baseSize": "60 × 35mm",
       "points": 190,
-      "notes": "You cannot include more than 1 Skryre Weapon Team in a regiment led by a non-Skryre Hero.",
+      "notes": "You cannot include more than 1 **Skryre Weapon Team** in a regiment led by a non-**Skryre Hero**.",
       "isSpearhead": false,
       "cannotBeReinforced": false,
       "hiddenFromReference": false,
@@ -4151,7 +3973,7 @@
           "lore": "Skryre weapon teams often lurk amidst larger formations.",
           "usedBy": null,
           "declare": null,
-          "effect": "While this unit is within the combat range of a friendly Clanrats unit that has 5 or more models, and there are no other friendly Weapon Team units within that unit's combat range, this unit is not visible to enemy units more than 13\" away.",
+          "effect": "While this unit is within the combat range of a friendly **Clanrats** unit that has 5 or more models, and there are no other friendly **Weapon Team** units within that unit's combat range, this unit is not visible to enemy units more than 13\" away.",
           "abilityAndCommandIcon": "defensive",
           "warscrollId": "26ad818b-85ab-4090-8194-cb33297d6781",
           "keywords": []
@@ -4272,7 +4094,7 @@
           "lore": null,
           "usedBy": null,
           "declare": null,
-          "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its Warpfire Braziers is 4.",
+          "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its **Warpfire Braziers** is 4.",
           "abilityAndCommandIcon": "battleDamaged",
           "warscrollId": "fe5702af-64b0-4446-9219-ba2a8b923fb0",
           "keywords": []
@@ -4306,7 +4128,7 @@
           "lore": "Thanquol wears a thrumming green warpstone amulet, the mutating magics of which serve to meld and rapidly heal his, or Boneripper’s, flesh.",
           "usedBy": null,
           "declare": null,
-          "effect": "Heal (D3) this unit.",
+          "effect": "**Heal (D3)** this unit.",
           "abilityAndCommandIcon": "defensive",
           "warscrollId": "fe5702af-64b0-4446-9219-ba2a8b923fb0",
           "keywords": []
@@ -4420,22 +4242,6 @@
       ],
       "abilities": [
         {
-          "id": "0c1cd982-9f1d-426f-91c7-20091411a945",
-          "name": "Regenerating Terror",
-          "phaseDetails": "End of Any Turn",
-          "phase": "endOfTurn",
-          "castingValue": null,
-          "cpCost": null,
-          "reaction": false,
-          "lore": "Brood Terrors are a nightmare of mutation and overwhelming strength.",
-          "usedBy": null,
-          "declare": null,
-          "effect": "Heal (D6) this unit.",
-          "abilityAndCommandIcon": "defensive",
-          "warscrollId": "4f152d23-3796-45d3-bceb-307531f6e772",
-          "keywords": []
-        },
-        {
           "id": "7e4d2a63-7f07-4ec9-96ad-678e84a718ca",
           "name": "Warpstone Fumes",
           "phaseDetails": "Once Per Turn (Army), Any Combat Phase",
@@ -4452,6 +4258,22 @@
           "keywords": [
             "Rampage"
           ]
+        },
+        {
+          "id": "0c1cd982-9f1d-426f-91c7-20091411a945",
+          "name": "Regenerating Terror",
+          "phaseDetails": "End of Any Turn",
+          "phase": "endOfTurn",
+          "castingValue": null,
+          "cpCost": null,
+          "reaction": false,
+          "lore": "Brood Terrors are a nightmare of mutation and overwhelming strength.",
+          "usedBy": null,
+          "declare": null,
+          "effect": "**Heal (D6)** this unit.",
+          "abilityAndCommandIcon": "defensive",
+          "warscrollId": "4f152d23-3796-45d3-bceb-307531f6e772",
+          "keywords": []
         }
       ],
       "keywords": [
@@ -4463,6 +4285,184 @@
         "Grand Alliance Chaos",
         "The Great-Grand Gnawhorde",
         "Thanquol's Mutated Menagerie"
+      ]
+    },
+    {
+      "id": "bd8b04a7-1ece-4d9b-b3e5-1c0d9c7dd91f",
+      "name": "Ratling Guns",
+      "subname": null,
+      "lore": "Ratling Guns are amongst the most commonplace of the weapon teams that emerge from the forges of the Clans Skryre. Powered by complex warp-steam batteries and activated by a hand-crank operated by the weapon's loader, Ratling Guns are notoriously difficult to aim. The sheer volume of bullets they unleash, however, can shred an enemy cohort regardless.",
+      "bannerImage": "https://dhss9aar8ocw.cloudfront.net/e346ab6a-6633-4861-894d-6cb64a1962e5",
+      "rowImage": "https://dhss9aar8ocw.cloudfront.net/c2f3007a-dde6-4195-bec2-ec7cf2f61484",
+      "modelCount": 3,
+      "baseSize": "60 x 35mm",
+      "points": 150,
+      "notes": "You cannot include more than 1 **Skryre Weapon Team** in a regiment led by a non-**Skryre Hero**.",
+      "isSpearhead": false,
+      "cannotBeReinforced": false,
+      "hiddenFromReference": false,
+      "hiddenFromStormForge": false,
+      "referenceKeywords": "Infantry, Weapon Team, Chaos, Skaven, Skryre",
+      "move": "6\"",
+      "save": "6+",
+      "control": "1",
+      "health": "3",
+      "wargearOptionsText": null,
+      "publicationId": "5937ad21-f179-4af2-9b19-d476ef9e64c2",
+      "limitingWarscrollId": null,
+      "requiredPrimaryHeroWarscrollId": null,
+      "isLegends": false,
+      "faction": "Skaven",
+      "weapons": [
+        {
+          "id": "664ff8a1-0e39-44b5-9271-722b56779b0c",
+          "name": "Rusty Knives",
+          "type": "melee",
+          "range": null,
+          "attacks": "2",
+          "hit": "4+",
+          "wound": "5+",
+          "rend": "-",
+          "damage": "1",
+          "battleDamaged": false,
+          "warscrollId": "bd8b04a7-1ece-4d9b-b3e5-1c0d9c7dd91f",
+          "weaponAbilities": []
+        },
+        {
+          "id": "c6c52829-06d4-4302-9b07-94b713143b2c",
+          "name": "Ratling Gun",
+          "type": "ranged",
+          "range": "15\"",
+          "attacks": "3D6",
+          "hit": "4+",
+          "wound": "4+",
+          "rend": "1",
+          "damage": "1",
+          "battleDamaged": false,
+          "warscrollId": "bd8b04a7-1ece-4d9b-b3e5-1c0d9c7dd91f",
+          "weaponAbilities": [
+            "Crit (2 Hits)"
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "id": "7565d05e-207d-4e03-8883-7b26ac1b1862",
+          "name": "Hidden Weapon Team",
+          "phaseDetails": "Passive",
+          "phase": "defensive",
+          "castingValue": null,
+          "cpCost": null,
+          "reaction": false,
+          "lore": "Skryre weapon teams often lurk amidst larger formations.",
+          "usedBy": null,
+          "declare": null,
+          "effect": "While this unit is within the combat range of a friendly **Clanrats** unit that has 5 or more models, and there are no other friendly **Weapon Team** units within that unit’s combat range, this unit is not visible to enemy units more than 13\" away.",
+          "abilityAndCommandIcon": "defensive",
+          "warscrollId": "bd8b04a7-1ece-4d9b-b3e5-1c0d9c7dd91f",
+          "keywords": []
+        }
+      ],
+      "keywords": [
+        "Weapon Team",
+        "Infantry",
+        "Skryre"
+      ],
+      "factionKeywords": [
+        "Skaven",
+        "Grand Alliance Chaos",
+        "The Great-Grand Gnawhorde"
+      ]
+    },
+    {
+      "id": "4bad545f-37ea-427b-b21f-544b0c630aee",
+      "name": "Doomwheel",
+      "subname": null,
+      "lore": "Many uncanny war engines have emerged from the forges of the Clans Skryre, but the Doomwheels are arguably the most bizarre. These contraptions can appear almost amusing to incredulous foes; resembling giant wheels, they roll forwards at an unsteady pace. Yet amusement gives way to terror as the Doomwheel picks up speed, erratic blasts of warp lightning leaping from the ruinous realmstone crystals affixed to prongs on its flanks. Any caught in its path will be either blasted to blackened corpses or simply ground to bloody smears.",
+      "bannerImage": "https://dhss9aar8ocw.cloudfront.net/50430378-5174-45f0-bb3e-08aeee9e6b47",
+      "rowImage": "https://dhss9aar8ocw.cloudfront.net/e8bc63e5-c40d-4f79-8bc4-d7e7248b3769",
+      "modelCount": 1,
+      "baseSize": "105 x 70mm",
+      "points": 140,
+      "notes": "You cannot include more than 1 **Skryre War Machine** in a regiment led by a non-**Skryre Hero**.",
+      "isSpearhead": false,
+      "cannotBeReinforced": true,
+      "hiddenFromReference": false,
+      "hiddenFromStormForge": false,
+      "referenceKeywords": "War Machine, Chaos, Skaven, Skryre",
+      "move": "2D6+7\"",
+      "save": "4+",
+      "control": "1",
+      "health": "8",
+      "wargearOptionsText": null,
+      "publicationId": "5937ad21-f179-4af2-9b19-d476ef9e64c2",
+      "limitingWarscrollId": null,
+      "requiredPrimaryHeroWarscrollId": null,
+      "isLegends": false,
+      "faction": "Skaven",
+      "weapons": [
+        {
+          "id": "2892c8b2-1297-448a-af4d-256dbf9571fd",
+          "name": "Warp Bolts",
+          "type": "ranged",
+          "range": "13\"",
+          "attacks": "D6",
+          "hit": "3+",
+          "wound": "3+",
+          "rend": "1",
+          "damage": "D3",
+          "battleDamaged": false,
+          "warscrollId": "4bad545f-37ea-427b-b21f-544b0c630aee",
+          "weaponAbilities": [
+            "Shoot in Combat"
+          ]
+        },
+        {
+          "id": "378ad8b3-1c52-40dd-bc8b-1c2dafea067e",
+          "name": "Grinding Wheels",
+          "type": "melee",
+          "range": null,
+          "attacks": "6",
+          "hit": "4+",
+          "wound": "3+",
+          "rend": "-",
+          "damage": "1",
+          "battleDamaged": false,
+          "warscrollId": "4bad545f-37ea-427b-b21f-544b0c630aee",
+          "weaponAbilities": [
+            "Charge (+1 Damage)"
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "id": "05d3df0e-e55e-4e1c-acdf-dfd91a0e710b",
+          "name": "Rolling Doom",
+          "phaseDetails": "Your Movement Phase",
+          "phase": "movementPhase",
+          "castingValue": null,
+          "cpCost": null,
+          "reaction": false,
+          "lore": "A Doomwheel will mercilessly crush anything in its path.",
+          "usedBy": null,
+          "declare": null,
+          "effect": "This unit can move a distance up to its Move characteristic. This unit can pass through other models and the combat ranges of enemy units, but it cannot end that move in combat.\n\nThen, pick up to 3 enemy units that this unit passed across during that move to be the targets. Roll a D3 for each target. On a 2+, inflict an amount of mortal damage on the target equal to the roll.\n\n**Designer’s Note:** *This unit can use this ability even if it is in combat.*",
+          "abilityAndCommandIcon": "special",
+          "warscrollId": "4bad545f-37ea-427b-b21f-544b0c630aee",
+          "keywords": [
+            "Core",
+            "Move"
+          ]
+        }
+      ],
+      "keywords": [
+        "War Machine",
+        "Skryre"
+      ],
+      "factionKeywords": [
+        "Skaven",
+        "Grand Alliance Chaos",
+        "The Great-Grand Gnawhorde"
       ]
     }
   ],
@@ -4501,7 +4501,7 @@
       "cpCost": null,
       "lore": "This twitching and irascible Skaven has succeeded in making their minions more afraid of their displeasure than of the enemy.",
       "usedBy": null,
-      "effect": "Add 1 to **run** rolls and **charge** rolls for friendly Skaven units while they are wholly within 13\" of this unit.",
+      "effect": "Add 1 to **run** rolls and **charge** rolls for friendly **Skaven** units while they are wholly within 13\" of this unit.",
       "image": null,
       "altText": null,
       "subsectionName": null,
@@ -4523,7 +4523,7 @@
       "cpCost": null,
       "lore": "This Skaven warlord is particularly devious and selfserving, deftly ensuring that their minions are always conveniently positioned between themselves and potential threats.",
       "usedBy": null,
-      "effect": "While this unit is within the combat range of a friendly non-**Hero** Skaven **Infantry** unit:\n\n• This unit has Ward (4+).\n• Each time you make a successful ward roll for this unit, allocate 1 damage point to a friendly non-**Hero** Skaven **Infantry** unit within this unit’s combat range after the damage sequence for this unit has been resolved (ward rolls cannot be made for those damage points).",
+      "effect": "While this unit is within the combat range of a friendly non-****Hero** Skaven **Infantry**** unit:\n\n• This unit has **Ward (4+)**.\n• Each time you make a successful ward roll for this unit, allocate 1 damage point to a friendly non-****Hero** Skaven** ****Infantry**** unit within this unit’s combat range after the damage sequence for this unit has been resolved (ward rolls cannot be made for those damage points).",
       "image": null,
       "altText": null,
       "subsectionName": null,
@@ -4546,7 +4546,7 @@
       "abilityAndCommandIcon": "offensive",
       "cpCost": null,
       "lore": "This foul concoction, brewed from blood and warpstone, is dispensed to expendable underlings to drive them into a short-lived but devastating killing frenzy.",
-      "declare": "Pick a friendly non-**Hero** Skaven **Infantry** unit wholly within 13\" of this unit to be the target.",
+      "declare": "Pick a friendly non-****Hero** Skaven **Infantry**** unit wholly within 13\" of this unit to be the target.",
       "usedBy": null,
       "effect": "Inflict D3 mortal damage on the target. Then, add 1 to the Attacks characteristic of the target’s melee weapons for the rest of the turn.",
       "image": null,
@@ -4570,7 +4570,7 @@
       "cpCost": null,
       "lore": "Fashioned from the flensed flesh of Rat Ogors and soaked in cloying alchemical agents, this stinking armour sticks to its wearer like a bloated second skin and regrows as fast as it can be hacked apart.",
       "usedBy": null,
-      "effect": "Heal (D3) this unit.",
+      "effect": "**Heal (D3)** this unit.",
       "image": null,
       "altText": null,
       "subsectionName": null,
@@ -4617,7 +4617,7 @@
       "cpCost": null,
       "lore": "These skittish ratmen dart and run in all directions, avoiding retribution as they flee from combat.",
       "usedBy": null,
-      "effect": "No mortal damage is inflicted on friendly Skaven **Infantry** and **Cavalry** units by **Retreat** abilities.",
+      "effect": "No mortal damage is inflicted on friendly **Skaven **Infantry**** and ****Cavalry**** units by ****Retreat**** abilities.",
       "image": null,
       "altText": null,
       "subsectionName": null,
@@ -4638,9 +4638,9 @@
       "abilityAndCommandIcon": "special",
       "cpCost": null,
       "lore": "What scurries beneath the surface?",
-      "declare": "Pick a friendly Skaven unit that has not been deployed.",
+      "declare": "Pick a friendly **Skaven** unit that has not been deployed.",
       "usedBy": null,
-      "effect": "Set up that unit in reserve in the tunnels below. It has now been deployed.",
+      "effect": "Set up that unit in reserve **in the tunnels below**. It has now been deployed.",
       "image": null,
       "altText": null,
       "subsectionName": null,
@@ -4663,7 +4663,7 @@
       "abilityAndCommandIcon": "movement",
       "cpCost": null,
       "lore": "The best laid plans of the Skaven never go awry (or so they claim).",
-      "declare": "Pick a friendly non-**Monster** Skaven unit that is not in combat and was not set up this turn to use this ability.",
+      "declare": "Pick a friendly non-****Monster** Skaven** unit that is not in combat and was not set up this turn to use this ability.",
       "usedBy": null,
       "effect": "That unit can use the 'Normal **Move**' ability as if it were your movement phase.",
       "image": null,
@@ -4686,9 +4686,9 @@
       "abilityAndCommandIcon": "special",
       "cpCost": null,
       "lore": "In the aftermath of the Vermindoom, reality continues to fracture and tear as gnawholes bore into reality, spewing forth endless tides of ratmen.",
-      "declare": "You can use this ability if there are fewer than 3 friendly Gnawholes on the battlefield.",
+      "declare": "You can use this ability if there are fewer than 3 friendly **Gnawholes** on the battlefield.",
       "usedBy": null,
-      "effect": "Set up a Gnawhole on the battlefield more than 9\" from all enemy units, more than 1\" from all friendly units and more than 3\" from all objectives and other terrain features.",
+      "effect": "Set up a **Gnawhole** on the battlefield more than 9\" from all enemy units, more than 1\" from all friendly units and more than 3\" from all objectives and other terrain features.",
       "image": null,
       "altText": null,
       "subsectionName": null,
@@ -4709,9 +4709,9 @@
       "abilityAndCommandIcon": "movement",
       "cpCost": null,
       "lore": "Emerging from a green, glowing rift, the Skaventide pours onto the battlefield.",
-      "declare": "Pick a friendly Skaven unit that is in the tunnels below to use this ability.",
+      "declare": "Pick a friendly **Skaven** unit that is **in the** **tunnels below** to use this ability.",
       "usedBy": null,
-      "effect": "Set up that unit wholly within 6\" of a friendly Gnawhole and more than 9\" from all enemy units.",
+      "effect": "Set up that unit wholly within 6\" of a friendly **Gnawhole** and more than 9\" from all enemy units.",
       "image": null,
       "altText": null,
       "subsectionName": null,
@@ -4734,7 +4734,7 @@
           "phase": "heroPhase",
           "abilityAndCommandIcon": "movement",
           "lore": "Vanishing in a puff of foul-smelling smoke, the verminkin reappear elsewhere on the battlefield an eye-blink later.",
-          "declare": "Pick a friendly Skaven Wizard to cast this spell, pick a visible friendly Skaven Hero wholly within 13\" of them to be the target, then make a casting roll of 2D6.",
+          "declare": "Pick a friendly **Skaven Wizard** to cast this spell, pick a visible friendly **Skaven Hero** wholly within 13\" of them to be the target, then make a casting roll of 2D6.",
           "usedBy": null,
           "effect": "Remove the target from the battlefield and set it up again on the battlefield more than 9\" from all enemy units.",
           "castingValue": 6,
@@ -4746,15 +4746,15 @@
           ]
         },
         {
-          "id": "e69dc2db-c70a-4884-80b5-7be43b8b199d",
-          "name": "Warpgale",
+          "id": "e12efb8c-4a7f-4d67-9b84-fe0bcb96a371",
+          "name": "Wither",
           "phaseDetails": "Your Hero Phase",
           "phase": "heroPhase",
-          "abilityAndCommandIcon": "defensive",
-          "lore": "Screeching in an unholy tongue, the caster parts the veil of reality and draws a ravening gale of unnatural energies forth.",
-          "declare": "Pick a friendly Skaven Wizard to cast this spell, pick a visible enemy unit within 18\" of them to be the target, then make a casting roll of 2D6.",
+          "abilityAndCommandIcon": "offensive",
+          "lore": "The spellcaster hurls a glowing green globe of magical energy at the foe. Anyone touched by the globe starts to shrivel and wither away.",
+          "declare": "Pick a friendly **Skaven Wizard** to cast this spell, pick a visible enemy unit within 13\" of them to be the target, then make a casting roll of 2D6.",
           "usedBy": null,
-          "effect": "The target has Strike-last for the rest of the turn.",
+          "effect": "Inflict D3 mortal damage on the target.",
           "castingValue": 6,
           "linkedWarscrollId": null,
           "loreId": "7d18f1f9-5d77-4cdb-82d0-d39a10dc3c2c",
@@ -4763,15 +4763,15 @@
           ]
         },
         {
-          "id": "e12efb8c-4a7f-4d67-9b84-fe0bcb96a371",
-          "name": "Wither",
+          "id": "e69dc2db-c70a-4884-80b5-7be43b8b199d",
+          "name": "Warpgale",
           "phaseDetails": "Your Hero Phase",
           "phase": "heroPhase",
-          "abilityAndCommandIcon": "offensive",
-          "lore": "The spellcaster hurls a glowing green globe of magical energy at the foe. Anyone touched by the globe starts to shrivel and wither away.",
-          "declare": "Pick a friendly Skaven Wizard to cast this spell, pick a visible enemy unit within 13\" of them to be the target, then make a casting roll of 2D6.",
+          "abilityAndCommandIcon": "defensive",
+          "lore": "Screeching in an unholy tongue, the caster parts the veil of reality and draws a ravening gale of unnatural energies forth.",
+          "declare": "Pick a friendly **Skaven Wizard** to cast this spell, pick a visible enemy unit within 18\" of them to be the target, then make a casting roll of 2D6.",
           "usedBy": null,
-          "effect": "Inflict D3 mortal damage on the target.",
+          "effect": "The target has **Strike-last** for the rest of the turn.",
           "castingValue": 6,
           "linkedWarscrollId": null,
           "loreId": "7d18f1f9-5d77-4cdb-82d0-d39a10dc3c2c",
@@ -4792,7 +4792,7 @@
           "phase": "heroPhase",
           "abilityAndCommandIcon": "defensive",
           "lore": "The priest snarls and conjures a dense cloud of toxins that sends their followers into a frenzy that numbs them to pain.",
-          "declare": "Pick a friendly Skaven Priest to chant this prayer, pick a visible friendly Skaven Infantry unit wholly within 13\" of them to be the target, then make a chanting roll of D6.",
+          "declare": "Pick a friendly **Skaven Priest** to chant this prayer, pick a visible friendly **Skaven Infantry** unit wholly within 13\" of them to be the target, then make a chanting roll of D6.",
           "usedBy": null,
           "effect": "Subtract 1 from wound rolls for attacks that target that unit until the start of your next turn. In addition, if the chanting roll was 8+, add 1 to save rolls for the target until the start of your next turn.",
           "castingValue": 5,
@@ -4809,9 +4809,9 @@
           "phase": "heroPhase",
           "abilityAndCommandIcon": "offensive",
           "lore": "The Great Horned Rat heeds the call of this priest to encrust the weapons of their minions with irresistible contagions.",
-          "declare": "Pick a friendly Skaven Priest to chant this prayer, pick a visible friendly Skaven Infantry unit wholly within 13\" of them to be the target, then make a chanting roll of D6.",
+          "declare": "Pick a friendly **Skaven Priest** to chant this prayer, pick a visible friendly **Skaven Infantry** unit wholly within 13\" of them to be the target, then make a chanting roll of D6.",
           "usedBy": null,
-          "effect": "Add 1 to wound rolls for the target’s combat attacks until the start of your next turn. In addition, if the chanting roll was 8+, the target’s melee weapons have Crit (Mortal) until the start of your next turn.",
+          "effect": "Add 1 to wound rolls for the target’s combat attacks until the start of your next turn. In addition, if the chanting roll was 8+, the target’s melee weapons have **Crit (Mortal)** until the start of your next turn.",
           "castingValue": 4,
           "linkedWarscrollId": null,
           "loreId": "d681e9a4-b07d-48fa-89ed-eeabe1149c05",
@@ -4827,7 +4827,7 @@
           "phase": "heroPhase",
           "abilityAndCommandIcon": "offensive",
           "lore": "The priest screeches with glowing green eyes as a torrent of bile sweeps over their foe.",
-          "declare": "Pick a friendly Skaven Priest to chant this prayer, pick a visible enemy unit within 13\" of them to be the target, then make a chanting roll of D6.",
+          "declare": "Pick a friendly **Skaven Priest** to chant this prayer, pick a visible enemy unit within 13\" of them to be the target, then make a chanting roll of D6.",
           "usedBy": null,
           "effect": "Roll a number of dice equal to the number of models in the target unit. For each 5+, inflict 1 mortal damage on the target. If the chanting roll was 8+, inflict 1 mortal damage on the target for each 4+ instead.",
           "castingValue": 4,
@@ -4850,9 +4850,9 @@
           "phase": "heroPhase",
           "abilityAndCommandIcon": "special",
           "lore": "A Skaven spellcaster can summon forth a seething mass of arcane rodents that consumes everything in its path.",
-          "declare": "If there is not a friendly Vermintide on the battlefield, pick a friendly Skaven Wizard to cast this spell, then make a casting roll of 2D6.",
+          "declare": "If there is not a friendly **Vermintide** on the battlefield, pick a friendly **Skaven Wizard** to cast this spell, then make a casting roll of 2D6.",
           "usedBy": null,
-          "effect": "Set up a Vermintide wholly within 13\" of the caster, visible to them and more than 9\" from all enemy units.",
+          "effect": "Set up a **Vermintide** wholly within 13\" of the caster, visible to them and more than 9\" from all enemy units.",
           "castingValue": 7,
           "linkedWarscrollId": "9d798937-25d7-46f3-963c-0ce94c9bfa47",
           "loreId": "b8187ba2-fbef-4fda-9eb6-785dccc01456",
@@ -4868,9 +4868,9 @@
           "phase": "heroPhase",
           "abilityAndCommandIcon": "special",
           "lore": "Warpstone shards are cast into the air, growing impossibly large and discharging bolts of warp lightning.",
-          "declare": "If there is not a friendly Warp Lightning Vortex on the battlefield, pick a friendly Skaven Wizard to cast this spell, then make a casting roll of 2D6.",
+          "declare": "If there is not a friendly **Warp Lightning Vortex** on the battlefield, pick a friendly **Skaven Wizard** to cast this spell, then make a casting roll of 2D6.",
           "usedBy": null,
-          "effect": "Set up the first part of the Warp Lightning Vortex within 18\" of the caster and visible to them, then set up the second and third parts exactly 7\" from the first part and exactly 7\" from each other so that they form a triangle.",
+          "effect": "Set up the first part of the **Warp Lightning Vortex** within 18\" of the caster and visible to them, then set up the second and third parts exactly 7\" from the first part and exactly 7\" from each other so that they form a triangle.",
           "castingValue": 7,
           "linkedWarscrollId": "f015be42-53a4-4279-8f6a-49f133c958ab",
           "loreId": "b8187ba2-fbef-4fda-9eb6-785dccc01456",
@@ -4886,9 +4886,9 @@
           "phase": "heroPhase",
           "abilityAndCommandIcon": "special",
           "lore": "Invoking ancient creation myths, the spellcaster causes a great Bell of Doom to manifest upon the battlefield.",
-          "declare": "If there is not a friendly Bell of Doom on the battlefield, pick a friendly Skaven Wizard to cast this spell, then make a casting roll of 2D6.",
+          "declare": "If there is not a friendly **Bell of Doom** on the battlefield, pick a friendly **Skaven Wizard** to cast this spell, then make a casting roll of 2D6.",
           "usedBy": null,
-          "effect": "Set up a Bell of Doom wholly within 13\" of the caster, visible to them and more than 9\" from all enemy units.",
+          "effect": "Set up a **Bell of Doom** wholly within 13\" of the caster, visible to them and more than 9\" from all enemy units.",
           "castingValue": 7,
           "linkedWarscrollId": "4ac3d504-e858-470e-b224-be7673965d4a",
           "loreId": "b8187ba2-fbef-4fda-9eb6-785dccc01456",
@@ -4912,7 +4912,7 @@
           "phase": "endOfTurn",
           "abilityAndCommandIcon": "offensive",
           "lore": "The Clans Pestilens are relentless in advancing the spread of plague and corruption.",
-          "declare": "Pick up to 3 friendly Pestilens units that are in combat to be the targets.",
+          "declare": "Pick up to 3 friendly **Pestilens** units that are in combat to be the targets.",
           "effect": "For each target:\n\n• Make a pile-in move.\n• Then, pick an enemy unit in combat with the target and roll a D3. On a 2+, inflict an amount of mortal damage on that enemy unit equal to the roll.",
           "usedBy": null,
           "reaction": false,
@@ -4932,7 +4932,7 @@
           "phase": "combatPhase",
           "abilityAndCommandIcon": "offensive",
           "lore": "The Stormvermin and Clanrats of a Verminus Claw‑horde are amongst the most ferocious of all ratmen.",
-          "declare": "Pick up to 3 friendly Verminus units that charged this turn to be the targets.",
+          "declare": "Pick up to 3 friendly **Verminus** units that charged this turn to be the targets.",
           "effect": "Add 1 to the Rend characteristic of the targets’ melee weapons for the rest of the turn.",
           "usedBy": null,
           "reaction": false,
@@ -4952,8 +4952,8 @@
           "phase": "shootingPhase",
           "abilityAndCommandIcon": "shooting",
           "lore": "The fell contraptions wielded by these ratmen were created by the Clans Skryre’s most ingenious weaponsmiths.",
-          "declare": "Pick up to 3 friendly Skryre units to be the targets.",
-          "effect": "Roll a dice for each target and apply the corresponding effect:\n\n1 - Kaboom!\nInflict D3 mortal damage on the target.\n\n2-5 - More Power!\nAdd 1 to wound rolls for the target’s shooting attacks for the rest of the turn.\n\n6 - More-more Power!\nIn addition to the effect of ‘More Power!’, add 1 to the Rend characteristic of the target’s ranged weapons for the rest of the turn.",
+          "declare": "Pick up to 3 friendly **Skryre** units to be the targets.",
+          "effect": "Roll a dice for each target and apply the corresponding effect:\n\n**1 -** ***Kaboom!***\nInflict D3 mortal damage on the target.\n\n**2-5 - *More Power!***\nAdd 1 to wound rolls for the target’s shooting attacks for the rest of the turn.\n\n**6 - *More-more Power!***\nIn addition to the effect of ‘More Power!’, add 1 to the Rend characteristic of the target’s ranged weapons for the rest of the turn.",
           "usedBy": null,
           "reaction": false,
           "battleFormationId": "e21e8a0b-9abc-4f52-b7ee-3e9c98a928d4",
@@ -4972,8 +4972,8 @@
           "phase": "heroPhase",
           "abilityAndCommandIcon": "special",
           "lore": "Moulder warbeasts are studded with warpstone crystals and pumped full of vile serums that spur their battle-rage – at the occasional cost of overtaxing their forms.",
-          "declare": "Pick up to 3 friendly non-Hero Moulder units to be the targets.",
-          "effect": "Roll a dice for each target and apply the corresponding effect:\n\n1-2 - Self-destructive Fury\nInflict D3 mortal damage on the target.\n\n3-4 - Rabid Infusion\nAdd 1 to the Attacks characteristic of the target’s melee weapons until the start of your next turn.\n\n5-6 - Blinded by Frenzy\nIn addition to the effect of ‘Rabid Infusion’, the target has Ward (5+) until the start of your next turn.",
+          "declare": "Pick up to 3 friendly non-**Hero Moulder** units to be the targets.",
+          "effect": "Roll a dice for each target and apply the corresponding effect:\n\n**1-2 - *Self-destructive Fury***\nInflict D3 mortal damage on the target.\n\n**3-4 - *Rabid Infusion***\nAdd 1 to the Attacks characteristic of the target’s melee weapons until the start of your next turn.\n\n**5-6 -** ***Blinded by Frenzy***\nIn addition to the effect of ‘Rabid Infusion’, the target has **Ward (5+)** until the start of your next turn.",
           "usedBy": null,
           "reaction": false,
           "battleFormationId": "117d3044-2286-46b0-bcd9-dfaf27e2b6ba",

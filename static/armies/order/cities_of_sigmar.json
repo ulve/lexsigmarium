@@ -1,5 +1,5 @@
 {
-  "dataVersion": 181,
+  "dataVersion": 197,
   "warscrolls": [
     {
       "id": "016d0701-946a-4465-9e4b-48eacb6b19f8",
@@ -55,7 +55,7 @@
           "lore": "The hefty crucibles carried by these arcane metallurgists harness the elemental magics of Chamon and can be used to strengthen the armour of their allies.",
           "usedBy": null,
           "declare": null,
-          "effect": "Pick a friendly Cities of Sigmar Human unit wholly within 12\" of this unit and roll a dice. On a 3+, add 1 to save rolls for that unit until the start of your next turn.",
+          "effect": "Pick a friendly **Cities of Sigmar Human** unit wholly within 12\" of this unit and roll a dice. On a 3+, add 1 to save rolls for that unit until the start of your next turn.",
           "abilityAndCommandIcon": "special",
           "warscrollId": "016d0701-946a-4465-9e4b-48eacb6b19f8",
           "keywords": []
@@ -73,26 +73,26 @@
       ]
     },
     {
-      "id": "03068275-7632-4be3-8266-b35103de35bd",
-      "name": "Assassin",
+      "id": "ecfd8d14-af16-4cb7-b29d-95cf3a8982d6",
+      "name": "Freeguild Marshal and Relic Envoy",
       "subname": null,
-      "lore": "The Assassins of the Shadowblades embody the notion that a blade in the dark can achieve more than an army marching at midday. These are true masters of the killer’s art, able to shroud themselves in gloom so as not to be seen by the naked eye. They believe there is a noble purity in taking a single life to save the lives of many – no matter the method required.\n\nActing as scouts and skirmishers in times of battle, Assassins far prefer to act as independents. If a sorcerous black mark in the shape of a curved blade appears on a person’s flesh, that unfortunate soul has been marked for death. To take flight is futile, and attempts to resist merely prolong the inevitable. There is no fortress, city or fortified war camp that the feared Shadowblade Assassins cannot infiltrate, and few foes can hope to survive the potent deathshead poison delivered by their wicked daggers. Stalking the shadows, the Assassin only reveals their position when they launch a killing strike. Once their target is in their sights, the Assassin seemingly bursts from pure darkness to unleash a flurry of attacks upon their unsuspecting victim.",
-      "bannerImage": "https://dhss9aar8ocw.cloudfront.net/5bffc6ec-5821-4456-a6dc-8364ff41900e",
-      "rowImage": "https://dhss9aar8ocw.cloudfront.net/d628fde9-64ce-4314-98f0-1cfc5ce05764",
+      "lore": "The highest battlefield office in each citizen host is that of the Freeguild Marshal. Each has been trained extensively in the military academies of their home city, their skills honed in the fires of war. When entrusted with the magical weaponry and protective amulets of their parent city, the Marshals reach new levels of deadliness on the field.\n\nThe Marshal is sometimes accompanied by the finest squires from the next generation of recruits. Known as Relic Envoys, these young warriors dart back and forth, delivering messages to ensure all parts of the battleline act in deadly concert. It is common for these runners to bear a relic from their dynastic line, whether this be a revered weapon or the mummified head of a relative. The sacred memento will have been subjected to death rites that allow it to aid its descendants, whispering advice – or nonsense – from the other side of the grave.\n\nFreeguild Marshals who lead from the front are perhaps the most heroic of all. The respect they have won from their warriors is stronger than any shield, and their Relic Envoys ensure their orders always get to where they are needed. When battlelines clash, their skill with sword, hammer and pistol swiftly becomes clear.",
+      "bannerImage": "https://dhss9aar8ocw.cloudfront.net/1e6e40a0-0b9f-4bd7-8bd2-176354a8652b",
+      "rowImage": "https://dhss9aar8ocw.cloudfront.net/ba67a9d3-0882-4720-b512-a5b270885f6b",
       "modelCount": 1,
-      "baseSize": "25mm",
-      "points": 120,
-      "notes": "This Hero can join an eligible regiment as a Shadow Agent.",
+      "baseSize": "32mm [1], 28.5mm [1]",
+      "points": 130,
+      "notes": null,
       "isSpearhead": false,
       "cannotBeReinforced": true,
       "hiddenFromReference": false,
       "hiddenFromStormForge": false,
-      "referenceKeywords": "Hero, Infantry, Order, Cities of Sigmar, Aelf",
-      "move": "6\"",
-      "save": "5+",
+      "referenceKeywords": "Hero, Infantry, Order, Cities of Sigmar, Human",
+      "move": "5\"",
+      "save": "3+",
       "control": "2",
       "health": "5",
-      "wargearOptionsText": null,
+      "wargearOptionsText": "***This unit is armed with 1 of the following options:***\n\n• ***Duelling Pistols and Silvered Shortsword***\n• ***Master-forged Longsword***\n• ***Heirloom Warhammer***\n\n***This unit’s Relic Envoy is a token.***",
       "publicationId": "4bf9d877-a064-448d-b1f7-b48dac5f7d2a",
       "limitingWarscrollId": null,
       "requiredPrimaryHeroWarscrollId": null,
@@ -100,60 +100,100 @@
       "faction": "Cities of Sigmar",
       "weapons": [
         {
-          "id": "391352c3-e6d1-4486-8e40-f1844261731c",
-          "name": "Poison-coated Blades",
+          "id": "208e9f85-783d-46eb-b6a2-0b022c397c50",
+          "name": "Duelling Pistols",
+          "type": "ranged",
+          "range": "10\"",
+          "attacks": "4",
+          "hit": "3+",
+          "wound": "3+",
+          "rend": "1",
+          "damage": "1",
+          "battleDamaged": false,
+          "warscrollId": "ecfd8d14-af16-4cb7-b29d-95cf3a8982d6",
+          "weaponAbilities": [
+            "Shoot in Combat"
+          ]
+        },
+        {
+          "id": "2f2068a6-f666-413b-b821-f9aefd37df05",
+          "name": "Heirloom Warhammer",
           "type": "melee",
           "range": null,
-          "attacks": "6",
+          "attacks": "3",
+          "hit": "4+",
+          "wound": "2+",
+          "rend": "2",
+          "damage": "3",
+          "battleDamaged": false,
+          "warscrollId": "ecfd8d14-af16-4cb7-b29d-95cf3a8982d6",
+          "weaponAbilities": []
+        },
+        {
+          "id": "6d5adfad-54c6-4e99-913e-afcd6a60830f",
+          "name": "Master-forged Longsword",
+          "type": "melee",
+          "range": null,
+          "attacks": "4",
           "hit": "3+",
-          "wound": "4+",
+          "wound": "3+",
           "rend": "1",
           "damage": "2",
           "battleDamaged": false,
-          "warscrollId": "03068275-7632-4be3-8266-b35103de35bd",
-          "weaponAbilities": [
-            "Anti-Hero (+1 Rend)",
-            "Crit (Mortal)"
-          ]
+          "warscrollId": "ecfd8d14-af16-4cb7-b29d-95cf3a8982d6",
+          "weaponAbilities": []
+        },
+        {
+          "id": "c3d51a7b-61d7-4139-afb2-afebb43bdd3e",
+          "name": "Silvered Shortsword",
+          "type": "melee",
+          "range": null,
+          "attacks": "4",
+          "hit": "3+",
+          "wound": "3+",
+          "rend": "1",
+          "damage": "1",
+          "battleDamaged": false,
+          "warscrollId": "ecfd8d14-af16-4cb7-b29d-95cf3a8982d6",
+          "weaponAbilities": []
         }
       ],
       "abilities": [
         {
-          "id": "19dceceb-b74f-49c7-9beb-f16a50ce1ce4",
-          "name": "Hidden Murderer",
+          "id": "16d58d19-54d7-454e-84ce-8e75a31d066c",
+          "name": "Rousing Orator",
           "phaseDetails": "Passive",
-          "phase": "defensive",
+          "phase": "endOfTurn",
           "castingValue": null,
           "cpCost": null,
           "reaction": false,
-          "lore": "Stalking the shadows, the Assassin only reveals their position when they launch a killing strike.",
+          "lore": "In the face of the oncoming enemy, those Freeguild Marshals who stand shoulder to shoulder with their soldiers employ rousing oratory to inspire them to stand strong.",
           "usedBy": null,
           "declare": null,
-          "effect": "While this unit is within the combat range of a friendly Infantry unit that has 5 or more models and this unit is not in combat, this unit is not visible to enemy units.",
-          "abilityAndCommandIcon": "defensive",
-          "warscrollId": "03068275-7632-4be3-8266-b35103de35bd",
+          "effect": "Add 3 to the control scores of other friendly **Cities of Sigmar Human** units while they are wholly within 12\" of this unit.",
+          "abilityAndCommandIcon": "control",
+          "warscrollId": "ecfd8d14-af16-4cb7-b29d-95cf3a8982d6",
           "keywords": []
         },
         {
-          "id": "9280887e-ec9e-4aeb-bb3e-30ea58d31c17",
-          "name": "In For The Kill",
-          "phaseDetails": "Passive",
-          "phase": "combatPhase",
+          "id": "14c89f2c-e8ab-4159-8aec-70ffe394079c",
+          "name": "Attendant Relic Envoy",
+          "phaseDetails": "Start of Battle Round",
+          "phase": "startOfTurn",
           "castingValue": null,
           "cpCost": null,
           "reaction": false,
-          "lore": "With their target in sight, the Assassin bursts from the shadows and unleashes a flurry of attacks upon the unsuspecting victim.",
+          "lore": "It is a great honour for a Relic Envoy to serve beneath a Freeguild Marshal. Their duties include hand-delivering messages to the soldiers of the line.",
           "usedBy": null,
-          "declare": null,
-          "effect": "This unit has Strike-first if it charged in the same turn.",
-          "abilityAndCommandIcon": "offensive",
-          "warscrollId": "03068275-7632-4be3-8266-b35103de35bd",
+          "declare": "Pick a friendly **Cities of Sigmar Human** wholly within 18\" of this unit to be the target.",
+          "effect": "Place this unit’s **Relic Envoy** next to the target (if this unit’s **Relic Envoy** is currently next to a different friendly unit, move it next to the target).\n\nWhile the target has a Relic Envoy next to it, it can be picked to be the target of an **Officar’s Order** ability even if it is not wholly within 12\" of the friendly **Hero** using that ability.\n\nIf this unit is destroyed, remove its **Relic Envoy** from the battlefield.",
+          "abilityAndCommandIcon": "special",
+          "warscrollId": "ecfd8d14-af16-4cb7-b29d-95cf3a8982d6",
           "keywords": []
         }
       ],
       "keywords": [
-        "Aelf",
-        "Shadow Agent",
+        "Human",
         "Infantry",
         "Hero"
       ],
@@ -232,7 +272,7 @@
           "lore": "The skies darken moments before the enemy is shredded by a volley of iron bolts.",
           "usedBy": null,
           "declare": null,
-          "effect": "If this unit has not used a Move ability this turn and was not set up this turn, add 1 to the Attacks characteristic of this unit’s Master‑crafted Repeater Crossbows for the rest of the turn.",
+          "effect": "If this unit has not used a **Move** ability this turn and was not set up this turn, add 1 to the Attacks characteristic of this unit’s **Master‑crafted** **Repeater Crossbows** for the rest of the turn.",
           "abilityAndCommandIcon": "shooting",
           "warscrollId": "0916d14f-db97-46fa-9244-59d1f75f5a1c",
           "keywords": []
@@ -244,6 +284,96 @@
         "Aelf",
         "Musician",
         "Infantry"
+      ],
+      "factionKeywords": [
+        "Cities of Sigmar",
+        "Grand Alliance Order"
+      ]
+    },
+    {
+      "id": "03068275-7632-4be3-8266-b35103de35bd",
+      "name": "Assassin",
+      "subname": null,
+      "lore": "The Assassins of the Shadowblades embody the notion that a blade in the dark can achieve more than an army marching at midday. These are true masters of the killer’s art, able to shroud themselves in gloom so as not to be seen by the naked eye. They believe there is a noble purity in taking a single life to save the lives of many – no matter the method required.\n\nActing as scouts and skirmishers in times of battle, Assassins far prefer to act as independents. If a sorcerous black mark in the shape of a curved blade appears on a person’s flesh, that unfortunate soul has been marked for death. To take flight is futile, and attempts to resist merely prolong the inevitable. There is no fortress, city or fortified war camp that the feared Shadowblade Assassins cannot infiltrate, and few foes can hope to survive the potent deathshead poison delivered by their wicked daggers. Stalking the shadows, the Assassin only reveals their position when they launch a killing strike. Once their target is in their sights, the Assassin seemingly bursts from pure darkness to unleash a flurry of attacks upon their unsuspecting victim.",
+      "bannerImage": "https://dhss9aar8ocw.cloudfront.net/5bffc6ec-5821-4456-a6dc-8364ff41900e",
+      "rowImage": "https://dhss9aar8ocw.cloudfront.net/d628fde9-64ce-4314-98f0-1cfc5ce05764",
+      "modelCount": 1,
+      "baseSize": "25mm",
+      "points": 120,
+      "notes": "This **Hero** can join an eligible regiment as a *Shadow Agent*.",
+      "isSpearhead": false,
+      "cannotBeReinforced": true,
+      "hiddenFromReference": false,
+      "hiddenFromStormForge": false,
+      "referenceKeywords": "Hero, Infantry, Order, Cities of Sigmar, Aelf",
+      "move": "6\"",
+      "save": "5+",
+      "control": "2",
+      "health": "5",
+      "wargearOptionsText": null,
+      "publicationId": "4bf9d877-a064-448d-b1f7-b48dac5f7d2a",
+      "limitingWarscrollId": null,
+      "requiredPrimaryHeroWarscrollId": null,
+      "isLegends": false,
+      "faction": "Cities of Sigmar",
+      "weapons": [
+        {
+          "id": "391352c3-e6d1-4486-8e40-f1844261731c",
+          "name": "Poison-coated Blades",
+          "type": "melee",
+          "range": null,
+          "attacks": "6",
+          "hit": "3+",
+          "wound": "4+",
+          "rend": "1",
+          "damage": "2",
+          "battleDamaged": false,
+          "warscrollId": "03068275-7632-4be3-8266-b35103de35bd",
+          "weaponAbilities": [
+            "Anti-Hero (+1 Rend)",
+            "Crit (Mortal)"
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "id": "19dceceb-b74f-49c7-9beb-f16a50ce1ce4",
+          "name": "Hidden Murderer",
+          "phaseDetails": "Passive",
+          "phase": "defensive",
+          "castingValue": null,
+          "cpCost": null,
+          "reaction": false,
+          "lore": "Stalking the shadows, the Assassin only reveals their position when they launch a killing strike.",
+          "usedBy": null,
+          "declare": null,
+          "effect": "While this unit is within the combat range of a friendly **Infantry** unit that has 5 or more models and this unit is not in combat, this unit is not visible to enemy units.",
+          "abilityAndCommandIcon": "defensive",
+          "warscrollId": "03068275-7632-4be3-8266-b35103de35bd",
+          "keywords": []
+        },
+        {
+          "id": "9280887e-ec9e-4aeb-bb3e-30ea58d31c17",
+          "name": "In For The Kill",
+          "phaseDetails": "Passive",
+          "phase": "combatPhase",
+          "castingValue": null,
+          "cpCost": null,
+          "reaction": false,
+          "lore": "With their target in sight, the Assassin bursts from the shadows and unleashes a flurry of attacks upon the unsuspecting victim.",
+          "usedBy": null,
+          "declare": null,
+          "effect": "This unit has **Strike-first** if it charged in the same turn.",
+          "abilityAndCommandIcon": "offensive",
+          "warscrollId": "03068275-7632-4be3-8266-b35103de35bd",
+          "keywords": []
+        }
+      ],
+      "keywords": [
+        "Aelf",
+        "Shadow Agent",
+        "Infantry",
+        "Hero"
       ],
       "factionKeywords": [
         "Cities of Sigmar",
@@ -324,22 +454,6 @@
       ],
       "abilities": [
         {
-          "id": "3e8c65b0-5f3f-4bd7-a4a6-c0899ea5a1de",
-          "name": "Searing Beam of Light",
-          "phaseDetails": "Passive",
-          "phase": "shootingPhase",
-          "castingValue": null,
-          "cpCost": null,
-          "reaction": false,
-          "lore": "As interlocking lenses of aetherquartz click into place, a beam of blinding white light shoots forth to incinerate all before it.",
-          "usedBy": null,
-          "declare": null,
-          "effect": "Each time this unit attacks with its Searing Beam of Light, pick a point on the battlefield within range to be the target. If the attack scores a hit, draw a straight line between that point and the closest point on this unit’s base. Inflict D3 mortal damage on each visible unit (friendly and enemy) that the line passes across.",
-          "abilityAndCommandIcon": "shooting",
-          "warscrollId": "050713ea-9152-43aa-bc34-d6cee274d2c1",
-          "keywords": []
-        },
-        {
           "id": "ea13e9a1-5fd9-4d0b-affa-5bb39e813644",
           "name": "Aura of Protection",
           "phaseDetails": "Passive",
@@ -350,8 +464,24 @@
           "lore": "Luminarks of Hysh are surrounded by a protective magical aura.",
           "usedBy": null,
           "declare": null,
-          "effect": "Friendly Cities of Sigmar units have Ward (6+) while they are wholly within 12\" of this unit.",
+          "effect": "Friendly **Cities of Sigmar** units have **Ward (6+)** while they are wholly within 12\" of this unit.",
           "abilityAndCommandIcon": "defensive",
+          "warscrollId": "050713ea-9152-43aa-bc34-d6cee274d2c1",
+          "keywords": []
+        },
+        {
+          "id": "3e8c65b0-5f3f-4bd7-a4a6-c0899ea5a1de",
+          "name": "Searing Beam of Light",
+          "phaseDetails": "Passive",
+          "phase": "shootingPhase",
+          "castingValue": null,
+          "cpCost": null,
+          "reaction": false,
+          "lore": "As interlocking lenses of aetherquartz click into place, a beam of blinding white light shoots forth to incinerate all before it.",
+          "usedBy": null,
+          "declare": null,
+          "effect": "Each time this unit attacks with its **Searing Beam of Light**, pick a point on the battlefield within range to be the target. If the attack scores a hit, draw a straight line between that point and the closest point on this unit’s base. Inflict D3 mortal damage on each visible unit (friendly and enemy) that the line passes across.",
+          "abilityAndCommandIcon": "shooting",
           "warscrollId": "050713ea-9152-43aa-bc34-d6cee274d2c1",
           "keywords": []
         }
@@ -360,6 +490,90 @@
         "War Machine",
         "Wizard",
         "Human",
+        "Hero"
+      ],
+      "factionKeywords": [
+        "Cities of Sigmar",
+        "Grand Alliance Order"
+      ]
+    },
+    {
+      "id": "9a485194-3972-471d-bede-c4a5c9079794",
+      "name": "Cogsmith",
+      "subname": null,
+      "lore": "A guild unto itself, the Ironweld Arsenal specialises in the wielding of blackpowder and the creation of war engines. It counts talented human engineers as well as duardin amongst its number, though it is typically seen as a duardin-led institution. After all, it is usually a duardin Cogsmith to be found at the helm of each Ironweld delegation, a figure easily recognised by the smoking-brazier icon they wear upon their backs and the heavy-duty guns that they wield in battle. These inveterate tinkerers and combat engineers are known for their skill at siting and optimising gun emplacements, making field repairs whenever necessary to ensure a high rate of fire and ensuring the great cannons of the Castelite formations are used to deadly effect.\n\nGrizzled combat engineers who know how to squeeze peak performance and killing power from any war machine, Cogsmiths are also proficient warriors capable of cutting down those who would interfere with their field repairs – any foe that interrupts their inspections tends to meet a messy end at the barrel of a grudge-raker.",
+      "bannerImage": "https://dhss9aar8ocw.cloudfront.net/7c0bc31c-1fd6-430d-969d-c138773ae22f",
+      "rowImage": "https://dhss9aar8ocw.cloudfront.net/45405e3c-e03f-45df-86a8-c66f23e46e58",
+      "modelCount": 1,
+      "baseSize": "25mm",
+      "points": 130,
+      "notes": "This **Hero** can join a **Warden King**’s regiment.",
+      "isSpearhead": false,
+      "cannotBeReinforced": true,
+      "hiddenFromReference": false,
+      "hiddenFromStormForge": false,
+      "referenceKeywords": "Hero, Infantry, Order, Cities of Sigmar, Duardin",
+      "move": "4\"",
+      "save": "3+",
+      "control": "2",
+      "health": "5",
+      "wargearOptionsText": null,
+      "publicationId": "4bf9d877-a064-448d-b1f7-b48dac5f7d2a",
+      "limitingWarscrollId": null,
+      "requiredPrimaryHeroWarscrollId": null,
+      "isLegends": false,
+      "faction": "Cities of Sigmar",
+      "weapons": [
+        {
+          "id": "4cde793a-79f1-4509-9195-5c1caab665b0",
+          "name": "Gun Butt and Cog Axe",
+          "type": "melee",
+          "range": null,
+          "attacks": "3",
+          "hit": "4+",
+          "wound": "4+",
+          "rend": "1",
+          "damage": "2",
+          "battleDamaged": false,
+          "warscrollId": "9a485194-3972-471d-bede-c4a5c9079794",
+          "weaponAbilities": []
+        },
+        {
+          "id": "8dce0f37-1811-4e2d-9725-dc53855689e2",
+          "name": "Cogsmith’s Firearms",
+          "type": "ranged",
+          "range": "15\"",
+          "attacks": "4",
+          "hit": "3+",
+          "wound": "3+",
+          "rend": "1",
+          "damage": "1",
+          "battleDamaged": false,
+          "warscrollId": "9a485194-3972-471d-bede-c4a5c9079794",
+          "weaponAbilities": []
+        }
+      ],
+      "abilities": [
+        {
+          "id": "c1693b4a-1b50-40f2-a902-6ffe947414f5",
+          "name": "Direct the Gyrocopters",
+          "phaseDetails": "Once Per Turn (Army), Your Hero Phase",
+          "phase": "heroPhase",
+          "castingValue": null,
+          "cpCost": null,
+          "reaction": false,
+          "lore": "With phosphorescent munitions, Cogsmiths can direct bombing runs and counterattacks by the gyro-machines of the Ironweld Arsenal.",
+          "usedBy": null,
+          "declare": "Pick up to 3 visible friendly **Gyrocopter** or **Gyrobomber** units wholly within 18\" of this unit to be the targets.",
+          "effect": "Roll a dice for each target. On a 3+, add 1 to hit rolls for the target’s attacks until the start of your next turn.",
+          "abilityAndCommandIcon": "offensive",
+          "warscrollId": "9a485194-3972-471d-bede-c4a5c9079794",
+          "keywords": []
+        }
+      ],
+      "keywords": [
+        "Duardin",
+        "Infantry",
         "Hero"
       ],
       "factionKeywords": [
@@ -451,7 +665,23 @@
           "lore": "When ammunition runs low, Blackpowder Squires bring fresh supplies to the line.",
           "usedBy": null,
           "declare": null,
-          "effect": "This unit has a Blackpowder Squire token. Each time this unit uses a Shoot ability, if this unit’s Blackpowder Squire is on the battlefield, you can re-roll 1 hit roll. If a hit roll re-rolled in this manner is 1, remove this unit’s Blackpowder Squire from the battlefield.",
+          "effect": "This unit has a **Blackpowder Squire** token. Each time this unit uses a **Shoot** ability, if this unit’s **Blackpowder Squire** is on the battlefield, you can re-roll 1 hit roll. If a hit roll re-rolled in this manner is 1, remove this unit’s **Blackpowder Squire** from the battlefield.",
+          "abilityAndCommandIcon": "shooting",
+          "warscrollId": "07ca0169-5510-4965-9907-49e5797ae98d",
+          "keywords": []
+        },
+        {
+          "id": "7fa812f2-2431-4d91-a3c7-3f575b253fa2",
+          "name": "Fusiliers, Fire!",
+          "phaseDetails": "Passive",
+          "phase": "shootingPhase",
+          "castingValue": null,
+          "cpCost": null,
+          "reaction": false,
+          "lore": "When in position, Fusiliers unleash devastating volleys of fire into the enemy lines.",
+          "usedBy": null,
+          "declare": null,
+          "effect": "Each time this unit uses a **Shoot** ability, if it is in a **fortified position**, it can pick either of the ranged weapon profiles for all the attacks it makes with its **Fusil‐cannons**. If it is not in a fortified position, use the **Mobile** weapon characteristics.",
           "abilityAndCommandIcon": "shooting",
           "warscrollId": "07ca0169-5510-4965-9907-49e5797ae98d",
           "keywords": []
@@ -467,28 +697,12 @@
           "lore": "Heavy pavises are slammed into the dirt, forming a wall of oak and iron as strong as a fortification.",
           "usedBy": null,
           "declare": null,
-          "effect": "This unit establishes a fortified position and remains in a fortified position until it either uses a Move ability or is removed from the battlefield. While this unit is in a fortified position, subtract 1 from the Rend characteristic of weapons used for attacks that target this unit.",
+          "effect": "This unit establishes a fortified position and remains in a fortified position until it either uses a **Move** ability or is removed from the battlefield. While this unit is in a fortified position, subtract 1 from the Rend characteristic of weapons used for attacks that target this unit.",
           "abilityAndCommandIcon": "defensive",
           "warscrollId": "07ca0169-5510-4965-9907-49e5797ae98d",
           "keywords": [
             "Core"
           ]
-        },
-        {
-          "id": "7fa812f2-2431-4d91-a3c7-3f575b253fa2",
-          "name": "Fusiliers, Fire!",
-          "phaseDetails": "Passive",
-          "phase": "shootingPhase",
-          "castingValue": null,
-          "cpCost": null,
-          "reaction": false,
-          "lore": "When in position, Fusiliers unleash devastating volleys of fire into the enemy lines.",
-          "usedBy": null,
-          "declare": null,
-          "effect": "Each time this unit uses a Shoot ability, if it is in a fortified position, it can pick either of the ranged weapon profiles for all the attacks it makes with its Fusil‐cannons. If it is not in a fortified position, use the Mobile weapon characteristics.",
-          "abilityAndCommandIcon": "shooting",
-          "warscrollId": "07ca0169-5510-4965-9907-49e5797ae98d",
-          "keywords": []
         }
       ],
       "keywords": [
@@ -588,7 +802,7 @@
           "lore": "The twinheaded griffons of Ghur ridden by Amber Battlemages are alpha predators that prey upon other megafauna.",
           "usedBy": null,
           "declare": null,
-          "effect": "Roll a dice. On a 2+, add 1 to the Damage characteristic of this unit’s Griffon’s Razor Claws and Twin Beaks for attacks that target enemy Monsters for the rest of the turn.",
+          "effect": "Roll a dice. On a 2+, add 1 to the Damage characteristic of this unit’s **Griffon’s Razor Claws and Twin Beaks** for attacks that target enemy **Monsters** for the rest of the turn.",
           "abilityAndCommandIcon": "offensive",
           "warscrollId": "185ed666-154a-4b5c-ada3-cc0d5f976f07",
           "keywords": [
@@ -606,7 +820,7 @@
           "lore": null,
           "usedBy": null,
           "declare": null,
-          "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its Griffon’s Razor Claws and Twin Beaks is 4.",
+          "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its **Griffon’s Razor Claws and Twin Beaks** is 4.",
           "abilityAndCommandIcon": "battleDamaged",
           "warscrollId": "185ed666-154a-4b5c-ada3-cc0d5f976f07",
           "keywords": []
@@ -677,8 +891,8 @@
           "reaction": false,
           "lore": "Calling upon the latent power of runic engravings, Runelords imbue the weapons of their kin with ancient might.",
           "usedBy": null,
-          "declare": "Pick a friendly Cities of Sigmar Duardin unit wholly within 12\" of this unit to be the target, then make a chanting roll of D6.",
-          "effect": "Until the start of your next turn, add 1 to the Rend characteristic of the target’s melee weapons. In addition, if the chanting roll was 10+, pick another friendly Cities of Sigmar Duardin unit wholly within 12\" of this unit. Add 1 to the Rend characteristic of that unit’s melee weapons until the start of your next turn as well.",
+          "declare": "Pick a friendly **Cities of Sigmar Duardin** unit wholly within 12\" of this unit to be the target, then make a chanting roll of D6.",
+          "effect": "Until the start of your next turn, add 1 to the Rend characteristic of the target’s melee weapons. In addition, if the chanting roll was 10+, pick another friendly **Cities of Sigmar Duardin** unit wholly within 12\" of this unit. Add 1 to the Rend characteristic of that unit’s melee weapons until the start of your next turn as well.",
           "abilityAndCommandIcon": "offensive",
           "warscrollId": "23632584-b208-433c-b4a8-c0b7a4a51993",
           "keywords": [
@@ -696,7 +910,7 @@
           "lore": "Runelords dampen the magic of their enemies with ancient sigils of unbinding.",
           "usedBy": null,
           "declare": null,
-          "effect": "This unit can use the ‘Unbind’ ability as if it had Wizard (1).",
+          "effect": "This unit can use the ‘Unbind’ ability as if it had **Wizard (1)**.",
           "abilityAndCommandIcon": "special",
           "warscrollId": "23632584-b208-433c-b4a8-c0b7a4a51993",
           "keywords": []
@@ -723,7 +937,7 @@
       "modelCount": 1,
       "baseSize": "50mm",
       "points": 180,
-      "notes": "This Hero can join an eligible regiment as a Freeguild Veteran.",
+      "notes": "This **Hero** can join an eligible regiment as a *Freeguild Veteran*.",
       "isSpearhead": false,
       "cannotBeReinforced": true,
       "hiddenFromReference": false,
@@ -784,7 +998,7 @@
           "lore": "Experts in ballistics, Fusil-Majors can direct the fire of nearby Castelite formations to eliminate priority targets.",
           "usedBy": null,
           "declare": "Pick an enemy unit that was targeted by this unit’s shooting attacks this turn to be the target.",
-          "effect": "Add 1 to hit rolls for shooting attacks made by friendly Cities of Sigmar Human units that target that unit for the rest of the turn.",
+          "effect": "Add 1 to hit rolls for shooting attacks made by friendly **Cities of Sigmar Human** units that target that unit for the rest of the turn.",
           "abilityAndCommandIcon": "shooting",
           "warscrollId": "21aced02-cbff-4bcf-a08d-eb7f471f1794",
           "keywords": []
@@ -800,7 +1014,7 @@
           "lore": "The massive shield carried by a Warhulk is strong enough to deflect a blow from a gargant’s club.",
           "usedBy": null,
           "declare": null,
-          "effect": "This unit establishes a fortified position and remains in a fortified position until it either uses a Move ability or is removed from the battlefield. While this unit is in a fortified position, subtract 1 from the Rend characteristic of weapons used for attacks that target this unit.",
+          "effect": "This unit establishes a fortified position and remains in a fortified position until it either uses a **Move** ability or is removed from the battlefield. While this unit is in a fortified position, subtract 1 from the Rend characteristic of weapons used for attacks that target this unit.",
           "abilityAndCommandIcon": "defensive",
           "warscrollId": "21aced02-cbff-4bcf-a08d-eb7f471f1794",
           "keywords": [
@@ -873,7 +1087,7 @@
           "lore": "These warriors are oathsworn to protect their liege.",
           "usedBy": null,
           "declare": null,
-          "effect": "While any friendly Cities of Sigmar Duardin Infantry Heroes are wholly within this unit’s combat range, both this unit and those friendly units have Ward (5+).",
+          "effect": "While any friendly **Cities of Sigmar Duardin** **Infantry Heroes** are wholly within this unit’s combat range, both this unit and those friendly units have **Ward (5+)**.",
           "abilityAndCommandIcon": "defensive",
           "warscrollId": "35ab1eee-e79b-4f2d-b454-b0f75049b355",
           "keywords": []
@@ -963,7 +1177,7 @@
           "lore": "As the Drakespawn tear apart their prey, the scent of fresh gore sends them into a frenzy.",
           "usedBy": null,
           "declare": null,
-          "effect": "For the rest of the turn, add 1 to the Attacks characteristic of this unit’s Drakespawn’s Ferocious Jaws while it is in combat with any damaged enemy units or while it is in combat with any enemy units that have had any models slain.",
+          "effect": "For the rest of the turn, add 1 to the Attacks characteristic of this unit’s **Drakespawn’s Ferocious Jaws** while it is in combat with any damaged enemy units or while it is in combat with any enemy units that have had any models slain.",
           "abilityAndCommandIcon": "offensive",
           "warscrollId": "36023375-81bb-4f58-a9f8-6075c724530c",
           "keywords": []
@@ -1039,24 +1253,6 @@
       ],
       "abilities": [
         {
-          "id": "c120d267-dedc-4c80-8a91-f882bf7427ca",
-          "name": "Vessel of Sigmar",
-          "phaseDetails": "Your Hero Phase",
-          "phase": "heroPhase",
-          "castingValue": 5,
-          "cpCost": null,
-          "reaction": false,
-          "lore": "Channelling the divine might of the God-King, Pontifex Zenestra has the power to bless the very earth around her.",
-          "usedBy": null,
-          "declare": "Make a chanting roll of D6.",
-          "effect": "Pick 1 of the following effects to apply until the start of your next turn. Pick up to 2 different effects instead if the chanting roll was 10+.\n\nThe Great Wheel Turns: Add 2\" to the Move characteristic of friendly Cities of Sigmar Human units if they are wholly within 12\" of this unit at the start of the move.\n\nHallowed Ground: Friendly Cities of Sigmar Human units have Ward (5+) while they are wholly within 12\" of this unit.\n\nCast Out Evil: Roll a D3 for each enemy Wizard and Priest on the battlefield. On a 2+, inflict an amount of mortal damage on that unit equal to the roll.",
-          "abilityAndCommandIcon": "special",
-          "warscrollId": "3a9c9679-7e65-4c96-93dd-b5977cafa70b",
-          "keywords": [
-            "Prayer"
-          ]
-        },
-        {
           "id": "c7fa0d31-a6ab-4123-b67f-fcedc447978c",
           "name": "Voice of the God-king",
           "phaseDetails": "Passive",
@@ -1067,10 +1263,28 @@
           "lore": "Zenestra is the mouthpiece of Sigmar himself upon the battlefield; with a simple utterance, she can banish the sorceries of the enemy.",
           "usedBy": null,
           "declare": null,
-          "effect": "This unit can use the ‘Unbind’ ability as if it had Wizard (1).",
+          "effect": "This unit can use the ‘Unbind’ ability as if it had **Wizard (1)**.",
           "abilityAndCommandIcon": "special",
           "warscrollId": "3a9c9679-7e65-4c96-93dd-b5977cafa70b",
           "keywords": []
+        },
+        {
+          "id": "c120d267-dedc-4c80-8a91-f882bf7427ca",
+          "name": "Vessel of Sigmar",
+          "phaseDetails": "Your Hero Phase",
+          "phase": "heroPhase",
+          "castingValue": 5,
+          "cpCost": null,
+          "reaction": false,
+          "lore": "Channelling the divine might of the God-King, Pontifex Zenestra has the power to bless the very earth around her.",
+          "usedBy": null,
+          "declare": "Make a chanting roll of D6.",
+          "effect": "Pick 1 of the following effects to apply until the start of your next turn. Pick up to 2 different effects instead if the chanting roll was 10+.\n\n***The Great Wheel Turns:*** Add 2\" to the Move characteristic of friendly **Cities of Sigmar Human** units if they are wholly within 12\" of this unit at the start of the move.\n\n***Hallowed Ground:*** Friendly **Cities of Sigmar Human** units have **Ward (5+)** while they are wholly within 12\" of this unit.\n\n***Cast Out Evil:*** Roll a D3 for each enemy **Wizard** and **Priest** on the battlefield. On a 2+, inflict an amount of mortal damage on that unit equal to the roll.",
+          "abilityAndCommandIcon": "special",
+          "warscrollId": "3a9c9679-7e65-4c96-93dd-b5977cafa70b",
+          "keywords": [
+            "Prayer"
+          ]
         }
       ],
       "keywords": [
@@ -1080,154 +1294,6 @@
         "Infantry",
         "Ward (4+)",
         "Hero"
-      ],
-      "factionKeywords": [
-        "Cities of Sigmar",
-        "Grand Alliance Order"
-      ]
-    },
-    {
-      "id": "4367a305-83ac-415e-b2b3-d26b86050468",
-      "name": "Freeguild Command Corps",
-      "subname": null,
-      "lore": "The Command Corps are a group of experts, champions and specialists that guide the Marshal in matters of war. Standing by their commander are the Arch‑Knights, exemplars of the blade and axe who protect their lord in battle. Each bears a fierce totem fashioned after a great beast that reflects their fighting style. Next is a Great Herald, who holds aloft the regimental banner that will be planted at the heart of a new settlement. It is their role to sound the advance, charge and timely retreat.\n\nMost Command Corps include a War Surgeon skilled in the arts of triage and amputation. They are incredibly proficient, able to perform medical miracles even under fire on the battlefield. Should a soldier succumb to their injuries, however, their soul is guided to their afterlife by the Soul Shepherds, allowing them to escape the clutches of Nagash. The strange piping of the Shepherds’ homunculi is silent to the living, but a lilting requiem can be heard as one approaches death.\n\nLurking in the shadows are the Whisperblades, who keep the Marshal apprised of dissent. They wear cloaks of Ulguan falsecloth that allow them to blend with darkness – all the better to listen, learn and assassinate.",
-      "bannerImage": "https://dhss9aar8ocw.cloudfront.net/85ffc7ed-bc21-4eff-b9d4-a3de8eebca12",
-      "rowImage": "https://dhss9aar8ocw.cloudfront.net/3759eb83-28ee-456c-b501-4b23120d6bc9",
-      "modelCount": 6,
-      "baseSize": "40mm [1], 32mm [1], 28.5mm [5]",
-      "points": 190,
-      "notes": "This unit cannot be reinforced.",
-      "isSpearhead": false,
-      "cannotBeReinforced": true,
-      "hiddenFromReference": false,
-      "hiddenFromStormForge": false,
-      "referenceKeywords": "Infantry, Standard Bearer (1/6), Order, Cities of Sigmar, Human",
-      "move": "5\"",
-      "save": "4+",
-      "control": "2",
-      "health": "3",
-      "wargearOptionsText": "The Great Herald, War Surgeon and Soul Shepherd are each armed with an Assortment of Weapons. The Arch-Knight is armed with a Sigmarite Great Weapon. The Whisperblade is armed with an Enchanted Rapier. The Mascot Gargoylian is armed with a Gargoylian’s Bite.",
-      "publicationId": "4bf9d877-a064-448d-b1f7-b48dac5f7d2a",
-      "limitingWarscrollId": null,
-      "requiredPrimaryHeroWarscrollId": null,
-      "isLegends": false,
-      "faction": "Cities of Sigmar",
-      "weapons": [
-        {
-          "id": "7d0b94c5-bee3-473e-b00f-63e05a3584b9",
-          "name": "Assortment of Weapons",
-          "type": "melee",
-          "range": null,
-          "attacks": "2",
-          "hit": "3+",
-          "wound": "4+",
-          "rend": "-",
-          "damage": "1",
-          "battleDamaged": false,
-          "warscrollId": "4367a305-83ac-415e-b2b3-d26b86050468",
-          "weaponAbilities": []
-        },
-        {
-          "id": "8b61285a-2dde-4f75-9638-9f76a9f39d25",
-          "name": "Sigmarite Great Weapon",
-          "type": "melee",
-          "range": null,
-          "attacks": "4",
-          "hit": "3+",
-          "wound": "3+",
-          "rend": "1",
-          "damage": "D3",
-          "battleDamaged": false,
-          "warscrollId": "4367a305-83ac-415e-b2b3-d26b86050468",
-          "weaponAbilities": []
-        },
-        {
-          "id": "9152587e-a6c7-4230-a9b0-7a67f4adbcc7",
-          "name": "Enchanted Rapier",
-          "type": "melee",
-          "range": null,
-          "attacks": "1",
-          "hit": "2+",
-          "wound": "4+",
-          "rend": "2",
-          "damage": "D6",
-          "battleDamaged": false,
-          "warscrollId": "4367a305-83ac-415e-b2b3-d26b86050468",
-          "weaponAbilities": [
-            "Crit (Mortal)"
-          ]
-        },
-        {
-          "id": "eb84b164-270b-4a94-8b59-a688aee46abb",
-          "name": "Gargoylian’s Bite",
-          "type": "melee",
-          "range": null,
-          "attacks": "3",
-          "hit": "4+",
-          "wound": "3+",
-          "rend": "1",
-          "damage": "D3",
-          "battleDamaged": false,
-          "warscrollId": "4367a305-83ac-415e-b2b3-d26b86050468",
-          "weaponAbilities": [
-            "Companion"
-          ]
-        }
-      ],
-      "abilities": [
-        {
-          "id": "9f6d7284-8ca0-4a1c-b70f-c5e1b0469a66",
-          "name": "The Marshal's Retinue",
-          "phaseDetails": "Passive",
-          "phase": "defensive",
-          "castingValue": null,
-          "cpCost": null,
-          "reaction": false,
-          "lore": "As well as bringing their diverse range of skills to the battlefield, the warriors and wisemen of the Command Corps have each sworn to guard the life of a Marshal with their own.",
-          "usedBy": null,
-          "declare": null,
-          "effect": "While any friendly Freeguild Marshal and Relic Envoy units are wholly within this unit’s combat range, both this unit and those friendly units have Ward (5+).",
-          "abilityAndCommandIcon": "defensive",
-          "warscrollId": "4367a305-83ac-415e-b2b3-d26b86050468",
-          "keywords": []
-        },
-        {
-          "id": "c56c771f-d50a-479b-851d-832c6422b219",
-          "name": "Freeguild Adjutant",
-          "phaseDetails": "Once Per Battle Round (Army), Any Hero Phase",
-          "phase": "heroPhase",
-          "castingValue": null,
-          "cpCost": null,
-          "reaction": false,
-          "lore": "Each member of the Command Corps has their own special skills to be employed.",
-          "usedBy": null,
-          "declare": "Pick a friendly Cities of Sigmar Human unit wholly within 12\" of this unit to be the target.",
-          "effect": "For the rest of the turn, the first time the target uses the ‘Redeploy’, ‘Rally’, ‘Covering Fire’ or ‘Countercharge’ command, you can pick another friendly Cities of Sigmar Human unit wholly within 12\" of this unit and that has not used a command this phase to use the same command immediately after the first has been resolved (this is an exception to Commands, 1.2). You must still spend command points as normal to use the command a second time.",
-          "abilityAndCommandIcon": "special",
-          "warscrollId": "4367a305-83ac-415e-b2b3-d26b86050468",
-          "keywords": []
-        },
-        {
-          "id": "dc23c37a-e132-42c7-89db-2cd4c7a40b4c",
-          "name": "Dispatch Spies",
-          "phaseDetails": "Once Per Battle (Army), Reaction: Opponent declared a command for a unit within 12\" of this unit",
-          "phase": "startOfTurn",
-          "castingValue": null,
-          "cpCost": null,
-          "reaction": true,
-          "lore": "The Whisperblades have networks of informants and operatives at their disposal that they use to unravel the best-laid plans of the enemy.",
-          "usedBy": null,
-          "declare": null,
-          "effect": "Unless your opponent spends 1 additional command point to use that command, the command has no effect, it still counts as having been used and the command points spent to use the command are still lost.",
-          "abilityAndCommandIcon": "special",
-          "warscrollId": "4367a305-83ac-415e-b2b3-d26b86050468",
-          "keywords": []
-        }
-      ],
-      "keywords": [
-        "Standard Bearer",
-        "Human",
-        "Infantry"
       ],
       "factionKeywords": [
         "Cities of Sigmar",
@@ -1306,7 +1372,7 @@
           "lore": null,
           "usedBy": null,
           "declare": null,
-          "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its Griffon’s Razor Claws and Deadly Beak is 4.",
+          "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its **Griffon’s Razor Claws and Deadly Beak** is 4.",
           "abilityAndCommandIcon": "battleDamaged",
           "warscrollId": "4f3a937e-f9af-4dbe-b6d2-e83ce05b4f66",
           "keywords": []
@@ -1428,7 +1494,7 @@
           "reaction": false,
           "lore": "Celestial Hurricanums leak magical energy, granting nearby soldiers visions of the imminent future that allow them to land their blows with uncanny accuracy.",
           "usedBy": null,
-          "declare": "Pick up to D3 visible friendly Cities of Sigmar Human units wholly within 12\" of this unit to be the targets.",
+          "declare": "Pick up to D3 visible friendly **Cities of Sigmar Human** units wholly within 12\" of this unit to be the targets.",
           "effect": "Add 1 to hit rolls for the targets’ combat attacks until the start of your next turn.",
           "abilityAndCommandIcon": "offensive",
           "warscrollId": "53982959-8889-419e-a9c3-518ac487aae4",
@@ -1438,79 +1504,6 @@
       "keywords": [
         "War Machine",
         "Human"
-      ],
-      "factionKeywords": [
-        "Cities of Sigmar",
-        "Grand Alliance Order"
-      ]
-    },
-    {
-      "id": "55b21ca7-b8aa-4ad2-af81-262e5ea5a3a0",
-      "name": "Black Ark Fleetmaster",
-      "subname": null,
-      "lore": "The deft and decisive Fleetmasters who lead the Scourge Privateers explore the seas of the realms with watchful eyes in much the same way the Dawnbringers traverse the lands. Each commands a Black Ark, a floating sea-fortress the size of a castle that forms the heart of their fleet. The waters of the Mortal Realms are thick with hazards, from flesh-eating seaweed to spine-flinging gyresharks that can bite a vessel clean in half. Rather than fight a thankless war against these beasts, the masters of the Scourge fleets learn to avoid or even harness them using a combination of enchantment, patience and aelven artifice.\n\nThe Fleetmasters are known not only for the speed of their assaults but also for their flair. As happy to inveigle themselves into high society as they are to stoop to the gutter, they cut quite a dash in their frill-collared drakeskin cloaks. Any would-be rivals who underestimate them are soon corrected by force; the dexterity with which Fleetmasters wield the blade is quite incredible. Though nominally a part of the God-King’s great alliance, all such lords crave power unto themselves. Many a Fleetmaster sitting upon the Grand Conclave of a fortress-city has friends in low places, a commanding interest in the local narcotics market or a lucrative sideline in smuggling prohibited goods.",
-      "bannerImage": "https://dhss9aar8ocw.cloudfront.net/2f885ad9-af7c-45f4-b880-0c1fb92155dc",
-      "rowImage": "https://dhss9aar8ocw.cloudfront.net/60d6f140-7968-4a88-a48d-68d273828d7d",
-      "modelCount": 1,
-      "baseSize": "25mm",
-      "points": 110,
-      "notes": "This Hero can join an eligible regiment as a Shadow Agent.",
-      "isSpearhead": false,
-      "cannotBeReinforced": true,
-      "hiddenFromReference": false,
-      "hiddenFromStormForge": false,
-      "referenceKeywords": "Hero, Infantry, Order, Cities of Sigmar, Aelf",
-      "move": "6\"",
-      "save": "4+",
-      "control": "2",
-      "health": "5",
-      "wargearOptionsText": null,
-      "publicationId": "4bf9d877-a064-448d-b1f7-b48dac5f7d2a",
-      "limitingWarscrollId": null,
-      "requiredPrimaryHeroWarscrollId": null,
-      "isLegends": false,
-      "faction": "Cities of Sigmar",
-      "weapons": [
-        {
-          "id": "01fbe37c-f670-48df-9d9d-fb89eafd2c73",
-          "name": "Wicked Cutlass and Murder Hook",
-          "type": "melee",
-          "range": null,
-          "attacks": "5",
-          "hit": "3+",
-          "wound": "4+",
-          "rend": "1",
-          "damage": "2",
-          "battleDamaged": false,
-          "warscrollId": "55b21ca7-b8aa-4ad2-af81-262e5ea5a3a0",
-          "weaponAbilities": [
-            "Crit (Mortal)"
-          ]
-        }
-      ],
-      "abilities": [
-        {
-          "id": "a8788ee3-241d-4b91-96ad-a26cd90b2a99",
-          "name": "'At Them, You Curs!'",
-          "phaseDetails": "Reaction: You declared a Fight ability for this unit",
-          "phase": "combatPhase",
-          "castingValue": null,
-          "cpCost": null,
-          "reaction": true,
-          "lore": "Under the gaze of their Fleetmaster, Scourge Corsairs slaughter the enemy without mercy.",
-          "usedBy": null,
-          "declare": null,
-          "effect": "Pick a friendly Black Ark Corsairs unit that has not used a Fight ability this turn and is within this unit’s combat range to be the target.\n\nThe target can be picked to use a Fight ability immediately after the Fight ability used by this unit has been resolved. If it is picked to do so, add 1 to the Attacks characteristic of the target’s melee weapons for the rest of the turn.",
-          "abilityAndCommandIcon": "offensive",
-          "warscrollId": "55b21ca7-b8aa-4ad2-af81-262e5ea5a3a0",
-          "keywords": []
-        }
-      ],
-      "keywords": [
-        "Shadow Agent",
-        "Infantry",
-        "Fly",
-        "Hero"
       ],
       "factionKeywords": [
         "Cities of Sigmar",
@@ -1681,165 +1674,6 @@
       ]
     },
     {
-      "id": "67fdc959-85c3-4f61-9213-81fa277a3b14",
-      "name": "Doralia ven Denst",
-      "subname": null,
-      "lore": "Despite her youth, Doralia ven Denst is a renowned agent of the Order of Azyr. Not only a hunter of witches and warlocks, she is a specialist in dispelling the endless spells they unleash, banishing them with consecrated blade and crossbow bolt alike. Her weapons inscribed with the holy writ of Sigmar and inlaid with nullstone and silver, Doralia is considered by many within the Order to be a prodigy.\n\nDoralia is a woman of incredible resolve. In battle, she will not stop or flee until the horrors she is facing are either banished or burnt to dust by Sigmar’s grace. After years of training with Galen, her father and mentor, the pair fight as a well-oiled machine. Doralia lays waste to spellcasting daemons from a great distance with her anti-thaumic crossbow, allowing her father to close in with a swing of his runic broadsword. Galen and Doralia worked together during the Siege of Excelsis to banish Synessa and Dexcessa, the twin daemons of Slaanesh – a feat that did not go unnoticed. As a result of her exploits, Doralia has earned the favour of the Seraphon, though the enigmatic saurians do not extend Galen the same recognition, much to her father’s frustration.",
-      "bannerImage": "https://dhss9aar8ocw.cloudfront.net/7f06ad08-92b5-423f-a3d2-7ee1e7ca4fc1",
-      "rowImage": "https://dhss9aar8ocw.cloudfront.net/48fa5efe-e1e8-4c22-83ab-d271e2a220b7",
-      "modelCount": 1,
-      "baseSize": "28.5mm",
-      "points": 0,
-      "notes": "This unit can only be taken in Galen ven Denst’s regiment.",
-      "isSpearhead": false,
-      "cannotBeReinforced": true,
-      "hiddenFromReference": false,
-      "hiddenFromStormForge": false,
-      "referenceKeywords": "Unique, Hero, Infantry, Order, Cities of Sigmar, Human",
-      "move": "5\"",
-      "save": "4+",
-      "control": "2",
-      "health": "5",
-      "wargearOptionsText": null,
-      "publicationId": "4bf9d877-a064-448d-b1f7-b48dac5f7d2a",
-      "limitingWarscrollId": null,
-      "requiredPrimaryHeroWarscrollId": "ca15a877-173e-48b1-96f7-2f8b75232085",
-      "isLegends": false,
-      "faction": "Cities of Sigmar",
-      "weapons": [
-        {
-          "id": "076c5f20-e06e-4c79-b06b-9e8514948096",
-          "name": "Anti‑thaumic Crossbow",
-          "type": "ranged",
-          "range": "18\"",
-          "attacks": "2",
-          "hit": "3+",
-          "wound": "3+",
-          "rend": "1",
-          "damage": "2",
-          "battleDamaged": false,
-          "warscrollId": "67fdc959-85c3-4f61-9213-81fa277a3b14",
-          "weaponAbilities": [
-            "Anti-Wizard (+1 Rend)"
-          ]
-        },
-        {
-          "id": "69ac8e81-350d-4a9e-82d0-28a18f7f2134",
-          "name": "Consecrated Blade",
-          "type": "melee",
-          "range": null,
-          "attacks": "3",
-          "hit": "3+",
-          "wound": "4+",
-          "rend": "1",
-          "damage": "2",
-          "battleDamaged": false,
-          "warscrollId": "67fdc959-85c3-4f61-9213-81fa277a3b14",
-          "weaponAbilities": []
-        }
-      ],
-      "abilities": [
-        {
-          "id": "3190b463-6b1e-4ea5-9013-b21e343fd09b",
-          "name": "Weapons of Banishment",
-          "phaseDetails": "Passive",
-          "phase": "combatPhase",
-          "castingValue": null,
-          "cpCost": null,
-          "reaction": false,
-          "lore": "Inscribed with the holy writ of Sigmar and inlaid with nullstone and silver, the weapons of the Ven Densts are anathema to spellcasters and their works, banishing all forms of arcane energy in a flash.",
-          "usedBy": null,
-          "declare": null,
-          "effect": "Double the Damage characteristic of this unit’s weapons for attacks that target Wizards, Priests and Manifestations.",
-          "abilityAndCommandIcon": "offensive",
-          "warscrollId": "67fdc959-85c3-4f61-9213-81fa277a3b14",
-          "keywords": []
-        }
-      ],
-      "keywords": [
-        "Human",
-        "Unique",
-        "Infantry",
-        "Hero"
-      ],
-      "factionKeywords": [
-        "Cities of Sigmar",
-        "Grand Alliance Order"
-      ]
-    },
-    {
-      "id": "73d82a2c-856c-4218-acad-62d803a0efb0",
-      "name": "Freeguild Steelhelms",
-      "subname": null,
-      "lore": "The Steelhelms are the weatherbeaten infantry at the heart of each Freeguild regiment. They cross the battlefield in a defensive shieldwall known as a Castelite formation and are often used as guardians of artillery emplacements. Throughout all levels of the Dawnbringer Crusades, there is a quiet respect for their sheer tenacity. After all, Steelhelms are most frequently the humble men and women of the Sigmarite cities, recruited from all walks of life. This is not to say that they are untrained – once they take the Coin, the recruits are given arms and armour and drilled in their city’s military academy for the expedition to come.\n\nEach battalion is headed by a Steelhelm Herald, bearer of the consecrated regimental standard. The toughest, most resolute member of the soldiery is usually given this duty – so vaunted is this honour that they would rather die than let the standard fall. Alongside them comes the Battle Priest. Ever ready to deliver a sermon or beat back the God-King’s foes with their fists and hammers, they carry the relic of a Sigmarite martyr to clear Chaos taint from their path. If a Battle Priest forms the spiritual armour of the Steelhelms, it is the Sergeant-at-Arms who provides its iron fist. Resolute, stubborn and formidable, they use wits as well as brawn to ensure they and their unit live to fight another day.",
-      "bannerImage": "https://dhss9aar8ocw.cloudfront.net/177d6bf9-d2b1-4284-ae17-309fd61241b7",
-      "rowImage": "https://dhss9aar8ocw.cloudfront.net/95aa7ff8-8f45-4533-9737-f67b409e0cf9",
-      "modelCount": 10,
-      "baseSize": "25mm",
-      "points": 100,
-      "notes": null,
-      "isSpearhead": false,
-      "cannotBeReinforced": false,
-      "hiddenFromReference": false,
-      "hiddenFromStormForge": false,
-      "referenceKeywords": "Infantry, Champion, Musician (1/10), Standard Bearer (1/10), Order, Cities of Sigmar, Human",
-      "move": "5\"",
-      "save": "4+",
-      "control": "1",
-      "health": "1",
-      "wargearOptionsText": "This unit’s musician and standard bearer are the same model.",
-      "publicationId": "4bf9d877-a064-448d-b1f7-b48dac5f7d2a",
-      "limitingWarscrollId": null,
-      "requiredPrimaryHeroWarscrollId": null,
-      "isLegends": false,
-      "faction": "Cities of Sigmar",
-      "weapons": [
-        {
-          "id": "5e0c5150-1171-46e1-9b25-a212bb717f6d",
-          "name": "Freeguild Weapons",
-          "type": "melee",
-          "range": null,
-          "attacks": "2",
-          "hit": "4+",
-          "wound": "4+",
-          "rend": "-",
-          "damage": "1",
-          "battleDamaged": false,
-          "warscrollId": "73d82a2c-856c-4218-acad-62d803a0efb0",
-          "weaponAbilities": []
-        }
-      ],
-      "abilities": [
-        {
-          "id": "13ac68a4-e46d-40f6-ad5a-c6c351636a9d",
-          "name": "Consecrate the Land",
-          "phaseDetails": "Once Per Turn (Army), Your Movement Phase",
-          "phase": "movementPhase",
-          "castingValue": null,
-          "cpCost": null,
-          "reaction": false,
-          "lore": "Bellowing Sigmarite hymns, the Battle Priest who accompanies the Steelhelms purges the taint of Chaos from the land and consecrates it in the name of the God-King.",
-          "usedBy": null,
-          "declare": "If this unit is contesting an objective you control that is not contested by any enemy models, roll a dice.",
-          "effect": "On a 3+, that objective is considered by you to be consecrated. While each model in a friendly Cities of Sigmar Human unit is contesting a consecrated objective, that unit has Ward (5+). If your opponent gains control of a consecrated objective, it is no longer consecrated.",
-          "abilityAndCommandIcon": "special",
-          "warscrollId": "73d82a2c-856c-4218-acad-62d803a0efb0",
-          "keywords": []
-        }
-      ],
-      "keywords": [
-        "Champion",
-        "Standard Bearer",
-        "Musician",
-        "Human",
-        "Infantry"
-      ],
-      "factionKeywords": [
-        "Cities of Sigmar",
-        "Grand Alliance Order"
-      ]
-    },
-    {
       "id": "740030d9-0691-4de1-a872-7444a0b8004b",
       "name": "Ironweld Great Cannon",
       "subname": null,
@@ -1921,7 +1755,7 @@
           "lore": "The engineers of the Ironweld Arsenal have developed different ammunition for the Great Cannon to fire.",
           "usedBy": null,
           "declare": null,
-          "effect": "Each time this unit uses a Shoot ability, if it is in a fortified position, pick either the Cannonball or Grapeshot weapon characteristics for all the attacks it makes with its Great Cannon. If it is not in a fortified position, use the Grapeshot weapon characteristics.",
+          "effect": "Each time this unit uses a **Shoot** ability, if it is in a fortified position, pick either the **Cannonball** or **Grapeshot** weapon characteristics for all the attacks it makes with its **Great Cannon**. If it is not in a fortified position, use the **Grapeshot** weapon characteristics.",
           "abilityAndCommandIcon": "shooting",
           "warscrollId": "740030d9-0691-4de1-a872-7444a0b8004b",
           "keywords": []
@@ -1937,7 +1771,7 @@
           "lore": "This cumbersome war machine is wheeled into position with its heavy oaken shield facing the foe, protecting the crew from enemy fire.",
           "usedBy": null,
           "declare": null,
-          "effect": "This unit establishes a fortified position and remains in a fortified position until it either uses a Move ability or is removed from the battlefield. While this unit is in a fortified position, subtract 1 from the Rend characteristic of weapons used for attacks that target this unit.",
+          "effect": "This unit establishes a fortified position and remains in a fortified position until it either uses a **Move** ability or is removed from the battlefield. While this unit is in a fortified position, subtract 1 from the Rend characteristic of weapons used for attacks that target this unit.",
           "abilityAndCommandIcon": "defensive",
           "warscrollId": "740030d9-0691-4de1-a872-7444a0b8004b",
           "keywords": [
@@ -2023,7 +1857,7 @@
           "reaction": false,
           "lore": "The Sorceress shows no mercy as she slits the throat of a nearby thrall and draws power from the blood that gushes forth.",
           "usedBy": null,
-          "declare": "Pick a friendly Cities of Sigmar Aelf unit wholly within 6\" of this unit to be the target.",
+          "declare": "Pick a friendly **Cities of Sigmar Aelf** unit wholly within 6\" of this unit to be the target.",
           "effect": "Add 1 to casting rolls for this unit for the rest of the turn. Then, roll a dice. On a 4+, 1 model in the target unit is slain.",
           "abilityAndCommandIcon": "special",
           "warscrollId": "78327cf3-8714-4862-9852-30f22e977f7f",
@@ -2035,136 +1869,6 @@
         "Wizard",
         "Infantry",
         "Hero"
-      ],
-      "factionKeywords": [
-        "Cities of Sigmar",
-        "Grand Alliance Order"
-      ]
-    },
-    {
-      "id": "7d8068f0-f773-4d56-92f5-3717d39b20e3",
-      "name": "Wildercorps Hunters",
-      "subname": null,
-      "lore": "Trackers, scouts and outdoorsmen, the Wildercorps are experts in attacking from the cover of thick foliage and broken ground. Their warhounds surge forward, sinking fangs into flesh as skilled marksmen pick out their targets with crossbows and arbalests.\n\nThough rarely hailed as heroes, often being too belligerent or crude for Marshals to handle, the Wildercorps save the citizen armies from disaster time and again. During recruitment, they are sent to train in the scruffy barracks on the city limits, roving far and wide as they hone their skills. Many amongst them are recent Reclaimed who have found it impossible to sleep in a comfortable bed. Back out they go into the wilds – for all their peril, the only place they ever really called home. This affinity for the wilderness makes them excellent hunters, both of the animals they slay with crossbow, trap and spear and of the outlying elements of invading armies. They train fierce Trailhounds, often rewarding them with chunks of fresh rat-meat so that they quickly learn to detect cowardly Skaven. As the hounds harass the foe, the Wildercorps Hunters take their shots, their weapons taking a toll before the enemy even knows they are under attack, then melt away into the shadows to begin the hunt anew.",
-      "bannerImage": "https://dhss9aar8ocw.cloudfront.net/f24ccef4-eed6-40c2-a262-f1575e6d9c34",
-      "rowImage": "https://dhss9aar8ocw.cloudfront.net/c8259262-8921-4d9c-a740-51ce342a019d",
-      "modelCount": 11,
-      "baseSize": "40mm [2], 28.5mm [3], 25mm [6]",
-      "points": 130,
-      "notes": "This unit cannot be reinforced.",
-      "isSpearhead": false,
-      "cannotBeReinforced": true,
-      "hiddenFromReference": false,
-      "hiddenFromStormForge": false,
-      "referenceKeywords": "Infantry, Champion (1/11), Order, Cities of Sigmar, Human",
-      "move": "5\"",
-      "save": "5+",
-      "control": "1",
-      "health": "1",
-      "wargearOptionsText": "Each model in this unit is armed with a Hunting Crossbow and Hunting Weapons.\n\n• The champion is armed with a Trailhound’s Ferocious Bite in addition to their other weapons.\n• 1/11 models is an Arbalester and is armed with a Hunting Arbalest instead of a Hunting Crossbow.\n• 4/11 models are Trailhounds and are armed with a Trailhound’s Ferocious Bite instead of any other weapons.",
-      "publicationId": "4bf9d877-a064-448d-b1f7-b48dac5f7d2a",
-      "limitingWarscrollId": null,
-      "requiredPrimaryHeroWarscrollId": null,
-      "isLegends": false,
-      "faction": "Cities of Sigmar",
-      "weapons": [
-        {
-          "id": "441c9c6a-82f4-4cb2-8991-9a8ba5d9b177",
-          "name": "Hunting Crossbow",
-          "type": "ranged",
-          "range": "15\"",
-          "attacks": "2",
-          "hit": "4+",
-          "wound": "4+",
-          "rend": "1",
-          "damage": "1",
-          "battleDamaged": false,
-          "warscrollId": "7d8068f0-f773-4d56-92f5-3717d39b20e3",
-          "weaponAbilities": []
-        },
-        {
-          "id": "501aee37-5b24-4b56-8c45-caae91870506",
-          "name": "Hunting Arbalest",
-          "type": "ranged",
-          "range": "15\"",
-          "attacks": "2",
-          "hit": "4+",
-          "wound": "3+",
-          "rend": "2",
-          "damage": "D3",
-          "battleDamaged": false,
-          "warscrollId": "7d8068f0-f773-4d56-92f5-3717d39b20e3",
-          "weaponAbilities": []
-        },
-        {
-          "id": "8443a505-f424-4e4f-b84e-714ce89a056b",
-          "name": "Trailhound’s Ferocious Bite",
-          "type": "melee",
-          "range": null,
-          "attacks": "2",
-          "hit": "4+",
-          "wound": "3+",
-          "rend": "-",
-          "damage": "1",
-          "battleDamaged": false,
-          "warscrollId": "7d8068f0-f773-4d56-92f5-3717d39b20e3",
-          "weaponAbilities": [
-            "Companion"
-          ]
-        },
-        {
-          "id": "959339fa-5882-468d-89a3-2fb15c4b7a75",
-          "name": "Hunting Weapons",
-          "type": "melee",
-          "range": null,
-          "attacks": "2",
-          "hit": "4+",
-          "wound": "4+",
-          "rend": "-",
-          "damage": "1",
-          "battleDamaged": false,
-          "warscrollId": "7d8068f0-f773-4d56-92f5-3717d39b20e3",
-          "weaponAbilities": []
-        }
-      ],
-      "abilities": [
-        {
-          "id": "130e3668-0e26-468e-8257-e01a8e347164",
-          "name": "Expert Trackers",
-          "phaseDetails": "Deployment Phase",
-          "phase": "startOfTurn",
-          "castingValue": null,
-          "cpCost": null,
-          "reaction": false,
-          "lore": "These soldiers are tasked with scouting ahead of the main advance.",
-          "usedBy": null,
-          "declare": null,
-          "effect": "This unit can use the ‘Normal Move’ ability as if it were your movement phase.",
-          "abilityAndCommandIcon": "movement",
-          "warscrollId": "7d8068f0-f773-4d56-92f5-3717d39b20e3",
-          "keywords": []
-        },
-        {
-          "id": "797b9472-464f-4efe-b5ef-c543bab1113a",
-          "name": "Hidden and Dangerous",
-          "phaseDetails": "Passive",
-          "phase": "shootingPhase",
-          "castingValue": null,
-          "cpCost": null,
-          "reaction": false,
-          "lore": "Lurking unseen by the enemy, Wildercorps Hunters stalk their quarry sometimes for days on end before they launch surprise volleys of crossbow bolts from hidden positions.",
-          "usedBy": null,
-          "declare": null,
-          "effect": "This unit is not visible to enemy units more than 12\" from it while it is affected by the ‘Cover’ terrain ability. In addition, add 1 to hit rolls for this unit’s shooting attacks while it is wholly within 3\" of a terrain feature.",
-          "abilityAndCommandIcon": "shooting",
-          "warscrollId": "7d8068f0-f773-4d56-92f5-3717d39b20e3",
-          "keywords": []
-        }
-      ],
-      "keywords": [
-        "Champion",
-        "Human",
-        "Infantry"
       ],
       "factionKeywords": [
         "Cities of Sigmar",
@@ -2225,7 +1929,7 @@
           "lore": "A disgruntled look from a grumbling Longbeard is often enough to galvanise the spirits of younger duardin and keep them in the fight.",
           "usedBy": null,
           "declare": null,
-          "effect": "Add 2 to the control scores of friendly Cities of Sigmar Duardin units, excluding Longbeards units, while they are wholly within 12\" of this unit.",
+          "effect": "Add 2 to the control scores of friendly **Cities of Sigmar Duardin** units, excluding **Longbeards** units, while they are wholly within 12\" of this unit.",
           "abilityAndCommandIcon": "control",
           "warscrollId": "7f967e45-881c-443f-85e2-1c235a2ec4e0",
           "keywords": []
@@ -2331,90 +2035,6 @@
       ]
     },
     {
-      "id": "9a485194-3972-471d-bede-c4a5c9079794",
-      "name": "Cogsmith",
-      "subname": null,
-      "lore": "A guild unto itself, the Ironweld Arsenal specialises in the wielding of blackpowder and the creation of war engines. It counts talented human engineers as well as duardin amongst its number, though it is typically seen as a duardin-led institution. After all, it is usually a duardin Cogsmith to be found at the helm of each Ironweld delegation, a figure easily recognised by the smoking-brazier icon they wear upon their backs and the heavy-duty guns that they wield in battle. These inveterate tinkerers and combat engineers are known for their skill at siting and optimising gun emplacements, making field repairs whenever necessary to ensure a high rate of fire and ensuring the great cannons of the Castelite formations are used to deadly effect.\n\nGrizzled combat engineers who know how to squeeze peak performance and killing power from any war machine, Cogsmiths are also proficient warriors capable of cutting down those who would interfere with their field repairs – any foe that interrupts their inspections tends to meet a messy end at the barrel of a grudge-raker.",
-      "bannerImage": "https://dhss9aar8ocw.cloudfront.net/7c0bc31c-1fd6-430d-969d-c138773ae22f",
-      "rowImage": "https://dhss9aar8ocw.cloudfront.net/45405e3c-e03f-45df-86a8-c66f23e46e58",
-      "modelCount": 1,
-      "baseSize": "25mm",
-      "points": 130,
-      "notes": "This Hero can join a Warden King’s regiment.",
-      "isSpearhead": false,
-      "cannotBeReinforced": true,
-      "hiddenFromReference": false,
-      "hiddenFromStormForge": false,
-      "referenceKeywords": "Hero, Infantry, Order, Cities of Sigmar, Duardin",
-      "move": "4\"",
-      "save": "3+",
-      "control": "2",
-      "health": "5",
-      "wargearOptionsText": null,
-      "publicationId": "4bf9d877-a064-448d-b1f7-b48dac5f7d2a",
-      "limitingWarscrollId": null,
-      "requiredPrimaryHeroWarscrollId": null,
-      "isLegends": false,
-      "faction": "Cities of Sigmar",
-      "weapons": [
-        {
-          "id": "4cde793a-79f1-4509-9195-5c1caab665b0",
-          "name": "Gun Butt and Cog Axe",
-          "type": "melee",
-          "range": null,
-          "attacks": "3",
-          "hit": "4+",
-          "wound": "4+",
-          "rend": "1",
-          "damage": "2",
-          "battleDamaged": false,
-          "warscrollId": "9a485194-3972-471d-bede-c4a5c9079794",
-          "weaponAbilities": []
-        },
-        {
-          "id": "8dce0f37-1811-4e2d-9725-dc53855689e2",
-          "name": "Cogsmith’s Firearms",
-          "type": "ranged",
-          "range": "15\"",
-          "attacks": "4",
-          "hit": "3+",
-          "wound": "3+",
-          "rend": "1",
-          "damage": "1",
-          "battleDamaged": false,
-          "warscrollId": "9a485194-3972-471d-bede-c4a5c9079794",
-          "weaponAbilities": []
-        }
-      ],
-      "abilities": [
-        {
-          "id": "c1693b4a-1b50-40f2-a902-6ffe947414f5",
-          "name": "Direct the Gyrocopters",
-          "phaseDetails": "Once Per Turn (Army), Your Hero Phase",
-          "phase": "heroPhase",
-          "castingValue": null,
-          "cpCost": null,
-          "reaction": false,
-          "lore": "With phosphorescent munitions, Cogsmiths can direct bombing runs and counterattacks by the gyro-machines of the Ironweld Arsenal.",
-          "usedBy": null,
-          "declare": "Pick up to 3 visible friendly Gyrocopter or Gyrobomber units wholly within 18\" of this unit to be the targets.",
-          "effect": "Roll a dice for each target. On a 3+, add 1 to hit rolls for the target’s attacks until the start of your next turn.",
-          "abilityAndCommandIcon": "offensive",
-          "warscrollId": "9a485194-3972-471d-bede-c4a5c9079794",
-          "keywords": []
-        }
-      ],
-      "keywords": [
-        "Duardin",
-        "Infantry",
-        "Hero"
-      ],
-      "factionKeywords": [
-        "Cities of Sigmar",
-        "Grand Alliance Order"
-      ]
-    },
-    {
       "id": "9ee948d9-9d8a-4516-8688-0da5a176654b",
       "name": "Black Guard",
       "subname": null,
@@ -2468,7 +2088,7 @@
           "lore": "Black Guard are often charged with protecting heroes on the field of battle.",
           "usedBy": null,
           "declare": null,
-          "effect": "While any friendly Cities of Sigmar Aelf Infantry Heroes are wholly within this unit’s combat range, both this unit and those friendly units have Ward (5+).",
+          "effect": "While any friendly **Cities of Sigmar Aelf Infantry Heroes** are wholly within this unit’s combat range, both this unit and those friendly units have **Ward (5+)**.",
           "abilityAndCommandIcon": "defensive",
           "warscrollId": "9ee948d9-9d8a-4516-8688-0da5a176654b",
           "keywords": []
@@ -2506,7 +2126,7 @@
       "save": "3+",
       "control": "1",
       "health": "1",
-      "wargearOptionsText": "Each model in this unit is armed with a Drakegun and Plated Fists.\n\n• The champion can replace their Drakegun with a Grudgehammer Torpedo.",
+      "wargearOptionsText": "***Each model in this unit is armed with a Drakegun and Plated Fists.***\n\n***• The champion can replace their Drakegun with a Grudgehammer Torpedo.***",
       "publicationId": "4bf9d877-a064-448d-b1f7-b48dac5f7d2a",
       "limitingWarscrollId": null,
       "requiredPrimaryHeroWarscrollId": null,
@@ -2677,7 +2297,7 @@
           "lore": null,
           "usedBy": null,
           "declare": null,
-          "effect": "While this unit has 10 or more damage points, the Attacks characteristic of Infernadine’s Leonine Jaws is 2.",
+          "effect": "While this unit has 10 or more damage points, the Attacks characteristic of **Infernadine’s Leonine Jaws** is 2.",
           "abilityAndCommandIcon": "battleDamaged",
           "warscrollId": "b22756c7-2da3-4954-ab23-8eb89457a6b1",
           "keywords": []
@@ -2692,8 +2312,8 @@
           "reaction": false,
           "lore": "When an enemy beast closes in on Infernadine, his scorpid tail darts forth, injecting a paralysing venom that quickly takes hold.",
           "usedBy": null,
-          "declare": "Pick an enemy Monster that charged this turn and is in combat with this unit to be the target.",
-          "effect": "Roll a dice. On a 3+, the target has Strike-last for the rest of the turn.",
+          "declare": "Pick an enemy **Monster** that charged this turn and is in combat with this unit to be the target.",
+          "effect": "Roll a dice. On a 3+, the target has **Strike-last** for the rest of the turn.",
           "abilityAndCommandIcon": "defensive",
           "warscrollId": "b22756c7-2da3-4954-ab23-8eb89457a6b1",
           "keywords": [
@@ -2711,7 +2331,7 @@
           "lore": "Not only does Vedra possess the ability to formulate decisive plans in the very heat of battle, but she also has the guts to see her orders carried through to the very end.",
           "usedBy": null,
           "declare": null,
-          "effect": "When this unit uses an Officar’s Order ability, you can pick an additional friendly Cities of Sigmar unit wholly within 12\" of this unit to be a target of that ability.",
+          "effect": "When this unit uses an **Officar’s Order** ability, you can pick an additional friendly **Cities of Sigmar** unit wholly within 12\" of this unit to be a target of that ability.",
           "abilityAndCommandIcon": "special",
           "warscrollId": "b22756c7-2da3-4954-ab23-8eb89457a6b1",
           "keywords": []
@@ -2726,7 +2346,7 @@
           "reaction": false,
           "lore": "The loyalty Vedra commands from her soldiers is unwavering, and the sight of her at the forefront of the assault inspires them to keep fighting till the bitter end.",
           "usedBy": null,
-          "declare": "If this unit is in combat, pick up to 3 other friendly Cities of Sigmar units wholly within 12\" of this unit to be the targets.",
+          "declare": "If this unit is in combat, pick up to 3 other friendly **Cities of Sigmar** units wholly within 12\" of this unit to be the targets.",
           "effect": "For each target, you can return a number of slain models to that unit with a combined Health characteristic of up to 3.",
           "abilityAndCommandIcon": "rallying",
           "warscrollId": "b22756c7-2da3-4954-ab23-8eb89457a6b1",
@@ -2817,7 +2437,7 @@
           "lore": "With a flash of steel, each ill-timed strike directed at a Corsair is paid for in blood as the aelf delivers a perfect riposte.",
           "usedBy": null,
           "declare": null,
-          "effect": "Each time you make an unmodified save roll of 6 for a combat attack that targets this unit, inflict 1 mortal damage on the attacking unit after the Fight ability has been resolved.",
+          "effect": "Each time you make an unmodified save roll of 6 for a combat attack that targets this unit, inflict 1 mortal damage on the attacking unit after the **Fight** ability has been resolved.",
           "abilityAndCommandIcon": "offensive",
           "warscrollId": "b2c13637-5380-4694-894d-0c4cf9d1705a",
           "keywords": []
@@ -2920,7 +2540,7 @@
           "reaction": false,
           "lore": "Celestial Hurricanums leak magical energy, granting nearby soldiers visions of the imminent future that allow them to land their blows with uncanny accuracy.",
           "usedBy": null,
-          "declare": "Pick up to D3 visible friendly Cities of Sigmar Human units wholly within 12\" of this unit to be the targets.",
+          "declare": "Pick up to D3 visible friendly **Cities of Sigmar Human** units wholly within 12\" of this unit to be the targets.",
           "effect": "Add 1 to hit rolls for the targets’ combat attacks until the start of your next turn.",
           "abilityAndCommandIcon": "offensive",
           "warscrollId": "b872f515-bb69-41aa-bc11-fd5a67b231ef",
@@ -3116,7 +2736,7 @@
           "lore": "Inscribed with the holy writ of Sigmar and inlaid with nullstone and silver, the weapons of the Ven Densts are anathema to spellcasters and their works, banishing all forms of arcane energy in a flash.",
           "usedBy": null,
           "declare": null,
-          "effect": "Double the Damage characteristic of this unit’s weapons for attacks that target Wizards, Priests and Manifestations.",
+          "effect": "Double the Damage characteristic of this unit’s weapons for attacks that target **Wizards**, **Priests** and **Manifestations**.",
           "abilityAndCommandIcon": "offensive",
           "warscrollId": "ca15a877-173e-48b1-96f7-2f8b75232085",
           "keywords": []
@@ -3132,7 +2752,7 @@
           "lore": "When faced with an imminent threat, Galen will protect his daughter at all costs.",
           "usedBy": null,
           "declare": null,
-          "effect": "While a friendly Doralia ven Denst is wholly within this unit’s combat range, this unit has Strike-first and both this unit and that Doralia ven Denst have Ward (5+).",
+          "effect": "While a friendly **Doralia ven Denst** is wholly within this unit’s combat range, this unit has **Strike-first** and both this unit and that **Doralia ven Denst** have **Ward (5+)**.",
           "abilityAndCommandIcon": "special",
           "warscrollId": "ca15a877-173e-48b1-96f7-2f8b75232085",
           "keywords": []
@@ -3143,112 +2763,6 @@
         "Unique",
         "Infantry",
         "Hero"
-      ],
-      "factionKeywords": [
-        "Cities of Sigmar",
-        "Grand Alliance Order"
-      ]
-    },
-    {
-      "id": "cf06424b-34e2-4b23-bf90-1e9d8d1b758c",
-      "name": "Toll's Companions",
-      "subname": null,
-      "lore": "The hidden catacombs of the God-King’s cities conceal innumerable threats, from lurking monsters to hidden cults. It is the duty of the Order of Azyr to root out these horrors, and there are few more effective at this than Callis and Toll. Along with a motley retinue of hired blades, these heroes fight a bitter underground war to keep the Cities of Sigmar from sliding into bloodshed.\n\nOriginally from the Realm of Death, Lyssa Revenya is a thief who specialises in breaching the most heavily guarded treasure vaults in the realms. Her unscrupulous talents nearly saw her executed, but Toll saw the crypt-breaker’s potential and recruited her, assuring her that if she served Sigmar faithfully, her previous crimes would be forgotten. Second of the agents is Mistress Verentia, who lurks like a spider at the centre of a web of intrigue. Her agents observe every corner of the Twin-Tailed City. Her ‘little watchers’ are not humans but urban beasts: crows, rats and cats that communicate their discoveries to their mistress via her enchanted glove. Finally comes Lord-Castellant Valius, who is responsible for Hammerhal’s internal security. He is the Keeper Aqshian and bears the Clavis Magna – a device that allows him to pass through any threshold in the city and emerge from any other.",
-      "bannerImage": "https://dhss9aar8ocw.cloudfront.net/2566a0ab-257e-444e-9a3b-1e66187ec059",
-      "rowImage": "https://dhss9aar8ocw.cloudfront.net/1d14679e-9bb0-4ab4-8634-2156d9e73cff",
-      "modelCount": 4,
-      "baseSize": "40mm [1], 28.5mm [3]",
-      "points": 0,
-      "notes": "This unit can only be taken in Callis and Toll’s regiment. This unit cannot be reinforced.",
-      "isSpearhead": false,
-      "cannotBeReinforced": true,
-      "hiddenFromReference": false,
-      "hiddenFromStormForge": false,
-      "referenceKeywords": "Unique, Infantry, Order, Cities of Sigmar, Human",
-      "move": "5\"",
-      "save": "4+",
-      "control": "1",
-      "health": "3",
-      "wargearOptionsText": null,
-      "publicationId": "4bf9d877-a064-448d-b1f7-b48dac5f7d2a",
-      "limitingWarscrollId": null,
-      "requiredPrimaryHeroWarscrollId": "9ad5566f-af6d-4e05-96e1-2f685a2f6c0d",
-      "isLegends": false,
-      "faction": "Cities of Sigmar",
-      "weapons": [
-        {
-          "id": "e8744826-3bbe-4a51-b6dd-fc9a658c9edd",
-          "name": "Exotic Assortment of Weapons",
-          "type": "melee",
-          "range": null,
-          "attacks": "4",
-          "hit": "3+",
-          "wound": "4+",
-          "rend": "1",
-          "damage": "1",
-          "battleDamaged": false,
-          "warscrollId": "cf06424b-34e2-4b23-bf90-1e9d8d1b758c",
-          "weaponAbilities": [
-            "Anti-Wizard (+1 Rend)"
-          ]
-        }
-      ],
-      "abilities": [
-        {
-          "id": "5daaa8d9-82dd-42f4-95ed-ebc2821d1a55",
-          "name": "Hidden Agents",
-          "phaseDetails": "Deployment Phase",
-          "phase": "startOfTurn",
-          "castingValue": null,
-          "cpCost": null,
-          "reaction": false,
-          "lore": "A locked door is to be picked, a high wall is to be scaled and the shadows are to be embraced.",
-          "usedBy": null,
-          "declare": "Pick this unit and a friendly Callis and Toll unit in the same regiment as this unit if those units have not been deployed.",
-          "effect": "Set up those units in reserve in the shadows. Those units have now been deployed.",
-          "abilityAndCommandIcon": "special",
-          "warscrollId": "cf06424b-34e2-4b23-bf90-1e9d8d1b758c",
-          "keywords": [
-            "Deploy"
-          ]
-        },
-        {
-          "id": "6f80e9a4-4e9a-4b2c-8f00-f04d8e2440c9",
-          "name": "Emerge from the Shadows",
-          "phaseDetails": "Your Movement Phase",
-          "phase": "movementPhase",
-          "castingValue": null,
-          "cpCost": null,
-          "reaction": false,
-          "lore": "Their mission imperative, these agents only reveal themselves when they are poised to bring down Sigmar’s judgement upon their quarry.",
-          "usedBy": null,
-          "declare": "Pick this unit if it is in the shadows.",
-          "effect": "Set up this unit anywhere on the battlefield more than 9\" from all enemy units. Then, set up the Callis and Toll unit that was set up in the shadows with this unit wholly within 6\" of it and more than 9\" from all enemy units.",
-          "abilityAndCommandIcon": "special",
-          "warscrollId": "cf06424b-34e2-4b23-bf90-1e9d8d1b758c",
-          "keywords": []
-        },
-        {
-          "id": "f172c2fb-e758-441e-b3f1-bb83b53d2aca",
-          "name": "Saviours of Cinderfall",
-          "phaseDetails": "Passive",
-          "phase": "defensive",
-          "castingValue": null,
-          "cpCost": null,
-          "reaction": false,
-          "lore": "These companions have endured through thick and thin, watching each other’s backs and holding back the tides of darkness.",
-          "usedBy": null,
-          "declare": null,
-          "effect": "While a friendly Callis and Toll unit is wholly within this unit’s combat range, both this unit and that Callis and Toll unit have Ward (5+).",
-          "abilityAndCommandIcon": "defensive",
-          "warscrollId": "cf06424b-34e2-4b23-bf90-1e9d8d1b758c",
-          "keywords": []
-        }
-      ],
-      "keywords": [
-        "Human",
-        "Unique",
-        "Infantry"
       ],
       "factionKeywords": [
         "Cities of Sigmar",
@@ -3330,94 +2844,6 @@
       ]
     },
     {
-      "id": "e42f2d3e-ed4d-48d5-b5ec-f10108a651f1",
-      "name": "Ironbreakers",
-      "subname": null,
-      "lore": "Ironbreakers are the elite guardians of the Dispossessed’s underground fortresses. Often compared to walking tanks by their Dawnbringer comrades, they are clad from head to toe in impervious gromril armour and wield masterwork axes and hammers, forming an impenetrable wall against which the enemy is soon shattered. Joining the Ironbreakers is the dream of many a young duardin warrior, and when these grizzled veterans visit the taverns of their clan holdings or a wider city, they have all manner of tales about what they have seen in the undercrofts of the realms. Even their wildest stories hold true, for an Ironbreaker’s word is itself nigh unbreakable. Nevertheless, few believe them – though perhaps this is for the best, given all that they have lived through.\n\nEach Ironbreaker marches to battle with a diamond-hard warhammer and gromril shield. Their commanders are known as Ironbeards, who take potshots at oncoming foes from behind the Ironbreakers’ shieldwall with smoking drakefire pistols.",
-      "bannerImage": "https://dhss9aar8ocw.cloudfront.net/4a8fd8bf-46c5-475c-834a-aae163537152",
-      "rowImage": "https://dhss9aar8ocw.cloudfront.net/c77a1028-2ceb-4433-8838-1599a6056778",
-      "modelCount": 10,
-      "baseSize": "25mm",
-      "points": 130,
-      "notes": null,
-      "isSpearhead": false,
-      "cannotBeReinforced": false,
-      "hiddenFromReference": false,
-      "hiddenFromStormForge": false,
-      "referenceKeywords": "Infantry, Champion, Musician (1/10), Standard Bearer (1/10), Order, Cities of Sigmar, Duardin",
-      "move": "4\"",
-      "save": "3+",
-      "control": "1",
-      "health": "1",
-      "wargearOptionsText": "Each model in this unit is armed with Ironbreaker Weapons.\n\n• The champion is armed with Drakefire Pistols in addition to their other weapons.",
-      "publicationId": "4bf9d877-a064-448d-b1f7-b48dac5f7d2a",
-      "limitingWarscrollId": null,
-      "requiredPrimaryHeroWarscrollId": null,
-      "isLegends": false,
-      "faction": "Cities of Sigmar",
-      "weapons": [
-        {
-          "id": "3bcb82de-fbc9-45a1-a2e7-598ecdfe518b",
-          "name": "Ironbreaker Weapon",
-          "type": "melee",
-          "range": null,
-          "attacks": "2",
-          "hit": "3+",
-          "wound": "4+",
-          "rend": "-",
-          "damage": "1",
-          "battleDamaged": false,
-          "warscrollId": "e42f2d3e-ed4d-48d5-b5ec-f10108a651f1",
-          "weaponAbilities": []
-        },
-        {
-          "id": "b5df6281-b89c-4759-8f34-dfc7c9e6c1bf",
-          "name": "Drakefire Pistols",
-          "type": "ranged",
-          "range": "10\"",
-          "attacks": "1",
-          "hit": "3+",
-          "wound": "3+",
-          "rend": "1",
-          "damage": "1",
-          "battleDamaged": false,
-          "warscrollId": "e42f2d3e-ed4d-48d5-b5ec-f10108a651f1",
-          "weaponAbilities": [
-            "Shoot in Combat"
-          ]
-        }
-      ],
-      "abilities": [
-        {
-          "id": "3b8f1664-e841-4a85-8698-69fcbb08de93",
-          "name": "Gromril Shieldwall",
-          "phaseDetails": "Passive",
-          "phase": "defensive",
-          "castingValue": null,
-          "cpCost": null,
-          "reaction": false,
-          "lore": "Once formed up into a shieldwall, a line of gromril-clad Ironbreakers is nigh impenetrable.",
-          "usedBy": null,
-          "declare": null,
-          "effect": "While this unit is affected by the ‘Hold the Line’ Officar’s Order ability, it has Ward (4+) instead of Ward (5+).",
-          "abilityAndCommandIcon": "defensive",
-          "warscrollId": "e42f2d3e-ed4d-48d5-b5ec-f10108a651f1",
-          "keywords": []
-        }
-      ],
-      "keywords": [
-        "Champion",
-        "Standard Bearer",
-        "Musician",
-        "Duardin",
-        "Infantry"
-      ],
-      "factionKeywords": [
-        "Cities of Sigmar",
-        "Grand Alliance Order"
-      ]
-    },
-    {
       "id": "e56d194c-6827-4678-800f-dbec3684cd3f",
       "name": "Battlemage",
       "subname": null,
@@ -3471,7 +2897,7 @@
           "lore": "As varied as the Mortal Realms themselves, each Battlemage knows how to harness the arcane might of the land they call home.",
           "usedBy": null,
           "declare": null,
-          "effect": "Pick a Spell ability that this unit can use. For the rest of the battle, add 1 to casting rolls for this unit when it uses that Spell ability.",
+          "effect": "Pick a **Spell** ability that this unit can use. For the rest of the battle, add 1 to casting rolls for this unit when it uses that **Spell** ability.",
           "abilityAndCommandIcon": "special",
           "warscrollId": "e56d194c-6827-4678-800f-dbec3684cd3f",
           "keywords": []
@@ -3542,7 +2968,7 @@
           "lore": "Every Warden King knows the names of those who wronged their forebears. As they march out to defend or reclaim their holds, they seek to settle those grudges.",
           "usedBy": null,
           "declare": "Pick an enemy unit in your opponent’s army to bear a grudge against. You can pick an enemy unit that is in reserve.",
-          "effect": "For the rest of the battle, add 1 to wound rolls for combat attacks made by friendly Cities of Sigmar Duardin units that target that unit.",
+          "effect": "For the rest of the battle, add 1 to wound rolls for combat attacks made by friendly **Cities of Sigmar Duardin** units that target that unit.",
           "abilityAndCommandIcon": "offensive",
           "warscrollId": "e5e584f9-2abb-4d90-8c97-c03a8cae3c34",
           "keywords": []
@@ -3558,7 +2984,7 @@
           "lore": "Warden Kings are often first into the fray, with their oathsworn kin following closely in their wake swinging gromril hammers and settling grudges.",
           "usedBy": null,
           "declare": null,
-          "effect": "Pick a friendly non-Hero Cities of Sigmar Duardin unit that has not used a Fight ability this turn and is within this unit’s combat range to be the target. The target can be picked to use a Fight ability immediately after the Fight ability used by this unit has been resolved.",
+          "effect": "Pick a friendly non-**Hero** **Cities of Sigmar Duardin** unit that has not used a **Fight** ability this turn and is within this unit’s combat range to be the target. The target can be picked to use a **Fight** ability immediately after the **Fight** ability used by this unit has been resolved.",
           "abilityAndCommandIcon": "offensive",
           "warscrollId": "e5e584f9-2abb-4d90-8c97-c03a8cae3c34",
           "keywords": []
@@ -3734,7 +3160,7 @@
           "lore": "With their blade raised high, the Marshal signals the charge of the Cavaliers.",
           "usedBy": null,
           "declare": null,
-          "effect": "Add 1 to charge rolls for this unit and for friendly Freeguild Cavaliers units while they are wholly within 12\" of this unit.",
+          "effect": "Add 1 to charge rolls for this unit and for friendly **Freeguild Cavaliers** units while they are wholly within 12\" of this unit.",
           "abilityAndCommandIcon": "movement",
           "warscrollId": "ec06c527-93cc-45e1-a7cc-dbb0374abd61",
           "keywords": []
@@ -3749,8 +3175,8 @@
           "reaction": false,
           "lore": "With a Cavalier-Marshal at the helm, a well-timed charge of Freeguild riders can shatter the enemy’s formation before they can strike back.",
           "usedBy": null,
-          "declare": "If this unit charged this turn, pick a friendly Cities of Sigmar Human Cavalry unit that charged this turn and is wholly within 12\" of this unit to be the target.",
-          "effect": "This unit and the target have Strike-first for the rest of the turn.",
+          "declare": "If this unit charged this turn, pick a friendly **Cities of Sigmar Human Cavalry** unit that charged this turn and is wholly within 12\" of this unit to be the target.",
+          "effect": "This unit and the target have **Strike-first** for the rest of the turn.",
           "abilityAndCommandIcon": "offensive",
           "warscrollId": "ec06c527-93cc-45e1-a7cc-dbb0374abd61",
           "keywords": []
@@ -3759,136 +3185,6 @@
       "keywords": [
         "Human",
         "Cavalry",
-        "Hero"
-      ],
-      "factionKeywords": [
-        "Cities of Sigmar",
-        "Grand Alliance Order"
-      ]
-    },
-    {
-      "id": "ecfd8d14-af16-4cb7-b29d-95cf3a8982d6",
-      "name": "Freeguild Marshal and Relic Envoy",
-      "subname": null,
-      "lore": "The highest battlefield office in each citizen host is that of the Freeguild Marshal. Each has been trained extensively in the military academies of their home city, their skills honed in the fires of war. When entrusted with the magical weaponry and protective amulets of their parent city, the Marshals reach new levels of deadliness on the field.\n\nThe Marshal is sometimes accompanied by the finest squires from the next generation of recruits. Known as Relic Envoys, these young warriors dart back and forth, delivering messages to ensure all parts of the battleline act in deadly concert. It is common for these runners to bear a relic from their dynastic line, whether this be a revered weapon or the mummified head of a relative. The sacred memento will have been subjected to death rites that allow it to aid its descendants, whispering advice – or nonsense – from the other side of the grave.\n\nFreeguild Marshals who lead from the front are perhaps the most heroic of all. The respect they have won from their warriors is stronger than any shield, and their Relic Envoys ensure their orders always get to where they are needed. When battlelines clash, their skill with sword, hammer and pistol swiftly becomes clear.",
-      "bannerImage": "https://dhss9aar8ocw.cloudfront.net/1e6e40a0-0b9f-4bd7-8bd2-176354a8652b",
-      "rowImage": "https://dhss9aar8ocw.cloudfront.net/ba67a9d3-0882-4720-b512-a5b270885f6b",
-      "modelCount": 1,
-      "baseSize": "32mm [1], 28.5mm [1]",
-      "points": 130,
-      "notes": null,
-      "isSpearhead": false,
-      "cannotBeReinforced": true,
-      "hiddenFromReference": false,
-      "hiddenFromStormForge": false,
-      "referenceKeywords": "Hero, Infantry, Order, Cities of Sigmar, Human",
-      "move": "5\"",
-      "save": "3+",
-      "control": "2",
-      "health": "5",
-      "wargearOptionsText": "This unit is armed with 1 of the following options:\n\n• Duelling Pistols and Silvered Shortsword\n• Master-forged Longsword\n• Heirloom Warhammer\n\nThis unit’s Relic Envoy is a token.",
-      "publicationId": "4bf9d877-a064-448d-b1f7-b48dac5f7d2a",
-      "limitingWarscrollId": null,
-      "requiredPrimaryHeroWarscrollId": null,
-      "isLegends": false,
-      "faction": "Cities of Sigmar",
-      "weapons": [
-        {
-          "id": "208e9f85-783d-46eb-b6a2-0b022c397c50",
-          "name": "Duelling Pistols",
-          "type": "ranged",
-          "range": "10\"",
-          "attacks": "4",
-          "hit": "3+",
-          "wound": "3+",
-          "rend": "1",
-          "damage": "1",
-          "battleDamaged": false,
-          "warscrollId": "ecfd8d14-af16-4cb7-b29d-95cf3a8982d6",
-          "weaponAbilities": [
-            "Shoot in Combat"
-          ]
-        },
-        {
-          "id": "2f2068a6-f666-413b-b821-f9aefd37df05",
-          "name": "Heirloom Warhammer",
-          "type": "melee",
-          "range": null,
-          "attacks": "3",
-          "hit": "4+",
-          "wound": "2+",
-          "rend": "2",
-          "damage": "3",
-          "battleDamaged": false,
-          "warscrollId": "ecfd8d14-af16-4cb7-b29d-95cf3a8982d6",
-          "weaponAbilities": []
-        },
-        {
-          "id": "6d5adfad-54c6-4e99-913e-afcd6a60830f",
-          "name": "Master-forged Longsword",
-          "type": "melee",
-          "range": null,
-          "attacks": "4",
-          "hit": "3+",
-          "wound": "3+",
-          "rend": "1",
-          "damage": "2",
-          "battleDamaged": false,
-          "warscrollId": "ecfd8d14-af16-4cb7-b29d-95cf3a8982d6",
-          "weaponAbilities": []
-        },
-        {
-          "id": "c3d51a7b-61d7-4139-afb2-afebb43bdd3e",
-          "name": "Silvered Shortsword",
-          "type": "melee",
-          "range": null,
-          "attacks": "4",
-          "hit": "3+",
-          "wound": "3+",
-          "rend": "1",
-          "damage": "1",
-          "battleDamaged": false,
-          "warscrollId": "ecfd8d14-af16-4cb7-b29d-95cf3a8982d6",
-          "weaponAbilities": []
-        }
-      ],
-      "abilities": [
-        {
-          "id": "14c89f2c-e8ab-4159-8aec-70ffe394079c",
-          "name": "Attendant Relic Envoy",
-          "phaseDetails": "Start of Battle Round",
-          "phase": "startOfTurn",
-          "castingValue": null,
-          "cpCost": null,
-          "reaction": false,
-          "lore": "It is a great honour for a Relic Envoy to serve beneath a Freeguild Marshal. Their duties include hand-delivering messages to the soldiers of the line.",
-          "usedBy": null,
-          "declare": "Pick a friendly Cities of Sigmar Human wholly within 18\" of this unit to be the target.",
-          "effect": "Place this unit’s Relic Envoy next to the target (if this unit’s Relic Envoy is currently next to a different friendly unit, move it next to the target).\n\nWhile the target has a Relic Envoy next to it, it can be picked to be the target of an Officar’s Order ability even if it is not wholly within 12\" of the friendly Hero using that ability.\n\nIf this unit is destroyed, remove its Relic Envoy from the battlefield.",
-          "abilityAndCommandIcon": "special",
-          "warscrollId": "ecfd8d14-af16-4cb7-b29d-95cf3a8982d6",
-          "keywords": []
-        },
-        {
-          "id": "16d58d19-54d7-454e-84ce-8e75a31d066c",
-          "name": "Rousing Orator",
-          "phaseDetails": "Passive",
-          "phase": "endOfTurn",
-          "castingValue": null,
-          "cpCost": null,
-          "reaction": false,
-          "lore": "In the face of the oncoming enemy, those Freeguild Marshals who stand shoulder to shoulder with their soldiers employ rousing oratory to inspire them to stand strong.",
-          "usedBy": null,
-          "declare": null,
-          "effect": "Add 3 to the control scores of other friendly Cities of Sigmar Human units while they are wholly within 12\" of this unit.",
-          "abilityAndCommandIcon": "control",
-          "warscrollId": "ecfd8d14-af16-4cb7-b29d-95cf3a8982d6",
-          "keywords": []
-        }
-      ],
-      "keywords": [
-        "Human",
-        "Infantry",
         "Hero"
       ],
       "factionKeywords": [
@@ -3985,7 +3281,7 @@
           "lore": "Callis and Toll have sacred bullets and blade oils prepared for particularly deadly foes.",
           "usedBy": null,
           "declare": null,
-          "effect": "Double the Damage characteristic of this unit’s weapons for attacks that target Wizards, Priests and Manifestations.",
+          "effect": "Double the Damage characteristic of this unit’s weapons for attacks that target **Wizards**, **Priests** and **Manifestations**.",
           "abilityAndCommandIcon": "offensive",
           "warscrollId": "9ad5566f-af6d-4e05-96e1-2f685a2f6c0d",
           "keywords": []
@@ -4001,7 +3297,7 @@
           "lore": "Callis, Toll and their companions are renowned for their dogged commitment to the mission.",
           "usedBy": null,
           "declare": null,
-          "effect": "Pick a friendly Toll’s Companions unit that has not used a Fight ability this turn and is within this unit’s combat range to be the target. The target can be picked to use a Fight ability immediately after the Fight ability used by this unit has been resolved.",
+          "effect": "Pick a friendly **Toll’s Companions** unit that has not used a **Fight** ability this turn and is within this unit’s combat range to be the target. The target can be picked to use a **Fight** ability immediately after the **Fight** ability used by this unit has been resolved.",
           "abilityAndCommandIcon": "offensive",
           "warscrollId": "9ad5566f-af6d-4e05-96e1-2f685a2f6c0d",
           "keywords": []
@@ -4114,22 +3410,6 @@
       ],
       "abilities": [
         {
-          "id": "2a163289-320a-445d-9c29-adec9430aeb3",
-          "name": "Battle Damaged",
-          "phaseDetails": "Passive",
-          "phase": "startOfTurn",
-          "castingValue": null,
-          "cpCost": null,
-          "reaction": false,
-          "lore": null,
-          "usedBy": null,
-          "declare": null,
-          "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its Black Dragon’s Fearsome Jaws and Claws is 4.",
-          "abilityAndCommandIcon": "battleDamaged",
-          "warscrollId": "c8b838b5-125e-444a-8398-3c66dfc38c55",
-          "keywords": []
-        },
-        {
           "id": "9e38b2de-ed20-4d52-924f-bcefa0cc896b",
           "name": "Under the Shadow of Black Wings",
           "phaseDetails": "Passive",
@@ -4140,7 +3420,7 @@
           "lore": "Dreadlords send in the cavalry to weaken the enemy before swooping down to deliver the killing blow.",
           "usedBy": null,
           "declare": null,
-          "effect": "Add 1 to charge rolls for friendly Cities of Sigmar Aelf Cavalry units while they are wholly within 12\" of this unit.",
+          "effect": "Add 1 to charge rolls for friendly **Cities of Sigmar Aelf Cavalry** units while they are wholly within 12\" of this unit.",
           "abilityAndCommandIcon": "movement",
           "warscrollId": "c8b838b5-125e-444a-8398-3c66dfc38c55",
           "keywords": []
@@ -4162,6 +3442,22 @@
           "keywords": [
             "Rampage"
           ]
+        },
+        {
+          "id": "2a163289-320a-445d-9c29-adec9430aeb3",
+          "name": "Battle Damaged",
+          "phaseDetails": "Passive",
+          "phase": "startOfTurn",
+          "castingValue": null,
+          "cpCost": null,
+          "reaction": false,
+          "lore": null,
+          "usedBy": null,
+          "declare": null,
+          "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its **Black Dragon’s Fearsome Jaws and Claws** is 4.",
+          "abilityAndCommandIcon": "battleDamaged",
+          "warscrollId": "c8b838b5-125e-444a-8398-3c66dfc38c55",
+          "keywords": []
         }
       ],
       "keywords": [
@@ -4262,7 +3558,7 @@
           "lore": "The Sorceress draws power from the blood spilled by her Black Dragon.",
           "usedBy": null,
           "declare": null,
-          "effect": "Add 1 to casting rolls for this unit for each dark sorcery token it has.",
+          "effect": "Add 1 to casting rolls for this unit for each **dark sorcery token** it has.",
           "abilityAndCommandIcon": "special",
           "warscrollId": "94e0d510-ef25-4357-8371-e96f6ba9b4c1",
           "keywords": []
@@ -4278,7 +3574,7 @@
           "lore": null,
           "usedBy": null,
           "declare": null,
-          "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its Black Dragon’s Fearsome Jaws and Claws is 4.",
+          "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its **Black Dragon’s Fearsome Jaws and Claws** is 4.",
           "abilityAndCommandIcon": "battleDamaged",
           "warscrollId": "94e0d510-ef25-4357-8371-e96f6ba9b4c1",
           "keywords": []
@@ -4293,7 +3589,7 @@
           "reaction": false,
           "lore": "The cold-hearted rulers of the Darkling Covens wield absolute control over their ensorcelled underlings, commanding them to do their bidding unquestioningly.",
           "usedBy": null,
-          "declare": "Pick up to 3 friendly Cities of Sigmar Aelf Infantry units wholly within 12\" of this unit to be targets.",
+          "declare": "Pick up to 3 friendly **Cities of Sigmar Aelf Infantry** units wholly within 12\" of this unit to be targets.",
           "effect": "Add 3\" to the Move characteristic of each target for the rest of the turn.",
           "abilityAndCommandIcon": "movement",
           "warscrollId": "94e0d510-ef25-4357-8371-e96f6ba9b4c1",
@@ -4310,7 +3606,7 @@
           "lore": "The Black Dragon tears into the enemy, spilling copious blood as the Sorceress completes her dark ritual.",
           "usedBy": null,
           "declare": "Pick an enemy unit in combat with this unit to be the target.",
-          "effect": "Roll a D3. On a 2+, inflict an amount of mortal damage on the target equal to the roll. If any enemy models are slain by this ability, place a dark sorcery token next to this unit for the rest of the battle, to a maximum of 3 tokens.",
+          "effect": "Roll a D3. On a 2+, inflict an amount of mortal damage on the target equal to the roll. If any enemy models are slain by this ability, place a **dark** **sorcery** token next to this unit for the rest of the battle, to a maximum of 3 tokens.",
           "abilityAndCommandIcon": "special",
           "warscrollId": "94e0d510-ef25-4357-8371-e96f6ba9b4c1",
           "keywords": [
@@ -4442,7 +3738,7 @@
           "lore": "Pumping pressure into the valves and pistons of a Steam Tank can improve its performance – but risks a catastrophic backfire.",
           "usedBy": null,
           "declare": null,
-          "effect": "Roll 2D6. If the roll is less than the number of damage points this unit has, inflict D3 mortal damage on this unit. Otherwise, pick 1 of the following effects to apply to this unit until the start of your next turn:\n\nPower the Wheels: This unit can use a Run ability and still use Shoot and/or Charge abilities later in the turn.\n\nPower the Guns: Add 3 to the Attacks characteristic of this unit’s Steam Gun.",
+          "effect": "Roll 2D6. If the roll is less than the number of damage points this unit has, inflict D3 mortal damage on this unit. Otherwise, pick 1 of the following effects to apply to this unit until the start of your next turn:\n\n***Power the Wheels:*** This unit can use a **Run** ability and still use **Shoot** and/or **Charge** abilities later in the turn.\n\n***Power the Guns:*** Add 3 to the Attacks characteristic of this unit’s **Steam Gun**.",
           "abilityAndCommandIcon": "special",
           "warscrollId": "07893819-22ee-4c62-984b-cfd7d699d42e",
           "keywords": []
@@ -4457,7 +3753,7 @@
           "reaction": false,
           "lore": "From atop the turret, the commander directs the other tanks in their division upon the battlefield.",
           "usedBy": null,
-          "declare": "Pick up to 2 friendly Steam Tank units to be the targets.",
+          "declare": "Pick up to 2 friendly **Steam Tank** units to be the targets.",
           "effect": "For the rest of the turn, add 1 to hit rolls for shooting attacks made by this unit and by each target.",
           "abilityAndCommandIcon": "shooting",
           "warscrollId": "07893819-22ee-4c62-984b-cfd7d699d42e",
@@ -4528,7 +3824,7 @@
           "lore": "When all hope is lost, a Flagellant will fling themselves at the enemy with reckless abandon, heedless of their own survival.",
           "usedBy": null,
           "declare": null,
-          "effect": "Each time a model in this unit is slain by a combat attack and that model was in combat with the attacking unit, roll a dice. Add 1 to the roll if this unit is wholly within 12\" of a friendly Pontifex Zenestra. On a 5+, inflict 1 mortal damage on the attacking unit after the Fight ability has been resolved.",
+          "effect": "Each time a model in this unit is slain by a combat attack and that model was in combat with the attacking unit, roll a dice. Add 1 to the roll if this unit is wholly within 12\" of a friendly **Pontifex Zenestra**. On a 5+, inflict 1 mortal damage on the attacking unit after the **Fight** ability has been resolved.",
           "abilityAndCommandIcon": "offensive",
           "warscrollId": "a5f4e900-b59d-4648-a931-3762d5d89da4",
           "keywords": []
@@ -4611,8 +3907,8 @@
           "reaction": false,
           "lore": "Gyrobombers swoop over the enemy lines, dropping a lethal payload onto the hapless warriors below.",
           "usedBy": null,
-          "declare": "If this unit used a Move ability this phase, pick an enemy unit that does not have Fly and that this unit passed across this turn to be the target.",
-          "effect": "Pick 1 of the following effects:\n\nTactical Bombing: Roll a D3. On a 2+, inflict an amount of mortal damage on the target equal to the roll.\n\nDrop It All!: Make 2 rolls of D3. For each 2+, inflict an amount of mortal damage on the target equal to the roll. Then, roll a D3 for each unit (friendly and enemy) within the target’s combat range that does not have Fly. On a 2+, inflict an amount of mortal damage on that unit equal to the roll. Once the ‘Drop It All!’ effect of this ability has been resolved, this unit cannot use this ability again for the rest of the battle.",
+          "declare": "If this unit used a **Move** ability this phase, pick an enemy unit that does not have **Fly** and that this unit passed across this turn to be the target.",
+          "effect": "Pick 1 of the following effects:\n\n***Tactical Bombing:*** Roll a D3. On a 2+, inflict an amount of mortal damage on the target equal to the roll.\n\n***Drop It All!:*** Make 2 rolls of D3. For each 2+, inflict an amount of mortal damage on the target equal to the roll. Then, roll a D3 for each unit (friendly and enemy) within the target’s combat range that does not have **Fly**. On a 2+, inflict an amount of mortal damage on that unit equal to the roll. Once the ‘Drop It All!’ effect of this ability has been resolved, this unit cannot use this ability again for the rest of the battle.",
           "abilityAndCommandIcon": "offensive",
           "warscrollId": "e1e1bb0c-1336-4007-9220-8108003a6c9c",
           "keywords": []
@@ -4695,7 +3991,7 @@
           "reaction": false,
           "lore": "Every Gyrocopter goes to battle with a single payload of these volatile blackpowder explosives.",
           "usedBy": null,
-          "declare": "If this unit used a Move ability this phase, pick an enemy unit that does not have Fly and that this unit passed across this turn to be the target.",
+          "declare": "If this unit used a **Move** ability this phase, pick an enemy unit that does not have **Fly** and that this unit passed across this turn to be the target.",
           "effect": "Roll a D3. On a 2+, inflict an amount of mortal damage on the target equal to the roll.",
           "abilityAndCommandIcon": "offensive",
           "warscrollId": "6c7ca7ee-d096-4e27-8839-347e519baa61",
@@ -4869,7 +4165,7 @@
           "lore": "Luminarks of Hysh are surrounded by a protective magical aura.",
           "usedBy": null,
           "declare": null,
-          "effect": "Friendly Cities of Sigmar units have Ward (6+) while they are wholly within 12\" of this unit.",
+          "effect": "Friendly **Cities of Sigmar** units have **Ward (6+)** while they are wholly within 12\" of this unit.",
           "abilityAndCommandIcon": "defensive",
           "warscrollId": "ffaae771-df5a-4b41-934a-a5f794e94c9b",
           "keywords": []
@@ -4885,7 +4181,7 @@
           "lore": "As interlocking lenses of aetherquartz click into place, a beam of blinding white light shoots forth to incinerate all before it.",
           "usedBy": null,
           "declare": null,
-          "effect": "Each time this unit attacks with its Searing Beam of Light, pick a point on the battlefield within range to be the target. If the attack scores a hit, draw a straight line between that point and the closest point on this unit’s base. Inflict D3 mortal damage on each visible unit (friendly and enemy) that the line passes across.",
+          "effect": "Each time this unit attacks with its **Searing Beam of Light**, pick a point on the battlefield within range to be the target. If the attack scores a hit, draw a straight line between that point and the closest point on this unit’s base. Inflict D3 mortal damage on each visible unit (friendly and enemy) that the line passes across.",
           "abilityAndCommandIcon": "shooting",
           "warscrollId": "ffaae771-df5a-4b41-934a-a5f794e94c9b",
           "keywords": []
@@ -4988,7 +4284,7 @@
           "lore": "Loosed by a keen-eyed aelf, a harpoon sails through the air and sinks deep into its target’s vital organs.",
           "usedBy": null,
           "declare": null,
-          "effect": "Add 1 to hit rolls and wound rolls for this unit’s shooting attacks that target enemy Monsters.",
+          "effect": "Add 1 to hit rolls and wound rolls for this unit’s shooting attacks that target enemy **Monsters**.",
           "abilityAndCommandIcon": "offensive",
           "warscrollId": "46b64739-0206-4466-a5ea-ee9ae0f1ea10",
           "keywords": []
@@ -5087,7 +4383,7 @@
           "lore": "Pumping pressure into the valves and pistons of a Steam Tank can improve its performance – but risks a catastrophic backfire.",
           "usedBy": null,
           "declare": null,
-          "effect": "Roll 2D6. If the roll is less than the number of damage points this unit has, inflict D3 mortal damage on this unit. Otherwise, pick 1 of the following effects to apply to this unit until the start of your next turn:\n\nPower the Wheels: This unit can use a Run ability and still use Shoot and/or Charge abilities later in the turn.\n\nPower the Guns: Add 3 to the Attacks characteristic of this unit’s Steam Gun.",
+          "effect": "Roll 2D6. If the roll is less than the number of damage points this unit has, inflict D3 mortal damage on this unit. Otherwise, pick 1 of the following effects to apply to this unit until the start of your next turn:\n\n***Power the Wheels:*** This unit can use a **Run** ability and still use **Shoot** and/or **Charge** abilities later in the turn.\n\n***Power the Guns:*** Add 3 to the Attacks characteristic of this unit’s **Steam Gun**.",
           "abilityAndCommandIcon": "special",
           "warscrollId": "e635f1ff-6e2b-493d-a53f-c9670597900d",
           "keywords": []
@@ -5190,7 +4486,7 @@
           "lore": "It is almost impossible to kill a Hydra, for they regenerate wounds and regrow severed heads with alarming speed.",
           "usedBy": null,
           "declare": null,
-          "effect": "Heal (6) this unit.",
+          "effect": "**Heal (6)** this unit.",
           "abilityAndCommandIcon": "defensive",
           "warscrollId": "1a366635-ad73-487c-91fd-202e67bf52bc",
           "keywords": []
@@ -5222,6 +4518,710 @@
         "Cities of Sigmar",
         "Grand Alliance Order"
       ]
+    },
+    {
+      "id": "67fdc959-85c3-4f61-9213-81fa277a3b14",
+      "name": "Doralia ven Denst",
+      "subname": null,
+      "lore": "Despite her youth, Doralia ven Denst is a renowned agent of the Order of Azyr. Not only a hunter of witches and warlocks, she is a specialist in dispelling the endless spells they unleash, banishing them with consecrated blade and crossbow bolt alike. Her weapons inscribed with the holy writ of Sigmar and inlaid with nullstone and silver, Doralia is considered by many within the Order to be a prodigy.\n\nDoralia is a woman of incredible resolve. In battle, she will not stop or flee until the horrors she is facing are either banished or burnt to dust by Sigmar’s grace. After years of training with Galen, her father and mentor, the pair fight as a well-oiled machine. Doralia lays waste to spellcasting daemons from a great distance with her anti-thaumic crossbow, allowing her father to close in with a swing of his runic broadsword. Galen and Doralia worked together during the Siege of Excelsis to banish Synessa and Dexcessa, the twin daemons of Slaanesh – a feat that did not go unnoticed. As a result of her exploits, Doralia has earned the favour of the Seraphon, though the enigmatic saurians do not extend Galen the same recognition, much to her father’s frustration.",
+      "bannerImage": "https://dhss9aar8ocw.cloudfront.net/7f06ad08-92b5-423f-a3d2-7ee1e7ca4fc1",
+      "rowImage": "https://dhss9aar8ocw.cloudfront.net/48fa5efe-e1e8-4c22-83ab-d271e2a220b7",
+      "modelCount": 1,
+      "baseSize": "28.5mm",
+      "points": 0,
+      "notes": "This unit can only be taken in **Galen ven Denst**’s regiment.",
+      "isSpearhead": false,
+      "cannotBeReinforced": true,
+      "hiddenFromReference": false,
+      "hiddenFromStormForge": false,
+      "referenceKeywords": "Unique, Hero, Infantry, Order, Cities of Sigmar, Human",
+      "move": "5\"",
+      "save": "4+",
+      "control": "2",
+      "health": "5",
+      "wargearOptionsText": null,
+      "publicationId": "4bf9d877-a064-448d-b1f7-b48dac5f7d2a",
+      "limitingWarscrollId": null,
+      "requiredPrimaryHeroWarscrollId": "ca15a877-173e-48b1-96f7-2f8b75232085",
+      "isLegends": false,
+      "faction": "Cities of Sigmar",
+      "weapons": [
+        {
+          "id": "076c5f20-e06e-4c79-b06b-9e8514948096",
+          "name": "Anti‑thaumic Crossbow",
+          "type": "ranged",
+          "range": "18\"",
+          "attacks": "2",
+          "hit": "3+",
+          "wound": "3+",
+          "rend": "1",
+          "damage": "2",
+          "battleDamaged": false,
+          "warscrollId": "67fdc959-85c3-4f61-9213-81fa277a3b14",
+          "weaponAbilities": [
+            "Anti-Wizard (+1 Rend)"
+          ]
+        },
+        {
+          "id": "69ac8e81-350d-4a9e-82d0-28a18f7f2134",
+          "name": "Consecrated Blade",
+          "type": "melee",
+          "range": null,
+          "attacks": "3",
+          "hit": "3+",
+          "wound": "4+",
+          "rend": "1",
+          "damage": "2",
+          "battleDamaged": false,
+          "warscrollId": "67fdc959-85c3-4f61-9213-81fa277a3b14",
+          "weaponAbilities": []
+        }
+      ],
+      "abilities": [
+        {
+          "id": "3190b463-6b1e-4ea5-9013-b21e343fd09b",
+          "name": "Weapons of Banishment",
+          "phaseDetails": "Passive",
+          "phase": "combatPhase",
+          "castingValue": null,
+          "cpCost": null,
+          "reaction": false,
+          "lore": "Inscribed with the holy writ of Sigmar and inlaid with nullstone and silver, the weapons of the Ven Densts are anathema to spellcasters and their works, banishing all forms of arcane energy in a flash.",
+          "usedBy": null,
+          "declare": null,
+          "effect": "Double the Damage characteristic of this unit’s weapons for attacks that target **Wizards**, **Priests** and **Manifestations**.",
+          "abilityAndCommandIcon": "offensive",
+          "warscrollId": "67fdc959-85c3-4f61-9213-81fa277a3b14",
+          "keywords": []
+        }
+      ],
+      "keywords": [
+        "Human",
+        "Unique",
+        "Infantry",
+        "Hero"
+      ],
+      "factionKeywords": [
+        "Cities of Sigmar",
+        "Grand Alliance Order"
+      ]
+    },
+    {
+      "id": "cf06424b-34e2-4b23-bf90-1e9d8d1b758c",
+      "name": "Toll's Companions",
+      "subname": null,
+      "lore": "The hidden catacombs of the God-King’s cities conceal innumerable threats, from lurking monsters to hidden cults. It is the duty of the Order of Azyr to root out these horrors, and there are few more effective at this than Callis and Toll. Along with a motley retinue of hired blades, these heroes fight a bitter underground war to keep the Cities of Sigmar from sliding into bloodshed.\n\nOriginally from the Realm of Death, Lyssa Revenya is a thief who specialises in breaching the most heavily guarded treasure vaults in the realms. Her unscrupulous talents nearly saw her executed, but Toll saw the crypt-breaker’s potential and recruited her, assuring her that if she served Sigmar faithfully, her previous crimes would be forgotten. Second of the agents is Mistress Verentia, who lurks like a spider at the centre of a web of intrigue. Her agents observe every corner of the Twin-Tailed City. Her ‘little watchers’ are not humans but urban beasts: crows, rats and cats that communicate their discoveries to their mistress via her enchanted glove. Finally comes Lord-Castellant Valius, who is responsible for Hammerhal’s internal security. He is the Keeper Aqshian and bears the Clavis Magna – a device that allows him to pass through any threshold in the city and emerge from any other.",
+      "bannerImage": "https://dhss9aar8ocw.cloudfront.net/2566a0ab-257e-444e-9a3b-1e66187ec059",
+      "rowImage": "https://dhss9aar8ocw.cloudfront.net/1d14679e-9bb0-4ab4-8634-2156d9e73cff",
+      "modelCount": 4,
+      "baseSize": "40mm [1], 28.5mm [3]",
+      "points": 0,
+      "notes": "This unit can only be taken in **Callis and Toll**’s regiment. This unit cannot be reinforced.",
+      "isSpearhead": false,
+      "cannotBeReinforced": true,
+      "hiddenFromReference": false,
+      "hiddenFromStormForge": false,
+      "referenceKeywords": "Unique, Infantry, Order, Cities of Sigmar, Human",
+      "move": "5\"",
+      "save": "4+",
+      "control": "1",
+      "health": "3",
+      "wargearOptionsText": null,
+      "publicationId": "4bf9d877-a064-448d-b1f7-b48dac5f7d2a",
+      "limitingWarscrollId": null,
+      "requiredPrimaryHeroWarscrollId": "9ad5566f-af6d-4e05-96e1-2f685a2f6c0d",
+      "isLegends": false,
+      "faction": "Cities of Sigmar",
+      "weapons": [
+        {
+          "id": "e8744826-3bbe-4a51-b6dd-fc9a658c9edd",
+          "name": "Exotic Assortment of Weapons",
+          "type": "melee",
+          "range": null,
+          "attacks": "4",
+          "hit": "3+",
+          "wound": "4+",
+          "rend": "1",
+          "damage": "1",
+          "battleDamaged": false,
+          "warscrollId": "cf06424b-34e2-4b23-bf90-1e9d8d1b758c",
+          "weaponAbilities": [
+            "Anti-Wizard (+1 Rend)"
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "id": "5daaa8d9-82dd-42f4-95ed-ebc2821d1a55",
+          "name": "Hidden Agents",
+          "phaseDetails": "Deployment Phase",
+          "phase": "startOfTurn",
+          "castingValue": null,
+          "cpCost": null,
+          "reaction": false,
+          "lore": "A locked door is to be picked, a high wall is to be scaled and the shadows are to be embraced.",
+          "usedBy": null,
+          "declare": "Pick this unit and a friendly **Callis and Toll** unit in the same regiment as this unit if those units have not been deployed.",
+          "effect": "Set up those units in reserve **in the shadows**. Those units have now been deployed.",
+          "abilityAndCommandIcon": "special",
+          "warscrollId": "cf06424b-34e2-4b23-bf90-1e9d8d1b758c",
+          "keywords": [
+            "Deploy"
+          ]
+        },
+        {
+          "id": "6f80e9a4-4e9a-4b2c-8f00-f04d8e2440c9",
+          "name": "Emerge from the Shadows",
+          "phaseDetails": "Your Movement Phase",
+          "phase": "movementPhase",
+          "castingValue": null,
+          "cpCost": null,
+          "reaction": false,
+          "lore": "Their mission imperative, these agents only reveal themselves when they are poised to bring down Sigmar’s judgement upon their quarry.",
+          "usedBy": null,
+          "declare": "Pick this unit if it is **in the shadows**.",
+          "effect": "Set up this unit anywhere on the battlefield more than 9\" from all enemy units. Then, set up the **Callis and Toll** unit that was set up **in the shadows** with this unit wholly within 6\" of it and more than 9\" from all enemy units.",
+          "abilityAndCommandIcon": "special",
+          "warscrollId": "cf06424b-34e2-4b23-bf90-1e9d8d1b758c",
+          "keywords": []
+        },
+        {
+          "id": "f172c2fb-e758-441e-b3f1-bb83b53d2aca",
+          "name": "Saviours of Cinderfall",
+          "phaseDetails": "Passive",
+          "phase": "defensive",
+          "castingValue": null,
+          "cpCost": null,
+          "reaction": false,
+          "lore": "These companions have endured through thick and thin, watching each other’s backs and holding back the tides of darkness.",
+          "usedBy": null,
+          "declare": null,
+          "effect": "While a friendly **Callis and Toll** unit is wholly within this unit’s combat range, both this unit and that **Callis and Toll** unit have **Ward (5+)**.",
+          "abilityAndCommandIcon": "defensive",
+          "warscrollId": "cf06424b-34e2-4b23-bf90-1e9d8d1b758c",
+          "keywords": []
+        }
+      ],
+      "keywords": [
+        "Human",
+        "Unique",
+        "Infantry"
+      ],
+      "factionKeywords": [
+        "Cities of Sigmar",
+        "Grand Alliance Order"
+      ]
+    },
+    {
+      "id": "e42f2d3e-ed4d-48d5-b5ec-f10108a651f1",
+      "name": "Ironbreakers",
+      "subname": null,
+      "lore": "Ironbreakers are the elite guardians of the Dispossessed’s underground fortresses. Often compared to walking tanks by their Dawnbringer comrades, they are clad from head to toe in impervious gromril armour and wield masterwork axes and hammers, forming an impenetrable wall against which the enemy is soon shattered. Joining the Ironbreakers is the dream of many a young duardin warrior, and when these grizzled veterans visit the taverns of their clan holdings or a wider city, they have all manner of tales about what they have seen in the undercrofts of the realms. Even their wildest stories hold true, for an Ironbreaker’s word is itself nigh unbreakable. Nevertheless, few believe them – though perhaps this is for the best, given all that they have lived through.\n\nEach Ironbreaker marches to battle with a diamond-hard warhammer and gromril shield. Their commanders are known as Ironbeards, who take potshots at oncoming foes from behind the Ironbreakers’ shieldwall with smoking drakefire pistols.",
+      "bannerImage": "https://dhss9aar8ocw.cloudfront.net/4a8fd8bf-46c5-475c-834a-aae163537152",
+      "rowImage": "https://dhss9aar8ocw.cloudfront.net/c77a1028-2ceb-4433-8838-1599a6056778",
+      "modelCount": 10,
+      "baseSize": "25mm",
+      "points": 130,
+      "notes": null,
+      "isSpearhead": false,
+      "cannotBeReinforced": false,
+      "hiddenFromReference": false,
+      "hiddenFromStormForge": false,
+      "referenceKeywords": "Infantry, Champion, Musician (1/10), Standard Bearer (1/10), Order, Cities of Sigmar, Duardin",
+      "move": "4\"",
+      "save": "3+",
+      "control": "1",
+      "health": "1",
+      "wargearOptionsText": "***Each model in this unit is armed with Ironbreaker Weapons.***\n\n***• The champion is armed with Drakefire Pistols in addition to their other weapons.***",
+      "publicationId": "4bf9d877-a064-448d-b1f7-b48dac5f7d2a",
+      "limitingWarscrollId": null,
+      "requiredPrimaryHeroWarscrollId": null,
+      "isLegends": false,
+      "faction": "Cities of Sigmar",
+      "weapons": [
+        {
+          "id": "3bcb82de-fbc9-45a1-a2e7-598ecdfe518b",
+          "name": "Ironbreaker Weapon",
+          "type": "melee",
+          "range": null,
+          "attacks": "2",
+          "hit": "3+",
+          "wound": "4+",
+          "rend": "-",
+          "damage": "1",
+          "battleDamaged": false,
+          "warscrollId": "e42f2d3e-ed4d-48d5-b5ec-f10108a651f1",
+          "weaponAbilities": []
+        },
+        {
+          "id": "b5df6281-b89c-4759-8f34-dfc7c9e6c1bf",
+          "name": "Drakefire Pistols",
+          "type": "ranged",
+          "range": "10\"",
+          "attacks": "1",
+          "hit": "3+",
+          "wound": "3+",
+          "rend": "1",
+          "damage": "1",
+          "battleDamaged": false,
+          "warscrollId": "e42f2d3e-ed4d-48d5-b5ec-f10108a651f1",
+          "weaponAbilities": [
+            "Shoot in Combat"
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "id": "3b8f1664-e841-4a85-8698-69fcbb08de93",
+          "name": "Gromril Shieldwall",
+          "phaseDetails": "Passive",
+          "phase": "defensive",
+          "castingValue": null,
+          "cpCost": null,
+          "reaction": false,
+          "lore": "Once formed up into a shieldwall, a line of gromril-clad Ironbreakers is nigh impenetrable.",
+          "usedBy": null,
+          "declare": null,
+          "effect": "While this unit is affected by the ‘Hold the Line’ **Officar’s Order** ability, it has **Ward (4+)** instead of **Ward (5+)**.",
+          "abilityAndCommandIcon": "defensive",
+          "warscrollId": "e42f2d3e-ed4d-48d5-b5ec-f10108a651f1",
+          "keywords": []
+        }
+      ],
+      "keywords": [
+        "Champion",
+        "Standard Bearer",
+        "Musician",
+        "Duardin",
+        "Infantry"
+      ],
+      "factionKeywords": [
+        "Cities of Sigmar",
+        "Grand Alliance Order"
+      ]
+    },
+    {
+      "id": "4367a305-83ac-415e-b2b3-d26b86050468",
+      "name": "Freeguild Command Corps",
+      "subname": null,
+      "lore": "The Command Corps are a group of experts, champions and specialists that guide the Marshal in matters of war. Standing by their commander are the Arch‑Knights, exemplars of the blade and axe who protect their lord in battle. Each bears a fierce totem fashioned after a great beast that reflects their fighting style. Next is a Great Herald, who holds aloft the regimental banner that will be planted at the heart of a new settlement. It is their role to sound the advance, charge and timely retreat.\n\nMost Command Corps include a War Surgeon skilled in the arts of triage and amputation. They are incredibly proficient, able to perform medical miracles even under fire on the battlefield. Should a soldier succumb to their injuries, however, their soul is guided to their afterlife by the Soul Shepherds, allowing them to escape the clutches of Nagash. The strange piping of the Shepherds’ homunculi is silent to the living, but a lilting requiem can be heard as one approaches death.\n\nLurking in the shadows are the Whisperblades, who keep the Marshal apprised of dissent. They wear cloaks of Ulguan falsecloth that allow them to blend with darkness – all the better to listen, learn and assassinate.",
+      "bannerImage": "https://dhss9aar8ocw.cloudfront.net/85ffc7ed-bc21-4eff-b9d4-a3de8eebca12",
+      "rowImage": "https://dhss9aar8ocw.cloudfront.net/3759eb83-28ee-456c-b501-4b23120d6bc9",
+      "modelCount": 6,
+      "baseSize": "40mm [1], 32mm [1], 28.5mm [5]",
+      "points": 190,
+      "notes": "This unit cannot be reinforced.",
+      "isSpearhead": false,
+      "cannotBeReinforced": true,
+      "hiddenFromReference": false,
+      "hiddenFromStormForge": false,
+      "referenceKeywords": "Infantry, Standard Bearer (1/6), Order, Cities of Sigmar, Human",
+      "move": "5\"",
+      "save": "4+",
+      "control": "2",
+      "health": "3",
+      "wargearOptionsText": "***The Great Herald, War Surgeon and Soul Shepherd are each armed with an Assortment of Weapons. The Arch-Knight is armed with a Sigmarite Great Weapon. The Whisperblade is armed with an Enchanted Rapier. The Mascot Gargoylian is armed with a Gargoylian’s Bite.***",
+      "publicationId": "4bf9d877-a064-448d-b1f7-b48dac5f7d2a",
+      "limitingWarscrollId": null,
+      "requiredPrimaryHeroWarscrollId": null,
+      "isLegends": false,
+      "faction": "Cities of Sigmar",
+      "weapons": [
+        {
+          "id": "7d0b94c5-bee3-473e-b00f-63e05a3584b9",
+          "name": "Assortment of Weapons",
+          "type": "melee",
+          "range": null,
+          "attacks": "2",
+          "hit": "3+",
+          "wound": "4+",
+          "rend": "-",
+          "damage": "1",
+          "battleDamaged": false,
+          "warscrollId": "4367a305-83ac-415e-b2b3-d26b86050468",
+          "weaponAbilities": []
+        },
+        {
+          "id": "8b61285a-2dde-4f75-9638-9f76a9f39d25",
+          "name": "Sigmarite Great Weapon",
+          "type": "melee",
+          "range": null,
+          "attacks": "4",
+          "hit": "3+",
+          "wound": "3+",
+          "rend": "1",
+          "damage": "D3",
+          "battleDamaged": false,
+          "warscrollId": "4367a305-83ac-415e-b2b3-d26b86050468",
+          "weaponAbilities": []
+        },
+        {
+          "id": "9152587e-a6c7-4230-a9b0-7a67f4adbcc7",
+          "name": "Enchanted Rapier",
+          "type": "melee",
+          "range": null,
+          "attacks": "1",
+          "hit": "2+",
+          "wound": "4+",
+          "rend": "2",
+          "damage": "D6",
+          "battleDamaged": false,
+          "warscrollId": "4367a305-83ac-415e-b2b3-d26b86050468",
+          "weaponAbilities": [
+            "Crit (Mortal)"
+          ]
+        },
+        {
+          "id": "eb84b164-270b-4a94-8b59-a688aee46abb",
+          "name": "Gargoylian’s Bite",
+          "type": "melee",
+          "range": null,
+          "attacks": "3",
+          "hit": "4+",
+          "wound": "3+",
+          "rend": "1",
+          "damage": "D3",
+          "battleDamaged": false,
+          "warscrollId": "4367a305-83ac-415e-b2b3-d26b86050468",
+          "weaponAbilities": [
+            "Companion"
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "id": "c56c771f-d50a-479b-851d-832c6422b219",
+          "name": "Freeguild Adjutants",
+          "phaseDetails": "Once Per Battle Round (Army), Any Hero Phase",
+          "phase": "heroPhase",
+          "castingValue": null,
+          "cpCost": null,
+          "reaction": false,
+          "lore": "Each member of the Command Corps has their own special skills to be employed.",
+          "usedBy": null,
+          "declare": "Pick a friendly **Cities of Sigmar Human** unit wholly within 12\" of this unit to be the target.",
+          "effect": "For the rest of the turn, the first time the target uses the ‘Redeploy’, ‘Rally’, ‘Covering Fire’ or ‘Counter-charge’ command, you can pick another friendly **Cities of Sigmar Human** unit wholly within 12\" of this unit and that has not used a command this phase to use the same command immediately after the first has been resolved (this is an exception to Commands, 1.2). You must still spend command points as normal to use the command a second time.",
+          "abilityAndCommandIcon": "special",
+          "warscrollId": "4367a305-83ac-415e-b2b3-d26b86050468",
+          "keywords": []
+        },
+        {
+          "id": "dc23c37a-e132-42c7-89db-2cd4c7a40b4c",
+          "name": "Dispatch Spies",
+          "phaseDetails": "Once Per Battle (Army), Reaction: Opponent declared a command for a unit within 12\" of this unit",
+          "phase": "startOfTurn",
+          "castingValue": null,
+          "cpCost": null,
+          "reaction": true,
+          "lore": "The Whisperblades have networks of informants and operatives at their disposal that they use to unravel the best-laid plans of the enemy.",
+          "usedBy": null,
+          "declare": null,
+          "effect": "Unless your opponent spends 1 additional command point to use that command, the command has no effect, it still counts as having been used and the command points spent to use the command are still lost.",
+          "abilityAndCommandIcon": "special",
+          "warscrollId": "4367a305-83ac-415e-b2b3-d26b86050468",
+          "keywords": []
+        },
+        {
+          "id": "9f6d7284-8ca0-4a1c-b70f-c5e1b0469a66",
+          "name": "The Marshal's Retinue",
+          "phaseDetails": "Passive",
+          "phase": "defensive",
+          "castingValue": null,
+          "cpCost": null,
+          "reaction": false,
+          "lore": "As well as bringing their diverse range of skills to the battlefield, the warriors and wisemen of the Command Corps have each sworn to guard the life of a Marshal with their own.",
+          "usedBy": null,
+          "declare": null,
+          "effect": "While any friendly **Freeguild Marshal and Relic Envoy** units are wholly within this unit’s combat range, both this unit and those friendly units have **Ward (5+)**.",
+          "abilityAndCommandIcon": "defensive",
+          "warscrollId": "4367a305-83ac-415e-b2b3-d26b86050468",
+          "keywords": []
+        }
+      ],
+      "keywords": [
+        "Standard Bearer",
+        "Human",
+        "Infantry"
+      ],
+      "factionKeywords": [
+        "Cities of Sigmar",
+        "Grand Alliance Order"
+      ]
+    },
+    {
+      "id": "73d82a2c-856c-4218-acad-62d803a0efb0",
+      "name": "Freeguild Steelhelms",
+      "subname": null,
+      "lore": "The Steelhelms are the weatherbeaten infantry at the heart of each Freeguild regiment. They cross the battlefield in a defensive shieldwall known as a Castelite formation and are often used as guardians of artillery emplacements. Throughout all levels of the Dawnbringer Crusades, there is a quiet respect for their sheer tenacity. After all, Steelhelms are most frequently the humble men and women of the Sigmarite cities, recruited from all walks of life. This is not to say that they are untrained – once they take the Coin, the recruits are given arms and armour and drilled in their city’s military academy for the expedition to come.\n\nEach battalion is headed by a Steelhelm Herald, bearer of the consecrated regimental standard. The toughest, most resolute member of the soldiery is usually given this duty – so vaunted is this honour that they would rather die than let the standard fall. Alongside them comes the Battle Priest. Ever ready to deliver a sermon or beat back the God-King’s foes with their fists and hammers, they carry the relic of a Sigmarite martyr to clear Chaos taint from their path. If a Battle Priest forms the spiritual armour of the Steelhelms, it is the Sergeant-at-Arms who provides its iron fist. Resolute, stubborn and formidable, they use wits as well as brawn to ensure they and their unit live to fight another day.",
+      "bannerImage": "https://dhss9aar8ocw.cloudfront.net/177d6bf9-d2b1-4284-ae17-309fd61241b7",
+      "rowImage": "https://dhss9aar8ocw.cloudfront.net/95aa7ff8-8f45-4533-9737-f67b409e0cf9",
+      "modelCount": 10,
+      "baseSize": "25mm",
+      "points": 100,
+      "notes": null,
+      "isSpearhead": false,
+      "cannotBeReinforced": false,
+      "hiddenFromReference": false,
+      "hiddenFromStormForge": false,
+      "referenceKeywords": "Infantry, Champion, Musician (1/10), Standard Bearer (1/10), Order, Cities of Sigmar, Human",
+      "move": "5\"",
+      "save": "4+",
+      "control": "1",
+      "health": "1",
+      "wargearOptionsText": "***This unit’s musician and standard bearer are the same model.***",
+      "publicationId": "4bf9d877-a064-448d-b1f7-b48dac5f7d2a",
+      "limitingWarscrollId": null,
+      "requiredPrimaryHeroWarscrollId": null,
+      "isLegends": false,
+      "faction": "Cities of Sigmar",
+      "weapons": [
+        {
+          "id": "5e0c5150-1171-46e1-9b25-a212bb717f6d",
+          "name": "Freeguild Weapons",
+          "type": "melee",
+          "range": null,
+          "attacks": "2",
+          "hit": "4+",
+          "wound": "4+",
+          "rend": "-",
+          "damage": "1",
+          "battleDamaged": false,
+          "warscrollId": "73d82a2c-856c-4218-acad-62d803a0efb0",
+          "weaponAbilities": []
+        }
+      ],
+      "abilities": [
+        {
+          "id": "13ac68a4-e46d-40f6-ad5a-c6c351636a9d",
+          "name": "Consecrate the Land",
+          "phaseDetails": "Once Per Turn (Army), Your Movement Phase",
+          "phase": "movementPhase",
+          "castingValue": null,
+          "cpCost": null,
+          "reaction": false,
+          "lore": "Bellowing Sigmarite hymns, the Battle Priest who accompanies the Steelhelms purges the taint of Chaos from the land and consecrates it in the name of the God-King.",
+          "usedBy": null,
+          "declare": "If this unit is contesting an objective you control that is not contested by any enemy models, roll a dice.",
+          "effect": "On a 3+, that objective is considered by you to be consecrated. While each model in a friendly **Cities of Sigmar Human** unit is contesting a consecrated objective, that unit has **Ward (5+)**. If your opponent gains control of a consecrated objective, it is no longer consecrated.",
+          "abilityAndCommandIcon": "special",
+          "warscrollId": "73d82a2c-856c-4218-acad-62d803a0efb0",
+          "keywords": []
+        }
+      ],
+      "keywords": [
+        "Champion",
+        "Standard Bearer",
+        "Musician",
+        "Human",
+        "Infantry"
+      ],
+      "factionKeywords": [
+        "Cities of Sigmar",
+        "Grand Alliance Order"
+      ]
+    },
+    {
+      "id": "7d8068f0-f773-4d56-92f5-3717d39b20e3",
+      "name": "Wildercorps Hunters",
+      "subname": null,
+      "lore": "Trackers, scouts and outdoorsmen, the Wildercorps are experts in attacking from the cover of thick foliage and broken ground. Their warhounds surge forward, sinking fangs into flesh as skilled marksmen pick out their targets with crossbows and arbalests.\n\nThough rarely hailed as heroes, often being too belligerent or crude for Marshals to handle, the Wildercorps save the citizen armies from disaster time and again. During recruitment, they are sent to train in the scruffy barracks on the city limits, roving far and wide as they hone their skills. Many amongst them are recent Reclaimed who have found it impossible to sleep in a comfortable bed. Back out they go into the wilds – for all their peril, the only place they ever really called home. This affinity for the wilderness makes them excellent hunters, both of the animals they slay with crossbow, trap and spear and of the outlying elements of invading armies. They train fierce Trailhounds, often rewarding them with chunks of fresh rat-meat so that they quickly learn to detect cowardly Skaven. As the hounds harass the foe, the Wildercorps Hunters take their shots, their weapons taking a toll before the enemy even knows they are under attack, then melt away into the shadows to begin the hunt anew.",
+      "bannerImage": "https://dhss9aar8ocw.cloudfront.net/f24ccef4-eed6-40c2-a262-f1575e6d9c34",
+      "rowImage": "https://dhss9aar8ocw.cloudfront.net/c8259262-8921-4d9c-a740-51ce342a019d",
+      "modelCount": 11,
+      "baseSize": "40mm [2], 28.5mm [3], 25mm [6]",
+      "points": 130,
+      "notes": "This unit cannot be reinforced.",
+      "isSpearhead": false,
+      "cannotBeReinforced": true,
+      "hiddenFromReference": false,
+      "hiddenFromStormForge": false,
+      "referenceKeywords": "Infantry, Champion (1/11), Order, Cities of Sigmar, Human",
+      "move": "5\"",
+      "save": "5+",
+      "control": "1",
+      "health": "1",
+      "wargearOptionsText": "***Each model in this unit is armed with a Hunting Crossbow and Hunting Weapons.***\n\n• ***The champion is armed with a Trailhound’s Ferocious Bite in addition to their other weapons.***\n• ***1/11 models is an Arbalester and is armed with a Hunting Arbalest instead of a Hunting Crossbow.***\n• ***4/11 models are Trailhounds and are armed with a Trailhound’s Ferocious Bite instead of any other weapons.***",
+      "publicationId": "4bf9d877-a064-448d-b1f7-b48dac5f7d2a",
+      "limitingWarscrollId": null,
+      "requiredPrimaryHeroWarscrollId": null,
+      "isLegends": false,
+      "faction": "Cities of Sigmar",
+      "weapons": [
+        {
+          "id": "441c9c6a-82f4-4cb2-8991-9a8ba5d9b177",
+          "name": "Hunting Crossbow",
+          "type": "ranged",
+          "range": "15\"",
+          "attacks": "2",
+          "hit": "4+",
+          "wound": "4+",
+          "rend": "1",
+          "damage": "1",
+          "battleDamaged": false,
+          "warscrollId": "7d8068f0-f773-4d56-92f5-3717d39b20e3",
+          "weaponAbilities": []
+        },
+        {
+          "id": "501aee37-5b24-4b56-8c45-caae91870506",
+          "name": "Hunting Arbalest",
+          "type": "ranged",
+          "range": "15\"",
+          "attacks": "2",
+          "hit": "4+",
+          "wound": "3+",
+          "rend": "2",
+          "damage": "D3",
+          "battleDamaged": false,
+          "warscrollId": "7d8068f0-f773-4d56-92f5-3717d39b20e3",
+          "weaponAbilities": []
+        },
+        {
+          "id": "8443a505-f424-4e4f-b84e-714ce89a056b",
+          "name": "Trailhound’s Ferocious Bite",
+          "type": "melee",
+          "range": null,
+          "attacks": "2",
+          "hit": "4+",
+          "wound": "3+",
+          "rend": "-",
+          "damage": "1",
+          "battleDamaged": false,
+          "warscrollId": "7d8068f0-f773-4d56-92f5-3717d39b20e3",
+          "weaponAbilities": [
+            "Companion"
+          ]
+        },
+        {
+          "id": "959339fa-5882-468d-89a3-2fb15c4b7a75",
+          "name": "Hunting Weapons",
+          "type": "melee",
+          "range": null,
+          "attacks": "2",
+          "hit": "4+",
+          "wound": "4+",
+          "rend": "-",
+          "damage": "1",
+          "battleDamaged": false,
+          "warscrollId": "7d8068f0-f773-4d56-92f5-3717d39b20e3",
+          "weaponAbilities": []
+        }
+      ],
+      "abilities": [
+        {
+          "id": "130e3668-0e26-468e-8257-e01a8e347164",
+          "name": "Expert Trackers",
+          "phaseDetails": "Deployment Phase",
+          "phase": "startOfTurn",
+          "castingValue": null,
+          "cpCost": null,
+          "reaction": false,
+          "lore": "These soldiers are tasked with scouting ahead of the main advance.",
+          "usedBy": null,
+          "declare": null,
+          "effect": "This unit can use the ‘Normal Move’ ability as if it were your movement phase.",
+          "abilityAndCommandIcon": "movement",
+          "warscrollId": "7d8068f0-f773-4d56-92f5-3717d39b20e3",
+          "keywords": []
+        },
+        {
+          "id": "797b9472-464f-4efe-b5ef-c543bab1113a",
+          "name": "Hidden and Dangerous",
+          "phaseDetails": "Passive",
+          "phase": "shootingPhase",
+          "castingValue": null,
+          "cpCost": null,
+          "reaction": false,
+          "lore": "Lurking unseen by the enemy, Wildercorps Hunters stalk their quarry sometimes for days on end before they launch surprise volleys of crossbow bolts from hidden positions.",
+          "usedBy": null,
+          "declare": null,
+          "effect": "This unit is not visible to enemy units more than 12\" from it while it is affected by the ‘Cover’ terrain ability. In addition, add 1 to hit rolls for this unit’s shooting attacks while it is wholly within 3\" of a terrain feature.",
+          "abilityAndCommandIcon": "shooting",
+          "warscrollId": "7d8068f0-f773-4d56-92f5-3717d39b20e3",
+          "keywords": []
+        }
+      ],
+      "keywords": [
+        "Champion",
+        "Human",
+        "Infantry"
+      ],
+      "factionKeywords": [
+        "Cities of Sigmar",
+        "Grand Alliance Order"
+      ]
+    },
+    {
+      "id": "55b21ca7-b8aa-4ad2-af81-262e5ea5a3a0",
+      "name": "Black Ark Fleetmaster",
+      "subname": null,
+      "lore": "The deft and decisive Fleetmasters who lead the Scourge Privateers explore the seas of the realms with watchful eyes in much the same way the Dawnbringers traverse the lands. Each commands a Black Ark, a floating sea-fortress the size of a castle that forms the heart of their fleet. The waters of the Mortal Realms are thick with hazards, from flesh-eating seaweed to spine-flinging gyresharks that can bite a vessel clean in half. Rather than fight a thankless war against these beasts, the masters of the Scourge fleets learn to avoid or even harness them using a combination of enchantment, patience and aelven artifice.\n\nThe Fleetmasters are known not only for the speed of their assaults but also for their flair. As happy to inveigle themselves into high society as they are to stoop to the gutter, they cut quite a dash in their frill-collared drakeskin cloaks. Any would-be rivals who underestimate them are soon corrected by force; the dexterity with which Fleetmasters wield the blade is quite incredible. Though nominally a part of the God-King’s great alliance, all such lords crave power unto themselves. Many a Fleetmaster sitting upon the Grand Conclave of a fortress-city has friends in low places, a commanding interest in the local narcotics market or a lucrative sideline in smuggling prohibited goods.",
+      "bannerImage": "https://dhss9aar8ocw.cloudfront.net/2f885ad9-af7c-45f4-b880-0c1fb92155dc",
+      "rowImage": "https://dhss9aar8ocw.cloudfront.net/60d6f140-7968-4a88-a48d-68d273828d7d",
+      "modelCount": 1,
+      "baseSize": "25mm",
+      "points": 110,
+      "notes": "This **Hero** can join an eligible regiment as a *Shadow Agent*.",
+      "isSpearhead": false,
+      "cannotBeReinforced": true,
+      "hiddenFromReference": false,
+      "hiddenFromStormForge": false,
+      "referenceKeywords": "Hero, Infantry, Order, Cities of Sigmar, Aelf",
+      "move": "6\"",
+      "save": "4+",
+      "control": "2",
+      "health": "5",
+      "wargearOptionsText": null,
+      "publicationId": "4bf9d877-a064-448d-b1f7-b48dac5f7d2a",
+      "limitingWarscrollId": null,
+      "requiredPrimaryHeroWarscrollId": null,
+      "isLegends": false,
+      "faction": "Cities of Sigmar",
+      "weapons": [
+        {
+          "id": "01fbe37c-f670-48df-9d9d-fb89eafd2c73",
+          "name": "Wicked Cutlass and Murder Hook",
+          "type": "melee",
+          "range": null,
+          "attacks": "5",
+          "hit": "3+",
+          "wound": "4+",
+          "rend": "1",
+          "damage": "2",
+          "battleDamaged": false,
+          "warscrollId": "55b21ca7-b8aa-4ad2-af81-262e5ea5a3a0",
+          "weaponAbilities": [
+            "Crit (Mortal)"
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "id": "a8788ee3-241d-4b91-96ad-a26cd90b2a99",
+          "name": "'At Them, You Curs!'",
+          "phaseDetails": "Reaction: You declared a Fight ability for this unit",
+          "phase": "combatPhase",
+          "castingValue": null,
+          "cpCost": null,
+          "reaction": true,
+          "lore": "Under the gaze of their Fleetmaster, Scourge Corsairs slaughter the enemy without mercy.",
+          "usedBy": null,
+          "declare": null,
+          "effect": "Pick a friendly **Black Ark Corsairs** unit that has not used a **Fight** ability this turn and is within this unit’s combat range to be the target.\n\nThe target can be picked to use a **Fight** ability immediately after the **Fight** ability used by this unit has been resolved. If it is picked to do so, add 1 to the Attacks characteristic of the target’s melee weapons for the rest of the turn.",
+          "abilityAndCommandIcon": "offensive",
+          "warscrollId": "55b21ca7-b8aa-4ad2-af81-262e5ea5a3a0",
+          "keywords": []
+        }
+      ],
+      "keywords": [
+        "Shadow Agent",
+        "Infantry",
+        "Fly",
+        "Hero"
+      ],
+      "factionKeywords": [
+        "Cities of Sigmar",
+        "Grand Alliance Order"
+      ]
     }
   ],
   "battleTraits": [
@@ -5236,9 +5236,9 @@
       "abilityAndCommandIcon": "defensive",
       "cpCost": null,
       "lore": "A barrage of shots rains down upon the foe, disrupting their cohesion and leaving them vulnerable.",
-      "declare": "Pick a friendly Cities of Sigmar **Hero** that has not used an Officar’s Order ability this turn to use this ability, then pick a friendly Cities of Sigmar unit wholly within 12\" of that **Hero** to be the target.",
+      "declare": "Pick a friendly **Cities of Sigmar **Hero**** that has not used an **Officar’s Order** ability this turn to use this ability, then pick a friendly **Cities of Sigmar** unit wholly within 12\" of that ****Hero**** to be the target.",
       "usedBy": null,
-      "effect": "Each time the target uses a **Shoot** ability this phase, if all of its attacks targeted the same enemy unit, after that ability has been resolved, roll a dice. If the result is equal to or less than the number of models in that enemy unit that were slain by shooting attacks this phase, that enemy unit has Strike‑last for the rest of the turn.",
+      "effect": "Each time the target uses a ****Shoot**** ability this phase, if all of its attacks targeted the same enemy unit, after that ability has been resolved, roll a dice. If the result is equal to or less than the number of models in that enemy unit that were slain by shooting attacks this phase, that enemy unit has **Strike‑last** for the rest of the turn.",
       "image": null,
       "altText": null,
       "subsectionName": null,
@@ -5261,9 +5261,9 @@
       "abilityAndCommandIcon": "offensive",
       "cpCost": null,
       "lore": "The soldiers are ordered to cut down the enemy post-haste.",
-      "declare": "Pick a friendly Cities of Sigmar **Hero** that has not used an Officar’s Order ability this turn to use this ability, then pick a friendly Cities of Sigmar unit that charged this turn that is wholly within 12\" of that **Hero** to be the target.",
+      "declare": "Pick a friendly **Cities of Sigmar **Hero**** that has not used an **Officar’s Order** ability this turn to use this ability, then pick a friendly **Cities of Sigmar** unit that charged this turn that is wholly within 12\" of that ****Hero**** to be the target.",
       "usedBy": null,
-      "effect": "Add 1 to the Attacks characteristic of the target’s melee weapons for the rest of the turn.\n\nIn addition, if the target is an **Aelf** unit, add 1 to hit rolls for the target’s combat attacks for the rest of the turn.",
+      "effect": "Add 1 to the Attacks characteristic of the target’s melee weapons for the rest of the turn.\n\nIn addition, if the target is an ****Aelf**** unit, add 1 to hit rolls for the target’s combat attacks for the rest of the turn.",
       "image": null,
       "altText": null,
       "subsectionName": null,
@@ -5284,9 +5284,9 @@
       "abilityAndCommandIcon": "defensive",
       "cpCost": null,
       "lore": "A close-formation battleline held by the resolute faithful of Sigmar is nigh impossible to penetrate.",
-      "declare": "Pick a friendly Cities of Sigmar **Hero** that has not used an Officar’s Order ability this turn to use this ability, then pick a friendly Cities of Sigmar unit wholly within 12\" of that **Hero** and that did not **charge** this turn to be the target.",
+      "declare": "Pick a friendly **Cities of Sigmar **Hero**** that has not used an **Officar’s Order** ability this turn to use this ability, then pick a friendly **Cities of Sigmar** unit wholly within 12\" of that ****Hero**** and that did not **charge** this turn to be the target.",
       "usedBy": null,
-      "effect": "The target has Strike-last and Ward (5+) for the rest of the turn.\n\nIn addition, if the target is **Duardin**, subtract 1 from hit rolls for combat attacks that target that unit for the rest of the turn.",
+      "effect": "The target has **Strike-last** and **Ward (5+)** for the rest of the turn.\n\nIn addition, if the target is ****Duardin****, subtract 1 from hit rolls for combat attacks that target that unit for the rest of the turn.",
       "image": null,
       "altText": null,
       "subsectionName": null,
@@ -5309,7 +5309,7 @@
       "abilityAndCommandIcon": "movement",
       "cpCost": null,
       "lore": "The sound of boots marching in unison grows louder.",
-      "declare": "Pick a friendly Cities of Sigmar **Hero** that has not used an Officar’s Order ability this turn to use this ability, then pick a friendly Cities of Sigmar unit wholly within 12\" of that **Hero** and not in combat to be the target.\n\nIf the target is **Human**, you can pick an additional Cities of Sigmar unit wholly within 12\" of that **Hero** and not in combat to be a target.\n\nYou cannot pick the same unit to be a target of this ability more than once per turn.",
+      "declare": "Pick a friendly **Cities of Sigmar **Hero**** that has not used an **Officar’s Order** ability this turn to use this ability, then pick a friendly **Cities of Sigmar** unit wholly within 12\" of that **Hero** and not in combat to be the target.\n\nIf the target is ****Human****, you can pick an additional **Cities of** **Sigmar** unit wholly within 12\" of that ****Hero**** and not in combat to be a target.\n\nYou cannot pick the same unit to be a target of this ability more than once per turn.",
       "usedBy": null,
       "effect": "Each target can **move** 3\". Each target cannot **move** into combat during any part of that **move**.",
       "image": null,
@@ -5359,7 +5359,7 @@
       "cpCost": null,
       "lore": "While rash and impulsive, this general shows unwavering bravery in the face of the enemy and is often the first to charge into the fray.",
       "usedBy": null,
-      "effect": "If this unit charged this turn, you can re-roll **charge** rolls for friendly Cities of Sigmar units while they are wholly within 18\" of this unit.",
+      "effect": "If this unit charged this turn, you can re-roll **charge** rolls for friendly **Cities of Sigmar** units while they are wholly within 18\" of this unit.",
       "image": null,
       "altText": null,
       "subsectionName": null,
@@ -5381,7 +5381,7 @@
       "cpCost": null,
       "lore": "This hero takes great pride in the quality of the firearms forged in their city. Thus, they demand the most from the weapons’ wielders in battle.",
       "usedBy": null,
-      "effect": "If a friendly Cities of Sigmar unit uses the ‘All-out **Attack**’ command in the shooting phase while it is within this unit’s combat range, add 1 to wound rolls for that unit’s shooting attacks in that phase. This effect is in addition to the effect of ‘All-out **Attack**’.",
+      "effect": "If a friendly **Cities of Sigmar** unit uses the ‘All-out **Attack**’ command in the shooting phase while it is within this unit’s combat range, add 1 to wound rolls for that unit’s shooting attacks in that phase. This effect is in addition to the effect of ‘All-out **Attack**’.",
       "image": null,
       "altText": null,
       "subsectionName": null,
@@ -5427,7 +5427,7 @@
       "cpCost": null,
       "lore": "Upon this ancient parchment of this hallowed tome are the litanies of the Cults Unberogen.",
       "usedBy": null,
-      "effect": "If this unit is not a **Priest**, it has **Priest** (1). If this unit is already a **Priest**, add 1 to chanting rolls for this unit.\n\nIf this unit is a **Wizard**, it cannot use **Spell** abilities and **Prayer** abilities in the same phase.",
+      "effect": "If this unit is not a ****Priest****, it has ****Priest** (1)**. If this unit is already a ****Priest****, add 1 to chanting rolls for this unit.\n\nIf this unit is a ****Wizard****, it cannot use ****Spell**** abilities and ****Prayer**** abilities in the same phase.",
       "image": null,
       "altText": null,
       "subsectionName": null,
@@ -5448,7 +5448,7 @@
       "abilityAndCommandIcon": "rallying",
       "cpCost": null,
       "lore": "This torch symbolises the light of civilisation being carried into the darkness, a sacred act that emboldens those who march alongside it.",
-      "declare": "Pick a friendly non-**Hero** Cities of Sigmar **Infantry** unit that is not in combat and wholly within 12\" of this unit.",
+      "declare": "Pick a friendly non-****Hero** Cities of Sigmar **Infantry**** unit that is not in combat and wholly within 12\" of this unit.",
       "usedBy": null,
       "effect": "You can return up to D3 slain models to that unit.",
       "image": null,
@@ -5473,7 +5473,7 @@
           "phase": "heroPhase",
           "abilityAndCommandIcon": "defensive",
           "lore": "The blessing of the maker-gods hardens steel as each suit of armour remembers the hammer blows that forged it.",
-          "declare": "Pick a friendly Cities of Sigmar Priest to chant this prayer, pick a visible friendly Cities of Sigmar unit wholly within 12\" of them to be the target, then make a chanting roll of D6. Add 1 to the roll if the chanter is Duardin.",
+          "declare": "Pick a friendly **Cities of Sigmar Priest** to chant this prayer, pick a visible friendly **Cities of Sigmar** unit wholly within 12\" of them to be the target, then make a chanting roll of D6. Add 1 to the roll if the chanter is **Duardin**.",
           "usedBy": null,
           "effect": "Subtract 1 from wound rolls for attacks that target that unit until the start of your next turn. In addition, if the chanting roll was 10+, add 1 to save rolls for the target until the start of your next turn.",
           "castingValue": 5,
@@ -5490,7 +5490,7 @@
           "phase": "heroPhase",
           "abilityAndCommandIcon": "offensive",
           "lore": "The very earth cracks before the priest, venting fire and sulphurous fumes that engulf the enemy.",
-          "declare": "Pick a friendly Cities of Sigmar Priest to chant this prayer, pick a visible enemy unit within 18\" of them to be the target, then make a chanting roll of D6.",
+          "declare": "Pick a friendly **Cities of Sigmar Priest** to chant this prayer, pick a visible enemy unit within 18\" of them to be the target, then make a chanting roll of D6.",
           "usedBy": null,
           "effect": "Roll 6 dice. If the chanting roll was 8+, roll 9 dice instead. For each 5+, inflict 1 mortal damage on the target. If 3 or more damage points are allocated to the target as a result of those dice rolls, ignore positive modifiers to save rolls for the target until the start of your next turn.",
           "castingValue": 4,
@@ -5508,7 +5508,7 @@
           "phase": "heroPhase",
           "abilityAndCommandIcon": "offensive",
           "lore": "The moment this prayer is answered, the wind dies down to naught and weapons hold steady as if frozen in time, allowing shots to hit their mark with ease.",
-          "declare": "Pick a friendly Cities of Sigmar Priest to chant this prayer, pick a visible friendly Cities of Sigmar unit wholly within 12\" of them to be the target, then make a chanting roll of D6.",
+          "declare": "Pick a friendly **Cities of Sigmar Priest** to chant this prayer, pick a visible friendly **Cities of Sigmar** unit wholly within 12\" of them to be the target, then make a chanting roll of D6.",
           "usedBy": null,
           "effect": "Add 1 to hit rolls for the target’s shooting attacks for the rest of the turn. In addition, if the chanting roll was 10+, add 1 to wound rolls for the target’s shooting attacks for the rest of the turn.",
           "castingValue": 4,
@@ -5531,7 +5531,7 @@
           "phase": "heroPhase",
           "abilityAndCommandIcon": "defensive",
           "lore": "Blinding sparks and thick plumes of smoke mask the battlefield and fall upon the enemy ranks, sowing confusion and stifling their assault.",
-          "declare": "Pick a friendly Cities of Sigmar Wizard to cast this spell, pick a visible enemy unit within 18\" of them to be the target, then make a casting roll of 2D6.",
+          "declare": "Pick a friendly **Cities of Sigmar Wizard** to cast this spell, pick a visible enemy unit within 18\" of them to be the target, then make a casting roll of 2D6.",
           "usedBy": null,
           "effect": "Until the start of your next turn, subtract 1 from the Attacks characteristic of the target’s melee weapons.",
           "castingValue": 7,
@@ -5548,7 +5548,7 @@
           "phase": "heroPhase",
           "abilityAndCommandIcon": "offensive",
           "lore": "Lightning bursts from the wizard’s fingertips and arcs towards the enemy with crackling fury.",
-          "declare": "Pick a friendly Cities of Sigmar Wizard to cast this spell, pick a visible enemy unit within 18\" of them that has not been picked to be the target of this ability this turn to be the target, then make a casting roll of 2D6.",
+          "declare": "Pick a friendly **Cities of Sigmar Wizard** to cast this spell, pick a visible enemy unit within 18\" of them that has not been picked to be the target of this ability this turn to be the target, then make a casting roll of 2D6.",
           "usedBy": null,
           "effect": "Inflict D3 mortal damage on the target. Then, roll a dice for each other enemy unit within the target’s combat range. On a 4+, inflict D3 mortal damage on that unit.",
           "castingValue": 7,
@@ -5566,7 +5566,7 @@
           "phase": "heroPhase",
           "abilityAndCommandIcon": "movement",
           "lore": "The wizard grants their allies swift-moving bestial forms.",
-          "declare": "Pick a friendly Cities of Sigmar Wizard to cast this spell, pick a visible friendly Cities of Sigmar unit wholly within 12\" to be the target, then make a casting roll of 2D6.",
+          "declare": "Pick a friendly **Cities of Sigmar Wizard** to cast this spell, pick a visible friendly **Cities of Sigmar** unit wholly within 12\" to be the target, then make a casting roll of 2D6.",
           "usedBy": null,
           "effect": "Until the start of your next turn, add 1 to the number of dice rolled when making charge rolls for the target, to a maximum of 3.",
           "castingValue": 7,
@@ -5592,7 +5592,7 @@
           "abilityAndCommandIcon": "movement",
           "lore": "Though the odds of their success have sunk to desperate lows, new Dawnbringer columns plunge into the nightmarish wilds; armed with potent weaponry, ready to drive great spear-like assaults into enemy territory.",
           "declare": null,
-          "effect": "Add 2\" to the Move characteristic of friendly Cities of Sigmar units in the first battle round.",
+          "effect": "Add 2\" to the Move characteristic of friendly **Cities of Sigmar** units in the first battle round.",
           "usedBy": null,
           "reaction": false,
           "battleFormationId": "9d02cd7e-b79a-4bdb-bac7-c90b68217f31",
@@ -5612,7 +5612,7 @@
           "abilityAndCommandIcon": "special",
           "lore": "Each great fortress-city is able to hold back the enemies at the gates through the discipline and vigilance of their standing armies.",
           "declare": null,
-          "effect": "Friendly Cities of Sigmar units that have the ‘Fortify Position’ ability start the first battle round in a fortified position.\n\nIn addition, in the first battle round, subtract 1 from wound rolls for attacks that target friendly Cities of Sigmar units while they are wholly within friendly territory.",
+          "effect": "Friendly **Cities of Sigmar** units that have the ‘Fortify Position’ ability start the first battle round in a fortified position.\n\nIn addition, in the first battle round, subtract 1 from wound rolls for attacks that target friendly **Cities of Sigmar** units while they are wholly within friendly territory.",
           "usedBy": null,
           "reaction": false,
           "battleFormationId": "a5c79783-d19d-476f-86f7-1dd6fcbe399c",
@@ -5632,7 +5632,7 @@
           "abilityAndCommandIcon": "shooting",
           "lore": "The powerful guilds thrive in industrial cities such as Greywater Fastness, leveraging the skill of Ironweld engineers to supply their forces with expertly crafted weapons.",
           "declare": null,
-          "effect": "Add 3\" to the Range characteristic of ranged weapons used by friendly Cities of Sigmar units.",
+          "effect": "Add 3\" to the Range characteristic of ranged weapons used by friendly **Cities of Sigmar** units.",
           "usedBy": null,
           "reaction": false,
           "battleFormationId": "b74a5f4e-abdf-45cf-9336-2103170c3b6c",
@@ -5652,7 +5652,7 @@
           "abilityAndCommandIcon": "special",
           "lore": "Whether from the famed colleges of Hallowheart or the populace of Settler’s Gain, the Collegiate Arcane often assembles forces to escort mages on their quests to acquire powerful artefacts or drive back the forces of Chaos.",
           "declare": null,
-          "effect": "Add 1 to casting rolls for friendly Cities of Sigmar Wizards.",
+          "effect": "Add 1 to casting rolls for friendly **Cities of Sigmar Wizards**.",
           "usedBy": null,
           "reaction": false,
           "battleFormationId": "dda3910c-1ca8-428b-8b83-aea16d6cbcfe",

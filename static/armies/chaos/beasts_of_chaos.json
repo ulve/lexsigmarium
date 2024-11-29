@@ -1,5 +1,5 @@
 {
-  "dataVersion": 181,
+  "dataVersion": 197,
   "warscrolls": [
     {
       "id": "06807378-996c-40e2-beac-ca4d0c9637c6",
@@ -54,8 +54,8 @@
           "reaction": false,
           "lore": "Raw chaotic energy emanates from the Bray-Shaman, imbuing surrounding beastmen with unnatural speed.",
           "usedBy": null,
-          "declare": "Pick a friendly Beasts of Chaos unit wholly within 12\" of this unit to be the target.",
-          "effect": "For the rest of the turn, the target can use a Run ability and still use Charge abilities later in the turn.",
+          "declare": "Pick a friendly **Beasts of Chaos** unit wholly within 12\" of this unit to be the target.",
+          "effect": "For the rest of the turn, the target can use a **Run** ability and still use **Charge** abilities later in the turn.",
           "abilityAndCommandIcon": "movement",
           "warscrollId": "06807378-996c-40e2-beac-ca4d0c9637c6",
           "keywords": []
@@ -277,22 +277,6 @@
       ],
       "abilities": [
         {
-          "id": "50b71c4c-d642-44db-9817-3c4bad4198c8",
-          "name": "Multiple Parts",
-          "phaseDetails": "Passive",
-          "phase": "startOfTurn",
-          "castingValue": null,
-          "cpCost": null,
-          "reaction": false,
-          "lore": null,
-          "usedBy": null,
-          "declare": null,
-          "effect": "When a number of damage points equal to this Manifestation’s Health characteristic are allocated to it, this Manifestation is destroyed and all of its parts are removed from play.\n\nEach time this Manifestation moves, each of its parts must end within 1\" of at least 1 other part.\n\nEach part of this Manifestation is armed with Murderous Beaks.",
-          "abilityAndCommandIcon": "special",
-          "warscrollId": "1ab21e97-0c46-4b88-9d12-e72be2ab4421",
-          "keywords": []
-        },
-        {
           "id": "71ba2be4-53a8-497e-931f-ba4743b61edf",
           "name": "Harbingers of Dark Omens",
           "phaseDetails": "Passive",
@@ -305,6 +289,22 @@
           "declare": null,
           "effect": "Subtract 5 from the control scores of enemy units while they are within 12\" of this unit.",
           "abilityAndCommandIcon": "control",
+          "warscrollId": "1ab21e97-0c46-4b88-9d12-e72be2ab4421",
+          "keywords": []
+        },
+        {
+          "id": "50b71c4c-d642-44db-9817-3c4bad4198c8",
+          "name": "Multiple Parts",
+          "phaseDetails": "Passive",
+          "phase": "startOfTurn",
+          "castingValue": null,
+          "cpCost": null,
+          "reaction": false,
+          "lore": null,
+          "usedBy": null,
+          "declare": null,
+          "effect": "When a number of damage points equal to this **Manifestation**’s Health characteristic are allocated to it, this **Manifestation** is destroyed and all of its parts are removed from play.\n\nEach time this **Manifestation** moves, each of its parts must end within 1\" of at least 1 other part.\n\nEach part of this **Manifestation** is armed with **Murderous Beaks**.",
+          "abilityAndCommandIcon": "special",
           "warscrollId": "1ab21e97-0c46-4b88-9d12-e72be2ab4421",
           "keywords": []
         }
@@ -390,7 +390,7 @@
           "lore": "Despite their formidable size, Dragon Ogors can move as swift as an avalanche, often surprising enemies who foolishly charge them.",
           "usedBy": null,
           "declare": null,
-          "effect": "If this unit did not charge this turn and is in combat with an enemy unit that charged this turn, roll a dice. On a 4+, this unit has Strike-first for the rest of the turn.",
+          "effect": "If this unit did not charge this turn and is in combat with an enemy unit that charged this turn, roll a dice. On a 4+, this unit has **Strike-first** for the rest of the turn.",
           "abilityAndCommandIcon": "offensive",
           "warscrollId": "88dd030a-55b0-43ba-8509-b5b6a09de53b",
           "keywords": []
@@ -478,7 +478,7 @@
           "lore": "Dark clouds gather above the battlefield, threatening to unleash the fury of the tempest.",
           "usedBy": null,
           "declare": "Pick each enemy unit in combat with this unit to be the targets.",
-          "effect": "Roll a dice. On a 2+, Heal (X) this unit, where X is an amount equal to the roll. Then, roll a D3 for each target. On a 2+, inflict an amount of mortal damage on the target equal to the roll.",
+          "effect": "Roll a dice. On a 2+, **Heal (X)** this unit, where **X** is an amount equal to the roll. Then, roll a D3 for each target. On a 2+, inflict an amount of mortal damage on the target equal to the roll.",
           "abilityAndCommandIcon": "special",
           "warscrollId": "26ca1d2f-b514-4a4c-991e-7d41df2c0952",
           "keywords": [
@@ -496,7 +496,7 @@
           "lore": "The untrammelled fury of the primordial storm flows through this creature, a fulminating power so intense that it can render malevolent sorceries harmless.",
           "usedBy": null,
           "declare": null,
-          "effect": "If this unit or a friendly Dragon Ogors unit wholly within 12\" of this unit was picked to be the target of that spell, roll a dice. On a 4+, ignore the effect of that spell on this unit or that friendly unit. This unit can use this ability more than once per phase but only once per Spell ability.",
+          "effect": "If this unit or a friendly **Dragon Ogors** unit wholly within 12\" of this unit was picked to be the target of that spell, roll a dice. On a 4+, ignore the effect of that spell on this unit or that friendly unit. This unit can use this ability more than once per phase but only once per **Spell** ability.",
           "abilityAndCommandIcon": "special",
           "warscrollId": "26ca1d2f-b514-4a4c-991e-7d41df2c0952",
           "keywords": []
@@ -569,7 +569,7 @@
           "lore": "As a Cockatrice surges forwards, its eyes begin to glow with warping energy, transfixing foes where they stand.",
           "usedBy": null,
           "declare": "Pick a visible enemy unit within 12\" of this unit to be the target.",
-          "effect": "Roll a dice for each model in the target unit. For each 6, inflict 1 mortal damage on the target. If any damage points are allocated to the target by this ability, the target has Strike-last for the rest of the turn.",
+          "effect": "Roll a dice for each model in the target unit. For each 6, inflict 1 mortal damage on the target. If any damage points are allocated to the target by this ability, the target has **Strike-last** for the rest of the turn.",
           "abilityAndCommandIcon": "shooting",
           "warscrollId": "91bfc67a-f2d1-4edf-8dc9-fbbc3f5a0493",
           "keywords": []
@@ -670,7 +670,7 @@
           "lore": "The huge, cavernous maw of a Ghorgon can swallow a man whole – a grisly fate for any warrior.",
           "usedBy": null,
           "declare": "Pick an enemy unit in combat with this unit to be the target.",
-          "effect": "Roll a dice. If the roll exceeds the target’s Health characteristic:\n\n• 1 model in the target unit is slain.\n• Heal (X) this unit, where X is an amount equal to the roll.",
+          "effect": "Roll a dice. If the roll exceeds the target’s Health characteristic:\n\n• 1 model in the target unit is slain.\n• **Heal (X)** this unit, where **X** is an amount equal to the roll.",
           "abilityAndCommandIcon": "special",
           "warscrollId": "39adfcf8-2ecd-414c-a580-be178b063de2",
           "keywords": [
@@ -688,7 +688,7 @@
           "lore": null,
           "usedBy": null,
           "declare": null,
-          "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its Butchering Blades is 4.",
+          "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its **Butchering Blades** is 4.",
           "abilityAndCommandIcon": "battleDamaged",
           "warscrollId": "39adfcf8-2ecd-414c-a580-be178b063de2",
           "keywords": []
@@ -788,7 +788,7 @@
           "reaction": false,
           "lore": "A feral roar by the Doombull alerts the warherd to the scent of flesh on the wind, sending them into an attacking frenzy.",
           "usedBy": null,
-          "declare": "Pick a friendly Warherd unit that is not in combat and is wholly within 12\" of this unit to be the target.",
+          "declare": "Pick a friendly **Warherd** unit that is not in combat and is wholly within 12\" of this unit to be the target.",
           "effect": "For the rest of the turn, add 1 to the number of dice rolled when making charge rolls for the target, to a maximum of 3.",
           "abilityAndCommandIcon": "movement",
           "warscrollId": "3b32ed7d-8da1-494d-88b7-733a1adad5b5",
@@ -844,7 +844,7 @@
           "lore": "As the corrupting influence of the herdstone spreads, buildings, armour and other trappings of civilisation begin to crumble to dust, allowing even the crude weapons of the Beasts of Chaos to cut through their defences with ease.",
           "usedBy": null,
           "declare": null,
-          "effect": "From the second battle round onwards, add 1 to the Rend characteristic of melee weapons used by friendly Beasts of Chaos units while they are wholly within 24\" of this terrain feature.\n\nIf this terrain feature is wholly within 18\" of the centre of the battlefield, this ability affects all friendly Beasts of Chaos units on the battlefield instead of those wholly within 24\" of it.",
+          "effect": "From the second battle round onwards, add 1 to the Rend characteristic of melee weapons used by friendly **Beasts of Chaos** units while they are wholly within 24\" of this terrain feature.\n\nIf this terrain feature is wholly within 18\" of the centre of the battlefield, this ability affects all friendly **Beasts of Chaos** units on the battlefield instead of those wholly within 24\" of it.",
           "abilityAndCommandIcon": "offensive",
           "warscrollId": "68be013b-c898-4554-ab00-aaeda347acde",
           "keywords": []
@@ -914,7 +914,7 @@
           "lore": "Warriors are sent sprawling, set aflame and trampled underhoof as the Wildfire Taurus charges headlong through their ranks.",
           "usedBy": null,
           "declare": "If this unit charged this phase, pick an enemy unit within 1\" of it to be the target.",
-          "effect": "Roll a number of dice equal to the unmodified charge roll. For each 4+, inflict 1 mortal damage on the target. If any damage points are allocated to the target by this ability, the target has Strike-last for the rest of the turn.",
+          "effect": "Roll a number of dice equal to the unmodified charge roll. For each 4+, inflict 1 mortal damage on the target. If any damage points are allocated to the target by this ability, the target has **Strike-last** for the rest of the turn.",
           "abilityAndCommandIcon": "offensive",
           "warscrollId": "70ec6a85-e44d-4bb5-a916-5a417094375f",
           "keywords": []
@@ -1000,7 +1000,7 @@
           "reaction": false,
           "lore": "Ungor Raiders are capable of unleashing devastating volleys of arrows from the safety of canopies and vantage points. By the time the foe knows where the attacks are coming from, the Raiders have already moved on.",
           "usedBy": null,
-          "declare": "If this unit is in reserve in ambush, pick a non-Hero enemy unit within 12\" of a battlefield edge to be the target.",
+          "declare": "If this unit is in reserve **in ambush**, pick a non-**Hero** enemy unit within 12\" of a battlefield edge to be the target.",
           "effect": "Roll a number of dice equal to the number of models in this unit. For each 6, inflict 1 mortal damage on the target. Then, in your next movement phase, set up this unit on the battlefield using the ‘Beastherd Ambush’ ability. If it is not possible to do so, it is destroyed.",
           "abilityAndCommandIcon": "offensive",
           "warscrollId": "921f823c-54c5-4e65-8618-de8dce820642",
@@ -1162,7 +1162,7 @@
           "lore": "Such is the appetite and metabolism of a Razorgor that it can consume a slain warrior, armour and all, in a matter of seconds and still remain unsatisfied.",
           "usedBy": null,
           "declare": null,
-          "effect": "Each time this unit uses a Fight ability, after that Fight ability has been resolved, Heal (D3) this unit.",
+          "effect": "Each time this unit uses a **Fight** ability, after that **Fight** ability has been resolved, **Heal (D3)** this unit.",
           "abilityAndCommandIcon": "defensive",
           "warscrollId": "65d30710-6611-49b8-aa88-23078e3a4132",
           "keywords": []
@@ -1248,7 +1248,7 @@
           "lore": "Bestigors reserve the greatest part of their hatred for those who rally under the banners of civilisation.",
           "usedBy": null,
           "declare": null,
-          "effect": "Add 1 to the Attacks characteristic of this unit’s Despoiler Axes for the rest of the turn.",
+          "effect": "This unit’s attacks score critical hits on unmodified hit rolls of 5+ for the rest of the turn.",
           "abilityAndCommandIcon": "offensive",
           "warscrollId": "887fc79d-10ac-49fa-a621-dac2b9e0dd9d",
           "keywords": []
@@ -1351,7 +1351,7 @@
           "lore": "Centigors glut themselves on potent brews made of fermented blood and Chaos-infused oozes that they bring from their territories, sending them into a state of drunken bravado in which they are blind to fear and pain.",
           "usedBy": null,
           "declare": null,
-          "effect": "This unit can use this ability if it is not in combat. It has Ward (4+) for the rest of the turn.",
+          "effect": "This unit can use this ability if it is not in combat. It has **Ward (4+)** for the rest of the turn.",
           "abilityAndCommandIcon": "defensive",
           "warscrollId": "827583e3-0316-4eb9-a9c5-51e2575571e4",
           "keywords": []
@@ -1408,7 +1408,7 @@
           "lore": "The maddening blast of this foul magic grows ever more deafening until all within a dozen leagues can hear it.",
           "usedBy": null,
           "declare": null,
-          "effect": "Increase the range of this Manifestation’s ‘Booming Cacophony’ ability by 6\". This effect can be applied multiple times to this Manifestation and is cumulative. If this Manifestation is removed from play, this effect no longer applies.",
+          "effect": "Increase the range of this **Manifestation**’s ‘Booming Cacophony’ ability by 6\". This effect can be applied multiple times to this **Manifestation** and is cumulative. If this **Manifestation** is removed from play, this effect no longer applies.",
           "abilityAndCommandIcon": "special",
           "warscrollId": "8f972c56-74cc-48c9-ba96-df7e61b4618e",
           "keywords": []
@@ -1424,7 +1424,7 @@
           "lore": "In the terrible blasting of the Dirgehorn can be heard the bestial growls of a thousand beastherds.",
           "usedBy": null,
           "declare": null,
-          "effect": "When this Manifestation is set up, the range of this ability is 6\". Subtract 1 from wound rolls for attacks made by enemy units while they are within range of this Manifestation’s ability.",
+          "effect": "When this **Manifestation** is set up, the range of this ability is 6\". Subtract 1 from wound rolls for attacks made by enemy units while they are within range of this **Manifestation**’s ability.",
           "abilityAndCommandIcon": "defensive",
           "warscrollId": "8f972c56-74cc-48c9-ba96-df7e61b4618e",
           "keywords": []
@@ -1599,7 +1599,7 @@
           "lore": null,
           "usedBy": null,
           "declare": null,
-          "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its Massive Horns is 4.",
+          "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its **Massive Horns** is 4.",
           "abilityAndCommandIcon": "battleDamaged",
           "warscrollId": "9739b383-a1cb-4575-a324-0f5974820ed0",
           "keywords": []
@@ -1615,7 +1615,7 @@
           "lore": "Feeding off the swirling winds of magic, Cygors pose an incredible threat to spellcasters.",
           "usedBy": null,
           "declare": null,
-          "effect": "This unit can use Unbind abilities as if it had Wizard (1). Each time this unit unbinds a spell, inflict D3 mortal damage on the caster.",
+          "effect": "This unit can use **Unbind** abilities as if it had **Wizard (1)**. Each time this unit unbinds a spell, inflict D3 mortal damage on the caster.",
           "abilityAndCommandIcon": "special",
           "warscrollId": "9739b383-a1cb-4575-a324-0f5974820ed0",
           "keywords": []
@@ -1630,8 +1630,8 @@
           "reaction": false,
           "lore": "A Cygor perceives mystic evocations as they are being formed, swallowing manifested spells as easily as the wizards that summoned them.",
           "usedBy": null,
-          "declare": "Pick an Endless Spell within 9\" of this unit to be the target.",
-          "effect": "Roll 2D6. If the roll exceeds the target’s Banishment characteristic:\n\n• The target is banished.\n• Heal (X) this unit, where X is an amount equal to the roll.",
+          "declare": "Pick an **Endless Spell** within 9\" of this unit to be the target.",
+          "effect": "Roll 2D6. If the roll exceeds the target’s Banishment characteristic:\n\n• The target is banished.\n• **Heal (X)** this unit, where **X** is an amount equal to the roll.",
           "abilityAndCommandIcon": "special",
           "warscrollId": "9739b383-a1cb-4575-a324-0f5974820ed0",
           "keywords": [
@@ -1721,7 +1721,7 @@
           "lore": "Those who gaze upon a Jabberslythe are soon overcome by a babbling madness, rendering them easy prey for the creature.",
           "usedBy": null,
           "declare": "Roll a D3. On a 2+, pick up to a number of enemy units equal to the roll that are within 9\" of this unit to be the targets.",
-          "effect": "For the rest of the turn, each time the unmodified hit roll for a combat attack made by the target is 1, inflict 1 mortal damage on the target after the Fight ability has been resolved.",
+          "effect": "For the rest of the turn, each time the unmodified hit roll for a combat attack made by the target is 1, inflict 1 mortal damage on the target after the **Fight** ability has been resolved.",
           "abilityAndCommandIcon": "offensive",
           "warscrollId": "bb9d34e3-a61e-4256-b96f-d80f5fdeb3da",
           "keywords": [
@@ -1850,7 +1850,7 @@
           "lore": "The leaders of a beastherd often goad gargants so as to send them into a berserk rage.",
           "usedBy": null,
           "declare": null,
-          "effect": "If this unit is within 6\" of any friendly Beasts of Chaos Heroes, add 1 to the Attacks characteristic of this unit’s melee weapons for the rest of the turn.",
+          "effect": "If this unit is within 6\" of any friendly **Beasts of Chaos Heroes**, add 1 to the Attacks characteristic of this unit’s melee weapons for the rest of the turn.",
           "abilityAndCommandIcon": "offensive",
           "warscrollId": "bdf541cd-3d06-482b-a93c-7ec77a1cd732",
           "keywords": [
@@ -2042,7 +2042,7 @@
           "lore": "Each head of a Chimera operates independently of the others, and though they are prone to violent disagreement as to which prey they should hunt, they are capable of working in terrifying concert.",
           "usedBy": null,
           "declare": null,
-          "effect": "Roll 3 dice. For each 4+, add 1 to the Attacks characteristic of this unit’s Chimeric Heads for the rest of the turn.",
+          "effect": "Roll 3 dice. For each 4+, add 1 to the Attacks characteristic of this unit’s **Chimeric Heads** for the rest of the turn.",
           "abilityAndCommandIcon": "offensive",
           "warscrollId": "be6c98ce-a57c-4115-a208-845220283835",
           "keywords": [
@@ -2116,7 +2116,7 @@
           "lore": "A Beastlord reserves their prodigious strength and fury for the greatest of the enemy’s champions, calling upon their followers to witness and join the butchery.",
           "usedBy": null,
           "declare": null,
-          "effect": "While this unit is in combat with any enemy Heroes, add 1 to hit rolls and wound rolls for combat attacks made by friendly Beasts of Chaos units wholly within 12\" of this unit.",
+          "effect": "While this unit is in combat with any enemy **Heroes**, add 1 to hit rolls and wound rolls for combat attacks made by friendly **Beasts of Chaos** units wholly within 12\" of this unit.",
           "abilityAndCommandIcon": "offensive",
           "warscrollId": "e59912bc-a831-403d-b42c-b89ae1ecebf5",
           "keywords": []
@@ -2132,7 +2132,7 @@
           "lore": "Beastlords swiftly lead their underlings towards the foe, desperate to get to grips with the enemy so that the bloodletting can begin.",
           "usedBy": null,
           "declare": null,
-          "effect": "Pick a friendly non-Hero Brayherd Infantry unit that has not used a Fight ability this turn and is within this unit’s combat range to be the target. The target can be picked to use a Fight ability immediately after the Fight ability used by this unit has been resolved.",
+          "effect": "Pick a friendly non-**Hero Brayherd Infantry** unit that has not used a **Fight** ability this turn and is within this unit’s combat range to be the target. The target can be picked to use a **Fight** ability immediately after the **Fight** ability used by this unit has been resolved.",
           "abilityAndCommandIcon": "offensive",
           "warscrollId": "e59912bc-a831-403d-b42c-b89ae1ecebf5",
           "keywords": []
@@ -2203,8 +2203,8 @@
           "reaction": false,
           "lore": "Gors gather in massive droves before charging their enemies, seeking to overwhelm them with superior numbers and brutish aggression.",
           "usedBy": null,
-          "declare": "If this unit charged this phase, pick an enemy non-Hero Infantry unit that has fewer models than this unit and is within 1\" of it to be the target.",
-          "effect": "Roll a dice. On a 3+, the target has Strike-last for the rest of the turn.",
+          "declare": "If this unit charged this phase, pick an enemy non-**Hero Infantry** unit that has fewer models than this unit and is within 1\" of it to be the target.",
+          "effect": "Roll a dice. On a 3+, the target has **Strike-last** for the rest of the turn.",
           "abilityAndCommandIcon": "defensive",
           "warscrollId": "fe371ba5-6a45-4b99-ad9e-6458b2fe69a6",
           "keywords": []
@@ -2235,7 +2235,7 @@
       "abilityAndCommandIcon": "movement",
       "cpCost": null,
       "lore": "Bestial warlords might lack the tactical nous of trained soldiers, but there are few creatures more adept at sniffing out an enemy’s weakness and violently exploiting it.",
-      "declare": "Pick up to 3 friendly Beasts of Chaos units wholly within 12\" of this unit that were set up this turn using the ‘Beastherd Ambush’ ability to be the targets.",
+      "declare": "Pick up to 3 friendly **Beasts of Chaos** units wholly within 12\" of this unit that were set up this turn using the ‘Beastherd Ambush’ ability to be the targets.",
       "usedBy": null,
       "effect": "Each target can immediately **move** D3\". The targets cannot **move** into combat during any part of that **move**.",
       "image": null,
@@ -2281,7 +2281,7 @@
       "cpCost": null,
       "lore": "As the enemy brings their firepower to bear, this general urges their kin to stay within claw’s grasp of their assailants.",
       "usedBy": null,
-      "effect": "If that friendly Beasts of Chaos unit is not in combat and is wholly within 18\" of this unit, after the **Shoot** ability has been resolved, that friendly unit can **move** 2D6\". It can **move** into combat.",
+      "effect": "If that friendly **Beasts of Chaos** unit is not in combat and is wholly within 18\" of this unit, after the ****Shoot**** ability has been resolved, that friendly unit can **move** 2D6\". It can **move** into combat.",
       "image": null,
       "altText": null,
       "subsectionName": null,
@@ -2297,28 +2297,6 @@
       "faction": "Beasts of Chaos",
       "abilityGroupName": "Beasts of Chaos Battle Traits",
       "abilityType": "battleTraits",
-      "id": "3683dd1d-5cff-4c13-9eb3-a26f64f95ac3",
-      "name": "Rituals of Ruin",
-      "phaseDetails": "Once Per Turn (Army), Your Hero Phase",
-      "phase": "heroPhase",
-      "abilityAndCommandIcon": "special",
-      "cpCost": null,
-      "lore": "The mightiest of the beastmen worship the power of primeval Chaos, slaughtering and devouring in order to be blessed with strength or to force their opponents into throes of primal savagery.",
-      "usedBy": null,
-      "effect": "Pick 1 of the following effects:\n\nWarping Curse: Pick an enemy unit within 12\" of a friendly Beasts of Chaos **Hero** or, if there is a friendly Beasts of Chaos **Hero** in reserve, within 12\" of a battlefield edge to be the target. Then, roll a D3. On a 2+, inflict an amount of mortal damage on the target equal to the roll.\n\nBrand of Wild Fury: Pick a friendly Beasts of Chaos unit wholly within 12\" of a friendly Beasts of Chaos **Hero** or, if there is a friendly Beasts of Chaos **Hero** in reserve, wholly within 12\" of a battlefield edge to be the target. Then, roll a dice. On a 2+, the target has Ward (6+) for the rest of the turn.\n\nBestial Instinct: Pick a friendly Beasts of Chaos unit wholly within 12\" of a friendly Beasts of Chaos **Hero** or, if there is a friendly Beasts of Chaos **Hero** in reserve, wholly within 12\" of a battlefield edge to be the target. Then, roll a dice. On a 2+, add 1 to wound rolls for the target’s combat attacks for the rest of the turn.",
-      "image": null,
-      "altText": null,
-      "subsectionName": null,
-      "subsectionLore": null,
-      "subsectionRulesText": null,
-      "reaction": false,
-      "abilityGroupId": "508e746f-9cd3-4f4a-9a62-d47a6b989352",
-      "keywords": []
-    },
-    {
-      "faction": "Beasts of Chaos",
-      "abilityGroupName": "Beasts of Chaos Battle Traits",
-      "abilityType": "battleTraits",
       "id": "7d3bc175-0844-4b96-9aef-565e54d559f9",
       "name": "Beastherd Ambush",
       "phaseDetails": "Your Movement Phase",
@@ -2326,7 +2304,7 @@
       "abilityAndCommandIcon": "movement",
       "cpCost": null,
       "lore": "As the beasts close upon their foes, horn-blasts sound in every direction, signalling the launch of a deadly ambush.",
-      "declare": "Pick a friendly Beasts of Chaos unit that is in ambush.",
+      "declare": "Pick a friendly **Beasts of Chaos** unit that is **in ambush**.",
       "usedBy": null,
       "effect": "Set up that unit on the battlefield wholly within 9\" of a battlefield edge and more than 9\" from all enemy units.\n\nFor the rest of the turn, add 1 to **charge** rolls for that unit.",
       "image": null,
@@ -2349,9 +2327,9 @@
       "abilityAndCommandIcon": "special",
       "cpCost": null,
       "lore": "The wild lands of the Mortal Realms are the territory of the Beasts of Chaos, and they have dwelt in these places for longer than can be remembered.",
-      "declare": "Pick a friendly Beasts of Chaos unit that has not been deployed.",
+      "declare": "Pick a friendly **Beasts of Chaos** unit that has not been deployed.",
       "usedBy": null,
-      "effect": "Set up that unit in reserve in ambush. It has now been deployed.\n\nDesigner’s Note: Any number of friendly Beasts of Chaos units can start the battle in reserve – even your entire Beasts of Chaos army!",
+      "effect": "Set up that unit in reserve **in ambush**. It has now been deployed.\n\n**Designer’s Note:** *Any number of friendly Beasts of Chaos units can start the battle in reserve – even your entire Beasts of Chaos army!*",
       "image": null,
       "altText": null,
       "subsectionName": null,
@@ -2362,6 +2340,28 @@
       "keywords": [
         "Deploy"
       ]
+    },
+    {
+      "faction": "Beasts of Chaos",
+      "abilityGroupName": "Beasts of Chaos Battle Traits",
+      "abilityType": "battleTraits",
+      "id": "3683dd1d-5cff-4c13-9eb3-a26f64f95ac3",
+      "name": "Rituals of Ruin",
+      "phaseDetails": "Once Per Turn (Army), Your Hero Phase",
+      "phase": "heroPhase",
+      "abilityAndCommandIcon": "special",
+      "cpCost": null,
+      "lore": "The mightiest of the beastmen worship the power of primeval Chaos, slaughtering and devouring in order to be blessed with strength or to force their opponents into throes of primal savagery.",
+      "usedBy": null,
+      "effect": "Pick 1 of the following effects:\n\n***Warping Curse:*** Pick an enemy unit within 12\" of a friendly **Beasts of Chaos **Hero**** or, if there is a friendly **Beasts of** **Chaos **Hero**** in reserve, within 12\" of a battlefield edge to be the target. Then, roll a D3. On a 2+, inflict an amount of mortal damage on the target equal to the roll.\n\n***Brand of Wild Fury:*** Pick a friendly **Beasts of Chaos** unit wholly within 12\" of a friendly **Beasts of Chaos **Hero**** or, if there is a friendly **Beasts of Chaos **Hero**** in reserve, wholly within 12\" of a battlefield edge to be the target. Then, roll a dice. On a 2+, the target has **Ward (6+)** for the rest of the turn.\n\n***Bestial Instinct:*** Pick a friendly **Beasts of Chaos** unit wholly within 12\" of a friendly **Beasts of Chaos **Hero**** or, if there is a friendly **Beasts of Chaos **Hero**** in reserve, wholly within 12\" of a battlefield edge to be the target. Then, roll a dice. On a 2+, add 1 to wound rolls for the target’s combat attacks for the rest of the turn.",
+      "image": null,
+      "altText": null,
+      "subsectionName": null,
+      "subsectionLore": null,
+      "subsectionRulesText": null,
+      "reaction": false,
+      "abilityGroupId": "508e746f-9cd3-4f4a-9a62-d47a6b989352",
+      "keywords": []
     }
   ],
   "artefactsOfPower": [
@@ -2421,7 +2421,7 @@
       "abilityAndCommandIcon": "rallying",
       "cpCost": null,
       "lore": "Carved from the bone of a Shaggoth, the thunderous blasts of this horn draw the true children of Chaos towards it.",
-      "declare": "Pick a friendly non-**Unique** Beasts of Chaos **Infantry** or **Cavalry** unit that started the battle with 2 or more models and that has been destroyed to be the target.",
+      "declare": "Pick a friendly non-****Unique** Beasts of Chaos **Infantry**** or ****Cavalry**** unit that started the battle with 2 or more models and that has been destroyed to be the target.",
       "usedBy": null,
       "effect": "Roll a dice. On a 4+, set up a replacement unit with half the number of models from the target unit (rounding up) wholly within 12\" of a battlefield edge and more than 9\" from all enemy units.",
       "image": null,
@@ -2446,29 +2446,11 @@
           "phase": "heroPhase",
           "abilityAndCommandIcon": "special",
           "lore": "Wisps of flame develop into a roaring, charging beast of black smoke and wildfire.",
-          "declare": "If there is not a friendly Wildfire Taurus on the battlefield, pick a friendly Beasts of Chaos Wizard to cast this spell, then make a casting roll of 2D6.",
+          "declare": "If there is not a friendly **Wildfire Taurus** on the battlefield, pick a friendly **Beasts of Chaos Wizard** to cast this spell, then make a casting roll of 2D6.",
           "usedBy": null,
-          "effect": "Set up a Wildfire Taurus wholly within 18\" of the caster and more than 9\" from all enemy units.",
+          "effect": "Set up a **Wildfire Taurus** wholly within 18\" of the caster and more than 9\" from all enemy units.",
           "castingValue": 7,
           "linkedWarscrollId": "70ec6a85-e44d-4bb5-a916-5a417094375f",
-          "loreId": "2b84e5ef-e958-4e29-a0bc-6a30747106a1",
-          "keywords": [
-            "Summon",
-            "Spell"
-          ]
-        },
-        {
-          "id": "c7895208-1baa-4d2a-91db-43c9a79b97eb",
-          "name": "Summon Doomblast Dirgehorn",
-          "phaseDetails": "Your Hero Phase",
-          "phase": "heroPhase",
-          "abilityAndCommandIcon": "special",
-          "lore": "Drawn from beneath the earth, animal bones are fused into the shape of a giant horn.",
-          "declare": "If there is not a friendly Doomblast Dirgehorn on the battlefield, pick a friendly Beasts of Chaos Wizard to cast this spell, then make a casting roll of 2D6.",
-          "usedBy": null,
-          "effect": "Set up a Doomblast Dirgehorn wholly within 18\" of the caster.",
-          "castingValue": 6,
-          "linkedWarscrollId": "8f972c56-74cc-48c9-ba96-df7e61b4618e",
           "loreId": "2b84e5ef-e958-4e29-a0bc-6a30747106a1",
           "keywords": [
             "Summon",
@@ -2482,11 +2464,29 @@
           "phase": "heroPhase",
           "abilityAndCommandIcon": "special",
           "lore": "Dark feathers borne on the wind coalesce to form the terrible shapes of the Ravening Direflock.",
-          "declare": "If there is not a friendly Ravening Direflock on the battlefield, pick a friendly Beasts of Chaos Wizard to cast this spell, then make a casting roll of 2D6.",
+          "declare": "If there is not a friendly **Ravening Direflock** on the battlefield, pick a friendly **Beasts of Chaos Wizard** to cast this spell, then make a casting roll of 2D6.",
           "usedBy": null,
-          "effect": "Set up a Ravening Direflock wholly within 18\" of the caster and more than 9\" from all enemy units. A Ravening Direflock has 3 parts that must each be set up within 1\" of at least 1 other part.",
+          "effect": "Set up a **Ravening Direflock** wholly within 18\" of the caster and more than 9\" from all enemy units. A **Ravening Direflock** has 3 parts that must each be set up within 1\" of at least 1 other part.",
           "castingValue": 7,
           "linkedWarscrollId": "1ab21e97-0c46-4b88-9d12-e72be2ab4421",
+          "loreId": "2b84e5ef-e958-4e29-a0bc-6a30747106a1",
+          "keywords": [
+            "Summon",
+            "Spell"
+          ]
+        },
+        {
+          "id": "c7895208-1baa-4d2a-91db-43c9a79b97eb",
+          "name": "Summon Doomblast Dirgehorn",
+          "phaseDetails": "Your Hero Phase",
+          "phase": "heroPhase",
+          "abilityAndCommandIcon": "special",
+          "lore": "Drawn from beneath the earth, animal bones are fused into the shape of a giant horn.",
+          "declare": "If there is not a friendly **Doomblast Dirgehorn** on the battlefield, pick a friendly **Beasts of Chaos Wizard** to cast this spell, then make a casting roll of 2D6.",
+          "usedBy": null,
+          "effect": "Set up a **Doomblast Dirgehorn** wholly within 18\" of the caster.",
+          "castingValue": 6,
+          "linkedWarscrollId": "8f972c56-74cc-48c9-ba96-df7e61b4618e",
           "loreId": "2b84e5ef-e958-4e29-a0bc-6a30747106a1",
           "keywords": [
             "Summon",
@@ -2506,27 +2506,10 @@
           "phase": "heroPhase",
           "abilityAndCommandIcon": "movement",
           "lore": "Twisting, thorn-covered vines erupt from the undergrowth to ensnare the foe.",
-          "declare": "Pick a friendly Beasts of Chaos Wizard to cast this spell, pick a visible enemy unit within 12\" of them to be the target, then make a casting roll of 2D6.",
+          "declare": "Pick a friendly **Beasts of Chaos Wizard** to cast this spell, pick a visible enemy unit within 12\" of them to be the target, then make a casting roll of 2D6.",
           "usedBy": null,
           "effect": "Until the start of your next turn:\n\n• Halve the target’s Move characteristic.\n• Subtract 1 from the number of dice rolled when making charge rolls for the target, to a minimum of 1.",
           "castingValue": 8,
-          "linkedWarscrollId": null,
-          "loreId": "9b7b323a-a2ec-4a31-989b-64d3bbf27d18",
-          "keywords": [
-            "Spell"
-          ]
-        },
-        {
-          "id": "ad423b35-9773-4a03-af90-622a82a06232",
-          "name": "Devolve",
-          "phaseDetails": "Your Hero Phase",
-          "phase": "heroPhase",
-          "abilityAndCommandIcon": "special",
-          "lore": "Delving into the minds of their enemies, the shaman magnifies the savage and animalistic parts of their foes’ psyches until they are little more than growling beasts.",
-          "declare": "Pick a friendly Beasts of Chaos Wizard to cast this spell, pick a visible enemy non-Hero unit within 12\" of them to be the target, then make a casting roll of 2D6.",
-          "usedBy": null,
-          "effect": "Until the start of your next turn:\n\n• The target unit has a maximum control score of 1.\n• The target cannot use commands.\n• Each time the target moves, it must end that move closer to the caster.",
-          "castingValue": 7,
           "linkedWarscrollId": null,
           "loreId": "9b7b323a-a2ec-4a31-989b-64d3bbf27d18",
           "keywords": [
@@ -2540,7 +2523,7 @@
           "phase": "heroPhase",
           "abilityAndCommandIcon": "special",
           "lore": "A seemingly ceaseless wave of bile, gore and writhing insects crashes into the enemy.",
-          "declare": "Pick a friendly Beasts of Chaos Wizard to cast this spell, pick a visible enemy unit within 12\" of them to be the target, then make a casting roll of 2D6.",
+          "declare": "Pick a friendly **Beasts of Chaos Wizard** to cast this spell, pick a visible enemy unit within 12\" of them to be the target, then make a casting roll of 2D6.",
           "usedBy": null,
           "effect": "Inflict D3 mortal damage on the target. In addition, until the start of your next turn, the target cannot use commands.",
           "castingValue": 7,
@@ -2549,6 +2532,23 @@
           "keywords": [
             "Spell",
             "Unlimited"
+          ]
+        },
+        {
+          "id": "ad423b35-9773-4a03-af90-622a82a06232",
+          "name": "Devolve",
+          "phaseDetails": "Your Hero Phase",
+          "phase": "heroPhase",
+          "abilityAndCommandIcon": "special",
+          "lore": "Delving into the minds of their enemies, the shaman magnifies the savage and animalistic parts of their foes’ psyches until they are little more than growling beasts.",
+          "declare": "Pick a friendly **Beasts of Chaos Wizard** to cast this spell, pick a visible enemy non-**Hero** unit within 12\" of them to be the target, then make a casting roll of 2D6.",
+          "usedBy": null,
+          "effect": "Until the start of your next turn:\n\n• The target unit has a maximum control score of 1.\n• The target cannot use commands.\n• Each time the target moves, if the caster is on the battlefield, the target must end that move no further from the caster than it was at the start of the move.",
+          "castingValue": 7,
+          "linkedWarscrollId": null,
+          "loreId": "9b7b323a-a2ec-4a31-989b-64d3bbf27d18",
+          "keywords": [
+            "Spell"
           ]
         }
       ]
@@ -2566,8 +2566,8 @@
           "phase": "endOfTurn",
           "abilityAndCommandIcon": "defensive",
           "lore": "Those beastmen in the throes of the bloodgreed who sate their cursed hunger for flesh are all but impossible to put down.",
-          "declare": "Pick each friendly Warherd unit that used a Fight ability this turn to be the targets.",
-          "effect": "Heal (3) each target.",
+          "declare": "Pick each friendly **Warherd** unit that used a **Fight** ability this turn to be the targets.",
+          "effect": "**Heal (3)** each target.",
           "usedBy": null,
           "reaction": false,
           "battleFormationId": "2d84e1f8-9472-42f6-815a-32e3a7861e25",
@@ -2587,7 +2587,7 @@
           "abilityAndCommandIcon": "offensive",
           "lore": "The rampaging creatures of the beastherds despise all aspects of civilisation, and they will tear down monuments with their bare hands if necessary.",
           "declare": null,
-          "effect": "Add 1 to hit rolls for combat attacks made by friendly Beasts of Chaos units that target an enemy unit that is contesting an objective you do not control.",
+          "effect": "Add 1 to hit rolls for combat attacks made by friendly **Beasts** **of Chaos** units that target an enemy unit that is contesting an objective you do not control.",
           "usedBy": null,
           "reaction": false,
           "battleFormationId": "61924162-710f-4b25-a6b8-ea88613b5bd9",
@@ -2626,8 +2626,8 @@
           "phase": "heroPhase",
           "abilityAndCommandIcon": "special",
           "lore": "Lightning arcs down to the battlefield, imbuing the Thunderscorn with renewed vigour and smiting their enemies with lethal crackling energy.",
-          "declare": "Pick each friendly Thunderscorn unit on the battlefield to be the friendly targets, then pick each enemy unit in combat with any friendly Thunderscorn units to be the enemy targets.",
-          "effect": "Heal (1) each friendly target. Then, roll a D3 for each enemy target, if any. On a 2+, inflict an amount of mortal damage on the enemy target equal to the roll.",
+          "declare": "Pick each friendly **Thunderscorn** unit on the battlefield to be the friendly targets, then pick each enemy unit in combat with any friendly **Thunderscorn** units to be the enemy targets.",
+          "effect": "**Heal (1)** each friendly target. Then, roll a D3 for each enemy target, if any. On a 2+, inflict an amount of mortal damage on the enemy target equal to the roll.",
           "usedBy": null,
           "reaction": false,
           "battleFormationId": "a9bae0f1-7f6e-497e-b74f-d35936f39d56",

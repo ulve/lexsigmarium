@@ -1,5 +1,5 @@
 {
-  "dataVersion": 181,
+  "dataVersion": 197,
   "warscrolls": [
     {
       "id": "069f7b0f-81c7-4755-a2e4-daf8bdd2be54",
@@ -54,7 +54,7 @@
           "reaction": false,
           "lore": "The Slaughter Queen orders her warriors to renew their assault twice over.",
           "usedBy": null,
-          "declare": "Pick a friendly Daughters of Khaine Aelf Infantry unit wholly within 12\" of this unit to be the target.",
+          "declare": "Pick a friendly **Daughters of Khaine Aelf Infantry** unit wholly within 12\" of this unit to be the target.",
           "effect": "Roll a dice. On a 3+, add 1 to the Attacks characteristic of the target’s melee weapons for the rest of the turn.",
           "abilityAndCommandIcon": "offensive",
           "warscrollId": "069f7b0f-81c7-4755-a2e4-daf8bdd2be54",
@@ -62,95 +62,6 @@
         }
       ],
       "keywords": [
-        "Aelf",
-        "Infantry",
-        "Ward (6+)",
-        "Hero"
-      ],
-      "factionKeywords": [
-        "Daughters of Khaine",
-        "The Croneseer’s Pariahs",
-        "Grand Alliance Order"
-      ]
-    },
-    {
-      "id": "0db86c49-6caf-4db9-8dfa-5a3a6a924fa6",
-      "name": "High Gladiatrix",
-      "subname": null,
-      "lore": "Those aelves that become High Gladiatrixes are not merely promoted but instead undergo a bloody apotheosis within the gladiatorial arena. They are marked by their ability to overcome ever more perilous contests of arms – and with brutal, exhilarating flair. At the beginning of a night’s death-games, they may fight a single snarling Frost Sabre, but such will soon be followed by a mob of captive orruks and a duo of rampaging Stegadons. They are their deity’s will made manifest, incarnated in each dazzling display of slaughter.\n\nThough High Gladiatrixes hold no formal position amongst the war covens, few of Morathi’s generals would deny their aid. They are one woman armies, wielding serpentine whips and blades to eviscerate their foes with a contemptuous flick of the wrist. Bands of Witch Aelves and Sisters of Slaughter flock to a High Gladiatrix’s presence, fighting with such fervour that it is said they would follow their idols into the Realm of Chaos itself. The crimson blessings that radiate from the High Gladiatrix intensify with each successive act of carnage until the battlefield is awash with gore.",
-      "bannerImage": "https://dhss9aar8ocw.cloudfront.net/6f7fc671-0b26-42c5-907c-1d873cad19e9",
-      "rowImage": "https://dhss9aar8ocw.cloudfront.net/bd0772b6-0691-4716-9301-abcba84db225",
-      "modelCount": 1,
-      "baseSize": "32mm",
-      "points": 130,
-      "notes": "This Hero can join an eligible regiment as a Coven Matriarch.",
-      "isSpearhead": false,
-      "cannotBeReinforced": true,
-      "hiddenFromReference": false,
-      "hiddenFromStormForge": false,
-      "referenceKeywords": "Hero, Infantry, Ward (6+), Order, Daughters of Khaine, Aelf",
-      "move": "6\"",
-      "save": "5+",
-      "control": "2",
-      "health": "5",
-      "wargearOptionsText": null,
-      "publicationId": "e6a7d962-1e3c-4551-bf49-796b5ea3a95a",
-      "limitingWarscrollId": null,
-      "requiredPrimaryHeroWarscrollId": null,
-      "isLegends": false,
-      "faction": "Daughters of Khaine",
-      "weapons": [
-        {
-          "id": "b2134019-978e-41cc-bd9b-c5e7ad7f1402",
-          "name": "Barbed Whip and Gladiatrix’s Blade",
-          "type": "melee",
-          "range": null,
-          "attacks": "6",
-          "hit": "3+",
-          "wound": "4+",
-          "rend": "1",
-          "damage": "2",
-          "battleDamaged": false,
-          "warscrollId": "0db86c49-6caf-4db9-8dfa-5a3a6a924fa6",
-          "weaponAbilities": []
-        }
-      ],
-      "abilities": [
-        {
-          "id": "56f9beb7-7758-4901-9978-afd2d7de1ece",
-          "name": "Paragon of Slaughter",
-          "phaseDetails": "Any Combat Phase",
-          "phase": "combatPhase",
-          "castingValue": null,
-          "cpCost": null,
-          "reaction": false,
-          "lore": "The spectacular acts of death-dealing performed by a High Gladiatrix inspire nearby Daughters of Khaine, setting their souls aflame with the power of the Bloody-Handed God.",
-          "usedBy": null,
-          "declare": "If this unit is in combat, pick a visible friendly Daughters of Khaine Aelf non-Hero Infantry unit wholly within 12\" of this unit to be the target.",
-          "effect": "Roll a dice. On a 2+, add 1 to the Rend characteristic of melee weapons used by the target for the rest of the turn.",
-          "abilityAndCommandIcon": "offensive",
-          "warscrollId": "0db86c49-6caf-4db9-8dfa-5a3a6a924fa6",
-          "keywords": []
-        },
-        {
-          "id": "e7002e9d-d8fc-4e3e-bb90-8c45f86031f5",
-          "name": "Killing Stroke",
-          "phaseDetails": "Once Per Battle, Any Combat Phase",
-          "phase": "combatPhase",
-          "castingValue": null,
-          "cpCost": null,
-          "reaction": false,
-          "lore": "A High Gladiatrix prides herself on slaying enemies with magnificently gory flourishes, killing them with a brutal whip motion or single precise stroke from her blade.",
-          "usedBy": null,
-          "declare": "Pick an enemy Hero in combat with this unit to be the target.",
-          "effect": "Roll 2D6. If the roll exceeds the target’s Health characteristic, it is automatically destroyed.",
-          "abilityAndCommandIcon": "offensive",
-          "warscrollId": "0db86c49-6caf-4db9-8dfa-5a3a6a924fa6",
-          "keywords": []
-        }
-      ],
-      "keywords": [
-        "Coven Matriarch",
         "Aelf",
         "Infantry",
         "Ward (6+)",
@@ -217,7 +128,7 @@
           "reaction": false,
           "lore": "The falchions carve through an enemy’s defences, and the swirling blades prevent them from getting their guard back up.",
           "usedBy": null,
-          "declare": "If this Manifestation charged this turn, pick an enemy unit in combat with it to be the target.",
+          "declare": "If this **Manifestation** charged this turn, pick an enemy unit in combat with it to be the target.",
           "effect": "Roll a dice. On a 3+, ignore positive modifiers to save rolls for the target for the rest of the turn.",
           "abilityAndCommandIcon": "offensive",
           "warscrollId": "11f165d4-5077-4145-927a-2a276f02b68f",
@@ -289,28 +200,10 @@
           "lore": "Morathi‑Khaine and the Shadow Queen are two entities that share the same life force.",
           "usedBy": null,
           "declare": null,
-          "effect": "Each time a damage point would be allocated to this unit, it is instead allocated to a friendly The Shadow Queen (you cannot make any further ward rolls for that damage point).\n\nIf this unit would be automatically destroyed by another ability, it is not automatically destroyed. Instead, allocate 3 damage points to a friendly The Shadow Queen (ward rolls cannot be made for those damage points).\n\nIf a friendly The Shadow Queen is destroyed, this unit is automatically destroyed.",
+          "effect": "Each time a damage point would be allocated to this unit, it is instead allocated to a friendly **The Shadow Queen** (you cannot make any further ward rolls for that damage point).\n\nIf this unit would be automatically destroyed by another ability, it is not automatically destroyed. Instead, allocate 3 damage points to a friendly **The** **Shadow Queen** (ward rolls cannot be made for those damage points).\n\nIf a friendly **The Shadow Queen** is destroyed, this unit is automatically destroyed.",
           "abilityAndCommandIcon": "defensive",
           "warscrollId": "1e5cf14e-daa0-4746-a36e-cc69730e7f76",
           "keywords": []
-        },
-        {
-          "id": "af0c3089-887a-4e62-a172-1fddbd4582e6",
-          "name": "Mirror Dance",
-          "phaseDetails": "Your Hero Phase",
-          "phase": "heroPhase",
-          "castingValue": 7,
-          "cpCost": null,
-          "reaction": false,
-          "lore": "Morathi casts a spell of shifting, revealing a shadowpath between herself and the Shadow Queen.",
-          "usedBy": null,
-          "declare": "If a friendly Shadow Queen is on the battlefield, make a casting roll of 2D6.",
-          "effect": "Place 2 tokens on the battlefield, one directly underneath the centre of this unit’s base and one directly underneath the centre of a friendly Shadow Queen’s base. Then, remove this unit and that Shadow Queen from the battlefield. Set up each unit again with its base overlapping the centre of the other token, then remove the tokens. If it is not possible to set up either of the units on the battlefield, return both units to their original positions. Each unit can only be set up in combat with units that the other unit was already in combat with.",
-          "abilityAndCommandIcon": "movement",
-          "warscrollId": "1e5cf14e-daa0-4746-a36e-cc69730e7f76",
-          "keywords": [
-            "Spell"
-          ]
         },
         {
           "id": "d09eb6fc-13c5-4942-93b4-1e06b3a59a21",
@@ -327,6 +220,24 @@
           "abilityAndCommandIcon": "special",
           "warscrollId": "1e5cf14e-daa0-4746-a36e-cc69730e7f76",
           "keywords": []
+        },
+        {
+          "id": "af0c3089-887a-4e62-a172-1fddbd4582e6",
+          "name": "Mirror Dance",
+          "phaseDetails": "Your Hero Phase",
+          "phase": "heroPhase",
+          "castingValue": 7,
+          "cpCost": null,
+          "reaction": false,
+          "lore": "Morathi casts a spell of shifting, revealing a shadowpath between herself and the Shadow Queen.",
+          "usedBy": null,
+          "declare": "If a friendly **Shadow Queen** is on the battlefield, make a casting roll of 2D6.",
+          "effect": "Place 2 tokens on the battlefield, one directly underneath the centre of this unit’s base and one directly underneath the centre of a friendly **Shadow** **Queen’s** base. Then, remove this unit and that **Shadow Queen** from the battlefield. Set up each unit again with its base overlapping the centre of the other token, then remove the tokens. If it is not possible to set up either of the units on the battlefield, return both units to their original positions. Each unit can only be set up in combat with units that the other unit was already in combat with.",
+          "abilityAndCommandIcon": "movement",
+          "warscrollId": "1e5cf14e-daa0-4746-a36e-cc69730e7f76",
+          "keywords": [
+            "Spell"
+          ]
         }
       ],
       "keywords": [
@@ -340,6 +251,95 @@
       ],
       "factionKeywords": [
         "Daughters of Khaine",
+        "Grand Alliance Order"
+      ]
+    },
+    {
+      "id": "0db86c49-6caf-4db9-8dfa-5a3a6a924fa6",
+      "name": "High Gladiatrix",
+      "subname": null,
+      "lore": "Those aelves that become High Gladiatrixes are not merely promoted but instead undergo a bloody apotheosis within the gladiatorial arena. They are marked by their ability to overcome ever more perilous contests of arms – and with brutal, exhilarating flair. At the beginning of a night’s death-games, they may fight a single snarling Frost Sabre, but such will soon be followed by a mob of captive orruks and a duo of rampaging Stegadons. They are their deity’s will made manifest, incarnated in each dazzling display of slaughter.\n\nThough High Gladiatrixes hold no formal position amongst the war covens, few of Morathi’s generals would deny their aid. They are one woman armies, wielding serpentine whips and blades to eviscerate their foes with a contemptuous flick of the wrist. Bands of Witch Aelves and Sisters of Slaughter flock to a High Gladiatrix’s presence, fighting with such fervour that it is said they would follow their idols into the Realm of Chaos itself. The crimson blessings that radiate from the High Gladiatrix intensify with each successive act of carnage until the battlefield is awash with gore.",
+      "bannerImage": "https://dhss9aar8ocw.cloudfront.net/6f7fc671-0b26-42c5-907c-1d873cad19e9",
+      "rowImage": "https://dhss9aar8ocw.cloudfront.net/bd0772b6-0691-4716-9301-abcba84db225",
+      "modelCount": 1,
+      "baseSize": "32mm",
+      "points": 130,
+      "notes": "This **Hero** can join an eligible regiment as a *Coven Matriarch*.",
+      "isSpearhead": false,
+      "cannotBeReinforced": true,
+      "hiddenFromReference": false,
+      "hiddenFromStormForge": false,
+      "referenceKeywords": "Hero, Infantry, Ward (6+), Order, Daughters of Khaine, Aelf",
+      "move": "6\"",
+      "save": "5+",
+      "control": "2",
+      "health": "5",
+      "wargearOptionsText": null,
+      "publicationId": "e6a7d962-1e3c-4551-bf49-796b5ea3a95a",
+      "limitingWarscrollId": null,
+      "requiredPrimaryHeroWarscrollId": null,
+      "isLegends": false,
+      "faction": "Daughters of Khaine",
+      "weapons": [
+        {
+          "id": "b2134019-978e-41cc-bd9b-c5e7ad7f1402",
+          "name": "Barbed Whip and Gladiatrix’s Blade",
+          "type": "melee",
+          "range": null,
+          "attacks": "6",
+          "hit": "3+",
+          "wound": "4+",
+          "rend": "1",
+          "damage": "2",
+          "battleDamaged": false,
+          "warscrollId": "0db86c49-6caf-4db9-8dfa-5a3a6a924fa6",
+          "weaponAbilities": []
+        }
+      ],
+      "abilities": [
+        {
+          "id": "56f9beb7-7758-4901-9978-afd2d7de1ece",
+          "name": "Paragon of Slaughter",
+          "phaseDetails": "Any Combat Phase",
+          "phase": "combatPhase",
+          "castingValue": null,
+          "cpCost": null,
+          "reaction": false,
+          "lore": "The spectacular acts of death-dealing performed by a High Gladiatrix inspire nearby Daughters of Khaine, setting their souls aflame with the power of the Bloody-Handed God.",
+          "usedBy": null,
+          "declare": "If this unit is in combat, pick a visible friendly **Daughters of Khaine Aelf** non-**Hero Infantry** unit wholly within 12\" of this unit to be the target.",
+          "effect": "Roll a dice. On a 2+, add 1 to the Rend characteristic of melee weapons used by the target for the rest of the turn.",
+          "abilityAndCommandIcon": "offensive",
+          "warscrollId": "0db86c49-6caf-4db9-8dfa-5a3a6a924fa6",
+          "keywords": []
+        },
+        {
+          "id": "e7002e9d-d8fc-4e3e-bb90-8c45f86031f5",
+          "name": "Killing Stroke",
+          "phaseDetails": "Once Per Battle, Any Combat Phase",
+          "phase": "combatPhase",
+          "castingValue": null,
+          "cpCost": null,
+          "reaction": false,
+          "lore": "A High Gladiatrix prides herself on slaying enemies with magnificently gory flourishes, killing them with a brutal whip motion or single precise stroke from her blade.",
+          "usedBy": null,
+          "declare": "Pick an enemy **Hero** in combat with this unit to be the target.",
+          "effect": "Roll 2D6. If the roll exceeds the target’s Health characteristic, it is automatically destroyed.",
+          "abilityAndCommandIcon": "offensive",
+          "warscrollId": "0db86c49-6caf-4db9-8dfa-5a3a6a924fa6",
+          "keywords": []
+        }
+      ],
+      "keywords": [
+        "Coven Matriarch",
+        "Aelf",
+        "Infantry",
+        "Ward (6+)",
+        "Hero"
+      ],
+      "factionKeywords": [
+        "Daughters of Khaine",
+        "The Croneseer’s Pariahs",
         "Grand Alliance Order"
       ]
     },
@@ -447,6 +447,22 @@
           "keywords": []
         },
         {
+          "id": "df187102-1a65-4c7e-b180-c1e81807d359",
+          "name": "Orgy of Slaughter",
+          "phaseDetails": "Once Per Turn (Army), Any Combat Phase",
+          "phase": "combatPhase",
+          "castingValue": null,
+          "cpCost": null,
+          "reaction": false,
+          "lore": "The Slaughter Queen orders her warriors to renew their assault twice over.",
+          "usedBy": null,
+          "declare": "Pick a friendly **Daughters of Khaine Aelf Infantry** unit wholly within 12\" of this unit to be the target.",
+          "effect": "Roll a dice. On a 3+, add 1 to the Attacks characteristic of the target’s melee weapons for the rest of the turn.",
+          "abilityAndCommandIcon": "offensive",
+          "warscrollId": "3791bb68-e9c9-4e6c-aa89-cca76393464e",
+          "keywords": []
+        },
+        {
           "id": "b30da087-3751-4b0a-a923-08b5ec26a152",
           "name": "Altar of Khaine",
           "phaseDetails": "Passive",
@@ -457,24 +473,8 @@
           "lore": "The powerful magic that fuels the Cauldron of Blood grants empowerment and protection to those nearby.",
           "usedBy": null,
           "declare": null,
-          "effect": "Add 1 to save rolls for friendly Daughters of Khaine Infantry units while they are wholly within 9\" of this unit.\nIn addition, add 1 to chanting rolls for friendly Daughters of Khaine Priests while they are wholly within 9\" of this unit.",
+          "effect": "Add 1 to save rolls for friendly **Daughters of Khaine Infantry** units while they are wholly within 9\" of this unit.\nIn addition, add 1 to chanting rolls for friendly **Daughters of Khaine Priests** while they are wholly within 9\" of this unit.",
           "abilityAndCommandIcon": "special",
-          "warscrollId": "3791bb68-e9c9-4e6c-aa89-cca76393464e",
-          "keywords": []
-        },
-        {
-          "id": "df187102-1a65-4c7e-b180-c1e81807d359",
-          "name": "Orgy of Slaughter",
-          "phaseDetails": "Once Per Turn (Army), Any Combat Phase",
-          "phase": "combatPhase",
-          "castingValue": null,
-          "cpCost": null,
-          "reaction": false,
-          "lore": "The Slaughter Queen orders her warriors to renew their assault twice over.",
-          "usedBy": null,
-          "declare": "Pick a friendly Daughters of Khaine Aelf Infantry unit wholly within 12\" of this unit to be the target.",
-          "effect": "Roll a dice. On a 3+, add 1 to the Attacks characteristic of the target’s melee weapons for the rest of the turn.",
-          "abilityAndCommandIcon": "offensive",
           "warscrollId": "3791bb68-e9c9-4e6c-aa89-cca76393464e",
           "keywords": []
         }
@@ -548,8 +548,8 @@
           "reaction": false,
           "lore": "Witchbrew drives the imbiber into such an ecstasy of destruction that they will fight on in the face of impossible odds.",
           "usedBy": null,
-          "declare": "Pick a friendly Daughters of Khaine unit wholly within 12\" of this unit to be the target.",
-          "effect": "Roll a dice. On a 3+, the target has Ward (5+) for the rest of the turn.",
+          "declare": "Pick a friendly **Daughters of Khaine** unit wholly within 12\" of this unit to be the target.",
+          "effect": "Roll a dice. On a 3+, the target has **Ward (5+)** for the rest of the turn.",
           "abilityAndCommandIcon": "defensive",
           "warscrollId": "3ed9f7f5-e1a1-4d50-ad9f-be3e34b58cd0",
           "keywords": []
@@ -700,7 +700,7 @@
           "lore": "The scáth touch of a Blood Sister can permanently transmute an enemy into an immobile – though still fully conscious – crystal statue.",
           "usedBy": null,
           "declare": "Pick an enemy unit in combat with this unit to be the target.",
-          "effect": "Roll a dice. If the roll exceeds the target’s Health characteristic, the target has Strike-last for the rest of the turn.",
+          "effect": "Roll a dice. If the roll exceeds the target’s Health characteristic, the target has **Strike-last** for the rest of the turn.",
           "abilityAndCommandIcon": "offensive",
           "warscrollId": "4a08f646-90ee-4861-ac36-b7878e428e66",
           "keywords": []
@@ -756,7 +756,7 @@
           "lore": "This prayer takes the form of Khaine’s undying power and bestows death-defying energies upon his faithful.",
           "usedBy": null,
           "declare": null,
-          "effect": "Subtract 1 from wound rolls for combat attacks that target friendly Daughters of Khaine Infantry units while they are wholly within 12\" of this Manifestation.",
+          "effect": "Subtract 1 from wound rolls for combat attacks that target friendly **Daughters of Khaine Infantry** units while they are wholly within 12\" of this **Manifestation**.",
           "abilityAndCommandIcon": "defensive",
           "warscrollId": "4cefa477-9922-4ebf-b454-2ccea8ae55e3",
           "keywords": []
@@ -842,7 +842,7 @@
           "lore": "Should a victim’s eyes lock with a Bloodwrack Medusa’s stare for even a second, their lifeblood will violently rebel, flooding from every pore until their body collapses into a pool of gore.",
           "usedBy": null,
           "declare": null,
-          "effect": "Each time this unit attacks with its Bloodwrack Stare, if the attack scores a hit, roll a number of dice equal to the number of models in the target unit. For each 5+, inflict 1 mortal damage on that unit. You cannot pick the same enemy unit to be targeted by attacks made with a Bloodwrack Stare more than once per phase.",
+          "effect": "Each time this unit attacks with its **Bloodwrack Stare**, if the attack scores a hit, roll a number of dice equal to the number of models in the target unit. For each 5+, inflict 1 mortal damage on that unit. You cannot pick the same enemy unit to be targeted by attacks made with a **Bloodwrack** **Stare** more than once per phase.",
           "abilityAndCommandIcon": "shooting",
           "warscrollId": "540409a3-c2c0-46d6-9f00-7364193fa7d1",
           "keywords": []
@@ -858,7 +858,7 @@
           "lore": "A Bloodwrack Medusa leads her Melusai kin into battle, encouraging them to follow her example and strike down the enemy with brutal swiftness.",
           "usedBy": null,
           "declare": null,
-          "effect": "Pick a friendly non-Hero Melusai unit that has not used a Fight ability this turn and is within this unit’s combat range to be the target. The target can be picked to use a Fight ability immediately after the Fight ability used by this unit has been resolved.",
+          "effect": "Pick a friendly non-**Hero** **Melusai** unit that has not used a **Fight** ability this turn and is within this unit’s combat range to be the target. The target can be picked to use a **Fight** ability immediately after the **Fight** ability used by this unit has been resolved.",
           "abilityAndCommandIcon": "offensive",
           "warscrollId": "540409a3-c2c0-46d6-9f00-7364193fa7d1",
           "keywords": []
@@ -946,7 +946,7 @@
           "lore": "The blood-blessed arrows loosed by these Melusai unerringly seek out the enemy’s vital organs.",
           "usedBy": null,
           "declare": null,
-          "effect": "If this unit has not used a Move ability this turn and was not set up this turn, this unit’s shooting attacks score critical hits on unmodified hit rolls of 5+ for the rest of the turn.",
+          "effect": "If this unit has not used a **Move** ability this turn and was not set up this turn, this unit’s shooting attacks score critical hits on unmodified hit rolls of 5+ for the rest of the turn.",
           "abilityAndCommandIcon": "shooting",
           "warscrollId": "67a433df-9943-46e3-ad0a-2f9ac9937851",
           "keywords": []
@@ -1033,7 +1033,7 @@
           "lore": "An Ironscale leads her Melusai kin in the swift slaughter of the foe.",
           "usedBy": null,
           "declare": null,
-          "effect": "You can re-roll charge rolls for friendly Melusai units while they are wholly within 12\" of this unit.",
+          "effect": "You can re-roll charge rolls for friendly **Melusai** units while they are wholly within 12\" of this unit.",
           "abilityAndCommandIcon": "movement",
           "warscrollId": "6b4292db-8363-4a0b-a356-d439220062cc",
           "keywords": []
@@ -1049,7 +1049,7 @@
           "lore": "As a Melusai Ironscale holds the crystallised heart of a slain foe aloft, the power of Khaine pulses through it, empowering any fellow Melusai nearby.",
           "usedBy": null,
           "declare": null,
-          "effect": "Pick a friendly non-Hero Melusai unit that has not used a Fight ability this turn and is within this unit’s combat range to be the target. The target can be picked to use a Fight ability immediately after the Fight ability used by this unit has been resolved. If it is picked to do so, add 1 to the Attacks characteristic of the target’s melee weapons for the rest of the turn.",
+          "effect": "Pick a friendly non-**Hero Melusai** unit that has not used a **Fight** ability this turn and is within this unit’s combat range to be the target. The target can be picked to use a **Fight** ability immediately after the **Fight** ability used by this unit has been resolved. If it is picked to do so, add 1 to the Attacks characteristic of the target’s melee weapons for the rest of the turn.",
           "abilityAndCommandIcon": "offensive",
           "warscrollId": "6b4292db-8363-4a0b-a356-d439220062cc",
           "keywords": []
@@ -1122,7 +1122,7 @@
           "lore": "The martial skill of these warriors allows them to turn defensive techniques into deadly strikes.",
           "usedBy": null,
           "declare": null,
-          "effect": "Each time you make an unmodified save roll of 6 for a combat attack that targets this unit, inflict 1 mortal damage on the attacking unit after the Fight ability has been resolved.",
+          "effect": "Each time you make an unmodified save roll of 6 for a combat attack that targets this unit, inflict 1 mortal damage on the attacking unit after the **Fight** ability has been resolved.",
           "abilityAndCommandIcon": "offensive",
           "warscrollId": "72acef0c-9814-42fb-9a02-f9fd91503287",
           "keywords": []
@@ -1351,22 +1351,6 @@
       ],
       "abilities": [
         {
-          "id": "1b7a755e-e726-47c0-a939-5333dd4b191d",
-          "name": "Witchbrew",
-          "phaseDetails": "Once Per Turn (Army), Any Hero Phase",
-          "phase": "heroPhase",
-          "castingValue": null,
-          "cpCost": null,
-          "reaction": false,
-          "lore": "Witchbrew drives the imbiber into such an ecstasy of destruction that they will fight on in the face of impossible odds.",
-          "usedBy": null,
-          "declare": "Pick a friendly Daughters of Khaine unit wholly within 12\" of this unit to be the target.",
-          "effect": "Roll a dice. On a 3+, the target has Ward (5+) for the rest of the turn.",
-          "abilityAndCommandIcon": "defensive",
-          "warscrollId": "a1bcdfee-596c-4dbb-b9e0-a66de62fa841",
-          "keywords": []
-        },
-        {
           "id": "1eaf2caa-a787-49e9-b4e8-a919dab850e9",
           "name": "Bladed Impact",
           "phaseDetails": "Any Charge Phase",
@@ -1383,6 +1367,22 @@
           "keywords": []
         },
         {
+          "id": "1b7a755e-e726-47c0-a939-5333dd4b191d",
+          "name": "Witchbrew",
+          "phaseDetails": "Once Per Turn (Army), Any Hero Phase",
+          "phase": "heroPhase",
+          "castingValue": null,
+          "cpCost": null,
+          "reaction": false,
+          "lore": "Witchbrew drives the imbiber into such an ecstasy of destruction that they will fight on in the face of impossible odds.",
+          "usedBy": null,
+          "declare": "Pick a friendly **Daughters of Khaine** unit wholly within 12\" of this unit to be the target.",
+          "effect": "Roll a dice. On a 3+, the target has **Ward (5+)** for the rest of the turn.",
+          "abilityAndCommandIcon": "defensive",
+          "warscrollId": "a1bcdfee-596c-4dbb-b9e0-a66de62fa841",
+          "keywords": []
+        },
+        {
           "id": "5fc9c1c6-6619-4077-a42e-654a12731ea8",
           "name": "Altar of Khaine",
           "phaseDetails": "Passive",
@@ -1393,7 +1393,7 @@
           "lore": "The powerful magic that fuels the Cauldron of Blood grants empowerment and protection to those nearby.",
           "usedBy": null,
           "declare": null,
-          "effect": "Add 1 to save rolls for friendly Daughters of Khaine Infantry units while they are wholly within 9\" of this unit.\nIn addition, add 1 to chanting rolls for friendly Daughters of Khaine Priests while they are wholly within 9\" of this unit.",
+          "effect": "Add 1 to save rolls for friendly **Daughters of Khaine Infantry** units while they are wholly within 9\" of this unit.\nIn addition, add 1 to chanting rolls for friendly **Daughters of Khaine Priests** while they are wholly within 9\" of this unit.",
           "abilityAndCommandIcon": "special",
           "warscrollId": "a1bcdfee-596c-4dbb-b9e0-a66de62fa841",
           "keywords": []
@@ -1469,8 +1469,8 @@
           "reaction": false,
           "lore": "The coils of the Bloodwrack Viper circle around an enemy hero, pinning them in place.",
           "usedBy": null,
-          "declare": "Pick an enemy Infantry Hero in combat with this Manifestation to be the target.",
-          "effect": "Roll a dice. On a 3+, the target has Strike-last for the rest of the turn.",
+          "declare": "Pick an enemy **Infantry Hero** in combat with this **Manifestation** to be the target.",
+          "effect": "Roll a dice. On a 3+, the target has **Strike-last** for the rest of the turn.",
           "abilityAndCommandIcon": "offensive",
           "warscrollId": "a99a117d-e816-4a4c-8dca-0e4e6060c196",
           "keywords": [
@@ -1647,7 +1647,7 @@
           "lore": "The Khinerai circle high above the battlefield, waiting for the perfect moment to strike.",
           "usedBy": null,
           "declare": "Pick this unit if it has not been deployed.",
-          "effect": "Set up this unit in reserve in the skies. It has now been deployed.",
+          "effect": "Set up this unit in reserve **in the skies**. It has now been deployed.",
           "abilityAndCommandIcon": "special",
           "warscrollId": "d0a92d1b-ff4a-408a-9830-274b5b6df642",
           "keywords": [
@@ -1664,7 +1664,7 @@
           "reaction": false,
           "lore": "The Khinerai delight in using their leathery wings to descend upon the foe from unexpected vectors.",
           "usedBy": null,
-          "declare": "Pick this unit if it is in the skies.",
+          "declare": "Pick this unit if it is **in the skies**.",
           "effect": "Set up this unit anywhere on the battlefield more than 9\" from all enemy units.",
           "abilityAndCommandIcon": "movement",
           "warscrollId": "d0a92d1b-ff4a-408a-9830-274b5b6df642",
@@ -1681,7 +1681,7 @@
           "lore": "Heartrenders are masters of the hit-and-run strike, loosing volleys of sharpened projectiles before darting away.",
           "usedBy": null,
           "declare": null,
-          "effect": "If this unit used a Shoot ability this phase, this unit can move D6\". It cannot move into combat during any part of that move.",
+          "effect": "If this unit used a **Shoot** ability this phase, this unit can move D6\". It cannot move into combat during any part of that move.",
           "abilityAndCommandIcon": "movement",
           "warscrollId": "d0a92d1b-ff4a-408a-9830-274b5b6df642",
           "keywords": []
@@ -1693,142 +1693,6 @@
         "Infantry",
         "Ward (6+)",
         "Fly"
-      ],
-      "factionKeywords": [
-        "Daughters of Khaine",
-        "Grand Alliance Order"
-      ]
-    },
-    {
-      "id": "ffe6c741-1db8-46f2-8be1-d1ba0932b62a",
-      "name": "The Shadow Queen",
-      "subname": null,
-      "lore": "The realms at large believe the Shadow Queen to be a monstrous ally of Morathi- Khaine summoned from the darkest corners of the Shadowlands, yet the truth is far stranger. When Morathi ascended to godhood, she was cleaved in two by a vengeful soul she was consuming for power. Her form was split into the regal sorceress Morathi-Khaine and the monstrous Shadow Queen. This serpentine war form is framed by enormous bat-like wings and a mane of venomous snakes. She can pulverise stone walls with her lashing coils, whilst those who meet her dreadful gaze find their blood erupting from their veins. The Shadow Queen wields an oversized version of her legendary weapon, Heartrender, that befits her formidable stature.\n\nMorathi-Khaine and the Shadow Queen are one being joined by a single soul. Together they form a terrifying union of martial and arcane might capable of obliterating entire armies. Nevertheless, the goddess faces a constant battle to balance the clashing aspects of her psyche. In times of great strife, the appeal of the Shadow Queen’s straightforward, murderous hatred becomes very difficult to deny, and the composed power of Morathi-Khaine wavers. The ragged wound in Morathi’s godly soul may never truly heal, and she wonders if the final cost of her ascension is yet to be revealed.",
-      "bannerImage": "https://dhss9aar8ocw.cloudfront.net/4d2adb3f-e57c-4d4e-9d74-187dd67c2dd0",
-      "rowImage": "https://dhss9aar8ocw.cloudfront.net/757b0e86-77b6-4d98-b85c-68caeab3b846",
-      "modelCount": 1,
-      "baseSize": "100mm",
-      "points": 0,
-      "notes": "This unit can only be taken in Morathi‐Khaine’s regiment.",
-      "isSpearhead": false,
-      "cannotBeReinforced": true,
-      "hiddenFromReference": false,
-      "hiddenFromStormForge": false,
-      "referenceKeywords": "Unique, Hero, Monster, Fly, Ward (6+), Order, Daughters of Khaine",
-      "move": "12\"",
-      "save": "4+",
-      "control": "10",
-      "health": "12",
-      "wargearOptionsText": null,
-      "publicationId": "e6a7d962-1e3c-4551-bf49-796b5ea3a95a",
-      "limitingWarscrollId": null,
-      "requiredPrimaryHeroWarscrollId": "1e5cf14e-daa0-4746-a36e-cc69730e7f76",
-      "isLegends": false,
-      "faction": "Daughters of Khaine",
-      "weapons": [
-        {
-          "id": "2ad362e3-941e-40ea-b6b5-8c893d7c7eb2",
-          "name": "Envenomed Tail",
-          "type": "melee",
-          "range": null,
-          "attacks": "1",
-          "hit": "3+",
-          "wound": "3+",
-          "rend": "2",
-          "damage": "6",
-          "battleDamaged": false,
-          "warscrollId": "ffe6c741-1db8-46f2-8be1-d1ba0932b62a",
-          "weaponAbilities": []
-        },
-        {
-          "id": "6336161a-688b-48d9-86e2-ab01d1e6f3b5",
-          "name": "Heartrender",
-          "type": "melee",
-          "range": null,
-          "attacks": "8",
-          "hit": "3+",
-          "wound": "3+",
-          "rend": "2",
-          "damage": "3",
-          "battleDamaged": false,
-          "warscrollId": "ffe6c741-1db8-46f2-8be1-d1ba0932b62a",
-          "weaponAbilities": [
-            "Crit (Mortal)"
-          ]
-        },
-        {
-          "id": "9045230d-a90f-4921-9b7e-dc5a8a21c844",
-          "name": "Gaze of the Shadow Queen",
-          "type": "ranged",
-          "range": "12\"",
-          "attacks": "1",
-          "hit": "2+",
-          "wound": "2+",
-          "rend": "3",
-          "damage": "D6",
-          "battleDamaged": false,
-          "warscrollId": "ffe6c741-1db8-46f2-8be1-d1ba0932b62a",
-          "weaponAbilities": [
-            "Shoot in Combat"
-          ]
-        },
-        {
-          "id": "c9335db7-f606-4d12-87e2-8cf2c08b7002",
-          "name": "Crown of Serpents",
-          "type": "melee",
-          "range": null,
-          "attacks": "2D6",
-          "hit": "4+",
-          "wound": "4+",
-          "rend": "-",
-          "damage": "1",
-          "battleDamaged": false,
-          "warscrollId": "ffe6c741-1db8-46f2-8be1-d1ba0932b62a",
-          "weaponAbilities": []
-        }
-      ],
-      "abilities": [
-        {
-          "id": "0341073e-d293-4e24-8f43-141d1d863c1c",
-          "name": "Iron Heart of Khaine",
-          "phaseDetails": "Passive",
-          "phase": "defensive",
-          "castingValue": null,
-          "cpCost": null,
-          "reaction": false,
-          "lore": "The Iron Heart of Khaine is the last remnant of the fallen god, and it pulses still with life sustaining divine energies.",
-          "usedBy": null,
-          "declare": null,
-          "effect": "You cannot allocate more than 3 damage points to this unit each turn. Once 3 points have been allocated to this unit in a turn, any further damage points that would be allocated to it are ignored.\n\nDamage points allocated to this unit cannot be healed.\n\nIf this unit would be automatically destroyed, it is not automatically destroyed. Instead, allocate 3 damage points to it (ward rolls cannot be made for those damage points).",
-          "abilityAndCommandIcon": "defensive",
-          "warscrollId": "ffe6c741-1db8-46f2-8be1-d1ba0932b62a",
-          "keywords": []
-        },
-        {
-          "id": "2e0edabf-a9e8-4f6e-abfb-808e0577ee46",
-          "name": "Fury of the Shadow Queen",
-          "phaseDetails": "Once Per Turn (Army), Any Combat Phase",
-          "phase": "combatPhase",
-          "castingValue": null,
-          "cpCost": null,
-          "reaction": false,
-          "lore": "Bloodshed raises the Shadow Queen’s fury to new heights and fuels the murderlust of nearby Scáthborn.",
-          "usedBy": null,
-          "declare": "Pick an enemy unit in combat with this unit to be the target.",
-          "effect": "Roll a D3. On a 2+, inflict an amount of mortal damage on the target equal to the roll. If any models are slain by this ability, for the rest of the turn, add 1 to the Attacks characteristic of melee weapons used by friendly Khinerai and Melusai units while they are wholly within 12\" of this unit.",
-          "abilityAndCommandIcon": "offensive",
-          "warscrollId": "ffe6c741-1db8-46f2-8be1-d1ba0932b62a",
-          "keywords": [
-            "Rampage"
-          ]
-        }
-      ],
-      "keywords": [
-        "Monster",
-        "Unique",
-        "Ward (6+)",
-        "Fly",
-        "Hero"
       ],
       "factionKeywords": [
         "Daughters of Khaine",
@@ -1891,7 +1755,7 @@
           "lore": "The Khinerai circle high above the battlefield, waiting for the perfect moment to strike.",
           "usedBy": null,
           "declare": "Pick this unit if it has not been deployed.",
-          "effect": "Set up this unit in reserve in the skies. It has now been deployed.",
+          "effect": "Set up this unit in reserve **in the skies**. It has now been deployed.",
           "abilityAndCommandIcon": "special",
           "warscrollId": "fe64f838-308a-4019-8bc3-8e3315f5aa9d",
           "keywords": [
@@ -1908,7 +1772,7 @@
           "reaction": false,
           "lore": "The Khinerai delight in using their leathery wings to descend upon the foe from unexpected vectors.",
           "usedBy": null,
-          "declare": "Pick this unit if it is in the skies.",
+          "declare": "Pick this unit if it is **in the skies**.",
           "effect": "Set up this unit anywhere on the battlefield more than 9\" from all enemy units.",
           "abilityAndCommandIcon": "movement",
           "warscrollId": "fe64f838-308a-4019-8bc3-8e3315f5aa9d",
@@ -1925,7 +1789,7 @@
           "lore": "The cults of the Khinerai are masters of the hit-and run strike.",
           "usedBy": null,
           "declare": null,
-          "effect": "After resolving the effect of that Fight ability, this unit can immediately move D6\". It cannot end that move in combat with any units that it was not already in combat with at the start of the move.",
+          "effect": "After resolving the effect of that **Fight** ability, this unit can immediately move D6\". It cannot end that move in combat with any units that it was not already in combat with at the start of the move.",
           "abilityAndCommandIcon": "movement",
           "warscrollId": "fe64f838-308a-4019-8bc3-8e3315f5aa9d",
           "keywords": []
@@ -2027,7 +1891,7 @@
           "lore": "Should a victim’s eyes lock with a Bloodwrack Medusa’s stare for even a second, their lifeblood will violently rebel, flooding from every pore until their body collapses into a pool of gore.",
           "usedBy": null,
           "declare": null,
-          "effect": "Each time this unit attacks with its Bloodwrack Stare, if the attack scores a hit, roll a number of dice equal to the number of models in the target unit. For each 5+, inflict 1 mortal damage on that unit. You cannot pick the same enemy unit to be targeted by attacks made with a Bloodwrack Stare more than once per phase.",
+          "effect": "Each time this unit attacks with its **Bloodwrack Stare**, if the attack scores a hit, roll a number of dice equal to the number of models in the target unit. For each 5+, inflict 1 mortal damage on that unit. You cannot pick the same enemy unit to be targeted by attacks made with a **Bloodwrack** **Stare** more than once per phase.",
           "abilityAndCommandIcon": "shooting",
           "warscrollId": "3065234d-3c32-427c-8683-0ba62ae8292c",
           "keywords": []
@@ -2148,8 +2012,8 @@
           "reaction": false,
           "lore": "Casting blood into her brazier, Krethusa manipulates the twisting coils of smoke to commune with Morai‑Heg.",
           "usedBy": null,
-          "declare": "If this unit is within the combat range of a friendly Cauldron of Blood, pick a visible friendly Daughters of Khaine Aelf non‑Hero Infantry unit wholly within 18\" of this unit to be the target.",
-          "effect": "Roll a dice. On a 2+, pick 1 of the following effects to apply to the target.\n\nProphecy of Silence: Until the start of your next turn, enemy units cannot use commands while they are in combat with the target.\n\nProphecy of Dark Wings: The target can use the ‘Normal Move’ ability as if it were your movement phase. That unit counts as having used a Run ability this turn.\n\nProphecy of Reclamation: For the rest of the turn, while the target is contesting an objective, subtract 10 from the control scores of enemy units contesting that objective that do not have the Hero or Monster keyword.",
+          "declare": "If this unit is within the combat range of a friendly **Cauldron of Blood**, pick a visible friendly **Daughters of Khaine Aelf** non**‑Hero Infantry** unit wholly within 18\" of this unit to be the target.",
+          "effect": "Roll a dice. On a 2+, pick 1 of the following effects to apply to the target.\n\n***Prophecy of Silence:*** Until the start of your next turn, enemy units cannot use commands while they are in combat with the target.\n\n***Prophecy of Dark Wings:*** The target can use the ‘Normal Move’ ability as if it were your movement phase. That unit counts as having used a **Run** ability this turn.\n\n***Prophecy of Reclamation:*** For the rest of the turn, while the target is contesting an objective, subtract 10 from the control scores of enemy units contesting that objective that do not have the **Hero** or **Monster** keyword.",
           "abilityAndCommandIcon": "special",
           "warscrollId": "a2ce3a48-67b7-47ff-8ae4-b087952cbe4f",
           "keywords": []
@@ -2240,7 +2104,7 @@
           "lore": "Khaine’s subjects channel their faith through a bladed idol of the Murder God, allowing it to carry out acts of monstrous carnage.",
           "usedBy": null,
           "declare": "If this unit charged this phase, pick an enemy unit within 1\" of it to be the target.",
-          "effect": "Roll a D3. On a 2+, inflict an amount of mortal damage on the target equal to the roll. If the target is a Monster, double the amount of mortal damage inflicted.",
+          "effect": "Roll a D3. On a 2+, inflict an amount of mortal damage on the target equal to the roll. If the target is a **Monster**, double the amount of mortal damage inflicted.",
           "abilityAndCommandIcon": "offensive",
           "warscrollId": "0ab7faae-95d2-4e7f-9d2d-66683a02876f",
           "keywords": [
@@ -2389,7 +2253,7 @@
           "lore": "The martial skill of these warriors allows them to turn defensive techniques into deadly strikes.",
           "usedBy": null,
           "declare": null,
-          "effect": "Each time you make an unmodified save roll of 6 for a combat attack that targets this unit, inflict 1 mortal damage on the attacking unit after the Fight ability has been resolved.",
+          "effect": "Each time you make an unmodified save roll of 6 for a combat attack that targets this unit, inflict 1 mortal damage on the attacking unit after the **Fight** ability has been resolved.",
           "abilityAndCommandIcon": "offensive",
           "warscrollId": "be713319-1c8e-43d7-ad4c-a92514666730",
           "keywords": []
@@ -2406,6 +2270,142 @@
       "factionKeywords": [
         "Daughters of Khaine",
         "The Croneseer’s Pariahs",
+        "Grand Alliance Order"
+      ]
+    },
+    {
+      "id": "ffe6c741-1db8-46f2-8be1-d1ba0932b62a",
+      "name": "The Shadow Queen",
+      "subname": null,
+      "lore": "The realms at large believe the Shadow Queen to be a monstrous ally of Morathi- Khaine summoned from the darkest corners of the Shadowlands, yet the truth is far stranger. When Morathi ascended to godhood, she was cleaved in two by a vengeful soul she was consuming for power. Her form was split into the regal sorceress Morathi-Khaine and the monstrous Shadow Queen. This serpentine war form is framed by enormous bat-like wings and a mane of venomous snakes. She can pulverise stone walls with her lashing coils, whilst those who meet her dreadful gaze find their blood erupting from their veins. The Shadow Queen wields an oversized version of her legendary weapon, Heartrender, that befits her formidable stature.\n\nMorathi-Khaine and the Shadow Queen are one being joined by a single soul. Together they form a terrifying union of martial and arcane might capable of obliterating entire armies. Nevertheless, the goddess faces a constant battle to balance the clashing aspects of her psyche. In times of great strife, the appeal of the Shadow Queen’s straightforward, murderous hatred becomes very difficult to deny, and the composed power of Morathi-Khaine wavers. The ragged wound in Morathi’s godly soul may never truly heal, and she wonders if the final cost of her ascension is yet to be revealed.",
+      "bannerImage": "https://dhss9aar8ocw.cloudfront.net/4d2adb3f-e57c-4d4e-9d74-187dd67c2dd0",
+      "rowImage": "https://dhss9aar8ocw.cloudfront.net/757b0e86-77b6-4d98-b85c-68caeab3b846",
+      "modelCount": 1,
+      "baseSize": "100mm",
+      "points": 0,
+      "notes": "This unit can only be taken in **Morathi‐Khaine**’s regiment.",
+      "isSpearhead": false,
+      "cannotBeReinforced": true,
+      "hiddenFromReference": false,
+      "hiddenFromStormForge": false,
+      "referenceKeywords": "Unique, Hero, Monster, Fly, Ward (6+), Order, Daughters of Khaine",
+      "move": "12\"",
+      "save": "4+",
+      "control": "10",
+      "health": "12",
+      "wargearOptionsText": null,
+      "publicationId": "e6a7d962-1e3c-4551-bf49-796b5ea3a95a",
+      "limitingWarscrollId": null,
+      "requiredPrimaryHeroWarscrollId": "1e5cf14e-daa0-4746-a36e-cc69730e7f76",
+      "isLegends": false,
+      "faction": "Daughters of Khaine",
+      "weapons": [
+        {
+          "id": "2ad362e3-941e-40ea-b6b5-8c893d7c7eb2",
+          "name": "Envenomed Tail",
+          "type": "melee",
+          "range": null,
+          "attacks": "1",
+          "hit": "3+",
+          "wound": "3+",
+          "rend": "2",
+          "damage": "6",
+          "battleDamaged": false,
+          "warscrollId": "ffe6c741-1db8-46f2-8be1-d1ba0932b62a",
+          "weaponAbilities": []
+        },
+        {
+          "id": "6336161a-688b-48d9-86e2-ab01d1e6f3b5",
+          "name": "Heartrender",
+          "type": "melee",
+          "range": null,
+          "attacks": "8",
+          "hit": "3+",
+          "wound": "3+",
+          "rend": "2",
+          "damage": "3",
+          "battleDamaged": false,
+          "warscrollId": "ffe6c741-1db8-46f2-8be1-d1ba0932b62a",
+          "weaponAbilities": [
+            "Crit (Mortal)"
+          ]
+        },
+        {
+          "id": "9045230d-a90f-4921-9b7e-dc5a8a21c844",
+          "name": "Gaze of the Shadow Queen",
+          "type": "ranged",
+          "range": "12\"",
+          "attacks": "1",
+          "hit": "2+",
+          "wound": "2+",
+          "rend": "3",
+          "damage": "D6",
+          "battleDamaged": false,
+          "warscrollId": "ffe6c741-1db8-46f2-8be1-d1ba0932b62a",
+          "weaponAbilities": [
+            "Shoot in Combat"
+          ]
+        },
+        {
+          "id": "c9335db7-f606-4d12-87e2-8cf2c08b7002",
+          "name": "Crown of Serpents",
+          "type": "melee",
+          "range": null,
+          "attacks": "2D6",
+          "hit": "4+",
+          "wound": "4+",
+          "rend": "-",
+          "damage": "1",
+          "battleDamaged": false,
+          "warscrollId": "ffe6c741-1db8-46f2-8be1-d1ba0932b62a",
+          "weaponAbilities": []
+        }
+      ],
+      "abilities": [
+        {
+          "id": "0341073e-d293-4e24-8f43-141d1d863c1c",
+          "name": "Iron Heart of Khaine",
+          "phaseDetails": "Passive",
+          "phase": "defensive",
+          "castingValue": null,
+          "cpCost": null,
+          "reaction": false,
+          "lore": "The Iron Heart of Khaine is the last remnant of the fallen god, and it pulses still with life sustaining divine energies.",
+          "usedBy": null,
+          "declare": null,
+          "effect": "You cannot allocate more than 3 damage points to this unit each turn. Once 3 points have been allocated to this unit in a turn, any further damage points that would be allocated to it are ignored.\n\nDamage points allocated to this unit cannot be healed.\n\nIf this unit would be automatically destroyed, it is not automatically destroyed. Instead, allocate 3 damage points to it (ward rolls cannot be made for those damage points).",
+          "abilityAndCommandIcon": "defensive",
+          "warscrollId": "ffe6c741-1db8-46f2-8be1-d1ba0932b62a",
+          "keywords": []
+        },
+        {
+          "id": "2e0edabf-a9e8-4f6e-abfb-808e0577ee46",
+          "name": "Fury of the Shadow Queen",
+          "phaseDetails": "Once Per Turn (Army), Any Combat Phase",
+          "phase": "combatPhase",
+          "castingValue": null,
+          "cpCost": null,
+          "reaction": false,
+          "lore": "Bloodshed raises the Shadow Queen’s fury to new heights and fuels the murderlust of nearby Scáthborn.",
+          "usedBy": null,
+          "declare": "Pick an enemy unit in combat with this unit to be the target.",
+          "effect": "Roll a D3. On a 2+, inflict an amount of mortal damage on the target equal to the roll. If any models are slain by this ability, for the rest of the turn, add 1 to the Attacks characteristic of melee weapons used by friendly **Khinerai** and **Melusai** units while they are wholly within 12\" of this unit.",
+          "abilityAndCommandIcon": "offensive",
+          "warscrollId": "ffe6c741-1db8-46f2-8be1-d1ba0932b62a",
+          "keywords": [
+            "Rampage"
+          ]
+        }
+      ],
+      "keywords": [
+        "Monster",
+        "Unique",
+        "Ward (6+)",
+        "Fly",
+        "Hero"
+      ],
+      "factionKeywords": [
+        "Daughters of Khaine",
         "Grand Alliance Order"
       ]
     }
@@ -2446,7 +2446,7 @@
       "abilityAndCommandIcon": "special",
       "cpCost": null,
       "lore": "The wearer can call for Khaine’s blessing as easily as drawing breath.",
-      "declare": "Pick a friendly Daughters of Khaine **Priest** wholly within 12\" of this unit.",
+      "declare": "Pick a friendly **Daughters of Khaine **Priest**** wholly within 12\" of this unit.",
       "usedBy": null,
       "effect": "Give that unit D6 ritual points.",
       "image": null,
@@ -2493,9 +2493,9 @@
       "abilityAndCommandIcon": "offensive",
       "cpCost": 1,
       "lore": "The leaders of the Daughters of Khaine can exhort their warriors to commit acts of terrible slaughter.",
-      "declare": "Pick a friendly Daughters of Khaine **Infantry** unit that is in combat to use this ability.",
+      "declare": "Pick a friendly **Daughters of Khaine **Infantry**** unit that is in combat to use this ability.",
       "usedBy": null,
-      "effect": "That unit can use 2 **Fight** abilities this phase. After the first is used, this unit has Strike-last for the rest of the turn.",
+      "effect": "That unit can use 2 ****Fight**** abilities this phase. After the first is used, this unit has **Strike-last** for the rest of the turn.",
       "image": null,
       "altText": null,
       "subsectionName": null,
@@ -2517,7 +2517,7 @@
       "cpCost": null,
       "lore": "Before battle, the Daughters take part in holy rites of bloodletting. With each sacrifice, the faithful are imbued with a fraction of their god’s furious power.",
       "usedBy": null,
-      "effect": "A different effect applies to friendly Daughters of Khaine units each battle round, as shown below. The effects of all previous battle rounds also apply to those units.\n\nBattle Round 1:\nQuickening Bloodlust: Add 1 to **run** rolls for this unit.\n\nBattle Round 2:\nHeadlong Fury: Add 1 to **charge** rolls for this unit.\n\nBattle Round 3:\nZealot’s Rage: Add 1 to hit rolls for this unit’s combat attacks.\n\nBattle Round 4:\nSlaughterer’s Wound: Add 1 to wound rolls for this unit’s combat attacks.\n\nBattle Round 5:\nFrenzied Worshippers: Add 1 to the Attacks characteristic of this unit’s melee weapons.",
+      "effect": "A different effect applies to friendly **Daughters of Khaine** units each battle round, as shown below. The effects of all previous battle rounds also apply to those units.\n\n**Battle Round 1:**\n***Quickening Bloodlust:*** Add 1 to **run** rolls for this unit.\n\n**Battle Round 2:**\n***Headlong Fury:*** Add 1 to **charge** rolls for this unit.\n\n**Battle Round 3:**\n***Zealot’s Rage:*** Add 1 to hit rolls for this unit’s combat attacks.\n\n**Battle Round 4:**\n***Slaughterer’s Wound:*** Add 1 to wound rolls for this unit’s combat attacks.\n\n**Battle Round 5:**\n***Frenzied Worshippers:*** Add 1 to the Attacks characteristic of this unit’s melee weapons.",
       "image": null,
       "altText": null,
       "subsectionName": null,
@@ -2563,7 +2563,7 @@
       "cpCost": null,
       "lore": "This hero bathes in gore during battle, granting her healing powers.",
       "usedBy": null,
-      "effect": "Heal (3) this unit if it is in combat.",
+      "effect": "**Heal (3)** this unit if it is in combat.",
       "image": null,
       "altText": null,
       "subsectionName": null,
@@ -2603,33 +2603,15 @@
       "loreName": "Prayers of the Khainite Cult",
       "abilities": [
         {
-          "id": "10077be5-b29c-4f50-bf2f-dbf5ba4960ad",
-          "name": "Sacrament of Blood",
-          "phaseDetails": "Your Hero Phase",
-          "phase": "heroPhase",
-          "abilityAndCommandIcon": "offensive",
-          "lore": "The dreaded rune of Khaine spontaneously manifests on the brows of the faithful as if carved there by some ghostly knife.",
-          "declare": "Pick a friendly Daughters of Khaine Priest to chant this prayer, pick a visible friendly Daughters of Khaine unit wholly within 12\" of them to be the target, then make a chanting roll of D6.",
-          "usedBy": null,
-          "effect": "Until the start of your next turn, add 1 to the current battle round number when determining which effects of the ‘Blood Rites’ ability apply to the target. If the chanting roll was 10+, until the start of your next turn, treat the current battle round number as 5 when determining which effects of the ‘Blood Rites’ ability apply to the target instead.",
-          "castingValue": 5,
-          "linkedWarscrollId": null,
-          "loreId": "410be39d-a2c6-4293-bc46-ecf7d6d36b25",
-          "keywords": [
-            "Prayer",
-            "Unlimited"
-          ]
-        },
-        {
           "id": "bbb58c43-1c96-4d5b-866f-cc3090b5acd1",
           "name": "Martyr's Sacrifice",
           "phaseDetails": "Your Hero Phase",
           "phase": "heroPhase",
           "abilityAndCommandIcon": "offensive",
           "lore": "The priestess beseeches Khaine to give those faithful who have been slain the strength to deliver one final blow.",
-          "declare": "Pick a friendly Daughters of Khaine Priest to chant this prayer, pick a visible friendly Daughters of Khaine unit wholly within 12\" of them to be the target, then make a chanting roll of D6.",
+          "declare": "Pick a friendly **Daughters of Khaine Priest** to chant this prayer, pick a visible friendly **Daughters of Khaine** unit wholly within 12\" of them to be the target, then make a chanting roll of D6.",
           "usedBy": null,
-          "effect": "Until the start of your next turn, each time a model in the target unit is slain by a combat attack, before removing the model from play, pick an enemy unit in combat with the target and roll a dice. If the chanting roll was 8+, roll 2 dice instead of 1. For each 5+, inflict 1 mortal damage on that enemy unit after the Fight ability has been resolved.",
+          "effect": "Until the start of your next turn, each time a model in the target unit is slain by a combat attack, before removing the model from play, pick an enemy unit in combat with the target and roll a dice. If the chanting roll was 8+, roll 2 dice instead of 1. For each 5+, inflict 1 mortal damage on that enemy unit after the **Fight** ability has been resolved.",
           "castingValue": 4,
           "linkedWarscrollId": null,
           "loreId": "410be39d-a2c6-4293-bc46-ecf7d6d36b25",
@@ -2644,7 +2626,7 @@
           "phase": "heroPhase",
           "abilityAndCommandIcon": "control",
           "lore": "The hearts of the Murder God’s followers become as cold and hard as iron, crushing their fears and doubts with a chilling contempt.",
-          "declare": "Pick a friendly Daughters of Khaine Priest to chant this prayer, pick a visible friendly Daughters of Khaine unit wholly within 12\" of them to be the target, then make a chanting roll of D6.",
+          "declare": "Pick a friendly **Daughters of Khaine Priest** to chant this prayer, pick a visible friendly **Daughters of Khaine** unit wholly within 12\" of them to be the target, then make a chanting roll of D6.",
           "usedBy": null,
           "effect": "Ignore negative modifiers to the target’s control score until the start of your next turn. In addition, if the chanting roll was 8+, add 5 to the target’s control score until the start of your next turn.",
           "castingValue": 4,
@@ -2652,6 +2634,24 @@
           "loreId": "410be39d-a2c6-4293-bc46-ecf7d6d36b25",
           "keywords": [
             "Prayer"
+          ]
+        },
+        {
+          "id": "10077be5-b29c-4f50-bf2f-dbf5ba4960ad",
+          "name": "Sacrament of Blood",
+          "phaseDetails": "Your Hero Phase",
+          "phase": "heroPhase",
+          "abilityAndCommandIcon": "offensive",
+          "lore": "The dreaded rune of Khaine spontaneously manifests on the brows of the faithful as if carved there by some ghostly knife.",
+          "declare": "Pick a friendly **Daughters of Khaine Priest** to chant this prayer, pick a visible friendly **Daughters of Khaine** unit wholly within 12\" of them to be the target, then make a chanting roll of D6.",
+          "usedBy": null,
+          "effect": "Until the start of your next turn, add 1 to the current battle round number when determining which effects of the ‘Blood Rites’ ability apply to the target. If the chanting roll was 10+, until the start of your next turn, treat the current battle round number as 5 when determining which effects of the ‘Blood Rites’ ability apply to the target instead.",
+          "castingValue": 5,
+          "linkedWarscrollId": null,
+          "loreId": "410be39d-a2c6-4293-bc46-ecf7d6d36b25",
+          "keywords": [
+            "Prayer",
+            "Unlimited"
           ]
         }
       ]
@@ -2667,9 +2667,9 @@
           "phase": "heroPhase",
           "abilityAndCommandIcon": "special",
           "lore": "The caster calls upon their mastery of blood magic to conjure a twirling quartet of giant, blood-slick blades.",
-          "declare": "If there is not a friendly Bladewind on the battlefield, pick a friendly Daughters of Khaine Wizard to cast this spell, then make a casting roll of 2D6.",
+          "declare": "If there is not a friendly **Bladewind** on the battlefield, pick a friendly **Daughters of Khaine Wizard** to cast this spell, then make a casting roll of 2D6.",
           "usedBy": null,
-          "effect": "Set up a Bladewind wholly within 9\" of the caster, visible to them and more than 9\" from all enemy units.",
+          "effect": "Set up a **Bladewind** wholly within 9\" of the caster, visible to them and more than 9\" from all enemy units.",
           "castingValue": 6,
           "linkedWarscrollId": "11f165d4-5077-4145-927a-2a276f02b68f",
           "loreId": "c2065cb1-640a-45e4-a198-e07c1ab63872",
@@ -2685,9 +2685,9 @@
           "phase": "heroPhase",
           "abilityAndCommandIcon": "special",
           "lore": "The skies turn crimson as this bleeding icon descends upon the battle.",
-          "declare": "If there is not a friendly Heart of Fury on the battlefield, pick a friendly Daughters of Khaine Priest to chant this prayer, then make a chanting roll of D6.",
+          "declare": "If there is not a friendly **Heart of Fury** on the battlefield, pick a friendly **Daughters of Khaine Priest** to chant this prayer, then make a chanting roll of D6.",
           "usedBy": null,
-          "effect": "Set up a Heart of Fury wholly within 9\" of the chanter and visible to them.",
+          "effect": "Set up a **Heart of Fury** wholly within 9\" of the chanter and visible to them.",
           "castingValue": 5,
           "linkedWarscrollId": "4cefa477-9922-4ebf-b454-2ccea8ae55e3",
           "loreId": "c2065cb1-640a-45e4-a198-e07c1ab63872",
@@ -2703,9 +2703,9 @@
           "phase": "heroPhase",
           "abilityAndCommandIcon": "special",
           "lore": "The caster weaves their outstretched hand in an elaborate pattern that mimics the structure of a monstrous snake drenched in blood.",
-          "declare": "If there is not a friendly Bloodwrack Viper on the battlefield, pick a friendly Daughters of Khaine Wizard to cast this spell, then make a casting roll of 2D6.",
+          "declare": "If there is not a friendly **Bloodwrack Viper** on the battlefield, pick a friendly **Daughters of Khaine Wizard** to cast this spell, then make a casting roll of 2D6.",
           "usedBy": null,
-          "effect": "Set up a Bloodwrack Viper wholly within 9\" of the caster, visible to them and more than 9\" from all enemy units.",
+          "effect": "Set up a **Bloodwrack Viper** wholly within 9\" of the caster, visible to them and more than 9\" from all enemy units.",
           "castingValue": 6,
           "linkedWarscrollId": "a99a117d-e816-4a4c-8dca-0e4e6060c196",
           "loreId": "c2065cb1-640a-45e4-a198-e07c1ab63872",
@@ -2727,9 +2727,9 @@
           "phase": "heroPhase",
           "abilityAndCommandIcon": "offensive",
           "lore": "The wizard hurls bolt of blazing black flame at their foes.",
-          "declare": "Pick a friendly Daughters of Khaine Wizard to cast this spell, pick a visible enemy unit within 12\" of them to be the target, then make a casting roll of 2D6.",
+          "declare": "Pick a friendly **Daughters of Khaine Wizard** to cast this spell, pick a visible enemy unit within 12\" of them to be the target, then make a casting roll of 2D6.",
           "usedBy": null,
-          "effect": "If the target unit has fewer than 10 models, inflict D3 mortal damage on the target.\n\nIf the target unit has 10-19 models, inflict D6 mortal damage on the target. \n\nIf the target unit has 20 or more models, inflict 6 mortal damage on the target.",
+          "effect": "If the target unit has fewer than 10 models, inflict D3 mortal damage on the target.\n\nIf the target unit has 10-19 models, inflict D6 mortal damage on the target.\n\nIf the target unit has 20 or more models, inflict 6 mortal damage on the target.",
           "castingValue": 7,
           "linkedWarscrollId": null,
           "loreId": "e3881f0e-4855-4822-bb63-f009b20f88c4",
@@ -2744,9 +2744,9 @@
           "phase": "heroPhase",
           "abilityAndCommandIcon": "movement",
           "lore": "A coal-black creature with wings of night materialises from the darkness and swoops across the battlefield, hastening the movement of the Khainites below.",
-          "declare": "Pick a friendly Daughters of Khaine Wizard to cast this spell, pick a visible friendly Daughters of Khaine unit wholly within 12\" of them to be the target, then make a casting roll of 2D6.",
+          "declare": "Pick a friendly **Daughters of Khaine Wizard** to cast this spell, pick a visible friendly **Daughters of Khaine** unit wholly within 12\" of them to be the target, then make a casting roll of 2D6.",
           "usedBy": null,
-          "effect": "The target can use Charge abilities this turn even if it used a Run ability in the same turn.",
+          "effect": "The target can use **Charge** abilities this turn even if it used a **Run** ability in the same turn.",
           "castingValue": 5,
           "linkedWarscrollId": null,
           "loreId": "e3881f0e-4855-4822-bb63-f009b20f88c4",
@@ -2762,7 +2762,7 @@
           "phase": "heroPhase",
           "abilityAndCommandIcon": "offensive",
           "lore": "The wizard summons spectral blades into their allies’ hands, weapons whose edges are honed by the wielder’s faith as much as the victim’s fear.",
-          "declare": "Pick a friendly Daughters of Khaine Wizard to cast this spell, pick a visible friendly Daughters of Khaine unit wholly within 12\" of them to be the target, then make a casting roll of 2D6.",
+          "declare": "Pick a friendly **Daughters of Khaine Wizard** to cast this spell, pick a visible friendly **Daughters of Khaine** unit wholly within 12\" of them to be the target, then make a casting roll of 2D6.",
           "usedBy": null,
           "effect": "Add 1 to the Rend characteristic of the target’s melee weapons until the start of your next turn. In addition, if the target charged this turn, add 1 to the Damage characteristic of its melee weapons until the start of your next turn.",
           "castingValue": 8,
@@ -2788,7 +2788,7 @@
           "abilityAndCommandIcon": "offensive",
           "lore": "The Melusai and Khinerai that make up the Vyperic Guard strike at the heart of their enemies with lethal speed and accuracy.",
           "declare": null,
-          "effect": "If the unmodified charge roll for a friendly Melusai or Khinerai unit is 8+, that unit has Strike-first for the rest of the turn.",
+          "effect": "If the unmodified charge roll for a friendly **Melusai** or **Khinerai** unit is 8+, that unit has **Strike-first** for the rest of the turn.",
           "usedBy": null,
           "reaction": false,
           "battleFormationId": "38c0f458-e916-46b5-943b-4b5f5b5b6b3f",
@@ -2807,7 +2807,7 @@
           "phase": "movementPhase",
           "abilityAndCommandIcon": "movement",
           "lore": "Well versed in the secrets of the shadowpaths, these warriors strike where least expected.",
-          "declare": "Pick a friendly Daughters of Khaine Infantry unit that is not in combat to use this ability.",
+          "declare": "Pick a friendly **Daughters of Khaine Infantry** unit that is not in combat to use this ability.",
           "effect": "Roll a dice. On a 3+, remove that unit from the battlefield and set it up again on the battlefield more than 9\" from all enemy units.",
           "usedBy": null,
           "reaction": false,
@@ -2847,7 +2847,7 @@
           "phase": "endOfTurn",
           "abilityAndCommandIcon": "offensive",
           "lore": "The Cauldron Guard seek to carve a path for their worshipped engines through enemy defences at the earliest opportunity.",
-          "declare": "Pick up to 3 friendly Daughters of Khaine Infantry or War Machine units that are in combat to be the targets.",
+          "declare": "Pick up to 3 friendly **Daughters of Khaine Infantry** or **War** **Machine** units that are in combat to be the targets.",
           "effect": "For each target:\n\n• Make a pile-in move.\n• Then, pick an enemy unit in combat with the target and roll a D3. On a 2+, inflict an amount of mortal damage on that enemy unit equal to the roll.",
           "usedBy": null,
           "reaction": false,
