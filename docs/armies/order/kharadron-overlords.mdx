@@ -6,6 +6,28 @@ dataVersion: 210
 import Warscroll from '@site/src/components/Warscroll';
 import WarscrollAbility from '@site/src/components/WarscrollAbility';
 
+## Battle Traits
+
+### Descend from the Clouds
+
+<WarscrollAbility ability={{"name":"Descend from the Clouds","header":{"icon":"movement","color":"gray","text":"Your Movement Phase"},"declare":"Pick a friendly ****SKYVESSEL** in the clouds** to use this ability.","effect":"Set up that ****SkYVESSEL**** anywhere on the battlefield more than 9\" from all enemy units. Then, set up all other units that were set up **in the clouds** with that ****SKYVESSEL**** wholly within 6\" of it and more than 9\" from all enemy units."}} />
+
+### Flying High
+
+<WarscrollAbility ability={{"name":"Flying High","header":{"icon":"special","color":"black","text":"Once Per Battle, Deployment Phase"},"declare":"Pick a friendly ****SKYVESSEL**** that is part of a regiment from which no units have been deployed, then pick a number of units up to its Transport Capacity (see its warscroll) that are in its regiment.","effect":"Set up all of those units in reserve **in the clouds**. They have now been deployed.","keywords":["Deploy"]}} />
+
+### Ply the Skies
+
+<WarscrollAbility ability={{"name":"Ply the Skies","header":{"icon":"movement","color":"gray","text":"Reaction: You declared a non-CHARGE MOVE ability for an Arkanaut Frigate"},"effect":"Pick a friendly ****INFANTRY**** unit that is wholly within the combat range of that **Arkanaut Frigate** and not in combat to be transported. Remove that ****INFANTRY**** unit from the battlefield. Then, when the **Arkanaut Frigate** ends its **move**, set up the ****INFANTRY**** unit on the battlefield again, wholly within the combat range of the **Arkanaut Frigate** and not in combat. A unit cannot use ****CHARGE**** abilities if it was transported in the same turn."}} />
+
+### Skyvessel Cover
+
+<WarscrollAbility ability={{"name":"Skyvessel Cover","header":{"icon":"defensive","color":"green","text":"Passive"},"effect":"Subtract 1 from hit rolls for shooting attacks that target friendly **KHARADRON OVERLORDS **INFANTRY**** units while they are wholly within 6\" of a friendly **Arkanaut** **Ironclad** or **Arkanaut** **Frigate**."}} />
+
+### Transport Skyfarers
+
+<WarscrollAbility ability={{"name":"Transport Skyfarers","header":{"icon":"movement","color":"gray","text":"Reaction: You declared a non-CHARGE MOVE ability for a friendly SKYVESSEL"},"effect":"Pick a number of units up to that ****SKYVESSEL****’s Transport Capacity (see its warscroll) that are wholly within 6\" of it to be the targets. Units that have been transported this turn cannot be targets.\n\nRemove the targets from the battlefield. After the ****SKYVESSEL**** ends its **move**, you must set up each target unit on the battlefield, wholly within 6\" of that ****SKYVESSEL**** and not in combat. Those units have been transported. A unit cannot use ****CHARGE**** abilities if it was transported in the same turn."}} />
+
 ## Battle Formations
 
 ### Aether-runners
@@ -25,6 +47,34 @@ import WarscrollAbility from '@site/src/components/WarscrollAbility';
 <WarscrollAbility ability={{"name":"Meticulously Maintained","header":{"icon":"defensive","color":"green","text":"Passive"},"declare":null,"effect":"Ignore the first damage point that would be allocated to each friendly **SKYVESSEL** in each phase."}} />
 
 ## Arcana and Incantations
+
+## Artefacts of Power
+
+### Blazebeard and Sons 'Drakk-Hobbler' Mag-Bolas
+
+<WarscrollAbility ability={{"name":"Blazebeard and Sons 'Drakk-Hobbler' Mag-Bolas","header":{"icon":"defensive","color":"black","text":"Once Per Battle, Any Shooting or Combat Phase"},"declare":"Pick an enemy ****MONSTER**** within 12\" of this unit to be the target.","effect":"Until the start of your next turn, subtract 1 from the number of dice rolled when making **charge** rolls for the target, to a minimum of 1."}} />
+
+### Celestium Burst-grenade
+
+<WarscrollAbility ability={{"name":"Celestium Burst-grenade","header":{"icon":"offensive","color":"teal","text":"Once Per Battle, Your Shooting Phase"},"declare":"Pick an enemy unit within 12\" of this unit to be the target.","effect":"Ward rolls cannot be made for the target for the rest of the turn."}} />
+
+### Voidstone Orb
+
+<WarscrollAbility ability={{"name":"Voidstone Orb","header":{"icon":"special","color":"yellow","text":"Once Per Battle, Reaction: Opponent declared a SPELL ability for a WIZARD within 30\" of this unit"},"effect":"That **spell** is unbound."}} />
+
+## Heroic Traits
+
+### Cunning Fleetmaster
+
+<WarscrollAbility ability={{"name":"Cunning Fleetmaster","header":{"icon":"movement","color":"gray","text":"Passive"},"effect":"Each time a friendly ****SKYVESSEL**** wholly within 12\" of this unit uses the ‘Redeploy’ command, roll 2 dice and use the highest result when determining the distance that unit can **move**."}} />
+
+### Endrinmaestro
+
+<WarscrollAbility ability={{"name":"Endrinmaestro","header":{"icon":"shooting","color":"teal","text":"Passive"},"effect":"Add 2\" to the Range characteristic of ranged weapons used by friendly **KHARADRON OVERLORDS **INFANTRY**** units while they are wholly within 12\" of this unit."}} />
+
+### Grudgebearer
+
+<WarscrollAbility ability={{"name":"Grudgebearer","header":{"icon":"offensive","color":"black","text":"Deployment Phase"},"declare":"Pick an enemy unit to be the target.","effect":"Double the Damage characteristic of this unit’s weapons for attacks that target that enemy unit for the rest of the battle."}} />
 
 ## Warscrolls
 

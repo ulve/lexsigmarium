@@ -6,6 +6,40 @@ dataVersion: 210
 import Warscroll from '@site/src/components/Warscroll';
 import WarscrollAbility from '@site/src/components/WarscrollAbility';
 
+## Battle Traits
+
+### Feeding Frenzy
+
+<WarscrollAbility ability={{"name":"Feeding Frenzy","header":{"icon":"offensive","color":"red","text":"Passive"},"effect":"Add 1 to the Attacks characteristic of melee weapons, including **Companion** weapons, used by friendly **FLESH-EATER COURTS** units while they are wholly within 12\" of any friendly **HEROES** that have 6 **noble deeds points**."}} />
+
+### Feeding Frenzy
+
+<WarscrollAbility ability={{"name":"Feeding Frenzy","header":{"icon":"offensive","color":"red","text":"Passive"},"effect":"Add 1 to the Attacks characteristic of melee weapons used by friendly units while they are wholly within 12\" of any friendly **HEROES** that have 6 **noble deeds points**."}} />
+
+### Muster Guard
+
+<WarscrollAbility ability={{"name":"Muster Guard","header":{"icon":"rallying","color":"gray","text":"Your Movement Phase"},"declare":"Pick a friendly ****COURTIER** **HERO**** that has 1 or more **noble deeds** **points** to use this ability, then pick a friendly unit wholly within 12\" of it to be the target.","effect":"Spend any of that ****HERO****’s **noble deeds points**. If the target is a ****SERFS**** unit, for each **noble deeds point** spent, return 1 slain model to it. If the target is a ****KNIGHTS**** unit, for every 2 **noble deeds points** spent, return 1 slain model to it."}} />
+
+### Noble Deeds
+
+<WarscrollAbility ability={{"name":"Noble Deeds","header":{"icon":"special","color":"black","text":"Passive"},"effect":"Each friendly **FLESH-EATER COURTS **HERO**** starts the battle with 0 **noble deeds points** and can have a maximum of 6 **noble** **deeds points** at once.\n\nEach time a friendly **FLESH-EATER COURTS **HERO**** uses a ****FIGHT**** ability, after that ability has been resolved, give that ****HERO**** a number of **noble deeds points** equal to the number of damage points inflicted by that ability. Do not count attacks made with **Companion** weapons.\n\nEach time a friendly **FLESH-EATER COURTS **PRIEST** **HERO**** uses a ****PRAYER**** ability and the **prayer** is answered, after that ability has been resolved, give that ****HERO**** 1 **noble deeds point**.\n\nEach time a friendly **FLESH-EATER COURTS **WIZARD** **HERO**** uses a ****SPELL**** ability and the **spell** is successfully cast, after that ability has been resolved, give that ****HERO**** 1 **noble deeds point**."}} />
+
+### Noble Deeds
+
+<WarscrollAbility ability={{"name":"Noble Deeds","header":{"icon":"offensive","color":"red","text":"Passive"},"effect":"Each time a friendly ****HERO**** uses a ****FIGHT**** ability, after its attacks have been resolved, give that ****HERO**** a number of **noble deeds points** equal to the number of damage points allocated by that ability. Each ****HERO**** can have a maximum of 6 **noble deeds points** at any time."}} />
+
+### Royal Blood
+
+<WarscrollAbility ability={{"name":"Royal Blood","header":{"icon":"defensive","color":"yellow","text":"Once Per Turn (Army), Your Hero Phase"},"declare":"Pick any number of friendly **ABHORRANTS** to be the targets.","effect":"**Heal (D3)** each target."}} />
+
+### Summon Loyal Subjects
+
+<WarscrollAbility ability={{"name":"Summon Loyal Subjects","header":{"icon":"rallying","color":"gray","text":"Your Movement Phase"},"declare":"Pick a friendly ****ABHORRANT** **HERO**** that has 6 **noble deeds** **points** to use this ability, then pick a friendly ****SERFS**** or ****KNIGHTS**** unit that has been destroyed to be the target.","effect":"Spend all of that ****HERO****’s **noble deeds points**. Set up a replacement unit with half the number of models from the target unit (rounding up) wholly within 6\" of a battlefield edge and more than 9\" from all enemy units."}} />
+
+### Summon Loyal Subjects
+
+<WarscrollAbility ability={{"name":"Summon Loyal Subjects","header":{"icon":"rallying","color":"gray","text":"Your Movement Phase"},"declare":"Pick a friendly ****HERO**** with any **noble deeds points** to use this ability.","effect":"Spend any number of that ****HERO****’s **noble deeds points** as follows:\n\nPick a friendly **Cryptguard** unit within 9\" of this unit and spend 1 **noble deeds point** to return 1 model to that unit.\n\nPick a friendly **Morbheg **Knights**** unit within 9\" of this unit and spend 2 **noble deeds points** to return 1 model to that unit."}} />
+
 ## Battle Formations
 
 ### Cannibal Court
@@ -67,6 +101,34 @@ import WarscrollAbility from '@site/src/components/WarscrollAbility';
 #### Blessed Feast
 
 <WarscrollAbility ability={{"name":"Blessed Feast","header":{"icon":"defensive","color":"yellow","text":"Your Hero Phase"},"declare":"Pick a friendly **FLESH-EATER COURTS PRIEST** to chant this prayer, pick a visible enemy unit within 18\" of them to be the target, then make a chanting roll of D6.","effect":"Until the start of your next turn, each time a model in the target unit is slain, **Heal (1)** a friendly **FLESH-EATER COURTS** unit in combat with the target. If the chanting roll was 10+, **Heal (D3)** that friendly unit instead.","castingValue":5,"keywords":["Prayer","Unlimited"]}} />
+
+## Artefacts of Power
+
+### Charnel Vestments
+
+<WarscrollAbility ability={{"name":"Charnel Vestments","header":{"icon":"special","color":"yellow","text":"Passive"},"effect":"If this unit is not a ****PRIEST****, it has ****PRIEST** (1)**. If this unit is already a ****PRIEST****, add 1 to chanting rolls for this unit. If this unit is a ****WIZARD****, it cannot use ****SPELL**** abilities and ****PRAYER**** abilities in the same phase."}} />
+
+### Heart of the Gargant
+
+<WarscrollAbility ability={{"name":"Heart of the Gargant","header":{"icon":"offensive","color":"red","text":"Once Per Battle, Any Combat Phase"},"effect":"If this unit is in combat, add 1 to the Attacks characteristic of its melee weapons for the rest of the turn. This ability also affects **Companion** weapons."}} />
+
+### The Grim Garland
+
+<WarscrollAbility ability={{"name":"The Grim Garland","header":{"icon":"control","color":"eggplant","text":"Passive"},"effect":"Subtract 2 from the control scores of enemy units while they are within 12\" of this unit."}} />
+
+## Heroic Traits
+
+### Cruel Taskmaster
+
+<WarscrollAbility ability={{"name":"Cruel Taskmaster","header":{"icon":"rallying","color":"yellow","text":"Passive"},"effect":"Each time a friendly unit wholly within 12\" of this unit uses the ‘Rally’ command, you can make 3 additional rally rolls of D6."}} />
+
+### Savage Beyond Reason
+
+<WarscrollAbility ability={{"name":"Savage Beyond Reason","header":{"icon":"offensive","color":"red","text":"Passive"},"effect":"While this unit has fewer than 6 **noble deeds points**, its melee weapons have **Crit (2 Hits)**. While it has 6 **noble** **deeds points**, its melee weapons have **Crit (Mortal)**."}} />
+
+### Stronger In Madness
+
+<WarscrollAbility ability={{"name":"Stronger In Madness","header":{"icon":"defensive","color":"green","text":"Passive"},"effect":"Add 2 to this unit’s Health characteristic. In addition, while this unit has 6 **noble deeds points**, it has **WARD (5+)**."}} />
 
 ## Warscrolls
 

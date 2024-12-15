@@ -6,6 +6,28 @@ dataVersion: 210
 import Warscroll from '@site/src/components/Warscroll';
 import WarscrollAbility from '@site/src/components/WarscrollAbility';
 
+## Battle Traits
+
+### Advance in Formation
+
+<WarscrollAbility ability={{"name":"Advance in Formation","header":{"icon":"movement","color":"gray","text":"Your Movement Phase"},"declare":"Pick a friendly **CITIES OF SIGMAR **HERO**** that has not used an **OFFICAR’S ORDER** ability this turn to use this ability, then pick a friendly **CITIES OF SIGMAR** unit wholly within 12\" of that ****HERO**** and not in combat to be the target.\n\nIf the target is ****HUMAN****, you can pick an additional **CITIES OF SIGMAR** unit wholly within 12\" of that ****HERO**** and not in combat to be a target. You cannot pick the same unit to be a target of this ability more than once per turn.","effect":"Each target can **move** 3\". Each target cannot **move** into combat during any part of that **move**.","keywords":["Officar's Orders"]}} />
+
+### Hold The Line
+
+<WarscrollAbility ability={{"name":"Hold The Line","header":{"icon":"defensive","color":"red","text":"Any Combat Phase"},"declare":"Pick a friendly **CITIES OF SIGMAR **HERO**** that has not used an **OFFICAR’S ORDER** ability this turn to use this ability, then pick a friendly **CITIES OF SIGMAR** unit wholly within 12\" of that ****HERO**** and that did not **charge** this turn to be the target.","effect":"The target has **STRIKE-LAST** and **WARD (5+)** for the rest of the turn.\n\nIn addition, if the target is ****DUARDIN****, subtract 1 from hit rolls for combat attacks that target that unit for the rest of the turn.","keywords":["Officar's Orders"]}} />
+
+### Strike Them Down
+
+<WarscrollAbility ability={{"name":"Strike Them Down","header":{"icon":"offensive","color":"orange","text":"Any Charge Phase"},"declare":"Pick a friendly **CITIES OF SIGMAR **HERO**** that has not used an **OFFICAR’S ORDER** ability this turn to use this ability, then pick a friendly **CITIES OF SIGMAR** unit that charged this turn that is wholly within 12\" of that ****HERO**** to be the target.","effect":"Add 1 to the Attacks characteristic of the target’s melee weapons for the rest of the turn.\n\nIn addition, if the target is an ****AELF**** unit, add 1 to hit rolls for the target’s combat attacks for the rest of the turn."}} />
+
+### Suppressing Fire
+
+<WarscrollAbility ability={{"name":"Suppressing Fire","header":{"icon":"defensive","color":"teal","text":"Any Shooting Phase"},"declare":"Pick a friendly **CITIES OF SIGMAR **HERO**** that has not used an **OFFICAR’S ORDER** ability this turn to use this ability, then pick a friendly **CITIES OF SIGMAR** unit wholly within 12\" of that ****HERO**** to be the target.","effect":"Each time the target uses a ****SHOOT**** ability this phase, if all of its attacks targeted the same enemy unit, after that ability has been resolved, roll a dice. If the result is equal to or less than the number of models in that enemy unit that were slain by shooting attacks this phase, that enemy unit has **STRIKE‑LAST** for the rest of the turn.","keywords":["Officar's Orders"]}} />
+
+### The Officar's Order
+
+<WarscrollAbility ability={{"name":"The Officar's Order","header":{"icon":"control","color":"black","text":"Once Per Battle, Start of Battle Round"},"declare":"Pick a battle tactic card in your hand and place it face-down separately next to your other battle tactic cards. The information on it is still hidden from your opponent but make it clear which card is separate. The card stays separate until you use the command on it or score the battle tactic on it as described below.","effect":"When you use the command on that card, it is not discarded but returns to your hand. Your opponent can check the information on it before it returns to your hand. The card goes back to being a normal battle tactic card, with the exception that you cannot use the command on it in the same phase it went back into your hand.\n\nIf you did not use the command on the card you separated, you can still score the battle tactic on it at the end of your turn as normal if you met its conditions. If you do so, discard it as normal. If you neither used the command nor scored the battle tactic on the card, it automatically returns to your hand at the end of your turn.\n\n**Designer’s Note:** *This ability essentially lets you use a command ‘for free’, but you have to choose the command at the start of the battle round, so it requires some planning ahead!*"}} />
+
 ## Battle Formations
 
 ### Collegiate Arcane Expedition
@@ -53,6 +75,34 @@ import WarscrollAbility from '@site/src/components/WarscrollAbility';
 #### Speed of the Twin-tailed Comet
 
 <WarscrollAbility ability={{"name":"Speed of the Twin-tailed Comet","header":{"icon":"movement","color":"yellow","text":"Your Hero Phase"},"declare":"Pick a friendly **CITIES OF SIGMAR WIZARD** to cast this spell, pick a visible friendly **CITIES OF SIGMAR** unit wholly within 12\" to be the target, then make a casting roll of 2D6.","effect":"Until the start of your next turn, add 1 to the number of dice rolled when making charge rolls for the target, to a maximum of 3.","castingValue":7,"keywords":["Spell"]}} />
+
+## Artefacts of Power
+
+### Brazier of Holy Flame
+
+<WarscrollAbility ability={{"name":"Brazier of Holy Flame","header":{"icon":"rallying","color":"eggplant","text":"End of Any Turn"},"declare":"Pick a friendly non-****HERO** CITIES OF SIGMAR **INFANTRY**** unit that is not in combat and wholly within 12\" of this unit.","effect":"You can return up to D3 slain models to that unit."}} />
+
+### Glimmering
+
+<WarscrollAbility ability={{"name":"Glimmering","header":{"icon":"special","color":"red","text":"Passive"},"effect":"Each phase, you can re-roll 1 hit roll, or 1 wound roll, or 1 save roll for this unit."}} />
+
+### Sacred Tome
+
+<WarscrollAbility ability={{"name":"Sacred Tome","header":{"icon":"special","color":"yellow","text":"Passive"},"effect":"If this unit is not a ****PRIEST****, it has ****PRIEST** (1)**. If this unit is already a ****PRIEST****, add 1 to chanting rolls for this unit.\n\nIf this unit is a ****WIZARD****, it cannot use ****SPELL**** abilities and ****PRAYER**** abilities in the same phase."}} />
+
+## Heroic Traits
+
+### Fiery Temper
+
+<WarscrollAbility ability={{"name":"Fiery Temper","header":{"icon":"movement","color":"orange","text":"Passive"},"effect":"If this unit charged this turn, you can re-roll **charge** rolls for friendly **CITIES OF SIGMAR** units while they are wholly within 18\" of this unit."}} />
+
+### Grizzled Veteran
+
+<WarscrollAbility ability={{"name":"Grizzled Veteran","header":{"icon":"defensive","color":"green","text":"Passive"},"effect":"If the unmodified wound roll for an **attack** that targets this unit is a 1-3, the **attack** fails and the **attack** sequence ends."}} />
+
+### Master of Ballistics
+
+<WarscrollAbility ability={{"name":"Master of Ballistics","header":{"icon":"shooting","color":"teal","text":"Passive"},"effect":"If a friendly **CITIES OF SIGMAR** unit uses the ‘All-out **Attack**’ command in the shooting phase while it is within this unit’s combat range, add 1 to wound rolls for that unit’s shooting attacks in that phase. This effect is in addition to the effect of ‘All-out **Attack**’."}} />
 
 ## Warscrolls
 

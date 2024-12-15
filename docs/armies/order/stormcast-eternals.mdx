@@ -6,6 +6,36 @@ dataVersion: 210
 import Warscroll from '@site/src/components/Warscroll';
 import WarscrollAbility from '@site/src/components/WarscrollAbility';
 
+## Battle Traits
+
+### Heavens-sent
+
+<WarscrollAbility ability={{"name":"Heavens-sent","header":{"icon":"rallying","color":"gray","text":"Once Per Battle, Your Movement Phase"},"declare":"Pick a friendly non-****UNIQUE** STORMCAST ETERNALS **INFANTRY**** or ****CAVALRY**** unit that started the battle with 2 or more models and that has been destroyed to be the target.","effect":"Set up a replacement unit with half the number of models from the target unit (rounding up) more than 9\" from all enemy units."}} />
+
+### Lightning-Strike Arrival
+
+<WarscrollAbility ability={{"name":"Lightning-Strike Arrival","header":{"icon":"special","color":"gray","text":"Your Movement Phase"},"effect":"Set up this unit anywhere on the battlefield more than 6\" from all enemy units.","keywords":["Core"]}} />
+
+### Scions of the Storm
+
+<WarscrollAbility ability={{"name":"Scions of the Storm","header":{"icon":"movement","color":"gray","text":"Your Movement Phase"},"declare":"Pick a friendly **STORMCAST ETERNALS** unit that is **in the** **Celestial Realm**.","effect":"Set up that unit anywhere on the battlefield more than 9\" from all enemy units."}} />
+
+### Shield of Azyr
+
+<WarscrollAbility ability={{"name":"Shield of Azyr","header":{"icon":"defensive","color":"yellow","text":"Once Per Battle, Your Hero Phase"},"declare":"Pick a friendly unit.","effect":"Until the start of your next turn, that unit has **WARD (5+)**."}} />
+
+### Storm Charge
+
+<WarscrollAbility ability={{"name":"Storm Charge","header":{"icon":"movement","color":"orange","text":"Once Per Battle, Your Charge Phase"},"declare":"Pick a friendly unit that is not in combat.","effect":"That unit can use ****CHARGE**** abilities this turn even if it used a ****RUN**** ability in the same turn."}} />
+
+### The Celestial Realm
+
+<WarscrollAbility ability={{"name":"The Celestial Realm","header":{"icon":"special","color":"black","text":"Deployment Phase"},"declare":"If there are more friendly **STORMCAST ETERNALS** units on the battlefield than there are set up in reserve, pick a friendly **STORMCAST ETERNALS** unit that has not been deployed.","effect":"Set up that unit in reserve **in the Celestial Realm**. It has now been deployed.","keywords":["Deploy"]}} />
+
+### Their Finest Hour
+
+<WarscrollAbility ability={{"name":"Their Finest Hour","header":{"icon":"special","color":"yellow","text":"Once Per Turn (Army), Your Hero Phase"},"declare":"Pick a friendly **STORMCAST ETERNALS** unit that has not used this ability this battle to use this ability.","effect":"For the rest of the turn, add 1 to wound rolls for that unit’s combat attacks and add 1 to save rolls for that unit."}} />
+
 ## Battle Formations
 
 ### Lightning Echelon
@@ -71,6 +101,34 @@ import WarscrollAbility from '@site/src/components/WarscrollAbility';
 #### Lightning Blast
 
 <WarscrollAbility ability={{"name":"Lightning Blast","header":{"icon":"offensive","color":"yellow","text":"Your Hero Phase"},"declare":"Pick a friendly **STORMCAST ETERNALS WIZARD** to cast this spell, then pick the closest visible enemy unit to them that has not been picked to be the target of this ability this turn to be the target. If 2 or more visible enemy units are tied to be the closest, you can pick which is the target. Then, make a casting roll of 2D6.","effect":"Inflict D3 mortal damage on the target.","castingValue":5,"keywords":["Spell","Unlimited"]}} />
+
+## Artefacts of Power
+
+### Mirrorshield
+
+<WarscrollAbility ability={{"name":"Mirrorshield","header":{"icon":"defensive","color":"green","text":"Passive"},"effect":"This unit cannot be targeted by shooting attacks unless the attacking model is within 9\" of it."}} />
+
+### Null Pendant
+
+<WarscrollAbility ability={{"name":"Null Pendant","header":{"icon":"control","color":"eggplant","text":"Once Per Battle, End of Any Turn"},"declare":"Pick an enemy unit in combat with this unit to be the target.","effect":"Subtract 5 from the target’s control score for the rest of the turn."}} />
+
+### Quicksilver Draught
+
+<WarscrollAbility ability={{"name":"Quicksilver Draught","header":{"icon":"offensive","color":"red","text":"Once Per Battle, Any Combat Phase"},"effect":"This unit has **STRIKE-FIRST** for the rest of the turn."}} />
+
+## Heroic Traits
+
+### Envoy of the Heavens
+
+<WarscrollAbility ability={{"name":"Envoy of the Heavens","header":{"icon":"defensive","color":"yellow","text":"Your Hero Phase"},"declare":"If a friendly **STORMCAST ETERNALS** unit was destroyed in the previous turn, pick a visible friendly **STORMCAST ETERNALS** unit wholly within 12\"of this unit to be the target.","effect":"The target has **WARD (5+)** until the start of your next turn."}} />
+
+### Shock and Awe
+
+<WarscrollAbility ability={{"name":"Shock and Awe","header":{"icon":"defensive","color":"green","text":"Passive"},"effect":"Each time this unit is set up using the 'Scions of the Storm' ability, subtract 1 from hit rolls for attacks that target this unit for the rest of the battle round.\n\nIn addition, each time a friendly **STORMCAST ETERNALS** unit is set up wholly within 12\"of this unit using the 'Scions of the Storm' ability, subtract 1 from hit rolls for attacks that target that unit for the rest of the battle round."}} />
+
+### Staunch Defender
+
+<WarscrollAbility ability={{"name":"Staunch Defender","header":{"icon":"control","color":"eggplant","text":"Passive"},"effect":"While this unit is contesting an objective in friendly territory, add 3 to the control scores of all friendly **STORMCAST ETERNALS** units contesting that objective."}} />
 
 ## Warscrolls
 

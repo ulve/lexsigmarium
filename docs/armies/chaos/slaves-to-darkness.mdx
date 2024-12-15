@@ -6,6 +6,44 @@ dataVersion: 210
 import Warscroll from '@site/src/components/Warscroll';
 import WarscrollAbility from '@site/src/components/WarscrollAbility';
 
+## Battle Traits
+
+### Dark Apotheosis
+
+<WarscrollAbility ability={{"name":"Dark Apotheosis","header":{"icon":"special","color":"yellow","text":"Once Per Battle (Army), Any Hero Phase"},"declare":"Pick a friendly unit with 8 or more **Dark Apotheosis** points to be the target.","effect":"Pick 1 of the following:\n\n***Aura of Chaos***: **Heal (X)** the target, where **X** is the number of damage points allocated to the target. In addition, the target has **WARD (5+)** for the rest of the battle.\n\n***Daemonhood***: Set up a ****Daemon** Prince** within 1\" of the target. Then, remove the target from the battlefield. If the target is your general, the ****Daemon** Prince** becomes your general instead. If the target has any enhancements, the ****Daemon** Prince** has those enhancements instead. If the target has a **Pledge to Chaos** keyword, the ****Daemon** Prince** has the same keyword. Otherwise, pick 1 **Pledge to Chaos** keyword for the ****Daemon** Prince** to have for the rest of the battle."}} />
+
+### Eye of the Gods
+
+<WarscrollAbility ability={{"name":"Eye of the Gods","header":{"icon":"special","color":"black","text":"Once Per Battle (Army), Deployment Phase"},"declare":"Pick a friendly non-****UNIQUE** **WARRIORS OF CHAOS**** or ****DARKOATH** **HERO**** to be the target.","effect":"During the battle, the target gains **Dark Apotheosis** points as follows:\n\n• Each time the target uses a ****FIGHT**** ability, it gains D3 **Dark Apotheosis** points.\n• At the end of each of your turns, if the target is contesting an objective that is wholly outside friendly territory, it gains D3 **Dark Apotheosis** points."}} />
+
+### Eye of the Gods
+
+<WarscrollAbility ability={{"name":"Eye of the Gods","header":{"icon":"special","color":"eggplant","text":"Once Per Turn, End of Any Turn"},"declare":"Pick one of the following friendly units to use this ability:\n\n• A unit that is **contesting an objective not controlled by your opponent** and is not in combat.\n• A unit that **destroyed an enemy unit** this turn.","effect":"Roll once on the **Eye of the Gods table** for that unit. That unit gains the **Eye of the Gods** passive ability that corresponds to the roll (the unit keeps all Eye of the Gods abilities gained in previous turns). If the same unit gains the same ability more than once in the battle, the effects are **not** cumulative."}} />
+
+### Oaths of Darkness
+
+<WarscrollAbility ability={{"name":"Oaths of Darkness","header":{"icon":"special","color":"yellow","text":"Once Per Turn (Army), Your Hero Phase"},"effect":"You can reveal 1 **battle tactic card** in your hand to your opponent. If you do so, that **battle tactic card becomes your **oath**** for the rest of the turn.\n\nWhile this **battle tactic card is your **oath****, you can still use the command on it, or attempt to score the battle tactic on it, as normal.\n\nIf you score the battle tactic on your **oath** this turn, your **oath** is **fulfilled.** Instead of discarding the card, it is placed to one side but you can still use the command on it. Once you do so, the card is discarded as normal. Fulfilled oaths placed to one side in this way do not count towards the 3 battle tactic cards you can have in your hand.\n\nIf you use the command on your **oath** before it is scored, it is discarded as normal. At the end of the turn, if the **oath** is still in your hand and that **oath** has not been fulfilled, it ceases to be your **oath**."}} />
+
+### Pledge to Chaos
+
+<WarscrollAbility ability={{"name":"Pledge to Chaos","header":{"icon":"special","color":"yellow","text":"Once Per Turn (Army), Your Hero Phase"},"declare":"Pick a friendly non-****UNIQUE** SLAVES TO DARKNESS** unit that does not already have one of the keywords below to be the target.","effect":"Pick 1 of the following **Pledge to Chaos** keywords:\n\n• ****PLEDGED TO KHORNE****\n• ****PLEDGED TO TZEENTCH****\n• ****PLEDGED TO NURGLE****\n• ****PLEDGED TO SLAANESH****\n\nThe target has that keyword for the rest of the battle."}} />
+
+### Pledged to Khorne
+
+<WarscrollAbility ability={{"name":"Pledged to Khorne","header":{"icon":"offensive","color":"red","text":"Passive"},"effect":"Add 1 to the Attacks characteristic of melee weapons used by friendly ****PLEDGED TO KHORNE**** units."}} />
+
+### Pledged to Nurgle
+
+<WarscrollAbility ability={{"name":"Pledged to Nurgle","header":{"icon":"defensive","color":"green","text":"Passive"},"effect":"Friendly ****PLEDGED TO NURGLE**** units have **WARD (6+).** If a unit already has **WARD (6+),** it has **WARD (5+)** instead."}} />
+
+### Pledged to Slaanesh
+
+<WarscrollAbility ability={{"name":"Pledged to Slaanesh","header":{"icon":"movement","color":"orange","text":"Your Charge Phase"},"effect":"For the rest of the turn, add 1 to the number of dice rolled when making **charge** rolls for friendly ****PLEDGED TO SLAANESH**** units, to a maximum of 3."}} />
+
+### Pledged to Tzeentch
+
+<WarscrollAbility ability={{"name":"Pledged to Tzeentch","header":{"icon":"movement","color":"gray","text":"Once Per Turn (Army), Your Movement Phase"},"declare":"Pick a friendly ****PLEDGED TO TZEENTCH**** unit to be the target.","effect":"Roll 2D6. Then pick a point within a number of inches of the target equal to the roll. Remove the target from the battlefield and set it up again on the battlefield wholly within 6\" of that point and more than 9\" from all enemy units."}} />
+
 ## Battle Formations
 
 ### Darkoath Horde
@@ -53,6 +91,34 @@ import WarscrollAbility from '@site/src/components/WarscrollAbility';
 #### Summon Realmscourge Rupture
 
 <WarscrollAbility ability={{"name":"Summon Realmscourge Rupture","header":{"icon":"special","color":"yellow","text":"Your Hero Phase"},"declare":"If there is not a friendly **Realmscourge Rupture** on the battlefield, pick a friendly **SLAVES TO DARKNESS WIZARD** to cast this spell, then make a casting roll of 2D6.","effect":"Set up a **Realmscourge Rupture** wholly within 12\" of the caster, visible to them and more than 9\" from all enemy units.","castingValue":7,"keywords":["Summon","Spell"]}} />
+
+## Artefacts of Power
+
+### Infernal Puppet
+
+<WarscrollAbility ability={{"name":"Infernal Puppet","header":{"icon":"offensive","color":"black","text":"Once Per Battle, Start of Any Turn"},"declare":"Pick a visible enemy ****WIZARD**** within 24\" of this unit to be the target.","effect":"For the rest of the turn, each time the target is picked to use a ****SPELL**** ability, inflict D3 mortal damage on the target as a reaction. If the target is destroyed by this ability, do not resolve the effect of that ****SPELL**** ability."}} />
+
+### Realmwarper's Twist-rune
+
+<WarscrollAbility ability={{"name":"Realmwarper's Twist-rune","header":{"icon":"special","color":"yellow","text":"Once Per Battle, Your Hero Phase"},"declare":"Pick a terrain feature within 12\" of this unit to be the target.","effect":"If the target does not have the ‘Obscuring’ terrain ability, it gains that ability until the start of your next turn. Then, roll a dice for each model (friendly and enemy) within 1\" of the target. For each 5+, inflict 1 mortal damage on that model’s unit."}} />
+
+### The Conqueror's Crown
+
+<WarscrollAbility ability={{"name":"The Conqueror's Crown","header":{"icon":"control","color":"eggplant","text":"Passive"},"effect":"Subtract 5 from the control scores of enemy ****INFANTRY**** units while they are in combat with this unit."}} />
+
+## Heroic Traits
+
+### Deathmonger
+
+<WarscrollAbility ability={{"name":"Deathmonger","header":{"icon":"offensive","color":"red","text":"Once Per Battle, Any Combat Phase"},"effect":"This unit can use 2 ****FIGHT**** abilities this phase. After the first is used, however, this unit has **STRIKE-LAST** for the rest of the turn."}} />
+
+### Favoured of the Pantheon
+
+<WarscrollAbility ability={{"name":"Favoured of the Pantheon","header":{"icon":"special","color":"black","text":"Deployment Phase"},"effect":"If this unit is picked as the target of the ‘Eye of the Gods’ ability, it gains 3 **Dark Apotheosis** points."}} />
+
+### Radiance of Dark Glory
+
+<WarscrollAbility ability={{"name":"Radiance of Dark Glory","header":{"icon":"defensive","color":"yellow","text":"Any Hero Phase"},"declare":"Pick each damaged friendly unit wholly within 12\" of this unit to be the targets.","effect":"Roll a dice for each target. On a 3+, **Heal (1)** the target. **Heal** **(3)** the target instead if it is a ****MONSTER****."}} />
 
 ## Warscrolls
 

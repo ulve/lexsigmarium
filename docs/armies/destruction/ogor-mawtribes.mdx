@@ -6,6 +6,24 @@ dataVersion: 210
 import Warscroll from '@site/src/components/Warscroll';
 import WarscrollAbility from '@site/src/components/WarscrollAbility';
 
+## Battle Traits
+
+### Bellowing Arrival
+
+<WarscrollAbility ability={{"name":"Bellowing Arrival","header":{"icon":"special","color":"gray","text":"Your Movement Phase"},"effect":"Set up this unit anywhere on the battlefield, within 1\" of a battlefield edge and more than 6\" from all enemy units.","keywords":["Core"]}} />
+
+### Feast on Flesh
+
+<WarscrollAbility ability={{"name":"Feast on Flesh","header":{"icon":"special","color":"eggplant","text":"Once Per Battle (Army), End of Any Turn"},"declare":"Pick each friendly ****OGOR**** unit that is in combat or that used a ****FIGHT**** ability this turn to be the targets.","effect":"Roll a D3 for each target. On a 2+:\n\n• **Heal (X)** the target, where **X** is an amount equal to the roll.\n• Pick an enemy unit in combat with the target. You cannot pick the same enemy unit more than once. Inflict an amount of mortal damage on that enemy unit equal to the roll."}} />
+
+### Ravenous Brutes
+
+<WarscrollAbility ability={{"name":"Ravenous Brutes","header":{"icon":"movement","color":"gray","text":"Passive"},"effect":"Add 2 to **run** rolls for friendly ****OGOR**** units while you have not used the ‘Feast on Flesh’ ability this battle."}} />
+
+### Trampling Charge
+
+<WarscrollAbility ability={{"name":"Trampling Charge","header":{"icon":"offensive","color":"orange","text":"Any Charge Phase"},"declare":"Pick a friendly ****OGOR**** or ****RHINOX**** unit that charged this turn to use this ability, then pick a visible enemy unit within 1\" of it to be the target.","effect":"Roll a D3. On a 2+, inflict an amount of mortal damage on the target equal to the roll."}} />
+
 ## Battle Formations
 
 ### Beast Handlers
@@ -53,6 +71,34 @@ import WarscrollAbility from '@site/src/components/WarscrollAbility';
 #### Blood Feast
 
 <WarscrollAbility ability={{"name":"Blood Feast","header":{"icon":"offensive","color":"yellow","text":"Your Hero Phase"},"declare":"Pick a friendly **OGOR MAWTRIBES WIZARD** to cast this spell, pick a visible friendly **OGOR INFANTRY** unit wholly within 12\" of them to be the target, then make a casting roll of 2D6.","effect":"Add 1 to the Attacks characteristic of the target’s melee weapons until the start of your next turn.","castingValue":7,"keywords":["Spell"]}} />
+
+## Artefacts of Power
+
+### Elixir of the Frostwyrm
+
+<WarscrollAbility ability={{"name":"Elixir of the Frostwyrm","header":{"icon":"special","color":"teal","text":"Once Per Battle, Any Shooting Phase"},"declare":"Pick an enemy unit in combat with this unit to be the target.","effect":"Roll a dice. Inflict an amount of mortal damage on the target equal to the roll. Then, **Heal (X)** this unit, where **X** is an amount equal to the roll."}} />
+
+### Gruesome Trophies
+
+<WarscrollAbility ability={{"name":"Gruesome Trophies","header":{"icon":"offensive","color":"red","text":"Passive"},"effect":"Add 1 to hit rolls for combat attacks that target **HEROES** or **MONSTERS** made by friendly ****OGOR** MAWTRIBES** units while they are wholly within 12\" of this unit."}} />
+
+### The Fang of Ghur
+
+<WarscrollAbility ability={{"name":"The Fang of Ghur","header":{"icon":"offensive","color":"red","text":"Once Per Battle, Any Combat Phase"},"declare":"Pick an enemy unit in combat with this unit to be the target.","effect":"Ward rolls cannot be made for the target for the rest of the turn."}} />
+
+## Heroic Traits
+
+### Booming Roar
+
+<WarscrollAbility ability={{"name":"Booming Roar","header":{"icon":"control","color":"eggplant","text":"Passive"},"effect":"Subtract 5 from the control scores of enemy ****INFANTRY**** units while they are in combat with this unit."}} />
+
+### Great Gutlord
+
+<WarscrollAbility ability={{"name":"Great Gutlord","header":{"icon":"special","color":"black","text":"Passive"},"effect":"Ignore negative modifiers to this unit’s control score and to hit rolls and wound rolls for this unit’s attacks."}} />
+
+### Touched by the Everwinter
+
+<WarscrollAbility ability={{"name":"Touched by the Everwinter","header":{"icon":"special","color":"yellow","text":"Passive"},"effect":"If this unit is not a ****PRIEST****, it has ****PRIEST** (1)**. If this unit is already a ****PRIEST****, you can re-roll chanting rolls of 1 for it instead. If this unit is a ****WIZARD****, it cannot use ****SPELL**** abilities and ****PRAYER**** abilities in the same phase."}} />
 
 ## Warscrolls
 

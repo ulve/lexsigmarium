@@ -6,6 +6,32 @@ dataVersion: 210
 import Warscroll from '@site/src/components/Warscroll';
 import WarscrollAbility from '@site/src/components/WarscrollAbility';
 
+## Battle Traits
+
+### Awaken the Runes
+
+<WarscrollAbility ability={{"name":"Awaken the Runes","header":{"icon":"special","color":"black","text":"Once Per Battle Round, Start of Your Turn"},"declare":"Pick 1 of the ur-gold runes from the **ur-gold runes** table, then make an **activation roll** of D6. Each urgold rune can only be activated once per battle.","effect":"On a 1-5, the rune’s **standard effect** applies. On a 6, the rune’s **enhanced effect** applies as well. The effects last until the start of your next turn."}} />
+
+### Rune of Farsight
+
+<WarscrollAbility ability={{"name":"Rune of Farsight","header":{"icon":"shooting","color":"teal","text":"Once Per Battle (Army), Your Shooting Phase"},"declare":"You can only use this ability if you have not used any ****UR-GOLD RUNE**** abilities this battle round.\n\nPick any number of enemy units within 10\" of any visible friendly **FYRESLAYERS** units to be targets.","effect":"Roll a D3 for each target. On a 2+, inflict an amount of mortal damage on the target equal to the roll.","keywords":["Ur-gold Rune"]}} />
+
+### Rune of Fiery Determination
+
+<WarscrollAbility ability={{"name":"Rune of Fiery Determination","header":{"icon":"defensive","color":"yellow","text":"Once Per Battle (Army), Any Hero Phase"},"effect":"You can only use this ability if you have not used any ****UR-GOLD RUNE**** abilities this battle round.\n\nFriendly **FYRESLAYERS** units have **WARD (5+)** for the rest of the battle round.","keywords":["Ur-gold Rune"]}} />
+
+### Rune of Fury
+
+<WarscrollAbility ability={{"name":"Rune of Fury","header":{"icon":"offensive","color":"black","text":"Once Per Battle (Army), Start of Any Turn"},"effect":"You can only use this ability if you have not used any ****UR-GOLD RUNE** A**bilities this battle round.\n\nFor the rest of the battle round, friendly **FYRESLAYERS** units have **STRIKE-FIRST** while they are in combat with an enemy unit that charged in the same turn.","keywords":["Ur-gold Rune"]}} />
+
+### Rune of Relentless Zeal
+
+<WarscrollAbility ability={{"name":"Rune of Relentless Zeal","header":{"icon":"movement","color":"gray","text":"Once Per Battle (Army), Your Movement Phase"},"effect":"You can only use this ability if you have not used any ****UR-GOLD RUNE** A**bilities this battle round.\n\nFor the rest of the battle round, friendly **FYRESLAYERS** units can use ****CHARGE**** abilities even if they used a ****RUN**** ability in the same turn.","keywords":["Ur-gold Rune"]}} />
+
+### Rune of Searing Heat
+
+<WarscrollAbility ability={{"name":"Rune of Searing Heat","header":{"icon":"offensive","color":"red","text":"Once Per Battle (Army), Any Combat Phase"},"effect":"You can only use this ability if you have not used any ****UR-GOLD RUNE**** abilities this battle round.\n\nMelee weapons used by friendly **FYRESLAYERS** units have **Crit** **(Mortal)** for the rest of the battle round.","keywords":["Ur-gold Rune"]}} />
+
 ## Battle Formations
 
 ### Forge Brethren
@@ -53,6 +79,34 @@ import WarscrollAbility from '@site/src/components/WarscrollAbility';
 #### Prayer of Ash
 
 <WarscrollAbility ability={{"name":"Prayer of Ash","header":{"icon":"defensive","color":"yellow","text":"Your Hero Phase"},"declare":"Pick a friendly **FYRESLAYERS PRIEST** to chant this prayer, pick a visible friendly **FYRESLAYERS** unit wholly within 12\" of them to be the target, then make a chanting roll of D6.","effect":"Subtract 1 from wound rolls for attacks that target that friendly unit until the start of your next turn.\n\nIf the chanting roll was 8+, also subtract 1 from the Rend characteristic of attacks that target that friendly unit until the start of your next turn.","castingValue":4,"keywords":["Prayer","Unlimited"]}} />
+
+## Artefacts of Power
+
+### Ash-cloud Rune
+
+<WarscrollAbility ability={{"name":"Ash-cloud Rune","header":{"icon":"shooting","color":"yellow","text":"Once Per Battle, Enemy Hero Phase"},"effect":"Until the start of your next turn, friendly ****INFANTRY**** units cannot be targeted by shooting attacks while they are wholly within 12\" of this unit."}} />
+
+### Draught of the Finest Magmalt
+
+<WarscrollAbility ability={{"name":"Draught of the Finest Magmalt","header":{"icon":"offensive","color":"red","text":"Once Per Battle, Any Combat Phase"},"effect":"Add 3 to the Attacks characteristic of this unit’s melee weapons for the rest of the turn."}} />
+
+### Droth-helm
+
+<WarscrollAbility ability={{"name":"Droth-helm","header":{"icon":"offensive","color":"red","text":"Passive"},"effect":"Add 1 to hit rolls for **Companion** weapons used by friendly **FYRESLAYERS** units while they are wholly within 12\" of this unit."}} />
+
+## Heroic Traits
+
+### Ash-beard
+
+<WarscrollAbility ability={{"name":"Ash-beard","header":{"icon":"special","color":"yellow","text":"Passive"},"effect":"If this unit is not a ****PRIEST****, they have ****PRIEST** (1)**. If this unit was already a ****PRIEST****, add 1 to this unit’s chanting rolls."}} />
+
+### Blood of the Berzerker
+
+<WarscrollAbility ability={{"name":"Blood of the Berzerker","header":{"icon":"movement","color":"orange","text":"Passive"},"effect":"Add 1 to **charge** rolls for friendly **FYRESLAYERS** units while they are wholly within 12\" of this unit."}} />
+
+### Fiercely Competitive
+
+<WarscrollAbility ability={{"name":"Fiercely Competitive","header":{"icon":"offensive","color":"red","text":"Passive"},"effect":"If this unit is in combat with an enemy unit that has **STRIKE-FIRST**, this unit has **STRIKE-FIRST**. If this unit is in combat with an enemy unit that uses the ‘All-out **Attack**’ command, add 1 to hit rolls for this unit’s attacks for the rest of the turn."}} />
 
 ## Warscrolls
 

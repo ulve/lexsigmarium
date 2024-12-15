@@ -6,6 +6,36 @@ dataVersion: 210
 import Warscroll from '@site/src/components/Warscroll';
 import WarscrollAbility from '@site/src/components/WarscrollAbility';
 
+## Battle Traits
+
+### Beast of the Dark Jungles
+
+<WarscrollAbility ability={{"name":"Beast of the Dark Jungles","header":{"icon":"special","color":"red","text":"Any Combat Phase"},"declare":"Pick your general to use this ability if they are in combat.","effect":"Pick 1 of the following:\n\n***Gargantuan Jaws:*** Pick an enemy unit in combat with your general and roll a dice. If the roll exceeds that unit’s Health characteristic, 1 model in that unit is slain.\n\n***Roar:*** Pick an enemy unit in combat with your general. Subtract D6 from that unit’s control score this turn."}} />
+
+### Further the Great Plan
+
+<WarscrollAbility ability={{"name":"Further the Great Plan","header":{"icon":"special","color":"black","text":"Once Per Battle, Start of the Third Battle Round"},"declare":"You can use this ability if you meet the condition below that corresponds to the ****ASTERISM**** you picked in the deployment phase.\n\n***Itzl the Tamer:*** 3 or more enemy units have been destroyed.\n\n***Quetzl the Preserver:*** There are no enemy units wholly within friendly territory.\n\n***Sotek the Deliverer:*** The enemy general is in combat or has been destroyed.\n\n***Tepok the Seer:*** There are any friendly ****SLANN**** units on the battlefield and no friendly ****SLANN**** units are in combat or have been destroyed.","effect":"Pick a different ****ASTERISM**** ability. It can be used in addition to the one you picked in the deployment phase."}} />
+
+### Itzl the Tamer
+
+<WarscrollAbility ability={{"name":"Itzl the Tamer","header":{"icon":"offensive","color":"red","text":"Passive"},"effect":"**Companion** weapons used by friendly **SERAPHON** units have **Crit (2 Hits)**.","keywords":["Asterism"]}} />
+
+### Quetzl the Preserver
+
+<WarscrollAbility ability={{"name":"Quetzl the Preserver","header":{"icon":"defensive","color":"green","text":"Passive"},"effect":"Subtract 1 from the Rend characteristic of melee weapons for attacks that target friendly **SERAPHON** units that are wholly within friendly territory.","keywords":["Asterism"]}} />
+
+### Sotek the Deliverer
+
+<WarscrollAbility ability={{"name":"Sotek the Deliverer","header":{"icon":"movement","color":"orange","text":"Passive"},"effect":"Add 2 to the **Move** characteristic of friendly **SERAPHON** units.","keywords":["Asterism"]}} />
+
+### Tepok the Seer
+
+<WarscrollAbility ability={{"name":"Tepok the Seer","header":{"icon":"special","color":"yellow","text":"Passive"},"effect":"Add 1 to casting rolls for friendly **SERAPHON** units.","keywords":["Asterism"]}} />
+
+### The Great Plan
+
+<WarscrollAbility ability={{"name":"The Great Plan","header":{"icon":"special","color":"black","text":"Once Per Battle, Deployment Phase"},"declare":"Pick an ****ASTERISM**** ability.","effect":"That ****ASTERISM**** ability can be used for the rest of the battle, but the others cannot, unless allowed by the ‘Further the Great Plan’ ability."}} />
+
 ## Battle Formations
 
 ### Eternal Starhost
@@ -53,6 +83,34 @@ import WarscrollAbility from '@site/src/components/WarscrollAbility';
 #### Comet's Call
 
 <WarscrollAbility ability={{"name":"Comet's Call","header":{"icon":"offensive","color":"yellow","text":"Your Hero Phase"},"declare":"Pick a friendly **SERAPHON WIZARD** to cast this spell, pick a visible enemy unit within 18\" of them to be the target, then make a casting roll of 2D6.","effect":"Roll a dice for each model in the target unit. For each 5+, inflict 1 mortal damage on the target.","castingValue":7,"keywords":["Spell"]}} />
+
+## Artefacts of Power
+
+### Bloodrage Pendant
+
+<WarscrollAbility ability={{"name":"Bloodrage Pendant","header":{"icon":"offensive","color":"red","text":"Passive"},"effect":"Add 1 to the Attacks characteristic of this unit’s melee weapons. Add 2 instead if the number of damage points allocated to this unit is equal to or greater than half of this unit’s Health characteristic (rounding up)."}} />
+
+### Coatl Familiar
+
+<WarscrollAbility ability={{"name":"Coatl Familiar","header":{"icon":"special","color":"yellow","text":"Once Per Battle, Reaction: You declared a SPELL ability for a friendly SERAPHON WIZARD within this unit’s combat range"},"effect":"Add D6 to the casting roll for that **spell**."}} />
+
+### Incandescent Rectrices
+
+<WarscrollAbility ability={{"name":"Incandescent Rectrices","header":{"icon":"defensive","color":"yellow","text":"Any Hero Phase"},"effect":"**Heal (D3)** this unit."}} />
+
+## Heroic Traits
+
+### Beastmaster
+
+<WarscrollAbility ability={{"name":"Beastmaster","header":{"icon":"movement","color":"orange","text":"Passive"},"effect":"Add 2\" to the **Move** characteristic of friendly **SERAPHON **CAVALRY**** and **SERAPHON **MONSTER**** units for the rest of the phase if they are wholly within 12\" of this unit at the start of the **move**."}} />
+
+### Being of the Stars
+
+<WarscrollAbility ability={{"name":"Being of the Stars","header":{"icon":"defensive","color":"green","text":"Passive"},"effect":"Ignore modifiers to save rolls for this unit (positive and negative)."}} />
+
+### Reptilian Cunning
+
+<WarscrollAbility ability={{"name":"Reptilian Cunning","header":{"icon":"offensive","color":"red","text":"Passive"},"effect":"If this unit charged this turn, if a friendly unit wholly within 12\" of this unit uses the ‘All-out **Attack**’ command in the combat phase, no command points are spent."}} />
 
 ## Warscrolls
 

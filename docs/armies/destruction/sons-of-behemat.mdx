@@ -6,6 +6,36 @@ dataVersion: 210
 import Warscroll from '@site/src/components/Warscroll';
 import WarscrollAbility from '@site/src/components/WarscrollAbility';
 
+## Battle Traits
+
+### 'Grab Those Rocks and Chuck 'Em!'
+
+<WarscrollAbility ability={{"name":"'Grab Those Rocks and Chuck 'Em!'","header":{"icon":"shooting","color":"yellow","text":"Your Hero Phase"},"declare":"Pick your general to use this ability, then pick another friendly unit wholly within 12\" of them.","effect":"Add 1 to the Attacks characteristic of that unit’s **Throwin’ Rocks** this turn."}} />
+
+### Bellowing Roar
+
+<WarscrollAbility ability={{"name":"Bellowing Roar","header":{"icon":"defensive","color":"red","text":"Any Combat Phase"},"declare":"Pick a friendly unit to use this ability, pick an enemy unit in combat with it to be the target, then roll a dice.","effect":"On a 2+, subtract 1 from hit rolls for attacks made by the target unit this phase."}} />
+
+### Colossal Slam
+
+<WarscrollAbility ability={{"name":"Colossal Slam","header":{"icon":"offensive","color":"red","text":"Once Per Turn (Army), Any Combat Phase"},"declare":"Pick a friendly **MEGA‐**GARGANT**** that has not used a ****RAMPAGE**** ability this turn to use this ability, then pick an enemy ****MONSTER**** or ****WAR MACHINE**** that has a unit size of 1 and is within 1\" of it to be the target.","effect":"Roll a dice. On a 3+, remove the target from the battlefield and set it up again within 1\" of the unit using this ability. Then, inflict D3 mortal damage on the target.","keywords":["Rampage"]}} />
+
+### Earthshaking Roar
+
+<WarscrollAbility ability={{"name":"Earthshaking Roar","header":{"icon":"special","color":"red","text":"Once Per Turn (Army), Any Combat Phase"},"declare":"Pick a friendly **MEGA‑**GARGANT**** or ****GARGANT**** unit that has not used a ****RAMPAGE**** ability this turn to use this ability, then pick an enemy unit in combat with it to be the target.","effect":"Roll a dice. On a 3+, the target cannot use commands for the rest of the turn.","keywords":["Rampage"]}} />
+
+### Gargant Charge
+
+<WarscrollAbility ability={{"name":"Gargant Charge","header":{"icon":"offensive","color":"orange","text":"Any Charge Phase"},"declare":"Pick a friendly **MEGA‑**GARGANT**** or ****GARGANT**** unit that charged this turn and has not used a ****RAMPAGE**** ability this turn to use this ability, then pick a visible enemy unit within 1\" of it to be the target.","effect":"Roll a D3. On a 2+, inflict an amount of mortal damage on the target equal to the roll.","keywords":["Rampage"]}} />
+
+### Jump Up and Down
+
+<WarscrollAbility ability={{"name":"Jump Up and Down","header":{"icon":"offensive","color":"red","text":"Once Per Turn (Army), Any Combat Phase"},"declare":"Pick a friendly **MEGA‑**GARGANT**** or ****GARGANT**** unit that has not used a ****RAMPAGE**** ability this turn to use this ability, then pick an enemy ****INFANTRY**** unit in combat with it to be the target.","effect":"Roll a dice. On a 3+, roll a dice for each model in the target unit. If the unit using this ability is a ****GARGANT****, inflict 1 mortal damage on the target for each 6. If it is a ****MEGA-GARGANT**,** inflict 1 mortal damage on the target for each 5+.","keywords":["Rampage"]}} />
+
+### Timberrrrr!
+
+<WarscrollAbility ability={{"name":"Timberrrrr!","header":{"icon":"offensive","color":"red","text":"Passive"},"effect":"Each time a friendly **MEGA‑**GARGANT**** or ****GARGANT**** model is slain, before removing it from play, the players must roll off. The winner picks a point on the battlefield within 3\" of that model. Inflict D3 mortal damage on each unit (friendly and enemy) within 3\" of that point that has a lower Health characteristic than that model."}} />
+
 ## Battle Formations
 
 ### Boss Tribe
@@ -25,6 +55,46 @@ import WarscrollAbility from '@site/src/components/WarscrollAbility';
 <WarscrollAbility ability={{"name":"More Stuff For Me Collection","header":{"icon":"special","color":"black","text":"Once Per Battle, Deployment Phase"},"declare":"Pick a friendly non-**UNIQUE SONS OF BEHEMAT HERO** that does not have an artefact of power.","effect":"Give that **HERO** 1 artefact of power from ‘Titanic Trophies’.\n\n**Designer’s Note:** *This artefact of power is given to the unit during the deployment phase, not during army composition.*"}} />
 
 ## Arcana and Incantations
+
+## Artefacts of Power
+
+### Amberstone Totem
+
+<WarscrollAbility ability={{"name":"Amberstone Totem","header":{"icon":"movement","color":"orange","text":"Once Per Battle, Your Charge Phase"},"effect":"For the rest of the turn, this unit can use ****CHARGE**** abilities even if it used a ****RUN**** ability in the same turn."}} />
+
+### Extra-calloused Feet
+
+<WarscrollAbility ability={{"name":"Extra-calloused Feet","header":{"icon":"offensive","color":"red","text":"Passive"},"effect":"Add 1 to the Attacks characteristic, Rend characteristic and Damage characteristic of this unit’s **Almighty Stomp** or **Almightier Stomp**."}} />
+
+### Glowy Lantern
+
+<WarscrollAbility ability={{"name":"Glowy Lantern","header":{"icon":"special","color":"yellow","text":"Passive"},"effect":"This unit can use ****SUMMON**** abilities from the **manifestation** lore you picked during army composition as if it had ****WIZARD** (1)**."}} />
+
+### Glowy Shield of Protectiness
+
+<WarscrollAbility ability={{"name":"Glowy Shield of Protectiness","header":{"icon":"defensive","color":"green","text":"Passive"},"effect":"Each time you make an unmodified save roll of 6 for a combat **attack** that targets this unit, inflict 1 mortal damage on the attacking unit after the ****FIGHT**** ability has been resolved."}} />
+
+### Kingslaughter Cowl
+
+<WarscrollAbility ability={{"name":"Kingslaughter Cowl","header":{"icon":"offensive","color":"red","text":"Passive"},"effect":"Add 1 to the Attacks characteristic of this unit’s melee weapons while this unit is in combat with an enemy ****HERO****."}} />
+
+### Mantle of Tusk and Horns
+
+<WarscrollAbility ability={{"name":"Mantle of Tusk and Horns","header":{"icon":"offensive","color":"red","text":"Once Per Battle, Your Combat Phase"},"effect":"For the rest of the turn, add 1 to hit rolls for combat attacks made by friendly **SONS OF BEHEMAT** units while they are wholly within 12\" of this unit."}} />
+
+## Heroic Traits
+
+### Furious Temper
+
+<WarscrollAbility ability={{"name":"Furious Temper","header":{"icon":"offensive","color":"red","text":"Once Per Battle, Any Combat Phase"},"effect":"For the rest of the turn:\n\n• Add 2 to the Attacks characteristic of this unit’s melee weapons.\n• Subtract 1 from save rolls for this unit."}} />
+
+### Monstrously Tough
+
+<WarscrollAbility ability={{"name":"Monstrously Tough","header":{"icon":"defensive","color":"green","text":"Passive"},"effect":"This unit has a Health characteristic of 40 instead of 35."}} />
+
+### Rabble Rouser
+
+<WarscrollAbility ability={{"name":"Rabble Rouser","header":{"icon":"movement","color":"orange","text":"Passive"},"effect":"Add 1 to **charge** rolls for friendly **SONS OF BEHEMAT** units while they are wholly within 12\" of this unit."}} />
 
 ## Warscrolls
 

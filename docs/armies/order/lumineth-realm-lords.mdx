@@ -6,6 +6,48 @@ dataVersion: 210
 import Warscroll from '@site/src/components/Warscroll';
 import WarscrollAbility from '@site/src/components/WarscrollAbility';
 
+## Battle Traits
+
+### Deep Thinkers
+
+<WarscrollAbility ability={{"name":"Deep Thinkers","header":{"icon":"special","color":"black","text":"Start of Battle Round"},"effect":"You can only use this ability if you have not used any ****FACET OF WAR**** abilities this battle round.\n\nAdd 1 to casting rolls for friendly ****SCINARI**** units for the rest of the battle round.","keywords":["Facet of War"]}} />
+
+### Enduring As Rock
+
+<WarscrollAbility ability={{"name":"Enduring As Rock","header":{"icon":"defensive","color":"black","text":"Start of Battle Round"},"effect":"You can only use this ability if you have not used any ****FACET OF WAR**** abilities this battle round.\n\nSubtract 1 from the Rend characteristic of weapons used for attacks that target friendly ****ALARITH**** units for the rest of the battle round.","keywords":["Facet of War"]}} />
+
+### Facets of War
+
+<WarscrollAbility ability={{"name":"Facets of War","header":{"icon":"special","color":"black","text":"Once Per Battle Round, Start of Battle Round"},"effect":"You must use this ability at the start of the battle round. Pick 1 ****FACET OF WAR**** ability. That ****FACET OF WAR**** ability can be used this battle round but the other two cannot."}} />
+
+### Lightning Reactions
+
+<WarscrollAbility ability={{"name":"Lightning Reactions","header":{"icon":"offensive","color":"red","text":"Passive"},"effect":"When players are alternating picking units to use a ****FIGHT**** ability, when it is your turn to pick a unit, you can pick 2 units instead of 1. Resolve the second ****FIGHT**** ability immediately after the first.","keywords":["Facet of War"]}} />
+
+### Lightning Reactions
+
+<WarscrollAbility ability={{"name":"Lightning Reactions","header":{"icon":"offensive","color":"red","text":"Passive"},"effect":"When players are alternating picking units to use a ****FIGHT**** ability, when it is your turn to pick a unit, you can pick 2 **LUMINETH REALM-LORDS** units instead of 1. Resolve the second ****FIGHT**** ability immediately after the first."}} />
+
+### Move Like the Wind
+
+<WarscrollAbility ability={{"name":"Move Like the Wind","header":{"icon":"shooting","color":"teal","text":"Your Shooting Phase"},"declare":"You can only use this ability if you have not used any ****FACET OF WAR**** abilities this battle round. Pick up to 3 friendly ****HURAKAN**** units that are not in combat to be the targets.","effect":"Each target can **move** 2D6\". It cannot **move** into combat during any part of that **move**, and it cannot use ****SHOOT**** abilities for the rest of the turn.","keywords":["Facet of War","Move"]}} />
+
+### Power of Hysh
+
+<WarscrollAbility ability={{"name":"Power of Hysh","header":{"icon":"offensive","color":"yellow","text":"Once Per Turn (Army), Your Hero Phase"},"declare":"Pick a friendly unit.","effect":"Roll a dice. On a 2+, until the start of your next turn, attacks made by that unit score critical hits on unmodified hit rolls of 5+.","keywords":["Facet of War"]}} />
+
+### Power of Hysh
+
+<WarscrollAbility ability={{"name":"Power of Hysh","header":{"icon":"offensive","color":"black","text":"Start of Battle Round"},"declare":"You can only use this ability if you have not used any ****FACET OF WAR**** abilities this battle round. Pick a friendly ****VANARI**** unit to be the target.","effect":"The target’s attacks score critical hits on unmodified hit rolls of 5+ for the rest of the battle round.","keywords":["Facet of War"]}} />
+
+### Shining Company
+
+<WarscrollAbility ability={{"name":"Shining Company","header":{"icon":"defensive","color":"green","text":"Once Per Phase (Army), Reaction: Opponent declared an ATTACK ability"},"effect":"Subtract 1 from hit rolls for the attacks that target that friendly unit.","keywords":["Facet of War"]}} />
+
+### Shining Company
+
+<WarscrollAbility ability={{"name":"Shining Company","header":{"icon":"defensive","color":"black","text":"Start of Battle Round"},"effect":"You can only use this ability if you have not used any ****FACET OF WAR**** abilities this battle round.\n\nFor the rest of the battle round, subtract 1 from hit rolls for attacks that target friendly ****VANARI**** units that have not charged this turn and that have not been picked as the target of the ‘Power of Hysh’ ability this battle round.","keywords":["Facet of War"]}} />
+
 ## Battle Formations
 
 ### Alarith Temple
@@ -53,6 +95,34 @@ import WarscrollAbility from '@site/src/components/WarscrollAbility';
 #### Summon Hyshian Twinstones
 
 <WarscrollAbility ability={{"name":"Summon Hyshian Twinstones","header":{"icon":"special","color":"yellow","text":"Your Hero Phase"},"declare":"If there is not a friendly **Hyshian Twinstones** endless spell on the battlefield, pick a friendly **LUMINETH REALM‑LORDS WIZARD** to cast this spell, then make a casting roll of 2D6.","effect":"Set up a **Hyshian Twinstones** endless spell wholly within 6\" of the caster.","castingValue":5,"keywords":["Summon","Spell"]}} />
+
+## Artefacts of Power
+
+### Phoenix Stone
+
+<WarscrollAbility ability={{"name":"Phoenix Stone","header":{"icon":"defensive","color":"green","text":"Passive"},"effect":"If this unit would be destroyed, before removing it from play, roll a dice. On a 3+, this unit is not destroyed and any remaining damage points inflicted on it have no effect. Then, **Heal (1)** this unit. This unit cannot use this ability again for the rest of the battle."}} />
+
+### Silver Wand
+
+<WarscrollAbility ability={{"name":"Silver Wand","header":{"icon":"special","color":"yellow","text":"Passive"},"effect":"If this unit is not a ****WIZARD****, it has ****WIZARD** (1)**. Otherwise, add 1 to this unit’s power level."}} />
+
+### Waystone
+
+<WarscrollAbility ability={{"name":"Waystone","header":{"icon":"movement","color":"gray","text":"Once Per Battle, Your Movement Phase"},"effect":"Remove this unit from the battlefield and set it up again on the battlefield more than 9\" from all enemy units.","keywords":["Core"]}} />
+
+## Heroic Traits
+
+### Masterful Tactician
+
+<WarscrollAbility ability={{"name":"Masterful Tactician","header":{"icon":"special","color":"gray","text":"Reaction: You declared the ‘Redeploy’ command for a friendly LUMINETH REALM‑LORDS unit wholly within 12\" of this unit"},"effect":"If you roll a 1-3 when determining the distance that unit can **move**, you can use a value of 4 instead."}} />
+
+### Paragon of Hysh
+
+<WarscrollAbility ability={{"name":"Paragon of Hysh","header":{"icon":"special","color":"black","text":"Once Per Battle, Reaction: You declared the ‘Charge’ ability or a SPELL ability for this unit"},"effect":"You can re-roll the **charge** roll or casting roll for that ability."}} />
+
+### Perfect Strike
+
+<WarscrollAbility ability={{"name":"Perfect Strike","header":{"icon":"offensive","color":"red","text":"Once Per Battle, Any Combat Phase"},"declare":"Pick an enemy unit in combat with this unit to be the target.","effect":"Inflict D3+3 mortal damage on the target.","keywords":["Core","Attack","Fight"]}} />
 
 ## Warscrolls
 

@@ -6,6 +6,20 @@ dataVersion: 210
 import Warscroll from '@site/src/components/Warscroll';
 import WarscrollAbility from '@site/src/components/WarscrollAbility';
 
+## Battle Traits
+
+### The Bad Moon's Orbit
+
+<WarscrollAbility ability={{"name":"The Bad Moon's Orbit","header":{"icon":"special","color":"black","text":"Once Per Battle Round (Army), Start of Battle Round"},"declare":"You must use this ability at the start of the battle round. \n\nIf multiple players are commanding a Gloomspite Gitz army, then instead, at the start of the battle round, those players roll off and only the winner declares and uses this ability this battle round.","effect":"If it is the first battle round, pick a quarter of the battlefield to be the Bad Moon’s starting location.\n\nIf it is the second or subsequent battle round, roll a dice. On a 1-3, the Bad Moon stays at its current location. On a 4+, the Bad Moon moves.\n\nThe first time the Bad Moon moves, it moves to the centre of the battlefield. The second time it moves, it moves to the quarter diagonally opposite the quarter in which it started. The third time it moves, it moves off the battlefield and has no further effect on the battle."}} />
+
+### Under the Light of the Bad Moon
+
+<WarscrollAbility ability={{"name":"Under the Light of the Bad Moon","header":{"icon":"special","color":"black","text":"Passive"},"effect":"During the battle, an area of the battlefield will be the Bad Moon’s location (see ‘The Bad Moon’s Orbit’). The Bad Moon’s location will be either a quarter of the battlefield or the centre of the battlefield.\n\nWhile the Bad Moon’s location is a quarter of the battlefield, all **GLOOMSPITE GITZ** units (friendly and enemy) wholly within that quarter are **under the light of the Bad Moon**. While the Bad Moon’s location is the centre of the battlefield, all **GLOOMSPITE GITZ** units (friendly and enemy) on the battlefield are **under the light of the Bad Moon**.\n\nWhile a friendly **GLOOMSPITE GITZ** unit is **under the light of** **the Bad Moon**, the appropriate effect below applies to it:\n\n***Frothing Zealots:*** If the unit is a non‑****SQUIG** **MOONCLAN**** unit, add 3 to its control score.\n\n***Lunar Squigs:*** If the unit is a ****SQUIG**** unit, you can re-roll the random characteristic roll for its **Move** characteristic.\n\n***Moonlit Hide:*** If the unit is a ****TROGGOTH**** unit, add 1 to save rolls for it.\n\n*****Spiderfang** Venom:*** If the unit is a ****SPIDERFANG**** unit, its combat attacks score critical hits on unmodified hit rolls of 5+. This ability also affects **Companion** weapons."}} />
+
+### Under the Light of the Bad Moon
+
+<WarscrollAbility ability={{"name":"Under the Light of the Bad Moon","header":{"icon":"special","color":"black","text":"Once Per Battle, Start of the First Battle Round"},"declare":"Pick a territory (either friendly territory or enemy territory) to be **under the Light of the Bad Moon**. If both players can use this ability, the players roll off and the winner picks a territory to be under the Light of the Bad Moon.\n\nThe territory picked remains under the Light of the Bad Moon in the first and second battle rounds. In the third and fourth battle rounds, the other territory is under the Light of the Bad Moon.","effect":"While a friendly unit is wholly within the territory that is **under the Light of the Bad Moon**, the appropriate effect below applies to it:\n\n***Frothing Zealots:*** If the unit is a ****Moonclan** Stabbas** unit, add 3 to its control score.\n\n***Lunar Squigs:*** If the unit is a ****Squig** Hoppers** unit, no mortal damage is inflicted on it when it uses ****Retreat**** abilities.\n\n***Moonlit Hide:*** If the unit is a **Rockgut Troggoths** unit, add 1 to save rolls for it."}} />
+
 ## Battle Formations
 
 ### Moonclan Skrap
@@ -57,6 +71,34 @@ import WarscrollAbility from '@site/src/components/WarscrollAbility';
 #### Summon Malevolent Moon
 
 <WarscrollAbility ability={{"name":"Summon Malevolent Moon","header":{"icon":"special","color":"yellow","text":"Your Hero Phase"},"declare":"If there is not a friendly **Malevolent Moon** on the battlefield, pick a friendly **GLOOMSPITE GITZ WIZARD** to cast this spell, then make a casting roll of 2D6.","effect":"Set up a **Malevolent Moon** wholly within 12\" of the caster, visible to them and more than 9\" from all enemy units.","castingValue":7,"keywords":["Summon","Spell"]}} />
+
+## Artefacts of Power
+
+### Backstabber's Blade
+
+<WarscrollAbility ability={{"name":"Backstabber's Blade","header":{"icon":"offensive","color":"eggplant","text":"Once Per Battle, End of Any Turn"},"declare":"Pick an enemy ****HERO**** in combat with this unit to be the target.","effect":"Roll a dice. On a 2+, inflict an amount of mortal damage on the target equal to the roll."}} />
+
+### Leering Gitshield
+
+<WarscrollAbility ability={{"name":"Leering Gitshield","header":{"icon":"offensive","color":"red","text":"Passive"},"effect":"Each time an unmodified hit roll for an **attack** that targets this unit is 1, inflict 1 mortal damage on the attacking unit after the ****ATTACK**** ability has been resolved."}} />
+
+### The Clammy Cowl
+
+<WarscrollAbility ability={{"name":"The Clammy Cowl","header":{"icon":"defensive","color":"green","text":"Passive"},"effect":"Subtract 1 from hit rolls for attacks that target this unit."}} />
+
+## Heroic Traits
+
+### Fight Another Day
+
+<WarscrollAbility ability={{"name":"Fight Another Day","header":{"icon":"movement","color":"red","text":"Any Combat Phase"},"effect":"If this unit is in combat, roll a dice. On a 3+, this unit can immediately use the ‘**Retreat**’ ability as if it were your movement phase without any mortal damage being inflicted on it."}} />
+
+### Loontouched
+
+<WarscrollAbility ability={{"name":"Loontouched","header":{"icon":"special","color":"yellow","text":"Passive"},"effect":"If this unit is not a ****WIZARD****, it has ****WIZARD** (1)**. Otherwise, add 1 to casting rolls for this unit."}} />
+
+### The Clammy Hand
+
+<WarscrollAbility ability={{"name":"The Clammy Hand","header":{"icon":"rallying","color":"yellow","text":"Passive"},"effect":"Each time a friendly **GLOOMSPITE GITZ** unit wholly within 12\" of this unit uses the ‘Rally’ command, you can make 3 additional rally rolls of D6."}} />
 
 ## Warscrolls
 

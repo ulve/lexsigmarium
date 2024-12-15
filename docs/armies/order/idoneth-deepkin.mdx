@@ -6,6 +6,20 @@ dataVersion: 210
 import Warscroll from '@site/src/components/Warscroll';
 import WarscrollAbility from '@site/src/components/WarscrollAbility';
 
+## Battle Traits
+
+### Ethersea Voyagers
+
+<WarscrollAbility ability={{"name":"Ethersea Voyagers","header":{"icon":"special","color":"black","text":"Once Per Battle (Army), Deployment Phase"},"declare":"Pick a friendly regiment led by an **IDONETH DEEPKIN **HERO****. No units in that regiment can have already been deployed.","effect":"Set up those units in reserve **travelling the ethersea**. They have now been deployed.","keywords":["Deploy"]}} />
+
+### Raiders from the Deep
+
+<WarscrollAbility ability={{"name":"Raiders from the Deep","header":{"icon":"special","color":"gray","text":"Your Movement Phase"},"declare":"Pick a friendly **IDONETH DEEPKIN** unit that is **travelling the** **ethersea** to use this ability.","effect":"Set up that unit on the battlefield wholly within 9\" of a battlefield edge and more than 9\" from all enemy units."}} />
+
+### Tides of Death
+
+<WarscrollAbility ability={{"name":"Tides of Death","header":{"icon":"special","color":"black","text":"Passive"},"effect":"A different effect applies to friendly **IDONETH DEEPKIN** units each battle round, as shown below. For the fifth battle round onwards, repeat the sequence, starting with ‘Low Tide’.\n\n**Battle Round 1:**\n***Low Tide:*** For the rest of the battle round, subtract 1 from hit rolls for shooting attacks that target this unit and subtract 1 from hit rolls for combat attacks that target this unit if it did not use any ****CHARGE**** abilities this turn.\n\n**Battle Round 2:**\n***Flood Tide:*** For the rest of the battle round, this unit can use a ****RUN**** ability and still use ****SHOOT**** and/or ****CHARGE**** abilities later in the turn.\n\n**Battle Round 3:**\n***High Tide:*** For the rest of the battle round, this unit has **STRIKE-FIRST**.\n\n**Battle Round 4:**\n***Ebb Tide:*** For the rest of the battle round, this unit can use a ****RETREAT**** ability and still use ****SHOOT**** and/or ****CHARGE**** abilities later in the turn. In addition, for the rest of the battle round, no mortal damage is inflicted on this unit by ****RETREAT**** abilities."}} />
+
 ## Battle Formations
 
 ### Akhelian Beastmasters
@@ -39,6 +53,34 @@ import WarscrollAbility from '@site/src/components/WarscrollAbility';
 #### Arcane Corrasion
 
 <WarscrollAbility ability={{"name":"Arcane Corrasion","header":{"icon":"defensive","color":"yellow","text":"Your Hero Phase"},"declare":"Pick a friendly **IDONETH DEEPKIN WIZARD** to cast this spell, pick a visible enemy unit within 12\" of them to be the target, then make a casting roll of 2D6.","effect":"Subtract 1 from the Rend characteristic of the target’s melee weapons until the start of your next turn.","castingValue":6,"keywords":["Spell"]}} />
+
+## Artefacts of Power
+
+### Armour of the Cythai
+
+<WarscrollAbility ability={{"name":"Armour of the Cythai","header":{"icon":"defensive","color":"green","text":"Passive"},"effect":"Other than the **Companion** weapon ability, weapon abilities for attacks that target this unit have no effect."}} />
+
+### Delicious Morsels
+
+<WarscrollAbility ability={{"name":"Delicious Morsels","header":{"icon":"defensive","color":"gray","text":"Once Per Turn, Any Movement Phase"},"effect":"**Heal (D3)** each friendly **IDONETH DEEPKIN **CAVALRY**** unit within this unit’s combat range."}} />
+
+### Dritchleech
+
+<WarscrollAbility ability={{"name":"Dritchleech","header":{"icon":"special","color":"yellow","text":"Passive"},"effect":"Subtract 1 from casting rolls for enemy **WIZARDS** while they are within 18\" of this unit."}} />
+
+## Heroic Traits
+
+### Ancient Pride
+
+<WarscrollAbility ability={{"name":"Ancient Pride","header":{"icon":"defensive","color":"green","text":"Passive"},"effect":"If the unmodified hit roll for a combat **attack** that targets this unit is 1-3, the **attack** fails and the **attack** sequence ends."}} />
+
+### Hunter of Souls
+
+<WarscrollAbility ability={{"name":"Hunter of Souls","header":{"icon":"offensive","color":"red","text":"Passive"},"effect":"This unit’s melee weapons have **Anti‑**HERO** (+1 Rend)**."}} />
+
+### Nightmare Legacy
+
+<WarscrollAbility ability={{"name":"Nightmare Legacy","header":{"icon":"control","color":"eggplant","text":"End of Any Turn"},"declare":"Pick a visible enemy unit that had any damage points allocated to it this turn by an ability used by this unit to be the target.","effect":"Subtract D6 from the target’s control score for the rest of the turn."}} />
 
 ## Warscrolls
 

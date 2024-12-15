@@ -6,6 +6,16 @@ dataVersion: 210
 import Warscroll from '@site/src/components/Warscroll';
 import WarscrollAbility from '@site/src/components/WarscrollAbility';
 
+## Battle Traits
+
+### An Excess of Depravity
+
+<WarscrollAbility ability={{"name":"An Excess of Depravity","header":{"icon":"special","color":"black","text":"Once Per Battle Round (Army), Start of Battle Round"},"declare":"Pick up to 3 friendly **HEDONITES OF SLAANESH** units to be the targets.","effect":"The targets have the **EUPHORIC** keyword for the rest of the battle round.\n\nIn addition, for each friendly unit you pick, give your opponent 1 **temptation dice**. Your opponent can use 1 **temptation dice** to replace 1 wound roll, 1 save roll, 1 ward roll or 1 **run** roll for a unit in their army with a 6, or they can use 2 **temptation dice** to replace 2 of the dice in a **charge** roll for a unit in their army with two 6s.\n\nEach time your opponent uses a **temptation dice**, they must roll it. On a 1-2, your opponent’s roll is replaced by that value instead of a 6, and you must allocate D3 damage points to the unit for which the roll was replaced immediately after the ability used by that unit has been resolved (ward rolls cannot be made for those damage points).\n\nAt the end of the battle round, any **temptation dice** that have not been used are lost."}} />
+
+### Euphoric Killers
+
+<WarscrollAbility ability={{"name":"Euphoric Killers","header":{"icon":"special","color":"black","text":"Passive"},"effect":"While a friendly unit has the **EUPHORIC** keyword:\n\n• That unit’s weapons have **Crit (2 Hits)**.\n• That unit can use a ****RUN**** ability and still use ****SHOOT**** and/or ****CHARGE**** abilities later in the turn."}} />
+
 ## Battle Formations
 
 ### Depraved Carnival
@@ -53,6 +63,34 @@ import WarscrollAbility from '@site/src/components/WarscrollAbility';
 #### Summon Dreadful Visage
 
 <WarscrollAbility ability={{"name":"Summon Dreadful Visage","header":{"icon":"special","color":"yellow","text":"Your Hero Phase"},"declare":"If there is not a friendly **Dreadful Visage** on the battlefield, pick a friendly **HEDONITES OF SLAANESH WIZARD** to cast this spell, then make a casting roll of 2D6.","effect":"Set up a **Dreadful Visage** wholly within 12\" of the caster, visible to them and more than 9\" from all enemy units.","castingValue":7,"keywords":["Summon","Spell"]}} />
+
+## Artefacts of Power
+
+### Icon of Infinite Excess
+
+<WarscrollAbility ability={{"name":"Icon of Infinite Excess","header":{"icon":"offensive","color":"red","text":"Once Per Battle, Any Combat Phase"},"declare":"Pick a non-****HERO** HEDONITES OF SLAANESH** unit wholly within 12\" of this unit to be the target.","effect":"Add 1 to the Attacks characteristic of the target’s melee weapons for the rest of the turn."}} />
+
+### Pendant of Slaanesh
+
+<WarscrollAbility ability={{"name":"Pendant of Slaanesh","header":{"icon":"defensive","color":"eggplant","text":"End of Any Turn"},"effect":"If any damage points were allocated to this unit this turn, **Heal (3)** this unit."}} />
+
+### Threnody Voicebox
+
+<WarscrollAbility ability={{"name":"Threnody Voicebox","header":{"icon":"defensive","color":"red","text":"Once Per Battle, Any Combat Phase"},"effect":"For the rest of the turn, subtract 1 from the Attacks characteristic of melee weapons used by enemy units while they are in combat with this unit."}} />
+
+## Heroic Traits
+
+### Glory Hog
+
+<WarscrollAbility ability={{"name":"Glory Hog","header":{"icon":"special","color":"black","text":"Passive"},"effect":"If an enemy ****HERO**** is destroyed by this unit, this unit has the **EUPHORIC** keyword for the rest of the battle."}} />
+
+### Into the Fray
+
+<WarscrollAbility ability={{"name":"Into the Fray","header":{"icon":"offensive","color":"red","text":"Passive"},"effect":"If this unit charged this turn and the unmodified **charge** roll was 8+, this unit has **STRIKE-FIRST** for the rest of the turn."}} />
+
+### Strongest Alone
+
+<WarscrollAbility ability={{"name":"Strongest Alone","header":{"icon":"offensive","color":"red","text":"Passive"},"effect":"Add 1 to hit rolls and wound rolls for this unit’s attacks while it is more than 6\" from all other friendly units."}} />
 
 ## Warscrolls
 

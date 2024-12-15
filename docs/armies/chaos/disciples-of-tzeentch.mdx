@@ -6,6 +6,28 @@ dataVersion: 210
 import Warscroll from '@site/src/components/Warscroll';
 import WarscrollAbility from '@site/src/components/WarscrollAbility';
 
+## Battle Traits
+
+### Burning Wyrdflame
+
+<WarscrollAbility ability={{"name":"Burning Wyrdflame","header":{"icon":"offensive","color":"eggplant","text":"Once Per Turn (Army), End of Any Turn"},"effect":"Inflict D3 mortal damage on each **BURNING** enemy unit, ****MANIFESTATION**** and **faction terrain** feature."}} />
+
+### Conflagration of Tzeentch
+
+<WarscrollAbility ability={{"name":"Conflagration of Tzeentch","header":{"icon":"special","color":"teal","text":"Once Per Turn (Army), Any Shooting Phase"},"declare":"Pick an enemy unit that had any damage points allocated to it this turn by ****WYRDFLAME** **SPELL**** abilities or shooting attacks made with weapons that have the ****Wyrdflame**** weapon ability to be the target.","effect":"The target has the **BURNING** keyword."}} />
+
+### Masters of Destiny
+
+<WarscrollAbility ability={{"name":"Masters of Destiny","header":{"icon":"special","color":"black","text":"Deployment Phase"},"effect":"Roll 9 dice and place them to one side. These are your **destiny dice**. **Destiny dice** can be spent during the battle to change certain dice rolls. You can never have more than 9 **destiny dice** at once.\n\nDuring the battle, instead of making a roll from the list below for a friendly **DISCIPLES OF TZEENTCH** unit, you can spend your **destiny dice**. The roll you would have made is replaced with the roll on the **destiny dice** you spend. If you want to replace a 2D6 roll, 3D6 roll, etc. you must spend a number of **destiny dice** equal to the number before ‘D6’. Any rolls that have been replaced count as unmodified rolls, and they cannot be re-rolled, they cannot be changed and they cannot be modified by other friendly abilities (but they can be modified by enemy abilities). You cannot spend **destiny** **dice** to replace re-rolls.\n\n**Destiny dice** can be spent in place of the following dice rolls:\n• Casting rolls\n• Unbinding rolls\n• Banishment rolls\n• **Run** rolls\n• **Charge** rolls in your turn\n• Hit rolls\n• Wound rolls\n• Save rolls"}} />
+
+### Masters of Destiny
+
+<WarscrollAbility ability={{"name":"Masters of Destiny","header":{"icon":"special","color":"black","text":"Once per Battle, Start of the First Battle Round"},"effect":"Roll 9 dice and put them to one side. These are your **destiny** **dice**. During the battle, instead of rolling the dice for 1 of the rolls from the list below, you can pick one of your **destiny** **dice** and use it as the roll. Once a destiny dice has been used, it is discarded.\n\nIf you want to replace a roll that uses more than one D6, you must use the same number of **destiny dice** (e.g. you would need to use 2 **destiny dice** in place of a 2D6 casting roll). Rolls that are replaced count as unmodified rolls and cannot be re-rolled or modified unless noted.\n\nThe following rolls can be replaced with **destiny dice**:\n\n• Casting rolls\n• **Run** rolls\n• **Charge** rolls\n• Hit rolls\n• Wound rolls\n• Save rolls – you must still modify the roll by the Rend characteristic of the attacking weapon."}} />
+
+### Quenching the Flames
+
+<WarscrollAbility ability={{"name":"Quenching the Flames","header":{"icon":"special","color":"black","text":"Passive"},"effect":"If an ability would heal or return slain models to a **BURNING** enemy unit, ****MANIFESTATION**** or terrain feature, that ability does not heal or return any slain models to it. Instead, it no longer has the **BURNING** keyword."}} />
+
 ## Battle Formations
 
 ### Arcanite Cabal
@@ -67,6 +89,34 @@ import WarscrollAbility from '@site/src/components/WarscrollAbility';
 #### Shield of Fate
 
 <WarscrollAbility ability={{"name":"Shield of Fate","header":{"icon":"defensive","color":"yellow","text":"Your Hero Phase"},"declare":"Pick a friendly **DISCIPLES OF TZEENTCH WIZARD** to cast this spell, pick a visible friendly **DISCIPLES OF TZEENTCH** unit wholly within 18\" of them to be the target, then make a casting roll of 2D6.’","effect":"The target has **WARD (5+)** until the start of your next turn. In addition, if you have 4 or more **destiny dice** left, subtract 1 from hit rolls for attacks that target that unit until the start of your next turn.","castingValue":7,"keywords":["Spell"]}} />
+
+## Artefacts of Power
+
+### Ambition's End
+
+<WarscrollAbility ability={{"name":"Ambition's End","header":{"icon":"special","color":"red","text":"Once Per Battle, Any Combat Phase"},"declare":"Pick an enemy ****WIZARD**** in combat with this unit to be the target.","effect":"Inflict D3 mortal damage on the target. In addition, subtract 1 from casting rolls for the target for the rest of the battle."}} />
+
+### Nine-eyed Tome
+
+<WarscrollAbility ability={{"name":"Nine-eyed Tome","header":{"icon":"special","color":"yellow","text":"Passive"},"effect":"Add 1 to casting rolls and banishment rolls for this unit."}} />
+
+### Wyrdflame Blade
+
+<WarscrollAbility ability={{"name":"Wyrdflame Blade","header":{"icon":"special","color":"red","text":"Passive"},"effect":"If any damage points are allocated to an enemy unit by this unit’s combat attacks, that enemy unit has the **BURNING** keyword."}} />
+
+## Heroic Traits
+
+### Cult Demagogue
+
+<WarscrollAbility ability={{"name":"Cult Demagogue","header":{"icon":"special","color":"yellow","text":"Passive"},"effect":"If each dice in a casting roll for this unit has the same value and the **spell** is not miscast, add 3 to the casting roll."}} />
+
+### Illusionist
+
+<WarscrollAbility ability={{"name":"Illusionist","header":{"icon":"defensive","color":"green","text":"Passive"},"effect":"Subtract 1 from hit rolls for attacks that target friendly units while they are wholly within this unit’s combat range."}} />
+
+### Nexus of Fate
+
+<WarscrollAbility ability={{"name":"Nexus of Fate","header":{"icon":"special","color":"yellow","text":"Your Hero Phase"},"effect":"Roll a dice. You must replace 1 of your **destiny dice** with that roll."}} />
 
 ## Warscrolls
 

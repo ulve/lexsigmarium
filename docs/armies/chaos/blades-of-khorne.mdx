@@ -6,6 +6,44 @@ dataVersion: 210
 import Warscroll from '@site/src/components/Warscroll';
 import WarscrollAbility from '@site/src/components/WarscrollAbility';
 
+## Battle Traits
+
+### Brass Skull Meteor
+
+<WarscrollAbility ability={{"name":"Brass Skull Meteor","header":{"icon":"offensive","color":"yellow","text":"Any Hero Phase"},"declare":"You can only use this ability if you have not used any ****BLOOD TITHE**** abilities this turn. Spend 4 ****blood tithe** points** and pick an enemy unit that is visible to a friendly **BLADES OF KHORNE **HERO**** to be the target.","effect":"Roll 8 dice. For each 3+, inflict 1 mortal damage on the target.","keywords":["Blood Tithe"]}} />
+
+### Heads Must Roll
+
+<WarscrollAbility ability={{"name":"Heads Must Roll","header":{"icon":"offensive","color":"red","text":"Any Combat Phase"},"declare":"You can only use this ability if you have not used any ****BLOOD TITHE**** abilities this turn. Spend 6 ****blood tithe** points**.","effect":"For the rest of the turn, add 1 to the Rend characteristic of melee weapons used by friendly **BLADES OF KHORNE** units.","keywords":["Blood Tithe"]}} />
+
+### Heads Must Roll
+
+<WarscrollAbility ability={{"name":"Heads Must Roll","header":{"icon":"offensive","color":"yellow","text":"Once Per Turn, Any Hero Phase"},"declare":"Spend 3 ****blood tithe** points** and pick up to 3 friendly units.","effect":"Add 1 to the Rend characteristic of those units’ melee weapons until the start of your next turn."}} />
+
+### Murderlust
+
+<WarscrollAbility ability={{"name":"Murderlust","header":{"icon":"movement","color":"gray","text":"Any Movement Phase"},"declare":"You can only use this ability if you have not used any ****BLOOD TITHE**** abilities this turn. Spend 1 ****blood tithe**** **point** and pick a friendly **BLADES OF KHORNE** unit that is not in combat to be the target.","effect":"The target can **move** 3\". It can **move** into combat.","keywords":["Blood Tithe","Move"]}} />
+
+### Murderlust
+
+<WarscrollAbility ability={{"name":"Murderlust","header":{"icon":"movement","color":"yellow","text":"Once Per Turn, Any Hero Phase"},"declare":"Spend 1 ****blood tithe** point** and pick up to D3 friendly units.","effect":"Each of those units can **move** D6\" (roll for each)."}} />
+
+### Slaughter Triumphant
+
+<WarscrollAbility ability={{"name":"Slaughter Triumphant","header":{"icon":"special","color":"gray","text":"Any Movement Phase"},"declare":"You can only use this ability if you have not used any ****BLOOD TITHE**** abilities this turn. Spend 8 ****blood tithe** points**.","effect":"Pick 1 of the following effects:\n\n• Add 1 to the Attacks characteristic of melee weapons used by friendly **BLADES OF KHORNE** units for the rest of the battle.\n• Pick a friendly non-****UNIQUE** **BLOODTHIRSTER**** unit that has been destroyed. Set up an identical replacement unit on the battlefield more than 9\" from all enemy units.","keywords":["Blood Tithe"]}} />
+
+### Spelleater Curse
+
+<WarscrollAbility ability={{"name":"Spelleater Curse","header":{"icon":"special","color":"yellow","text":"Reaction: Opponent declared a SPELL ability"},"declare":"You can only use this ability if you have not used any ****BLOOD TITHE**** abilities this turn. Spend 2 ****blood tithe** points**.","effect":"That **spell** is unbound.","keywords":["Blood Tithe"]}} />
+
+### The Blood Tithe
+
+<WarscrollAbility ability={{"name":"The Blood Tithe","header":{"icon":"special","color":"black","text":"Passive"},"effect":"You start the battle with 0 ****blood tithe** points**. Earn 1 **blood** **tithe point** each time a unit (friendly or enemy) is destroyed."}} />
+
+### The Blood Tithe
+
+<WarscrollAbility ability={{"name":"The Blood Tithe","header":{"icon":"special","color":"red","text":"Passive"},"effect":"Each time a unit is destroyed during the battle, you receive 1 ****blood tithe** point**."}} />
+
 ## Battle Formations
 
 ### Bloodbound Warhorde
@@ -53,6 +91,34 @@ import WarscrollAbility from '@site/src/components/WarscrollAbility';
 #### Blood Boil
 
 <WarscrollAbility ability={{"name":"Blood Boil","header":{"icon":"offensive","color":"yellow","text":"Your Hero Phase"},"declare":"Pick a friendly **BLADES OF KHORNE PRIEST** to chant this prayer, pick a visible enemy unit within 18\" of them to be the target, then make a chanting roll of D6.","effect":"Roll a number of dice equal to the number of models in the target unit. For each 5+, inflict 1 mortal damage on the target. In addition, if the chanting roll was 8+, subtract 1 from wound rolls for the target until the start of your next turn.","castingValue":4,"keywords":["Prayer"]}} />
+
+## Artefacts of Power
+
+### Ar'gath, The King of Blades
+
+<WarscrollAbility ability={{"name":"Ar'gath, The King of Blades","header":{"icon":"offensive","color":"red","text":"Any Combat Phase"},"declare":"Pick an enemy ****HERO**** in combat with this unit to be the target.","effect":"Ward rolls cannot be made for the target for the rest of the turn."}} />
+
+### Collar of Contempt
+
+<WarscrollAbility ability={{"name":"Collar of Contempt","header":{"icon":"special","color":"yellow","text":"Passive"},"effect":"This unit can use ****UNBIND**** abilities as if it had ****WIZARD** (1)**. Each time this unit unbinds a **spell**, inflict D3 mortal damage on the caster."}} />
+
+### Halo of Blood
+
+<WarscrollAbility ability={{"name":"Halo of Blood","header":{"icon":"special","color":"black","text":"Passive"},"effect":"Ignore negative modifiers to this unit’s control score and to hit rolls and wound rolls for this unit’s attacks."}} />
+
+## Heroic Traits
+
+### Favoured of Khorne
+
+<WarscrollAbility ability={{"name":"Favoured of Khorne","header":{"icon":"special","color":"black","text":"Passive"},"effect":"You begin the battle with 1 ****blood tithe** point**."}} />
+
+### Firebrand
+
+<WarscrollAbility ability={{"name":"Firebrand","header":{"icon":"special","color":"yellow","text":"Passive"},"effect":"If this unit is not a ****PRIEST****, it has ****PRIEST** (1)**. If this unit is already a ****PRIEST****, add 1 to banishment rolls for it instead."}} />
+
+### Relentless Hunger
+
+<WarscrollAbility ability={{"name":"Relentless Hunger","header":{"icon":"movement","color":"gray","text":"Passive"},"effect":"If this unit is picked to be the target of the ‘Murderlust’ ability, it can **move** 6\" instead of 3\"."}} />
 
 ## Warscrolls
 

@@ -6,6 +6,16 @@ dataVersion: 210
 import Warscroll from '@site/src/components/Warscroll';
 import WarscrollAbility from '@site/src/components/WarscrollAbility';
 
+## Battle Traits
+
+### All-out Slaughter
+
+<WarscrollAbility ability={{"name":"All-out Slaughter","header":{"icon":"offensive","color":"red","text":"Once Per Battle, Any Combat Phase"},"declare":"Pick a friendly **DAUGHTERS OF KHAINE **INFANTRY**** unit that is in combat to use this ability.","effect":"That unit can use 2 ****FIGHT**** abilities this phase. After the first is used, this unit has **STRIKE-LAST** for the rest of the turn."}} />
+
+### Blood Rites
+
+<WarscrollAbility ability={{"name":"Blood Rites","header":{"icon":"special","color":"black","text":"Passive"},"effect":"A different effect applies to friendly **DAUGHTERS OF KHAINE** units each battle round, as shown below. The effects of all previous battle rounds also apply to those units.\n\n**Battle Round 1:**\n***Quickening Bloodlust:*** Add 1 to **run** rolls for this unit.\n\n**Battle Round 2:**\n***Headlong Fury:*** Add 1 to **charge** rolls for this unit.\n\n**Battle Round 3:**\n***Zealot’s Rage:*** Add 1 to hit rolls for this unit’s combat attacks.\n\n**Battle Round 4:**\n***Slaughterer’s Wound:*** Add 1 to wound rolls for this unit’s combat attacks.\n\n**Battle Round 5:**\n***Frenzied Worshippers:*** Add 1 to the Attacks characteristic of this unit’s melee weapons."}} />
+
 ## Battle Formations
 
 ### Cauldron Guard
@@ -67,6 +77,34 @@ import WarscrollAbility from '@site/src/components/WarscrollAbility';
 #### Mindrazor
 
 <WarscrollAbility ability={{"name":"Mindrazor","header":{"icon":"offensive","color":"yellow","text":"Your Hero Phase"},"declare":"Pick a friendly **DAUGHTERS OF KHAINE WIZARD** to cast this spell, pick a visible friendly **DAUGHTERS OF KHAINE** unit wholly within 12\" of them to be the target, then make a casting roll of 2D6.","effect":"Add 1 to the Rend characteristic of the target’s melee weapons until the start of your next turn. In addition, if the target charged this turn, add 1 to the Damage characteristic of its melee weapons until the start of your next turn.","castingValue":8,"keywords":["Spell"]}} />
+
+## Artefacts of Power
+
+### Crown of Woe
+
+<WarscrollAbility ability={{"name":"Crown of Woe","header":{"icon":"control","color":"eggplant","text":"Passive"},"effect":"Subtract 2 from the control scores of enemy units while they are within 9\" of this unit."}} />
+
+### Khainite Pendant
+
+<WarscrollAbility ability={{"name":"Khainite Pendant","header":{"icon":"special","color":"yellow","text":"Once Per Battle, Your Hero Phase"},"declare":"Pick a friendly **DAUGHTERS OF KHAINE **PRIEST**** wholly within 12\" of this unit.","effect":"Give that unit D6 ritual points."}} />
+
+### Sevenfold Shadow
+
+<WarscrollAbility ability={{"name":"Sevenfold Shadow","header":{"icon":"movement","color":"gray","text":"Once Per Battle, Your Movement Phase"},"effect":"If this unit is not in combat, remove it from the battlefield and set it up again on the battlefield more than 9\" from all enemy units.","keywords":["Core"]}} />
+
+## Heroic Traits
+
+### Bathed in Blood
+
+<WarscrollAbility ability={{"name":"Bathed in Blood","header":{"icon":"defensive","color":"eggplant","text":"End of Any Turn"},"effect":"**Heal (3)** this unit if it is in combat."}} />
+
+### Master of Poisons
+
+<WarscrollAbility ability={{"name":"Master of Poisons","header":{"icon":"offensive","color":"eggplant","text":"End of Any Turn"},"declare":"Pick an enemy unit that had any damage points allocated to it this turn by this unit’s combat attacks to be the target.","effect":"For the rest of the battle:\n\n• The target cannot be healed.\n• Slain models cannot be returned to the target unit."}} />
+
+### Zealous Orator
+
+<WarscrollAbility ability={{"name":"Zealous Orator","header":{"icon":"rallying","color":"yellow","text":"Passive"},"effect":"If a friendly unit wholly within 12\" of this unit uses the ‘Rally’ command, you can make 3 additional rally rolls of D6."}} />
 
 ## Warscrolls
 
