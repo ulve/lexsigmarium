@@ -1,5 +1,5 @@
 {
-  "dataVersion": 197,
+  "dataVersion": 216,
   "warscrolls": [
     {
       "id": "2d3c255c-b0b1-442d-9996-f34401e1bfa5",
@@ -58,7 +58,7 @@
           "lore": "Shoals of small sea creatures infest this wreck, instinctively swarming out to shield Idoneth Deepkin that are nearby.",
           "usedBy": null,
           "declare": null,
-          "effect": "Add 1 to save rolls for friendly **Idoneth Deepkin Infantry** and **Cavalry** units while they are wholly within 6\" of this terrain feature.",
+          "effect": "Add 1 to save rolls for friendly **IDONETH DEEPKIN INFANTRY** and **CAVALRY** units while they are wholly within 6\" of this terrain feature.",
           "abilityAndCommandIcon": "defensive",
           "warscrollId": "2d3c255c-b0b1-442d-9996-f34401e1bfa5",
           "keywords": []
@@ -112,7 +112,7 @@
           "battleDamaged": false,
           "warscrollId": "1c01dad2-b77d-463c-a426-f2e7b5aa0cca",
           "weaponAbilities": [
-            "Anti-Monster (+1 Rend)"
+            "Anti-MONSTER (+1 Rend)"
           ]
         },
         {
@@ -128,7 +128,7 @@
           "battleDamaged": false,
           "warscrollId": "1c01dad2-b77d-463c-a426-f2e7b5aa0cca",
           "weaponAbilities": [
-            "Anti-Monster (+1 Rend)",
+            "Anti-MONSTER (+1 Rend)",
             "Companion"
           ]
         },
@@ -145,7 +145,7 @@
           "battleDamaged": false,
           "warscrollId": "1c01dad2-b77d-463c-a426-f2e7b5aa0cca",
           "weaponAbilities": [
-            "Anti-Cavalry (+1 Rend)"
+            "Anti-CAVALRY (+1 Rend)"
           ]
         },
         {
@@ -190,7 +190,7 @@
           "reaction": false,
           "lore": "The Akhelians are experts at ensnaring their prey with a well-placed harpoon or Retarius net.",
           "usedBy": null,
-          "declare": "Pick an enemy **Monster** or **Cavalry** unit that had any damage points allocated to it this turn by this unit’s shooting attacks to be the target.",
+          "declare": "Pick an enemy **MONSTER** or **CAVALRY** unit that had any damage points allocated to it this turn by this unit’s shooting attacks to be the target.",
           "effect": "Roll a dice. On a 3+, until the start of your next turn, subtract 1 from the number of dice rolled when making charge rolls for the target, to a minimum of 1.",
           "abilityAndCommandIcon": "movement",
           "warscrollId": "1c01dad2-b77d-463c-a426-f2e7b5aa0cca",
@@ -248,7 +248,7 @@
           "battleDamaged": false,
           "warscrollId": "2e3085c0-3939-418a-a9d1-8293eb5fe27b",
           "weaponAbilities": [
-            "Anti-Infantry (+1 Rend)"
+            "Anti-INFANTRY (+1 Rend)"
           ]
         },
         {
@@ -280,7 +280,7 @@
           "lore": "Thanks to their protective aura, the Ishlaen have greater staying power in prolonged combat than their spear-armed kin.",
           "usedBy": null,
           "declare": null,
-          "effect": "This unit has **Ward (5+)** if it charged in the same turn.",
+          "effect": "This unit has **WARD (5+)** if it charged in the same turn.",
           "abilityAndCommandIcon": "defensive",
           "warscrollId": "2e3085c0-3939-418a-a9d1-8293eb5fe27b",
           "keywords": []
@@ -356,7 +356,7 @@
           "battleDamaged": false,
           "warscrollId": "2fb395f2-8c28-4607-b659-e3d87a6efffe",
           "weaponAbilities": [
-            "Anti-Infantry (+1 Rend)",
+            "Anti-INFANTRY (+1 Rend)",
             "Charge (+1 Damage)"
           ]
         },
@@ -418,7 +418,7 @@
       "rowImage": "https://dhss9aar8ocw.cloudfront.net/70a2ec79-ebbc-496f-b9f4-568bc30716bb",
       "modelCount": 10,
       "baseSize": "32mm",
-      "points": 110,
+      "points": 100,
       "notes": null,
       "isSpearhead": false,
       "cannotBeReinforced": false,
@@ -449,7 +449,7 @@
           "battleDamaged": false,
           "warscrollId": "3435c665-0ef0-4492-84e0-3564aae958d1",
           "weaponAbilities": [
-            "Anti-Infantry (+1 Rend)"
+            "Anti-INFANTRY (+1 Rend)"
           ]
         }
       ],
@@ -465,7 +465,7 @@
           "lore": "Lanmari can cut through weaker opponents as an Allopex cuts through a shoal of Scryfish, or they can be used to inflict grievous wounds on larger enemies.",
           "usedBy": null,
           "declare": null,
-          "effect": "Add 1 to the Damage characteristic of this unit’s **Lanmari** for attacks that target enemy **Monsters**.",
+          "effect": "Add 1 to the Damage characteristic of this unit’s **Lanmari** for attacks that target enemy **MONSTERS**.",
           "abilityAndCommandIcon": "offensive",
           "warscrollId": "3435c665-0ef0-4492-84e0-3564aae958d1",
           "keywords": []
@@ -582,7 +582,7 @@
           "lore": "Eidolon in its aspect of the sea radiates an aura of unnatural tranquillity, calming any fears that nearby Idoneth may harbour.",
           "usedBy": null,
           "declare": null,
-          "effect": "Ignore negative modifiers to the control scores of friendly **Idoneth Deepkin** units while they are wholly within 12\" of this unit.",
+          "effect": "Ignore negative modifiers to the control scores of friendly **IDONETH DEEPKIN** units while they are wholly within 12\" of this unit.",
           "abilityAndCommandIcon": "control",
           "warscrollId": "417a2aac-2882-4c3d-9dfe-5c0b803de321",
           "keywords": []
@@ -710,7 +710,7 @@
           "lore": "Volturnos is the greatest Akhelian King to have ever lived. His supreme skill and vast experience serve as an inspiration to all members of the Idoneth’s warrior caste.",
           "usedBy": null,
           "declare": null,
-          "effect": "Add 1 to hit rolls for combat attacks made by other friendly **Akhelian** units while they are wholly within 12\" of this unit.",
+          "effect": "Add 1 to hit rolls for combat attacks made by other friendly **AKHELIAN** units while they are wholly within 12\" of this unit.",
           "abilityAndCommandIcon": "offensive",
           "warscrollId": "6f4539b7-9952-435d-947b-ad47391cf579",
           "keywords": []
@@ -725,7 +725,7 @@
           "reaction": false,
           "lore": "At the High King’s command, his warriors will attack with unrelenting fury.",
           "usedBy": null,
-          "declare": "Pick up to 3 other friendly **Idoneth Deepkin** units wholly within 12\" of this unit to be the targets.",
+          "declare": "Pick up to 3 other friendly **IDONETH DEEPKIN** units wholly within 12\" of this unit to be the targets.",
           "effect": "Add 1 to the Attacks characteristic of the targets’ melee weapons for the rest of the turn.",
           "abilityAndCommandIcon": "offensive",
           "warscrollId": "6f4539b7-9952-435d-947b-ad47391cf579",
@@ -742,7 +742,7 @@
           "lore": "Cealith is said to have been crafted by Teclis himself. However it was created, the mystical aura it projects guards the bearer against malign magics.",
           "usedBy": null,
           "declare": null,
-          "effect": "This unit has **Ward (3+)** against mortal damage inflicted by **Spell** abilities, **Prayer** abilities or abilities used by **Manifestations**.",
+          "effect": "This unit has **WARD (3+)** against mortal damage inflicted by **SPELL** abilities, **PRAYER** abilities or abilities used by **MANIFESTATIONS**.",
           "abilityAndCommandIcon": "defensive",
           "warscrollId": "6f4539b7-9952-435d-947b-ad47391cf579",
           "keywords": []
@@ -755,111 +755,6 @@
         "Fly",
         "Cavalry",
         "Warmaster",
-        "Hero"
-      ],
-      "factionKeywords": [
-        "Grand Alliance Order",
-        "Idoneth Deepkin"
-      ]
-    },
-    {
-      "id": "3401940e-f5e1-44cb-af14-856ce81f2e48",
-      "name": "Akhelian Thrallmaster",
-      "subname": null,
-      "lore": "Some members of the martial Akhelian class chafe under the traditions of Idoneth  society and yearn for the freedom of the realmseas. Others find themselves cast out by their own kind, often for speaking out against the Idoneth’s soul-based caste system. Many of these pariahs become Thrallmasters – the raider-captains of the Idoneth military. Tasked with venturing out into the realms at the head of a Namarti host, they seek out fresh soul-matter for the enclaves. Thanks to their extensive voyaging, Thrallmasters become experts at reading the ocean currents. They often tattoo themselves with priceless tidal maps illegible to other Idoneth. Most greatly enjoy using this painstakingly gathered intelligence as leverage against higher-ranked Akhelians, who must grit their teeth and deal with a Thrallmaster if they are to reach the best raiding grounds.\n\nBy necessity, Thrallmasters learn to use multiple combat techniques. They can alter their stance and weapon in a moment, wielding the vaisurr bident to skewer larger foes or switching to twin helsabres to slice a bloody path through massed ranks, and they rigorously train their Namarti charges in these same fighting styles. Many make use of bonded Snapjaw Eels to defend themselves, for when these creatures sink their fangs into the foe, they are near impossible to remove.",
-      "bannerImage": "https://dhss9aar8ocw.cloudfront.net/399230ab-a9e6-4861-8e34-00aeceb72434",
-      "rowImage": "https://dhss9aar8ocw.cloudfront.net/66d94a16-98f0-4c13-bdd8-df8c202fa6da",
-      "modelCount": 1,
-      "baseSize": "32mm",
-      "points": 120,
-      "notes": "This **Hero** can join an eligible regiment as an *Akhelian Raidmaster*.",
-      "isSpearhead": false,
-      "cannotBeReinforced": true,
-      "hiddenFromReference": false,
-      "hiddenFromStormForge": false,
-      "referenceKeywords": "Hero, Infantry, Order, Idoneth Deepkin, Aelf, Akhelian",
-      "move": "6\"",
-      "save": "5+",
-      "control": "2",
-      "health": "5",
-      "wargearOptionsText": null,
-      "publicationId": "8bf0ecb4-15e7-476b-af0f-7906f21c4599",
-      "limitingWarscrollId": null,
-      "requiredPrimaryHeroWarscrollId": null,
-      "isLegends": false,
-      "faction": "Idoneth Deepkin",
-      "weapons": [
-        {
-          "id": "30583d83-372f-41a3-9e0a-58377060bb0a",
-          "name": "Snapjaw’s Vicious Bite",
-          "type": "melee",
-          "range": null,
-          "attacks": "2",
-          "hit": "4+",
-          "wound": "4+",
-          "rend": "-",
-          "damage": "1",
-          "battleDamaged": false,
-          "warscrollId": "3401940e-f5e1-44cb-af14-856ce81f2e48",
-          "weaponAbilities": [
-            "Companion"
-          ]
-        },
-        {
-          "id": "e7d9adc3-41b4-492e-ac52-10aab0049b82",
-          "name": "Esoteric Weapons",
-          "type": "melee",
-          "range": null,
-          "attacks": "5",
-          "hit": "3+",
-          "wound": "4+",
-          "rend": "1",
-          "damage": "2",
-          "battleDamaged": false,
-          "warscrollId": "3401940e-f5e1-44cb-af14-856ce81f2e48",
-          "weaponAbilities": []
-        }
-      ],
-      "abilities": [
-        {
-          "id": "87b5dc0b-d9aa-4a21-a068-06a861fdfaa3",
-          "name": "Akhelian Fighting Stance",
-          "phaseDetails": "Any Combat Phase",
-          "phase": "combatPhase",
-          "castingValue": null,
-          "cpCost": null,
-          "reaction": false,
-          "lore": "Thrallmasters carry a personal armoury to suit the fighting stances needed to best any form of foe. They rigorously train their Namarti warriors to support each attack style at a moment’s notice.",
-          "usedBy": null,
-          "declare": null,
-          "effect": "Pick 1 of the following effects to apply to this unit and any friendly **Namarti** units wholly within 12\" of this unit for the rest of the turn.\n\n***Way of the Riptide:*** Those units’ melee weapons have **Crit (2 Hits)**.\n\n***Way of the Vortex:*** Subtract 1 from wound rolls for attacks that target those units.",
-          "abilityAndCommandIcon": "special",
-          "warscrollId": "3401940e-f5e1-44cb-af14-856ce81f2e48",
-          "keywords": []
-        },
-        {
-          "id": "d5f6bd56-2089-4b04-bb0e-f1120a93d52e",
-          "name": "Thrallmaster",
-          "phaseDetails": "Reaction: You declared a Fight ability for this unit",
-          "phase": "combatPhase",
-          "castingValue": null,
-          "cpCost": null,
-          "reaction": true,
-          "lore": "Thrallmasters are cunning and sea-scarred Akhelians who lead the Namarti hosts into battle.",
-          "usedBy": null,
-          "declare": null,
-          "effect": "Pick a friendly **Namarti Thralls** unit that has not used a **Fight** ability this turn and is within this unit’s combat range to be the target. The target can be picked to use a **Fight** ability immediately after the **Fight** ability used by this unit has been resolved.",
-          "abilityAndCommandIcon": "offensive",
-          "warscrollId": "3401940e-f5e1-44cb-af14-856ce81f2e48",
-          "keywords": []
-        }
-      ],
-      "keywords": [
-        "Akhelian",
-        "Akhelian Raidmaster",
-        "Aelf",
-        "Akhelian Raidmaster or Isharann Emissary",
-        "Infantry",
         "Hero"
       ],
       "factionKeywords": [
@@ -937,7 +832,7 @@
           "lore": "A Tidecaster can manipulate the ethersea like no other.",
           "usedBy": null,
           "declare": "Make an Isharann ritual roll of D6.",
-          "effect": "On a 3+, pick 1 of the following effects to apply until the start of your next turn:\n\n***Creeping Mist:*** Friendly **Idoneth Deepkin** units cannot be targeted by shooting attacks unless the attacking model is within 12\" of them.\n\n***Surging Stream:*** Add 1 to run rolls and charge rolls for friendly **Idoneth Deepkin** units.\n\n***Spiteful Riptide:*** Each time an enemy unit uses a **Retreat** ability, after the effect of that ability has been resolved, inflict D3 mortal damage on that unit.",
+          "effect": "On a 3+, pick 1 of the following effects to apply until the start of your next turn:\n\n***Creeping Mist:*** Friendly **IDONETH DEEPKIN** units cannot be targeted by shooting attacks unless the attacking model is within 12\" of them.\n\n***Surging Stream:*** Add 1 to run rolls and charge rolls for friendly **IDONETH DEEPKIN** units.\n\n***Spiteful Riptide:*** Each time an enemy unit uses a **RETREAT** ability, after the effect of that ability has been resolved, inflict D3 mortal damage on that unit.",
           "abilityAndCommandIcon": "special",
           "warscrollId": "a3e6247a-4852-4c0c-a811-304e5a2f380f",
           "keywords": []
@@ -1025,7 +920,7 @@
           "lore": "Namarti Reavers are experts at running out from cover to unleash a hail of deadly arrows.",
           "usedBy": null,
           "declare": null,
-          "effect": "This unit can use **Shoot** abilities even if it used a **Run** or **Retreat** ability in the same turn.",
+          "effect": "This unit can use **SHOOT** abilities even if it used a **RUN** or **RETREAT** ability in the same turn.",
           "abilityAndCommandIcon": "shooting",
           "warscrollId": "b731135a-0266-4157-aa66-5b5ff23da311",
           "keywords": []
@@ -1043,6 +938,111 @@
       ]
     },
     {
+      "id": "844001e0-9536-46f4-8ac3-f2b569e4246c",
+      "name": "Isharann Soulrender",
+      "subname": null,
+      "lore": "Soulrenders are only too keen to take to the frontlines of battle, for that is where they find the greatest accumulation of souls. To these taciturn beings goes the most important task of any Idoneth raid. Each Soulrender’s helm bears a lurelight, an eldritch lantern that draws forth the souls of the recently slain so that they might be harvested. In times of dire need, the lurelight’s magic can even channel this spirit-matter into the broken bodies of wounded Namarti, knitting together their injuries so that they might fight on.\n\nOnce back in their undersea strongholds, the souls will be transferred, with those of the Idoneth enshrined in the chorrileums and others made ready to be seeded within newborn Namarti. However, until they return to their enclave and deposit their priceless bounty, the Soulrenders must fight tooth and nail to protect it. They do so with a vicious polearm known as a talúnhook, snaring their enemies from afar and forcing them to their knees so that they might be more easily dispatched. To aid their hunting, each Soulrender employs a Rakerdart, a bond-beast that glides at its master’s feet, ready to stab prey with its sharp bill to ensure none can escape.",
+      "bannerImage": "https://dhss9aar8ocw.cloudfront.net/e65629c5-93ab-4fdb-a7fa-33bdc122aff7",
+      "rowImage": "https://dhss9aar8ocw.cloudfront.net/d292416c-87e3-4a52-aa00-6e9263cec47d",
+      "modelCount": 1,
+      "baseSize": "40mm",
+      "points": 90,
+      "notes": "This **HERO** can join an eligible regiment as an *Isharann Emissary*.",
+      "isSpearhead": false,
+      "cannotBeReinforced": true,
+      "hiddenFromReference": false,
+      "hiddenFromStormForge": false,
+      "referenceKeywords": "Hero, Infantry, Order, Idoneth Deepkin, Aelf, Isharann",
+      "move": "6\"",
+      "save": "3+",
+      "control": "2",
+      "health": "5",
+      "wargearOptionsText": null,
+      "publicationId": "8bf0ecb4-15e7-476b-af0f-7906f21c4599",
+      "limitingWarscrollId": null,
+      "requiredPrimaryHeroWarscrollId": null,
+      "isLegends": false,
+      "faction": "Idoneth Deepkin",
+      "weapons": [
+        {
+          "id": "4a08f757-7a12-4be4-89f8-2bcaf1b3d7bc",
+          "name": "Rakerdart’s Serrated Bill",
+          "type": "melee",
+          "range": null,
+          "attacks": "3",
+          "hit": "4+",
+          "wound": "4+",
+          "rend": "1",
+          "damage": "1",
+          "battleDamaged": false,
+          "warscrollId": "844001e0-9536-46f4-8ac3-f2b569e4246c",
+          "weaponAbilities": [
+            "Companion"
+          ]
+        },
+        {
+          "id": "79d0e7dd-0c24-4acb-ba35-35dcb70244a4",
+          "name": "Talúnhook",
+          "type": "melee",
+          "range": null,
+          "attacks": "4",
+          "hit": "3+",
+          "wound": "4+",
+          "rend": "1",
+          "damage": "2",
+          "battleDamaged": false,
+          "warscrollId": "844001e0-9536-46f4-8ac3-f2b569e4246c",
+          "weaponAbilities": []
+        }
+      ],
+      "abilities": [
+        {
+          "id": "bfb82959-63fb-42fb-9861-633efa3537db",
+          "name": "Hangman's Knot",
+          "phaseDetails": "Once Per Battle, Any Combat Phase",
+          "phase": "combatPhase",
+          "castingValue": null,
+          "cpCost": null,
+          "reaction": false,
+          "lore": "The noose on a talúnhook can be used to ensnare a victim, ensuring they cannot escape their doom at the hands of the Soulrender.",
+          "usedBy": null,
+          "declare": "Pick an enemy **HERO** in combat with this unit to be the target.",
+          "effect": "Roll 2D6. If the roll exceeds the target’s Health characteristic, it is automatically destroyed.",
+          "abilityAndCommandIcon": "offensive",
+          "warscrollId": "844001e0-9536-46f4-8ac3-f2b569e4246c",
+          "keywords": []
+        },
+        {
+          "id": "74fb87ae-b6ab-45bd-864d-87b5b716a1d6",
+          "name": "Lurelight",
+          "phaseDetails": "End of Any Turn",
+          "phase": "endOfTurn",
+          "castingValue": null,
+          "cpCost": null,
+          "reaction": false,
+          "lore": "Isharann Soulrenders possess a mystical lure that is used to draw unto them the souls of slain opponents so that they can be captured. Should the Soulrender act quickly enough, the stolen essence can be repurposed to resurrect fallen Namarti mid-battle.",
+          "usedBy": null,
+          "declare": "Pick up to 3 different friendly **NAMARTI** units wholly within 12\" of this unit to be the targets. You cannot pick the same unit to be the target of this ability more than once per turn. Make a lurelight roll of D3 for each target unit.",
+          "effect": "On a 2+, return a number of slain models to the target unit equal to the roll.",
+          "abilityAndCommandIcon": "rallying",
+          "warscrollId": "844001e0-9536-46f4-8ac3-f2b569e4246c",
+          "keywords": []
+        }
+      ],
+      "keywords": [
+        "Aelf",
+        "Isharann Emissary",
+        "Infantry",
+        "Isharann",
+        "Hero",
+        "Akhelian Raidmaster or Isharann Emissary"
+      ],
+      "factionKeywords": [
+        "Grand Alliance Order",
+        "Idoneth Deepkin"
+      ]
+    },
+    {
       "id": "d1a3fe67-306f-4589-961d-93db6ac36782",
       "name": "Isharann Soulscryer",
       "subname": null,
@@ -1051,8 +1051,8 @@
       "rowImage": "https://dhss9aar8ocw.cloudfront.net/39018e51-89c9-418c-9716-f20dbb2fc2cc",
       "modelCount": 1,
       "baseSize": "32mm",
-      "points": 120,
-      "notes": null,
+      "points": 110,
+      "notes": "This **HERO** can join an eligible regiment as an *Isharann Emissary*.",
       "isSpearhead": false,
       "cannotBeReinforced": true,
       "hiddenFromReference": false,
@@ -1112,7 +1112,7 @@
           "reaction": false,
           "lore": "Soulscryers are the Idoneth’s navigators, helping them divine hidden paths through the realmseas.",
           "usedBy": null,
-          "declare": "Pick a friendly **Idoneth Deepkin** unit that is **travelling the ethersea** to be the target.",
+          "declare": "Pick a friendly **IDONETH DEEPKIN** unit that is **travelling the ethersea** to be the target.",
           "effect": "Set up the target wholly within 12\" of this unit and more than 7\" from all enemy units.",
           "abilityAndCommandIcon": "special",
           "warscrollId": "d1a3fe67-306f-4589-961d-93db6ac36782",
@@ -1128,8 +1128,8 @@
           "reaction": false,
           "lore": "Using a cyfar compass, a Soulscryer identifies the souls most worthy of reaping.",
           "usedBy": null,
-          "declare": "Pick an enemy **Hero** within 18\" of this unit to be the target.",
-          "effect": "Roll a dice. On a 3+, add 1 to wound rolls for combat attacks made by friendly **Idoneth Deepkin** units that target that unit for the rest of the turn.",
+          "declare": "Pick an enemy **HERO** within 18\" of this unit to be the target.",
+          "effect": "Roll a dice. On a 3+, add 1 to wound rolls for combat attacks made by friendly **IDONETH DEEPKIN** units that target that unit for the rest of the turn.",
           "abilityAndCommandIcon": "offensive",
           "warscrollId": "d1a3fe67-306f-4589-961d-93db6ac36782",
           "keywords": []
@@ -1138,115 +1138,11 @@
       "keywords": [
         "Aelf",
         "Wizard",
+        "Isharann Emissary",
         "Infantry",
         "Isharann",
-        "Hero"
-      ],
-      "factionKeywords": [
-        "Grand Alliance Order",
-        "Idoneth Deepkin"
-      ]
-    },
-    {
-      "id": "0095c267-ddb2-4ce2-9551-cee24129deb4",
-      "name": "Akhelian King",
-      "subname": null,
-      "lore": "The Idoneth are a people to whom warfare is a way of life, and none amongst them personify this as gloriously as the Akhelian Kings. These mighty warriors command the enclaves’ phalanxes in battle, utilising the martial skills and strategic mastery they developed during their years of military training. Reading the currents of the battlefield in an instant, they direct their warriors to outmanoeuvre and rout the foe.\n\nThe title of Akhelian King or Queen is not granted as a hereditary right; instead, it is earned through hard fighting and dedicated service to one’s enclave. If death does not claim them, they will eventually be granted regal status and command an Akhelian phalanx of their own. To the pragmatic Deepkin, such an arduous path to leadership is the best way to ensure that birthright does not elevate the weak over the strong. \n\nAkhelian Kings ride into battle upon Deepmares, sea-beasts whose talons can punch through metal. From atop their mount, an Akhelian King fights with either a bladed polearm or a greatsword known as an astra trom.",
-      "bannerImage": "https://dhss9aar8ocw.cloudfront.net/e187a444-cedc-4f2b-8f63-805e10af4e1a",
-      "rowImage": "https://dhss9aar8ocw.cloudfront.net/1701889b-0e9f-469c-bade-e3d5bda43d5d",
-      "modelCount": 1,
-      "baseSize": "60mm",
-      "points": 180,
-      "notes": null,
-      "isSpearhead": false,
-      "cannotBeReinforced": true,
-      "hiddenFromReference": false,
-      "hiddenFromStormForge": false,
-      "referenceKeywords": "Hero, Cavalry, Fly, Order, Idoneth Deepkin, Aelf, Akhelian",
-      "move": "12\"",
-      "save": "3+",
-      "control": "2",
-      "health": "7",
-      "wargearOptionsText": null,
-      "publicationId": "8bf0ecb4-15e7-476b-af0f-7906f21c4599",
-      "limitingWarscrollId": null,
-      "requiredPrimaryHeroWarscrollId": null,
-      "isLegends": false,
-      "faction": "Idoneth Deepkin",
-      "weapons": [
-        {
-          "id": "4cad64f9-e507-4223-9bbf-f78e46f67302",
-          "name": "Akhelian Royal Weapons",
-          "type": "melee",
-          "range": null,
-          "attacks": "5",
-          "hit": "3+",
-          "wound": "4+",
-          "rend": "1",
-          "damage": "2",
-          "battleDamaged": false,
-          "warscrollId": "0095c267-ddb2-4ce2-9551-cee24129deb4",
-          "weaponAbilities": [
-            "Charge (+1 Damage)"
-          ]
-        },
-        {
-          "id": "a5df229e-d7e9-471b-bb20-94521e5cf4c1",
-          "name": "Deepmare’s Fangs, Talons and Lashing Tails",
-          "type": "melee",
-          "range": null,
-          "attacks": "4",
-          "hit": "4+",
-          "wound": "3+",
-          "rend": "1",
-          "damage": "2",
-          "battleDamaged": false,
-          "warscrollId": "0095c267-ddb2-4ce2-9551-cee24129deb4",
-          "weaponAbilities": [
-            "Companion"
-          ]
-        }
-      ],
-      "abilities": [
-        {
-          "id": "f3228a18-bda2-4af2-891f-799a9f055330",
-          "name": "Wave Rider",
-          "phaseDetails": "Any Charge Phase",
-          "phase": "chargePhase",
-          "castingValue": null,
-          "cpCost": null,
-          "reaction": false,
-          "lore": "When an Akhelian King charges the foe, they hit with the power of a crashing wave.",
-          "usedBy": null,
-          "declare": "If this unit charged this phase, pick an enemy unit within 1\" of it to be the target.",
-          "effect": "Roll a D3. On a 2+:\n\n• Inflict an amount of mortal damage on the target equal to the roll.\n• Add 1 to the Rend characteristic of this unit’s **Akhelian Royal Weapons** for attacks that target that enemy unit for the rest of the turn.",
-          "abilityAndCommandIcon": "offensive",
-          "warscrollId": "0095c267-ddb2-4ce2-9551-cee24129deb4",
-          "keywords": []
-        },
-        {
-          "id": "af53f288-faf5-43f9-a488-ebf27fe28b88",
-          "name": "Akhelian Paragon",
-          "phaseDetails": "Reaction: You declared a Fight ability for this unit",
-          "phase": "combatPhase",
-          "castingValue": null,
-          "cpCost": null,
-          "reaction": true,
-          "lore": "Each Akhelian King is a shining example of their caste, a master of battle whom all other Akhelians strive to emulate in battle.",
-          "usedBy": null,
-          "declare": null,
-          "effect": "Pick a friendly non-**Hero** **Akhelian Cavalry** unit that has not used a **Fight** ability this turn and is within this unit’s combat range to be the target. The target can be picked to use a **Fight** ability immediately after the **Fight** ability used by this unit has been resolved.",
-          "abilityAndCommandIcon": "offensive",
-          "warscrollId": "0095c267-ddb2-4ce2-9551-cee24129deb4",
-          "keywords": []
-        }
-      ],
-      "keywords": [
-        "Akhelian",
-        "Aelf",
-        "Fly",
-        "Cavalry",
-        "Hero"
+        "Hero",
+        "Akhelian Raidmaster or Isharann Emissary"
       ],
       "factionKeywords": [
         "Grand Alliance Order",
@@ -1325,7 +1221,7 @@
           "lore": "The mere presence of an Eidolon in its warrior aspect is enough to imbue nearby Idoneth with a fierce and bitter hate.",
           "usedBy": null,
           "declare": null,
-          "effect": "Add 1 to wound rolls for combat attacks made by friendly **Idoneth Deepkin** units while they are wholly within 12\" of this unit.",
+          "effect": "Add 1 to wound rolls for combat attacks made by friendly **IDONETH DEEPKIN** units while they are wholly within 12\" of this unit.",
           "abilityAndCommandIcon": "offensive",
           "warscrollId": "f5a89110-af70-4319-9240-be070b17e44f",
           "keywords": []
@@ -1341,7 +1237,7 @@
           "lore": "The Eidolon surges up into the sky before crashing down like a tidal wave, reforming to dive again and again until nothing is left of the enemy.",
           "usedBy": null,
           "declare": null,
-          "effect": "This unit can use **Charge** abilities even if it used a **Retreat** ability in the same turn. In addition, no mortal damage is inflicted on this unit by **Retreat** abilities.",
+          "effect": "This unit can use **CHARGE** abilities even if it used a **RETREAT** ability in the same turn. In addition, no mortal damage is inflicted on this unit by **RETREAT** abilities.",
           "abilityAndCommandIcon": "movement",
           "warscrollId": "f5a89110-af70-4319-9240-be070b17e44f",
           "keywords": []
@@ -1356,8 +1252,8 @@
           "reaction": false,
           "lore": "The viciously barbed crulhook can ensnare unfortunate foes.",
           "usedBy": null,
-          "declare": "Pick an enemy **Hero** in combat with this unit to be the target.",
-          "effect": "Roll a dice. On a 3+, the target has **Strike‑last** for the rest of the turn.",
+          "declare": "Pick an enemy **HERO** in combat with this unit to be the target.",
+          "effect": "Roll a dice. On a 3+, the target has **STRIKE‑LAST** for the rest of the turn.",
           "abilityAndCommandIcon": "offensive",
           "warscrollId": "f5a89110-af70-4319-9240-be070b17e44f",
           "keywords": [
@@ -1379,25 +1275,25 @@
       ]
     },
     {
-      "id": "844001e0-9536-46f4-8ac3-f2b569e4246c",
-      "name": "Isharann Soulrender",
+      "id": "0095c267-ddb2-4ce2-9551-cee24129deb4",
+      "name": "Akhelian King",
       "subname": null,
-      "lore": "Soulrenders are only too keen to take to the frontlines of battle, for that is where they find the greatest accumulation of souls. To these taciturn beings goes the most important task of any Idoneth raid. Each Soulrender’s helm bears a lurelight, an eldritch lantern that draws forth the souls of the recently slain so that they might be harvested. In times of dire need, the lurelight’s magic can even channel this spirit-matter into the broken bodies of wounded Namarti, knitting together their injuries so that they might fight on.\n\nOnce back in their undersea strongholds, the souls will be transferred, with those of the Idoneth enshrined in the chorrileums and others made ready to be seeded within newborn Namarti. However, until they return to their enclave and deposit their priceless bounty, the Soulrenders must fight tooth and nail to protect it. They do so with a vicious polearm known as a talúnhook, snaring their enemies from afar and forcing them to their knees so that they might be more easily dispatched. To aid their hunting, each Soulrender employs a Rakerdart, a bond-beast that glides at its master’s feet, ready to stab prey with its sharp bill to ensure none can escape.",
-      "bannerImage": "https://dhss9aar8ocw.cloudfront.net/e65629c5-93ab-4fdb-a7fa-33bdc122aff7",
-      "rowImage": "https://dhss9aar8ocw.cloudfront.net/d292416c-87e3-4a52-aa00-6e9263cec47d",
+      "lore": "The Idoneth are a people to whom warfare is a way of life, and none amongst them personify this as gloriously as the Akhelian Kings. These mighty warriors command the enclaves’ phalanxes in battle, utilising the martial skills and strategic mastery they developed during their years of military training. Reading the currents of the battlefield in an instant, they direct their warriors to outmanoeuvre and rout the foe.\n\nThe title of Akhelian King or Queen is not granted as a hereditary right; instead, it is earned through hard fighting and dedicated service to one’s enclave. If death does not claim them, they will eventually be granted regal status and command an Akhelian phalanx of their own. To the pragmatic Deepkin, such an arduous path to leadership is the best way to ensure that birthright does not elevate the weak over the strong.\n\nAkhelian Kings ride into battle upon Deepmares, sea-beasts whose talons can punch through metal. From atop their mount, an Akhelian King fights with either a bladed polearm or a greatsword known as an astra trom.",
+      "bannerImage": "https://dhss9aar8ocw.cloudfront.net/e187a444-cedc-4f2b-8f63-805e10af4e1a",
+      "rowImage": "https://dhss9aar8ocw.cloudfront.net/1701889b-0e9f-469c-bade-e3d5bda43d5d",
       "modelCount": 1,
-      "baseSize": "40mm",
-      "points": 120,
+      "baseSize": "60mm",
+      "points": 160,
       "notes": null,
       "isSpearhead": false,
       "cannotBeReinforced": true,
       "hiddenFromReference": false,
       "hiddenFromStormForge": false,
-      "referenceKeywords": "Hero, Infantry, Order, Idoneth Deepkin, Aelf, Isharann",
-      "move": "6\"",
+      "referenceKeywords": "Hero, Cavalry, Fly, Order, Idoneth Deepkin, Aelf, Akhelian",
+      "move": "12\"",
       "save": "3+",
       "control": "2",
-      "health": "5",
+      "health": "7",
       "wargearOptionsText": null,
       "publicationId": "8bf0ecb4-15e7-476b-af0f-7906f21c4599",
       "limitingWarscrollId": null,
@@ -1406,74 +1302,77 @@
       "faction": "Idoneth Deepkin",
       "weapons": [
         {
-          "id": "4a08f757-7a12-4be4-89f8-2bcaf1b3d7bc",
-          "name": "Rakerdart’s Serrated Bill",
+          "id": "4cad64f9-e507-4223-9bbf-f78e46f67302",
+          "name": "Akhelian Royal Weapons",
           "type": "melee",
           "range": null,
-          "attacks": "3",
-          "hit": "4+",
-          "wound": "4+",
-          "rend": "1",
-          "damage": "1",
-          "battleDamaged": false,
-          "warscrollId": "844001e0-9536-46f4-8ac3-f2b569e4246c",
-          "weaponAbilities": [
-            "Companion"
-          ]
-        },
-        {
-          "id": "79d0e7dd-0c24-4acb-ba35-35dcb70244a4",
-          "name": "Talúnhook",
-          "type": "melee",
-          "range": null,
-          "attacks": "4",
+          "attacks": "5",
           "hit": "3+",
           "wound": "4+",
           "rend": "1",
           "damage": "2",
           "battleDamaged": false,
-          "warscrollId": "844001e0-9536-46f4-8ac3-f2b569e4246c",
-          "weaponAbilities": []
+          "warscrollId": "0095c267-ddb2-4ce2-9551-cee24129deb4",
+          "weaponAbilities": [
+            "Charge (+1 Damage)"
+          ]
+        },
+        {
+          "id": "a5df229e-d7e9-471b-bb20-94521e5cf4c1",
+          "name": "Deepmare’s Fangs, Talons and Lashing Tails",
+          "type": "melee",
+          "range": null,
+          "attacks": "4",
+          "hit": "4+",
+          "wound": "3+",
+          "rend": "1",
+          "damage": "2",
+          "battleDamaged": false,
+          "warscrollId": "0095c267-ddb2-4ce2-9551-cee24129deb4",
+          "weaponAbilities": [
+            "Companion"
+          ]
         }
       ],
       "abilities": [
         {
-          "id": "bfb82959-63fb-42fb-9861-633efa3537db",
-          "name": "Hangman's Knot",
-          "phaseDetails": "Once Per Battle, Any Combat Phase",
-          "phase": "combatPhase",
+          "id": "f3228a18-bda2-4af2-891f-799a9f055330",
+          "name": "Wave Rider",
+          "phaseDetails": "Any Charge Phase",
+          "phase": "chargePhase",
           "castingValue": null,
           "cpCost": null,
           "reaction": false,
-          "lore": "The noose on a talúnhook can be used to ensnare a victim, ensuring they cannot escape their doom at the hands of the Soulrender.",
+          "lore": "When an Akhelian King charges the foe, they hit with the power of a crashing wave.",
           "usedBy": null,
-          "declare": "Pick an enemy **Hero** in combat with this unit to be the target.",
-          "effect": "Roll 2D6. If the roll exceeds the target’s Health characteristic, it is automatically destroyed.",
+          "declare": "If this unit charged this phase, pick an enemy unit within 1\" of it to be the target.",
+          "effect": "Roll a D3. On a 2+:\n\n• Inflict an amount of mortal damage on the target equal to the roll.\n• Add 1 to the Rend characteristic of this unit’s **Akhelian Royal Weapons** for attacks that target that enemy unit for the rest of the turn.",
           "abilityAndCommandIcon": "offensive",
-          "warscrollId": "844001e0-9536-46f4-8ac3-f2b569e4246c",
+          "warscrollId": "0095c267-ddb2-4ce2-9551-cee24129deb4",
           "keywords": []
         },
         {
-          "id": "74fb87ae-b6ab-45bd-864d-87b5b716a1d6",
-          "name": "Lurelight",
-          "phaseDetails": "End of Any Turn",
-          "phase": "endOfTurn",
+          "id": "af53f288-faf5-43f9-a488-ebf27fe28b88",
+          "name": "Akhelian Paragon",
+          "phaseDetails": "Reaction: You declared a FIGHT ability for this unit",
+          "phase": "combatPhase",
           "castingValue": null,
           "cpCost": null,
-          "reaction": false,
-          "lore": "Isharann Soulrenders possess a mystical lure that is used to draw unto them the souls of slain opponents so that they can be captured. Should the Soulrender act quickly enough, the stolen essence can be repurposed to resurrect fallen Namarti mid-battle.",
+          "reaction": true,
+          "lore": "Each Akhelian King is a shining example of their caste, a master of battle whom all other Akhelians strive to emulate in battle.",
           "usedBy": null,
-          "declare": "Pick up to 3 different friendly **Namarti** units wholly within 12\" of this unit to be the targets. You cannot pick the same unit to be the target of this ability more than once per turn. Make a lurelight roll of D3 for each target unit.",
-          "effect": "On a 2+, return a number of slain models to the target unit equal to the roll.",
-          "abilityAndCommandIcon": "rallying",
-          "warscrollId": "844001e0-9536-46f4-8ac3-f2b569e4246c",
+          "declare": null,
+          "effect": "Pick a friendly non-**HERO AKHELIAN CAVALRY** unit that has not used a **FIGHT** ability this turn and is within this unit’s combat range to be the target. The target can be picked to use a **FIGHT** ability immediately after the **FIGHT** ability used by this unit has been resolved.",
+          "abilityAndCommandIcon": "offensive",
+          "warscrollId": "0095c267-ddb2-4ce2-9551-cee24129deb4",
           "keywords": []
         }
       ],
       "keywords": [
+        "Akhelian",
         "Aelf",
-        "Infantry",
-        "Isharann",
+        "Fly",
+        "Cavalry",
         "Hero"
       ],
       "factionKeywords": [
@@ -1538,7 +1437,7 @@
           "battleDamaged": false,
           "warscrollId": "3f56a8db-7c66-415c-b5d6-3cb8c2dfa5af",
           "weaponAbilities": [
-            "Anti-Monster (+1 Rend)"
+            "Anti-MONSTER (+1 Rend)"
           ]
         },
         {
@@ -1567,7 +1466,7 @@
           "reaction": false,
           "lore": "When a Leviadon charges into battle, it crushes the foe with its sheer mass.",
           "usedBy": null,
-          "declare": "If this unit charged this phase, pick an enemy **Infantry** unit within 1\" of it to be the target.",
+          "declare": "If this unit charged this phase, pick an enemy **INFANTRY** unit within 1\" of it to be the target.",
           "effect": "Roll a dice. Add 1 to the roll if the target unit has more than 10 models. On a 3+, inflict an amount of mortal damage on the target equal to the roll.",
           "abilityAndCommandIcon": "offensive",
           "warscrollId": "3f56a8db-7c66-415c-b5d6-3cb8c2dfa5af",
@@ -1602,7 +1501,7 @@
           "lore": "A void drummer rides on the back of every Akhelian Leviadon. The mesmerising rhythm that they beat out sends rippling currents through the air, distorting the outlines of the drummer’s comrades and making them hard to see.",
           "usedBy": null,
           "declare": null,
-          "effect": "Friendly **Idoneth Deepkin** units have **Ward (5+)** while they are wholly within 6\" of this unit.",
+          "effect": "Friendly **IDONETH DEEPKIN** units have **WARD (5+)** while they are wholly within 6\" of this unit.",
           "abilityAndCommandIcon": "defensive",
           "warscrollId": "3f56a8db-7c66-415c-b5d6-3cb8c2dfa5af",
           "keywords": []
@@ -1621,6 +1520,111 @@
       ]
     },
     {
+      "id": "3401940e-f5e1-44cb-af14-856ce81f2e48",
+      "name": "Akhelian Thrallmaster",
+      "subname": null,
+      "lore": "Some members of the martial Akhelian class chafe under the traditions of Idoneth  society and yearn for the freedom of the realmseas. Others find themselves cast out by their own kind, often for speaking out against the Idoneth’s soul-based caste system. Many of these pariahs become Thrallmasters – the raider-captains of the Idoneth military. Tasked with venturing out into the realms at the head of a Namarti host, they seek out fresh soul-matter for the enclaves. Thanks to their extensive voyaging, Thrallmasters become experts at reading the ocean currents. They often tattoo themselves with priceless tidal maps illegible to other Idoneth. Most greatly enjoy using this painstakingly gathered intelligence as leverage against higher-ranked Akhelians, who must grit their teeth and deal with a Thrallmaster if they are to reach the best raiding grounds.\n\nBy necessity, Thrallmasters learn to use multiple combat techniques. They can alter their stance and weapon in a moment, wielding the vaisurr bident to skewer larger foes or switching to twin helsabres to slice a bloody path through massed ranks, and they rigorously train their Namarti charges in these same fighting styles. Many make use of bonded Snapjaw Eels to defend themselves, for when these creatures sink their fangs into the foe, they are near impossible to remove.",
+      "bannerImage": "https://dhss9aar8ocw.cloudfront.net/399230ab-a9e6-4861-8e34-00aeceb72434",
+      "rowImage": "https://dhss9aar8ocw.cloudfront.net/66d94a16-98f0-4c13-bdd8-df8c202fa6da",
+      "modelCount": 1,
+      "baseSize": "32mm",
+      "points": 120,
+      "notes": "This **HERO** can join an eligible regiment as an *Akhelian Raidmaster*.",
+      "isSpearhead": false,
+      "cannotBeReinforced": true,
+      "hiddenFromReference": false,
+      "hiddenFromStormForge": false,
+      "referenceKeywords": "Hero, Infantry, Order, Idoneth Deepkin, Aelf, Akhelian",
+      "move": "6\"",
+      "save": "5+",
+      "control": "2",
+      "health": "5",
+      "wargearOptionsText": null,
+      "publicationId": "8bf0ecb4-15e7-476b-af0f-7906f21c4599",
+      "limitingWarscrollId": null,
+      "requiredPrimaryHeroWarscrollId": null,
+      "isLegends": false,
+      "faction": "Idoneth Deepkin",
+      "weapons": [
+        {
+          "id": "30583d83-372f-41a3-9e0a-58377060bb0a",
+          "name": "Snapjaw’s Vicious Bite",
+          "type": "melee",
+          "range": null,
+          "attacks": "2",
+          "hit": "4+",
+          "wound": "4+",
+          "rend": "-",
+          "damage": "1",
+          "battleDamaged": false,
+          "warscrollId": "3401940e-f5e1-44cb-af14-856ce81f2e48",
+          "weaponAbilities": [
+            "Companion"
+          ]
+        },
+        {
+          "id": "e7d9adc3-41b4-492e-ac52-10aab0049b82",
+          "name": "Esoteric Weapons",
+          "type": "melee",
+          "range": null,
+          "attacks": "5",
+          "hit": "3+",
+          "wound": "4+",
+          "rend": "1",
+          "damage": "2",
+          "battleDamaged": false,
+          "warscrollId": "3401940e-f5e1-44cb-af14-856ce81f2e48",
+          "weaponAbilities": []
+        }
+      ],
+      "abilities": [
+        {
+          "id": "87b5dc0b-d9aa-4a21-a068-06a861fdfaa3",
+          "name": "Akhelian Fighting Stance",
+          "phaseDetails": "Any Combat Phase",
+          "phase": "combatPhase",
+          "castingValue": null,
+          "cpCost": null,
+          "reaction": false,
+          "lore": "Thrallmasters carry a personal armoury to suit the fighting stances needed to best any form of foe. They rigorously train their Namarti warriors to support each attack style at a moment’s notice.",
+          "usedBy": null,
+          "declare": null,
+          "effect": "Pick 1 of the following effects to apply to this unit and any friendly **NAMARTI** units wholly within 12\" of this unit for the rest of the turn.\n\n***Way of the Riptide:*** Those units’ melee weapons have **Crit (2 Hits)**.\n\n***Way of the Vortex:*** Subtract 1 from wound rolls for attacks that target those units.",
+          "abilityAndCommandIcon": "special",
+          "warscrollId": "3401940e-f5e1-44cb-af14-856ce81f2e48",
+          "keywords": []
+        },
+        {
+          "id": "d5f6bd56-2089-4b04-bb0e-f1120a93d52e",
+          "name": "Thrallmaster",
+          "phaseDetails": "Reaction: You declared a FIGHT ability for this unit",
+          "phase": "combatPhase",
+          "castingValue": null,
+          "cpCost": null,
+          "reaction": true,
+          "lore": "Thrallmasters are cunning and sea-scarred Akhelians who lead the Namarti hosts into battle.",
+          "usedBy": null,
+          "declare": null,
+          "effect": "Pick a friendly **Namarti Thralls** unit that has not used a **FIGHT** ability this turn and is within this unit’s combat range to be the target. The target can be picked to use a **FIGHT** ability immediately after the **FIGHT** ability used by this unit has been resolved.",
+          "abilityAndCommandIcon": "offensive",
+          "warscrollId": "3401940e-f5e1-44cb-af14-856ce81f2e48",
+          "keywords": []
+        }
+      ],
+      "keywords": [
+        "Akhelian",
+        "Akhelian Raidmaster",
+        "Aelf",
+        "Akhelian Raidmaster or Isharann Emissary",
+        "Infantry",
+        "Hero"
+      ],
+      "factionKeywords": [
+        "Grand Alliance Order",
+        "Idoneth Deepkin"
+      ]
+    },
+    {
       "id": "1fac11fc-092b-4171-8db6-3fb777226385",
       "name": "Lotann, Warden of the Soul Ledgers",
       "subname": null,
@@ -1630,7 +1634,7 @@
       "modelCount": 1,
       "baseSize": "40mm",
       "points": 100,
-      "notes": "This **Hero** can join an eligible regiment as an *Isharann Emissary*.",
+      "notes": "This **HERO** can join an eligible regiment as an *Isharann Emissary*.",
       "isSpearhead": false,
       "cannotBeReinforced": true,
       "hiddenFromReference": false,
@@ -1676,7 +1680,7 @@
           "lore": "The Soul Wardens keep records of the souls that are harvested by the phalanxes. Their presence in a battle encourages Idoneth warriors to fight all the harder, reminding them of the plight that awaits their race should they fail to meet their quota of spirit-essence.",
           "usedBy": null,
           "declare": null,
-          "effect": "Add 3 to the control scores of friendly **Idoneth Deepkin** units while they are wholly within 12\" of this unit.",
+          "effect": "Add 3 to the control scores of friendly **IDONETH DEEPKIN** units while they are wholly within 12\" of this unit.",
           "abilityAndCommandIcon": "control",
           "warscrollId": "1fac11fc-092b-4171-8db6-3fb777226385",
           "keywords": []
@@ -1692,7 +1696,7 @@
           "lore": "Such is Lotann’s obsessive commitment to his duty that his willpower bleeds out into the ethersea, a potent magical force that can be drawn upon to empower his fellow Isharann.",
           "usedBy": null,
           "declare": null,
-          "effect": "Add 1 to casting rolls for friendly **Isharann** units while they are wholly within 12\" of this unit.",
+          "effect": "Add 1 to casting rolls for friendly **ISHARANN** units while they are wholly within 12\" of this unit.",
           "abilityAndCommandIcon": "special",
           "warscrollId": "1fac11fc-092b-4171-8db6-3fb777226385",
           "keywords": []
@@ -1713,6 +1717,143 @@
       ]
     }
   ],
+  "spearheadEnhancements": [
+    {
+      "faction": "Idoneth Deepkin",
+      "abilityGroupName": "Soulraid Hunt Enhancements",
+      "abilityType": "spearheadEnhancements",
+      "id": "0c107a68-3957-45c1-b95d-7498902d3a91",
+      "name": "Steelshell Armour",
+      "phaseDetails": "Passive",
+      "phase": "defensive",
+      "abilityAndCommandIcon": "defensive",
+      "cpCost": null,
+      "lore": "This pearlescent armour offers uncanny protection, regardless of the strength behind the blows that strike it.",
+      "usedBy": null,
+      "effect": "Ignore all modifiers to save rolls for your general (positive and negative).",
+      "image": null,
+      "altText": null,
+      "subsectionName": null,
+      "subsectionLore": null,
+      "subsectionRulesText": null,
+      "reaction": false,
+      "abilityGroupId": "b6dc4388-8626-4a3f-972d-93a531a85cb0",
+      "keywords": []
+    },
+    {
+      "faction": "Idoneth Deepkin",
+      "abilityGroupName": "Soulraid Hunt Enhancements",
+      "abilityType": "spearheadEnhancements",
+      "id": "5a06f01e-ac7a-4957-8b8e-87e37928244a",
+      "name": "Arch-Ritualist",
+      "phaseDetails": "Passive",
+      "phase": "heroPhase",
+      "abilityAndCommandIcon": "special",
+      "cpCost": null,
+      "lore": "This general is a master at manipulating the ethersea to conceal the approach of their forces.",
+      "usedBy": null,
+      "effect": "Add 1 to rolls for your general’s ‘Ritual of the Creeping Mist’ ability.",
+      "image": null,
+      "altText": null,
+      "subsectionName": null,
+      "subsectionLore": null,
+      "subsectionRulesText": null,
+      "reaction": false,
+      "abilityGroupId": "b6dc4388-8626-4a3f-972d-93a531a85cb0",
+      "keywords": []
+    },
+    {
+      "faction": "Idoneth Deepkin",
+      "abilityGroupName": "Soulraid Hunt Enhancements",
+      "abilityType": "spearheadEnhancements",
+      "id": "67609f30-7490-42fd-a66d-0798de2b9e5b",
+      "name": "Mind Flare",
+      "phaseDetails": "Once Per Battle, Any Combat Phase",
+      "phase": "combatPhase",
+      "abilityAndCommandIcon": "defensive",
+      "cpCost": null,
+      "lore": "A brilliant pulse of bioluminescence suddenly illuminates the gloom of the ethersea, temporarily blinding those unprepared for it.",
+      "declare": "Pick an enemy unit in combat with your general.",
+      "usedBy": null,
+      "effect": "Until the end of the phase, attacks made by that unit only score hits on unmodified hit rolls of 6.",
+      "image": null,
+      "altText": null,
+      "subsectionName": null,
+      "subsectionLore": null,
+      "subsectionRulesText": null,
+      "reaction": false,
+      "abilityGroupId": "b6dc4388-8626-4a3f-972d-93a531a85cb0",
+      "keywords": []
+    },
+    {
+      "faction": "Idoneth Deepkin",
+      "abilityGroupName": "Soulraid Hunt Enhancements",
+      "abilityType": "spearheadEnhancements",
+      "id": "744cf13a-1e8a-454b-8cf0-000185d91972",
+      "name": "Delicious Morsels",
+      "phaseDetails": "Your Hero Phase",
+      "phase": "heroPhase",
+      "abilityAndCommandIcon": "defensive",
+      "cpCost": null,
+      "lore": "This general carries with them rare crustaceans favoured by Allopexes and Fangmora Eels.",
+      "usedBy": null,
+      "effect": "**Heal (1)** each friendly ****CAVALRY**** unit within your general’s combat range.",
+      "image": null,
+      "altText": null,
+      "subsectionName": null,
+      "subsectionLore": null,
+      "subsectionRulesText": null,
+      "reaction": false,
+      "abilityGroupId": "b6dc4388-8626-4a3f-972d-93a531a85cb0",
+      "keywords": []
+    }
+  ],
+  "regimentAbilities": [
+    {
+      "faction": "Idoneth Deepkin",
+      "abilityGroupName": "Soulraid Hunt Regiment Abilities",
+      "abilityType": "regimentAbilities",
+      "id": "259b1e7d-bb2c-45ea-9565-592cbdb2abfc",
+      "name": "Way of the Cresting Wave",
+      "phaseDetails": "Passive",
+      "phase": "combatPhase",
+      "abilityAndCommandIcon": "offensive",
+      "cpCost": null,
+      "lore": "The Thralls of this raiding party have been trained in techniques that see them strike like a tsunami.",
+      "usedBy": null,
+      "effect": "Add 1 to the Rend characteristic of melee weapons used by friendly ****Namarti** Thralls** units that charged in the same turn.",
+      "image": null,
+      "altText": null,
+      "subsectionName": null,
+      "subsectionLore": null,
+      "subsectionRulesText": null,
+      "reaction": false,
+      "abilityGroupId": "7ff15ebc-96d2-48d1-a6d5-605d983f52e5",
+      "keywords": []
+    },
+    {
+      "faction": "Idoneth Deepkin",
+      "abilityGroupName": "Soulraid Hunt Regiment Abilities",
+      "abilityType": "regimentAbilities",
+      "id": "4c685cd3-42b0-4a6a-ab22-07e8d893f56d",
+      "name": "Ethersea Predators",
+      "phaseDetails": "Once Per Turn (Army), End of Any Turn",
+      "phase": "endOfTurn",
+      "abilityAndCommandIcon": "defensive",
+      "cpCost": null,
+      "lore": "The deep-sea beasts these warriors ride are driven into a feeding frenzy during battle.",
+      "usedBy": null,
+      "effect": "Pick a friendly ****CAVALRY**** unit that used a ****FIGHT**** ability this turn. **Heal (D3)** that unit.",
+      "image": null,
+      "altText": null,
+      "subsectionName": null,
+      "subsectionLore": null,
+      "subsectionRulesText": null,
+      "reaction": false,
+      "abilityGroupId": "7ff15ebc-96d2-48d1-a6d5-605d983f52e5",
+      "keywords": []
+    }
+  ],
   "artefactsOfPower": [
     {
       "faction": "Idoneth Deepkin",
@@ -1726,7 +1867,7 @@
       "cpCost": null,
       "lore": "This hero carries with them rare crustaceans favoured by Allopexes and Fangmora Eels.",
       "usedBy": null,
-      "effect": "**Heal (D3)** each friendly **Idoneth Deepkin **Cavalry**** unit within this unit’s combat range.",
+      "effect": "**Heal (D3)** each friendly **IDONETH DEEPKIN **CAVALRY**** unit within this unit’s combat range.",
       "image": null,
       "altText": null,
       "subsectionName": null,
@@ -1748,7 +1889,7 @@
       "cpCost": null,
       "lore": "Incredibly rare, these worms feed upon magic and are capable of draining arcane energies.",
       "usedBy": null,
-      "effect": "Subtract 1 from casting rolls for enemy **Wizards** while they are within 18\" of this unit.",
+      "effect": "Subtract 1 from casting rolls for enemy **WIZARDS** while they are within 18\" of this unit.",
       "image": null,
       "altText": null,
       "subsectionName": null,
@@ -1793,7 +1934,7 @@
       "abilityAndCommandIcon": "special",
       "cpCost": null,
       "lore": "The Idoneth Deepkin are merciless reavers, as cold and cruel as the abyssal depths that they call home. They surge forth on a tide of ocean magic, striking out across the lands in search of souls to raid.",
-      "declare": "Pick a friendly **Idoneth Deepkin** unit that is **travelling the** **ethersea** to use this ability.",
+      "declare": "Pick a friendly **IDONETH DEEPKIN** unit that is **travelling the** **ethersea** to use this ability.",
       "usedBy": null,
       "effect": "Set up that unit on the battlefield wholly within 9\" of a battlefield edge and more than 9\" from all enemy units.",
       "image": null,
@@ -1816,7 +1957,7 @@
       "abilityAndCommandIcon": "special",
       "cpCost": null,
       "lore": "The Idoneth spend their entire lives in the ocean depths, emerging for one reason only: to enact raids on the land-dwelling races.",
-      "declare": "Pick a friendly regiment led by an **Idoneth Deepkin **Hero****. No units in that regiment can have already been deployed.",
+      "declare": "Pick a friendly regiment led by an **IDONETH DEEPKIN **HERO****. No units in that regiment can have already been deployed.",
       "usedBy": null,
       "effect": "Set up those units in reserve **travelling the ethersea**. They have now been deployed.",
       "image": null,
@@ -1842,7 +1983,7 @@
       "cpCost": null,
       "lore": "The Idoneth Deepkin destroy their enemies like the relentless tides of a perilous sea, building up their attack to a crashing crescendo and then receding to leave nothing but death in their wake.",
       "usedBy": null,
-      "effect": "A different effect applies to friendly **Idoneth Deepkin** units each battle round, as shown below. For the fifth battle round onwards, repeat the sequence, starting with ‘Low Tide’.\n\n**Battle Round 1:**\n***Low Tide:*** For the rest of the battle round, subtract 1 from hit rolls for shooting attacks that target this unit and subtract 1 from hit rolls for combat attacks that target this unit if it did not use any ****Charge**** abilities this turn.\n\n**Battle Round 2:**\n***Flood Tide:*** For the rest of the battle round, this unit can use a ****Run**** ability and still use ****Shoot**** and/or ****Charge**** abilities later in the turn.\n\n**Battle Round 3:**\n***High Tide:*** For the rest of the battle round, this unit has **Strike-first**.\n\n**Battle Round 4:**\n***Ebb Tide:*** For the rest of the battle round, this unit can use a ****Retreat**** ability and still use ****Shoot**** and/or ****Charge**** abilities later in the turn. In addition, for the rest of the battle round, no mortal damage is inflicted on this unit by ****Retreat**** abilities.",
+      "effect": "A different effect applies to friendly **IDONETH DEEPKIN** units each battle round, as shown below. For the fifth battle round onwards, repeat the sequence, starting with ‘Low Tide’.\n\n**Battle Round 1:**\n***Low Tide:*** For the rest of the battle round, subtract 1 from hit rolls for shooting attacks that target this unit and subtract 1 from hit rolls for combat attacks that target this unit if it did not use any ****CHARGE**** abilities this turn.\n\n**Battle Round 2:**\n***Flood Tide:*** For the rest of the battle round, this unit can use a ****RUN**** ability and still use ****SHOOT**** and/or ****CHARGE**** abilities later in the turn.\n\n**Battle Round 3:**\n***High Tide:*** For the rest of the battle round, this unit has **STRIKE-FIRST**.\n\n**Battle Round 4:**\n***Ebb Tide:*** For the rest of the battle round, this unit can use a ****RETREAT**** ability and still use ****SHOOT**** and/or ****CHARGE**** abilities later in the turn. In addition, for the rest of the battle round, no mortal damage is inflicted on this unit by ****RETREAT**** abilities.",
       "image": null,
       "altText": null,
       "subsectionName": null,
@@ -1888,7 +2029,7 @@
       "cpCost": null,
       "lore": "This hero seeks neither glory nor territory; their only interest is the capture of potent souls.",
       "usedBy": null,
-      "effect": "This unit’s melee weapons have **Anti‑**Hero** (+1 Rend)**.",
+      "effect": "This unit’s melee weapons have **Anti‑**HERO** (+1 Rend)**.",
       "image": null,
       "altText": null,
       "subsectionName": null,
@@ -1934,7 +2075,7 @@
           "phase": "heroPhase",
           "abilityAndCommandIcon": "offensive",
           "lore": "The wizard enfolds their victims in a shimmering bubble of crushing force.",
-          "declare": "Pick a friendly **Idoneth Deepkin Wizard** to cast this spell, pick a visible enemy unit within 18\" of them to be the target, then make a casting roll of 2D6.",
+          "declare": "Pick a friendly **IDONETH DEEPKIN WIZARD** to cast this spell, pick a visible enemy unit within 18\" of them to be the target, then make a casting roll of 2D6.",
           "usedBy": null,
           "effect": "Roll a dice for each model in the target unit. For each 5+, inflict 1 mortal damage on the target.",
           "castingValue": 7,
@@ -1951,7 +2092,7 @@
           "phase": "heroPhase",
           "abilityAndCommandIcon": "movement",
           "lore": "The wizard conjures a watery elemental to transport comrades through the ethersea.",
-          "declare": "Pick a friendly **Idoneth Deepkin Wizard** to cast this spell, pick a visible friendly **Idoneth Deepkin** unit wholly within 12\" of them to be the target, then make a casting roll of 2D6.",
+          "declare": "Pick a friendly **IDONETH DEEPKIN WIZARD** to cast this spell, pick a visible friendly **IDONETH DEEPKIN** unit wholly within 12\" of them to be the target, then make a casting roll of 2D6.",
           "usedBy": null,
           "effect": "Remove the target from the battlefield and set it up again on the battlefield more than 9\" from all enemy units.",
           "castingValue": 6,
@@ -1969,7 +2110,7 @@
           "phase": "heroPhase",
           "abilityAndCommandIcon": "defensive",
           "lore": "The spellcaster pushes forth a wave of aetheric energy that picks particles up off the ground and hurls them at the foe, dulling their weapons.",
-          "declare": "Pick a friendly **Idoneth Deepkin Wizard** to cast this spell, pick a visible enemy unit within 12\" of them to be the target, then make a casting roll of 2D6.",
+          "declare": "Pick a friendly **IDONETH DEEPKIN WIZARD** to cast this spell, pick a visible enemy unit within 12\" of them to be the target, then make a casting roll of 2D6.",
           "usedBy": null,
           "effect": "Subtract 1 from the Rend characteristic of the target’s melee weapons until the start of your next turn.",
           "castingValue": 6,
@@ -1995,7 +2136,7 @@
           "abilityAndCommandIcon": "movement",
           "lore": "The Namarti are the lowest caste in Idoneth society, but when formed into a Namarti Corps and led to battle by their Akhelian masters, they strike swiftly and with devastating effect.",
           "declare": null,
-          "effect": "You can re-roll run rolls and charge rolls for friendly **Namarti** units while they are wholly within 12\" of a friendly **Akhelian** unit.",
+          "effect": "You can re-roll run rolls and charge rolls for friendly **NAMARTI** units while they are wholly within 12\" of a friendly **AKHELIAN** unit.",
           "usedBy": null,
           "reaction": false,
           "battleFormationId": "1471f1aa-0db9-484f-aee6-4daac569ebc9",
@@ -2014,7 +2155,7 @@
           "phase": "endOfTurn",
           "abilityAndCommandIcon": "movement",
           "lore": "The Soul-raid Ambushers are experts in hit-and-run tactics, riding the currents of the ethersea to strike the foe from new directions.",
-          "declare": "Pick a friendly **Idoneth Deepkin Infantry** or **Cavalry** unit wholly within 3\" of a terrain feature.",
+          "declare": "Pick a friendly **IDONETH DEEPKIN INFANTRY** or **CAVALRY** unit wholly within 3\" of a terrain feature.",
           "effect": "Remove that unit from the battlefield and set it up in reserve **travelling the ethersea** (see the ‘Raiders from the Deep’ ability).",
           "usedBy": null,
           "reaction": false,
@@ -2035,7 +2176,7 @@
           "abilityAndCommandIcon": "offensive",
           "lore": "With the aid of the Embailors, the Akhelian Beastmasters are able to seize control of their creatures’ predatory consciousness and turn them into truly terrifying weapons of war.",
           "declare": null,
-          "effect": "Add 1 to hit rolls for combat attacks made with **Companion** weapons by friendly **Akhelian** units.",
+          "effect": "Add 1 to hit rolls for combat attacks made with **Companion** weapons by friendly **AKHELIAN** units.",
           "usedBy": null,
           "reaction": false,
           "battleFormationId": "b82e0321-4e7c-4722-95f1-be15305e9f68",
@@ -2055,7 +2196,7 @@
           "abilityAndCommandIcon": "special",
           "lore": "The Isharann are born with a talent for harnessing arcane forces. This power is only amplified when these aelves convene an Isharann Council and head to war.",
           "declare": null,
-          "effect": "Add 1 to casting rolls, Isharann ritual rolls and lurelight rolls for friendly **Isharann** units while they are within the combat ranges of any other friendly **Isharann** units.",
+          "effect": "Add 1 to casting rolls, Isharann ritual rolls and lurelight rolls for friendly **ISHARANN** units while they are within the combat ranges of any other friendly **ISHARANN** units.",
           "usedBy": null,
           "reaction": false,
           "battleFormationId": "fe46ad59-0d5c-474a-a805-f63b0edd7e02",

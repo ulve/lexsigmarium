@@ -1,80 +1,6 @@
 {
-  "dataVersion": 197,
+  "dataVersion": 216,
   "warscrolls": [
-    {
-      "id": "06dfed2e-9a04-4998-b0f1-64bcf5e0519c",
-      "name": "Guardian of Souls",
-      "subname": null,
-      "lore": "Should a traveller stray into a graveyard or mausoleum in the dead of night, they may see an unwholesome fire burning in the gloom. This is no will-o’-the-wisp or magical illusion but the lantern of a sorcerous Guardian of Souls. These drifting creatures are nexuses of undead energy, and they form the focal point of many a Nighthaunt host. They are guardians only in that they preserve the lesser gheists from banishment back to Shyish, for Nagash still has need of their hatred in the other realms.\n\nAs mortals, these so-called guardians each dabbled in the dark arts of undeath, but after realising they trod a perilous downward spiral, they stepped away – a weakness of morality that the Great Necromancer neither forgot nor forgave. Upon their deaths, Nagash remade these former magic users as unliving conduits for the necromantic energy they once spurned. The ornate lanterns they carry invigorate the dead and gheists are drawn to them as a starving peasant is drawn to the window of a feast hall. These lesser undead are given new animus, bound into a host of ravening spirits ready to annihilate the living in the name of the Great Necromancer.",
-      "bannerImage": "https://dhss9aar8ocw.cloudfront.net/68d84657-a9f9-42e5-9127-8cb3ca356b48",
-      "rowImage": "https://dhss9aar8ocw.cloudfront.net/a7d28640-0cdc-45ed-9f33-0b8821fb34c2",
-      "modelCount": 1,
-      "baseSize": "32mm",
-      "points": 140,
-      "notes": null,
-      "isSpearhead": false,
-      "cannotBeReinforced": true,
-      "hiddenFromReference": false,
-      "hiddenFromStormForge": false,
-      "referenceKeywords": "Hero, Wizard (1), Infantry, Fly, Ward (6+), Death, Nighthaunt",
-      "move": "8\"",
-      "save": "4+",
-      "control": "2",
-      "health": "5",
-      "wargearOptionsText": null,
-      "publicationId": "f22b1c99-95e7-458c-a026-bde9bb1b711b",
-      "limitingWarscrollId": null,
-      "requiredPrimaryHeroWarscrollId": null,
-      "isLegends": false,
-      "faction": "Nighthaunt",
-      "weapons": [
-        {
-          "id": "971a372c-c574-4cac-83eb-0c03b158280c",
-          "name": "Chill Blade",
-          "type": "melee",
-          "range": null,
-          "attacks": "3",
-          "hit": "4+",
-          "wound": "3+",
-          "rend": "1",
-          "damage": "2",
-          "battleDamaged": false,
-          "warscrollId": "06dfed2e-9a04-4998-b0f1-64bcf5e0519c",
-          "weaponAbilities": [
-            "Crit (Auto-wound)"
-          ]
-        }
-      ],
-      "abilities": [
-        {
-          "id": "5bbeb95c-284e-4345-8bdd-85f3d8e8e4cb",
-          "name": "Nightmare Lantern",
-          "phaseDetails": "Passive",
-          "phase": "combatPhase",
-          "castingValue": null,
-          "cpCost": null,
-          "reaction": false,
-          "lore": "The cursed light of Nagashizzar bound within a nightmare lantern invigorates the dark souls of any Nighthaunt it illuminates.",
-          "usedBy": null,
-          "declare": null,
-          "effect": "While this unit is in combat, add 1 to wound rolls for combat attacks made by friendly **Nighthaunt** units while they are wholly within 12\" of this unit.",
-          "abilityAndCommandIcon": "offensive",
-          "warscrollId": "06dfed2e-9a04-4998-b0f1-64bcf5e0519c",
-          "keywords": []
-        }
-      ],
-      "keywords": [
-        "Wizard",
-        "Infantry",
-        "Ward (6+)",
-        "Fly",
-        "Hero"
-      ],
-      "factionKeywords": [
-        "Nighthaunt",
-        "Grand Alliance Death"
-      ]
-    },
     {
       "id": "0881d4d1-88e7-4869-95f4-cf7ce0ba268b",
       "name": "Mortalis Terminexus",
@@ -113,7 +39,7 @@
           "reaction": false,
           "lore": "A Mortalis Terminexus is a catalyst of deathly magic that invigorates surrounding Nighthaunt.",
           "usedBy": null,
-          "declare": "Pick a visible friendly **Nighthaunt** unit within 3\" of this **Manifestation** to be the target.",
+          "declare": "Pick a visible friendly **NIGHTHAUNT** unit within 3\" of this **MANIFESTATION** to be the target.",
           "effect": "Roll a dice. On a 2+, pick 1 of the following effects:\n\n• Add 1 to run rolls and charge rolls for target for the rest of the turn.\n• **Heal (3)** the target.",
           "abilityAndCommandIcon": "special",
           "warscrollId": "0881d4d1-88e7-4869-95f4-cf7ce0ba268b",
@@ -125,172 +51,6 @@
         "Endless Spell",
         "Ward (6+)",
         "Fly"
-      ],
-      "factionKeywords": [
-        "Nighthaunt",
-        "Grand Alliance Death"
-      ]
-    },
-    {
-      "id": "0e7cee10-523f-42f4-8154-ecb919dcbb56",
-      "name": "Lord Executioner",
-      "subname": null,
-      "lore": "Bearing the headsman’s axe of their former trade, a Lord Executioner is a macabre killer. Sent to claim the lives of those who have escaped the cold justice of Shyish, the spirits of the wrongfully executed drift around them, crying out their anguish into the night even as they intercept blows meant to harm their slayer. Unusually amongst the ranks of the Nighthaunt, the Lord Executioner was once a deliverer of justice rather than a criminal who defied it. These figures were held in fear in life, for their calling was that of the headsman, their duty to decapitate or hang those who flouted the law. Theirs was a task attended to with diligent dedication, even relish.\n\nSome such executioners become enamoured with their craft. Towards the end of their tenures, they did not look too closely at the circumstances surrounding each kill, though they told themselves they were always acting in the name of civil stricture and order. Nagash has stripped away that pretence, and now they take head from neck without such mortal qualms. To look upon them is to know that one’s crimes have been judged by a pitiless arbiter, and all that awaits is the bitter embrace of the grave.",
-      "bannerImage": "https://dhss9aar8ocw.cloudfront.net/f860f4d3-399d-4159-8296-d3c109cfef78",
-      "rowImage": "https://dhss9aar8ocw.cloudfront.net/fdb65cd4-5cf9-441d-b533-352aaec3de24",
-      "modelCount": 1,
-      "baseSize": "40mm",
-      "points": 150,
-      "notes": "This **Hero** can join an eligible regiment as a *Cursed Soul*.",
-      "isSpearhead": false,
-      "cannotBeReinforced": true,
-      "hiddenFromReference": false,
-      "hiddenFromStormForge": false,
-      "referenceKeywords": "Hero, Infantry, Fly, Ward (5+), Death, Nighthaunt",
-      "move": "8\"",
-      "save": "4+",
-      "control": "2",
-      "health": "5",
-      "wargearOptionsText": null,
-      "publicationId": "f22b1c99-95e7-458c-a026-bde9bb1b711b",
-      "limitingWarscrollId": null,
-      "requiredPrimaryHeroWarscrollId": null,
-      "isLegends": false,
-      "faction": "Nighthaunt",
-      "weapons": [
-        {
-          "id": "a0c14fa0-de04-4349-9b74-024e522775ae",
-          "name": "Decapitating Greataxe",
-          "type": "melee",
-          "range": null,
-          "attacks": "5",
-          "hit": "3+",
-          "wound": "3+",
-          "rend": "2",
-          "damage": "2",
-          "battleDamaged": false,
-          "warscrollId": "0e7cee10-523f-42f4-8154-ecb919dcbb56",
-          "weaponAbilities": [
-            "Anti-Hero (+1 Rend)",
-            "Crit (Auto-wound)"
-          ]
-        }
-      ],
-      "abilities": [
-        {
-          "id": "3f7657cd-832d-42b1-b326-32d2e743fafe",
-          "name": "Staring Death In The Face",
-          "phaseDetails": "Once Per Turn, Any Combat Phase",
-          "phase": "combatPhase",
-          "castingValue": null,
-          "cpCost": null,
-          "reaction": false,
-          "lore": "The unwavering stare of a Lord Executioner seems to penetrate the victim’s very soul.",
-          "usedBy": null,
-          "declare": "Pick an enemy unit in combat with this unit to be the target.",
-          "effect": "Roll a dice. On a 2+, subtract 1 from the Attacks characteristic of the target’s melee weapons for the rest of the turn. In addition, if the target is a **Hero**, subtract 5 from the target’s control score for the rest of the turn.",
-          "abilityAndCommandIcon": "special",
-          "warscrollId": "0e7cee10-523f-42f4-8154-ecb919dcbb56",
-          "keywords": []
-        }
-      ],
-      "keywords": [
-        "Ward (5+)",
-        "Cursed Soul",
-        "Infantry",
-        "Fly",
-        "Hero"
-      ],
-      "factionKeywords": [
-        "Nighthaunt",
-        "Grand Alliance Death"
-      ]
-    },
-    {
-      "id": "12d4db77-29d6-4438-9cc9-aa14b8a57fb7",
-      "name": "Kurdoss Valentian, the Craven King",
-      "subname": null,
-      "lore": "The Craven King sits upon a grand throne and wears an imposing crown of dark iron, but these are nothing more than worthless trinkets; Kurdoss Valentian will never know a moment of true glory, for his reign is nothing more than a farce and his gestured commands can be disobeyed without consequence. The twin heralds who hover at their monarch’s side – the souls of two brothers Valentian had murdered in his pursuit of power – do not regale him with tales of his triumphs but instead mock and denigrate him eternally. Endlessly tormented by their words yet unable to lash out because of the sorceries that bind him, Kurdoss seeks an outlet for his immortal anguish in battle.\n\nIn the press of combat, Valentian swings his enormous mace with skull-crushing force, finding some catharsis in every slain champion or butchered monster. Yet even this is tainted by the knowledge that he is little more than a crude implement to be wielded by his liege, Lady Olynder. He is unable even to speak without her permission, and nothing but grave-dust spills from his mouth when he tries to bellow an order or curse a foe. So powerful is Valentian’s aura of bitter silence that even enemy leaders find their commands dying on their lips. For if the Craven King cannot rule, then no mortal king may do so in his stead.",
-      "bannerImage": "https://dhss9aar8ocw.cloudfront.net/fc0d1982-f723-445a-93d4-183a5237c47f",
-      "rowImage": "https://dhss9aar8ocw.cloudfront.net/06a698c0-4f68-4058-89e3-ecf3aa705efd",
-      "modelCount": 1,
-      "baseSize": "60mm",
-      "points": 200,
-      "notes": null,
-      "isSpearhead": false,
-      "cannotBeReinforced": true,
-      "hiddenFromReference": false,
-      "hiddenFromStormForge": false,
-      "referenceKeywords": "Unique, Hero, Infantry, Fly, Ward (6+), Death, Nighthaunt",
-      "move": "8\"",
-      "save": "4+",
-      "control": "5",
-      "health": "7",
-      "wargearOptionsText": null,
-      "publicationId": "f22b1c99-95e7-458c-a026-bde9bb1b711b",
-      "limitingWarscrollId": null,
-      "requiredPrimaryHeroWarscrollId": null,
-      "isLegends": false,
-      "faction": "Nighthaunt",
-      "weapons": [
-        {
-          "id": "0fdabe7e-317b-44ad-afd8-cd781f65a2bf",
-          "name": "Sepulchral Sceptre",
-          "type": "melee",
-          "range": null,
-          "attacks": "4",
-          "hit": "3+",
-          "wound": "3+",
-          "rend": "2",
-          "damage": "3",
-          "battleDamaged": false,
-          "warscrollId": "12d4db77-29d6-4438-9cc9-aa14b8a57fb7",
-          "weaponAbilities": [
-            "Crit (Auto-wound)"
-          ]
-        },
-        {
-          "id": "f70a7aa1-32f0-49fc-a5cd-a262639c7358",
-          "name": "Wraith Heralds’ Spectral Claws",
-          "type": "melee",
-          "range": null,
-          "attacks": "6",
-          "hit": "4+",
-          "wound": "4+",
-          "rend": "-",
-          "damage": "1",
-          "battleDamaged": false,
-          "warscrollId": "12d4db77-29d6-4438-9cc9-aa14b8a57fb7",
-          "weaponAbilities": [
-            "Companion",
-            "Crit (Auto-wound)"
-          ]
-        }
-      ],
-      "abilities": [
-        {
-          "id": "5d43928f-53b3-4f43-ad5c-a494f63bf323",
-          "name": "If I Cannot Rule, None Shall Rule!",
-          "phaseDetails": "Once Per Turn, Reaction: Opponent declared a command for a unit within 12\" of this unit",
-          "phase": "startOfTurn",
-          "castingValue": null,
-          "cpCost": null,
-          "reaction": true,
-          "lore": "In the presence of Kurdoss Valentian’s all-consuming bitterness and the cruel malice of his heralds, the commands of enemy generals turn to dust in their mouths even as they issue them.",
-          "usedBy": null,
-          "declare": null,
-          "effect": "Roll a dice. On a 3+, unless your opponent spends 1 additional command point to use that command, the command has no effect, it still counts as having been used and the command points spent to use the command are still lost.",
-          "abilityAndCommandIcon": "special",
-          "warscrollId": "12d4db77-29d6-4438-9cc9-aa14b8a57fb7",
-          "keywords": []
-        }
-      ],
-      "keywords": [
-        "Unique",
-        "Infantry",
-        "Ward (6+)",
-        "Fly",
-        "Hero"
       ],
       "factionKeywords": [
         "Nighthaunt",
@@ -345,7 +105,7 @@
         {
           "id": "eb9c4831-f78b-403c-aef5-52efc1aa12a1",
           "name": "Spell-eaters",
-          "phaseDetails": "Reaction: Opponent declared a Spell ability",
+          "phaseDetails": "Reaction: Opponent declared a SPELL ability",
           "phase": "heroPhase",
           "castingValue": null,
           "cpCost": null,
@@ -353,7 +113,7 @@
           "lore": "These spirits were once wizards, but they failed to pay proper respect to Nagash and are now cursed to agonisingly withstand the magic of others.",
           "usedBy": null,
           "declare": null,
-          "effect": "If a friendly **Nighthaunt** unit wholly within 12\" of this unit was picked to be the target of that spell, this unit can use the ‘Unbind’ ability as if it had **Wizard (1)**. Add 1 to the unbinding roll for that ability. If the spell is unbound, inflict D3 mortal damage on the caster.",
+          "effect": "If a friendly **NIGHTHAUNT** unit wholly within 12\" of this unit was picked to be the target of that spell, this unit can use the ‘Unbind’ ability as if it had **WIZARD (1)**. Add 1 to the unbinding roll for that ability. If the spell is unbound, inflict D3 mortal damage on the caster.",
           "abilityAndCommandIcon": "special",
           "warscrollId": "138b4a2b-d53f-42d6-ac46-4068b9ee7bb3",
           "keywords": []
@@ -408,7 +168,7 @@
           "lore": "This summoned chest siphons souls, filling itself to overflowing with the rich spirits of mortalkind.",
           "usedBy": null,
           "declare": null,
-          "effect": "Each time a model (friendly or enemy) is slain within 12\" of this **Manifestation**, give this **Manifestation** a **soul point**, to a maximum of 6.",
+          "effect": "Each time a model (friendly or enemy) is slain within 12\" of this **MANIFESTATION**, give this **MANIFESTATION** a **soul point**, to a maximum of 6.",
           "abilityAndCommandIcon": "special",
           "warscrollId": "1499ec9a-e664-4506-9a68-6391b94e413f",
           "keywords": []
@@ -423,8 +183,8 @@
           "reaction": false,
           "lore": "Should a Vault of Souls glut itself too greedily, the captured spirits within will burst free, tearing at those nearby in their desperation to escape.",
           "usedBy": null,
-          "declare": "If this **Manifestation** has 6 **soul points**, pick any number of enemy units within 6\" of this unit to be the targets.",
-          "effect": "Roll a dice for each target. On a 3+, inflict an amount of mortal damage on the target equal to the roll. Then, reset this **Manifestation’**s **soul points** to 0.",
+          "declare": "If this **MANIFESTATION** has 6 **soul points**, pick any number of enemy units within 6\" of this unit to be the targets.",
+          "effect": "Roll a dice for each target. On a 3+, inflict an amount of mortal damage on the target equal to the roll. Then, reset this **MANIFESTATION**'s **soul points** to 0.",
           "abilityAndCommandIcon": "offensive",
           "warscrollId": "1499ec9a-e664-4506-9a68-6391b94e413f",
           "keywords": []
@@ -513,7 +273,7 @@
           "lore": "Krulghast Cruciators draw power from the suffering of those around them, becoming beacons of death magic that make nearby Nighthaunt more difficult to banish.",
           "usedBy": null,
           "declare": null,
-          "effect": "Ignore the first damage point that would be allocated to each friendly **Nighthaunt** unit wholly within 12\" of this unit in each phase.",
+          "effect": "Ignore the first damage point that would be allocated to each friendly **NIGHTHAUNT** unit wholly within 12\" of this unit in each phase.",
           "abilityAndCommandIcon": "defensive",
           "warscrollId": "2ff3c897-5346-4ff5-9306-8d1baa153fca",
           "keywords": []
@@ -676,7 +436,7 @@
           "lore": "When the champions of the Nighthaunt muster their processions for battle, Spirit Hosts flock to join their cause, serving as useful fodder for the enemy.",
           "usedBy": null,
           "declare": null,
-          "effect": "Friendly **Nighthaunt Infantry Heroes** have **Ward (4+)** while they are wholly within this unit’s combat range.",
+          "effect": "Friendly **NIGHTHAUNT INFANTRY HEROES** have **WARD (4+)** while they are wholly within this unit’s combat range.",
           "abilityAndCommandIcon": "defensive",
           "warscrollId": "686e438f-26b1-4bad-b9bd-2c47e9841db2",
           "keywords": []
@@ -783,6 +543,657 @@
       ]
     },
     {
+      "id": "e826f5f7-2f22-435d-a054-79b640365011",
+      "name": "Awlrach the Drowner",
+      "subname": null,
+      "lore": "A chorus of pitiful, gurgling cries heralds the coming of Awlrach the Drowner, a murderous wraith borne across the lands on a funeral barque. This spectral vessel trails the tormented spirits of those Awlrach betrayed and killed as a mortal, sending them to a briny death in the guise of a friendly boatman. Such cruel and needless murder was pleasing to Nagash, who remade Awlrach as a hunched and towering gheist. He ordered his new servant to row forever across the Mortal Realms, slaying mortals and delivering their souls to the underworlds.\n\nThe Drowner is unusual amongst the Nighthaunt hordes, for he truly relishes his eternal duty. To look upon this faceless murderer is to gaze into a black abyss of evil – an entity that commits atrocity not because he is driven to by compulsion but simply because he enjoys it. Awlrach’s work is never done. Always there is more living prey to drown in deathly energy; always there are more spirits desperate to climb from the corpse-strewn soil onto his barque rather than dwindle to nothingness in the boiling ectoplasm of his wake.",
+      "bannerImage": "https://dhss9aar8ocw.cloudfront.net/4e7e06d8-1a22-4988-bc23-7f84a053533f",
+      "rowImage": "https://dhss9aar8ocw.cloudfront.net/081b0945-469f-4b12-8671-0b38ef06f666",
+      "modelCount": 1,
+      "baseSize": "80mm",
+      "points": 170,
+      "notes": null,
+      "isSpearhead": false,
+      "cannotBeReinforced": true,
+      "hiddenFromReference": false,
+      "hiddenFromStormForge": false,
+      "referenceKeywords": "Unique, Hero, War Machine, Fly, Ward (6+), Death, Nighthaunt",
+      "move": "10\"",
+      "save": "4+",
+      "control": "2",
+      "health": "7",
+      "wargearOptionsText": null,
+      "publicationId": "f22b1c99-95e7-458c-a026-bde9bb1b711b",
+      "limitingWarscrollId": null,
+      "requiredPrimaryHeroWarscrollId": null,
+      "isLegends": false,
+      "faction": "Nighthaunt",
+      "weapons": [
+        {
+          "id": "45043a43-d0ad-47a6-b21e-411d8b982a31",
+          "name": "Deathwood Oar",
+          "type": "melee",
+          "range": null,
+          "attacks": "4",
+          "hit": "4+",
+          "wound": "3+",
+          "rend": "2",
+          "damage": "D3",
+          "battleDamaged": false,
+          "warscrollId": "e826f5f7-2f22-435d-a054-79b640365011",
+          "weaponAbilities": [
+            "Crit (Auto-wound)"
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "id": "63530a4f-4d02-481f-bcc6-a1af00021de4",
+          "name": "Passage Through The Underworlds",
+          "phaseDetails": "Once Per Turn (Army), Your Movement Phase",
+          "phase": "movementPhase",
+          "castingValue": null,
+          "cpCost": null,
+          "reaction": false,
+          "lore": "A master of navigation, Awlrach can drift through the ethereal plane to new locations at will. By the time the foe has discovered his arrival, it is all too late to stop the spectral cargo that made the journey with him.",
+          "usedBy": null,
+          "declare": "If this unit is not in combat, pick a friendly non-**HERO NIGHTHAUNT** unit that is not in combat and is wholly within 12\" of this unit to be the target.",
+          "effect": "Remove this unit and the target from the battlefield, then set them up again on the battlefield wholly within 6\" of each other and more than 7\" from all enemy units.",
+          "abilityAndCommandIcon": "movement",
+          "warscrollId": "e826f5f7-2f22-435d-a054-79b640365011",
+          "keywords": [
+            "Core"
+          ]
+        }
+      ],
+      "keywords": [
+        "War Machine",
+        "Unique",
+        "Ward (6+)",
+        "Fly",
+        "Hero"
+      ],
+      "factionKeywords": [
+        "Nighthaunt",
+        "Grand Alliance Death"
+      ]
+    },
+    {
+      "id": "06dfed2e-9a04-4998-b0f1-64bcf5e0519c",
+      "name": "Guardian of Souls",
+      "subname": null,
+      "lore": "Should a traveller stray into a graveyard or mausoleum in the dead of night, they may see an unwholesome fire burning in the gloom. This is no will-o’-the-wisp or magical illusion but the lantern of a sorcerous Guardian of Souls. These drifting creatures are nexuses of undead energy, and they form the focal point of many a Nighthaunt host. They are guardians only in that they preserve the lesser gheists from banishment back to Shyish, for Nagash still has need of their hatred in the other realms.\n\nAs mortals, these so-called guardians each dabbled in the dark arts of undeath, but after realising they trod a perilous downward spiral, they stepped away – a weakness of morality that the Great Necromancer neither forgot nor forgave. Upon their deaths, Nagash remade these former magic users as unliving conduits for the necromantic energy they once spurned. The ornate lanterns they carry invigorate the dead and gheists are drawn to them as a starving peasant is drawn to the window of a feast hall. These lesser undead are given new animus, bound into a host of ravening spirits ready to annihilate the living in the name of the Great Necromancer.",
+      "bannerImage": "https://dhss9aar8ocw.cloudfront.net/68d84657-a9f9-42e5-9127-8cb3ca356b48",
+      "rowImage": "https://dhss9aar8ocw.cloudfront.net/a7d28640-0cdc-45ed-9f33-0b8821fb34c2",
+      "modelCount": 1,
+      "baseSize": "32mm",
+      "points": 150,
+      "notes": null,
+      "isSpearhead": false,
+      "cannotBeReinforced": true,
+      "hiddenFromReference": false,
+      "hiddenFromStormForge": false,
+      "referenceKeywords": "Hero, Wizard (1), Infantry, Fly, Ward (6+), Death, Nighthaunt",
+      "move": "8\"",
+      "save": "4+",
+      "control": "2",
+      "health": "5",
+      "wargearOptionsText": null,
+      "publicationId": "f22b1c99-95e7-458c-a026-bde9bb1b711b",
+      "limitingWarscrollId": null,
+      "requiredPrimaryHeroWarscrollId": null,
+      "isLegends": false,
+      "faction": "Nighthaunt",
+      "weapons": [
+        {
+          "id": "971a372c-c574-4cac-83eb-0c03b158280c",
+          "name": "Chill Blade",
+          "type": "melee",
+          "range": null,
+          "attacks": "3",
+          "hit": "4+",
+          "wound": "3+",
+          "rend": "1",
+          "damage": "2",
+          "battleDamaged": false,
+          "warscrollId": "06dfed2e-9a04-4998-b0f1-64bcf5e0519c",
+          "weaponAbilities": [
+            "Crit (Auto-wound)"
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "id": "5bbeb95c-284e-4345-8bdd-85f3d8e8e4cb",
+          "name": "Nightmare Lantern",
+          "phaseDetails": "Passive",
+          "phase": "combatPhase",
+          "castingValue": null,
+          "cpCost": null,
+          "reaction": false,
+          "lore": "The cursed light of Nagashizzar bound within a nightmare lantern invigorates the dark souls of any Nighthaunt it illuminates.",
+          "usedBy": null,
+          "declare": null,
+          "effect": "While this unit is in combat, add 1 to wound rolls for combat attacks made by friendly **NIGHTHAUNT** units while they are wholly within 12\" of this unit.",
+          "abilityAndCommandIcon": "offensive",
+          "warscrollId": "06dfed2e-9a04-4998-b0f1-64bcf5e0519c",
+          "keywords": []
+        }
+      ],
+      "keywords": [
+        "Wizard",
+        "Infantry",
+        "Ward (6+)",
+        "Fly",
+        "Hero"
+      ],
+      "factionKeywords": [
+        "Nighthaunt",
+        "Grand Alliance Death"
+      ]
+    },
+    {
+      "id": "12d4db77-29d6-4438-9cc9-aa14b8a57fb7",
+      "name": "Kurdoss Valentian, the Craven King",
+      "subname": null,
+      "lore": "The Craven King sits upon a grand throne and wears an imposing crown of dark iron, but these are nothing more than worthless trinkets; Kurdoss Valentian will never know a moment of true glory, for his reign is nothing more than a farce and his gestured commands can be disobeyed without consequence. The twin heralds who hover at their monarch’s side – the souls of two brothers Valentian had murdered in his pursuit of power – do not regale him with tales of his triumphs but instead mock and denigrate him eternally. Endlessly tormented by their words yet unable to lash out because of the sorceries that bind him, Kurdoss seeks an outlet for his immortal anguish in battle.\n\nIn the press of combat, Valentian swings his enormous mace with skull-crushing force, finding some catharsis in every slain champion or butchered monster. Yet even this is tainted by the knowledge that he is little more than a crude implement to be wielded by his liege, Lady Olynder. He is unable even to speak without her permission, and nothing but grave-dust spills from his mouth when he tries to bellow an order or curse a foe. So powerful is Valentian’s aura of bitter silence that even enemy leaders find their commands dying on their lips. For if the Craven King cannot rule, then no mortal king may do so in his stead.",
+      "bannerImage": "https://dhss9aar8ocw.cloudfront.net/fc0d1982-f723-445a-93d4-183a5237c47f",
+      "rowImage": "https://dhss9aar8ocw.cloudfront.net/06a698c0-4f68-4058-89e3-ecf3aa705efd",
+      "modelCount": 1,
+      "baseSize": "60mm",
+      "points": 190,
+      "notes": null,
+      "isSpearhead": false,
+      "cannotBeReinforced": true,
+      "hiddenFromReference": false,
+      "hiddenFromStormForge": false,
+      "referenceKeywords": "Unique, Hero, Infantry, Fly, Ward (6+), Death, Nighthaunt",
+      "move": "8\"",
+      "save": "4+",
+      "control": "5",
+      "health": "7",
+      "wargearOptionsText": null,
+      "publicationId": "f22b1c99-95e7-458c-a026-bde9bb1b711b",
+      "limitingWarscrollId": null,
+      "requiredPrimaryHeroWarscrollId": null,
+      "isLegends": false,
+      "faction": "Nighthaunt",
+      "weapons": [
+        {
+          "id": "0fdabe7e-317b-44ad-afd8-cd781f65a2bf",
+          "name": "Sepulchral Sceptre",
+          "type": "melee",
+          "range": null,
+          "attacks": "4",
+          "hit": "3+",
+          "wound": "3+",
+          "rend": "2",
+          "damage": "3",
+          "battleDamaged": false,
+          "warscrollId": "12d4db77-29d6-4438-9cc9-aa14b8a57fb7",
+          "weaponAbilities": [
+            "Crit (Auto-wound)"
+          ]
+        },
+        {
+          "id": "f70a7aa1-32f0-49fc-a5cd-a262639c7358",
+          "name": "Wraith Heralds’ Spectral Claws",
+          "type": "melee",
+          "range": null,
+          "attacks": "6",
+          "hit": "4+",
+          "wound": "4+",
+          "rend": "-",
+          "damage": "1",
+          "battleDamaged": false,
+          "warscrollId": "12d4db77-29d6-4438-9cc9-aa14b8a57fb7",
+          "weaponAbilities": [
+            "Companion",
+            "Crit (Auto-wound)"
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "id": "5d43928f-53b3-4f43-ad5c-a494f63bf323",
+          "name": "If I Cannot Rule, None Shall Rule!",
+          "phaseDetails": "Once Per Turn, Reaction: Opponent declared a command for a unit within 12\" of this unit",
+          "phase": "startOfTurn",
+          "castingValue": null,
+          "cpCost": null,
+          "reaction": true,
+          "lore": "In the presence of Kurdoss Valentian’s all-consuming bitterness and the cruel malice of his heralds, the commands of enemy generals turn to dust in their mouths even as they issue them.",
+          "usedBy": null,
+          "declare": null,
+          "effect": "Roll a dice. On a 3+, unless your opponent spends 1 additional command point to use that command, the command has no effect, it still counts as having been used and the command points spent to use the command are still lost.",
+          "abilityAndCommandIcon": "special",
+          "warscrollId": "12d4db77-29d6-4438-9cc9-aa14b8a57fb7",
+          "keywords": []
+        }
+      ],
+      "keywords": [
+        "Unique",
+        "Infantry",
+        "Ward (6+)",
+        "Fly",
+        "Hero"
+      ],
+      "factionKeywords": [
+        "Nighthaunt",
+        "Grand Alliance Death"
+      ]
+    },
+    {
+      "id": "974a9aad-d575-4d5c-9584-15be6d355d75",
+      "name": "Spirit Torment",
+      "subname": null,
+      "lore": "The deeply unsettling creatures known as Spirit Torments are Nagash’s spectral gaolers. Lords of the Great Oubliette, a continent-sized underworld said to be honeycombed with freezing dungeons and pitch-black cells, their most distinctive features are the great shacklegheist chains they drag behind them. Spirit Torments swing these malefic weapons with incredible might, chuckling darkly as the hefty iron padlocks that cap each chain strike their enemies with the force of a cannonball.\n\nYet the true horror of a Spirit Torment lies in their ability to trammel the life force of the slain into those same enchanted padlocks. Escape from these eldritch prisons is all but impossible – it is said they are even able to capture the discorporating energies of Stormcast Eternals before they can return to the heavens. All Spirit Torments get a dark satisfaction from peering into the depths of their arcane prisons and observing the miseries of those trapped within. In consuming their captives’ last vestiges of hope, each Torment becomes a locus of dread, empowering their fellow Nighthaunt even as mortals are assailed by waves of disconsolate terror.",
+      "bannerImage": "https://dhss9aar8ocw.cloudfront.net/9d7b80e3-11a6-468a-923c-94eb4d4ea29b",
+      "rowImage": "https://dhss9aar8ocw.cloudfront.net/97de22fc-d82f-4e46-a021-ecb42fb614c5",
+      "modelCount": 1,
+      "baseSize": "40mm",
+      "points": 130,
+      "notes": "This **HERO** can join an eligible regiment as a *Cursed Soul*.",
+      "isSpearhead": false,
+      "cannotBeReinforced": true,
+      "hiddenFromReference": false,
+      "hiddenFromStormForge": false,
+      "referenceKeywords": "Hero, Infantry, Fly, Ward (6+), Death, Nighthaunt",
+      "move": "8\"",
+      "save": "4+",
+      "control": "2",
+      "health": "5",
+      "wargearOptionsText": null,
+      "publicationId": "f22b1c99-95e7-458c-a026-bde9bb1b711b",
+      "limitingWarscrollId": null,
+      "requiredPrimaryHeroWarscrollId": null,
+      "isLegends": false,
+      "faction": "Nighthaunt",
+      "weapons": [
+        {
+          "id": "e66d70e6-d692-430a-af82-50851305ed20",
+          "name": "Shacklegheist Chains",
+          "type": "melee",
+          "range": null,
+          "attacks": "5",
+          "hit": "4+",
+          "wound": "3+",
+          "rend": "1",
+          "damage": "2",
+          "battleDamaged": false,
+          "warscrollId": "974a9aad-d575-4d5c-9584-15be6d355d75",
+          "weaponAbilities": [
+            "Crit (Auto-wound)"
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "id": "c934b076-ad99-4ee1-83b5-b247a72cf4d2",
+          "name": "Captured Soul Energy",
+          "phaseDetails": "Passive",
+          "phase": "heroPhase",
+          "castingValue": null,
+          "cpCost": null,
+          "reaction": false,
+          "lore": "The chains and padlocks carried by Spirit Torments can capture spirits and reshape them into raw amethyst power to aid their minions.",
+          "usedBy": null,
+          "declare": null,
+          "effect": "Each time a friendly **NIGHTHAUNT** unit wholly within 12\" of this unit uses the ‘Rally’ command, you can make 3 additional rally rolls of D6.",
+          "abilityAndCommandIcon": "rallying",
+          "warscrollId": "974a9aad-d575-4d5c-9584-15be6d355d75",
+          "keywords": []
+        }
+      ],
+      "keywords": [
+        "Infantry",
+        "Ward (6+)",
+        "Fly",
+        "Hero",
+        "Cursed Soul"
+      ],
+      "factionKeywords": [
+        "Nighthaunt",
+        "Grand Alliance Death"
+      ]
+    },
+    {
+      "id": "c63b71a0-7a57-499f-aee6-9ce2bba67210",
+      "name": "Black Coach",
+      "subname": null,
+      "lore": "Thundering through the darkening gloom, a Black Coach goes where its wraithlike steersman wills it, the team of undead horses at the fore galloping at uncanny speed but never tiring. The coach can cross chasms and battle lines alike, for it is held aloft as often by the spirit energy surrounding it as it is by metal-bound wheels. At will, its driver can shift the carriage’s form from the ectoplasmic to the physical; when the coach slams into the enemy, it hurls them broken to the ground, the sheer impact of its hurtling mass enough to kill even before the spirit host bound to it claws and stabs at the survivors.\n\nA Black Coach is a hearse of sorts, yet it is far more than a conveyance for the cursed entity entombed within. The coach is a lodestone for unnatural magic, and the coffin inside is bathed in Shyishan energy wherever it roams. The more people it kills, the more these ending magics intensify. The energies that thrum through the coach’s chassis have a powerful debilitating effect on the living and are focused like light through a prism until the sarcophagus inside is awash with baleful magic. The artefacts precious to the creature within are borne alongside it by spectral relic bearers, ghostly forms awaiting that fateful night when their master rises to claim them once more.",
+      "bannerImage": "https://dhss9aar8ocw.cloudfront.net/170870bb-d126-465b-a5dc-4006e1f46580",
+      "rowImage": "https://dhss9aar8ocw.cloudfront.net/cf3e51c6-02a6-4ee1-8bee-61cb8bfb979a",
+      "modelCount": 1,
+      "baseSize": "170 x 105mm",
+      "points": 240,
+      "notes": null,
+      "isSpearhead": false,
+      "cannotBeReinforced": true,
+      "hiddenFromReference": false,
+      "hiddenFromStormForge": false,
+      "referenceKeywords": "War Machine, Fly, Ward (6+), Death, Nighthaunt",
+      "move": "10\"",
+      "save": "4+",
+      "control": "5",
+      "health": "12",
+      "wargearOptionsText": null,
+      "publicationId": "f22b1c99-95e7-458c-a026-bde9bb1b711b",
+      "limitingWarscrollId": null,
+      "requiredPrimaryHeroWarscrollId": null,
+      "isLegends": false,
+      "faction": "Nighthaunt",
+      "weapons": [
+        {
+          "id": "006b0d9d-11f3-40a9-b680-fc1fac89da46",
+          "name": "Ethereal Steeds’ Ghostly Hooves and Teeth",
+          "type": "melee",
+          "range": null,
+          "attacks": "8",
+          "hit": "5+",
+          "wound": "3+",
+          "rend": "-",
+          "damage": "1",
+          "battleDamaged": false,
+          "warscrollId": "c63b71a0-7a57-499f-aee6-9ce2bba67210",
+          "weaponAbilities": [
+            "Companion",
+            "Crit (Auto-wound)"
+          ]
+        },
+        {
+          "id": "00faae13-3707-4db2-8d9f-8b0f59b8b4ca",
+          "name": "Relic Bearers’ Spectral Claws",
+          "type": "melee",
+          "range": null,
+          "attacks": "6",
+          "hit": "4+",
+          "wound": "4+",
+          "rend": "-",
+          "damage": "1",
+          "battleDamaged": false,
+          "warscrollId": "c63b71a0-7a57-499f-aee6-9ce2bba67210",
+          "weaponAbilities": [
+            "Companion",
+            "Crit (Auto-wound)"
+          ]
+        },
+        {
+          "id": "89885d23-79b6-4c8a-81d1-03b636a4734b",
+          "name": "Soulreach Grasp",
+          "type": "ranged",
+          "range": "10\"",
+          "attacks": "2",
+          "hit": "4+",
+          "wound": "3+",
+          "rend": "2",
+          "damage": "2",
+          "battleDamaged": false,
+          "warscrollId": "c63b71a0-7a57-499f-aee6-9ce2bba67210",
+          "weaponAbilities": [
+            "Shoot in Combat",
+            "Crit (Auto-wound)"
+          ]
+        },
+        {
+          "id": "c10ab196-5b13-481d-8a50-d0cc21d57aed",
+          "name": "Wraith Weapons",
+          "type": "melee",
+          "range": null,
+          "attacks": "5",
+          "hit": "3+",
+          "wound": "3+",
+          "rend": "2",
+          "damage": "2",
+          "battleDamaged": false,
+          "warscrollId": "c63b71a0-7a57-499f-aee6-9ce2bba67210",
+          "weaponAbilities": [
+            "Crit (Auto-wound)"
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "id": "3e7d80b5-19cf-4f67-b47c-7c3954b8a5a0",
+          "name": "Evocation of Death",
+          "phaseDetails": "End of Any Turn",
+          "phase": "endOfTurn",
+          "castingValue": null,
+          "cpCost": null,
+          "reaction": false,
+          "lore": "The dormant occupant feeds upon the energies of death and uses them to bring spectral champions back from the underworlds.",
+          "usedBy": null,
+          "declare": "If this unit destroyed any enemy units this turn, pick a friendly non‑**UNIQUE NIGHTHAUNT HERO** that has been destroyed.",
+          "effect": "Set up a replacement unit wholly within 12\" of this unit. The replacement unit can only be set up in combat with enemy units that are in combat with this unit.",
+          "abilityAndCommandIcon": "rallying",
+          "warscrollId": "c63b71a0-7a57-499f-aee6-9ce2bba67210",
+          "keywords": []
+        },
+        {
+          "id": "6218a984-07e2-42c2-a4dd-c7ebe8cc4d34",
+          "name": "Nimbus of Power",
+          "phaseDetails": "Your Movement Phase",
+          "phase": "movementPhase",
+          "castingValue": null,
+          "cpCost": null,
+          "reaction": false,
+          "lore": "Dark magic lends the vehicle blurring speed that allows it to disappear, only to reappear in a more advantageous position.",
+          "usedBy": null,
+          "declare": null,
+          "effect": "If this unit is not in combat, remove it from the battlefield and set it up again on the battlefield more than 9\" from all enemy units.",
+          "abilityAndCommandIcon": "movement",
+          "warscrollId": "c63b71a0-7a57-499f-aee6-9ce2bba67210",
+          "keywords": [
+            "Core"
+          ]
+        },
+        {
+          "id": "c55c9a64-e431-4f5f-a64b-9753ea7739a4",
+          "name": "Runaway Coach",
+          "phaseDetails": "Any Charge Phase",
+          "phase": "chargePhase",
+          "castingValue": null,
+          "cpCost": null,
+          "reaction": false,
+          "lore": "This nightmare‑drawn carriage crushes any who attempt to withstand its momentum.",
+          "usedBy": null,
+          "declare": "If this unit charged this phase, pick an enemy unit within 1\" of it to be the target.",
+          "effect": "Roll a D3. On a 2+, inflict an amount of mortal damage equal on the target equal to the roll.",
+          "abilityAndCommandIcon": "offensive",
+          "warscrollId": "c63b71a0-7a57-499f-aee6-9ce2bba67210",
+          "keywords": []
+        }
+      ],
+      "keywords": [
+        "War Machine",
+        "Ward (6+)",
+        "Fly"
+      ],
+      "factionKeywords": [
+        "Nighthaunt",
+        "Grand Alliance Death"
+      ]
+    },
+    {
+      "id": "6396f59d-7beb-4e43-9e51-a4473cf3b2f1",
+      "name": "Bladegheist Revenants",
+      "subname": null,
+      "lore": "To be trapped in the jaws of death is to find a spasming, animalistic strength. It is a frantic energy born of primal fear, usually accompanied by tight-throated screaming that seeks to deny oblivion with every iota of the sufferer’s soul. The beings known as Bladegheist Revenants are born of that terminal state; indeed, they are trapped in it, unable to leave the panic of those final moments. It is that panic that Nagash has turned into a weapon.\n\nThese ill-fated spirits’ crime was nothing more than meeting especially tormenting fates. Some of their number died imprisoned inside spike-laden iron maidens; others were sealed into coffins and sank beneath the waves or walled up alive where none could find them. The thrashing desperation that overcame them in those last moments, the animal urge to cling onto life, needled Nagash’s petty temper. Working his fell magics, the Great Necromancer has eternally trapped the Bladegheists in their final moments of frenetic strength, lashing out in vain to save themselves without any conception of the damage they are wreaking. In truth, they swing razored greatswords back and forth, lopping off limbs and heads as they whirl like drunken dervishes in a futile attempt to escape their doom.",
+      "bannerImage": "https://dhss9aar8ocw.cloudfront.net/78429e02-36b3-41f1-9baa-cd199c1a2053",
+      "rowImage": "https://dhss9aar8ocw.cloudfront.net/d8c673bc-6a60-421a-b491-c2dc8902b711",
+      "modelCount": 10,
+      "baseSize": "32mm",
+      "points": 180,
+      "notes": null,
+      "isSpearhead": false,
+      "cannotBeReinforced": false,
+      "hiddenFromReference": false,
+      "hiddenFromStormForge": false,
+      "referenceKeywords": "Infantry, Fly, Ward (6+), Death, Nighthaunt",
+      "move": "8\"",
+      "save": "4+",
+      "control": "1",
+      "health": "1",
+      "wargearOptionsText": null,
+      "publicationId": "f22b1c99-95e7-458c-a026-bde9bb1b711b",
+      "limitingWarscrollId": null,
+      "requiredPrimaryHeroWarscrollId": null,
+      "isLegends": false,
+      "faction": "Nighthaunt",
+      "weapons": [
+        {
+          "id": "832de3f9-b5e5-47a6-b49f-d42406ed203d",
+          "name": "Tomb Greatblade",
+          "type": "melee",
+          "range": null,
+          "attacks": "2",
+          "hit": "3+",
+          "wound": "3+",
+          "rend": "1",
+          "damage": "1",
+          "battleDamaged": false,
+          "warscrollId": "6396f59d-7beb-4e43-9e51-a4473cf3b2f1",
+          "weaponAbilities": [
+            "Crit (Auto-wound)"
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "id": "645d81d5-5d78-4483-b5e5-2d3f5a9008da",
+          "name": "Thrashing Desperation",
+          "phaseDetails": "Passive",
+          "phase": "combatPhase",
+          "castingValue": null,
+          "cpCost": null,
+          "reaction": false,
+          "lore": "Twisting and whirling with deadly sweeps of their swords, Bladegheist Revenants become a ghastly storm of violence against terrified enemies.",
+          "usedBy": null,
+          "declare": null,
+          "effect": "If this unit charged this turn, add 1 to the Attacks characteristic of this unit’s melee weapons for the rest of the turn.",
+          "abilityAndCommandIcon": "offensive",
+          "warscrollId": "6396f59d-7beb-4e43-9e51-a4473cf3b2f1",
+          "keywords": []
+        }
+      ],
+      "keywords": [
+        "Infantry",
+        "Ward (6+)",
+        "Fly"
+      ],
+      "factionKeywords": [
+        "Nighthaunt",
+        "Grand Alliance Death"
+      ]
+    },
+    {
+      "id": "de334544-f236-4e41-8671-60413adf2dc7",
+      "name": "Dreadblade Harrows",
+      "subname": null,
+      "lore": "There, glimpsed in the mist – a pale rider, shrouded and hunched. A sword glints in the darkness, the rider’s skeletal steed trailing blue-green flame. A clatter of bone breaks the silence, and it has reappeared behind the lines, riding hard towards some unseen target. In a swirl of dark energy, it is gone. There is a piercing scream as it reappears, charging at the observer and levelling its sword so it bursts right through their chest. As its victim slumps, dying, to the bloodsoaked ground, the Dreadblade Harrow discorporates with an eerie laugh.\n\nOnce, these phantasmal entities were noble cavaliers in the service of an officer who would later become a Knight of Shrouds. Champions all, they stood by whilst their masters betrayed their office, their people, even life itself. By their silence they were damned, for to do nothing in the face of evil is a sin unto itself. Not a trace of honour can be found amongst them; if they find any gratification, it is in the most heinous and unchivalrous of deeds. Outriders and bodyguards for the monarchy of the dead, they have become the Knights of Regret, riding incorporeal on the winds of Shyish to slay, discorporate and slay again without the slightest remorse.",
+      "bannerImage": "https://dhss9aar8ocw.cloudfront.net/ef70af01-d947-470c-a02e-0b003af94fbb",
+      "rowImage": "https://dhss9aar8ocw.cloudfront.net/c001e2f5-4f56-475c-aa5a-86c4b8732e38",
+      "modelCount": 2,
+      "baseSize": "60 x 35mm",
+      "points": 170,
+      "notes": null,
+      "isSpearhead": false,
+      "cannotBeReinforced": false,
+      "hiddenFromReference": false,
+      "hiddenFromStormForge": false,
+      "referenceKeywords": "Cavalry, Fly, Ward (6+), Death, Nighthaunt",
+      "move": "12\"",
+      "save": "4+",
+      "control": "1",
+      "health": "3",
+      "wargearOptionsText": null,
+      "publicationId": "f22b1c99-95e7-458c-a026-bde9bb1b711b",
+      "limitingWarscrollId": null,
+      "requiredPrimaryHeroWarscrollId": null,
+      "isLegends": false,
+      "faction": "Nighthaunt",
+      "weapons": [
+        {
+          "id": "bd0fd84f-25e6-4689-a48f-b3d759312cf2",
+          "name": "Dreadblade",
+          "type": "melee",
+          "range": null,
+          "attacks": "4",
+          "hit": "4+",
+          "wound": "3+",
+          "rend": "1",
+          "damage": "2",
+          "battleDamaged": false,
+          "warscrollId": "de334544-f236-4e41-8671-60413adf2dc7",
+          "weaponAbilities": [
+            "Crit (Auto-wound)"
+          ]
+        },
+        {
+          "id": "f505e94e-5b85-4133-88bd-ca859535cf7b",
+          "name": "Ethereal Steed’s Ghostly Hooves and Teeth",
+          "type": "melee",
+          "range": null,
+          "attacks": "3",
+          "hit": "5+",
+          "wound": "3+",
+          "rend": "-",
+          "damage": "1",
+          "battleDamaged": false,
+          "warscrollId": "de334544-f236-4e41-8671-60413adf2dc7",
+          "weaponAbilities": [
+            "Companion",
+            "Crit (Auto-wound)"
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "id": "d0058314-d1a2-4593-8154-53e57c9a8eba",
+          "name": "Curse of Loyalty",
+          "phaseDetails": "Passive",
+          "phase": "endOfTurn",
+          "castingValue": null,
+          "cpCost": null,
+          "reaction": false,
+          "lore": "Dreadblade Harrows are spectral knights who serve as cursed vassals for the commands of their masters.",
+          "usedBy": null,
+          "declare": null,
+          "effect": "If this unit charged this turn, add 3 to the control scores of friendly **NIGHTHAUNT** units while they are wholly within 12\" of this unit.",
+          "abilityAndCommandIcon": "control",
+          "warscrollId": "de334544-f236-4e41-8671-60413adf2dc7",
+          "keywords": []
+        },
+        {
+          "id": "6b33c1df-2bb5-4252-8184-daabbced7323",
+          "name": "Phantasmal Discorporation",
+          "phaseDetails": "Your Movement Phase",
+          "phase": "movementPhase",
+          "castingValue": null,
+          "cpCost": null,
+          "reaction": false,
+          "lore": "Dreadblade Harrows are able to disappear in a spectral mist.",
+          "usedBy": null,
+          "declare": null,
+          "effect": "Remove this unit from the battlefield and set it up again on the battlefield more than 9\" from all enemy units.",
+          "abilityAndCommandIcon": "movement",
+          "warscrollId": "de334544-f236-4e41-8671-60413adf2dc7",
+          "keywords": [
+            "Core"
+          ]
+        }
+      ],
+      "keywords": [
+        "Ward (6+)",
+        "Fly",
+        "Cavalry"
+      ],
+      "factionKeywords": [
+        "Nighthaunt",
+        "Grand Alliance Death"
+      ]
+    },
+    {
       "id": "8fbce64b-9755-4f53-a7c5-4831a151b16a",
       "name": "Lady Olynder, Mortarch of Grief",
       "subname": null,
@@ -791,7 +1202,7 @@
       "rowImage": "https://dhss9aar8ocw.cloudfront.net/5a724950-ce47-4189-a7f3-0349b5b5dce9",
       "modelCount": 1,
       "baseSize": "60mm",
-      "points": 300,
+      "points": 310,
       "notes": null,
       "isSpearhead": false,
       "cannotBeReinforced": true,
@@ -870,7 +1281,7 @@
           "reaction": false,
           "lore": "Should the spectral forms of her minions be banished, Lady Olynder will wrench their souls back from the underworlds.",
           "usedBy": null,
-          "declare": "Pick any number of friendly **Nighthaunt** units on the battlefield to be the targets.",
+          "declare": "Pick any number of friendly **NIGHTHAUNT** units on the battlefield to be the targets.",
           "effect": "For each target, you can return a number of slain models to that unit with a combined Health characteristic of up to D3+3.",
           "abilityAndCommandIcon": "rallying",
           "warscrollId": "8fbce64b-9755-4f53-a7c5-4831a151b16a",
@@ -934,7 +1345,7 @@
       "rowImage": "https://dhss9aar8ocw.cloudfront.net/62c8f4d5-6557-4c23-b48f-e3e7fb181162",
       "modelCount": 10,
       "baseSize": "32mm",
-      "points": 140,
+      "points": 150,
       "notes": null,
       "isSpearhead": false,
       "cannotBeReinforced": false,
@@ -965,7 +1376,7 @@
           "battleDamaged": false,
           "warscrollId": "94ceb298-fde8-4733-9735-98664aae7bbd",
           "weaponAbilities": [
-            "Anti-Infantry (+1 Rend)",
+            "Anti-INFANTRY (+1 Rend)",
             "Crit (Auto-wound)"
           ]
         }
@@ -1000,79 +1411,6 @@
       ]
     },
     {
-      "id": "974a9aad-d575-4d5c-9584-15be6d355d75",
-      "name": "Spirit Torment",
-      "subname": null,
-      "lore": "The deeply unsettling creatures known as Spirit Torments are Nagash’s spectral gaolers. Lords of the Great Oubliette, a continent-sized underworld said to be honeycombed with freezing dungeons and pitch-black cells, their most distinctive features are the great shacklegheist chains they drag behind them. Spirit Torments swing these malefic weapons with incredible might, chuckling darkly as the hefty iron padlocks that cap each chain strike their enemies with the force of a cannonball.\n\nYet the true horror of a Spirit Torment lies in their ability to trammel the life force of the slain into those same enchanted padlocks. Escape from these eldritch prisons is all but impossible – it is said they are even able to capture the discorporating energies of Stormcast Eternals before they can return to the heavens. All Spirit Torments get a dark satisfaction from peering into the depths of their arcane prisons and observing the miseries of those trapped within. In consuming their captives’ last vestiges of hope, each Torment becomes a locus of dread, empowering their fellow Nighthaunt even as mortals are assailed by waves of disconsolate terror.",
-      "bannerImage": "https://dhss9aar8ocw.cloudfront.net/9d7b80e3-11a6-468a-923c-94eb4d4ea29b",
-      "rowImage": "https://dhss9aar8ocw.cloudfront.net/97de22fc-d82f-4e46-a021-ecb42fb614c5",
-      "modelCount": 1,
-      "baseSize": "40mm",
-      "points": 130,
-      "notes": null,
-      "isSpearhead": false,
-      "cannotBeReinforced": true,
-      "hiddenFromReference": false,
-      "hiddenFromStormForge": false,
-      "referenceKeywords": "Hero, Infantry, Fly, Ward (6+), Death, Nighthaunt",
-      "move": "8\"",
-      "save": "4+",
-      "control": "2",
-      "health": "5",
-      "wargearOptionsText": null,
-      "publicationId": "f22b1c99-95e7-458c-a026-bde9bb1b711b",
-      "limitingWarscrollId": null,
-      "requiredPrimaryHeroWarscrollId": null,
-      "isLegends": false,
-      "faction": "Nighthaunt",
-      "weapons": [
-        {
-          "id": "e66d70e6-d692-430a-af82-50851305ed20",
-          "name": "Shacklegheist Chains",
-          "type": "melee",
-          "range": null,
-          "attacks": "5",
-          "hit": "4+",
-          "wound": "3+",
-          "rend": "1",
-          "damage": "2",
-          "battleDamaged": false,
-          "warscrollId": "974a9aad-d575-4d5c-9584-15be6d355d75",
-          "weaponAbilities": [
-            "Crit (Auto-wound)"
-          ]
-        }
-      ],
-      "abilities": [
-        {
-          "id": "c934b076-ad99-4ee1-83b5-b247a72cf4d2",
-          "name": "Captured Soul Energy",
-          "phaseDetails": "Passive",
-          "phase": "heroPhase",
-          "castingValue": null,
-          "cpCost": null,
-          "reaction": false,
-          "lore": "The chains and padlocks carried by Spirit Torments can capture spirits and reshape them into raw amethyst power to aid their minions.",
-          "usedBy": null,
-          "declare": null,
-          "effect": "Each time a friendly **Nighthaunt** unit wholly within 12\" of this unit uses the ‘Rally’ command, you can make 3 additional rally rolls of D6.",
-          "abilityAndCommandIcon": "rallying",
-          "warscrollId": "974a9aad-d575-4d5c-9584-15be6d355d75",
-          "keywords": []
-        }
-      ],
-      "keywords": [
-        "Infantry",
-        "Ward (6+)",
-        "Fly",
-        "Hero"
-      ],
-      "factionKeywords": [
-        "Nighthaunt",
-        "Grand Alliance Death"
-      ]
-    },
-    {
       "id": "b3fc56e4-e3b5-4af1-a973-905fe7b1a8c1",
       "name": "Dreadscythe Harridans",
       "subname": null,
@@ -1081,7 +1419,7 @@
       "rowImage": "https://dhss9aar8ocw.cloudfront.net/4bf373d1-e980-4e7b-b78d-cdb251d28e5c",
       "modelCount": 10,
       "baseSize": "32mm",
-      "points": 160,
+      "points": 170,
       "notes": null,
       "isSpearhead": false,
       "cannotBeReinforced": false,
@@ -1218,7 +1556,7 @@
           "lore": "The glaives wielded by these long-dead warriors always point compass-like towards their prey.",
           "usedBy": null,
           "declare": "Pick an enemy unit to be the target.",
-          "effect": "The target has the **Stalked** keyword for the rest of the battle.",
+          "effect": "The target has the **STALKED** keyword for the rest of the battle.",
           "abilityAndCommandIcon": "special",
           "warscrollId": "b98b05f8-f693-4da0-9beb-83d814e1c008",
           "keywords": []
@@ -1226,7 +1564,7 @@
         {
           "id": "ba8c012e-bd20-4fdc-b0f8-cb231af2ceca",
           "name": "Unerring Hunters",
-          "phaseDetails": "Reaction: You declared a Charge ability for this unit and a Stalked enemy unit is within 12\" of it",
+          "phaseDetails": "Reaction: You declared a CHARGE ability for this unit and a STALKED enemy unit is within 12\" of it",
           "phase": "chargePhase",
           "castingValue": null,
           "cpCost": null,
@@ -1234,7 +1572,7 @@
           "lore": "These spectral hunters will hound their prey until the very end of existence itself.",
           "usedBy": null,
           "declare": null,
-          "effect": "Add 2 to charge rolls for this unit made as part of that ability, but this unit must end the move in combat with the **Stalked** enemy unit.",
+          "effect": "Add 2 to charge rolls for this unit made as part of that ability, but this unit must end the move in combat with the **STALKED** enemy unit.",
           "abilityAndCommandIcon": "movement",
           "warscrollId": "b98b05f8-f693-4da0-9beb-83d814e1c008",
           "keywords": []
@@ -1261,7 +1599,7 @@
       "modelCount": 1,
       "baseSize": "25mm",
       "points": 150,
-      "notes": null,
+      "notes": "This **HERO** can join an eligible regiment as a *Cursed Soul*.",
       "isSpearhead": false,
       "cannotBeReinforced": true,
       "hiddenFromReference": false,
@@ -1349,7 +1687,8 @@
         "Infantry",
         "Ward (6+)",
         "Fly",
-        "Hero"
+        "Hero",
+        "Cursed Soul"
       ],
       "factionKeywords": [
         "Nighthaunt",
@@ -1357,25 +1696,25 @@
       ]
     },
     {
-      "id": "c63b71a0-7a57-499f-aee6-9ce2bba67210",
-      "name": "Black Coach",
+      "id": "0e7cee10-523f-42f4-8154-ecb919dcbb56",
+      "name": "Lord Executioner",
       "subname": null,
-      "lore": "Thundering through the darkening gloom, a Black Coach goes where its wraithlike steersman wills it, the team of undead horses at the fore galloping at uncanny speed but never tiring. The coach can cross chasms and battle lines alike, for it is held aloft as often by the spirit energy surrounding it as it is by metal-bound wheels. At will, its driver can shift the carriage’s form from the ectoplasmic to the physical; when the coach slams into the enemy, it hurls them broken to the ground, the sheer impact of its hurtling mass enough to kill even before the spirit host bound to it claws and stabs at the survivors.\n\nA Black Coach is a hearse of sorts, yet it is far more than a conveyance for the cursed entity entombed within. The coach is a lodestone for unnatural magic, and the coffin inside is bathed in Shyishan energy wherever it roams. The more people it kills, the more these ending magics intensify. The energies that thrum through the coach’s chassis have a powerful debilitating effect on the living and are focused like light through a prism until the sarcophagus inside is awash with baleful magic. The artefacts precious to the creature within are borne alongside it by spectral relic bearers, ghostly forms awaiting that fateful night when their master rises to claim them once more.",
-      "bannerImage": "https://dhss9aar8ocw.cloudfront.net/170870bb-d126-465b-a5dc-4006e1f46580",
-      "rowImage": "https://dhss9aar8ocw.cloudfront.net/cf3e51c6-02a6-4ee1-8bee-61cb8bfb979a",
+      "lore": "Bearing the headsman’s axe of their former trade, a Lord Executioner is a macabre killer. Sent to claim the lives of those who have escaped the cold justice of Shyish, the spirits of the wrongfully executed drift around them, crying out their anguish into the night even as they intercept blows meant to harm their slayer. Unusually amongst the ranks of the Nighthaunt, the Lord Executioner was once a deliverer of justice rather than a criminal who defied it. These figures were held in fear in life, for their calling was that of the headsman, their duty to decapitate or hang those who flouted the law. Theirs was a task attended to with diligent dedication, even relish.\n\nSome such executioners become enamoured with their craft. Towards the end of their tenures, they did not look too closely at the circumstances surrounding each kill, though they told themselves they were always acting in the name of civil stricture and order. Nagash has stripped away that pretence, and now they take head from neck without such mortal qualms. To look upon them is to know that one’s crimes have been judged by a pitiless arbiter, and all that awaits is the bitter embrace of the grave.",
+      "bannerImage": "https://dhss9aar8ocw.cloudfront.net/f860f4d3-399d-4159-8296-d3c109cfef78",
+      "rowImage": "https://dhss9aar8ocw.cloudfront.net/fdb65cd4-5cf9-441d-b533-352aaec3de24",
       "modelCount": 1,
-      "baseSize": "170 x 105mm",
-      "points": 260,
-      "notes": null,
+      "baseSize": "40mm",
+      "points": 170,
+      "notes": "This **HERO** can join an eligible regiment as a *Cursed Soul*.",
       "isSpearhead": false,
       "cannotBeReinforced": true,
       "hiddenFromReference": false,
       "hiddenFromStormForge": false,
-      "referenceKeywords": "War Machine, Fly, Ward (6+), Death, Nighthaunt",
-      "move": "10\"",
+      "referenceKeywords": "Hero, Infantry, Fly, Ward (5+), Death, Nighthaunt",
+      "move": "8\"",
       "save": "4+",
-      "control": "5",
-      "health": "12",
+      "control": "2",
+      "health": "5",
       "wargearOptionsText": null,
       "publicationId": "f22b1c99-95e7-458c-a026-bde9bb1b711b",
       "limitingWarscrollId": null,
@@ -1384,59 +1723,8 @@
       "faction": "Nighthaunt",
       "weapons": [
         {
-          "id": "006b0d9d-11f3-40a9-b680-fc1fac89da46",
-          "name": "Ethereal Steeds’ Ghostly Hooves and Teeth",
-          "type": "melee",
-          "range": null,
-          "attacks": "8",
-          "hit": "5+",
-          "wound": "3+",
-          "rend": "-",
-          "damage": "1",
-          "battleDamaged": false,
-          "warscrollId": "c63b71a0-7a57-499f-aee6-9ce2bba67210",
-          "weaponAbilities": [
-            "Companion",
-            "Crit (Auto-wound)"
-          ]
-        },
-        {
-          "id": "00faae13-3707-4db2-8d9f-8b0f59b8b4ca",
-          "name": "Relic Bearers’ Spectral Claws",
-          "type": "melee",
-          "range": null,
-          "attacks": "6",
-          "hit": "4+",
-          "wound": "4+",
-          "rend": "-",
-          "damage": "1",
-          "battleDamaged": false,
-          "warscrollId": "c63b71a0-7a57-499f-aee6-9ce2bba67210",
-          "weaponAbilities": [
-            "Companion",
-            "Crit (Auto-wound)"
-          ]
-        },
-        {
-          "id": "89885d23-79b6-4c8a-81d1-03b636a4734b",
-          "name": "Soulreach Grasp",
-          "type": "ranged",
-          "range": "10\"",
-          "attacks": "2",
-          "hit": "4+",
-          "wound": "3+",
-          "rend": "2",
-          "damage": "2",
-          "battleDamaged": false,
-          "warscrollId": "c63b71a0-7a57-499f-aee6-9ce2bba67210",
-          "weaponAbilities": [
-            "Shoot in Combat",
-            "Crit (Auto-wound)"
-          ]
-        },
-        {
-          "id": "c10ab196-5b13-481d-8a50-d0cc21d57aed",
-          "name": "Wraith Weapons",
+          "id": "a0c14fa0-de04-4349-9b74-024e522775ae",
+          "name": "Decapitating Greataxe",
           "type": "melee",
           "range": null,
           "attacks": "5",
@@ -1445,68 +1733,37 @@
           "rend": "2",
           "damage": "2",
           "battleDamaged": false,
-          "warscrollId": "c63b71a0-7a57-499f-aee6-9ce2bba67210",
+          "warscrollId": "0e7cee10-523f-42f4-8154-ecb919dcbb56",
           "weaponAbilities": [
+            "Anti-HERO (+1 Rend)",
             "Crit (Auto-wound)"
           ]
         }
       ],
       "abilities": [
         {
-          "id": "3e7d80b5-19cf-4f67-b47c-7c3954b8a5a0",
-          "name": "Evocation of Death",
-          "phaseDetails": "End of Any Turn",
-          "phase": "endOfTurn",
+          "id": "3f7657cd-832d-42b1-b326-32d2e743fafe",
+          "name": "Staring Death In The Face",
+          "phaseDetails": "Once Per Turn, Any Combat Phase",
+          "phase": "combatPhase",
           "castingValue": null,
           "cpCost": null,
           "reaction": false,
-          "lore": "The dormant occupant feeds upon the energies of death and uses them to bring spectral champions back from the underworlds.",
+          "lore": "The unwavering stare of a Lord Executioner seems to penetrate the victim’s very soul.",
           "usedBy": null,
-          "declare": "If this unit destroyed any enemy units this turn, pick a friendly non‑**Unique Nighthaunt Hero** that has been destroyed.",
-          "effect": "Set up a replacement unit wholly within 12\" of this unit. The replacement unit can only be set up in combat with enemy units that are in combat with this unit.",
-          "abilityAndCommandIcon": "rallying",
-          "warscrollId": "c63b71a0-7a57-499f-aee6-9ce2bba67210",
-          "keywords": []
-        },
-        {
-          "id": "6218a984-07e2-42c2-a4dd-c7ebe8cc4d34",
-          "name": "Nimbus of Power",
-          "phaseDetails": "Your Movement Phase",
-          "phase": "movementPhase",
-          "castingValue": null,
-          "cpCost": null,
-          "reaction": false,
-          "lore": "Dark magic lends the vehicle blurring speed that allows it to disappear, only to reappear in a more advantageous position.",
-          "usedBy": null,
-          "declare": null,
-          "effect": "If this unit is not in combat, remove it from the battlefield and set it up again on the battlefield more than 9\" from all enemy units.",
-          "abilityAndCommandIcon": "movement",
-          "warscrollId": "c63b71a0-7a57-499f-aee6-9ce2bba67210",
-          "keywords": [
-            "Core"
-          ]
-        },
-        {
-          "id": "c55c9a64-e431-4f5f-a64b-9753ea7739a4",
-          "name": "Runaway Coach",
-          "phaseDetails": "Any Charge Phase",
-          "phase": "chargePhase",
-          "castingValue": null,
-          "cpCost": null,
-          "reaction": false,
-          "lore": "This nightmare‑drawn carriage crushes any who attempt to withstand its momentum.",
-          "usedBy": null,
-          "declare": "If this unit charged this phase, pick an enemy unit within 1\" of it to be the target.",
-          "effect": "Roll a D3. On a 2+, inflict an amount of mortal damage equal on the target equal to the roll.",
-          "abilityAndCommandIcon": "offensive",
-          "warscrollId": "c63b71a0-7a57-499f-aee6-9ce2bba67210",
+          "declare": "Pick an enemy unit in combat with this unit to be the target.",
+          "effect": "Roll a dice. On a 2+, subtract 1 from the Attacks characteristic of the target’s melee weapons for the rest of the turn. In addition, if the target is a **HERO**, subtract 5 from the target’s control score for the rest of the turn.",
+          "abilityAndCommandIcon": "special",
+          "warscrollId": "0e7cee10-523f-42f4-8154-ecb919dcbb56",
           "keywords": []
         }
       ],
       "keywords": [
-        "War Machine",
-        "Ward (6+)",
-        "Fly"
+        "Ward (5+)",
+        "Cursed Soul",
+        "Infantry",
+        "Fly",
+        "Hero"
       ],
       "factionKeywords": [
         "Nighthaunt",
@@ -1567,7 +1824,7 @@
           "lore": "A Shyish Reaper is always on the hunt for souls, sweeping through its prey to cleave flesh and rip away the spirit, sending it screaming into the underworlds.",
           "usedBy": null,
           "declare": null,
-          "effect": "Add 2 to the Attacks characteristic of this **Manifestation’**s **Almighty Reap** if it charged in the same turn.",
+          "effect": "Add 2 to the Attacks characteristic of this **MANIFESTATION**’s **Almighty Reap** if it charged in the same turn.",
           "abilityAndCommandIcon": "offensive",
           "warscrollId": "d45f55e9-480c-44ca-a4d5-dd7b632ed647",
           "keywords": []
@@ -1593,7 +1850,7 @@
       "rowImage": "https://dhss9aar8ocw.cloudfront.net/2add38ad-514c-4ff2-807c-dd57ec45c0bc",
       "modelCount": 1,
       "baseSize": "75 x 42mm",
-      "points": 220,
+      "points": 240,
       "notes": null,
       "isSpearhead": false,
       "cannotBeReinforced": true,
@@ -1676,7 +1933,7 @@
           "lore": "Through his arcane powers, Reikenor can sense those who tamper with Nagash’s designs or commit any other sacrilegious act.",
           "usedBy": null,
           "declare": null,
-          "effect": "Add 1 to hit rolls and wound rolls for attacks made with this unit’s **Fellreaper** if the target is a **Priest** or a **Wizard**.",
+          "effect": "Add 1 to hit rolls and wound rolls for attacks made with this unit’s **Fellreaper** if the target is a **PRIEST** or a **WIZARD**.",
           "abilityAndCommandIcon": "offensive",
           "warscrollId": "d6c9484d-fddc-43bb-a8e4-e8eadeb19b67",
           "keywords": []
@@ -1720,7 +1977,7 @@
       "rowImage": "https://dhss9aar8ocw.cloudfront.net/ea570364-665e-4b4c-8d5c-dd4640756aef",
       "modelCount": 1,
       "baseSize": "32mm",
-      "points": 130,
+      "points": 120,
       "notes": null,
       "isSpearhead": false,
       "cannotBeReinforced": true,
@@ -1767,7 +2024,7 @@
           "lore": "The bearer of a Sword of Stolen Hours can steal vital energy from a foe and use it to increase their own power.",
           "usedBy": null,
           "declare": null,
-          "effect": "Each time this unit uses a **Fight** ability, after that **Fight** ability has been resolved, **Heal (X)** this unit, where **X** is the number of damage points allocated to enemy units by combat attacks made as part of that **Fight** ability.",
+          "effect": "Each time this unit uses a **FIGHT** ability, after that **FIGHT** ability has been resolved, **Heal (X)** this unit, where **X** is the number of damage points allocated to enemy units by combat attacks made as part of that **FIGHT** ability.",
           "abilityAndCommandIcon": "defensive",
           "warscrollId": "d8d3709b-61e1-459b-9529-ee0bc535e5c9",
           "keywords": []
@@ -1775,7 +2032,7 @@
         {
           "id": "5ac56d6e-e835-4f8c-894e-8713310601f4",
           "name": "Infantry Overseer",
-          "phaseDetails": "Reaction: You declared a Fight ability for this unit",
+          "phaseDetails": "Reaction: You declared a FIGHT ability for this unit",
           "phase": "combatPhase",
           "castingValue": null,
           "cpCost": null,
@@ -1783,7 +2040,7 @@
           "lore": "Each Knight of Shrouds was a mighty general in mortal life and still retains the ability to spur their soldiery to great feats of arms.",
           "usedBy": null,
           "declare": null,
-          "effect": "Pick a friendly non-**Hero** **Nighthaunt Infantry** unit that has not used a **Fight** ability this turn and is within this unit’s combat range to be the target. The target can be picked to use a **Fight** ability immediately after the **Fight** ability used by this unit has been resolved. If it is picked to do so, add 1 to hit rolls for the target’s attacks for the rest of the turn.",
+          "effect": "Pick a friendly non-**HERO NIGHTHAUNT INFANTRY** unit that has not used a **FIGHT** ability this turn and is within this unit’s combat range to be the target. The target can be picked to use a **FIGHT** ability immediately after the **FIGHT** ability used by this unit has been resolved. If it is picked to do so, add 1 to hit rolls for the target’s attacks for the rest of the turn.",
           "abilityAndCommandIcon": "offensive",
           "warscrollId": "d8d3709b-61e1-459b-9529-ee0bc535e5c9",
           "keywords": []
@@ -1791,189 +2048,6 @@
       ],
       "keywords": [
         "Infantry",
-        "Ward (6+)",
-        "Fly",
-        "Hero"
-      ],
-      "factionKeywords": [
-        "Nighthaunt",
-        "Grand Alliance Death"
-      ]
-    },
-    {
-      "id": "de334544-f236-4e41-8671-60413adf2dc7",
-      "name": "Dreadblade Harrows",
-      "subname": null,
-      "lore": "There, glimpsed in the mist – a pale rider, shrouded and hunched. A sword glints in the darkness, the rider’s skeletal steed trailing blue-green flame. A clatter of bone breaks the silence, and it has reappeared behind the lines, riding hard towards some unseen target. In a swirl of dark energy, it is gone. There is a piercing scream as it reappears, charging at the observer and levelling its sword so it bursts right through their chest. As its victim slumps, dying, to the bloodsoaked ground, the Dreadblade Harrow discorporates with an eerie laugh.\n\nOnce, these phantasmal entities were noble cavaliers in the service of an officer who would later become a Knight of Shrouds. Champions all, they stood by whilst their masters betrayed their office, their people, even life itself. By their silence they were damned, for to do nothing in the face of evil is a sin unto itself. Not a trace of honour can be found amongst them; if they find any gratification, it is in the most heinous and unchivalrous of deeds. Outriders and bodyguards for the monarchy of the dead, they have become the Knights of Regret, riding incorporeal on the winds of Shyish to slay, discorporate and slay again without the slightest remorse.",
-      "bannerImage": "https://dhss9aar8ocw.cloudfront.net/ef70af01-d947-470c-a02e-0b003af94fbb",
-      "rowImage": "https://dhss9aar8ocw.cloudfront.net/c001e2f5-4f56-475c-aa5a-86c4b8732e38",
-      "modelCount": 2,
-      "baseSize": "60 x 35mm",
-      "points": 160,
-      "notes": null,
-      "isSpearhead": false,
-      "cannotBeReinforced": false,
-      "hiddenFromReference": false,
-      "hiddenFromStormForge": false,
-      "referenceKeywords": "Cavalry, Fly, Ward (6+), Death, Nighthaunt",
-      "move": "12\"",
-      "save": "4+",
-      "control": "1",
-      "health": "3",
-      "wargearOptionsText": null,
-      "publicationId": "f22b1c99-95e7-458c-a026-bde9bb1b711b",
-      "limitingWarscrollId": null,
-      "requiredPrimaryHeroWarscrollId": null,
-      "isLegends": false,
-      "faction": "Nighthaunt",
-      "weapons": [
-        {
-          "id": "bd0fd84f-25e6-4689-a48f-b3d759312cf2",
-          "name": "Dreadblade",
-          "type": "melee",
-          "range": null,
-          "attacks": "4",
-          "hit": "4+",
-          "wound": "3+",
-          "rend": "1",
-          "damage": "2",
-          "battleDamaged": false,
-          "warscrollId": "de334544-f236-4e41-8671-60413adf2dc7",
-          "weaponAbilities": [
-            "Crit (Auto-wound)"
-          ]
-        },
-        {
-          "id": "f505e94e-5b85-4133-88bd-ca859535cf7b",
-          "name": "Ethereal Steed’s Ghostly Hooves and Teeth",
-          "type": "melee",
-          "range": null,
-          "attacks": "3",
-          "hit": "5+",
-          "wound": "3+",
-          "rend": "-",
-          "damage": "1",
-          "battleDamaged": false,
-          "warscrollId": "de334544-f236-4e41-8671-60413adf2dc7",
-          "weaponAbilities": [
-            "Companion",
-            "Crit (Auto-wound)"
-          ]
-        }
-      ],
-      "abilities": [
-        {
-          "id": "d0058314-d1a2-4593-8154-53e57c9a8eba",
-          "name": "Curse of Loyalty",
-          "phaseDetails": "Passive",
-          "phase": "endOfTurn",
-          "castingValue": null,
-          "cpCost": null,
-          "reaction": false,
-          "lore": "Dreadblade Harrows are spectral knights who serve as cursed vassals for the commands of their masters.",
-          "usedBy": null,
-          "declare": null,
-          "effect": "If this unit charged this turn, add 3 to the control scores of friendly **Nighthaunt** units while they are wholly within 12\" of this unit.",
-          "abilityAndCommandIcon": "control",
-          "warscrollId": "de334544-f236-4e41-8671-60413adf2dc7",
-          "keywords": []
-        },
-        {
-          "id": "6b33c1df-2bb5-4252-8184-daabbced7323",
-          "name": "Phantasmal Discorporation",
-          "phaseDetails": "Your Movement Phase",
-          "phase": "movementPhase",
-          "castingValue": null,
-          "cpCost": null,
-          "reaction": false,
-          "lore": "Dreadblade Harrows are able to disappear in a spectral mist.",
-          "usedBy": null,
-          "declare": null,
-          "effect": "Remove this unit from the battlefield and set it up again on the battlefield more than 9\" from all enemy units.",
-          "abilityAndCommandIcon": "movement",
-          "warscrollId": "de334544-f236-4e41-8671-60413adf2dc7",
-          "keywords": [
-            "Core"
-          ]
-        }
-      ],
-      "keywords": [
-        "Ward (6+)",
-        "Fly",
-        "Cavalry"
-      ],
-      "factionKeywords": [
-        "Nighthaunt",
-        "Grand Alliance Death"
-      ]
-    },
-    {
-      "id": "e826f5f7-2f22-435d-a054-79b640365011",
-      "name": "Awlrach the Drowner",
-      "subname": null,
-      "lore": "A chorus of pitiful, gurgling cries heralds the coming of Awlrach the Drowner, a murderous wraith borne across the lands on a funeral barque. This spectral vessel trails the tormented spirits of those Awlrach betrayed and killed as a mortal, sending them to a briny death in the guise of a friendly boatman. Such cruel and needless murder was pleasing to Nagash, who remade Awlrach as a hunched and towering gheist. He ordered his new servant to row forever across the Mortal Realms, slaying mortals and delivering their souls to the underworlds.\n\nThe Drowner is unusual amongst the Nighthaunt hordes, for he truly relishes his eternal duty. To look upon this faceless murderer is to gaze into a black abyss of evil – an entity that commits atrocity not because he is driven to by compulsion but simply because he enjoys it. Awlrach’s work is never done. Always there is more living prey to drown in deathly energy; always there are more spirits desperate to climb from the corpse-strewn soil onto his barque rather than dwindle to nothingness in the boiling ectoplasm of his wake.",
-      "bannerImage": "https://dhss9aar8ocw.cloudfront.net/4e7e06d8-1a22-4988-bc23-7f84a053533f",
-      "rowImage": "https://dhss9aar8ocw.cloudfront.net/081b0945-469f-4b12-8671-0b38ef06f666",
-      "modelCount": 1,
-      "baseSize": "80mm",
-      "points": 160,
-      "notes": null,
-      "isSpearhead": false,
-      "cannotBeReinforced": true,
-      "hiddenFromReference": false,
-      "hiddenFromStormForge": false,
-      "referenceKeywords": "Unique, Hero, War Machine, Fly, Ward (6+), Death, Nighthaunt",
-      "move": "10\"",
-      "save": "4+",
-      "control": "2",
-      "health": "7",
-      "wargearOptionsText": null,
-      "publicationId": "f22b1c99-95e7-458c-a026-bde9bb1b711b",
-      "limitingWarscrollId": null,
-      "requiredPrimaryHeroWarscrollId": null,
-      "isLegends": false,
-      "faction": "Nighthaunt",
-      "weapons": [
-        {
-          "id": "45043a43-d0ad-47a6-b21e-411d8b982a31",
-          "name": "Deathwood Oar",
-          "type": "melee",
-          "range": null,
-          "attacks": "4",
-          "hit": "4+",
-          "wound": "3+",
-          "rend": "2",
-          "damage": "D3",
-          "battleDamaged": false,
-          "warscrollId": "e826f5f7-2f22-435d-a054-79b640365011",
-          "weaponAbilities": [
-            "Crit (Auto-wound)"
-          ]
-        }
-      ],
-      "abilities": [
-        {
-          "id": "63530a4f-4d02-481f-bcc6-a1af00021de4",
-          "name": "Passage Through The Underworlds",
-          "phaseDetails": "Once Per Turn (Army), Your Movement Phase",
-          "phase": "movementPhase",
-          "castingValue": null,
-          "cpCost": null,
-          "reaction": false,
-          "lore": "A master of navigation, Awlrach can drift through the ethereal plane to new locations at will. By the time the foe has discovered his arrival, it is all too late to stop the spectral cargo that made the journey with him.",
-          "usedBy": null,
-          "declare": "If this unit is not in combat, pick a friendly non-**Hero Nighthaunt** unit that is not in combat and is wholly within 12\" of this unit to be the target.",
-          "effect": "Remove this unit and the target from the battlefield, then set them up again on the battlefield wholly within 6\" of each other and more than 7\" from all enemy units.",
-          "abilityAndCommandIcon": "movement",
-          "warscrollId": "e826f5f7-2f22-435d-a054-79b640365011",
-          "keywords": [
-            "Core"
-          ]
-        }
-      ],
-      "keywords": [
-        "War Machine",
-        "Unique",
         "Ward (6+)",
         "Fly",
         "Hero"
@@ -2050,7 +2124,7 @@
           "reaction": false,
           "lore": "Nagash’s touch can turn a foe to a pile of dusty bones in moments.",
           "usedBy": null,
-          "declare": "Pick a visible enemy **Hero** or **Monster** in combat with this unit to be the target.",
+          "declare": "Pick a visible enemy **HERO** or **MONSTER** in combat with this unit to be the target.",
           "effect": "Hide a dice in one of your hands or under one of two appropriate containers. Your opponent must pick one of your hands or containers. If they pick the one hiding the dice, this ability has no effect. If they pick the empty one, the target is automatically destroyed.",
           "abilityAndCommandIcon": "offensive",
           "warscrollId": "eab7c2f3-359f-4862-856b-fa8dda71735f",
@@ -2084,7 +2158,7 @@
           "reaction": false,
           "lore": null,
           "usedBy": null,
-          "declare": "Pick a friendly non-**Hero** non-**Unique Death** unit that has been destroyed to be the target.",
+          "declare": "Pick a friendly non-**HERO** non-**UNIQUE DEATH** unit that has been destroyed to be the target.",
           "effect": "Set up a replacement unit identical to the target wholly within 12\" of this unit and more than 9\" from all enemy units.",
           "abilityAndCommandIcon": "rallying",
           "warscrollId": "eab7c2f3-359f-4862-856b-fa8dda71735f",
@@ -2117,7 +2191,7 @@
           "lore": "In a storm of morbid sorcery, Nagash blasts his foes’ souls or re-knits his minions’ bodies.",
           "usedBy": null,
           "declare": "This unit can cast this spell more than once per phase. Pick a visible unit wholly within 18\" of this unit that has not been picked to be the target of this spell this turn to be the target, then make a casting roll of 2D6.",
-          "effect": "If the target is an enemy unit, inflict D3 mortal damage on it. If the target is a friendly **Death** unit, pick 1 of the following effects:\n\n• Return a number of slain models to the target unit with a combined Health characteristic of up to 3.\n• The target has **Ward (5+)** until the start of your next turn.",
+          "effect": "If the target is an enemy unit, inflict D3 mortal damage on it. If the target is a friendly **DEATH** unit, pick 1 of the following effects:\n\n• Return a number of slain models to the target unit with a combined Health characteristic of up to 3.\n• The target has **WARD (5+)** until the start of your next turn.",
           "abilityAndCommandIcon": "special",
           "warscrollId": "eab7c2f3-359f-4862-856b-fa8dda71735f",
           "keywords": [
@@ -2148,7 +2222,7 @@
       "rowImage": "https://dhss9aar8ocw.cloudfront.net/4a629315-06f5-4c79-96a9-0345e0c8d4f9",
       "modelCount": 1,
       "baseSize": "75 x 42mm",
-      "points": 180,
+      "points": 190,
       "notes": null,
       "isSpearhead": false,
       "cannotBeReinforced": true,
@@ -2212,7 +2286,7 @@
           "lore": "The bearer of a Sword of Stolen Hours can steal vital energy from a foe and use it to increase their own power.",
           "usedBy": null,
           "declare": null,
-          "effect": "Each time this unit uses a **Fight** ability, after that **Fight** ability has been resolved, **Heal (X)** this unit, where **X** is the number of damage points allocated to enemy units by combat attacks made as part of that **Fight** ability.",
+          "effect": "Each time this unit uses a **FIGHT** ability, after that **FIGHT** ability has been resolved, **Heal (X)** this unit, where **X** is the number of damage points allocated to enemy units by combat attacks made as part of that **FIGHT** ability.",
           "abilityAndCommandIcon": "defensive",
           "warscrollId": "f034990b-c285-4212-897d-f3ef9897667a",
           "keywords": []
@@ -2220,7 +2294,7 @@
         {
           "id": "6c3927e9-e40a-47d3-ba68-6f4a0f8ee7b6",
           "name": "Cavalry Overseer",
-          "phaseDetails": "Reaction: You declared a Fight ability for this unit",
+          "phaseDetails": "Reaction: You declared a FIGHT ability for this unit",
           "phase": "combatPhase",
           "castingValue": null,
           "cpCost": null,
@@ -2228,7 +2302,7 @@
           "lore": "In life, the Knight of Shrouds commanded legions of devoted soldiers. In death, they turn their military genius to the command of shrieking spirits and vengeful phantasms.",
           "usedBy": null,
           "declare": null,
-          "effect": "Pick a friendly non-**Hero** **Nighthaunt Cavalry** or **War Machine** unit that has not used a **Fight** ability this turn and is within this unit’s combat range to be the target. The target can be picked to use a **Fight** ability immediately after the **Fight** ability used by this unit has been resolved. If it is picked to do so, add 1 to hit rolls for the target’s attacks for the rest of the turn.",
+          "effect": "Pick a friendly non-**HERO NIGHTHAUNT CAVALRY** or **WAR MACHINE** unit that has not used a **FIGHT** ability this turn and is within this unit’s combat range to be the target. The target can be picked to use a **FIGHT** ability immediately after the **FIGHT** ability used by this unit has been resolved. If it is picked to do so, add 1 to hit rolls for the target’s attacks for the rest of the turn.",
           "abilityAndCommandIcon": "offensive",
           "warscrollId": "f034990b-c285-4212-897d-f3ef9897667a",
           "keywords": []
@@ -2315,7 +2389,7 @@
           "lore": "Chainghasts act as conduits for Spirit Torments, ensuring all nearby Nighthaunt are invigorated by deathly energies.",
           "usedBy": null,
           "declare": null,
-          "effect": "Roll a dice. Add 1 to the roll if this unit is wholly within 12\" of any friendly **Spirit Torments**. On a 3+, for the rest of the turn, add 1 to hit rolls for combat attacks made by friendly **Nighthaunt** units while they are wholly within 12\" of this unit.",
+          "effect": "Roll a dice. Add 1 to the roll if this unit is wholly within 12\" of any friendly **Spirit Torments**. On a 3+, for the rest of the turn, add 1 to hit rolls for combat attacks made by friendly **NIGHTHAUNT** units while they are wholly within 12\" of this unit.",
           "abilityAndCommandIcon": "offensive",
           "warscrollId": "fa0cf82e-26fd-4adf-af41-e0c74b1f0779",
           "keywords": []
@@ -2405,25 +2479,25 @@
       ]
     },
     {
-      "id": "6396f59d-7beb-4e43-9e51-a4473cf3b2f1",
-      "name": "Bladegheist Revenants",
+      "id": "87f5a899-410a-4b68-9dce-78eefe07d827",
+      "name": "Scriptor Mortis",
       "subname": null,
-      "lore": "To be trapped in the jaws of death is to find a spasming, animalistic strength. It is a frantic energy born of primal fear, usually accompanied by tight-throated screaming that seeks to deny oblivion with every iota of the sufferer’s soul. The beings known as Bladegheist Revenants are born of that terminal state; indeed, they are trapped in it, unable to leave the panic of those final moments. It is that panic that Nagash has turned into a weapon.\n\nThese ill-fated spirits’ crime was nothing more than meeting especially tormenting fates. Some of their number died imprisoned inside spike-laden iron maidens; others were sealed into coffins and sank beneath the waves or walled up alive where none could find them. The thrashing desperation that overcame them in those last moments, the animal urge to cling onto life, needled Nagash’s petty temper. Working his fell magics, the Great Necromancer has eternally trapped the Bladegheists in their final moments of frenetic strength, lashing out in vain to save themselves without any conception of the damage they are wreaking. In truth, they swing razored greatswords back and forth, lopping off limbs and heads as they whirl like drunken dervishes in a futile attempt to escape their doom.",
-      "bannerImage": "https://dhss9aar8ocw.cloudfront.net/78429e02-36b3-41f1-9baa-cd199c1a2053",
-      "rowImage": "https://dhss9aar8ocw.cloudfront.net/d8c673bc-6a60-421a-b491-c2dc8902b711",
-      "modelCount": 10,
-      "baseSize": "32mm",
-      "points": 160,
-      "notes": null,
+      "lore": "Where once they pledged to record only truth, now the Scriptors Mortis are cursed to extol the glory of the necrotopia. Endlessly they rewrite the scurrilous ‘lies’ of Sigmar’s glory – his liberation of Nagash in the Age of Myth foremost amongst them – and instead chronicle the victories of the Great Necromancer’s armies, penning a tableau of events far more to his liking. Yet Nagash has empowered the Scriptors to do more than observe. They are not only his propagandists but the arbiters of his grim truths, bidden to terminally censor any who would defy their place in his vision.\n\nShould they learn the true name of a troublesome mortal, these scribes will note it down, assigning their soul to an underworld judged a fitting punishment. Boisterous warriors expecting to feast alongside their ancestors are left stranded amidst endless tundra, while crusaders against the undead stand forever immobile amongst hellscapes filled with shuffling, stinking cadavers. By carrying out esoteric rites and snuffing out an enchanted candle, the Scriptors can bring such a marked mortal’s existence to a sudden close. Enemies may strive to banish a Scriptor before their sentence is carried out, but given the presence of the other Nighthaunt drawn to and empowered by their flickering wychlight candles, this is easier said than done.",
+      "bannerImage": "https://dhss9aar8ocw.cloudfront.net/d03cffe2-88b8-4207-9319-70479df250f3",
+      "rowImage": "https://dhss9aar8ocw.cloudfront.net/e0a0b830-fd7c-485d-81e6-43a2c3e5e157",
+      "modelCount": 1,
+      "baseSize": "40mm",
+      "points": 120,
+      "notes": "This **HERO** can join an eligible regiment as a *Cursed Soul*.",
       "isSpearhead": false,
-      "cannotBeReinforced": false,
+      "cannotBeReinforced": true,
       "hiddenFromReference": false,
       "hiddenFromStormForge": false,
-      "referenceKeywords": "Infantry, Fly, Ward (6+), Death, Nighthaunt",
+      "referenceKeywords": "Hero, Infantry, Fly, Ward (6+), Death, Nighthaunt",
       "move": "8\"",
       "save": "4+",
-      "control": "1",
-      "health": "1",
+      "control": "2",
+      "health": "6",
       "wargearOptionsText": null,
       "publicationId": "f22b1c99-95e7-458c-a026-bde9bb1b711b",
       "limitingWarscrollId": null,
@@ -2432,17 +2506,17 @@
       "faction": "Nighthaunt",
       "weapons": [
         {
-          "id": "832de3f9-b5e5-47a6-b49f-d42406ed203d",
-          "name": "Tomb Greatblade",
+          "id": "766bde9e-71ec-4adf-a8a4-5d69f1b874fd",
+          "name": "Malicious Quill",
           "type": "melee",
           "range": null,
-          "attacks": "2",
-          "hit": "3+",
-          "wound": "3+",
-          "rend": "1",
-          "damage": "1",
+          "attacks": "3",
+          "hit": "4+",
+          "wound": "4+",
+          "rend": "-",
+          "damage": "D3",
           "battleDamaged": false,
-          "warscrollId": "6396f59d-7beb-4e43-9e51-a4473cf3b2f1",
+          "warscrollId": "87f5a899-410a-4b68-9dce-78eefe07d827",
           "weaponAbilities": [
             "Crit (Auto-wound)"
           ]
@@ -2450,26 +2524,44 @@
       ],
       "abilities": [
         {
-          "id": "645d81d5-5d78-4483-b5e5-2d3f5a9008da",
-          "name": "Thrashing Desperation",
-          "phaseDetails": "Passive",
-          "phase": "combatPhase",
+          "id": "3699f5f2-6c99-410d-bfac-a328bcbbfc56",
+          "name": "Judge, Jury and Executioner",
+          "phaseDetails": "Once Per Turn (Army), End of Your Turn",
+          "phase": "endOfTurn",
           "castingValue": null,
           "cpCost": null,
           "reaction": false,
-          "lore": "Twisting and whirling with deadly sweeps of their swords, Bladegheist Revenants become a ghastly storm of violence against terrified enemies.",
+          "lore": "With a mere flick of a quill, sentenced souls are dragged to the underworlds.",
           "usedBy": null,
           "declare": null,
-          "effect": "If this unit charged this turn, add 1 to the Attacks characteristic of this unit’s melee weapons for the rest of the turn.",
+          "effect": "Roll a dice for each **SENTENCED** enemy unit on the battlefield. On a 4+, inflict an amount of mortal damage equal to the current battle round number on that **SENTENCED** unit.",
           "abilityAndCommandIcon": "offensive",
-          "warscrollId": "6396f59d-7beb-4e43-9e51-a4473cf3b2f1",
+          "warscrollId": "87f5a899-410a-4b68-9dce-78eefe07d827",
+          "keywords": []
+        },
+        {
+          "id": "7e5342e3-2fc0-40e0-ab2f-a2163d567cc1",
+          "name": "Sentenced to Eternal Torment",
+          "phaseDetails": "Once Per Turn (Army), Your Hero Phase",
+          "phase": "heroPhase",
+          "castingValue": null,
+          "cpCost": null,
+          "reaction": false,
+          "lore": "Once the true name of a judged enemy is recorded, their unending punishment is all but inescapable.",
+          "usedBy": null,
+          "declare": "Pick a visible enemy unit within 18\" of this unit to be the target.",
+          "effect": "Roll a dice. On a 3+, the target has the **SENTENCED** keyword for the rest of the battle.",
+          "abilityAndCommandIcon": "special",
+          "warscrollId": "87f5a899-410a-4b68-9dce-78eefe07d827",
           "keywords": []
         }
       ],
       "keywords": [
+        "Cursed Soul",
         "Infantry",
         "Ward (6+)",
-        "Fly"
+        "Fly",
+        "Hero"
       ],
       "factionKeywords": [
         "Nighthaunt",
@@ -2485,7 +2577,7 @@
       "rowImage": "https://dhss9aar8ocw.cloudfront.net/42a7e1df-caf6-4512-a9e0-8a6325c02edc",
       "modelCount": 5,
       "baseSize": "60 x 35mm",
-      "points": 180,
+      "points": 200,
       "notes": null,
       "isSpearhead": false,
       "cannotBeReinforced": false,
@@ -2577,7 +2669,7 @@
       "modelCount": 1,
       "baseSize": "25mm",
       "points": 130,
-      "notes": "This **Hero** can join an eligible regiment as a *Cursed Soul*.",
+      "notes": "This **HERO** can join an eligible regiment as a *Cursed Soul*.",
       "isSpearhead": false,
       "cannotBeReinforced": true,
       "hiddenFromReference": false,
@@ -2640,96 +2732,6 @@
         "Nighthaunt",
         "Grand Alliance Death"
       ]
-    },
-    {
-      "id": "87f5a899-410a-4b68-9dce-78eefe07d827",
-      "name": "Scriptor Mortis",
-      "subname": null,
-      "lore": "Where once they pledged to record only truth, now the Scriptors Mortis are cursed to extol the glory of the necrotopia. Endlessly they rewrite the scurrilous ‘lies’ of Sigmar’s glory – his liberation of Nagash in the Age of Myth foremost amongst them – and instead chronicle the victories of the Great Necromancer’s armies, penning a tableau of events far more to his liking. Yet Nagash has empowered the Scriptors to do more than observe. They are not only his propagandists but the arbiters of his grim truths, bidden to terminally censor any who would defy their place in his vision.\n\nShould they learn the true name of a troublesome mortal, these scribes will note it down, assigning their soul to an underworld judged a fitting punishment. Boisterous warriors expecting to feast alongside their ancestors are left stranded amidst endless tundra, while crusaders against the undead stand forever immobile amongst hellscapes filled with shuffling, stinking cadavers. By carrying out esoteric rites and snuffing out an enchanted candle, the Scriptors can bring such a marked mortal’s existence to a sudden close. Enemies may strive to banish a Scriptor before their sentence is carried out, but given the presence of the other Nighthaunt drawn to and empowered by their flickering wychlight candles, this is easier said than done.",
-      "bannerImage": "https://dhss9aar8ocw.cloudfront.net/d03cffe2-88b8-4207-9319-70479df250f3",
-      "rowImage": "https://dhss9aar8ocw.cloudfront.net/e0a0b830-fd7c-485d-81e6-43a2c3e5e157",
-      "modelCount": 1,
-      "baseSize": "40mm",
-      "points": 120,
-      "notes": "This **Hero** can join an eligible regiment as a *Cursed Soul*.",
-      "isSpearhead": false,
-      "cannotBeReinforced": true,
-      "hiddenFromReference": false,
-      "hiddenFromStormForge": false,
-      "referenceKeywords": "Hero, Infantry, Fly, Ward (6+), Death, Nighthaunt",
-      "move": "8\"",
-      "save": "4+",
-      "control": "2",
-      "health": "6",
-      "wargearOptionsText": null,
-      "publicationId": "f22b1c99-95e7-458c-a026-bde9bb1b711b",
-      "limitingWarscrollId": null,
-      "requiredPrimaryHeroWarscrollId": null,
-      "isLegends": false,
-      "faction": "Nighthaunt",
-      "weapons": [
-        {
-          "id": "766bde9e-71ec-4adf-a8a4-5d69f1b874fd",
-          "name": "Malicious Quill",
-          "type": "melee",
-          "range": null,
-          "attacks": "3",
-          "hit": "4+",
-          "wound": "4+",
-          "rend": "-",
-          "damage": "D3",
-          "battleDamaged": false,
-          "warscrollId": "87f5a899-410a-4b68-9dce-78eefe07d827",
-          "weaponAbilities": [
-            "Crit (Auto-wound)"
-          ]
-        }
-      ],
-      "abilities": [
-        {
-          "id": "3699f5f2-6c99-410d-bfac-a328bcbbfc56",
-          "name": "Judge, Jury and Executioner",
-          "phaseDetails": "Once Per Turn (Army), End of Your Turn",
-          "phase": "endOfTurn",
-          "castingValue": null,
-          "cpCost": null,
-          "reaction": false,
-          "lore": "With a mere flick of a quill, sentenced souls are dragged to the underworlds.",
-          "usedBy": null,
-          "declare": null,
-          "effect": "Roll a dice for each **Sentenced** enemy unit on the battlefield. On a 4+, inflict an amount of mortal damage equal to the current battle round number on that **Sentenced** unit.",
-          "abilityAndCommandIcon": "offensive",
-          "warscrollId": "87f5a899-410a-4b68-9dce-78eefe07d827",
-          "keywords": []
-        },
-        {
-          "id": "7e5342e3-2fc0-40e0-ab2f-a2163d567cc1",
-          "name": "Sentenced to Eternal Torment",
-          "phaseDetails": "Once Per Turn (Army), Your Hero Phase",
-          "phase": "heroPhase",
-          "castingValue": null,
-          "cpCost": null,
-          "reaction": false,
-          "lore": "Once the true name of a judged enemy is recorded, their unending punishment is all but inescapable.",
-          "usedBy": null,
-          "declare": "Pick a visible enemy unit within 18\" of this unit to be the target.",
-          "effect": "Roll a dice. On a 3+, the target has the **Sentenced** keyword for the rest of the battle.",
-          "abilityAndCommandIcon": "special",
-          "warscrollId": "87f5a899-410a-4b68-9dce-78eefe07d827",
-          "keywords": []
-        }
-      ],
-      "keywords": [
-        "Cursed Soul",
-        "Infantry",
-        "Ward (6+)",
-        "Fly",
-        "Hero"
-      ],
-      "factionKeywords": [
-        "Nighthaunt",
-        "Grand Alliance Death"
-      ]
     }
   ],
   "battleTraits": [
@@ -2744,7 +2746,7 @@
       "abilityAndCommandIcon": "defensive",
       "cpCost": null,
       "lore": "The keening wails of the Nighthaunt lodge a stake of fear within all those who hear them.",
-      "declare": "Pick a friendly **Nighthaunt** unit that has not used an **Aura of** **Dread** ability this turn and that charged this turn to use this ability, then pick an enemy unit within 1\" of it to be the target. The number of models in the friendly **Nighthaunt** unit must be greater than the number of models in the target unit.",
+      "declare": "Pick a friendly **NIGHTHAUNT** unit that has not used an ****AURA OF DREAD**** ability this turn and that charged this turn to use this ability, then pick an enemy unit within 1\" of it to be the target. The number of models in the friendly **NIGHTHAUNT** unit must be greater than the number of models in the target unit.",
       "usedBy": null,
       "effect": "Subtract 1 from hit rolls for the target’s attacks for the rest of the turn.",
       "image": null,
@@ -2770,7 +2772,7 @@
       "cpCost": null,
       "lore": "Nighthaunt spirits can only be harmed by blows delivered with great conviction.",
       "usedBy": null,
-      "effect": "Ignore all modifiers to save rolls (positive and negative) for friendly **Nighthaunt** units, excluding **Nagash**.",
+      "effect": "Ignore all modifiers to save rolls (positive and negative) for friendly **NIGHTHAUNT** units, excluding **Nagash**.",
       "image": null,
       "altText": null,
       "subsectionName": null,
@@ -2786,13 +2788,14 @@
       "abilityType": "battleTraits",
       "id": "9711a951-665a-4f3f-9892-0e8ad4584e3e",
       "name": "Discorporate",
-      "phaseDetails": "Reaction: Opponent declared an Attack ability",
-      "phase": "defensive",
-      "abilityAndCommandIcon": "defensive",
+      "phaseDetails": "Any Hero Phase",
+      "phase": "heroPhase",
+      "abilityAndCommandIcon": "special",
       "cpCost": 1,
       "lore": "If given the order, the Nighthaunt can flicker between the realms of the living and dead.",
-      "usedBy": "A friendly **Nighthaunt** unit targeted by that **Attack** ability.",
-      "effect": "That unit has **Ward (5+)** for the rest of the phase.",
+      "declare": "Pick a friendly **NIGHTHAUNT** unit to use this ability.",
+      "usedBy": null,
+      "effect": "That unit has **WARD (5+)** for the rest of the turn.",
       "image": null,
       "altText": null,
       "subsectionName": null,
@@ -2806,31 +2809,6 @@
       "faction": "Nighthaunt",
       "abilityGroupName": "Nighthaunt Battle Traits",
       "abilityType": "battleTraits",
-      "id": "a6fde527-560b-440f-ac14-b0b8ee3b1799",
-      "name": "Stun",
-      "phaseDetails": "Once Per Turn (Army), Your Charge Phase",
-      "phase": "chargePhase",
-      "abilityAndCommandIcon": "offensive",
-      "cpCost": null,
-      "lore": "The sight of onrushing Nighthaunt can stun enemies that do not thoroughly steel their hearts.",
-      "declare": "Pick a friendly **Nighthaunt **War Machine**** or ****Cavalry**** unit that has not used an ****Aura of Dread**** ability this turn and that charged this turn to use this ability, then pick an enemy unit within 1\" of it to be the target.",
-      "usedBy": null,
-      "effect": "Subtract 1 from save rolls for the target for the rest of the turn.",
-      "image": null,
-      "altText": null,
-      "subsectionName": null,
-      "subsectionLore": null,
-      "subsectionRulesText": null,
-      "reaction": false,
-      "abilityGroupId": "96851c72-888f-426b-9cfd-50cdc440ebf7",
-      "keywords": [
-        "Aura of Dread"
-      ]
-    },
-    {
-      "faction": "Nighthaunt",
-      "abilityGroupName": "Nighthaunt Battle Traits",
-      "abilityType": "battleTraits",
       "id": "ee69239e-9c0d-4495-8b69-4ee6d4b91ab2",
       "name": "Wave of Terror",
       "phaseDetails": "Once Per Turn (Army), Your Charge Phase",
@@ -2839,7 +2817,7 @@
       "cpCost": null,
       "lore": "Many foes freeze in fear when faced with a swarming Nighthaunt charge.",
       "usedBy": null,
-      "effect": "Friendly **Nighthaunt** units that are in combat can use ****Charge**** abilities this phase. However, if a unit that is in combat uses a ****Charge**** ability and the **charge** roll is 3 or less, that unit does not count as having charged that turn.",
+      "effect": "Friendly **NIGHTHAUNT** units that are in combat can use ****CHARGE**** abilities this phase. However, if a unit that is in combat uses a ****CHARGE**** ability and the **charge** roll is 3 or less, that unit does not count as having charged that turn.",
       "image": null,
       "altText": null,
       "subsectionName": null,
@@ -2860,9 +2838,34 @@
       "abilityAndCommandIcon": "defensive",
       "cpCost": null,
       "lore": "Those who lay eyes on a spectral champion may find they are rooted in place with terror, allowing the Nighthaunt to strike them with ease.",
-      "declare": "Pick a friendly **Nighthaunt **Hero**** that has not used an **Aura** **of Dread** ability this turn and that charged this turn to use this ability, then pick an enemy unit within 1\" of it to be the target.",
+      "declare": "Pick a friendly **NIGHTHAUNT **HERO**** that has not used an ****AURA OF DREAD**** ability this turn and that charged this turn to use this ability, then pick an enemy unit within 1\" of it to be the target.",
       "usedBy": null,
-      "effect": "The target has **Strike-last** for the rest of the turn.",
+      "effect": "The target has **STRIKE-LAST** for the rest of the turn.",
+      "image": null,
+      "altText": null,
+      "subsectionName": null,
+      "subsectionLore": null,
+      "subsectionRulesText": null,
+      "reaction": false,
+      "abilityGroupId": "96851c72-888f-426b-9cfd-50cdc440ebf7",
+      "keywords": [
+        "Aura of Dread"
+      ]
+    },
+    {
+      "faction": "Nighthaunt",
+      "abilityGroupName": "Nighthaunt Battle Traits",
+      "abilityType": "battleTraits",
+      "id": "a6fde527-560b-440f-ac14-b0b8ee3b1799",
+      "name": "Stun",
+      "phaseDetails": "Once Per Turn (Army), Your Charge Phase",
+      "phase": "chargePhase",
+      "abilityAndCommandIcon": "offensive",
+      "cpCost": null,
+      "lore": "The sight of onrushing Nighthaunt can stun enemies that do not thoroughly steel their hearts.",
+      "declare": "Pick a friendly **NIGHTHAUNT **WAR MACHINE**** or ****CAVALRY**** unit that has not used an ****AURA OF DREAD**** ability this turn and that charged this turn to use this ability, then pick an enemy unit within 1\" of it to be the target.",
+      "usedBy": null,
+      "effect": "Subtract 1 from save rolls for the target for the rest of the turn.",
       "image": null,
       "altText": null,
       "subsectionName": null,
@@ -2888,7 +2891,7 @@
       "cpCost": null,
       "lore": "This lightshard is filled with a baleful gloom that, upon release, casts the battlefield in an eerie glow, readying the enemy for the reaping.",
       "usedBy": null,
-      "effect": "If this unit is in combat, add 1 to the Attacks characteristic of melee weapons used by friendly **Nighthaunt** units wholly within 12\" of this unit for the rest of the turn.",
+      "effect": "If this unit is in combat, add 1 to the Attacks characteristic of melee weapons used by friendly **NIGHTHAUNT** units wholly within 12\" of this unit for the rest of the turn.",
       "image": null,
       "altText": null,
       "subsectionName": null,
@@ -2926,7 +2929,7 @@
       "abilityType": "artefactsOfPower",
       "id": "a82b3b6e-bacc-4a47-8d4a-a6a3c0a68312",
       "name": "Covetous Familiar",
-      "phaseDetails": "Reaction: Opponent declared a Fight ability for a unit in combat with this unit",
+      "phaseDetails": "Reaction: Opponent declared a FIGHT ability for a unit in combat with this unit",
       "phase": "combatPhase",
       "abilityAndCommandIcon": "offensive",
       "cpCost": null,
@@ -2940,6 +2943,143 @@
       "subsectionRulesText": null,
       "reaction": true,
       "abilityGroupId": "88f1b488-9a5f-4869-85b8-c3338806bffc",
+      "keywords": []
+    }
+  ],
+  "regimentAbilities": [
+    {
+      "faction": "Nighthaunt",
+      "abilityGroupName": "Slasher Host Regiment Abilities",
+      "abilityType": "regimentAbilities",
+      "id": "1329f6c2-910d-41f3-8755-b3135c956667",
+      "name": "Death Stalkers",
+      "phaseDetails": "Start of the First Battle Round",
+      "phase": "startOfTurn",
+      "abilityAndCommandIcon": "offensive",
+      "cpCost": null,
+      "lore": "These spectral killers relentlessly hunt down quarry whose names have been whispered to them in darksome rites.",
+      "declare": "Pick an enemy unit on the battlefield.",
+      "usedBy": null,
+      "effect": "Add 1 to the Rend characteristic of melee weapons used for attacks that target that unit.",
+      "image": null,
+      "altText": null,
+      "subsectionName": null,
+      "subsectionLore": null,
+      "subsectionRulesText": null,
+      "reaction": false,
+      "abilityGroupId": "cc6fe1b7-bf9a-4eda-93c4-f980b24e6578",
+      "keywords": []
+    },
+    {
+      "faction": "Nighthaunt",
+      "abilityGroupName": "Slasher Host Regiment Abilities",
+      "abilityType": "regimentAbilities",
+      "id": "e235c359-4bcc-4c95-9a00-9ff499e24913",
+      "name": "Chorus of Terror",
+      "phaseDetails": "Passive",
+      "phase": "defensive",
+      "abilityAndCommandIcon": "defensive",
+      "cpCost": null,
+      "lore": "Warriors are frozen in place by the shrieks of the Nighthaunt as they wash over the enemy lines in a wave of terror.",
+      "usedBy": null,
+      "effect": "Subtract 1 from hit rolls for combat attacks that target a friendly unit that charged in the same turn.",
+      "image": null,
+      "altText": null,
+      "subsectionName": null,
+      "subsectionLore": null,
+      "subsectionRulesText": null,
+      "reaction": false,
+      "abilityGroupId": "cc6fe1b7-bf9a-4eda-93c4-f980b24e6578",
+      "keywords": []
+    }
+  ],
+  "spearheadEnhancements": [
+    {
+      "faction": "Nighthaunt",
+      "abilityGroupName": "Slasher Host Enhancements",
+      "abilityType": "spearheadEnhancements",
+      "id": "5c8475f6-d61c-408c-a857-ed29a3eb6d52",
+      "name": "Shadow's Edge",
+      "phaseDetails": "Passive",
+      "phase": "combatPhase",
+      "abilityAndCommandIcon": "offensive",
+      "cpCost": null,
+      "lore": "It is impossible to tell if this ebon blade is corporeal or mere shadow, yet its touch tears through flesh and bone with ease.",
+      "usedBy": null,
+      "effect": "Your general’s **Sword of Stolen Hours** has **Crit (Mortal)**.",
+      "image": null,
+      "altText": null,
+      "subsectionName": null,
+      "subsectionLore": null,
+      "subsectionRulesText": null,
+      "reaction": false,
+      "abilityGroupId": "e497a6c3-c25f-4a4d-838e-7c1819ca8288",
+      "keywords": []
+    },
+    {
+      "faction": "Nighthaunt",
+      "abilityGroupName": "Slasher Host Enhancements",
+      "abilityType": "spearheadEnhancements",
+      "id": "6eee1ba2-18b3-4f10-8342-59eb5ebc02c6",
+      "name": "Beacon of Nagashizzar",
+      "phaseDetails": "Once Per Battle, Your Hero Phase",
+      "phase": "heroPhase",
+      "abilityAndCommandIcon": "rallying",
+      "cpCost": null,
+      "lore": "This malignant light summons departed souls.",
+      "usedBy": null,
+      "effect": "Return 1 slain model to each friendly unit on the battlefield.",
+      "image": null,
+      "altText": null,
+      "subsectionName": null,
+      "subsectionLore": null,
+      "subsectionRulesText": null,
+      "reaction": false,
+      "abilityGroupId": "e497a6c3-c25f-4a4d-838e-7c1819ca8288",
+      "keywords": []
+    },
+    {
+      "faction": "Nighthaunt",
+      "abilityGroupName": "Slasher Host Enhancements",
+      "abilityType": "spearheadEnhancements",
+      "id": "91fc964d-c802-420b-8598-e75a7677fb7e",
+      "name": "Soulfire Ring",
+      "phaseDetails": "End of Any Turn",
+      "phase": "endOfTurn",
+      "abilityAndCommandIcon": "defensive",
+      "cpCost": null,
+      "lore": "Gouts of lashing green flames leap forth from this ring as it consumes the souls of those slain by the wearer.",
+      "usedBy": null,
+      "effect": "If any models were slain by your general this turn, **Heal (D6)** your general.",
+      "image": null,
+      "altText": null,
+      "subsectionName": null,
+      "subsectionLore": null,
+      "subsectionRulesText": null,
+      "reaction": false,
+      "abilityGroupId": "e497a6c3-c25f-4a4d-838e-7c1819ca8288",
+      "keywords": []
+    },
+    {
+      "faction": "Nighthaunt",
+      "abilityGroupName": "Slasher Host Enhancements",
+      "abilityType": "spearheadEnhancements",
+      "id": "9bdb8958-dbe3-4e96-ab8f-f20e1d2f5bb6",
+      "name": "Cloaked in Shadow",
+      "phaseDetails": "Passive",
+      "phase": "defensive",
+      "abilityAndCommandIcon": "defensive",
+      "cpCost": null,
+      "lore": "Eerily intangible, this spirit’s ethereal form fades in and out of existence like some wispy cloud of supernatural mist.",
+      "usedBy": null,
+      "effect": "No more than 1 enemy unit can target your general with attacks (shooting or combat) per phase.",
+      "image": null,
+      "altText": null,
+      "subsectionName": null,
+      "subsectionLore": null,
+      "subsectionRulesText": null,
+      "reaction": false,
+      "abilityGroupId": "e497a6c3-c25f-4a4d-838e-7c1819ca8288",
       "keywords": []
     }
   ],
@@ -2977,7 +3117,7 @@
       "abilityAndCommandIcon": "rallying",
       "cpCost": 1,
       "lore": "The deathly power of this spirit is like a siren call, an unseen signal that beckons to others from beyond the grave.",
-      "declare": "Pick a friendly **Nighthaunt** unit that started the battle with 3 or more models and that has been destroyed to be the target.",
+      "declare": "Pick a friendly **NIGHTHAUNT** unit that started the battle with 3 or more models and that has been destroyed to be the target.",
       "usedBy": null,
       "effect": "Set up a replacement unit with half the number of models from the target unit (rounding up) wholly within 12\" of this unit and more than 9\" from all enemy units.",
       "image": null,
@@ -3001,7 +3141,7 @@
       "cpCost": null,
       "lore": "Some powerful spirits take a gruesome appearance or an overwhelming aura of horror to entire new heights.",
       "usedBy": null,
-      "effect": "This unit can use any of the ****Aura of Dread**** abilities, even if it doesn’t have the required keyword(s) for that ability.",
+      "effect": "This unit can use any of the ****AURA OF DREAD**** abilities, even if it doesn’t have the required keyword(s) for that ability.",
       "image": null,
       "altText": null,
       "subsectionName": null,
@@ -3024,7 +3164,7 @@
           "phase": "heroPhase",
           "abilityAndCommandIcon": "rallying",
           "lore": "Embracing the chill of death, the wizard summons forth the spirits of the dead.",
-          "declare": "Pick a friendly **Nighthaunt Wizard** to cast this spell, pick a friendly **Nighthaunt** unit wholly within 12\" of them to be the target, then make a casting roll of 2D6.",
+          "declare": "Pick a friendly **NIGHTHAUNT WIZARD** to cast this spell, pick a friendly **NIGHTHAUNT** unit wholly within 12\" of them to be the target, then make a casting roll of 2D6.",
           "usedBy": null,
           "effect": "Return a number of slain models to the target unit with a combined Health characteristic of up to D6.",
           "castingValue": 6,
@@ -3041,7 +3181,7 @@
           "phase": "heroPhase",
           "abilityAndCommandIcon": "defensive",
           "lore": "A supernatural mist envelops the caster’s comrades, causing them to glimmer as they fade in and out of reality.",
-          "declare": "Pick a friendly **Nighthaunt Wizard** to cast this spell, pick a visible friendly **Nighthaunt** unit that has 3 or more models and is wholly within 12\" of them to be the target, then make a casting roll of 2D6.",
+          "declare": "Pick a friendly **NIGHTHAUNT WIZARD** to cast this spell, pick a visible friendly **NIGHTHAUNT** unit that has 3 or more models and is wholly within 12\" of them to be the target, then make a casting roll of 2D6.",
           "usedBy": null,
           "effect": "Subtract 1 from wound rolls for attacks that target that unit until the start of your next turn.",
           "castingValue": 6,
@@ -3059,7 +3199,7 @@
           "phase": "heroPhase",
           "abilityAndCommandIcon": "offensive",
           "lore": "With a series of fell words of power, the caster can whittle away a mortal’s life force, causing their spirit to seep out of their physical form.",
-          "declare": "Pick a friendly **Nighthaunt Wizard** to cast this spell, pick a visible enemy unit within 18\" of them to be the target, then make a casting roll of 2D6.",
+          "declare": "Pick a friendly **NIGHTHAUNT WIZARD** to cast this spell, pick a visible enemy unit within 18\" of them to be the target, then make a casting roll of 2D6.",
           "usedBy": null,
           "effect": "Roll a number of dice equal to the number of models in the target unit. For each 5+, inflict 1 mortal damage on the target.",
           "castingValue": 7,
@@ -3082,7 +3222,7 @@
           "phase": "heroPhase",
           "abilityAndCommandIcon": "special",
           "lore": "This summoned chest siphons souls, filling itself to overflowing with the rich spirits of mortalkind.",
-          "declare": "If there is not a friendly **Vault of Souls** on the battlefield, pick a friendly **Nighthaunt Wizard** to cast this spell, then make a casting roll of 2D6.",
+          "declare": "If there is not a friendly **Vault of Souls** on the battlefield, pick a friendly **NIGHTHAUNT WIZARD** to cast this spell, then make a casting roll of 2D6.",
           "usedBy": null,
           "effect": "Set up a **Vault of Souls** wholly within 12\" of the caster and visible to them.",
           "castingValue": 6,
@@ -3100,7 +3240,7 @@
           "phase": "heroPhase",
           "abilityAndCommandIcon": "special",
           "lore": "The wizard sweeps down their arm as they utter this spell’s final incantation, and a fearsome scythe formed of purest amethyst magic tears through their foes with unstoppable force.",
-          "declare": "If there is not a friendly **Shyish Reaper** on the battlefield, pick a friendly **Nighthaunt Wizard** to cast this spell, then make a casting roll of 2D6.",
+          "declare": "If there is not a friendly **Shyish Reaper** on the battlefield, pick a friendly **NIGHTHAUNT WIZARD** to cast this spell, then make a casting roll of 2D6.",
           "usedBy": null,
           "effect": "Set up a **Shyish Reaper** wholly within 9\" of the caster, visible to them and more than 9\" from all enemy units.",
           "castingValue": 6,
@@ -3118,7 +3258,7 @@
           "phase": "heroPhase",
           "abilityAndCommandIcon": "special",
           "lore": "A spectral hourglass filled with shifting grave-sand takes shape, promising temporal grace or doom to mortal and immortal alike.",
-          "declare": "If there is not a friendly **Mortalis Terminexus** on the battlefield, pick a friendly **Nighthaunt Wizard** to cast this spell, then make a casting roll of 2D6.",
+          "declare": "If there is not a friendly **Mortalis Terminexus** on the battlefield, pick a friendly **NIGHTHAUNT WIZARD** to cast this spell, then make a casting roll of 2D6.",
           "usedBy": null,
           "effect": "Set up a **Mortalis Terminexus** wholly within 12\" of the caster and visible to them.",
           "castingValue": 6,
@@ -3145,7 +3285,7 @@
           "abilityAndCommandIcon": "defensive",
           "lore": "The spectral hosts march to war flanking creaking, shimmering black coaches thrumming with necrotic energy.",
           "declare": null,
-          "effect": "Friendly **Nighthaunt Infantry** units have **Ward (5+)** while they are wholly within 6\" of a friendly **Black Coach**.",
+          "effect": "Friendly **NIGHTHAUNT INFANTRY** units have **WARD (5+)** while they are wholly within 6\" of a friendly **Black Coach**.",
           "usedBy": null,
           "reaction": false,
           "battleFormationId": "538e6c2e-8fe1-4abd-89fb-d65a37a948c2",
@@ -3164,7 +3304,7 @@
           "phase": "movementPhase",
           "abilityAndCommandIcon": "movement",
           "lore": "The Nighthaunt appear and disappear from sight to torment their prey.",
-          "declare": "Pick a friendly **Nighthaunt** unit that is not in combat to use this ability.",
+          "declare": "Pick a friendly **NIGHTHAUNT** unit that is not in combat to use this ability.",
           "effect": "Remove that unit from the battlefield and set it up again on the battlefield more than 9\" from all enemy units.",
           "usedBy": null,
           "reaction": false,
@@ -3186,8 +3326,8 @@
           "phase": "movementPhase",
           "abilityAndCommandIcon": "movement",
           "lore": "Death Stalkers are spectral killers that relentlessly hunt down the enemy. They are constantly on the move, phasing in and out of reality as they close in on new targets.",
-          "declare": "Pick a friendly **Nighthaunt** unit to be the target.",
-          "effect": "For the rest of the turn, the target unit can still use **Charge** abilities even if it used a **Run** or **Retreat** ability in the same turn. In addition, for the rest of the turn, no mortal damage is inflicted on that unit by **Retreat** abilities.",
+          "declare": "Pick a friendly **NIGHTHAUNT** unit to be the target.",
+          "effect": "For the rest of the turn, the target unit can still use **CHARGE** abilities even if it used a **RUN** or **RETREAT** ability in the same turn. In addition, for the rest of the turn, no mortal damage is inflicted on that unit by **RETREAT** abilities.",
           "usedBy": null,
           "reaction": false,
           "battleFormationId": "a25cbc29-3ee2-46b9-bd98-54a7c793e32e",
@@ -3206,7 +3346,7 @@
           "phase": "endOfTurn",
           "abilityAndCommandIcon": "offensive",
           "lore": "Those who cross the machinations of the Nighthaunt are marked for death with an unyielding curse.",
-          "declare": "Pick up to 3 enemy **Heroes** each within 12\" of a different friendly **Nighthaunt Hero** to be the targets.",
+          "declare": "Pick up to 3 enemy **HEROES** each within 12\" of a different friendly **NIGHTHAUNT HERO** to be the targets.",
           "effect": "Roll a D3 for each target. On a 2+, inflict an amount of mortal damage on the target equal to the roll.",
           "usedBy": null,
           "reaction": false,

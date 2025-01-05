@@ -1,127 +1,6 @@
 {
-  "dataVersion": 197,
+  "dataVersion": 216,
   "warscrolls": [
-    {
-      "id": "15482ddc-ffca-49be-8906-d42f40b739b9",
-      "name": "The Light of Eltharion",
-      "subname": null,
-      "lore": "Eltharion is an ancient hero of aelvenkind. In the final days of the World-that-Was, he was slain while doing great service to the martial god Tyrion. But his soul was strong, its remnants lingering an age in the darkness of the void. Teclis recalled his friend’s sacrifice and was determined to save him. He recreated the warrior’s legendary Fangsword and armour before creating a doppelgänger to house Eltharion’s soul, yet this form burnt to ash upon coming into contact with that most luminous essence. However, Teclis’s grief turned to wonder as he watched the empty armour pulse with an inner glow, stirring and lifting a blade in salute. Eltharion walked once more, now a being of purest light bound into his enchanted plate.\n\nEltharion serves as the champion of the twin gods. He is a masterful duellist, striking and feinting in close combat as fluidly as the wind itself. Perhaps most crucially, his nature as a being of insubstantial light makes him almost impossible to destroy and allows him to venture into places so suffused with magic that they are lethal to mortalkind.",
-      "bannerImage": "https://dhss9aar8ocw.cloudfront.net/befbca35-040b-449c-8a91-04e667bf68f4",
-      "rowImage": "https://dhss9aar8ocw.cloudfront.net/36df855f-df6b-4cdb-a441-ea6a59633a7c",
-      "modelCount": 1,
-      "baseSize": "50mm",
-      "points": 250,
-      "notes": null,
-      "isSpearhead": false,
-      "cannotBeReinforced": true,
-      "hiddenFromReference": false,
-      "hiddenFromStormForge": false,
-      "referenceKeywords": "Unique, Hero, Infantry, Ward (5+), Order, Lumineth Realm‑lords, Aelf",
-      "move": "6\"",
-      "save": "3+",
-      "control": "2",
-      "health": "6",
-      "wargearOptionsText": null,
-      "publicationId": "68d1f77b-aa55-4dd8-bd7f-a02ba1103a3a",
-      "limitingWarscrollId": null,
-      "requiredPrimaryHeroWarscrollId": null,
-      "isLegends": false,
-      "faction": "Lumineth Realm-lords",
-      "weapons": [
-        {
-          "id": "990b8a27-1f66-45f7-8138-986cf507a9da",
-          "name": "Fangsword of Eltharion",
-          "type": "melee",
-          "range": null,
-          "attacks": "4",
-          "hit": "2+",
-          "wound": "3+",
-          "rend": "3",
-          "damage": "3",
-          "battleDamaged": false,
-          "warscrollId": "15482ddc-ffca-49be-8906-d42f40b739b9",
-          "weaponAbilities": [
-            "Crit (2 Hits)"
-          ]
-        },
-        {
-          "id": "9e834df5-1d20-4f3f-9ae3-cefbf23f45fc",
-          "name": "Celennari Blade",
-          "type": "melee",
-          "range": null,
-          "attacks": "2",
-          "hit": "2+",
-          "wound": "3+",
-          "rend": "1",
-          "damage": "3",
-          "battleDamaged": false,
-          "warscrollId": "15482ddc-ffca-49be-8906-d42f40b739b9",
-          "weaponAbilities": [
-            "Anti-Hero (+1 Rend)",
-            "Anti-Monster (+1 Rend)"
-          ]
-        },
-        {
-          "id": "d1c20579-77ff-4cf1-9b7a-5366910e0ce3",
-          "name": "Searing Darts of Light",
-          "type": "ranged",
-          "range": "12\"",
-          "attacks": "3",
-          "hit": "2+",
-          "wound": "3+",
-          "rend": "2",
-          "damage": "D3",
-          "battleDamaged": false,
-          "warscrollId": "15482ddc-ffca-49be-8906-d42f40b739b9",
-          "weaponAbilities": []
-        }
-      ],
-      "abilities": [
-        {
-          "id": "4801d26f-297d-487c-b36e-729aee956530",
-          "name": "Supreme Swordmaster",
-          "phaseDetails": "Passive",
-          "phase": "combatPhase",
-          "castingValue": null,
-          "cpCost": null,
-          "reaction": false,
-          "lore": "The Light of Eltharion is a consummate warrior and one of the greatest swordmasters of all time.",
-          "usedBy": null,
-          "declare": null,
-          "effect": "Ignore negative modifiers to hit rolls and wound rolls for this unit’s attacks. In addition, ignore negative modifiers to the characteristics of this unit’s melee weapons.",
-          "abilityAndCommandIcon": "offensive",
-          "warscrollId": "15482ddc-ffca-49be-8906-d42f40b739b9",
-          "keywords": []
-        },
-        {
-          "id": "f982f355-d7de-44ff-953c-9e7c4eab3a95",
-          "name": "Spirit Armour",
-          "phaseDetails": "Passive",
-          "phase": "defensive",
-          "castingValue": null,
-          "cpCost": null,
-          "reaction": false,
-          "lore": "Instead of protecting a body of flesh and blood, this armour houses the undying spirit of the mighty warrior Eltharion. Though animated by the Light of Eltharion, it is essentially hollow – even a penetrating thrust may simply pass through the glowing form within.",
-          "usedBy": null,
-          "declare": null,
-          "effect": "Ignore all modifiers to save rolls for this unit (positive and negative).",
-          "abilityAndCommandIcon": "defensive",
-          "warscrollId": "15482ddc-ffca-49be-8906-d42f40b739b9",
-          "keywords": []
-        }
-      ],
-      "keywords": [
-        "Ward (5+)",
-        "Aelf",
-        "Unique",
-        "Infantry",
-        "Hero"
-      ],
-      "factionKeywords": [
-        "Lumineth Realm-lords",
-        "Grand Alliance Order"
-      ]
-    },
     {
       "id": "1baecb1d-ea09-4153-8296-502af5b08428",
       "name": "Hyshian Twinstones",
@@ -161,7 +40,7 @@
           "lore": "The Twinstones glow brighter with each spell cast, forming a reservoir from which the Lumineth can draw greater power.",
           "usedBy": null,
           "declare": null,
-          "effect": "Add 1 to casting rolls for friendly **Lumineth Realm‑lords** units while they are wholly within 6\" of this **Manifestation**.",
+          "effect": "Add 1 to casting rolls for friendly **LUMINETH REALM‑LORDS** units while they are wholly within 6\" of this **MANIFESTATION**.",
           "abilityAndCommandIcon": "special",
           "warscrollId": "1baecb1d-ea09-4153-8296-502af5b08428",
           "keywords": []
@@ -274,7 +153,7 @@
           "reaction": false,
           "lore": "A Spirit of the Mountain can inspire its aelven supplicants to fight all the harder in the name of Hysh.",
           "usedBy": null,
-          "declare": "Pick up to 3 different friendly **Alarith Aelf** units wholly within 12\" of this unit to be the targets.",
+          "declare": "Pick up to 3 different friendly **ALARITH AELF** units wholly within 12\" of this unit to be the targets.",
           "effect": "Add 1 to the Attacks characteristic of the targets’ melee weapons for the rest of the turn.",
           "abilityAndCommandIcon": "offensive",
           "warscrollId": "3b760ac3-e225-498c-9e88-12e99add776a",
@@ -329,138 +208,6 @@
       ]
     },
     {
-      "id": "44b1683b-6548-4e13-a4f8-c41f8dc15ae6",
-      "name": "Alarith Spirit of the Mountain",
-      "subname": null,
-      "lore": "In times of direst crisis, the Alarith temples will call upon some of Hysh’s greatest defenders – the Spirits of the Mountain. These are the animus of the realm’s majestic peaks come forth, bound into war-forms carved from realmstone-laced rock and wielding huge, crushing hammers. To petition one to march to battle, the Lumineth must spend weeks appealing to these entities, for the mountains loathe rash decision-making. Once their course is set, however, these aelementors are unbreakable allies. Their wisdom is always sage, and their hammers can cave in the skull of a gargant with a single swing. In their presence, the power of the earth itself is awakened, unleashed through devastating shock waves.\n\nThe war-forms of mountain spirits are themselves miniature ecosystems, their bodies garlanded by trees and their sunmetal armour cooled in the mountains’ own lakes and streams. Lesser animuses shelter in their mighty shadow. Their core, however, is their mask, which resembles the visage of an Ymetrican longhorn. Should the unthinkable happen and this mask be lost, then some part of the mountain’s soul may be lost with it. Still, Hysh’s peaks know that they must risk this grim fate to defend their earthly incarnations.",
-      "bannerImage": "https://dhss9aar8ocw.cloudfront.net/1d15f10e-3a3b-4adc-9082-7e31322f0b33",
-      "rowImage": "https://dhss9aar8ocw.cloudfront.net/8ee20dd8-3041-4249-9d61-2862c3a70afa",
-      "modelCount": 1,
-      "baseSize": "100mm",
-      "points": 330,
-      "notes": null,
-      "isSpearhead": false,
-      "cannotBeReinforced": true,
-      "hiddenFromReference": false,
-      "hiddenFromStormForge": false,
-      "referenceKeywords": "Monster, Ward (6+), Order, Lumineth Realm‑lords, Alarith",
-      "move": "6\"",
-      "save": "3+",
-      "control": "5",
-      "health": "14",
-      "wargearOptionsText": null,
-      "publicationId": "68d1f77b-aa55-4dd8-bd7f-a02ba1103a3a",
-      "limitingWarscrollId": null,
-      "requiredPrimaryHeroWarscrollId": null,
-      "isLegends": false,
-      "faction": "Lumineth Realm-lords",
-      "weapons": [
-        {
-          "id": "9969e5f7-0f4c-42f8-a067-758f79d25b6e",
-          "name": "Cloven Hooves",
-          "type": "melee",
-          "range": null,
-          "attacks": "2",
-          "hit": "4+",
-          "wound": "2+",
-          "rend": "1",
-          "damage": "2",
-          "battleDamaged": false,
-          "warscrollId": "44b1683b-6548-4e13-a4f8-c41f8dc15ae6",
-          "weaponAbilities": []
-        },
-        {
-          "id": "9e81eb04-00cd-4e74-bcff-e8dac55e51cd",
-          "name": "Stoneheart Worldhammer",
-          "type": "melee",
-          "range": null,
-          "attacks": "4",
-          "hit": "3+",
-          "wound": "2+",
-          "rend": "2",
-          "damage": "5",
-          "battleDamaged": true,
-          "warscrollId": "44b1683b-6548-4e13-a4f8-c41f8dc15ae6",
-          "weaponAbilities": []
-        },
-        {
-          "id": "aa8f297b-d52a-4d1f-b1b8-709167d1471b",
-          "name": "Geomantic Blast",
-          "type": "ranged",
-          "range": "12\"",
-          "attacks": "1",
-          "hit": "3+",
-          "wound": "2+",
-          "rend": "2",
-          "damage": "D6",
-          "battleDamaged": false,
-          "warscrollId": "44b1683b-6548-4e13-a4f8-c41f8dc15ae6",
-          "weaponAbilities": []
-        }
-      ],
-      "abilities": [
-        {
-          "id": "640a1bb5-52b0-4ee5-9ce9-af795353dc4e",
-          "name": "Stoneheart Shockwave",
-          "phaseDetails": "Once Per Turn (Army), Any Combat Phase",
-          "phase": "combatPhase",
-          "castingValue": null,
-          "cpCost": null,
-          "reaction": false,
-          "lore": "When a Spirit of the Mountain smashes its worldhammer into the ground, it can direct the resulting shock wave at a nearby foe, hurling the enemy to its knees.",
-          "usedBy": null,
-          "declare": "If this unit did not charge this turn, pick an enemy unit in combat with it to be the target.",
-          "effect": "Roll a dice. On a 4+, the target has **Strike-last** for the rest of the turn.",
-          "abilityAndCommandIcon": "defensive",
-          "warscrollId": "44b1683b-6548-4e13-a4f8-c41f8dc15ae6",
-          "keywords": [
-            "Rampage"
-          ]
-        },
-        {
-          "id": "fa415ba3-0a41-4993-a9ed-f298b43fc42a",
-          "name": "Battle Damaged",
-          "phaseDetails": "Passive",
-          "phase": "startOfTurn",
-          "castingValue": null,
-          "cpCost": null,
-          "reaction": false,
-          "lore": null,
-          "usedBy": null,
-          "declare": null,
-          "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its **Stoneheart Worldhammer** is 3.",
-          "abilityAndCommandIcon": "battleDamaged",
-          "warscrollId": "44b1683b-6548-4e13-a4f8-c41f8dc15ae6",
-          "keywords": []
-        },
-        {
-          "id": "fe7d9e2b-cc25-4687-857a-c5179337d0ce",
-          "name": "Stonemage Symbiosis",
-          "phaseDetails": "Passive",
-          "phase": "defensive",
-          "castingValue": null,
-          "cpCost": null,
-          "reaction": false,
-          "lore": "Stonemages are able to sustain a Spirit of the Mountain.",
-          "usedBy": null,
-          "declare": null,
-          "effect": "The ‘Battle Damaged’ ability has no effect on this unit while it is wholly within 12\" of a friendly **Alarith Stonemage**.",
-          "abilityAndCommandIcon": "defensive",
-          "warscrollId": "44b1683b-6548-4e13-a4f8-c41f8dc15ae6",
-          "keywords": []
-        }
-      ],
-      "keywords": [
-        "Monster",
-        "Alarith",
-        "Ward (6+)"
-      ],
-      "factionKeywords": [
-        "Lumineth Realm-lords",
-        "Grand Alliance Order"
-      ]
-    },
-    {
       "id": "98bb6bd4-d351-417b-87de-15118a7007c4",
       "name": "Shrine Luminor",
       "subname": null,
@@ -491,7 +238,7 @@
         {
           "id": "61733e53-d904-4e4e-8d21-e118a393379d",
           "name": "Cleansing Rituals",
-          "phaseDetails": "Once Per Turn, Reaction: You declared a Spell ability for a unit wholly within 12\" of this terrain feature",
+          "phaseDetails": "Once Per Turn, Reaction: You declared a SPELL ability for a unit wholly within 12\" of this terrain feature",
           "phase": "heroPhase",
           "castingValue": null,
           "cpCost": null,
@@ -505,22 +252,6 @@
           "keywords": []
         },
         {
-          "id": "23caa851-a31b-4cad-b363-36cc3bec3e46",
-          "name": "Exit the Shrine",
-          "phaseDetails": "Your Hero Phase",
-          "phase": "heroPhase",
-          "castingValue": null,
-          "cpCost": null,
-          "reaction": false,
-          "lore": "The Guardian floats down to the battlefield to rejoin the fray.",
-          "usedBy": null,
-          "declare": null,
-          "effect": "If this terrain feature has a Shrine Guardian that was not placed on it this turn, set up the Shrine Guardian on the battlefield wholly within 6\" of this terrain feature and not in combat. That unit is no longer a Shrine Guardian.",
-          "abilityAndCommandIcon": "movement",
-          "warscrollId": "98bb6bd4-d351-417b-87de-15118a7007c4",
-          "keywords": []
-        },
-        {
           "id": "c3903284-cd37-41ab-b547-31bce88c1af6",
           "name": "Enter the Shrine",
           "phaseDetails": "Your Hero Phase",
@@ -530,8 +261,24 @@
           "reaction": false,
           "lore": "Worthy Lumineth take up position within a Shrine Luminor to help to cleanse the realms.",
           "usedBy": null,
-          "declare": "If this terrain feature does not have a Shrine Guardian, pick a friendly **Lumineth Realm‐lords Infantry Hero** within 3\" of it and not in combat to be the target.",
+          "declare": "If this terrain feature does not have a Shrine Guardian, pick a friendly **LUMINETH REALM‐LORDS INFANTRY HERO** within 3\" of it and not in combat to be the target.",
           "effect": "Place the target on this terrain feature. The target is now a Shrine Guardian (see ‘Shrine Guardian’).",
+          "abilityAndCommandIcon": "movement",
+          "warscrollId": "98bb6bd4-d351-417b-87de-15118a7007c4",
+          "keywords": []
+        },
+        {
+          "id": "23caa851-a31b-4cad-b363-36cc3bec3e46",
+          "name": "Exit the Shrine",
+          "phaseDetails": "Your Movement Phase",
+          "phase": "movementPhase",
+          "castingValue": null,
+          "cpCost": null,
+          "reaction": false,
+          "lore": "The Guardian floats down to the battlefield to rejoin the fray.",
+          "usedBy": null,
+          "declare": null,
+          "effect": "If this terrain feature has a Shrine Guardian that was not placed on it this turn, set up the Shrine Guardian on the battlefield wholly within 6\" of this terrain feature and not in combat. That unit is no longer a Shrine Guardian.",
           "abilityAndCommandIcon": "movement",
           "warscrollId": "98bb6bd4-d351-417b-87de-15118a7007c4",
           "keywords": []
@@ -547,7 +294,7 @@
           "lore": "Protected from attacks, the Shrine Guardian can move the metalith with but a fleeting thought.",
           "usedBy": null,
           "declare": null,
-          "effect": "While this terrain feature has a Shrine Guardian:\n\n• This terrain feature has a Move characteristic of 6\" and can use **Move** abilities as if it were a unit.\n• The Shrine Guardian cannot use **Move** abilities and remains on this terrain feature each time it moves.\n• Instead of measuring range or visibility to the Shrine Guardian, measure to this terrain feature instead.\n• All attacks that would target the Shrine Guardian target this terrain feature instead.\n• If this terrain feature is destroyed, before removing it from the battlefield, inflict D3 mortal damage on the Shrine Guardian. Then, set up the Shrine Guardian on the battlefield wholly within 3\" of this terrain feature and not in combat. That unit is no longer a Shrine Guardian. If it is not possible to set up the Shrine Guardian, it is slain.",
+          "effect": "While this terrain feature has a Shrine Guardian:\n\n• This terrain feature has a Move characteristic of 6\" and can use **MOVE** abilities as if it were a unit.\n• The Shrine Guardian cannot use **MOVE** abilities and remains on this terrain feature each time it moves.\n• Instead of measuring range or visibility to the Shrine Guardian, measure to this terrain feature instead.\n• All attacks that would target the Shrine Guardian target this terrain feature instead.\n• If this terrain feature is destroyed, before removing it from the battlefield, inflict D3 mortal damage on the Shrine Guardian. Then, set up the Shrine Guardian on the battlefield wholly within 3\" of this terrain feature and not in combat. That unit is no longer a Shrine Guardian. If it is not possible to set up the Shrine Guardian, it is slain.",
           "abilityAndCommandIcon": "special",
           "warscrollId": "98bb6bd4-d351-417b-87de-15118a7007c4",
           "keywords": []
@@ -707,7 +454,7 @@
           "lore": "The sanctum turns baleful spells and attacks into flashes of blinding light.",
           "usedBy": null,
           "declare": null,
-          "effect": "While the unit that was picked to be the target of the ‘Summon Sanctum of Amyntok’ ability is inside the ring formed by this **Manifestation**:\n\n• That unit has **Ward (4+)**.\n• If that unit is a **Wizard**, add 1 to that unit’s power level.\n• Instead of measuring range or visibility to that unit, measure to this **Manifestation** instead.\n• This **Manifestation** cannot be picked to be the target of abilities other than **Banish** abilities.\n• If that unit uses a **Move** ability, makes a pile-in move or is removed from the battlefield, this **Manifestation** is removed from play.",
+          "effect": "While the unit that was picked to be the target of the ‘Summon Sanctum of Amyntok’ ability is inside the ring formed by this **MANIFESTATION**:\n\n• That unit has **WARD (4+)**.\n• If that unit is a **WIZARD**, add 1 to that unit’s power level.\n• Instead of measuring range or visibility to that unit, measure to this **MANIFESTATION** instead.\n• This **MANIFESTATION** cannot be picked to be the target of abilities other than **BANISH** abilities.\n• If that unit uses a **MOVE** ability, makes a pile-in move or is removed from the battlefield, this **MANIFESTATION** is removed from play.",
           "abilityAndCommandIcon": "special",
           "warscrollId": "5dae3fef-12cd-4189-9626-47a0e6440b6e",
           "keywords": []
@@ -723,148 +470,6 @@
       ]
     },
     {
-      "id": "686c19ef-2d94-4851-8edb-d82428d9d4a4",
-      "name": "Lyrior Uthralle, Warden of Ymetrica",
-      "subname": null,
-      "lore": "Lyrior Uthralle is a legendary warrior famed for his precise attacks and strategy, his skill proven in countless wars. He holds the title of Voice of the Phoenix, one of only ten souls who serve as the aelven god Tyrion’s champions. As one would expect from a son of Ymetrica, Lyrior appears in public as a warrior with a soul of stone, riding resplendent upon Farael, his lightcourser steed, and wielding his armies with the same intractable purpose as he does his enchanted lance Daemonbane. Yet in private, this mask begins to slip, and the Lord Regent Supreme’s grief wells to the surface.\n\nIn the early decades of the Age of Sigmar, Lyrior was commanded to lead the defence of Tor Limina. Yet in doing so, he was forced to leave his home city woefully vulnerable. Lyrior was to pay the price for his loyalty; upon returning, he found the city obliterated by greenskin raiders. When Uthralle discovered the brutalised remains of his beloved kin, something broke within him. Even now he screams into the void each night; only the spiritual ministrations of a trio of Cathallars keep his soul intact. Lyrior now funnels his torment into deeds, riding out to command almost every battle Ymetrica wages against the orruks in person and venting his hatred.",
-      "bannerImage": "https://dhss9aar8ocw.cloudfront.net/0abd9f26-2c95-4fb9-838f-2386d45f6a02",
-      "rowImage": "https://dhss9aar8ocw.cloudfront.net/582ed082-f640-4352-8781-5b3eb0cec950",
-      "modelCount": 1,
-      "baseSize": "90 x 52mm",
-      "points": 240,
-      "notes": null,
-      "isSpearhead": false,
-      "cannotBeReinforced": true,
-      "hiddenFromReference": false,
-      "hiddenFromStormForge": false,
-      "referenceKeywords": "Unique, Hero, Wizard (1), Cavalry, Order, Lumineth Realm‑lords, Aelf, Vanari",
-      "move": "14\"",
-      "save": "3+",
-      "control": "2",
-      "health": "7",
-      "wargearOptionsText": null,
-      "publicationId": "68d1f77b-aa55-4dd8-bd7f-a02ba1103a3a",
-      "limitingWarscrollId": null,
-      "requiredPrimaryHeroWarscrollId": null,
-      "isLegends": false,
-      "faction": "Lumineth Realm-lords",
-      "weapons": [
-        {
-          "id": "2694a28b-9a2e-40e7-809a-645fdb00f2c7",
-          "name": "Daemonbane",
-          "type": "melee",
-          "range": null,
-          "attacks": "2",
-          "hit": "2+",
-          "wound": "3+",
-          "rend": "1",
-          "damage": "2",
-          "battleDamaged": false,
-          "warscrollId": "686c19ef-2d94-4851-8edb-d82428d9d4a4",
-          "weaponAbilities": [
-            "Anti-Daemon (+1 Rend)",
-            "Charge (+1 Damage)"
-          ]
-        },
-        {
-          "id": "884e13b0-2542-4087-9823-86b25a017571",
-          "name": "Daemonbane",
-          "type": "ranged",
-          "range": "12\"",
-          "attacks": "1",
-          "hit": "2+",
-          "wound": "2+",
-          "rend": "2",
-          "damage": "D3",
-          "battleDamaged": false,
-          "warscrollId": "686c19ef-2d94-4851-8edb-d82428d9d4a4",
-          "weaponAbilities": [
-            "Anti-Daemon (+1 Rend)"
-          ]
-        },
-        {
-          "id": "8a08cbff-e070-4ff6-982b-0c7f38049353",
-          "name": "Farael’s Horns and Claws",
-          "type": "melee",
-          "range": null,
-          "attacks": "4",
-          "hit": "5+",
-          "wound": "3+",
-          "rend": "-",
-          "damage": "1",
-          "battleDamaged": false,
-          "warscrollId": "686c19ef-2d94-4851-8edb-d82428d9d4a4",
-          "weaponAbilities": [
-            "Companion"
-          ]
-        },
-        {
-          "id": "be181d30-742a-428f-8372-06e78f6a66a0",
-          "name": "Lyrior’s Sword",
-          "type": "melee",
-          "range": null,
-          "attacks": "4",
-          "hit": "2+",
-          "wound": "3+",
-          "rend": "1",
-          "damage": "2",
-          "battleDamaged": false,
-          "warscrollId": "686c19ef-2d94-4851-8edb-d82428d9d4a4",
-          "weaponAbilities": [
-            "Crit (Mortal)"
-          ]
-        }
-      ],
-      "abilities": [
-        {
-          "id": "8d82ee25-ac41-455d-a112-c5e48b08c6a1",
-          "name": "Solar Flare",
-          "phaseDetails": "Your Hero Phase",
-          "phase": "heroPhase",
-          "castingValue": 7,
-          "cpCost": null,
-          "reaction": false,
-          "lore": "Channelling his anger, Lyrior causes one of the solar bodies above the battlefield to belch forth a searing flare of energy.",
-          "usedBy": null,
-          "declare": "Pick a visible enemy unit or **Manifestation** wholly within 18\" of this unit to be the target, then make a casting roll of 2D6.",
-          "effect": "If the target is a **Manifestation**, inflict 3D6 mortal damage on it. Otherwise, roll a dice for each model in the target unit. For each 5+, inflict 1 mortal damage on the target.",
-          "abilityAndCommandIcon": "offensive",
-          "warscrollId": "686c19ef-2d94-4851-8edb-d82428d9d4a4",
-          "keywords": [
-            "Spell"
-          ]
-        },
-        {
-          "id": "b850109a-5e86-4363-b1d1-dca53421c111",
-          "name": "Voice of Tyrion",
-          "phaseDetails": "Passive",
-          "phase": "startOfTurn",
-          "castingValue": null,
-          "cpCost": null,
-          "reaction": true,
-          "lore": "Lyrior is part of Tyrion’s inner circle, and he speaks with the authority of the god himself in matters military.",
-          "usedBy": null,
-          "declare": null,
-          "effect": "Each time a friendly **Lumineth Realm‐lords** unit wholly within 12\" of this unit uses the ‘All-out Attack’ command, no command points are spent.",
-          "abilityAndCommandIcon": "special",
-          "warscrollId": "686c19ef-2d94-4851-8edb-d82428d9d4a4",
-          "keywords": []
-        }
-      ],
-      "keywords": [
-        "Aelf",
-        "Wizard",
-        "Vanari",
-        "Unique",
-        "Cavalry",
-        "Hero"
-      ],
-      "factionKeywords": [
-        "Lumineth Realm-lords",
-        "Grand Alliance Order"
-      ]
-    },
-    {
       "id": "6eb25756-5dee-42fa-be82-97555d2491a5",
       "name": "Archmage Teclis and Celennar, Spirit of Hysh",
       "subname": null,
@@ -873,7 +478,7 @@
       "rowImage": "https://dhss9aar8ocw.cloudfront.net/7bc8ccfe-5683-4660-893e-a5870f332709",
       "modelCount": 1,
       "baseSize": "160mm",
-      "points": 590,
+      "points": 600,
       "notes": null,
       "isSpearhead": false,
       "cannotBeReinforced": true,
@@ -948,7 +553,7 @@
           "lore": "Celennar grants arcane knowledge to nearby allies.",
           "usedBy": null,
           "declare": null,
-          "effect": "Add 1 to casting rolls for other friendly **Lumineth Realm‑lords Wizards** while they are wholly within 12\" of this unit.",
+          "effect": "Add 1 to casting rolls for other friendly **LUMINETH REALM‑LORDS WIZARDS** while they are wholly within 12\" of this unit.",
           "abilityAndCommandIcon": "special",
           "warscrollId": "6eb25756-5dee-42fa-be82-97555d2491a5",
           "keywords": []
@@ -1075,8 +680,8 @@
           "reaction": false,
           "lore": "Any foes who remain too close to this hovering sigil will find their flesh hardening and turning into stone until they are nothing more than lifelike statues.",
           "usedBy": null,
-          "declare": "Pick each enemy unit within 6\" of this **Manifestation** to be the targets.",
-          "effect": "Roll a D3 for each target. On a 2+, inflict an amount of mortal damage on the target equal to the roll. If a target has 3 mortal damage inflicted on it by this ability, it has **Strike-last** for the rest of the turn.",
+          "declare": "Pick each enemy unit within 6\" of this **MANIFESTATION** to be the targets.",
+          "effect": "Roll a D3 for each target. On a 2+, inflict an amount of mortal damage on the target equal to the roll. If a target has 3 mortal damage inflicted on it by this ability, it has **STRIKE-LAST** for the rest of the turn.",
           "abilityAndCommandIcon": "offensive",
           "warscrollId": "6fca9c5e-19c1-4c60-8275-51713260a14d",
           "keywords": []
@@ -1180,7 +785,7 @@
           "lore": "A Spirit of the Wind and its disciples never remain in one place for long.",
           "usedBy": null,
           "declare": null,
-          "effect": "While friendly **Hurakan** units are wholly within 12\" of this unit, they can use **Shoot** and/or **Charge** abilities even if they used a **Run** or **Retreat** ability in the same turn and no mortal damage is inflicted on them by **Retreat** abilities.",
+          "effect": "While friendly **Hurakan** units are wholly within 12\" of this unit, they can use **SHOOT** and/or **CHARGE** abilities even if they used a **RUN** or **RETREAT** ability in the same turn and no mortal damage is inflicted on them by **RETREAT** abilities.",
           "abilityAndCommandIcon": "special",
           "warscrollId": "79c85ea1-14af-4094-94d6-7293ae4bf61f",
           "keywords": []
@@ -1334,7 +939,7 @@
           "lore": "On the battlefield, one twin will take the lead to aid their allies while the other stands guard.",
           "usedBy": null,
           "declare": "Pick whether Ellania will take the lead or Ellathor will take the lead.",
-          "effect": "If Ellania takes the lead, until the start of your next turn, add 1 to this unit’s power level and it has **Ward (4+)**. If Ellathor takes the lead, until the start of your next turn, add the current battle round number to the Damage characteristic of **Altairi**.",
+          "effect": "If Ellania takes the lead, until the start of your next turn, add 1 to this unit’s power level and it has **WARD (4+)**. If Ellathor takes the lead, until the start of your next turn, add the current battle round number to the Damage characteristic of **Altairi**.",
           "abilityAndCommandIcon": "special",
           "warscrollId": "8174ce58-148e-413b-9662-5d5e9a79af8e",
           "keywords": []
@@ -1356,78 +961,6 @@
       ]
     },
     {
-      "id": "9a4f9b6c-509f-4df3-969f-34eda999ff57",
-      "name": "Alarith Stoneguard",
-      "subname": null,
-      "lore": "The Stoneguard form the warrior-ranks of the Alarith temples. They are a rare breed, for few can earn the trust of one of Hysh’s ancient mountains. These nature spirits once held a bitter disdain for the aelves after being damaged in the Ocari Dara. To walk their valleys was to risk death by avalanche, landslide or exposure. Only decades of repentance soothed the mountains’ jaded souls and, in time, compelled them to grant the most worthy aelves wisdom and strength.\n\nTo become a Stoneguard demands a singular will. Many are the tests an aspirant must endure, from fasting atop the highest peaks to running alongside roaring rockfalls. The climax of these trials is to be literally buried alive. If the aelf is judged to have heeded the mountains’ wisdom, they will find themselves able to breathe through tiny cracks in the rock and eventually rise as an Alarith.\n\nWhen the Stoneguard plant their feet and focus upon the teachings of their aelementor, the flesh of these warriors takes on the consistency of stone. Then the Alarith truly do become immovable objects, shrugging off even the most determined of blows. Hammers wrought from sedimentary rock and diamondcored mattocks are their favoured weapons.",
-      "bannerImage": "https://dhss9aar8ocw.cloudfront.net/2deead52-ad2f-485f-8edb-4ebe29f4b19f",
-      "rowImage": "https://dhss9aar8ocw.cloudfront.net/9043cc8c-c28f-47ad-ae22-3386a54ed8c7",
-      "modelCount": 5,
-      "baseSize": "32mm",
-      "points": 130,
-      "notes": null,
-      "isSpearhead": false,
-      "cannotBeReinforced": false,
-      "hiddenFromReference": false,
-      "hiddenFromStormForge": false,
-      "referenceKeywords": "Infantry, Champion, Standard Bearer (1/5), Order, Lumineth Realm‑lords, Aelf, Alarith",
-      "move": "4\"",
-      "save": "4+",
-      "control": "1",
-      "health": "2",
-      "wargearOptionsText": null,
-      "publicationId": "68d1f77b-aa55-4dd8-bd7f-a02ba1103a3a",
-      "limitingWarscrollId": null,
-      "requiredPrimaryHeroWarscrollId": null,
-      "isLegends": false,
-      "faction": "Lumineth Realm-lords",
-      "weapons": [
-        {
-          "id": "a0031d54-1b66-470b-af14-7a0d976a81c4",
-          "name": "Stoneguard Hammers",
-          "type": "melee",
-          "range": null,
-          "attacks": "2",
-          "hit": "3+",
-          "wound": "3+",
-          "rend": "1",
-          "damage": "2",
-          "battleDamaged": false,
-          "warscrollId": "9a4f9b6c-509f-4df3-969f-34eda999ff57",
-          "weaponAbilities": []
-        }
-      ],
-      "abilities": [
-        {
-          "id": "40c53347-e790-4d40-9566-c86bb9a2a8f3",
-          "name": "Fortitude of the Earth",
-          "phaseDetails": "Passive",
-          "phase": "defensive",
-          "castingValue": null,
-          "cpCost": null,
-          "reaction": false,
-          "lore": "When the Stoneguard adopt an unyielding martial stance around a site of power, even the most ferocious assaults cannot break them.",
-          "usedBy": null,
-          "declare": null,
-          "effect": "This unit has **Ward (5+)** while all of its models are contesting an objective you control.",
-          "abilityAndCommandIcon": "defensive",
-          "warscrollId": "9a4f9b6c-509f-4df3-969f-34eda999ff57",
-          "keywords": []
-        }
-      ],
-      "keywords": [
-        "Champion",
-        "Standard Bearer",
-        "Aelf",
-        "Alarith",
-        "Infantry"
-      ],
-      "factionKeywords": [
-        "Lumineth Realm-lords",
-        "Grand Alliance Order"
-      ]
-    },
-    {
       "id": "b5241440-9ef0-41b9-9257-1298dde1221e",
       "name": "Vanari Auralan Wardens",
       "subname": null,
@@ -1436,7 +969,7 @@
       "rowImage": "https://dhss9aar8ocw.cloudfront.net/db454c62-a29d-4757-9a3a-293596b46f01",
       "modelCount": 10,
       "baseSize": "32mm",
-      "points": 140,
+      "points": 150,
       "notes": null,
       "isSpearhead": false,
       "cannotBeReinforced": false,
@@ -1484,96 +1017,9 @@
           "lore": "When Auralan Wardens stand shoulder to shoulder, they present a bristling wall of pikes to the foe.",
           "usedBy": null,
           "declare": null,
-          "effect": "If this unit did not charge this turn and is in combat with an enemy unit that charged this turn, roll a dice. Add 1 to the roll if that enemy unit is **Cavalry**. On a 4+, this unit has **Strike-first** for the rest of the turn.",
+          "effect": "If this unit did not charge this turn and is in combat with an enemy unit that charged this turn, roll a dice. Add 1 to the roll if that enemy unit is **CAVALRY**. On a 4+, this unit has **STRIKE-FIRST** for the rest of the turn.",
           "abilityAndCommandIcon": "offensive",
           "warscrollId": "b5241440-9ef0-41b9-9257-1298dde1221e",
-          "keywords": []
-        }
-      ],
-      "keywords": [
-        "Champion",
-        "Aelf",
-        "Vanari",
-        "Infantry"
-      ],
-      "factionKeywords": [
-        "Lumineth Realm-lords",
-        "Grand Alliance Order"
-      ]
-    },
-    {
-      "id": "c7f2e83e-e4fe-4aa5-bfa2-45a2eb3f0af0",
-      "name": "Vanari Auralan Sentinels",
-      "subname": null,
-      "lore": "The bow is regarded as a noble weapon in Lumineth culture. To send an arrow soaring into the sky, its tip glimmering with purest light before descending to deliver judgement upon the unworthy, speaks to the souls of the aelves – as does the ability to strike down foes before being sullied by their presence. It is the task of the Auralan Sentinels to ensure that grinding melee rarely becomes a necessity, and they train fastidiously to squeeze every iota of potential from their bows and arrows.\n\nOf course, being aelves, the Sentinels have sought to improve upon the classical design of the bow as far as possible. Their efforts have resulted in the triple‑stringed arcbow, a weapon whose unique capacity for curvature and pull grants it two different modes of function: arrows can either be sent arcing skyward over distances that seem unbelievable to less enlightened mortals or else fired in a straight shot and with enough force to pin several warriors together. Sentinels forge their arrow tips from precious sunmetal to better ensure each shot flies true and pierces its mark.",
-      "bannerImage": "https://dhss9aar8ocw.cloudfront.net/1b6458e2-739f-4a78-b650-9d11dc1725a0",
-      "rowImage": "https://dhss9aar8ocw.cloudfront.net/1d8d8bcf-3fd0-476b-bcb1-d52e05954e53",
-      "modelCount": 10,
-      "baseSize": "32mm",
-      "points": 150,
-      "notes": null,
-      "isSpearhead": false,
-      "cannotBeReinforced": false,
-      "hiddenFromReference": false,
-      "hiddenFromStormForge": false,
-      "referenceKeywords": "Infantry, Champion, Order, Lumineth Realm‑lords, Aelf, Vanari",
-      "move": "6\"",
-      "save": "5+",
-      "control": "1",
-      "health": "1",
-      "wargearOptionsText": null,
-      "publicationId": "68d1f77b-aa55-4dd8-bd7f-a02ba1103a3a",
-      "limitingWarscrollId": null,
-      "requiredPrimaryHeroWarscrollId": null,
-      "isLegends": false,
-      "faction": "Lumineth Realm-lords",
-      "weapons": [
-        {
-          "id": "3cd73fa7-20c7-4f59-b245-ba482d3b9d0b",
-          "name": "Auralan Bow",
-          "type": "ranged",
-          "range": "18\"",
-          "attacks": "2",
-          "hit": "3+",
-          "wound": "4+",
-          "rend": "1",
-          "damage": "1",
-          "battleDamaged": false,
-          "warscrollId": "c7f2e83e-e4fe-4aa5-bfa2-45a2eb3f0af0",
-          "weaponAbilities": [
-            "Crit (Auto-wound)"
-          ]
-        },
-        {
-          "id": "d0b5e666-5d9b-4b83-a313-74334be51298",
-          "name": "Sentinel Blades",
-          "type": "melee",
-          "range": null,
-          "attacks": "1",
-          "hit": "3+",
-          "wound": "4+",
-          "rend": "-",
-          "damage": "1",
-          "battleDamaged": false,
-          "warscrollId": "c7f2e83e-e4fe-4aa5-bfa2-45a2eb3f0af0",
-          "weaponAbilities": []
-        }
-      ],
-      "abilities": [
-        {
-          "id": "dbece3ca-ec77-4707-b1dd-f2e26617fc81",
-          "name": "Lofted Shots",
-          "phaseDetails": "Your Shooting Phase",
-          "phase": "shootingPhase",
-          "castingValue": null,
-          "cpCost": null,
-          "reaction": false,
-          "lore": "To strike a distant target, these warriors point their bows to the sky before launching a volley up high.",
-          "usedBy": null,
-          "declare": null,
-          "effect": "For the rest of the turn, add 6\" to the Range characteristic of this unit’s **Auralan Bows** but subtract 1 from hit rolls for this unit’s shooting attacks.",
-          "abilityAndCommandIcon": "shooting",
-          "warscrollId": "c7f2e83e-e4fe-4aa5-bfa2-45a2eb3f0af0",
           "keywords": []
         }
       ],
@@ -1643,7 +1089,7 @@
           "warscrollId": "e21fafb2-8e12-403b-b5dd-59361bd6ee89",
           "weaponAbilities": [
             "Shoot in Combat",
-            "Anti-Monster (+1 Rend)"
+            "Anti-MONSTER (+1 Rend)"
           ]
         }
       ],
@@ -1659,7 +1105,7 @@
           "lore": "With vindictive glee, wind spirits race across the battlefield in pursuit of mighty behemoths, seeking to lay them low with a well-placed shot.",
           "usedBy": null,
           "declare": null,
-          "effect": "The Damage characteristic of this unit’s **Bow of the Wind’s Vengeance** is 3 for attacks that target **Monsters**.",
+          "effect": "The Damage characteristic of this unit’s **Bow of the Wind’s Vengeance** is 3 for attacks that target **MONSTERS**.",
           "abilityAndCommandIcon": "shooting",
           "warscrollId": "e21fafb2-8e12-403b-b5dd-59361bd6ee89",
           "keywords": []
@@ -1693,7 +1139,7 @@
           "lore": "A Spirit of the Wind never remains in one place for long.",
           "usedBy": null,
           "declare": null,
-          "effect": "While friendly **Hurakan** units are wholly within 12\" of this unit, they can use **Shoot** and/or **Charge** abilities even if they used a **Run** or **Retreat** ability in the same turn and no mortal damage is inflicted on them by **Retreat** abilities.",
+          "effect": "While friendly **HURAKAN** units are wholly within 12\" of this unit, they can use **SHOOT** and/or **CHARGE** abilities even if they used a **RUN** or **RETREAT** ability in the same turn and no mortal damage is inflicted on them by **RETREAT** abilities.",
           "abilityAndCommandIcon": "special",
           "warscrollId": "e21fafb2-8e12-403b-b5dd-59361bd6ee89",
           "keywords": []
@@ -1719,7 +1165,7 @@
       "rowImage": "https://dhss9aar8ocw.cloudfront.net/481fc0b5-5752-47a3-afc4-2552a51a7ba9",
       "modelCount": 1,
       "baseSize": "40mm",
-      "points": 150,
+      "points": 120,
       "notes": null,
       "isSpearhead": false,
       "cannotBeReinforced": true,
@@ -1763,7 +1209,7 @@
           "reaction": false,
           "lore": "A Stonemage can adopt a stance that can be emulated by nearby Stoneguard, allowing them to deliver blows with shattering force.",
           "usedBy": null,
-          "declare": "Pick a friendly **Alarith Aelf** unit wholly within 12\" of this unit to be the target.",
+          "declare": "Pick a friendly **ALARITH AELF** unit wholly within 12\" of this unit to be the target.",
           "effect": "Roll a dice. On a 3+, add 1 to the Rend characteristic of the target’s melee weapons for the rest of the turn.",
           "abilityAndCommandIcon": "offensive",
           "warscrollId": "fb03ccbf-460b-423d-8678-c671898f2ba7",
@@ -1810,7 +1256,7 @@
       "rowImage": "https://dhss9aar8ocw.cloudfront.net/b3dd1735-5316-411b-8644-71f65a5617d8",
       "modelCount": 1,
       "baseSize": "60 x 35mm",
-      "points": 140,
+      "points": 150,
       "notes": null,
       "isSpearhead": false,
       "cannotBeReinforced": true,
@@ -1870,7 +1316,7 @@
           "reaction": false,
           "lore": "The caster calls upon a magnanimous whirlwind to sweep up their allies and carry them to safety.",
           "usedBy": null,
-          "declare": "Pick a visible friendly **Lumineth Realm‑lords** unit wholly within 12\" of this unit and not in combat to be the target, then make a casting roll of 2D6.",
+          "declare": "Pick a visible friendly **LUMINETH REALM‑LORDS** unit wholly within 12\" of this unit and not in combat to be the target, then make a casting roll of 2D6.",
           "effect": "Remove the target from the battlefield and set it up again on the battlefield more than 9\" from all enemy units.",
           "abilityAndCommandIcon": "movement",
           "warscrollId": "25092944-0004-4494-adf2-d5d437939944",
@@ -1889,7 +1335,7 @@
           "lore": "Windmages often accompany Windchargers into battle, allowing the cavalry archers to perform soaring leaps right over the heads of their enemies.",
           "usedBy": null,
           "declare": "Pick a friendly **Hurakan Windchargers** unit wholly within 12\" of this unit to be the target.",
-          "effect": "Roll a dice. On a 3+, add 3\" to the target’s Move characteristic for the rest of the turn and the target has **Fly** for the rest of the turn.",
+          "effect": "Roll a dice. On a 3+, add 3\" to the target’s Move characteristic for the rest of the turn and the target has **FLY** for the rest of the turn.",
           "abilityAndCommandIcon": "movement",
           "warscrollId": "25092944-0004-4494-adf2-d5d437939944",
           "keywords": []
@@ -1901,6 +1347,148 @@
         "Hurakan",
         "Infantry",
         "Fly",
+        "Hero"
+      ],
+      "factionKeywords": [
+        "Lumineth Realm-lords",
+        "Grand Alliance Order"
+      ]
+    },
+    {
+      "id": "686c19ef-2d94-4851-8edb-d82428d9d4a4",
+      "name": "Lyrior Uthralle, Warden of Ymetrica",
+      "subname": null,
+      "lore": "Lyrior Uthralle is a legendary warrior famed for his precise attacks and strategy, his skill proven in countless wars. He holds the title of Voice of the Phoenix, one of only ten souls who serve as the aelven god Tyrion’s champions. As one would expect from a son of Ymetrica, Lyrior appears in public as a warrior with a soul of stone, riding resplendent upon Farael, his lightcourser steed, and wielding his armies with the same intractable purpose as he does his enchanted lance Daemonbane. Yet in private, this mask begins to slip, and the Lord Regent Supreme’s grief wells to the surface.\n\nIn the early decades of the Age of Sigmar, Lyrior was commanded to lead the defence of Tor Limina. Yet in doing so, he was forced to leave his home city woefully vulnerable. Lyrior was to pay the price for his loyalty; upon returning, he found the city obliterated by greenskin raiders. When Uthralle discovered the brutalised remains of his beloved kin, something broke within him. Even now he screams into the void each night; only the spiritual ministrations of a trio of Cathallars keep his soul intact. Lyrior now funnels his torment into deeds, riding out to command almost every battle Ymetrica wages against the orruks in person and venting his hatred.",
+      "bannerImage": "https://dhss9aar8ocw.cloudfront.net/0abd9f26-2c95-4fb9-838f-2386d45f6a02",
+      "rowImage": "https://dhss9aar8ocw.cloudfront.net/582ed082-f640-4352-8781-5b3eb0cec950",
+      "modelCount": 1,
+      "baseSize": "90 x 52mm",
+      "points": 220,
+      "notes": null,
+      "isSpearhead": false,
+      "cannotBeReinforced": true,
+      "hiddenFromReference": false,
+      "hiddenFromStormForge": false,
+      "referenceKeywords": "Unique, Hero, Wizard (1), Cavalry, Order, Lumineth Realm‑lords, Aelf, Vanari",
+      "move": "14\"",
+      "save": "3+",
+      "control": "2",
+      "health": "7",
+      "wargearOptionsText": null,
+      "publicationId": "68d1f77b-aa55-4dd8-bd7f-a02ba1103a3a",
+      "limitingWarscrollId": null,
+      "requiredPrimaryHeroWarscrollId": null,
+      "isLegends": false,
+      "faction": "Lumineth Realm-lords",
+      "weapons": [
+        {
+          "id": "2694a28b-9a2e-40e7-809a-645fdb00f2c7",
+          "name": "Daemonbane",
+          "type": "melee",
+          "range": null,
+          "attacks": "2",
+          "hit": "2+",
+          "wound": "3+",
+          "rend": "1",
+          "damage": "2",
+          "battleDamaged": false,
+          "warscrollId": "686c19ef-2d94-4851-8edb-d82428d9d4a4",
+          "weaponAbilities": [
+            "Anti-DAEMON (+1 Rend)",
+            "Charge (+1 Damage)"
+          ]
+        },
+        {
+          "id": "884e13b0-2542-4087-9823-86b25a017571",
+          "name": "Daemonbane",
+          "type": "ranged",
+          "range": "12\"",
+          "attacks": "1",
+          "hit": "2+",
+          "wound": "2+",
+          "rend": "2",
+          "damage": "D3",
+          "battleDamaged": false,
+          "warscrollId": "686c19ef-2d94-4851-8edb-d82428d9d4a4",
+          "weaponAbilities": [
+            "Anti-DAEMON (+1 Rend)"
+          ]
+        },
+        {
+          "id": "8a08cbff-e070-4ff6-982b-0c7f38049353",
+          "name": "Farael’s Horns and Claws",
+          "type": "melee",
+          "range": null,
+          "attacks": "4",
+          "hit": "5+",
+          "wound": "3+",
+          "rend": "-",
+          "damage": "1",
+          "battleDamaged": false,
+          "warscrollId": "686c19ef-2d94-4851-8edb-d82428d9d4a4",
+          "weaponAbilities": [
+            "Companion"
+          ]
+        },
+        {
+          "id": "be181d30-742a-428f-8372-06e78f6a66a0",
+          "name": "Lyrior’s Sword",
+          "type": "melee",
+          "range": null,
+          "attacks": "4",
+          "hit": "2+",
+          "wound": "3+",
+          "rend": "1",
+          "damage": "2",
+          "battleDamaged": false,
+          "warscrollId": "686c19ef-2d94-4851-8edb-d82428d9d4a4",
+          "weaponAbilities": [
+            "Crit (Mortal)"
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "id": "8d82ee25-ac41-455d-a112-c5e48b08c6a1",
+          "name": "Solar Flare",
+          "phaseDetails": "Your Hero Phase",
+          "phase": "heroPhase",
+          "castingValue": 7,
+          "cpCost": null,
+          "reaction": false,
+          "lore": "Channelling his anger, Lyrior causes one of the solar bodies above the battlefield to belch forth a searing flare of energy.",
+          "usedBy": null,
+          "declare": "Pick a visible enemy unit or **MANIFESTATION** wholly within 18\" of this unit to be the target, then make a casting roll of 2D6.",
+          "effect": "If the target is a **MANIFESTATION**, inflict 3D6 mortal damage on it. Otherwise, roll a dice for each model in the target unit. For each 5+, inflict 1 mortal damage on the target.",
+          "abilityAndCommandIcon": "offensive",
+          "warscrollId": "686c19ef-2d94-4851-8edb-d82428d9d4a4",
+          "keywords": [
+            "Spell"
+          ]
+        },
+        {
+          "id": "b850109a-5e86-4363-b1d1-dca53421c111",
+          "name": "Voice of Tyrion",
+          "phaseDetails": "Passive",
+          "phase": "startOfTurn",
+          "castingValue": null,
+          "cpCost": null,
+          "reaction": false,
+          "lore": "Lyrior is part of Tyrion’s inner circle, and he speaks with the authority of the god himself in matters military.",
+          "usedBy": null,
+          "declare": null,
+          "effect": "Each time a friendly **LUMINETH REALM‐LORDS** unit wholly within 12\" of this unit uses the ‘All-out Attack’ command, no command points are spent.",
+          "abilityAndCommandIcon": "special",
+          "warscrollId": "686c19ef-2d94-4851-8edb-d82428d9d4a4",
+          "keywords": []
+        }
+      ],
+      "keywords": [
+        "Aelf",
+        "Wizard",
+        "Vanari",
+        "Unique",
+        "Cavalry",
         "Hero"
       ],
       "factionKeywords": [
@@ -1954,7 +1542,7 @@
         {
           "id": "035ee06d-64f0-4f2b-8f10-cfcf631c9530",
           "name": "Realmscribe",
-          "phaseDetails": "Once Per Turn (Army), Reaction: You declared a Summon Spell ability for this unit",
+          "phaseDetails": "Once Per Turn (Army), Reaction: You declared a SUMMON SPELL ability for this unit",
           "phase": "heroPhase",
           "castingValue": null,
           "cpCost": null,
@@ -2050,7 +1638,7 @@
           "lore": "Scinari Cathallars can assuage the dark despair that can afflict a Lumineth Realm-lord.",
           "usedBy": null,
           "declare": null,
-          "effect": "Ignore negative modifiers to the control scores of friendly **Lumineth Realm-lords** units while they are wholly within 12\" of this unit.",
+          "effect": "Ignore negative modifiers to the control scores of friendly **LUMINETH REALM-LORDS** units while they are wholly within 12\" of this unit.",
           "abilityAndCommandIcon": "control",
           "warscrollId": "6efbf56f-bdb0-41af-9f63-b3c4116e0174",
           "keywords": []
@@ -2137,7 +1725,7 @@
           "reaction": false,
           "lore": "By focusing their will and concentrating deeply, the caster makes an ally as insubstantial as the light of the moon.",
           "usedBy": null,
-          "declare": "Pick a visible friendly **Lumineth Realm‑lords Infantry** unit wholly within 18\" of this unit to be the target, then make a casting roll of 2D6.",
+          "declare": "Pick a visible friendly **LUMINETH REALM‑LORDS INFANTRY** unit wholly within 18\" of this unit to be the target, then make a casting roll of 2D6.",
           "effect": "Ignore all modifiers to save rolls for the target (positive and negative) until the start of your next turn.",
           "abilityAndCommandIcon": "defensive",
           "warscrollId": "7b7e0114-1c2c-4242-821d-357ed23e3a1e",
@@ -2156,118 +1744,10 @@
           "lore": "The Enlightener draws on the duality of this rune’s power to conjure sorceries with doubled potency.",
           "usedBy": null,
           "declare": null,
-          "effect": "If that spell is successfully cast, roll a dice. On a 3+, after resolving the effect of that spell, this unit can immediately cast that spell a second time using the same casting roll. Do not count the second spell towards the number of **Spell** abilities this unit can use this turn.",
+          "effect": "If that spell is successfully cast, roll a dice. On a 3+, after resolving the effect of that spell, this unit can immediately cast that spell a second time using the same casting roll. Do not count the second spell towards the number of **SPELL** abilities this unit can use this turn.",
           "abilityAndCommandIcon": "special",
           "warscrollId": "7b7e0114-1c2c-4242-821d-357ed23e3a1e",
           "keywords": []
-        }
-      ],
-      "keywords": [
-        "Aelf",
-        "Wizard",
-        "Scinari",
-        "Infantry",
-        "Hero"
-      ],
-      "factionKeywords": [
-        "Lumineth Realm-lords",
-        "Grand Alliance Order"
-      ]
-    },
-    {
-      "id": "15452f71-3f88-4587-a45c-953791f18e18",
-      "name": "Scinari Loreseeker",
-      "subname": null,
-      "lore": "Loreseekers are Eclipsians, those vanishingly rare Lumineth souls who embody both the Tyrionic and Teclian halves of Hyshian civilisation. They are both warrior and wizard, as capable with the blade as they are magic. Loreseekers are itinerant agents, wandering the realms in search of magical learning and powerful artefacts that would be better served in Hyshian hands. Rather than joining a warhost, they will fight alongside their kin when circumstances align. On more than one occasion, their timely arrival just as battlelines meet has meant the difference between victory and defeat, as the travelling spell-swords reveal arcane troves or sources of natural magic below the battlefield.\n\nYet as an eclipse briefly hides the light, the Loreseekers also have their darker aspects. They are often charged with obscuring as much as illuminating, sequestering away relics or knowledge that the Lumineth judge too dangerous for any besides themselves to possess. Should these items have already fallen into the grasp of others – including supposed allies – then a Loreseeker may turn to thieving or assassination in order to end the danger before it can manifest, though this is strictly a last resort. In the struggle to restore the realms, no sacrifice is too great.",
-      "bannerImage": "https://dhss9aar8ocw.cloudfront.net/a35a87d1-2a92-408d-9f02-ba31fceabfd2",
-      "rowImage": "https://dhss9aar8ocw.cloudfront.net/1d26a447-572a-43c6-bfff-3066c886c2ba",
-      "modelCount": 1,
-      "baseSize": "32mm",
-      "points": 150,
-      "notes": null,
-      "isSpearhead": false,
-      "cannotBeReinforced": true,
-      "hiddenFromReference": false,
-      "hiddenFromStormForge": false,
-      "referenceKeywords": "Hero, Wizard (1), Infantry, Order, Lumineth Realm‑lords, Aelf, Scinari",
-      "move": "6\"",
-      "save": "4+",
-      "control": "2",
-      "health": "5",
-      "wargearOptionsText": null,
-      "publicationId": "68d1f77b-aa55-4dd8-bd7f-a02ba1103a3a",
-      "limitingWarscrollId": null,
-      "requiredPrimaryHeroWarscrollId": null,
-      "isLegends": false,
-      "faction": "Lumineth Realm-lords",
-      "weapons": [
-        {
-          "id": "2823fa41-62ed-44a0-966b-aa877ac5f2a0",
-          "name": "Eclipsian Staff",
-          "type": "ranged",
-          "range": "12\"",
-          "attacks": "3",
-          "hit": "3+",
-          "wound": "3+",
-          "rend": "1",
-          "damage": "D3",
-          "battleDamaged": false,
-          "warscrollId": "15452f71-3f88-4587-a45c-953791f18e18",
-          "weaponAbilities": [
-            "Shoot in Combat"
-          ]
-        },
-        {
-          "id": "5eea320f-3656-4b48-8aec-ace3ef3488e8",
-          "name": "Loreseeker Blade",
-          "type": "melee",
-          "range": null,
-          "attacks": "5",
-          "hit": "3+",
-          "wound": "4+",
-          "rend": "1",
-          "damage": "2",
-          "battleDamaged": false,
-          "warscrollId": "15452f71-3f88-4587-a45c-953791f18e18",
-          "weaponAbilities": [
-            "Crit (Mortal)"
-          ]
-        }
-      ],
-      "abilities": [
-        {
-          "id": "3a044341-159c-4be9-9cd6-9959fef19af1",
-          "name": "Lone Agent",
-          "phaseDetails": "Passive",
-          "phase": "endOfTurn",
-          "castingValue": null,
-          "cpCost": null,
-          "reaction": false,
-          "lore": "Scinari Loreseekers employ their skills as independent operatives to great effect on the battlefield.",
-          "usedBy": null,
-          "declare": null,
-          "effect": "Add 5 to this unit’s control score while it is more than 9\" from all other friendly units.",
-          "abilityAndCommandIcon": "control",
-          "warscrollId": "15452f71-3f88-4587-a45c-953791f18e18",
-          "keywords": []
-        },
-        {
-          "id": "66493d82-9239-419d-9627-1c43ba84f0ab",
-          "name": "Independent Operative",
-          "phaseDetails": "Deployment Phase",
-          "phase": "startOfTurn",
-          "castingValue": null,
-          "cpCost": null,
-          "reaction": false,
-          "lore": "Loreseekers venture deep into unknown lands, searching for esoteric knowledge and artefacts that only the Lumineth can be entrusted with.",
-          "usedBy": null,
-          "declare": null,
-          "effect": "If this unit has not been deployed, set it up anywhere on the battlefield not in combat with any enemy units. This unit has now been deployed.\n\n**Designer’s Note:** *Enemy units that deploy after this unit can deploy in combat with it.*",
-          "abilityAndCommandIcon": "special",
-          "warscrollId": "15452f71-3f88-4587-a45c-953791f18e18",
-          "keywords": [
-            "Deploy"
-          ]
         }
       ],
       "keywords": [
@@ -2291,7 +1771,7 @@
       "rowImage": "https://dhss9aar8ocw.cloudfront.net/1f7e5651-aecf-4f48-b17c-fd1f7782d058",
       "modelCount": 5,
       "baseSize": "60 x 35mm",
-      "points": 190,
+      "points": 180,
       "notes": null,
       "isSpearhead": false,
       "cannotBeReinforced": false,
@@ -2387,110 +1867,6 @@
       ]
     },
     {
-      "id": "578c0186-caee-4344-89e8-6df2058bb9f1",
-      "name": "Vanari Bladelords",
-      "subname": null,
-      "lore": "Though they are meticulous adherents to the warrior creed of the Vanari, Bladelords most commonly serve as bodyguards to the Scinari mage-caste. This bond is displayed all over a Bladelord’s person, from the Scinari runes worked into their armour to their vanashimor back-banners. In battle, the Bladelords serve with quiet, unflinching pride, driving the enemy back with perfectly placed strikes that allow the Scinari to practise their arcane rites undisturbed. When surrounded by unending ranks of foes, they can change style effortlessly to instead land a flurry of blows that can slice through hordes with ease.\n\nIn turn, the Scinari seek to further uplift the minds of their guardians. Bladelords are encouraged to see battle as a complex equation, where momentum, force and reaction must all be balanced in a split second. Successful calculation of these competing forces sees the Bladelords wield their lightweight greatswords and twin blades to lop off limbs and heads in whirling strikes, each clumsy blow from their adversaries accounted for and countered with the perfect riposte. The Bladelords frown upon boastfulness even more so than other Lumineth; as they see it, their only duty is to protect their wizardly charges. If they happen to inch closer towards achieving the most sublime warrior state imaginable, then so be it.",
-      "bannerImage": "https://dhss9aar8ocw.cloudfront.net/4cba066a-aad1-4c39-bcf9-46a4126b163c",
-      "rowImage": "https://dhss9aar8ocw.cloudfront.net/6f7222be-4397-4a81-956e-255e000d94eb",
-      "modelCount": 5,
-      "baseSize": "32mm",
-      "points": 150,
-      "notes": null,
-      "isSpearhead": false,
-      "cannotBeReinforced": false,
-      "hiddenFromReference": false,
-      "hiddenFromStormForge": false,
-      "referenceKeywords": "Infantry, Champion, Order, Lumineth Realm‑lords, Aelf, Vanari",
-      "move": "6\"",
-      "save": "4+",
-      "control": "1",
-      "health": "2",
-      "wargearOptionsText": null,
-      "publicationId": "68d1f77b-aa55-4dd8-bd7f-a02ba1103a3a",
-      "limitingWarscrollId": null,
-      "requiredPrimaryHeroWarscrollId": null,
-      "isLegends": false,
-      "faction": "Lumineth Realm-lords",
-      "weapons": [
-        {
-          "id": "9c6e3d72-433c-453e-b926-d15f1fc5d0e6",
-          "name": "Sunmetal Blade: Flurry of Blows",
-          "type": "melee",
-          "range": null,
-          "attacks": "3",
-          "hit": "3+",
-          "wound": "4+",
-          "rend": "1",
-          "damage": "1",
-          "battleDamaged": false,
-          "warscrollId": "578c0186-caee-4344-89e8-6df2058bb9f1",
-          "weaponAbilities": [
-            "Anti-Infantry (+1 Rend)",
-            "Crit (Mortal)"
-          ]
-        },
-        {
-          "id": "b5e25057-092c-4f04-a243-914fe7fe40a8",
-          "name": "Sunmetal Blade: Perfect Strike",
-          "type": "melee",
-          "range": null,
-          "attacks": "1",
-          "hit": "✹",
-          "wound": "✹",
-          "rend": "✹",
-          "damage": "✹",
-          "battleDamaged": false,
-          "warscrollId": "578c0186-caee-4344-89e8-6df2058bb9f1",
-          "weaponAbilities": []
-        }
-      ],
-      "abilities": [
-        {
-          "id": "aa74e9bb-fbb3-43e2-a876-59190b7a14f1",
-          "name": "Guardians",
-          "phaseDetails": "Passive",
-          "phase": "defensive",
-          "castingValue": null,
-          "cpCost": null,
-          "reaction": false,
-          "lore": "Bladelords are tasked with protecting the Scinari from harm.",
-          "usedBy": null,
-          "declare": null,
-          "effect": "While any friendly **Scinari Heroes** are wholly within this unit’s combat range, both this unit and those friendly units have **Ward (5+)**.",
-          "abilityAndCommandIcon": "defensive",
-          "warscrollId": "578c0186-caee-4344-89e8-6df2058bb9f1",
-          "keywords": []
-        },
-        {
-          "id": "cd86bbdc-4e6b-4235-bdc7-c78f1c02afec",
-          "name": "Swordsmasters",
-          "phaseDetails": "Passive",
-          "phase": "combatPhase",
-          "castingValue": null,
-          "cpCost": null,
-          "reaction": false,
-          "lore": "Vanari Bladelords adopt different fighting styles depending upon the nature of their opponents.",
-          "usedBy": null,
-          "declare": null,
-          "effect": "Each time this unit uses a **Fight** ability, you must pick either the **Perfect Strike** or **Flurry of Blows** weapon characteristics for all the attacks it makes with its **Sunmetal Blades**.\n\nIn addition, do not use the attack sequence for an attack made with **Perfect Strike**. Instead, roll a dice. On a 2+, inflict 1 mortal damage on the target.",
-          "abilityAndCommandIcon": "offensive",
-          "warscrollId": "578c0186-caee-4344-89e8-6df2058bb9f1",
-          "keywords": []
-        }
-      ],
-      "keywords": [
-        "Champion",
-        "Aelf",
-        "Vanari",
-        "Infantry"
-      ],
-      "factionKeywords": [
-        "Lumineth Realm-lords",
-        "Grand Alliance Order"
-      ]
-    },
-    {
       "id": "2c0b8410-5ddd-4c44-a187-d45ec8774c0f",
       "name": "Vanari Dawnriders",
       "subname": null,
@@ -2562,7 +1938,7 @@
           "reaction": false,
           "lore": "Vanari Dawnriders scythe through enemy infantry, trampling over lesser foes and carving through the enemy ranks.",
           "usedBy": null,
-          "declare": "If this unit charged this phase, pick an enemy **Infantry** unit within 1\" of it to be the target.",
+          "declare": "If this unit charged this phase, pick an enemy **INFANTRY** unit within 1\" of it to be the target.",
           "effect": "Roll a dice for each model in this unit. For each 3+, inflict 1 mortal damage on the target.",
           "abilityAndCommandIcon": "offensive",
           "warscrollId": "2c0b8410-5ddd-4c44-a187-d45ec8774c0f",
@@ -2638,7 +2014,7 @@
           "warscrollId": "7cc5985f-eb3c-4eeb-8f11-9c59c096b6b0",
           "weaponAbilities": [
             "Crit (2 Hits)",
-            "Anti-Monster (+1 Rend)"
+            "Anti-MONSTER (+1 Rend)"
           ]
         }
       ],
@@ -2741,7 +2117,7 @@
           "battleDamaged": false,
           "warscrollId": "ef91013d-d397-486f-bbb1-80dbe500782c",
           "weaponAbilities": [
-            "Anti-Hero (+1 Rend)"
+            "Anti-HERO (+1 Rend)"
           ]
         }
       ],
@@ -2793,6 +2169,631 @@
       ]
     },
     {
+      "id": "15452f71-3f88-4587-a45c-953791f18e18",
+      "name": "Scinari Loreseeker",
+      "subname": null,
+      "lore": "Loreseekers are Eclipsians, those vanishingly rare Lumineth souls who embody both the Tyrionic and Teclian halves of Hyshian civilisation. They are both warrior and wizard, as capable with the blade as they are magic. Loreseekers are itinerant agents, wandering the realms in search of magical learning and powerful artefacts that would be better served in Hyshian hands. Rather than joining a warhost, they will fight alongside their kin when circumstances align. On more than one occasion, their timely arrival just as battlelines meet has meant the difference between victory and defeat, as the travelling spell-swords reveal arcane troves or sources of natural magic below the battlefield.\n\nYet as an eclipse briefly hides the light, the Loreseekers also have their darker aspects. They are often charged with obscuring as much as illuminating, sequestering away relics or knowledge that the Lumineth judge too dangerous for any besides themselves to possess. Should these items have already fallen into the grasp of others – including supposed allies – then a Loreseeker may turn to thieving or assassination in order to end the danger before it can manifest, though this is strictly a last resort. In the struggle to restore the realms, no sacrifice is too great.",
+      "bannerImage": "https://dhss9aar8ocw.cloudfront.net/a35a87d1-2a92-408d-9f02-ba31fceabfd2",
+      "rowImage": "https://dhss9aar8ocw.cloudfront.net/1d26a447-572a-43c6-bfff-3066c886c2ba",
+      "modelCount": 1,
+      "baseSize": "32mm",
+      "points": 140,
+      "notes": null,
+      "isSpearhead": false,
+      "cannotBeReinforced": true,
+      "hiddenFromReference": false,
+      "hiddenFromStormForge": false,
+      "referenceKeywords": "Hero, Wizard (1), Infantry, Order, Lumineth Realm‑lords, Aelf, Scinari",
+      "move": "6\"",
+      "save": "4+",
+      "control": "2",
+      "health": "5",
+      "wargearOptionsText": null,
+      "publicationId": "68d1f77b-aa55-4dd8-bd7f-a02ba1103a3a",
+      "limitingWarscrollId": null,
+      "requiredPrimaryHeroWarscrollId": null,
+      "isLegends": false,
+      "faction": "Lumineth Realm-lords",
+      "weapons": [
+        {
+          "id": "2823fa41-62ed-44a0-966b-aa877ac5f2a0",
+          "name": "Eclipsian Staff",
+          "type": "ranged",
+          "range": "12\"",
+          "attacks": "3",
+          "hit": "3+",
+          "wound": "3+",
+          "rend": "1",
+          "damage": "D3",
+          "battleDamaged": false,
+          "warscrollId": "15452f71-3f88-4587-a45c-953791f18e18",
+          "weaponAbilities": [
+            "Shoot in Combat"
+          ]
+        },
+        {
+          "id": "5eea320f-3656-4b48-8aec-ace3ef3488e8",
+          "name": "Loreseeker Blade",
+          "type": "melee",
+          "range": null,
+          "attacks": "5",
+          "hit": "3+",
+          "wound": "4+",
+          "rend": "1",
+          "damage": "2",
+          "battleDamaged": false,
+          "warscrollId": "15452f71-3f88-4587-a45c-953791f18e18",
+          "weaponAbilities": [
+            "Crit (Mortal)"
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "id": "3a044341-159c-4be9-9cd6-9959fef19af1",
+          "name": "Lone Agent",
+          "phaseDetails": "Passive",
+          "phase": "endOfTurn",
+          "castingValue": null,
+          "cpCost": null,
+          "reaction": false,
+          "lore": "Scinari Loreseekers employ their skills as independent operatives to great effect on the battlefield.",
+          "usedBy": null,
+          "declare": null,
+          "effect": "Add 5 to this unit’s control score while it is more than 9\" from all other friendly units.",
+          "abilityAndCommandIcon": "control",
+          "warscrollId": "15452f71-3f88-4587-a45c-953791f18e18",
+          "keywords": []
+        },
+        {
+          "id": "66493d82-9239-419d-9627-1c43ba84f0ab",
+          "name": "Independent Operative",
+          "phaseDetails": "Deployment Phase",
+          "phase": "startOfTurn",
+          "castingValue": null,
+          "cpCost": null,
+          "reaction": false,
+          "lore": "Loreseekers venture deep into unknown lands, searching for esoteric knowledge and artefacts that only the Lumineth can be entrusted with.",
+          "usedBy": null,
+          "declare": null,
+          "effect": "If this unit has not been deployed, set it up anywhere on the battlefield not in combat with any enemy units. This unit has now been deployed.\n\n**Designer’s Note:** *Enemy units that deploy after this unit can deploy in combat with it.*",
+          "abilityAndCommandIcon": "special",
+          "warscrollId": "15452f71-3f88-4587-a45c-953791f18e18",
+          "keywords": [
+            "Deploy"
+          ]
+        }
+      ],
+      "keywords": [
+        "Aelf",
+        "Wizard",
+        "Scinari",
+        "Infantry",
+        "Hero"
+      ],
+      "factionKeywords": [
+        "Lumineth Realm-lords",
+        "Grand Alliance Order"
+      ]
+    },
+    {
+      "id": "c7f2e83e-e4fe-4aa5-bfa2-45a2eb3f0af0",
+      "name": "Vanari Auralan Sentinels",
+      "subname": null,
+      "lore": "The bow is regarded as a noble weapon in Lumineth culture. To send an arrow soaring into the sky, its tip glimmering with purest light before descending to deliver judgement upon the unworthy, speaks to the souls of the aelves – as does the ability to strike down foes before being sullied by their presence. It is the task of the Auralan Sentinels to ensure that grinding melee rarely becomes a necessity, and they train fastidiously to squeeze every iota of potential from their bows and arrows.\n\nOf course, being aelves, the Sentinels have sought to improve upon the classical design of the bow as far as possible. Their efforts have resulted in the triple‑stringed arcbow, a weapon whose unique capacity for curvature and pull grants it two different modes of function: arrows can either be sent arcing skyward over distances that seem unbelievable to less enlightened mortals or else fired in a straight shot and with enough force to pin several warriors together. Sentinels forge their arrow tips from precious sunmetal to better ensure each shot flies true and pierces its mark.",
+      "bannerImage": "https://dhss9aar8ocw.cloudfront.net/1b6458e2-739f-4a78-b650-9d11dc1725a0",
+      "rowImage": "https://dhss9aar8ocw.cloudfront.net/1d8d8bcf-3fd0-476b-bcb1-d52e05954e53",
+      "modelCount": 10,
+      "baseSize": "32mm",
+      "points": 160,
+      "notes": null,
+      "isSpearhead": false,
+      "cannotBeReinforced": false,
+      "hiddenFromReference": false,
+      "hiddenFromStormForge": false,
+      "referenceKeywords": "Infantry, Champion, Order, Lumineth Realm‑lords, Aelf, Vanari",
+      "move": "6\"",
+      "save": "5+",
+      "control": "1",
+      "health": "1",
+      "wargearOptionsText": null,
+      "publicationId": "68d1f77b-aa55-4dd8-bd7f-a02ba1103a3a",
+      "limitingWarscrollId": null,
+      "requiredPrimaryHeroWarscrollId": null,
+      "isLegends": false,
+      "faction": "Lumineth Realm-lords",
+      "weapons": [
+        {
+          "id": "3cd73fa7-20c7-4f59-b245-ba482d3b9d0b",
+          "name": "Auralan Bow",
+          "type": "ranged",
+          "range": "18\"",
+          "attacks": "2",
+          "hit": "3+",
+          "wound": "4+",
+          "rend": "1",
+          "damage": "1",
+          "battleDamaged": false,
+          "warscrollId": "c7f2e83e-e4fe-4aa5-bfa2-45a2eb3f0af0",
+          "weaponAbilities": [
+            "Crit (Auto-wound)"
+          ]
+        },
+        {
+          "id": "d0b5e666-5d9b-4b83-a313-74334be51298",
+          "name": "Sentinel Blades",
+          "type": "melee",
+          "range": null,
+          "attacks": "1",
+          "hit": "3+",
+          "wound": "4+",
+          "rend": "-",
+          "damage": "1",
+          "battleDamaged": false,
+          "warscrollId": "c7f2e83e-e4fe-4aa5-bfa2-45a2eb3f0af0",
+          "weaponAbilities": []
+        }
+      ],
+      "abilities": [
+        {
+          "id": "dbece3ca-ec77-4707-b1dd-f2e26617fc81",
+          "name": "Lofted Shots",
+          "phaseDetails": "Your Shooting Phase",
+          "phase": "shootingPhase",
+          "castingValue": null,
+          "cpCost": null,
+          "reaction": false,
+          "lore": "To strike a distant target, these warriors point their bows to the sky before launching a volley up high.",
+          "usedBy": null,
+          "declare": null,
+          "effect": "For the rest of the turn, add 6\" to the Range characteristic of this unit’s **Auralan Bows** but subtract 1 from hit rolls for this unit’s shooting attacks.",
+          "abilityAndCommandIcon": "shooting",
+          "warscrollId": "c7f2e83e-e4fe-4aa5-bfa2-45a2eb3f0af0",
+          "keywords": []
+        }
+      ],
+      "keywords": [
+        "Champion",
+        "Aelf",
+        "Vanari",
+        "Infantry"
+      ],
+      "factionKeywords": [
+        "Lumineth Realm-lords",
+        "Grand Alliance Order"
+      ]
+    },
+    {
+      "id": "15482ddc-ffca-49be-8906-d42f40b739b9",
+      "name": "The Light of Eltharion",
+      "subname": null,
+      "lore": "Eltharion is an ancient hero of aelvenkind. In the final days of the World-that-Was, he was slain while doing great service to the martial god Tyrion. But his soul was strong, its remnants lingering an age in the darkness of the void. Teclis recalled his friend’s sacrifice and was determined to save him. He recreated the warrior’s legendary Fangsword and armour before creating a doppelgänger to house Eltharion’s soul, yet this form burnt to ash upon coming into contact with that most luminous essence. However, Teclis’s grief turned to wonder as he watched the empty armour pulse with an inner glow, stirring and lifting a blade in salute. Eltharion walked once more, now a being of purest light bound into his enchanted plate.\n\nEltharion serves as the champion of the twin gods. He is a masterful duellist, striking and feinting in close combat as fluidly as the wind itself. Perhaps most crucially, his nature as a being of insubstantial light makes him almost impossible to destroy and allows him to venture into places so suffused with magic that they are lethal to mortalkind.",
+      "bannerImage": "https://dhss9aar8ocw.cloudfront.net/befbca35-040b-449c-8a91-04e667bf68f4",
+      "rowImage": "https://dhss9aar8ocw.cloudfront.net/36df855f-df6b-4cdb-a441-ea6a59633a7c",
+      "modelCount": 1,
+      "baseSize": "50mm",
+      "points": 230,
+      "notes": "This **HERO** can join an eligible regiment as a *Lumineth Paragon*.",
+      "isSpearhead": false,
+      "cannotBeReinforced": true,
+      "hiddenFromReference": false,
+      "hiddenFromStormForge": false,
+      "referenceKeywords": "Unique, Hero, Infantry, Ward (5+), Order, Lumineth Realm‑lords, Aelf",
+      "move": "6\"",
+      "save": "3+",
+      "control": "2",
+      "health": "6",
+      "wargearOptionsText": null,
+      "publicationId": "68d1f77b-aa55-4dd8-bd7f-a02ba1103a3a",
+      "limitingWarscrollId": null,
+      "requiredPrimaryHeroWarscrollId": null,
+      "isLegends": false,
+      "faction": "Lumineth Realm-lords",
+      "weapons": [
+        {
+          "id": "990b8a27-1f66-45f7-8138-986cf507a9da",
+          "name": "Fangsword of Eltharion",
+          "type": "melee",
+          "range": null,
+          "attacks": "4",
+          "hit": "2+",
+          "wound": "3+",
+          "rend": "3",
+          "damage": "3",
+          "battleDamaged": false,
+          "warscrollId": "15482ddc-ffca-49be-8906-d42f40b739b9",
+          "weaponAbilities": [
+            "Crit (2 Hits)"
+          ]
+        },
+        {
+          "id": "9e834df5-1d20-4f3f-9ae3-cefbf23f45fc",
+          "name": "Celennari Blade",
+          "type": "melee",
+          "range": null,
+          "attacks": "2",
+          "hit": "2+",
+          "wound": "3+",
+          "rend": "1",
+          "damage": "3",
+          "battleDamaged": false,
+          "warscrollId": "15482ddc-ffca-49be-8906-d42f40b739b9",
+          "weaponAbilities": [
+            "Anti-HERO (+1 Rend)",
+            "Anti-MONSTER (+1 Rend)"
+          ]
+        },
+        {
+          "id": "d1c20579-77ff-4cf1-9b7a-5366910e0ce3",
+          "name": "Searing Darts of Light",
+          "type": "ranged",
+          "range": "12\"",
+          "attacks": "3",
+          "hit": "2+",
+          "wound": "3+",
+          "rend": "2",
+          "damage": "D3",
+          "battleDamaged": false,
+          "warscrollId": "15482ddc-ffca-49be-8906-d42f40b739b9",
+          "weaponAbilities": []
+        }
+      ],
+      "abilities": [
+        {
+          "id": "4801d26f-297d-487c-b36e-729aee956530",
+          "name": "Supreme Swordmaster",
+          "phaseDetails": "Passive",
+          "phase": "combatPhase",
+          "castingValue": null,
+          "cpCost": null,
+          "reaction": false,
+          "lore": "The Light of Eltharion is a consummate warrior and one of the greatest swordmasters of all time.",
+          "usedBy": null,
+          "declare": null,
+          "effect": "Ignore negative modifiers to hit rolls and wound rolls for this unit’s attacks. In addition, ignore negative modifiers to the characteristics of this unit’s melee weapons.",
+          "abilityAndCommandIcon": "offensive",
+          "warscrollId": "15482ddc-ffca-49be-8906-d42f40b739b9",
+          "keywords": []
+        },
+        {
+          "id": "f982f355-d7de-44ff-953c-9e7c4eab3a95",
+          "name": "Spirit Armour",
+          "phaseDetails": "Passive",
+          "phase": "defensive",
+          "castingValue": null,
+          "cpCost": null,
+          "reaction": false,
+          "lore": "Instead of protecting a body of flesh and blood, this armour houses the undying spirit of the mighty warrior Eltharion. Though animated by the Light of Eltharion, it is essentially hollow – even a penetrating thrust may simply pass through the glowing form within.",
+          "usedBy": null,
+          "declare": null,
+          "effect": "Ignore all modifiers to save rolls for this unit (positive and negative).",
+          "abilityAndCommandIcon": "defensive",
+          "warscrollId": "15482ddc-ffca-49be-8906-d42f40b739b9",
+          "keywords": []
+        }
+      ],
+      "keywords": [
+        "Ward (5+)",
+        "Aelf",
+        "Lumineth Paragon",
+        "Unique",
+        "Infantry",
+        "Hero"
+      ],
+      "factionKeywords": [
+        "Lumineth Realm-lords",
+        "Grand Alliance Order"
+      ]
+    },
+    {
+      "id": "44b1683b-6548-4e13-a4f8-c41f8dc15ae6",
+      "name": "Alarith Spirit of the Mountain",
+      "subname": null,
+      "lore": "In times of direst crisis, the Alarith temples will call upon some of Hysh’s greatest defenders – the Spirits of the Mountain. These are the animus of the realm’s majestic peaks come forth, bound into war-forms carved from realmstone-laced rock and wielding huge, crushing hammers. To petition one to march to battle, the Lumineth must spend weeks appealing to these entities, for the mountains loathe rash decision-making. Once their course is set, however, these aelementors are unbreakable allies. Their wisdom is always sage, and their hammers can cave in the skull of a gargant with a single swing. In their presence, the power of the earth itself is awakened, unleashed through devastating shock waves.\n\nThe war-forms of mountain spirits are themselves miniature ecosystems, their bodies garlanded by trees and their sunmetal armour cooled in the mountains’ own lakes and streams. Lesser animuses shelter in their mighty shadow. Their core, however, is their mask, which resembles the visage of an Ymetrican longhorn. Should the unthinkable happen and this mask be lost, then some part of the mountain’s soul may be lost with it. Still, Hysh’s peaks know that they must risk this grim fate to defend their earthly incarnations.",
+      "bannerImage": "https://dhss9aar8ocw.cloudfront.net/1d15f10e-3a3b-4adc-9082-7e31322f0b33",
+      "rowImage": "https://dhss9aar8ocw.cloudfront.net/8ee20dd8-3041-4249-9d61-2862c3a70afa",
+      "modelCount": 1,
+      "baseSize": "100mm",
+      "points": 320,
+      "notes": null,
+      "isSpearhead": false,
+      "cannotBeReinforced": true,
+      "hiddenFromReference": false,
+      "hiddenFromStormForge": false,
+      "referenceKeywords": "Monster, Ward (6+), Order, Lumineth Realm‑lords, Alarith",
+      "move": "6\"",
+      "save": "3+",
+      "control": "5",
+      "health": "14",
+      "wargearOptionsText": null,
+      "publicationId": "68d1f77b-aa55-4dd8-bd7f-a02ba1103a3a",
+      "limitingWarscrollId": null,
+      "requiredPrimaryHeroWarscrollId": null,
+      "isLegends": false,
+      "faction": "Lumineth Realm-lords",
+      "weapons": [
+        {
+          "id": "9969e5f7-0f4c-42f8-a067-758f79d25b6e",
+          "name": "Cloven Hooves",
+          "type": "melee",
+          "range": null,
+          "attacks": "2",
+          "hit": "4+",
+          "wound": "2+",
+          "rend": "1",
+          "damage": "2",
+          "battleDamaged": false,
+          "warscrollId": "44b1683b-6548-4e13-a4f8-c41f8dc15ae6",
+          "weaponAbilities": []
+        },
+        {
+          "id": "9e81eb04-00cd-4e74-bcff-e8dac55e51cd",
+          "name": "Stoneheart Worldhammer",
+          "type": "melee",
+          "range": null,
+          "attacks": "4",
+          "hit": "3+",
+          "wound": "2+",
+          "rend": "2",
+          "damage": "5",
+          "battleDamaged": true,
+          "warscrollId": "44b1683b-6548-4e13-a4f8-c41f8dc15ae6",
+          "weaponAbilities": []
+        },
+        {
+          "id": "aa8f297b-d52a-4d1f-b1b8-709167d1471b",
+          "name": "Geomantic Blast",
+          "type": "ranged",
+          "range": "12\"",
+          "attacks": "1",
+          "hit": "3+",
+          "wound": "2+",
+          "rend": "2",
+          "damage": "D6",
+          "battleDamaged": false,
+          "warscrollId": "44b1683b-6548-4e13-a4f8-c41f8dc15ae6",
+          "weaponAbilities": []
+        }
+      ],
+      "abilities": [
+        {
+          "id": "640a1bb5-52b0-4ee5-9ce9-af795353dc4e",
+          "name": "Stoneheart Shockwave",
+          "phaseDetails": "Once Per Turn (Army), Any Combat Phase",
+          "phase": "combatPhase",
+          "castingValue": null,
+          "cpCost": null,
+          "reaction": false,
+          "lore": "When a Spirit of the Mountain smashes its worldhammer into the ground, it can direct the resulting shock wave at a nearby foe, hurling the enemy to its knees.",
+          "usedBy": null,
+          "declare": "If this unit did not charge this turn, pick an enemy unit in combat with it to be the target.",
+          "effect": "Roll a dice. On a 4+, the target has **STRIKE-LAST** for the rest of the turn.",
+          "abilityAndCommandIcon": "defensive",
+          "warscrollId": "44b1683b-6548-4e13-a4f8-c41f8dc15ae6",
+          "keywords": [
+            "Rampage"
+          ]
+        },
+        {
+          "id": "fa415ba3-0a41-4993-a9ed-f298b43fc42a",
+          "name": "Battle Damaged",
+          "phaseDetails": "Passive",
+          "phase": "startOfTurn",
+          "castingValue": null,
+          "cpCost": null,
+          "reaction": false,
+          "lore": null,
+          "usedBy": null,
+          "declare": null,
+          "effect": "While this unit has 10 or more damage points, the Attacks characteristic of its **Stoneheart Worldhammer** is 3.",
+          "abilityAndCommandIcon": "battleDamaged",
+          "warscrollId": "44b1683b-6548-4e13-a4f8-c41f8dc15ae6",
+          "keywords": []
+        },
+        {
+          "id": "fe7d9e2b-cc25-4687-857a-c5179337d0ce",
+          "name": "Stonemage Symbiosis",
+          "phaseDetails": "Passive",
+          "phase": "defensive",
+          "castingValue": null,
+          "cpCost": null,
+          "reaction": false,
+          "lore": "Stonemages are able to sustain a Spirit of the Mountain.",
+          "usedBy": null,
+          "declare": null,
+          "effect": "The ‘Battle Damaged’ ability has no effect on this unit while it is wholly within 12\" of a friendly **Alarith Stonemage**.",
+          "abilityAndCommandIcon": "defensive",
+          "warscrollId": "44b1683b-6548-4e13-a4f8-c41f8dc15ae6",
+          "keywords": []
+        }
+      ],
+      "keywords": [
+        "Monster",
+        "Alarith",
+        "Ward (6+)"
+      ],
+      "factionKeywords": [
+        "Lumineth Realm-lords",
+        "Grand Alliance Order"
+      ]
+    },
+    {
+      "id": "9a4f9b6c-509f-4df3-969f-34eda999ff57",
+      "name": "Alarith Stoneguard",
+      "subname": null,
+      "lore": "The Stoneguard form the warrior-ranks of the Alarith temples. They are a rare breed, for few can earn the trust of one of Hysh’s ancient mountains. These nature spirits once held a bitter disdain for the aelves after being damaged in the Ocari Dara. To walk their valleys was to risk death by avalanche, landslide or exposure. Only decades of repentance soothed the mountains’ jaded souls and, in time, compelled them to grant the most worthy aelves wisdom and strength.\n\nTo become a Stoneguard demands a singular will. Many are the tests an aspirant must endure, from fasting atop the highest peaks to running alongside roaring rockfalls. The climax of these trials is to be literally buried alive. If the aelf is judged to have heeded the mountains’ wisdom, they will find themselves able to breathe through tiny cracks in the rock and eventually rise as an Alarith.\n\nWhen the Stoneguard plant their feet and focus upon the teachings of their aelementor, the flesh of these warriors takes on the consistency of stone. Then the Alarith truly do become immovable objects, shrugging off even the most determined of blows. Hammers wrought from sedimentary rock and diamondcored mattocks are their favoured weapons.",
+      "bannerImage": "https://dhss9aar8ocw.cloudfront.net/2deead52-ad2f-485f-8edb-4ebe29f4b19f",
+      "rowImage": "https://dhss9aar8ocw.cloudfront.net/9043cc8c-c28f-47ad-ae22-3386a54ed8c7",
+      "modelCount": 5,
+      "baseSize": "32mm",
+      "points": 120,
+      "notes": null,
+      "isSpearhead": false,
+      "cannotBeReinforced": false,
+      "hiddenFromReference": false,
+      "hiddenFromStormForge": false,
+      "referenceKeywords": "Infantry, Champion, Standard Bearer (1/5), Order, Lumineth Realm‑lords, Aelf, Alarith",
+      "move": "4\"",
+      "save": "4+",
+      "control": "1",
+      "health": "2",
+      "wargearOptionsText": null,
+      "publicationId": "68d1f77b-aa55-4dd8-bd7f-a02ba1103a3a",
+      "limitingWarscrollId": null,
+      "requiredPrimaryHeroWarscrollId": null,
+      "isLegends": false,
+      "faction": "Lumineth Realm-lords",
+      "weapons": [
+        {
+          "id": "a0031d54-1b66-470b-af14-7a0d976a81c4",
+          "name": "Stoneguard Hammers",
+          "type": "melee",
+          "range": null,
+          "attacks": "2",
+          "hit": "3+",
+          "wound": "3+",
+          "rend": "1",
+          "damage": "2",
+          "battleDamaged": false,
+          "warscrollId": "9a4f9b6c-509f-4df3-969f-34eda999ff57",
+          "weaponAbilities": []
+        }
+      ],
+      "abilities": [
+        {
+          "id": "40c53347-e790-4d40-9566-c86bb9a2a8f3",
+          "name": "Fortitude of the Earth",
+          "phaseDetails": "Passive",
+          "phase": "defensive",
+          "castingValue": null,
+          "cpCost": null,
+          "reaction": false,
+          "lore": "When the Stoneguard adopt an unyielding martial stance around a site of power, even the most ferocious assaults cannot break them.",
+          "usedBy": null,
+          "declare": null,
+          "effect": "This unit has **WARD (5+)** while all of its models are contesting an objective you control.",
+          "abilityAndCommandIcon": "defensive",
+          "warscrollId": "9a4f9b6c-509f-4df3-969f-34eda999ff57",
+          "keywords": []
+        }
+      ],
+      "keywords": [
+        "Champion",
+        "Standard Bearer",
+        "Aelf",
+        "Alarith",
+        "Infantry"
+      ],
+      "factionKeywords": [
+        "Lumineth Realm-lords",
+        "Grand Alliance Order"
+      ]
+    },
+    {
+      "id": "578c0186-caee-4344-89e8-6df2058bb9f1",
+      "name": "Vanari Bladelords",
+      "subname": null,
+      "lore": "Though they are meticulous adherents to the warrior creed of the Vanari, Bladelords most commonly serve as bodyguards to the Scinari mage-caste. This bond is displayed all over a Bladelord’s person, from the Scinari runes worked into their armour to their vanashimor back-banners. In battle, the Bladelords serve with quiet, unflinching pride, driving the enemy back with perfectly placed strikes that allow the Scinari to practise their arcane rites undisturbed. When surrounded by unending ranks of foes, they can change style effortlessly to instead land a flurry of blows that can slice through hordes with ease.\n\nIn turn, the Scinari seek to further uplift the minds of their guardians. Bladelords are encouraged to see battle as a complex equation, where momentum, force and reaction must all be balanced in a split second. Successful calculation of these competing forces sees the Bladelords wield their lightweight greatswords and twin blades to lop off limbs and heads in whirling strikes, each clumsy blow from their adversaries accounted for and countered with the perfect riposte. The Bladelords frown upon boastfulness even more so than other Lumineth; as they see it, their only duty is to protect their wizardly charges. If they happen to inch closer towards achieving the most sublime warrior state imaginable, then so be it.",
+      "bannerImage": "https://dhss9aar8ocw.cloudfront.net/4cba066a-aad1-4c39-bcf9-46a4126b163c",
+      "rowImage": "https://dhss9aar8ocw.cloudfront.net/6f7222be-4397-4a81-956e-255e000d94eb",
+      "modelCount": 5,
+      "baseSize": "32mm",
+      "points": 140,
+      "notes": null,
+      "isSpearhead": false,
+      "cannotBeReinforced": false,
+      "hiddenFromReference": false,
+      "hiddenFromStormForge": false,
+      "referenceKeywords": "Infantry, Champion, Order, Lumineth Realm‑lords, Aelf, Vanari",
+      "move": "6\"",
+      "save": "4+",
+      "control": "1",
+      "health": "2",
+      "wargearOptionsText": null,
+      "publicationId": "68d1f77b-aa55-4dd8-bd7f-a02ba1103a3a",
+      "limitingWarscrollId": null,
+      "requiredPrimaryHeroWarscrollId": null,
+      "isLegends": false,
+      "faction": "Lumineth Realm-lords",
+      "weapons": [
+        {
+          "id": "9c6e3d72-433c-453e-b926-d15f1fc5d0e6",
+          "name": "Sunmetal Blade: Flurry of Blows",
+          "type": "melee",
+          "range": null,
+          "attacks": "3",
+          "hit": "3+",
+          "wound": "4+",
+          "rend": "1",
+          "damage": "1",
+          "battleDamaged": false,
+          "warscrollId": "578c0186-caee-4344-89e8-6df2058bb9f1",
+          "weaponAbilities": [
+            "Anti-INFANTRY (+1 Rend)",
+            "Crit (Mortal)"
+          ]
+        },
+        {
+          "id": "b5e25057-092c-4f04-a243-914fe7fe40a8",
+          "name": "Sunmetal Blade: Perfect Strike",
+          "type": "melee",
+          "range": null,
+          "attacks": "1",
+          "hit": "✹",
+          "wound": "✹",
+          "rend": "✹",
+          "damage": "✹",
+          "battleDamaged": false,
+          "warscrollId": "578c0186-caee-4344-89e8-6df2058bb9f1",
+          "weaponAbilities": []
+        }
+      ],
+      "abilities": [
+        {
+          "id": "aa74e9bb-fbb3-43e2-a876-59190b7a14f1",
+          "name": "Guardians",
+          "phaseDetails": "Passive",
+          "phase": "defensive",
+          "castingValue": null,
+          "cpCost": null,
+          "reaction": false,
+          "lore": "Bladelords are tasked with protecting the Scinari from harm.",
+          "usedBy": null,
+          "declare": null,
+          "effect": "While any friendly **SCINARI HEROES** are wholly within this unit’s combat range, both this unit and those friendly units have **WARD (5+)**.",
+          "abilityAndCommandIcon": "defensive",
+          "warscrollId": "578c0186-caee-4344-89e8-6df2058bb9f1",
+          "keywords": []
+        },
+        {
+          "id": "cd86bbdc-4e6b-4235-bdc7-c78f1c02afec",
+          "name": "Swordsmasters",
+          "phaseDetails": "Passive",
+          "phase": "combatPhase",
+          "castingValue": null,
+          "cpCost": null,
+          "reaction": false,
+          "lore": "Vanari Bladelords adopt different fighting styles depending upon the nature of their opponents.",
+          "usedBy": null,
+          "declare": null,
+          "effect": "Each time this unit uses a **FIGHT** ability, you must pick either the **Perfect Strike** or **Flurry of Blows** weapon characteristics for all the attacks it makes with its **Sunmetal Blades**.\n\nIn addition, do not use the attack sequence for an attack made with **Perfect Strike**. Instead, roll a dice. On a 2+, inflict 1 mortal damage on the target.",
+          "abilityAndCommandIcon": "offensive",
+          "warscrollId": "578c0186-caee-4344-89e8-6df2058bb9f1",
+          "keywords": []
+        }
+      ],
+      "keywords": [
+        "Champion",
+        "Aelf",
+        "Vanari",
+        "Infantry"
+      ],
+      "factionKeywords": [
+        "Lumineth Realm-lords",
+        "Grand Alliance Order"
+      ]
+    },
+    {
       "id": "c17490eb-2204-414b-bd0e-f2d15d691dff",
       "name": "Vanari Bannerblade",
       "subname": null,
@@ -2802,7 +2803,7 @@
       "modelCount": 1,
       "baseSize": "40mm",
       "points": 130,
-      "notes": "This **Hero** can join an eligible regiment as a *Lumineth Paragon*.",
+      "notes": "This **HERO** can join an eligible regiment as a *Lumineth Paragon*.",
       "isSpearhead": false,
       "cannotBeReinforced": true,
       "hiddenFromReference": false,
@@ -2848,7 +2849,7 @@
           "lore": "This mighty standard is adorned with symbols of great importance to the Lumineth.",
           "usedBy": null,
           "declare": null,
-          "effect": "Add 3 to the control scores of other friendly **Lumineth Realm‑lords** units while they are wholly within 18\" of this unit.",
+          "effect": "Add 3 to the control scores of other friendly **LUMINETH REALM‑LORDS** units while they are wholly within 18\" of this unit.",
           "abilityAndCommandIcon": "control",
           "warscrollId": "c17490eb-2204-414b-bd0e-f2d15d691dff",
           "keywords": []
@@ -2867,6 +2868,246 @@
       ]
     }
   ],
+  "battleTraits": [
+    {
+      "faction": "Lumineth Realm-lords",
+      "abilityGroupName": "Glittering Phalanx Battle Traits",
+      "abilityType": "battleTraits",
+      "id": "27068cbf-7082-4cef-a168-118170e4b6c0",
+      "name": "Lightning Reactions",
+      "phaseDetails": "Passive",
+      "phase": "combatPhase",
+      "abilityAndCommandIcon": "offensive",
+      "cpCost": null,
+      "lore": "Lumineth possess a natural alacrity beyond that of most rivals.",
+      "usedBy": null,
+      "effect": "When players are alternating picking units to use a ****FIGHT**** ability, when it is your turn to pick a unit, you can pick 2 units instead of 1. Resolve the second ****FIGHT**** ability immediately after the first.",
+      "image": null,
+      "altText": null,
+      "subsectionName": null,
+      "subsectionLore": null,
+      "subsectionRulesText": null,
+      "reaction": false,
+      "abilityGroupId": "7d9e1e40-b9fa-404d-a7c2-bf9ec8deec68",
+      "keywords": []
+    },
+    {
+      "faction": "Lumineth Realm-lords",
+      "abilityGroupName": "Glittering Phalanx Battle Traits",
+      "abilityType": "battleTraits",
+      "id": "8076c801-8f00-45b4-88f2-093bd762ded0",
+      "name": "Power of Hysh",
+      "phaseDetails": "Once Per Turn (Army), Your Hero Phase",
+      "phase": "heroPhase",
+      "abilityAndCommandIcon": "offensive",
+      "cpCost": null,
+      "lore": "Vanari can use their innate arcane abilities to empower their sunmetal weapons.",
+      "declare": "Pick a friendly unit.",
+      "usedBy": null,
+      "effect": "Roll a dice. On a 2+, until the start of your next turn, attacks made by that unit score critical hits on unmodified hit rolls of 5+.",
+      "image": null,
+      "altText": null,
+      "subsectionName": null,
+      "subsectionLore": null,
+      "subsectionRulesText": null,
+      "reaction": false,
+      "abilityGroupId": "7d9e1e40-b9fa-404d-a7c2-bf9ec8deec68",
+      "keywords": [
+        "Facet of War"
+      ]
+    },
+    {
+      "faction": "Lumineth Realm-lords",
+      "abilityGroupName": "Glittering Phalanx Battle Traits",
+      "abilityType": "battleTraits",
+      "id": "f2b59e65-36a1-4543-9fc9-73c012a5d659",
+      "name": "Facets of War",
+      "phaseDetails": "Once Per Battle Round, Start of Battle Round",
+      "phase": "startOfTurn",
+      "abilityAndCommandIcon": "special",
+      "cpCost": null,
+      "lore": "The arts of war practised by the Lumineth are subtle, precise and devastating.",
+      "usedBy": null,
+      "effect": "You must use this ability at the start of the battle round. Pick 1 ****FACET OF WAR**** ability. That ****FACET OF WAR**** ability can be used this battle round but the other two cannot.",
+      "image": null,
+      "altText": null,
+      "subsectionName": null,
+      "subsectionLore": null,
+      "subsectionRulesText": null,
+      "reaction": false,
+      "abilityGroupId": "7d9e1e40-b9fa-404d-a7c2-bf9ec8deec68",
+      "keywords": []
+    },
+    {
+      "faction": "Lumineth Realm-lords",
+      "abilityGroupName": "Glittering Phalanx Battle Traits",
+      "abilityType": "battleTraits",
+      "id": "cd8ab0d0-041b-4a72-a968-235170cafd14",
+      "name": "Shining Company",
+      "phaseDetails": "Once Per Phase (Army), Reaction: Opponent declared an ATTACK ability",
+      "phase": "defensive",
+      "abilityAndCommandIcon": "defensive",
+      "cpCost": null,
+      "lore": "Numinous light shines from this aelven formation, bedazzling the foe.",
+      "usedBy": "A friendly unit targeted by that **ATTACK** ability and that has not made a pile-in move this turn.",
+      "effect": "Subtract 1 from hit rolls for the attacks that target that friendly unit.",
+      "image": null,
+      "altText": null,
+      "subsectionName": null,
+      "subsectionLore": null,
+      "subsectionRulesText": null,
+      "reaction": true,
+      "abilityGroupId": "7d9e1e40-b9fa-404d-a7c2-bf9ec8deec68",
+      "keywords": [
+        "Facet of War"
+      ]
+    },
+    {
+      "faction": "Lumineth Realm-lords",
+      "abilityGroupName": "Lumineth Realm-lords Battle Traits",
+      "abilityType": "battleTraits",
+      "id": "1ceb0356-bf9f-4975-acd9-ad2a7ac25631",
+      "name": "Deep Thinkers",
+      "phaseDetails": "Start of Battle Round",
+      "phase": "startOfTurn",
+      "abilityAndCommandIcon": "special",
+      "cpCost": null,
+      "lore": "The Scinari are renowned for their profound knowledge and thoughtful deliberation.",
+      "usedBy": null,
+      "effect": "You can only use this ability if you have not used any ****FACET OF WAR**** abilities this battle round.\n\nAdd 1 to casting rolls for friendly ****SCINARI**** units for the rest of the battle round.",
+      "image": null,
+      "altText": null,
+      "subsectionName": null,
+      "subsectionLore": null,
+      "subsectionRulesText": null,
+      "reaction": false,
+      "abilityGroupId": "e136c5b7-e14a-4f14-a7e6-383dc0aa698f",
+      "keywords": [
+        "Facet of War"
+      ]
+    },
+    {
+      "faction": "Lumineth Realm-lords",
+      "abilityGroupName": "Lumineth Realm-lords Battle Traits",
+      "abilityType": "battleTraits",
+      "id": "39f96fa6-5584-495f-8b2e-5006cd2211a7",
+      "name": "Enduring As Rock",
+      "phaseDetails": "Start of Battle Round",
+      "phase": "startOfTurn",
+      "abilityAndCommandIcon": "defensive",
+      "cpCost": null,
+      "lore": "When in a battle trance inspired by the mountain, the Alarith take on the aspect of stone, blades rebounding off their rock-hard skin.",
+      "usedBy": null,
+      "effect": "You can only use this ability if you have not used any ****FACET OF WAR**** abilities this battle round.\n\nSubtract 1 from the Rend characteristic of weapons used for attacks that target friendly ****ALARITH**** units for the rest of the battle round.",
+      "image": null,
+      "altText": null,
+      "subsectionName": null,
+      "subsectionLore": null,
+      "subsectionRulesText": null,
+      "reaction": false,
+      "abilityGroupId": "e136c5b7-e14a-4f14-a7e6-383dc0aa698f",
+      "keywords": [
+        "Facet of War"
+      ]
+    },
+    {
+      "faction": "Lumineth Realm-lords",
+      "abilityGroupName": "Lumineth Realm-lords Battle Traits",
+      "abilityType": "battleTraits",
+      "id": "7db1260f-f648-4b04-8251-8f6650be75da",
+      "name": "Move Like the Wind",
+      "phaseDetails": "Your Shooting Phase",
+      "phase": "shootingPhase",
+      "abilityAndCommandIcon": "shooting",
+      "cpCost": null,
+      "lore": "Hurakan warriors perform gravity-defying leaps to take them away from their enemies.",
+      "declare": "You can only use this ability if you have not used any ****FACET OF WAR**** abilities this battle round. Pick up to 3 friendly ****HURAKAN**** units that are not in combat to be the targets.",
+      "usedBy": null,
+      "effect": "Each target can **move** 2D6\". It cannot **move** into combat during any part of that **move**, and it cannot use ****SHOOT**** abilities for the rest of the turn.",
+      "image": null,
+      "altText": null,
+      "subsectionName": null,
+      "subsectionLore": null,
+      "subsectionRulesText": null,
+      "reaction": false,
+      "abilityGroupId": "e136c5b7-e14a-4f14-a7e6-383dc0aa698f",
+      "keywords": [
+        "Facet of War",
+        "Move"
+      ]
+    },
+    {
+      "faction": "Lumineth Realm-lords",
+      "abilityGroupName": "Lumineth Realm-lords Battle Traits",
+      "abilityType": "battleTraits",
+      "id": "b6000320-d170-4b7d-a3e6-094aa14efe41",
+      "name": "Lightning Reactions",
+      "phaseDetails": "Passive",
+      "phase": "combatPhase",
+      "abilityAndCommandIcon": "offensive",
+      "cpCost": null,
+      "lore": "Lumineth can think faster, act more decisively and fight more proficiently than any other.",
+      "usedBy": null,
+      "effect": "When players are alternating picking units to use a ****FIGHT**** ability, when it is your turn to pick a unit, you can pick 2 **LUMINETH REALM-LORDS** units instead of 1. Resolve the second ****FIGHT**** ability immediately after the first.",
+      "image": null,
+      "altText": null,
+      "subsectionName": null,
+      "subsectionLore": null,
+      "subsectionRulesText": null,
+      "reaction": false,
+      "abilityGroupId": "e136c5b7-e14a-4f14-a7e6-383dc0aa698f",
+      "keywords": []
+    },
+    {
+      "faction": "Lumineth Realm-lords",
+      "abilityGroupName": "Lumineth Realm-lords Battle Traits",
+      "abilityType": "battleTraits",
+      "id": "5015acc9-3eaa-461b-8445-8ce95811a15a",
+      "name": "Shining Company",
+      "phaseDetails": "Start of Battle Round",
+      "phase": "startOfTurn",
+      "abilityAndCommandIcon": "defensive",
+      "cpCost": null,
+      "lore": "Vanari warriors often fight in a grouping that combines the bright light of each soul into a dazzling brilliance that befuddles foes.",
+      "usedBy": null,
+      "effect": "You can only use this ability if you have not used any ****FACET OF WAR**** abilities this battle round.\n\nFor the rest of the battle round, subtract 1 from hit rolls for attacks that target friendly ****VANARI**** units that have not charged this turn and that have not been picked as the target of the ‘Power of Hysh’ ability this battle round.",
+      "image": null,
+      "altText": null,
+      "subsectionName": null,
+      "subsectionLore": null,
+      "subsectionRulesText": null,
+      "reaction": false,
+      "abilityGroupId": "e136c5b7-e14a-4f14-a7e6-383dc0aa698f",
+      "keywords": [
+        "Facet of War"
+      ]
+    },
+    {
+      "faction": "Lumineth Realm-lords",
+      "abilityGroupName": "Lumineth Realm-lords Battle Traits",
+      "abilityType": "battleTraits",
+      "id": "413a03cc-0db6-46e6-966a-03c0f3e3864d",
+      "name": "Power of Hysh",
+      "phaseDetails": "Start of Battle Round",
+      "phase": "startOfTurn",
+      "abilityAndCommandIcon": "offensive",
+      "cpCost": null,
+      "lore": "Vanari can use their innate arcane abilities to empower the sunmetal in their weapons, making it burn with a greater intensity.",
+      "declare": "You can only use this ability if you have not used any ****FACET OF WAR**** abilities this battle round. Pick a friendly ****VANARI**** unit to be the target.",
+      "usedBy": null,
+      "effect": "The target’s attacks score critical hits on unmodified hit rolls of 5+ for the rest of the battle round.",
+      "image": null,
+      "altText": null,
+      "subsectionName": null,
+      "subsectionLore": null,
+      "subsectionRulesText": null,
+      "reaction": false,
+      "abilityGroupId": "e136c5b7-e14a-4f14-a7e6-383dc0aa698f",
+      "keywords": [
+        "Facet of War"
+      ]
+    }
+  ],
   "heroicTraits": [
     {
       "faction": "Lumineth Realm-lords",
@@ -2874,7 +3115,7 @@
       "abilityType": "heroicTraits",
       "id": "0b5ee698-5e76-4825-a624-5be10f09d524",
       "name": "Paragon of Hysh",
-      "phaseDetails": "Once Per Battle, Reaction: You declared the ‘Charge’ ability or a Spell ability for this unit",
+      "phaseDetails": "Once Per Battle, Reaction: You declared the ‘Charge’ ability or a SPELL ability for this unit",
       "phase": "startOfTurn",
       "abilityAndCommandIcon": "special",
       "cpCost": null,
@@ -2923,7 +3164,7 @@
       "abilityType": "heroicTraits",
       "id": "65d2eecf-f041-4ab2-98b9-81cc751a6933",
       "name": "Masterful Tactician",
-      "phaseDetails": "Reaction: You declared the ‘Redeploy’ command for a friendly Lumineth Realm‑lords unit wholly within 12\" of this unit",
+      "phaseDetails": "Reaction: You declared the ‘Redeploy’ command for a friendly LUMINETH REALM‑LORDS unit wholly within 12\" of this unit",
       "phase": "movementPhase",
       "abilityAndCommandIcon": "special",
       "cpCost": null,
@@ -2975,7 +3216,7 @@
       "cpCost": null,
       "lore": "This slender wand is covered with winding Lumineth runes.",
       "usedBy": null,
-      "effect": "If this unit is not a ****Wizard****, it has ****Wizard** (1)**. Otherwise, add 1 to this unit’s power level.",
+      "effect": "If this unit is not a ****WIZARD****, it has ****WIZARD** (1)**. Otherwise, add 1 to this unit’s power level.",
       "image": null,
       "altText": null,
       "subsectionName": null,
@@ -3010,151 +3251,145 @@
       ]
     }
   ],
-  "battleTraits": [
+  "regimentAbilities": [
     {
       "faction": "Lumineth Realm-lords",
-      "abilityGroupName": "Lumineth Realm-lords Battle Traits",
-      "abilityType": "battleTraits",
-      "id": "1ceb0356-bf9f-4975-acd9-ad2a7ac25631",
-      "name": "Deep Thinkers",
-      "phaseDetails": "Start of Battle Round",
-      "phase": "startOfTurn",
-      "abilityAndCommandIcon": "special",
-      "cpCost": null,
-      "lore": "The Scinari are renowned for their profound knowledge and thoughtful deliberation.",
-      "usedBy": null,
-      "effect": "You can only use this ability if you have not used any **Facet** **of War** abilities this battle round.\n\nAdd 1 to casting rolls for friendly ****Scinari**** units for the rest of the battle round.",
-      "image": null,
-      "altText": null,
-      "subsectionName": null,
-      "subsectionLore": null,
-      "subsectionRulesText": null,
-      "reaction": false,
-      "abilityGroupId": "e136c5b7-e14a-4f14-a7e6-383dc0aa698f",
-      "keywords": [
-        "Facet of War"
-      ]
-    },
-    {
-      "faction": "Lumineth Realm-lords",
-      "abilityGroupName": "Lumineth Realm-lords Battle Traits",
-      "abilityType": "battleTraits",
-      "id": "39f96fa6-5584-495f-8b2e-5006cd2211a7",
-      "name": "Enduring As Rock",
-      "phaseDetails": "Start of Battle Round",
-      "phase": "startOfTurn",
+      "abilityGroupName": "Glittering Phalanx Regiment Abilities",
+      "abilityType": "regimentAbilities",
+      "id": "9a4e0b42-c32c-4c02-b3d7-98c8838736a8",
+      "name": "Heightened Reflexes",
+      "phaseDetails": "Passive",
+      "phase": "defensive",
       "abilityAndCommandIcon": "defensive",
       "cpCost": null,
-      "lore": "When in a battle trance inspired by the mountain, the Alarith take on the aspect of stone, blades rebounding off their rock-hard skin.",
+      "lore": "The keen senses of these warriors are second to none.",
       "usedBy": null,
-      "effect": "You can only use this ability if you have not used any **Facet** **of War** abilities this battle round.\n\nSubtract 1 from the Rend characteristic of weapons used for attacks that target friendly ****Alarith**** units for the rest of the battle round.",
+      "effect": "Add 1 to save rolls for friendly units that use a ****FIGHT**** ability immediately after another friendly unit because of the ‘Lightning Reactions’ ability, until the end of the phase.",
       "image": null,
       "altText": null,
       "subsectionName": null,
       "subsectionLore": null,
       "subsectionRulesText": null,
       "reaction": false,
-      "abilityGroupId": "e136c5b7-e14a-4f14-a7e6-383dc0aa698f",
-      "keywords": [
-        "Facet of War"
-      ]
-    },
-    {
-      "faction": "Lumineth Realm-lords",
-      "abilityGroupName": "Lumineth Realm-lords Battle Traits",
-      "abilityType": "battleTraits",
-      "id": "7db1260f-f648-4b04-8251-8f6650be75da",
-      "name": "Move Like the Wind",
-      "phaseDetails": "Your Shooting Phase",
-      "phase": "shootingPhase",
-      "abilityAndCommandIcon": "shooting",
-      "cpCost": null,
-      "lore": "Hurakan warriors perform gravity-defying leaps to take them away from their enemies.",
-      "declare": "You can only use this ability if you have not used any **Facet** **of War** abilities this battle round. Pick up to 3 friendly ****Hurakan**** units that are not in combat to be the targets.",
-      "usedBy": null,
-      "effect": "Each target can **move** 2D6\". It cannot **move** into combat during any part of that **move**, and it cannot use ****Shoot**** abilities for the rest of the turn.",
-      "image": null,
-      "altText": null,
-      "subsectionName": null,
-      "subsectionLore": null,
-      "subsectionRulesText": null,
-      "reaction": false,
-      "abilityGroupId": "e136c5b7-e14a-4f14-a7e6-383dc0aa698f",
-      "keywords": [
-        "Facet of War",
-        "Move"
-      ]
-    },
-    {
-      "faction": "Lumineth Realm-lords",
-      "abilityGroupName": "Lumineth Realm-lords Battle Traits",
-      "abilityType": "battleTraits",
-      "id": "b6000320-d170-4b7d-a3e6-094aa14efe41",
-      "name": "Lightning Reactions",
-      "phaseDetails": "Passive",
-      "phase": "combatPhase",
-      "abilityAndCommandIcon": "offensive",
-      "cpCost": null,
-      "lore": "Lumineth can think faster, act more decisively and fight more proficiently than any other.",
-      "usedBy": null,
-      "effect": "When players are alternating picking units to use a ****Fight**** ability, when it is your turn to pick a unit, you can pick 2 **Lumineth Realm-lords** units instead of 1. Resolve the second ****Fight**** ability immediately after the first.",
-      "image": null,
-      "altText": null,
-      "subsectionName": null,
-      "subsectionLore": null,
-      "subsectionRulesText": null,
-      "reaction": false,
-      "abilityGroupId": "e136c5b7-e14a-4f14-a7e6-383dc0aa698f",
+      "abilityGroupId": "64dd2075-2b0f-4c56-ae35-679850eb0b85",
       "keywords": []
     },
     {
       "faction": "Lumineth Realm-lords",
-      "abilityGroupName": "Lumineth Realm-lords Battle Traits",
-      "abilityType": "battleTraits",
-      "id": "5015acc9-3eaa-461b-8445-8ce95811a15a",
-      "name": "Shining Company",
-      "phaseDetails": "Start of Battle Round",
-      "phase": "startOfTurn",
-      "abilityAndCommandIcon": "defensive",
+      "abilityGroupName": "Glittering Phalanx Regiment Abilities",
+      "abilityType": "regimentAbilities",
+      "id": "fffaacd2-8503-403f-919b-736909bb679e",
+      "name": "Arcane Prowess",
+      "phaseDetails": "Passive",
+      "phase": "heroPhase",
+      "abilityAndCommandIcon": "special",
       "cpCost": null,
-      "lore": "Vanari warriors often fight in a grouping that combines the bright light of each soul into a dazzling brilliance that befuddles foes.",
+      "lore": "The Cathallar of this Glittering Phalanx keeps a hidden reserve of aetherquartz to bolster their sorcery in battle.",
       "usedBy": null,
-      "effect": "You can only use this ability if you have not used any **Facet** **of War** abilities this battle round.\n\nFor the rest of the battle round, subtract 1 from hit rolls for attacks that target friendly ****Vanari**** units that have not charged this turn and that have not been picked as the target of the ‘Power of Hysh’ ability this battle round.",
+      "effect": "Add 1 to casting rolls for your general.",
       "image": null,
       "altText": null,
       "subsectionName": null,
       "subsectionLore": null,
       "subsectionRulesText": null,
       "reaction": false,
-      "abilityGroupId": "e136c5b7-e14a-4f14-a7e6-383dc0aa698f",
+      "abilityGroupId": "64dd2075-2b0f-4c56-ae35-679850eb0b85",
+      "keywords": []
+    }
+  ],
+  "spearheadEnhancements": [
+    {
+      "faction": "Lumineth Realm-lords",
+      "abilityGroupName": "Glittering Phalanx Enhancements",
+      "abilityType": "spearheadEnhancements",
+      "id": "08bbec15-50c5-40f0-b4a4-a25ef0af617e",
+      "name": "Waystone",
+      "phaseDetails": "Your Movement Phase",
+      "phase": "movementPhase",
+      "abilityAndCommandIcon": "movement",
+      "cpCost": null,
+      "lore": "This sliver of dark rock illuminates hidden paths around the bearer in stark relief.",
+      "usedBy": null,
+      "effect": "Remove your general from the battlefield and set them up again anywhere on the battlefield more than 6\" from all enemy units.",
+      "image": null,
+      "altText": null,
+      "subsectionName": null,
+      "subsectionLore": null,
+      "subsectionRulesText": null,
+      "reaction": false,
+      "abilityGroupId": "ef97ff98-dacb-46ee-be25-48390249866c",
       "keywords": [
-        "Facet of War"
+        "Core"
       ]
     },
     {
       "faction": "Lumineth Realm-lords",
-      "abilityGroupName": "Lumineth Realm-lords Battle Traits",
-      "abilityType": "battleTraits",
-      "id": "413a03cc-0db6-46e6-966a-03c0f3e3864d",
-      "name": "Power of Hysh",
-      "phaseDetails": "Start of Battle Round",
-      "phase": "startOfTurn",
-      "abilityAndCommandIcon": "offensive",
+      "abilityGroupName": "Glittering Phalanx Enhancements",
+      "abilityType": "spearheadEnhancements",
+      "id": "25bc44b9-131b-496a-8172-96ed6abd22b0",
+      "name": "Protection of Hysh",
+      "phaseDetails": "Your Hero Phase",
+      "phase": "heroPhase",
+      "abilityAndCommandIcon": "defensive",
       "cpCost": null,
-      "lore": "Vanari can use their innate arcane abilities to empower the sunmetal in their weapons, making it burn with a greater intensity.",
-      "declare": "You can only use this ability if you have not used any **Facet** **of War** abilities this battle round. Pick a friendly ****Vanari**** unit to be the target.",
+      "lore": "The caster opens their arms wide, creating a field of glowing energy that protects all of the caster’s allies that are nearby.",
+      "declare": "Pick a visible friendly unit wholly within 12\" of your general to be the target, then make a casting roll of 2D6.",
       "usedBy": null,
-      "effect": "The target’s attacks score critical hits on unmodified hit rolls of 5+ for the rest of the battle round.",
+      "effect": "On a 7+, the target has **WARD (5+)** until the start of your next turn.",
       "image": null,
       "altText": null,
       "subsectionName": null,
       "subsectionLore": null,
       "subsectionRulesText": null,
       "reaction": false,
-      "abilityGroupId": "e136c5b7-e14a-4f14-a7e6-383dc0aa698f",
-      "keywords": [
-        "Facet of War"
-      ]
+      "abilityGroupId": "ef97ff98-dacb-46ee-be25-48390249866c",
+      "keywords": []
+    },
+    {
+      "faction": "Lumineth Realm-lords",
+      "abilityGroupName": "Glittering Phalanx Enhancements",
+      "abilityType": "spearheadEnhancements",
+      "id": "9a239d37-0033-4bad-a8c0-050cb2b9f420",
+      "name": "Speed of Hysh",
+      "phaseDetails": "Your Hero Phase",
+      "phase": "heroPhase",
+      "abilityAndCommandIcon": "movement",
+      "cpCost": null,
+      "lore": "The Cathallar magically empowers their allies to move with light’s swiftness.",
+      "declare": "Pick a visible friendly unit wholly within 18\" of your general, then make a casting roll of 2D6.",
+      "usedBy": null,
+      "effect": "On a 5+, double the **Move** characteristic of that unit until the start of your next turn.",
+      "image": null,
+      "altText": null,
+      "subsectionName": null,
+      "subsectionLore": null,
+      "subsectionRulesText": null,
+      "reaction": false,
+      "abilityGroupId": "ef97ff98-dacb-46ee-be25-48390249866c",
+      "keywords": []
+    },
+    {
+      "faction": "Lumineth Realm-lords",
+      "abilityGroupName": "Glittering Phalanx Enhancements",
+      "abilityType": "spearheadEnhancements",
+      "id": "f8fbeaf7-f56b-48d9-bb5d-dfbc3c57cb61",
+      "name": "Overwhelming Heat",
+      "phaseDetails": "Your Hero Phase",
+      "phase": "heroPhase",
+      "abilityAndCommandIcon": "special",
+      "cpCost": null,
+      "lore": "The Cathallar summons oppressive heat to sap their foes’ strength.",
+      "declare": "Pick a visible enemy unit within 24\" of your general, then make a casting roll of 2D6.",
+      "usedBy": null,
+      "effect": "On a 7+, halve the **Move** characteristic of that unit until the start of your next turn and roll a dice. If the roll equals or exceeds that unit’s Save characteristic, inflict D3 mortal damage on it.",
+      "image": null,
+      "altText": null,
+      "subsectionName": null,
+      "subsectionLore": null,
+      "subsectionRulesText": null,
+      "reaction": false,
+      "abilityGroupId": "ef97ff98-dacb-46ee-be25-48390249866c",
+      "keywords": []
     }
   ],
   "lores": [
@@ -3169,10 +3404,27 @@
           "phase": "heroPhase",
           "abilityAndCommandIcon": "special",
           "lore": "The caster summons oppressive heat to sap their foe’s strength.",
-          "declare": "Pick a friendly **Lumineth Realm‑lords Wizard** to cast this spell, pick a visible enemy unit within 18\" of them to be the target, then make a casting roll of 2D6.",
+          "declare": "Pick a friendly **LUMINETH REALM‑LORDS WIZARD** to cast this spell, pick a visible enemy unit within 18\" of them to be the target, then make a casting roll of 2D6.",
           "usedBy": null,
           "effect": "Halve the target’s Move characteristic until the start of your next turn, then roll a dice. If the roll equals or exceeds the target’s Save characteristic, inflict D3 mortal damage on it.",
           "castingValue": 7,
+          "linkedWarscrollId": null,
+          "loreId": "2be1d780-a08a-4bf8-a9f1-9190abdc740e",
+          "keywords": [
+            "Spell"
+          ]
+        },
+        {
+          "id": "9fcd0886-1475-427f-ac40-4ca721016d8e",
+          "name": "Protection of Hysh",
+          "phaseDetails": "Your Hero Phase",
+          "phase": "heroPhase",
+          "abilityAndCommandIcon": "defensive",
+          "lore": "The caster opens their arms wide, creating a field of glowing energy that protects all of the caster’s allies that are nearby.",
+          "declare": "Pick a friendly **LUMINETH REALM‑LORDS WIZARD** to cast this spell, then make a casting roll of 2D6.",
+          "usedBy": null,
+          "effect": "Until the start of your next turn, friendly units have **WARD (5+)** while they are wholly within 12\" of the caster.",
+          "castingValue": 8,
           "linkedWarscrollId": null,
           "loreId": "2be1d780-a08a-4bf8-a9f1-9190abdc740e",
           "keywords": [
@@ -3186,7 +3438,7 @@
           "phase": "heroPhase",
           "abilityAndCommandIcon": "movement",
           "lore": "The caster gestures at a nearby Lumineth regiment, enchanting them so they can move blurringly fast.",
-          "declare": "Pick a friendly **Lumineth Realm‑lords Wizard** to cast this spell, pick a visible friendly **Lumineth Realm‑lords** unit wholly within 18\" of them to be the target, then make a casting roll of 2D6.",
+          "declare": "Pick a friendly **LUMINETH REALM‑LORDS WIZARD** to cast this spell, pick a visible friendly **LUMINETH REALM‑LORDS** unit wholly within 18\" of them to be the target, then make a casting roll of 2D6.",
           "usedBy": null,
           "effect": "Add 4\" to the target’s Move characteristic until the start of your next turn.",
           "castingValue": 5,
@@ -3195,23 +3447,6 @@
           "keywords": [
             "Spell",
             "Unlimited"
-          ]
-        },
-        {
-          "id": "9fcd0886-1475-427f-ac40-4ca721016d8e",
-          "name": "Protection of Hysh",
-          "phaseDetails": "Your Hero Phase",
-          "phase": "heroPhase",
-          "abilityAndCommandIcon": "defensive",
-          "lore": "The caster opens their arms wide, creating a field of glowing energy that protects all of the caster’s allies that are nearby.",
-          "declare": "Pick a friendly **Lumineth Realm‑lords Wizard** to cast this spell, then make a casting roll of 2D6.",
-          "usedBy": null,
-          "effect": "Until the start of your next turn, friendly units have **Ward (5+)** while they are wholly within 12\" of the caster.",
-          "castingValue": 8,
-          "linkedWarscrollId": null,
-          "loreId": "2be1d780-a08a-4bf8-a9f1-9190abdc740e",
-          "keywords": [
-            "Spell"
           ]
         }
       ]
@@ -3227,7 +3462,7 @@
           "phase": "heroPhase",
           "abilityAndCommandIcon": "special",
           "lore": "The caster calls forth a hovering sigil ripped from the crust of the realm underfoot.",
-          "declare": "If there is not a friendly **Rune of Petrification** on the battlefield, pick a friendly **Lumineth Realm‑lords Wizard** to cast this spell, then make a casting roll of 2D6.",
+          "declare": "If there is not a friendly **Rune of Petrification** on the battlefield, pick a friendly **LUMINETH REALM‑LORDS WIZARD** to cast this spell, then make a casting roll of 2D6.",
           "usedBy": null,
           "effect": "Set up a **Rune of Petrification** wholly within 18\" of the caster and visible to them.",
           "castingValue": 7,
@@ -3245,7 +3480,7 @@
           "phase": "heroPhase",
           "abilityAndCommandIcon": "special",
           "lore": "The ground splits around the mage, and the life force of the realm springs forth as a crackling shield.",
-          "declare": "If there is not a friendly **Sanctum of Amyntok** on the battlefield, pick a friendly **Lumineth Realm‑lords Wizard** to cast this spell, pick a visible friendly **Lumineth Realm‑lords Infantry Hero** wholly within 12\" of them and more than 3\" from all other units and terrain features to be the target, then make a casting roll of 2D6.",
+          "declare": "If there is not a friendly **Sanctum of Amyntok** on the battlefield, pick a friendly **LUMINETH REALM‑LORDS WIZARD** to cast this spell, pick a visible friendly **LUMINETH REALM‑LORDS INFANTRY HERO** wholly within 12\" of them and more than 3\" from all other units and terrain features to be the target, then make a casting roll of 2D6.",
           "usedBy": null,
           "effect": "Set up a **Sanctum of Amyntok** within the target’s combat range, visible to the caster and not in combat. A **Sanctum of Amyntok** has 3 parts that must be set up touching each other so that they form a ring with the target inside.",
           "castingValue": 4,
@@ -3263,7 +3498,7 @@
           "phase": "heroPhase",
           "abilityAndCommandIcon": "special",
           "lore": "The caster calls forth two giant crystal teardrops that orbit around each other.",
-          "declare": "If there is not a friendly **Hyshian Twinstones** endless spell on the battlefield, pick a friendly **Lumineth Realm‑lords Wizard** to cast this spell, then make a casting roll of 2D6.",
+          "declare": "If there is not a friendly **Hyshian Twinstones** endless spell on the battlefield, pick a friendly **LUMINETH REALM‑LORDS WIZARD** to cast this spell, then make a casting roll of 2D6.",
           "usedBy": null,
           "effect": "Set up a **Hyshian Twinstones** endless spell wholly within 6\" of the caster.",
           "castingValue": 5,
@@ -3290,7 +3525,7 @@
           "abilityAndCommandIcon": "special",
           "lore": "When the warriors in a Vanari Battlehost stand together, they radiate a dazzling light that protects them from their foes.",
           "declare": null,
-          "effect": "You can use the ‘Power of Hysh’ ability in addition to the other **Facet of War** ability used during the battle round.",
+          "effect": "You can use the ‘Power of Hysh’ ability in addition to the other **FACET OF WAR** ability used during the battle round.",
           "usedBy": null,
           "reaction": false,
           "battleFormationId": "032cafd5-c2ad-440e-a80a-af5b43a32207",
@@ -3310,7 +3545,7 @@
           "abilityAndCommandIcon": "special",
           "lore": "Swift and deadly are the warriors of the Hurakan temples, supplicants of Hysh’s glorious winds. They move with the speed of a howling gale, long hair whipping in the rushing air currents.",
           "declare": null,
-          "effect": "You can use the ‘Move Like the Wind’ ability in addition to the other **Facet of War** ability used during the battle round.",
+          "effect": "You can use the ‘Move Like the Wind’ ability in addition to the other **FACET OF WAR** ability used during the battle round.",
           "usedBy": null,
           "reaction": false,
           "battleFormationId": "233eee33-7582-42bc-8e1e-29bf2f523243",
@@ -3330,7 +3565,7 @@
           "abilityAndCommandIcon": "special",
           "lore": "The Lumineth of an Alarith temple can turn aside enemy blows by making their skin become as hard and unyielding as stone.",
           "declare": null,
-          "effect": "You can use the ‘Enduring as Rock’ ability in addition to the other **Facet of War** ability used during the battle round.",
+          "effect": "You can use the ‘Enduring as Rock’ ability in addition to the other **FACET OF WAR** ability used during the battle round.",
           "usedBy": null,
           "reaction": false,
           "battleFormationId": "4206be98-d6d7-407e-a4b4-04bca671c4f6",
@@ -3350,7 +3585,7 @@
           "abilityAndCommandIcon": "special",
           "lore": "In towering crystal spires, the mages of the Scinari caste seek enlightenment by contemplating the nature of magic itself. When they bring their hard-won learnings to the battlefield, their power is terrifying to behold.",
           "declare": null,
-          "effect": "You can use the ‘Deep Thinkers’ ability in addition to the other **Facet of War** ability used during the battle round.",
+          "effect": "You can use the ‘Deep Thinkers’ ability in addition to the other **FACET OF WAR** ability used during the battle round.",
           "usedBy": null,
           "reaction": false,
           "battleFormationId": "601f63dc-9bf4-48db-b326-dd57a79a34ed",
